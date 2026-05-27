@@ -1007,8 +1007,7 @@ async function getCachedPublicWordRows(): Promise<
 > {
   try {
     return await fetchPublicWordRowsUncached();
-  } catch (err) {
-    console.error("[words] Failed to fetch public word index:", err);
+  } catch (_err) {
     return null;
   }
 }
@@ -1056,8 +1055,7 @@ async function getCachedDefaultPublicWordRows(
 ): Promise<CachedPublicWordIndexRecord[] | null> {
   try {
     return await fetchDefaultPublicWordRowsUncached(offset, limit);
-  } catch (err) {
-    console.error("[words] Failed to fetch default public word rows:", err);
+  } catch (_err) {
     return null;
   }
 }
@@ -1124,8 +1122,7 @@ async function getCachedFilteredPublicWordRows(
 ): Promise<PublicWordRowsPage | null> {
   try {
     return await fetchFilteredPublicWordRowsUncached(semantic, freq, offset, limit);
-  } catch (err) {
-    console.error("[words] Failed to fetch filtered public word rows:", err);
+  } catch (_err) {
     return null;
   }
 }
@@ -1163,8 +1160,7 @@ const getCachedPublicWordFilterOptions = unstable_cache(
 
         return buildPublicWordFilterOptionsFromFacetRows(facetRows);
       });
-    } catch (err) {
-      console.error("[words] Failed to fetch public word filter options:", err);
+    } catch (_err) {
       return {
         frequencies: [],
         semanticFields: [],
@@ -1215,8 +1211,7 @@ const getCachedPublicWordSlugs = unstable_cache(
 
         return slugs;
       });
-    } catch (err) {
-      console.error("[words] Failed to fetch public word slugs:", err);
+    } catch (_err) {
       return null;
     }
   },
@@ -1254,8 +1249,7 @@ const getCachedStaticPublicWordSlugs = unstable_cache(
           return ((data ?? []) as Array<{ slug: string }>).map((row) => row.slug);
         },
       );
-    } catch (err) {
-      console.error("[words] Failed to fetch static public word slugs:", err);
+    } catch (_err) {
       return null;
     }
   },
@@ -1301,8 +1295,7 @@ const getCachedPublicWordMetadataRecord = unstable_cache(
           } satisfies PublicWordMetadataRecord;
         },
       );
-    } catch (err) {
-      console.error(`[words] Failed to fetch metadata for slug "${slug}":`, err);
+    } catch (_err) {
       return null;
     }
   },
@@ -1338,8 +1331,7 @@ const getCachedFeaturedWordRows = unstable_cache(
           toCachedPublicWordIndexRecord,
         );
       });
-    } catch (err) {
-      console.error("[words] Failed to fetch featured public words:", err);
+    } catch (_err) {
       return null;
     }
   },
@@ -1375,8 +1367,7 @@ const getCachedPublicWordsCountValue = unstable_cache(
 
         return count ?? 0;
       });
-    } catch (err) {
-      console.error("[words] Failed to fetch public word count:", err);
+    } catch (_err) {
       return 0;
     }
   },
@@ -1517,8 +1508,7 @@ async function renderPublicWordDetailHtml(word: PublicWordDetail): Promise<{
     definitionHtml = sanitizeHtmlServer(rawDefinitionHtml);
     synonymHtml = sanitizeHtmlServer(rawSynonymHtml);
     antonymHtml = sanitizeHtmlServer(rawAntonymHtml);
-  } catch (sanitizeError) {
-    console.error("[words] HTML sanitization failed:", sanitizeError);
+  } catch (_sanitizeError) {
     // Fallback to empty string rather than raw unsanitised HTML to avoid XSS.
     return {
       antonym_html: "",
@@ -1570,8 +1560,7 @@ async function getCachedPublicWordDetailRecord(
   try {
     const html = await renderPublicWordDetailHtml(raw);
     return { ...raw, ...html };
-  } catch (renderError) {
-    console.error(`[words] Failed to render detail HTML for slug "${slug}":`, renderError);
+  } catch (_renderError) {
     return {
       ...raw,
       antonym_html: "",
@@ -1658,8 +1647,7 @@ const getCachedPlainWordDetail = unstable_cache(
           } satisfies PlainWordDetail;
         },
       );
-    } catch (err) {
-      console.error(`[words] Failed to fetch plain detail for slug "${slug}":`, err);
+    } catch (_err) {
       return null;
     }
   },

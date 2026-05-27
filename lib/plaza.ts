@@ -334,8 +334,7 @@ export const getCachedCollectionSummaries = unstable_cache(
           status: "ok",
         } satisfies CachedCollectionSummariesResult;
       });
-    } catch (err) {
-      console.error("[plaza] Failed to fetch collection summaries:", err);
+    } catch (_err) {
       return {
         notes: [],
         status: "missing_env",
@@ -379,8 +378,7 @@ const getCachedStaticCollectionSlugs = unstable_cache(
           return ((data ?? []) as Array<{ slug: string }>).map((row) => row.slug);
         },
       );
-    } catch (err) {
-      console.error("[plaza] Failed to fetch static collection slugs:", err);
+    } catch (_err) {
       return null;
     }
   },
@@ -443,8 +441,7 @@ const getCachedCollectionDetail = unstable_cache(
       try {
         const { sanitizeHtmlServer } = await import("@/lib/sanitize-server");
         bodyHtml = sanitizeHtmlServer(rawBodyHtml);
-      } catch (sanitizeError) {
-        console.error("[plaza] HTML sanitization skipped:", sanitizeError);
+      } catch (_sanitizeError) {
       }
 
       return {
@@ -458,9 +455,8 @@ const getCachedCollectionDetail = unstable_cache(
       };
         },
       );
-    } catch (err) {
+    } catch (_err) {
       // Graceful degradation during SSG: log the error but don't crash the build.
-      console.error(`[plaza] Failed to fetch detail for slug "${slug}":`, err);
       return {
         note: null,
         status: "ok",
@@ -513,8 +509,7 @@ const getCachedCollectionMetadata = unstable_cache(
           } satisfies PublicCollectionNoteMetadataRecord;
         },
       );
-    } catch (err) {
-      console.error(`[plaza] Failed to fetch metadata for slug "${slug}":`, err);
+    } catch (_err) {
       return null;
     }
   },
