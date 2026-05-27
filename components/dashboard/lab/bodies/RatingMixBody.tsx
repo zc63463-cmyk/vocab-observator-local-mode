@@ -9,10 +9,10 @@ interface RatingMixBodyProps {
 }
 
 const RATING_META = [
-  { key: "again" as const, label: "Again", color: "#ef4444", tone: "warm" as const },
-  { key: "hard" as const, label: "Hard", color: "#f59e0b", tone: "default" as const },
-  { key: "good" as const, label: "Good", color: "#22c55e", tone: "default" as const },
-  { key: "easy" as const, label: "Easy", color: "#3b82f6", tone: "default" as const },
+  { key: "again" as const, label: "重来", color: "#ef4444", tone: "warm" as const },
+  { key: "hard" as const, label: "困难", color: "#f59e0b", tone: "default" as const },
+  { key: "good" as const, label: "良好", color: "#22c55e", tone: "default" as const },
+  { key: "easy" as const, label: "简单", color: "#3b82f6", tone: "default" as const },
 ];
 
 export function RatingMixBody({ summary }: RatingMixBodyProps) {

@@ -56,7 +56,7 @@ export function ZenSessionSummary() {
             className="text-[11px] uppercase tracking-[0.18em] text-[var(--color-ink-soft)] opacity-60"
             style={{ fontFamily: "var(--font-heading), Georgia, serif" }}
           >
-            Session ended
+            会话结束
           </span>
           <h2
             className="text-2xl font-semibold text-[var(--color-ink)] sm:text-3xl"
@@ -69,22 +69,22 @@ export function ZenSessionSummary() {
         {/* Hero metrics */}
         <div className="mt-8 grid grid-cols-3 gap-4 sm:gap-6">
           <ZenSessionMetric
-            label="Reviewed"
+            label="已复习"
             value={summary.activeReviewed}
             hint={
               summary.undoneCount > 0
-                ? `of ${summary.totalReviewed} · excludes ${summary.undoneCount} undone`
-                : "excludes undone"
+                ? `共 ${summary.totalReviewed} 张 · 已撤销 ${summary.undoneCount} 张`
+                : "不含已撤销"
             }
             tone="primary"
           />
           <ZenSessionMetric
-            label="Again rate"
+            label="重来率"
             value={summary.activeReviewed > 0 ? formatRate(summary.againRate) : "—"}
             tone="default"
           />
           <ZenSessionMetric
-            label="Undone"
+            label="已撤销"
             value={summary.undoneCount}
             tone={summary.undoneCount > 0 ? "default" : "muted"}
           />
@@ -99,7 +99,7 @@ export function ZenSessionSummary() {
             className="text-[11px] uppercase tracking-[0.12em] text-[var(--color-ink-soft)] opacity-60"
             style={{ fontFamily: "var(--font-heading), Georgia, serif" }}
           >
-            Distribution
+            分布
           </span>
           <ZenRatingDistribution
             again={summary.againCount}
@@ -114,12 +114,12 @@ export function ZenSessionSummary() {
         {/* Time metrics row */}
         <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-6">
           <ZenSessionMetric
-            label="Total time"
+            label="总时长"
             value={formatDurationMs(summary.totalDurationMs)}
             tone="muted"
           />
           <ZenSessionMetric
-            label="Avg / card"
+            label="平均每张"
             value={formatDurationMs(summary.averageDurationMs)}
             tone="muted"
           />

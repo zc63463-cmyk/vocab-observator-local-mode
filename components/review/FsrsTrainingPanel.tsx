@@ -887,10 +887,10 @@ function DiagnosticsCard({
     easy: "bg-emerald-400",
   };
   const labels: Record<string, string> = {
-    again: "Again",
-    hard: "Hard",
-    good: "Good",
-    easy: "Easy",
+    again: "重来",
+    hard: "困难",
+    good: "良好",
+    easy: "简单",
   };
 
   return (

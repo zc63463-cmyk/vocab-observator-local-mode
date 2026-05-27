@@ -127,7 +127,8 @@ export function ReviewQueue() {
         const nextItems = items.slice(1);
         setItems(nextItems);
         updateStatsAfterRemoval(current, true);
-        addToast(`已记录 ${rating.toUpperCase()}`, "success");
+        const ratingLabels: Record<string, string> = { again: "重来", hard: "困难", good: "良好", easy: "简单" };
+        addToast(`已记录 ${ratingLabels[rating] ?? rating}`, "success");
         if (nextItems.length === 0) {
           await loadQueue(false);
         }
@@ -382,7 +383,7 @@ export function ReviewQueue() {
           还剩 {items.length} 个待复习词条。你可以评分、跳过到队尾，或长期暂停某张卡，之后再手动恢复。
         </p>
         <div className="mt-2 text-xs text-[var(--color-ink-soft)] opacity-70">
-          键盘快捷键：1=Again / 2=Hard / 3=Good / 4=Easy / S=跳过 / P=暂停
+          键盘快捷键：1=重来 / 2=困难 / 3=良好 / 4=简单 / S=跳过 / P=暂停
         </div>
         <div className="mt-5">
           <RatingButtons disabled={pending} onRate={handleRate} />

@@ -56,8 +56,8 @@ export interface ZenUiState {
 }
 
 export const RATING_CONFIG: Record<RatingKey, { label: string; key: string; vimKey: string; color: string }> = {
-  again: { label: "Again", key: "1", vimKey: "j", color: "var(--color-accent-2)" },
-  hard: { label: "Hard", key: "2", vimKey: "k", color: "#f3dca2" },
-  good: { label: "Good", key: "3", vimKey: "l", color: "var(--color-accent)" },
-  easy: { label: "Easy", key: "4", vimKey: ";", color: "#0f6f62" },
+  again: { label: "重来", key: "1", vimKey: "j", color: "var(--color-accent-2)" },
+  hard: { label: "困难", key: "2", vimKey: "k", color: "#f3dca2" },
+  good: { label: "良好", key: "3", vimKey: "l", color: "var(--color-accent)" },
+  easy: { label: "简单", key: "4", vimKey: ";", color: "#0f6f62" },
 };

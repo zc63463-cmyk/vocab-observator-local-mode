@@ -69,7 +69,7 @@ export function DrillSummary({
     >
       <div className="panel-strong rounded-[2rem] p-6 sm:p-8 text-center">
         <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-ink-soft)]">
-          {mode === "definition" ? "Definition Drill" : "Cloze Drill"} Complete
+          {mode === "definition" ? "词汇填空" : "完形填空"} 已完成
         </p>
         <h2
           className="section-title mt-3 text-4xl font-semibold"
