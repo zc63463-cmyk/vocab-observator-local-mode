@@ -39,7 +39,7 @@ export function ReviewLoadBody({ summary }: ReviewLoadBodyProps) {
             ? { label: "较重", tone: "warm" as const, color: "#f59e0b" }
             : { label: "过载", tone: "warm" as const, color: "#ef4444" };
 
-  const completionRate = dueToday > 0 ? Math.min(1, reviewedToday / dueToday) : 1;
+  const _completionRate = dueToday > 0 ? Math.min(1, reviewedToday / dueToday) : 1;
   const remaining = Math.max(0, dueToday - reviewedToday);
 
   /* ── Insight generation ───────────────────────────────────────────── */

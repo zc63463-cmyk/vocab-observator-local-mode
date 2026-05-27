@@ -34,7 +34,7 @@ export function RatingMixBody({ summary }: RatingMixBodyProps) {
   }
 
   const againPct = again / total;
-  const hardPct = hard / total;
+  const _hardPct = hard / total;
   const goodPct = good / total;
   const easyPct = easy / total;
 

@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { Badge } from "@/components/ui/Badge";
 import { formatDateTime } from "@/lib/utils";
 import type { DashboardSummary } from "../types";
-import { BodyStat, InsightBanner } from "./_shared";
+import { BodyStat } from "./_shared";
 
 interface ImportRunBodyProps {
   summary: Pick<DashboardSummary, "importOverview">;
@@ -47,26 +47,32 @@ export function ImportRunBody({ summary }: ImportRunBodyProps) {
     running: "进行中",
   };
 
-  const durationMs = useMemo(() => {
-    if (!run.finished_at) return null;
-    const start = new Date(run.started_at).getTime();
-    const end = new Date(run.finished_at).getTime();
-    const diff = end - start;
-    if (diff < 0 || !Number.isFinite(diff)) return null;
-    return diff;
-  }, [run.started_at, run.finished_at]);
+  const durationMs =
+    run.finished_at == null
+      ? null
+      : (() => {
+          const start = new Date(run.started_at).getTime();
+          const end = new Date(run.finished_at).getTime();
+          const diff = end - start;
+          if (diff < 0 || !Number.isFinite(diff)) return null;
+          return diff;
+        })();
 
-  const durationLabel = useMemo(() => {
-    if (durationMs == null) return isRunning ? "进行中" : "—";
-    const seconds = Math.floor(durationMs / 1000);
-    if (seconds < 60) return `${seconds}s`;
-    const minutes = Math.floor(seconds / 60);
-    const rem = seconds % 60;
-    if (minutes < 60) return `${minutes}m ${rem}s`;
-    const hours = Math.floor(minutes / 60);
-    const remMin = minutes % 60;
-    return `${hours}h ${remMin}m`;
-  }, [durationMs, isRunning]);
+  const durationLabel =
+    durationMs == null
+      ? isRunning
+        ? "进行中"
+        : "—"
+      : (() => {
+          const seconds = Math.floor(durationMs / 1000);
+          if (seconds < 60) return `${seconds}s`;
+          const minutes = Math.floor(seconds / 60);
+          const rem = seconds % 60;
+          if (minutes < 60) return `${minutes}m ${rem}s`;
+          const hours = Math.floor(minutes / 60);
+          const remMin = minutes % 60;
+          return `${hours}h ${remMin}m`;
+        })();
 
   return (
     <div className="space-y-5">

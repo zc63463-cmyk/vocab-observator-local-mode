@@ -44,7 +44,10 @@ export function ZenRadialMenu() {
   // undefined `document` during SSR.  useState(false) + useEffect keeps the
   // initial render identical between server and client so hydration matches.
   const [mounted, setMounted] = useState(false);
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   // First-run "long-press to open" hint. Dismissed once the user has
   // successfully opened the ring on this device (see effect below) or

@@ -29,6 +29,16 @@ const TIER_CONFIG = [
   },
 ] as const;
 
+/** Pre-computed tier slices so we never mutate `offset` during render. */
+const TIERS = (() => {
+  let offset = 0;
+  return TIER_CONFIG.map((tier) => {
+    const patterns = PATTERNS.slice(offset, offset + tier.count);
+    offset += tier.count;
+    return { ...tier, patterns };
+  });
+})();
+
 /**
  * SectionDirectory — clickable index of every patterned dashboard
  * section, now organised by Tier.
@@ -129,75 +139,68 @@ export function SectionDirectory({ onOpenSection }: SectionDirectoryProps) {
         {/* Tiered groups — PATTERNS is already ordered by tier, so we
             slice into three contiguous runs. */}
         <div className="mt-6 space-y-4">
-          {(() => {
-            let offset = 0;
-            return TIER_CONFIG.map((tier) => {
-              const tierPatterns = PATTERNS.slice(offset, offset + tier.count);
-              offset += tier.count;
-              return (
-                <div
-                  key={tier.label}
-                  className="rounded-xl border border-[var(--color-border)] p-3 sm:p-4"
-                  style={{
-                    borderTopWidth: "2px",
-                    borderTopColor: tier.borderColor,
-                    background: tier.bgTint,
-                  }}
+          {TIERS.map((tier) => (
+            <div
+              key={tier.label}
+              className="rounded-xl border border-[var(--color-border)] p-3 sm:p-4"
+              style={{
+                borderTopWidth: "2px",
+                borderTopColor: tier.borderColor,
+                background: tier.bgTint,
+              }}
+            >
+              {/* Tier header */}
+              <div className="mb-3 flex items-baseline justify-between gap-2">
+                <p
+                  className="text-[10px] font-semibold uppercase tracking-[0.24em]"
+                  style={{ color: tier.borderColor }}
                 >
-                  {/* Tier header */}
-                  <div className="mb-3 flex items-baseline justify-between gap-2">
-                    <p
-                      className="text-[10px] font-semibold uppercase tracking-[0.24em]"
-                      style={{ color: tier.borderColor }}
-                    >
-                      {tier.label}
-                    </p>
-                    <p className="text-[9px] uppercase tracking-[0.2em] text-[var(--color-ink-soft)] opacity-50">
-                      {tier.sublabel}
-                    </p>
-                  </div>
+                  {tier.label}
+                </p>
+                <p className="text-[9px] uppercase tracking-[0.2em] text-[var(--color-ink-soft)] opacity-50">
+                  {tier.sublabel}
+                </p>
+              </div>
 
-                  {/* Cell grid for this tier */}
-                  <ul
-                    className={`grid gap-3 ${
-                      tier.count <= 2
-                        ? "grid-cols-2 md:grid-cols-2"
-                        : tier.count <= 4
-                          ? "grid-cols-2 md:grid-cols-2 xl:grid-cols-4"
-                          : "grid-cols-2 md:grid-cols-3 xl:grid-cols-3"
-                    }`}
-                  >
-                    {tierPatterns.map((pattern) => {
-                      const meta = SECTION_META[pattern.sectionId];
-                      return (
-                        <li key={pattern.key}>
-                          <button
-                            type="button"
-                            onClick={() => onOpenSection(pattern.sectionId)}
-                            aria-label={`打开 ${meta.title}（手势：${pattern.name}）`}
-                            className="group relative block w-full rounded-lg px-3 py-3 text-left transition-colors hover:bg-[var(--color-surface-soft)]/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-panel-strong)]"
-                          >
-                            <span
-                              aria-hidden
-                              className="pointer-events-none absolute right-2 top-1 select-none font-mono text-[22px] leading-none text-[var(--color-ink-soft)] opacity-15 transition-opacity duration-300 group-hover:opacity-40"
-                            >
-                              {pattern.glyph}
-                            </span>
-                            <p className="line-clamp-1 pr-7 text-[9px] font-semibold uppercase tracking-[0.22em] text-[var(--color-ink-soft)]">
-                              {meta.eyebrow}
-                            </p>
-                            <p className="section-title mt-1 line-clamp-2 text-sm font-semibold leading-snug text-[var(--color-ink)]">
-                              {meta.title}
-                            </p>
-                          </button>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              );
-            });
-          })()}
+              {/* Cell grid for this tier */}
+              <ul
+                className={`grid gap-3 ${
+                  tier.count <= 2
+                    ? "grid-cols-2 md:grid-cols-2"
+                    : tier.count <= 4
+                      ? "grid-cols-2 md:grid-cols-2 xl:grid-cols-4"
+                      : "grid-cols-2 md:grid-cols-3 xl:grid-cols-3"
+                }`}
+              >
+                {tier.patterns.map((pattern) => {
+                  const meta = SECTION_META[pattern.sectionId];
+                  return (
+                    <li key={pattern.key}>
+                      <button
+                        type="button"
+                        onClick={() => onOpenSection(pattern.sectionId)}
+                        aria-label={`打开 ${meta.title}（手势：${pattern.name}）`}
+                        className="group relative block w-full rounded-lg px-3 py-3 text-left transition-colors hover:bg-[var(--color-surface-soft)]/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-panel-strong)]"
+                      >
+                        <span
+                          aria-hidden
+                          className="pointer-events-none absolute right-2 top-1 select-none font-mono text-[22px] leading-none text-[var(--color-ink-soft)] opacity-15 transition-opacity duration-300 group-hover:opacity-40"
+                        >
+                          {pattern.glyph}
+                        </span>
+                        <p className="line-clamp-1 pr-7 text-[9px] font-semibold uppercase tracking-[0.22em] text-[var(--color-ink-soft)]">
+                          {meta.eyebrow}
+                        </p>
+                        <p className="section-title mt-1 line-clamp-2 text-sm font-semibold leading-snug text-[var(--color-ink)]">
+                          {meta.title}
+                        </p>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/Badge";
-import { InsightBanner, BodyStat } from "./_shared";
+import { InsightBanner } from "./_shared";
 import { formatPercent } from "../format";
 import type { DashboardSummary } from "../types";
 

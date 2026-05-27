@@ -142,8 +142,6 @@ export function WordBatchAddPanel({
   // ── Load global untracked words ───────────────────────────────────
   useEffect(() => {
     let mounted = true;
-    setLoading(true);
-    setFetchError(null);
 
     fetch("/api/words/untracked", { credentials: "same-origin" })
       .then(async (res) => {

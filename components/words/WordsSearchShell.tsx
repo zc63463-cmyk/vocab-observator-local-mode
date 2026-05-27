@@ -248,7 +248,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
     });
   }, []);
 
-  const clearSelection = useCallback(() => {
+  const _clearSelection = useCallback(() => {
     setSelectedWordIds(new Set());
   }, []);
 

@@ -143,8 +143,8 @@ export interface FsrsEvaluation {
   rmseBins: number;
 }
 
-function buildBindingItems(items: OptimizerItem[]) {
-  const binding = require("@open-spaced-repetition/binding");
+async function buildBindingItems(items: OptimizerItem[]) {
+  const binding = await import("@open-spaced-repetition/binding");
   return items.map(
     (item) =>
       new binding.FSRSBindingItem(
@@ -169,7 +169,7 @@ export async function evaluateFsrsWeights(
   const binding = await import("@open-spaced-repetition/binding");
   const w = weights && weights.length > 0 ? [...weights] : undefined;
   const fsrs = new binding.FSRSBinding(w);
-  const bindingItems = buildBindingItems(items);
+  const bindingItems = await buildBindingItems(items);
   const result = fsrs.evaluate(bindingItems);
   return {
     logLoss: result.logLoss,
@@ -213,7 +213,7 @@ export async function trainFsrsWeights(
   // Dynamic import so the heavier binding (WASI blob) is only loaded when
   // training actually runs — critical for cold-start latency on serverless.
   const binding = await import("@open-spaced-repetition/binding");
-  const bindingItems = buildBindingItems(items);
+  const bindingItems = await buildBindingItems(items);
 
   const weights = await binding.computeParameters(bindingItems, {
     enableShortTerm: options.enableShortTerm ?? true,
