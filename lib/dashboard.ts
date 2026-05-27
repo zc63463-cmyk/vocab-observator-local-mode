@@ -35,7 +35,11 @@ type DashboardProgressRow = {
   due_at: string | null;
   scheduler_payload: Json;
   state: string;
-  words: { cefr: string | null; lemma: string; metadata: Json | null; slug: string; ipa: string | null; short_definition: string | null; pos: string | null; title: string | null } | null;
+  words: { cefr: string | null; lemma: string; slug: string; ipa: string | null; short_definition: string | null; pos: string | null; title: string | null } | null;
+};
+
+type RelationGraphRow = {
+  words: { slug: string; lemma: string; metadata: Json | null } | null;
 };
 
 type DashboardReviewLogRow = {
@@ -384,7 +388,7 @@ function readMetadataStrings(metadata: unknown, keys: string[]): string[] {
 }
 
 function buildRelationGraph(
-  rows: DashboardProgressRow[],
+  rows: RelationGraphRow[],
 ): Record<string, { slug: string; lemma: string; relation: string }[]> {
   const lemmaToSlug = new Map<string, string>();
   const slugToLemma = new Map<string, string>();
@@ -520,7 +524,8 @@ export async function getDashboardSummary() {
   const ninetyDaysAgo = addDays(new Date(today), -89);
 
   const [
-    progressResult,
+    progressSlimResult,
+    progressMetadataResult,
     reviewLogs30dWithWordsResult,
     reviewLogs90dDiagnosticResult,
     streakResult,
@@ -530,9 +535,17 @@ export async function getDashboardSummary() {
     profileResult,
     totalReviewLogCountResult,
   ] = await Promise.all([
+    // Narrow query for forecast, mastery cells, and all non-graph metrics.
+    // Intentionally omits metadata JSONB to reduce transfer & memory pressure.
     supabase
       .from("user_word_progress")
-      .select("state, due_at, desired_retention, scheduler_payload, words!inner(cefr, lemma, slug, metadata, ipa, short_definition, pos, title)")
+      .select("state, due_at, desired_retention, scheduler_payload, words!inner(cefr, lemma, slug, ipa, short_definition, pos, title)")
+      .eq("user_id", owner.id)
+      .limit(2000),
+    // Slim query that only fetches metadata for the relation graph builder.
+    supabase
+      .from("user_word_progress")
+      .select("words!inner(slug, lemma, metadata)")
       .eq("user_id", owner.id)
       .limit(2000),
     supabase
@@ -593,7 +606,8 @@ export async function getDashboardSummary() {
       .eq("undone", false),
   ]);
 
-  const progressRows = (progressResult.data ?? []) as unknown as DashboardProgressRow[];
+  const progressRows = (progressSlimResult.data ?? []) as unknown as DashboardProgressRow[];
+  const relationGraphRows = (progressMetadataResult.data ?? []) as unknown as RelationGraphRow[];
   const trackedWords = progressRows.length;
   const dueToday = progressRows.filter(
     (row) => row.state !== "suspended" && row.due_at && row.due_at <= nowIso,
@@ -749,7 +763,7 @@ export async function getDashboardSummary() {
       return {
         cefr: row.words!.cefr ?? "unknown",
         lemma: row.words!.lemma,
-        metadata: row.words!.metadata,
+        metadata: null,
         slug: row.words!.slug,
         retrievability: retrievability ?? 0,
         dueAt: row.due_at,
@@ -850,6 +864,6 @@ export async function getDashboardSummary() {
     dailyForecast,
     planVsActual,
     masteryCells,
-    relationGraph: buildRelationGraph(progressRows),
+    relationGraph: buildRelationGraph(relationGraphRows),
   };
 }
