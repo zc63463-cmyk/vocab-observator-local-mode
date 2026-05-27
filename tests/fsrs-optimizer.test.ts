@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
   MIN_REVIEWS_FOR_TRAINING,
   buildOptimizerItems,
+  buildTrainingDiagnostics,
+  simulateFsrsScenarios,
   trainFsrsWeights,
   type OptimizerLog,
 } from "@/lib/review/fsrs-optimizer";
@@ -168,5 +170,94 @@ describe("buildOptimizerItems filtered review accounting", () => {
     expect(totalReviews).toBe(3);
     // And items are per-card, not per-log
     expect(items).toHaveLength(2);
+  });
+});
+
+describe("buildTrainingDiagnostics", () => {
+  it("returns zeroed diagnostics for empty input", () => {
+    const diag = buildTrainingDiagnostics([], []);
+    expect(diag.cardCount).toBe(0);
+    expect(diag.timeSpanDays).toBe(0);
+    expect(diag.ratingDistribution).toEqual({});
+  });
+
+  it("counts cards from items, not raw logs", () => {
+    const logs = [
+      log({ progress_id: "a", reviewed_at: "2026-04-15T00:00:00Z" }),
+      log({ progress_id: "a", reviewed_at: "2026-04-16T00:00:00Z" }),
+      log({ progress_id: "b", reviewed_at: "2026-04-15T00:00:00Z" }),
+    ];
+    const items = buildOptimizerItems(logs);
+    const diag = buildTrainingDiagnostics(logs, items);
+    expect(diag.cardCount).toBe(2);
+  });
+
+  it("computes time span from earliest to latest review", () => {
+    const logs = [
+      log({ progress_id: "a", reviewed_at: "2026-04-10T00:00:00Z" }),
+      log({ progress_id: "a", reviewed_at: "2026-04-15T00:00:00Z" }),
+    ];
+    const items = buildOptimizerItems(logs);
+    const diag = buildTrainingDiagnostics(logs, items);
+    expect(diag.timeSpanDays).toBe(5);
+  });
+
+  it("aggregates rating distribution from raw logs (including invalid ratings)", () => {
+    const logs = [
+      log({ progress_id: "a", rating: "good", reviewed_at: "2026-04-15T00:00:00Z" }),
+      log({ progress_id: "a", rating: "again", reviewed_at: "2026-04-16T00:00:00Z" }),
+      log({ progress_id: "b", rating: "good", reviewed_at: "2026-04-15T00:00:00Z" }),
+      log({ progress_id: "c", rating: "junk", reviewed_at: "2026-04-15T00:00:00Z" }),
+    ];
+    const items = buildOptimizerItems(logs);
+    const diag = buildTrainingDiagnostics(logs, items);
+    expect(diag.ratingDistribution).toEqual({
+      good: 2,
+      again: 1,
+      junk: 1,
+    });
+  });
+
+  it("rounds time span up to at least 1 day even for same-day reviews", () => {
+    const logs = [
+      log({ progress_id: "a", reviewed_at: "2026-04-15T10:00:00Z" }),
+      log({ progress_id: "a", reviewed_at: "2026-04-15T14:00:00Z" }),
+    ];
+    const items = buildOptimizerItems(logs);
+    const diag = buildTrainingDiagnostics(logs, items);
+    expect(diag.timeSpanDays).toBe(1);
+  });
+});
+
+describe("simulateFsrsScenarios", () => {
+  it("returns three named scenarios", async () => {
+    // Use default weights (21 params for FSRS-6)
+    const weights = Array.from({ length: 21 }, (_, i) => 0.5 + i * 0.05);
+    const scenarios = await simulateFsrsScenarios(weights, 0.9);
+    expect(scenarios).toHaveLength(3);
+    expect(scenarios.map((s) => s.name)).toEqual([
+      "新词首次 Good",
+      "已学单词 Good",
+      "熟练单词 Good",
+    ]);
+  });
+
+  it("returns positive intervals for all scenarios", async () => {
+    const weights = Array.from({ length: 21 }, (_, i) => 0.5 + i * 0.05);
+    const scenarios = await simulateFsrsScenarios(weights, 0.9);
+    for (const s of scenarios) {
+      expect(s.defaultInterval).toBeGreaterThan(0);
+      expect(s.personalizedInterval).toBeGreaterThan(0);
+      expect(s.description).toBeTruthy();
+    }
+  });
+
+  it("rounds intervals to one decimal place", async () => {
+    const weights = Array.from({ length: 21 }, (_, i) => 0.5 + i * 0.05);
+    const scenarios = await simulateFsrsScenarios(weights, 0.9);
+    for (const s of scenarios) {
+      const decimals = String(s.defaultInterval).split(".")[1];
+      expect(decimals === undefined || decimals.length <= 1).toBe(true);
+    }
   });
 });
