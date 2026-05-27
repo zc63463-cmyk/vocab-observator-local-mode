@@ -208,8 +208,8 @@ export function InstrumentCluster({
             tone="cool"
             sparkline={streakSeries}
             sparklineLabel={streakSparkLabel}
-            onClick={onOpenSection ? open("review-load") : undefined}
-            hoverHint="复习负载 →"
+            onClick={onOpenSection ? open("today-snapshot") : undefined}
+            hoverHint="今日快照 →"
           />
 
           <CircularGauge
@@ -246,8 +246,8 @@ export function InstrumentCluster({
             bidirectional
             sparkline={gapSeries}
             sparklineLabel={gapSparkLabel}
-            onClick={onOpenSection ? open("fsrs-training") : undefined}
-            hoverHint="FSRS 训练 →"
+            onClick={onOpenSection ? open("review-load") : undefined}
+            hoverHint="负载与校准 →"
           />
         </div>
       </div>

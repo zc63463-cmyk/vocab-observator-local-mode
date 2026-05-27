@@ -135,6 +135,49 @@ export interface TrainOptions {
 }
 
 /**
+ * Evaluation metrics returned by the FSRS binding for a given parameter set.
+ * Both metrics are lower-is-better.
+ */
+export interface FsrsEvaluation {
+  logLoss: number;
+  rmseBins: number;
+}
+
+function buildBindingItems(items: OptimizerItem[]) {
+  const binding = require("@open-spaced-repetition/binding");
+  return items.map(
+    (item) =>
+      new binding.FSRSBindingItem(
+        item.reviews.map((r) => new binding.FSRSBindingReview(r.rating, r.deltaT)),
+      ),
+  );
+}
+
+/**
+ * Evaluate a set of FSRS parameters against the user's review history.
+ * Returns log-loss and RMSE-Bins (both lower-is-better).
+ *
+ * `weights` is optional — when omitted or empty, evaluates the *default*
+ * ts-fsrs parameters, which is useful for A/B comparison.
+ *
+ * Throws if the dataset is too small for meaningful evaluation.
+ */
+export async function evaluateFsrsWeights(
+  items: OptimizerItem[],
+  weights?: readonly number[] | null,
+): Promise<FsrsEvaluation> {
+  const binding = await import("@open-spaced-repetition/binding");
+  const w = weights && weights.length > 0 ? [...weights] : undefined;
+  const fsrs = new binding.FSRSBinding(w);
+  const bindingItems = buildBindingItems(items);
+  const result = fsrs.evaluate(bindingItems);
+  return {
+    logLoss: result.logLoss,
+    rmseBins: result.rmseBins,
+  };
+}
+
+/**
  * Async wrapper around the native optimizer. Imports the binding lazily so
  * environments that never train (or don't have the WASI files available)
  * can still import this module.
@@ -170,12 +213,7 @@ export async function trainFsrsWeights(
   // Dynamic import so the heavier binding (WASI blob) is only loaded when
   // training actually runs — critical for cold-start latency on serverless.
   const binding = await import("@open-spaced-repetition/binding");
-  const bindingItems = items.map(
-    (item) =>
-      new binding.FSRSBindingItem(
-        item.reviews.map((r) => new binding.FSRSBindingReview(r.rating, r.deltaT)),
-      ),
-  );
+  const bindingItems = buildBindingItems(items);
 
   const weights = await binding.computeParameters(bindingItems, {
     enableShortTerm: options.enableShortTerm ?? true,
@@ -185,4 +223,112 @@ export async function trainFsrsWeights(
   });
 
   return { sampleSize: effectiveSampleSize, weights };
+}
+
+/* ── Simulation & Diagnostics ──────────────────────────────────────── */
+
+export interface FsrsSimulation {
+  name: string;
+  description: string;
+  defaultInterval: number;
+  personalizedInterval: number;
+}
+
+export interface FsrsDiagnostics {
+  cardCount: number;
+  timeSpanDays: number;
+  ratingDistribution: Record<string, number>;
+}
+
+/**
+ * Simulate three canonical review scenarios with both default and
+ * personalised parameters so the user can see how their weights shift
+ * scheduling behaviour.
+ */
+export async function simulateFsrsScenarios(
+  weights: readonly number[],
+  desiredRetention = 0.9,
+): Promise<FsrsSimulation[]> {
+  const binding = await import("@open-spaced-repetition/binding");
+  const defaultFsrs = new binding.FSRSBinding();
+  const personalFsrs = new binding.FSRSBinding([...weights]);
+
+  function run(
+    fsrs: typeof defaultFsrs,
+    memory: { stability: number; difficulty: number } | null,
+    elapsedDays: number,
+  ) {
+    const state = memory
+      ? new binding.BindingMemoryState(memory.stability, memory.difficulty)
+      : null;
+    return fsrs.nextStates(state, desiredRetention, elapsedDays);
+  }
+
+  const out: FsrsSimulation[] = [];
+
+  // 1. New card → Good
+  const s1d = run(defaultFsrs, null, 0).good;
+  const s1p = run(personalFsrs, null, 0).good;
+  out.push({
+    name: "新词首次 Good",
+    description: "刚加入的新词第一次复习就选 Good 后的间隔",
+    defaultInterval: Math.round(s1d.interval * 10) / 10,
+    personalizedInterval: Math.round(s1p.interval * 10) / 10,
+  });
+
+  // 2. Learned card (S≈10, D≈5) → Good after 7 days
+  const s2d = run(defaultFsrs, { stability: 10, difficulty: 5 }, 7).good;
+  const s2p = run(personalFsrs, { stability: 10, difficulty: 5 }, 7).good;
+  out.push({
+    name: "已学单词 Good",
+    description: "稳定性约 10 天的卡片，复习后选 Good",
+    defaultInterval: Math.round(s2d.interval * 10) / 10,
+    personalizedInterval: Math.round(s2p.interval * 10) / 10,
+  });
+
+  // 3. Mature card (S≈60, D≈4) → Good after 45 days
+  const s3d = run(defaultFsrs, { stability: 60, difficulty: 4 }, 45).good;
+  const s3p = run(personalFsrs, { stability: 60, difficulty: 4 }, 45).good;
+  out.push({
+    name: "熟练单词 Good",
+    description: "稳定性约 60 天的卡片，复习后选 Good",
+    defaultInterval: Math.round(s3d.interval * 10) / 10,
+    personalizedInterval: Math.round(s3p.interval * 10) / 10,
+  });
+
+  return out;
+}
+
+/**
+ * Build a diagnostic snapshot of the training dataset.
+ */
+export function buildTrainingDiagnostics(
+  logs: OptimizerLog[],
+  items: OptimizerItem[],
+): FsrsDiagnostics {
+  const ratingDistribution: Record<string, number> = {};
+  let earliest = Infinity;
+  let latest = -Infinity;
+
+  for (const log of logs) {
+    const r = log.rating?.toLowerCase?.() ?? "unknown";
+    ratingDistribution[r] = (ratingDistribution[r] ?? 0) + 1;
+
+    const ms = Date.parse(log.reviewed_at);
+    if (Number.isFinite(ms)) {
+      earliest = Math.min(earliest, ms);
+      latest = Math.max(latest, ms);
+    }
+  }
+
+  const timeSpanDays =
+    earliest !== Infinity && latest !== -Infinity
+      ? Math.max(1, Math.round((latest - earliest) / DAY_IN_MS))
+      : 0;
+
+  return {
+    cardCount: items.length,
+    timeSpanDays,
+    ratingDistribution,
+  };
 }

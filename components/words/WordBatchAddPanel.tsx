@@ -22,6 +22,7 @@ interface WordBatchAddPanelProps {
   isPending: boolean;
 }
 
+/* ── Metadata helpers ──────────────────────────────────────────────── */
 function getSemanticField(metadata: unknown): string | null {
   return (
     typeof metadata === "object" &&
@@ -32,6 +33,17 @@ function getSemanticField(metadata: unknown): string | null {
   );
 }
 
+function getWordFreq(metadata: unknown): string | null {
+  return (
+    typeof metadata === "object" &&
+    metadata &&
+    "word_freq" in metadata
+      ? String(metadata.word_freq)
+      : null
+  );
+}
+
+/* ── Text matching ─────────────────────────────────────────────────── */
 function matches(text: string, needle: string, mode: MatchMode): boolean {
   const t = text.toLowerCase();
   const n = needle.toLowerCase();
@@ -45,6 +57,7 @@ function matches(text: string, needle: string, mode: MatchMode): boolean {
   }
 }
 
+/* ── Highlight ─────────────────────────────────────────────────────── */
 function Highlight({
   text,
   needle,
@@ -102,6 +115,11 @@ const MODE_CONFIG: { id: MatchMode; label: string }[] = [
  *
  * 关键设计：不从父组件接收 words，而是自己 fetch `/api/words/untracked`，
  * 确保搜索范围覆盖**整个词库**中未加入复习的词条，而非仅当前分页已加载的 subset。
+ *
+ * 筛选维度（AND 关系）：
+ *   1. 文本搜索（前缀 / 后缀 / 包含）
+ *   2. 语义场（从 metadata.semantic_field 提取）
+ *   3. 词频层级（从 metadata.word_freq 提取）
  */
 export function WordBatchAddPanel({
   selectedIds,
@@ -115,6 +133,8 @@ export function WordBatchAddPanel({
 
   const [search, setSearch] = useState("");
   const [mode, setMode] = useState<MatchMode>("contain");
+  const [semanticFilter, setSemanticFilter] = useState("");
+  const [freqFilter, setFreqFilter] = useState("");
 
   const deferredSearch = useDeferredValue(search);
   const needle = deferredSearch.trim();
@@ -145,20 +165,49 @@ export function WordBatchAddPanel({
     return () => { mounted = false; };
   }, []);
 
-  // ── Client-side filtering ─────────────────────────────────────────
+  // ── Extract facet options from loaded words ───────────────────────
+  const { semanticOptions, freqOptions } = useMemo(() => {
+    const semantics = new Set<string>();
+    const freqs = new Set<string>();
+    for (const w of words) {
+      const sf = getSemanticField(w.metadata);
+      const wf = getWordFreq(w.metadata);
+      if (sf) semantics.add(sf);
+      if (wf) freqs.add(wf);
+    }
+    return {
+      semanticOptions: Array.from(semantics).sort((a, b) => a.localeCompare(b)),
+      freqOptions: Array.from(freqs).sort((a, b) => a.localeCompare(b)),
+    };
+  }, [words]);
+
+  // ── Client-side filtering (text + semantic + freq) ────────────────
   const visible = useMemo(() => {
     const n = needle.toLowerCase();
-    if (n === "") return words.slice();
     return words.filter((w) => {
-      return (
-        matches(w.lemma, n, mode) ||
-        matches(w.title, n, mode) ||
-        matches(w.short_definition ?? "", n, mode)
-      );
+      // Text filter
+      if (n !== "") {
+        const textMatch =
+          matches(w.lemma, n, mode) ||
+          matches(w.title, n, mode) ||
+          matches(w.short_definition ?? "", n, mode);
+        if (!textMatch) return false;
+      }
+      // Semantic field filter
+      if (semanticFilter) {
+        const sf = getSemanticField(w.metadata);
+        if (sf !== semanticFilter) return false;
+      }
+      // Word freq filter
+      if (freqFilter) {
+        const wf = getWordFreq(w.metadata);
+        if (wf !== freqFilter) return false;
+      }
+      return true;
     });
-  }, [words, needle, mode]);
+  }, [words, needle, mode, semanticFilter, freqFilter]);
 
-  // ── A-Z index ─────────────────────────────────────────────────────
+  // ── A-Z index (based on currently filtered words, not all) ────────
   const activeLetters = useMemo(() => {
     const set = new Set<string>();
     for (const w of words) {
@@ -174,7 +223,9 @@ export function WordBatchAddPanel({
   }, []);
 
   const selectedCount = selectedIds.size;
-  const isFiltered = needle.length > 0;
+  const isTextFiltered = needle.length > 0;
+  const isFacetFiltered = semanticFilter !== "" || freqFilter !== "";
+  const isFiltered = isTextFiltered || isFacetFiltered;
   const showHighlight = needle.length > 0;
 
   const handleSelectAllVisible = useCallback(() => {
@@ -188,6 +239,13 @@ export function WordBatchAddPanel({
       if (selectedIds.has(w.id)) onToggle(w.id);
     }
   }, [visible, selectedIds, onToggle]);
+
+  const clearAllFilters = useCallback(() => {
+    setSearch("");
+    setMode("contain");
+    setSemanticFilter("");
+    setFreqFilter("");
+  }, []);
 
   // ── Loading / Error / Empty ───────────────────────────────────────
   if (loading) {
@@ -273,6 +331,57 @@ export function WordBatchAddPanel({
         ))}
       </div>
 
+      {/* Facet filters: semantic + freq */}
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+        {/* Semantic field */}
+        <div className="relative">
+          <select
+            value={semanticFilter}
+            onChange={(e) => setSemanticFilter(e.target.value)}
+            aria-label="按语义场筛选"
+            className="w-full appearance-none rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] py-2.5 pl-4 pr-10 text-sm text-[var(--color-ink)] outline-none transition focus:border-[var(--color-accent)]"
+          >
+            <option value="">全部语义场</option>
+            {semanticOptions.map((value) => (
+              <option key={value} value={value}>
+                {value}
+              </option>
+            ))}
+          </select>
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--color-ink-soft)]"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+
+        {/* Word freq */}
+        <div className="relative">
+          <select
+            value={freqFilter}
+            onChange={(e) => setFreqFilter(e.target.value)}
+            aria-label="按词频层级筛选"
+            className="w-full appearance-none rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] py-2.5 pl-4 pr-10 text-sm text-[var(--color-ink)] outline-none transition focus:border-[var(--color-accent)]"
+          >
+            <option value="">全部词频</option>
+            {freqOptions.map((value) => (
+              <option key={value} value={value}>
+                {value}
+              </option>
+            ))}
+          </select>
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--color-ink-soft)]"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+
       {/* A-Z quick index */}
       <div className="flex flex-wrap gap-1">
         {activeLetters.map((letter) => (
@@ -310,6 +419,15 @@ export function WordBatchAddPanel({
           <strong className="text-[var(--color-ink)]">{selectedCount}</strong>
         </span>
         <div className="flex flex-wrap items-center gap-1.5">
+          {isFiltered && (
+            <button
+              type="button"
+              onClick={clearAllFilters}
+              className="rounded-lg px-2 py-1 text-xs font-medium text-[var(--color-accent-2)] hover:bg-[var(--color-surface-soft)]"
+            >
+              清除筛选
+            </button>
+          )}
           <button
             type="button"
             onClick={handleSelectAllVisible}
@@ -357,22 +475,29 @@ export function WordBatchAddPanel({
         {visible.length === 0 && isFiltered ? (
           <div className="px-3 py-6 text-center">
             <p className="text-sm text-[var(--color-ink-soft)]">
-              {mode === "prefix" && (
-                <>没有以「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」开头的词条。</>
-              )}
-              {mode === "suffix" && (
-                <>没有以「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」结尾的词条。</>
-              )}
-              {mode === "contain" && (
-                <>没有包含「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」的词条。</>
+              {isTextFiltered ? (
+                <>
+                  没有
+                  {mode === "prefix" && "以"}
+                  {mode === "suffix" && "以"}
+                  {mode === "contain" && "包含"}
+                  「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」
+                  {mode === "prefix" && "开头"}
+                  {mode === "suffix" && "结尾"}
+                  的词条
+                  {isFacetFiltered && "（在当前筛选条件下）"}
+                  。
+                </>
+              ) : (
+                <>当前筛选条件下没有匹配词条。</>
               )}
             </p>
             <button
               type="button"
-              onClick={() => { setSearch(""); setMode("contain"); }}
+              onClick={clearAllFilters}
               className="mt-2 text-xs text-[var(--color-accent)] hover:underline"
             >
-              清除搜索
+              清除全部筛选
             </button>
           </div>
         ) : (
@@ -380,6 +505,7 @@ export function WordBatchAddPanel({
             {visible.map((w) => {
               const checked = selectedIds.has(w.id);
               const semanticField = getSemanticField(w.metadata);
+              const wordFreq = getWordFreq(w.metadata);
 
               return (
                 <li key={w.id}>
@@ -453,11 +579,18 @@ export function WordBatchAddPanel({
                           )}
                         </span>
                       )}
-                      {semanticField && (
-                        <span className="mt-1 inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
-                          {semanticField}
-                        </span>
-                      )}
+                      <span className="mt-1 flex flex-wrap gap-1.5">
+                        {semanticField && (
+                          <span className="inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
+                            {semanticField}
+                          </span>
+                        )}
+                        {wordFreq && (
+                          <span className="inline-block rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
+                            {wordFreq}
+                          </span>
+                        )}
+                      </span>
                     </span>
                   </button>
                 </li>

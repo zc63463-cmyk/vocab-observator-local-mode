@@ -19,11 +19,37 @@ import { asJson } from "@/types/database.types";
  *   use this to gate confidence ("trained on 2000 reviews" vs "120 reviews").
  * - `version`: schema version for forward compatibility. Start at 1.
  */
+/**
+ * Training quality metrics persisted alongside the weights so the dashboard
+ * can surface model diagnostics without re-running evaluation on every page load.
+ * Both metrics are lower-is-better.
+ */
+export interface FsrsWeightsEvaluation {
+  logLoss: number;
+  rmseBins: number;
+  baselineLogLoss: number;
+  baselineRmseBins: number;
+}
+
+export interface FsrsWeightsDiagnostics {
+  cardCount: number;
+  timeSpanDays: number;
+  ratingDistribution: Record<string, number>;
+  simulations: Array<{
+    name: string;
+    description: string;
+    defaultInterval: number;
+    personalizedInterval: number;
+  }>;
+}
+
 export interface FsrsWeightsSetting {
   sampleSize: number;
   trainedAt: string;
   version: number;
   weights: readonly number[];
+  evaluation?: FsrsWeightsEvaluation | null;
+  diagnostics?: FsrsWeightsDiagnostics | null;
 }
 
 /** FSRS w-array sane length window: v4 has 17, v5 has 19, v6 has 21. */
@@ -157,7 +183,7 @@ export function readFsrsWeightsSetting(
   const raw = reviewSettings.fsrs_weights;
   if (!isJsonObject(raw)) return null;
 
-  const { weights, trained_at, sample_size, version } = raw;
+  const { weights, trained_at, sample_size, version, evaluation } = raw;
   const parsed = validateFsrsWeightsArray(weights);
   if (!parsed) return null;
   if (typeof trained_at !== "string" || trained_at.length === 0) return null;
@@ -170,11 +196,64 @@ export function readFsrsWeightsSetting(
   }
   const v = typeof version === "number" && Number.isFinite(version) ? version : 1;
 
+  let evalData: FsrsWeightsEvaluation | undefined;
+  if (isJsonObject(evaluation)) {
+    const el = evaluation.log_loss;
+    const er = evaluation.rmse_bins;
+    const bel = evaluation.baseline_log_loss;
+    const ber = evaluation.baseline_rmse_bins;
+    if (
+      typeof el === "number" && Number.isFinite(el) &&
+      typeof er === "number" && Number.isFinite(er) &&
+      typeof bel === "number" && Number.isFinite(bel) &&
+      typeof ber === "number" && Number.isFinite(ber)
+    ) {
+      evalData = {
+        logLoss: el,
+        rmseBins: er,
+        baselineLogLoss: bel,
+        baselineRmseBins: ber,
+      };
+    }
+  }
+
+  let diagData: FsrsWeightsDiagnostics | undefined;
+  const rawDiag = raw.diagnostics;
+  if (isJsonObject(rawDiag)) {
+    const rc = rawDiag.rating_distribution;
+    const sims = rawDiag.simulations;
+    if (
+      typeof rawDiag.card_count === "number" && Number.isFinite(rawDiag.card_count) &&
+      typeof rawDiag.time_span_days === "number" && Number.isFinite(rawDiag.time_span_days) &&
+      typeof rc === "object" && rc !== null && !Array.isArray(rc) &&
+      Array.isArray(sims)
+    ) {
+      diagData = {
+        cardCount: rawDiag.card_count,
+        timeSpanDays: rawDiag.time_span_days,
+        ratingDistribution: rc as Record<string, number>,
+        simulations: sims
+          .filter((s: unknown) => typeof s === "object" && s !== null)
+          .map((s: unknown) => {
+            const x = s as Record<string, unknown>;
+            return {
+              name: String(x.name ?? ""),
+              description: String(x.description ?? ""),
+              defaultInterval: Number(x.default_interval ?? 0),
+              personalizedInterval: Number(x.personalized_interval ?? 0),
+            };
+          }),
+      };
+    }
+  }
+
   return {
     sampleSize: sample_size,
     trainedAt: trained_at,
     version: v,
     weights: parsed,
+    evaluation: evalData,
+    diagnostics: diagData,
   };
 }
 
@@ -299,6 +378,27 @@ export async function updateUserFsrsWeightsSetting(
         trained_at: payload.trainedAt,
         version: payload.version,
         weights: [...payload.weights],
+        evaluation: payload.evaluation
+          ? {
+              log_loss: payload.evaluation.logLoss,
+              rmse_bins: payload.evaluation.rmseBins,
+              baseline_log_loss: payload.evaluation.baselineLogLoss,
+              baseline_rmse_bins: payload.evaluation.baselineRmseBins,
+            }
+          : null,
+        diagnostics: payload.diagnostics
+          ? {
+              card_count: payload.diagnostics.cardCount,
+              time_span_days: payload.diagnostics.timeSpanDays,
+              rating_distribution: payload.diagnostics.ratingDistribution,
+              simulations: payload.diagnostics.simulations.map((s) => ({
+                name: s.name,
+                description: s.description,
+                default_interval: s.defaultInterval,
+                personalized_interval: s.personalizedInterval,
+              })),
+            }
+          : null,
       })
     : null;
 

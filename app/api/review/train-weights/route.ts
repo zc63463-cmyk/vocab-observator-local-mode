@@ -2,6 +2,10 @@ import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
 import {
   MIN_REVIEWS_FOR_TRAINING,
+  buildOptimizerItems,
+  buildTrainingDiagnostics,
+  evaluateFsrsWeights,
+  simulateFsrsScenarios,
   trainFsrsWeights,
   type OptimizerLog,
 } from "@/lib/review/fsrs-optimizer";
@@ -108,6 +112,16 @@ export async function GET() {
   return NextResponse.json(status satisfies FsrsTrainingStatus);
 }
 
+/* ── NDJSON streaming POST ─────────────────────────────────────────── */
+
+interface StreamMessage {
+  type: "progress" | "result" | "error";
+  current?: number;
+  total?: number;
+  status?: FsrsTrainingStatus;
+  message?: string;
+}
+
 export async function POST(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
@@ -153,45 +167,98 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  let trained: { sampleSize: number; weights: number[] };
-  try {
-    trained = await trainFsrsWeights(logs, {
-      enableShortTerm: bodyOptions?.enableShortTerm ?? true,
-    });
-  } catch (error) {
-    const message = error instanceof Error ? error.message : "Training failed";
-    return NextResponse.json({ error: message }, { status: 500 });
-  }
+  const encoder = new TextEncoder();
 
-  // Guard against a malformed binding response (wrong length, NaN, etc.).
-  // Without this check the read path later would silently reject the saved
-  // payload and revert the user to defaults —the UI would have already told
-  // them training succeeded, producing a confusing mismatch.
-  const validatedWeights = validateFsrsWeightsArray(trained.weights);
-  if (!validatedWeights) {
-    return NextResponse.json(
-      {
-        error:
-          "Optimizer returned an unusable weights vector (wrong length or non-finite values). Training not persisted.",
-      },
-      { status: 500 },
-    );
-  }
+  const stream = new ReadableStream({
+    async start(controller) {
+      function send(msg: StreamMessage) {
+        controller.enqueue(encoder.encode(JSON.stringify(msg) + "\n"));
+      }
 
-  const nowIso = new Date().toISOString();
-  const payload: FsrsWeightsSetting = {
-    sampleSize: trained.sampleSize,
-    trainedAt: nowIso,
-    version: FSRS_WEIGHTS_SETTING_VERSION,
-    weights: validatedWeights,
-  };
+      try {
+        // 1. Train with progress callbacks
+        const trained = await trainFsrsWeights(logs, {
+          enableShortTerm: bodyOptions?.enableShortTerm ?? true,
+          progress: (current, total) => {
+            send({ type: "progress", current, total });
+          },
+        });
 
-  await updateUserFsrsWeightsSetting(supabase, userId, payload, nowIso);
+        // 2. Validate weights
+        const validatedWeights = validateFsrsWeightsArray(trained.weights);
+        if (!validatedWeights) {
+          send({
+            type: "error",
+            message:
+              "Optimizer returned an unusable weights vector (wrong length or non-finite values). Training not persisted.",
+          });
+          controller.close();
+          return;
+        }
 
-  // Re-fetch status from DB so we return the exact persisted shape —guards
-  // against any silent normalisation in the read path.
-  const status = await getFsrsTrainingStatus(supabase, userId);
-  return NextResponse.json(status satisfies FsrsTrainingStatus);
+        // 3. Build items for eval + diagnostics
+        const items = buildOptimizerItems(logs);
+
+        // 4. Evaluate personalised vs default
+        let evaluation: FsrsWeightsSetting["evaluation"] = null;
+        try {
+          const [personalized, baseline] = await Promise.all([
+            evaluateFsrsWeights(items, validatedWeights),
+            evaluateFsrsWeights(items, null),
+          ]);
+          evaluation = {
+            logLoss: personalized.logLoss,
+            rmseBins: personalized.rmseBins,
+            baselineLogLoss: baseline.logLoss,
+            baselineRmseBins: baseline.rmseBins,
+          };
+        } catch {
+          // best-effort
+        }
+
+        // 5. Simulate + diagnostics
+        let diagnostics: FsrsWeightsSetting["diagnostics"] = null;
+        try {
+          const simulations = await simulateFsrsScenarios(validatedWeights);
+          diagnostics = {
+            ...buildTrainingDiagnostics(logs, items),
+            simulations,
+          };
+        } catch {
+          // best-effort
+        }
+
+        // 6. Persist
+        const nowIso = new Date().toISOString();
+        const payload: FsrsWeightsSetting = {
+          sampleSize: trained.sampleSize,
+          trainedAt: nowIso,
+          version: FSRS_WEIGHTS_SETTING_VERSION,
+          weights: validatedWeights,
+          evaluation,
+          diagnostics,
+        };
+        await updateUserFsrsWeightsSetting(supabase, userId, payload, nowIso);
+
+        // 7. Return final status
+        const status = await getFsrsTrainingStatus(supabase, userId);
+        send({ type: "result", status });
+        controller.close();
+      } catch (error) {
+        const message =
+          error instanceof Error ? error.message : "Training failed";
+        send({ type: "error", message });
+        controller.close();
+      }
+    },
+  });
+
+  return new Response(stream, {
+    headers: {
+      "Content-Type": "application/x-ndjson",
+      "Cache-Control": "no-cache",
+    },
+  });
 }
 
 export async function DELETE() {
