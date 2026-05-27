@@ -22,7 +22,41 @@ import { getDashboardSummary } from "@/lib/dashboard";
  * `/dashboard/lab` route that incubated this work has been folded in.
  */
 export default async function DashboardPage() {
-  const summary = await getDashboardSummary();
+  let summary: Awaited<ReturnType<typeof getDashboardSummary>>;
+  try {
+    summary = await getDashboardSummary();
+  } catch (err) {
+    return (
+      <div className="space-y-6">
+        <header className="panel-strong rounded-[2rem] p-6 sm:p-8">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.32em] text-[var(--color-ink-soft)]">
+            Dashboard
+          </p>
+          <h1 className="section-title mt-2 text-3xl font-semibold sm:text-4xl">
+            学习仪表盘
+          </h1>
+        </header>
+
+        <div className="panel rounded-[1.75rem] p-8 text-sm leading-7 text-[var(--color-ink-soft)]">
+          <p className="font-semibold text-[var(--color-ink)]">
+            Dashboard 数据加载失败
+          </p>
+          <p className="mt-2">
+            数据库连接暂时不可用。这通常是本地 Docker 容器的瞬时问题，刷新页面即可恢复。
+          </p>
+          <pre className="mt-3 rounded-lg bg-[var(--color-surface-soft)] p-3 text-xs tabular-nums">
+            {err instanceof Error ? err.message : String(err)}
+          </pre>
+          <a
+            href="/dashboard"
+            className="mt-4 inline-block rounded-lg bg-[var(--color-accent)] px-4 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+          >
+            刷新页面
+          </a>
+        </div>
+      </div>
+    );
+  }
 
   if (!summary.configured) {
     return (
