@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
+import { Virtuoso } from "react-virtuoso";
 import { Button } from "@/components/ui/Button";
 
 interface UntrackedWord {
@@ -469,134 +470,19 @@ export function WordBatchAddPanel({
       )}
 
       {/* Compact word list */}
-      <div className="max-h-[360px] overflow-y-auto rounded-xl border border-[var(--color-border)]">
-        {visible.length === 0 && isFiltered ? (
-          <div className="px-3 py-6 text-center">
-            <p className="text-sm text-[var(--color-ink-soft)]">
-              {isTextFiltered ? (
-                <>
-                  没有
-                  {mode === "prefix" && "以"}
-                  {mode === "suffix" && "以"}
-                  {mode === "contain" && "包含"}
-                  「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」
-                  {mode === "prefix" && "开头"}
-                  {mode === "suffix" && "结尾"}
-                  的词条
-                  {isFacetFiltered && "（在当前筛选条件下）"}
-                  。
-                </>
-              ) : (
-                <>当前筛选条件下没有匹配词条。</>
-              )}
-            </p>
-            <button
-              type="button"
-              onClick={clearAllFilters}
-              className="mt-2 text-xs text-[var(--color-accent)] hover:underline"
-            >
-              清除全部筛选
-            </button>
-          </div>
-        ) : (
-          <ul className="divide-y divide-[var(--color-border)]">
-            {visible.map((w) => {
-              const checked = selectedIds.has(w.id);
-              const semanticField = getSemanticField(w.metadata);
-              const wordFreq = getWordFreq(w.metadata);
-
-              return (
-                <li key={w.id}>
-                  <button
-                    type="button"
-                    onClick={() => onToggle(w.id)}
-                    aria-pressed={checked}
-                    className={`flex w-full items-start gap-3 px-3 py-2.5 text-left transition ${
-                      checked
-                        ? "bg-[var(--color-accent)]/8"
-                        : "hover:bg-[var(--color-surface-soft)]"
-                    }`}
-                    style={{
-                      touchAction: "manipulation",
-                      WebkitTapHighlightColor: "transparent",
-                    }}
-                  >
-                    {/* Checkbox */}
-                    <span
-                      aria-hidden="true"
-                      className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border ${
-                        checked
-                          ? "border-[var(--color-accent)] bg-[var(--color-accent)] text-white"
-                          : "border-[var(--color-border-strong)] bg-transparent"
-                      }`}
-                    >
-                      {checked && (
-                        <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
-                          <path
-                            d="M2 6L5 9L10 3"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      )}
-                    </span>
-
-                    {/* Content */}
-                    <span className="min-w-0 flex-1">
-                      <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-                        <span className="font-semibold text-[var(--color-ink)]">
-                          {showHighlight ? (
-                            <Highlight text={w.lemma} needle={needle} mode={mode} />
-                          ) : (
-                            w.lemma
-                          )}
-                        </span>
-                        {w.title !== w.lemma && (
-                          <span className="text-xs text-[var(--color-ink-soft)]">
-                            {showHighlight ? (
-                              <Highlight text={w.title} needle={needle} mode={mode} />
-                            ) : (
-                              w.title
-                            )}
-                          </span>
-                        )}
-                        {w.ipa ? (
-                          <span className="text-xs text-[var(--color-ink-soft)] opacity-70">
-                            {w.ipa}
-                          </span>
-                        ) : null}
-                      </span>
-                      {w.short_definition && (
-                        <span className="mt-0.5 block truncate text-xs text-[var(--color-ink-soft)]">
-                          {showHighlight ? (
-                            <Highlight text={w.short_definition} needle={needle} mode={mode} />
-                          ) : (
-                            w.short_definition
-                          )}
-                        </span>
-                      )}
-                      <span className="mt-1 flex flex-wrap gap-1.5">
-                        {semanticField && (
-                          <span className="inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
-                            {semanticField}
-                          </span>
-                        )}
-                        {wordFreq && (
-                          <span className="inline-block rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
-                            {wordFreq}
-                          </span>
-                        )}
-                      </span>
-                    </span>
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </div>
+      <WordList
+        visible={visible}
+        isFiltered={isFiltered}
+        isTextFiltered={isTextFiltered}
+        needle={needle}
+        mode={mode}
+        semanticFilter={semanticFilter}
+        freqFilter={freqFilter}
+        selectedIds={selectedIds}
+        onToggle={onToggle}
+        showHighlight={showHighlight}
+        clearAllFilters={clearAllFilters}
+      />
 
       {/* Bottom action bar */}
       <div className="flex items-center justify-between gap-3 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)] px-4 py-3">
@@ -612,5 +498,219 @@ export function WordBatchAddPanel({
         </Button>
       </div>
     </div>
+  );
+}
+
+/* ── Virtualised word list (extracted to keep the main component readable) ─ */
+
+const VIRTUOSO_THRESHOLD = 100;
+
+interface WordListProps {
+  visible: UntrackedWord[];
+  isFiltered: boolean;
+  isTextFiltered: boolean;
+  needle: string;
+  mode: MatchMode;
+  semanticFilter: string;
+  freqFilter: string;
+  selectedIds: Set<string>;
+  onToggle: (id: string) => void;
+  showHighlight: boolean;
+  clearAllFilters: () => void;
+}
+
+function WordList({
+  visible,
+  isFiltered,
+  isTextFiltered,
+  needle,
+  mode,
+  semanticFilter,
+  freqFilter,
+  selectedIds,
+  onToggle,
+  showHighlight,
+  clearAllFilters,
+}: WordListProps) {
+  if (visible.length === 0 && isFiltered) {
+    return (
+      <div className="max-h-[360px] overflow-y-auto rounded-xl border border-[var(--color-border)]">
+        <div className="px-3 py-6 text-center">
+          <p className="text-sm text-[var(--color-ink-soft)]">
+            {isTextFiltered ? (
+              <>
+                没有
+                {mode === "prefix" && "以"}
+                {mode === "suffix" && "以"}
+                {mode === "contain" && "包含"}
+                「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」
+                {mode === "prefix" && "开头"}
+                {mode === "suffix" && "结尾"}
+                的词条
+                {(semanticFilter || freqFilter) && "（在当前筛选条件下）"}
+                。
+              </>
+            ) : (
+              <>当前筛选条件下没有匹配词条。</>
+            )}
+          </p>
+          <button
+            type="button"
+            onClick={clearAllFilters}
+            className="mt-2 text-xs text-[var(--color-accent)] hover:underline"
+          >
+            清除全部筛选
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (visible.length <= VIRTUOSO_THRESHOLD) {
+    return (
+      <div className="max-h-[360px] overflow-y-auto rounded-xl border border-[var(--color-border)]">
+        <ul className="divide-y divide-[var(--color-border)]">
+          {visible.map((w) => (
+            <WordListItem
+              key={w.id}
+              word={w}
+              selectedIds={selectedIds}
+              onToggle={onToggle}
+              showHighlight={showHighlight}
+              needle={needle}
+              mode={mode}
+            />
+          ))}
+        </ul>
+      </div>
+    );
+  }
+
+  return (
+    <div className="h-[360px] rounded-xl border border-[var(--color-border)]">
+      <Virtuoso
+        data={visible}
+        itemContent={(index, w) => (
+          <WordListItem
+            word={w}
+            selectedIds={selectedIds}
+            onToggle={onToggle}
+            showHighlight={showHighlight}
+            needle={needle}
+            mode={mode}
+          />
+        )}
+        style={{ height: "360px" }}
+      />
+    </div>
+  );
+}
+
+interface WordListItemProps {
+  word: UntrackedWord;
+  selectedIds: Set<string>;
+  onToggle: (id: string) => void;
+  showHighlight: boolean;
+  needle: string;
+  mode: MatchMode;
+}
+
+function WordListItem({
+  word: w,
+  selectedIds,
+  onToggle,
+  showHighlight,
+  needle,
+  mode,
+}: WordListItemProps) {
+  const checked = selectedIds.has(w.id);
+  const semanticField = getSemanticField(w.metadata);
+  const wordFreq = getWordFreq(w.metadata);
+
+  return (
+    <button
+      type="button"
+      onClick={() => onToggle(w.id)}
+      aria-pressed={checked}
+      className={`flex w-full items-start gap-3 px-3 py-2.5 text-left transition ${
+        checked
+          ? "bg-[var(--color-accent)]/8"
+          : "hover:bg-[var(--color-surface-soft)]"
+      }`}
+      style={{
+        touchAction: "manipulation",
+        WebkitTapHighlightColor: "transparent",
+      }}
+    >
+      {/* Checkbox */}
+      <span
+        aria-hidden="true"
+        className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border ${
+          checked
+            ? "border-[var(--color-accent)] bg-[var(--color-accent)] text-white"
+            : "border-[var(--color-border-strong)] bg-transparent"
+        }`}
+      >
+        {checked && (
+          <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
+            <path
+              d="M2 6L5 9L10 3"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
+      </span>
+
+      {/* Content */}
+      <span className="min-w-0 flex-1">
+        <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+          <span className="font-semibold text-[var(--color-ink)]">
+            {showHighlight ? (
+              <Highlight text={w.lemma} needle={needle} mode={mode} />
+            ) : (
+              w.lemma
+            )}
+          </span>
+          {w.title !== w.lemma && (
+            <span className="text-xs text-[var(--color-ink-soft)]">
+              {showHighlight ? (
+                <Highlight text={w.title} needle={needle} mode={mode} />
+              ) : (
+                w.title
+              )}
+            </span>
+          )}
+          {w.ipa ? (
+            <span className="text-xs text-[var(--color-ink-soft)] opacity-70">
+              {w.ipa}
+            </span>
+          ) : null}
+        </span>
+        {w.short_definition && (
+          <span className="mt-0.5 block truncate text-xs text-[var(--color-ink-soft)]">
+            {showHighlight ? (
+              <Highlight text={w.short_definition} needle={needle} mode={mode} />
+            ) : (
+              w.short_definition
+            )}
+          </span>
+        )}
+        <span className="mt-1 flex flex-wrap gap-1.5">
+          {semanticField && (
+            <span className="inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
+              {semanticField}
+            </span>
+          )}
+          {wordFreq && (
+            <span className="inline-block rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
+              {wordFreq}
+            </span>
+          )}
+        </span>
+      </span>
+    </button>
   );
 }
