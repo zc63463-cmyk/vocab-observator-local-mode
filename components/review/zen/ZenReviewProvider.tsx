@@ -1,0 +1,562 @@
+"use client";
+
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useReducer,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
+import { useRouter } from "next/navigation";
+import { speakLemma } from "@/lib/tts";
+import { useToast } from "@/components/ui/Toast";
+import { useZenReview } from "./useZenReview";
+import { useZenShortcuts } from "./useZenShortcuts";
+import { useOmniStore } from "@/components/omni/useOmniStore";
+import type { ReviewQueueItem } from "@/lib/review/types";
+import type { ZenState, ZenAction, RatingKey, ZenReviewedItem, ZenUiState } from "./types";
+import { RATING_CONFIG } from "./types";
+import { recomputeCanUndo } from "./undo-logic";
+
+interface ZenContextValue extends ZenState {
+  // Actions
+  reveal: () => void;
+  rate: (rating: RatingKey) => void;
+  exit: () => void;
+  retry: () => void;
+  toggleHistory: () => void;
+  undo: (reviewLogId: string) => void;
+  nextBatch: () => Promise<void>;
+  // Utility actions (also bound to keyboard shortcuts P and D). Exposed
+  // so non-keyboard surfaces (e.g., mobile radial action menu) can invoke
+  // them without reaching into useZenShortcuts.
+  speakWord: () => void;
+  openWordPage: () => void;
+  // Meta
+  totalCount: number;
+  completedCount: number;
+  progress: number;
+  isAnimating: boolean;
+  uiState: ZenUiState;
+}
+
+const initialState: ZenState = {
+  phase: "loading",
+  item: null,
+  items: [],
+  session: null,
+  stats: null,
+  message: "",
+  pending: false,
+  lastRating: null,
+};
+
+function zenReducer(state: ZenState, action: ZenAction): ZenState {
+  switch (action.type) {
+    case "INIT":
+      if (action.items.length === 0) {
+        return {
+          ...state,
+          phase: "done",
+          items: [],
+          item: null,
+          session: action.session,
+          stats: action.stats,
+        };
+      }
+      return {
+        ...state,
+        phase: "front",
+        items: action.items,
+        item: action.items[0],
+        session: action.session,
+        stats: action.stats,
+        message: "",
+      };
+
+    case "REVEAL":
+      if (state.phase === "front" && state.item) {
+        return { ...state, phase: "back" };
+      }
+      return state;
+
+    case "RATE":
+      if (state.phase === "back" && state.item) {
+        return { ...state, phase: "rating", pending: true, lastRating: action.rating };
+      }
+      return state;
+
+    case "NEXT_CARD":
+      if (action.item) {
+        return {
+          ...state,
+          phase: "front",
+          item: action.item,
+          items: state.items.slice(1),
+          pending: false,
+          lastRating: null,
+        };
+      }
+      // Queue exhausted, need to fetch more or done
+      return { ...state, phase: "loading", pending: false, lastRating: null };
+
+    case "REFRESH_QUEUE":
+      if (action.items.length === 0) {
+        return {
+          ...state,
+          phase: "done",
+          items: [],
+          item: null,
+          session: action.session,
+          stats: action.stats,
+          pending: false,
+        };
+      }
+      return {
+        ...state,
+        phase: "front",
+        items: action.items,
+        item: action.items[0],
+        session: action.session,
+        stats: action.stats,
+        pending: false,
+      };
+
+    case "SET_MESSAGE":
+      return { ...state, message: action.message };
+
+    case "SET_ERROR":
+      return { ...state, phase: "error", message: action.message, pending: false };
+
+    case "SET_PENDING":
+      return { ...state, pending: action.pending };
+
+    case "RESTORE_BACK":
+      return { ...state, phase: "back", pending: false, lastRating: null };
+
+    case "RESTORE_CARD": {
+      // Fix-6: Remove duplicate from items before inserting restored card at front
+      const dedupedItems = state.items.filter(
+        (i) => i.progress_id !== action.item.progress_id
+      );
+      return {
+        ...state,
+        phase: "back",
+        item: action.item,
+        items: [action.item, ...dedupedItems],
+        pending: false,
+        lastRating: null,
+      };
+    }
+
+    case "NEXT_BATCH": {
+      if (action.items.length === 0) {
+        return {
+          ...state,
+          phase: "done",
+          items: [],
+          item: null,
+          session: action.session,
+          stats: action.stats,
+          pending: false,
+          lastRating: null,
+          message: "没有更多卡片了",
+        };
+      }
+      return {
+        ...state,
+        phase: "front",
+        items: action.items,
+        item: action.items[0],
+        session: action.session,
+        stats: action.stats,
+        pending: false,
+        lastRating: null,
+        message: "",
+      };
+    }
+
+    default:
+      return state;
+  }
+}
+
+const ZenContext = createContext<ZenContextValue | null>(null);
+
+interface ZenProviderProps {
+  children: ReactNode;
+  mode?: "queue" | "free";
+  wordIds?: string[];
+}
+
+export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps) {
+  const router = useRouter();
+  const { addToast } = useToast();
+  const omni = useOmniStore();
+  const [animationLock, setAnimationLock] = useState(false);
+  const mountedRef = useRef(true);
+  const undoInFlightRef = useRef(false); // Synchronous guard for rapid-fire clicks (Fix-5)
+  const cardShownAtRef = useRef<number | null>(null); // Per-card shown timestamp for durationMs
+
+  // UI state for history drawer (separate from core review state machine)
+  const [uiState, setUiState] = useState<ZenUiState>({
+    isHistoryOpen: false,
+    isUndoing: false,
+    sessionHistory: [],
+  });
+  
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => {
+      mountedRef.current = false;
+    };
+  }, []);
+  
+  const {
+    items,
+    setItems,
+    session,
+    setSession,
+    stats,
+    setStats,
+    fetchQueue,
+    submitRating,
+    submitUndo,
+  } = useZenReview({ mode, wordIds });
+
+  const [state, dispatch] = useReducer(zenReducer, initialState);
+
+  // Track when each card becomes visible so we can record durationMs on rating
+  const currentProgressId = state.item?.progress_id ?? null;
+  useEffect(() => {
+    if (currentProgressId && (state.phase === "front" || state.phase === "back")) {
+      cardShownAtRef.current = Date.now();
+    }
+    if (state.phase === "done" || state.phase === "error" || state.phase === "loading") {
+      cardShownAtRef.current = null;
+    }
+  }, [currentProgressId, state.phase]);
+
+  // Initial load
+  useEffect(() => {
+    let mounted = true;
+    
+    const load = async () => {
+      try {
+        const data = await fetchQueue();
+        if (!mounted) return;
+        
+        setItems(data.items);
+        setSession(data.session);
+        setStats(data.stats);
+        dispatch({ type: "INIT", items: data.items, session: data.session, stats: data.stats });
+      } catch (err) {
+        if (!mounted) return;
+        const message = err instanceof Error ? err.message : "加载复习队列失败";
+        dispatch({ type: "SET_ERROR", message });
+      }
+    };
+
+    void load();
+    
+    return () => { mounted = false; };
+  }, [fetchQueue, setItems, setSession, setStats]);
+
+  // Update stats helper
+  const updateStatsAfterRemoval = useCallback((item: ReviewQueueItem, increment: boolean) => {
+    setStats((current) => {
+      if (!current) return current;
+      return {
+        ...current,
+        completed: current.completed + (increment ? 1 : 0),
+        dueToday: Math.max(current.dueToday - 1, 0),
+        newCards: Math.max(current.newCards - (item.is_new ? 1 : 0), 0),
+        remaining: Math.max(current.remaining - 1, 0),
+      };
+    });
+
+    if (increment) {
+      setSession((current) => {
+        if (!current) return current;
+        return { ...current, cards_seen: current.cards_seen + 1 };
+      });
+    }
+  }, [setStats, setSession]);
+
+  const reveal = useCallback(() => {
+    dispatch({ type: "REVEAL" });
+  }, []);
+
+  // Rate action with API call
+  const rate = useCallback(
+    async (rating: RatingKey) => {
+      if (!state.item || !session || state.pending || animationLock || uiState.isUndoing) return;
+
+      dispatch({ type: "RATE", rating });
+      setAnimationLock(true);
+
+      let ratingTimeout: ReturnType<typeof setTimeout> | null = null;
+
+      try {
+        // Run API call and animation delay in PARALLEL.
+        // Total wait = max(API, 350ms) instead of API + 350ms.
+        const animationPromise = new Promise<void>((resolve) => {
+          ratingTimeout = setTimeout(() => resolve(), 350);
+        });
+        const [reviewLogId] = await Promise.all([
+          submitRating(state.item, rating),
+          animationPromise,
+        ]);
+
+        if (!mountedRef.current) return;
+
+        updateStatsAfterRemoval(state.item, true);
+
+        // Add to session history (only on API success)
+        const shownAt = cardShownAtRef.current;
+        const durationMs = shownAt !== null ? Date.now() - shownAt : undefined;
+        const historyItem: ZenReviewedItem = {
+          id: reviewLogId,
+          cardId: state.item.progress_id,
+          wordId: state.item.word_id,
+          word: state.item.lemma,
+          definition: state.item.short_definition,
+          rating,
+          ratingLabel: RATING_CONFIG[rating].label,
+          answeredAt: new Date().toISOString(),
+          durationMs,
+          canUndo: true,
+        };
+        // Recompute canUndo across the whole session history. The new rating
+        // is the latest for its card; older logs of the SAME card lose
+        // canUndo, but other cards' latest logs keep it. This mirrors the
+        // backend's "latest non-undone log per card" rule and enables
+        // arbitrary-order undo across different cards.
+        setUiState((prev) => ({
+          ...prev,
+          sessionHistory: recomputeCanUndo([historyItem, ...prev.sessionHistory]),
+        }));
+
+        const nextItems = state.items.slice(1);
+
+        if (nextItems.length > 0) {
+          dispatch({ type: "NEXT_CARD", item: nextItems[0] });
+        } else {
+          // Need to fetch more
+          try {
+            const data = await fetchQueue();
+            if (!mountedRef.current) return;
+            setItems(data.items);
+            setSession(data.session);
+            setStats(data.stats);
+            dispatch({ 
+              type: "REFRESH_QUEUE", 
+              items: data.items, 
+              session: data.session, 
+              stats: data.stats 
+            });
+          } catch (err) {
+            if (!mountedRef.current) return;
+            const message = err instanceof Error ? err.message : "刷新队列失败";
+            dispatch({ type: "SET_ERROR", message });
+          }
+        }
+        
+        addToast(`已记录 ${rating.toUpperCase()}`, "success");
+      } catch (err) {
+        if (!mountedRef.current) return;
+        const message = err instanceof Error ? err.message : "提交评分失败";
+        // Restore phase to "back" so user can retry
+        dispatch({ type: "RESTORE_BACK" });
+        dispatch({ type: "SET_MESSAGE", message });
+        addToast(message, "error");
+      } finally {
+        if (ratingTimeout) clearTimeout(ratingTimeout);
+        if (mountedRef.current) {
+          setAnimationLock(false);
+        }
+      }
+    },
+    [state.item, state.items, state.pending, session, animationLock, uiState.isUndoing, submitRating, updateStatsAfterRemoval, fetchQueue, setItems, setSession, setStats, addToast]
+  );
+
+  // Exit action
+  const exit = useCallback(() => {
+    router.push("/review");
+  }, [router]);
+
+  // Open the word detail. We push to `/words/[slug]` and rely on the
+  // parallel-route modal at `app/(app)/@modal/(...)words/[slug]/page.tsx`
+  // to intercept: the review page remains mounted underneath the modal
+  // (the `children` slot of the (app) layout is preserved across this
+  // kind of same-group navigation), so when the user closes the modal
+  // via router.back() the review session picks up exactly where it was
+  // — no re-fetch, no lost ctx state, no new-tab switching cost.
+  //
+  // Previously this used `window.open(url, "_blank")`, which forced
+  // the user into a new browser tab and lost the ongoing review flow.
+  const openWordPage = useCallback(() => {
+    if (!state.item) return;
+    router.push(`/p/${state.item.slug}`);
+  }, [router, state.item]);
+
+  // Speak current lemma (with language detection from DB)
+  const speakWord = useCallback(() => {
+    if (!state.item) return;
+    speakLemma(state.item.lemma, state.item.lang_code);
+  }, [state.item]);
+
+  // Next batch: fetch new queue, clear session history, start new session
+  const nextBatch = useCallback(async () => {
+    if (animationLock || !mountedRef.current) return;
+    setAnimationLock(true);
+    setUiState((prev) => ({ ...prev, isHistoryOpen: false, sessionHistory: [] }));
+    try {
+      const res = await fetchQueue();
+      if (!mountedRef.current) return;
+      // Sync hook state so progress/stats stay consistent with reducer state
+      setItems(res.items);
+      setSession(res.session);
+      setStats(res.stats);
+      dispatch({
+        type: "NEXT_BATCH",
+        items: res.items,
+        session: res.session,
+        stats: res.stats,
+      });
+      addToast(res.items.length === 0 ? "没有更多卡片了" : "开始新批次", "success");
+    } catch (e) {
+      if (!mountedRef.current) return;
+      dispatch({
+        type: "SET_ERROR",
+        message: e instanceof Error ? e.message : "获取下一批时出错",
+      });
+    } finally {
+      if (mountedRef.current) {
+        setAnimationLock(false);
+      }
+    }
+  }, [animationLock, fetchQueue, setItems, setSession, setStats, addToast]);
+
+  // Retry action
+  const retry = useCallback(() => {
+    window.location.reload();
+  }, []);
+
+  // Toggle history drawer (UI-only state, separate from review phase)
+  const toggleHistory = useCallback(() => {
+    setUiState((prev) => ({ ...prev, isHistoryOpen: !prev.isHistoryOpen }));
+  }, []);
+
+  // Undo the most recent rating (Fix-5: added undoInFlightRef sync guard)
+  const undo = useCallback(
+    async (reviewLogId: string) => {
+      // Synchronous ref check prevents race conditions from rapid-fire clicks
+      if (undoInFlightRef.current || uiState.isUndoing) return;
+      undoInFlightRef.current = true;
+      setUiState((prev) => ({ ...prev, isUndoing: true }));
+
+      try {
+        const restoredItem = await submitUndo(reviewLogId);
+
+        // Mark the target log as undone, then recompute canUndo for the
+        // whole history. Crucially, this may "revive" an older log of the
+        // same card by making it the latest non-undone entry again,
+        // enabling chained undo-across-history workflows.
+        setUiState((prev) => ({
+          ...prev,
+          isUndoing: false,
+          sessionHistory: recomputeCanUndo(
+            prev.sessionHistory.map((h) =>
+              h.id === reviewLogId ? { ...h, undone: true } : h,
+            ),
+          ),
+        }));
+
+        if (restoredItem) {
+          dispatch({ type: "RESTORE_CARD", item: restoredItem });
+        }
+
+        // Roll back stats
+        setStats((current) => {
+          if (!current) return current;
+          return {
+            ...current,
+            completed: Math.max(current.completed - 1, 0),
+            remaining: current.remaining + 1,
+          };
+        });
+        setSession((current) => {
+          if (!current) return current;
+          return { ...current, cards_seen: Math.max(current.cards_seen - 1, 0) };
+        });
+
+        addToast("已撤销评分，可重新评分", "success");
+      } catch (err) {
+        if (!mountedRef.current) return;
+        setUiState((prev) => ({ ...prev, isUndoing: false }));
+        const message = err instanceof Error ? err.message : "撤销失败";
+        addToast(message, "error");
+      } finally {
+        undoInFlightRef.current = false; // Reset sync guard
+      }
+    },
+    [uiState.isUndoing, submitUndo, setStats, setSession, addToast]
+  );
+
+  // Keyboard shortcuts
+  useZenShortcuts({
+    phase: state.phase,
+    onReveal: reveal,
+    onRate: rate,
+    onExit: exit,
+    onToggleHistory: toggleHistory,
+    onOpenWordPage: openWordPage,
+    onSpeak: speakWord,
+    onNextBatch: nextBatch,
+    isOmniOpen: omni.isOpen,
+    isAnimating: animationLock,
+    isHistoryOpen: uiState.isHistoryOpen,
+  });
+
+// ... (rest of the code remains the same)
+  // Calculate progress
+  const totalCount = (stats?.completed ?? 0) + (stats?.remaining ?? items.length);
+  const completedCount = stats?.completed ?? 0;
+  const progress = totalCount > 0 ? (completedCount / totalCount) * 100 : 0;
+
+  const value = useMemo<ZenContextValue>(
+    () => ({
+      ...state,
+      reveal,
+      rate,
+      exit,
+      retry,
+      toggleHistory,
+      undo,
+      nextBatch,
+      speakWord,
+      openWordPage,
+      totalCount,
+      completedCount,
+      progress,
+      isAnimating: animationLock,
+      uiState,
+    }),
+    [state, reveal, rate, exit, retry, toggleHistory, undo, nextBatch, speakWord, openWordPage, totalCount, completedCount, progress, animationLock, uiState]
+  );
+
+  return <ZenContext.Provider value={value}>{children}</ZenContext.Provider>;
+}
+
+export function useZenReviewContext(): ZenContextValue {
+  const ctx = useContext(ZenContext);
+  if (!ctx) {
+    throw new Error("useZenReviewContext must be used within ZenReviewProvider");
+  }
+  return ctx;
+}

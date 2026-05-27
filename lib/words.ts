@@ -1,0 +1,1928 @@
+import type { SupabaseClient } from "@/lib/db";
+import { unstable_cache } from "next/cache";
+import { cache } from "react";
+import { env, hasSupabasePublicEnv } from "@/lib/env";
+import { getSection, renderObsidianMarkdown } from "@/lib/markdown";
+import {
+  getPublicSupabaseClientOrNull,
+  withTransientPublicReadRetry,
+} from "@/lib/supabase/public";
+import {
+  createEmptyStructuredWordFields,
+  isStructuredWordColumnsMissing,
+  type AntonymItem,
+  type CollocationExample,
+  type CollocationItem,
+  type CoreDefinition,
+  type CorpusItem,
+  type DerivedWord,
+  type Mnemonic,
+  type Morphology,
+  type PosConversion,
+  type SemanticChain,
+  type SynonymItem,
+} from "@/lib/structured-word";
+import { escapePostgrestLike, slugifyLabel } from "@/lib/utils";
+import type { Database, Json } from "@/types/database.types";
+import { PUBLIC_CACHE_TAGS } from "@/lib/cache/public";
+
+// Slim projection used by every public *index* fetch (the heavy paths that
+// previously ran `.select("id, slug, ..., metadata, ...")` over
+// hundreds-to-thousands of rows).
+// PostgREST `metadata->key` returns the JSON value for that key with the
+// outer alias becoming the response column name; `->>` returns it as text.
+// We pick text for the two facet fields (semantic_field, word_freq are
+// always strings) and JSON for the three graph fields (antonyms, roots,
+// synonyms can be a string OR a string[] depending on the source markdown,
+// and `compactPublicMetadata` keeps both shapes). The five projected keys
+// are exactly what `compactPublicMetadata` preserves �?see also the matching
+// `reconstructCompactMetadata` below �?so this select is a 30x payload
+// reduction with zero observable change to the cached record shape.
+//
+// Exported so plaza.ts can reuse the same projection for its related-word
+// fetches; both paths funnel into compactPublicMetadata-equivalent records
+// downstream and benefit from the same wire-size shrink.
+export const WORD_INDEX_SELECT = [
+  "id",
+  "slug",
+  "title",
+  "lemma",
+  "ipa",
+  "short_definition",
+  "updated_at",
+  "metadata_semantic_field:metadata->>semantic_field",
+  "metadata_word_freq:metadata->>word_freq",
+  "metadata_antonyms:metadata->antonyms",
+  "metadata_roots:metadata->roots",
+  "metadata_synonyms:metadata->synonyms",
+].join(",");
+const WORD_FILTER_METADATA_SELECT = "metadata";
+const WORD_METADATA_SELECT = "slug, title, lemma, short_definition";
+const WORD_SLUG_SELECT = "slug";
+const WORD_DETAIL_LEGACY_SELECT =
+  "id, slug, title, lemma, ipa, short_definition, metadata, updated_at, definition_md, body_md, examples, pos, source_path, body_html, definition_html, synonym_html, antonym_html";
+const WORD_DETAIL_STRUCTURED_SELECT =
+  `${WORD_DETAIL_LEGACY_SELECT}, core_definitions, prototype_text, collocations, corpus_items, synonym_items, antonym_items`;
+
+const WORD_PLAIN_LEGACY_SELECT =
+  "id, slug, title, lemma, ipa, pos, short_definition, metadata, updated_at, definition_html, body_md";
+const WORD_PLAIN_STRUCTURED_SELECT =
+  `${WORD_PLAIN_LEGACY_SELECT}, core_definitions, synonym_items, antonym_items`;
+const DEFAULT_PUBLIC_WORD_PAGE_LIMIT = 60;
+const MAX_PUBLIC_WORD_PAGE_LIMIT = 120;
+const FEATURED_WORD_LIMIT = 6;
+const PUBLIC_REVALIDATE_SECONDS = 300;
+const WORD_FILTER_FACET_DIMENSIONS = ["semantic_field", "word_freq"] as const;
+
+type ServerSupabaseClient = SupabaseClient<Database>;
+type WordFilterFacetDimension = (typeof WORD_FILTER_FACET_DIMENSIONS)[number];
+
+export type ReviewFilter = "all" | "tracked" | "due" | "untracked";
+
+export interface OwnerWordProgressSummary {
+  again_count: number;
+  due_at: string | null;
+  id: string;
+  is_due: boolean;
+  lapse_count: number;
+  last_reviewed_at: string | null;
+  review_count: number;
+  state: string;
+}
+
+export interface PublicWordSummary {
+  id: string;
+  ipa: string | null;
+  lemma: string;
+  metadata: Json;
+  progress: OwnerWordProgressSummary | null;
+  short_definition: string | null;
+  slug: string;
+  title: string;
+  updated_at: string;
+}
+
+export type PublicWordIndexEntry = Omit<PublicWordSummary, "progress">;
+
+export interface PublicWordDetail extends PublicWordSummary {
+  antonym_html?: string | null;
+  antonym_items: AntonymItem[];
+  body_html?: string | null;
+  body_md: string;
+  collocations: CollocationItem[];
+  core_definitions: CoreDefinition[];
+  corpus_items: CorpusItem[];
+  definition_html?: string | null;
+  definition_md: string;
+  // Extended structured fields surfaced from `metadata` JSON for direct access
+  // by view components. They mirror parser output and are nullable/empty for
+  // older rows that predate the new corpus format.
+  derived_words: DerivedWord[];
+  examples: Json;
+  mnemonic: Mnemonic | null;
+  morphology: Morphology | null;
+  pos: string | null;
+  pos_conversions: PosConversion[];
+  prototype_text: string | null;
+  resolved_antonym_items: ResolvedAntonymItem[];
+  resolved_synonym_items: ResolvedSynonymItem[];
+  semantic_chain: SemanticChain | null;
+  synonym_html?: string | null;
+  source_path: string;
+  synonym_items: SynonymItem[];
+  tags: Array<{ label: string; slug: string }>;
+}
+
+export interface CachedPublicWordDetail extends PublicWordDetail {
+  antonym_html: string;
+  body_html: string;
+  definition_html: string;
+  synonym_html: string;
+}
+
+/**
+ * Lightweight word shape used by the plain/detail page (`/p/[slug]`).
+ * Omits every heavy field (body_md, examples, collocations, corpus_items,
+ * synonym_items, antonym_items, etc.) and skips the all-entries index query
+ * so the page can be statically generated for the full corpus without
+ * blowing build-time budgets.
+ */
+export interface PlainWordDetail {
+  antonym_items: AntonymItem[];
+  body_md: string;
+  core_definitions: CoreDefinition[];
+  definition_html: string | null;
+  id: string;
+  ipa: string | null;
+  lemma: string;
+  metadata: Json;
+  pos: string | null;
+  short_definition: string | null;
+  slug: string;
+  synonym_items: SynonymItem[];
+  tags: Array<{ label: string; slug: string }>;
+  title: string;
+  updated_at: string;
+}
+
+export interface ResolvedSynonymItem extends SynonymItem {
+  href: string | null;
+}
+
+export interface ResolvedAntonymItem extends AntonymItem {
+  href: string | null;
+}
+
+export interface WordQueryFilters {
+  freq?: string;
+  q?: string;
+  review?: ReviewFilter;
+  semantic?: string;
+}
+
+export interface WordPagination {
+  limit?: number | null;
+  offset?: number | null;
+}
+
+export interface NormalizedWordQueryFilters {
+  freq: string;
+  q: string;
+  review: ReviewFilter;
+  semantic: string;
+}
+
+export interface NormalizedWordPagination {
+  limit: number;
+  offset: number;
+}
+
+export interface PublicWordsPageInfo {
+  hasMore: boolean;
+  limit: number;
+  offset: number;
+  total: number;
+}
+
+export interface PublicWordsResponse {
+  configured: boolean;
+  counts: {
+    showing: number;
+    total: number;
+  };
+  filterOptions: {
+    frequencies: string[];
+    semanticFields: string[];
+  };
+  filters: NormalizedWordQueryFilters;
+  isOwner: boolean;
+  pageInfo: PublicWordsPageInfo;
+  truncated: boolean;
+  words: PublicWordSummary[];
+}
+
+export interface PublicWordFilterOptions {
+  frequencies: string[];
+  semanticFields: string[];
+}
+
+export interface LandingSnapshot {
+  configured: boolean;
+  featuredWords: PublicWordSummary[];
+  repoName: string;
+  totalWords: number;
+}
+
+interface PublicWordMetadataRecord {
+  lemma: string;
+  short_definition: string | null;
+  slug: string;
+  title: string;
+}
+
+interface CachedPublicWordIndexRecord extends PublicWordIndexEntry {
+  search_text: string;
+  semantic_field: string | null;
+  word_freq: string | null;
+}
+
+interface GetPublicWordsOptions {
+  ownerSupabase?: ServerSupabaseClient | null;
+  ownerUserId?: string | null;
+  pagination?: WordPagination;
+}
+
+type BarePublicWordMetadataRow = Pick<PublicWordIndexEntry, "metadata">;
+type BareWordFilterFacetRow = Database["public"]["Tables"]["word_filter_facets"]["Row"];
+
+// Row shape returned by the WORD_INDEX_SELECT projection. supabase-js's
+// generated Database types know nothing about JSONB key projection, so
+// every callsite has to cast through this interface (or a re-export of it)
+// after the .select() returns. The metadata_* aliases mirror the alias
+// names baked into WORD_INDEX_SELECT so the field-by-field rebuild in
+// `reconstructCompactMetadata` stays mechanical and easy to audit.
+export interface BareSlimPublicWordIndexRow {
+  id: string;
+  ipa: string | null;
+  lemma: string;
+  metadata_antonyms: Json | null;
+  metadata_roots: Json | null;
+  metadata_semantic_field: string | null;
+  metadata_synonyms: Json | null;
+  metadata_word_freq: string | null;
+  short_definition: string | null;
+  slug: string;
+  title: string;
+  updated_at: string;
+}
+
+// Mirror of `compactPublicMetadata` for callers that already have the
+// projected slim row in hand. The two functions must produce identical
+// output for the same source row so consumers downstream (WordCard,
+// vocab graph builder, search index) don't have to know which path the
+// data came through. Kept exported so plaza.ts can reuse the same
+// reconstruction for its related-word transform.
+export function reconstructCompactMetadata(row: {
+  metadata_antonyms: Json | null;
+  metadata_roots: Json | null;
+  metadata_semantic_field: string | null;
+  metadata_synonyms: Json | null;
+  metadata_word_freq: string | null;
+}): Json {
+  const compacted: Record<string, Json> = {
+    semantic_field: row.metadata_semantic_field,
+    word_freq: row.metadata_word_freq,
+  };
+
+  // Same type-guard semantics as compactPublicMetadata: keep
+  // antonyms/roots/synonyms only when they are a string or an array of
+  // strings. Anything else (e.g. an object, a number, a mixed array) is
+  // dropped so the cached metadata never widens its accepted shape.
+  const graphFields = [
+    ["antonyms", row.metadata_antonyms],
+    ["roots", row.metadata_roots],
+    ["synonyms", row.metadata_synonyms],
+  ] as const;
+  for (const [key, value] of graphFields) {
+    if (
+      typeof value === "string" ||
+      (Array.isArray(value) && value.every((item) => typeof item === "string"))
+    ) {
+      compacted[key] = value;
+    }
+  }
+
+  return compacted satisfies Json;
+}
+
+interface PublicWordRowsPage {
+  rows: CachedPublicWordIndexRecord[];
+  total: number;
+}
+
+function isReviewFilter(value: string | undefined): value is ReviewFilter {
+  return value === "all" || value === "tracked" || value === "due" || value === "untracked";
+}
+
+function isWordFilterFacetDimension(value: string): value is WordFilterFacetDimension {
+  return WORD_FILTER_FACET_DIMENSIONS.includes(value as WordFilterFacetDimension);
+}
+
+function isWordFilterFacetRelationMissing(error: unknown) {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "message" in error &&
+    typeof error.message === "string" &&
+    error.message.includes("word_filter_facets")
+  );
+}
+
+export function getWordMetadataString(metadata: Json, key: string) {
+  if (
+    typeof metadata === "object" &&
+    metadata &&
+    !Array.isArray(metadata) &&
+    key in metadata &&
+    typeof metadata[key] === "string"
+  ) {
+    return metadata[key] as string;
+  }
+
+  return null;
+}
+
+export function normalizeWordFilters(
+  filters?: WordQueryFilters,
+  options?: { allowReviewFilter?: boolean },
+): NormalizedWordQueryFilters {
+  return {
+    freq: filters?.freq?.trim() ?? "",
+    q: filters?.q?.trim() ?? "",
+    review:
+      options?.allowReviewFilter && isReviewFilter(filters?.review)
+        ? filters!.review!
+        : "all",
+    semantic: filters?.semantic?.trim() ?? "",
+  };
+}
+
+export function normalizeWordPagination(
+  pagination?: WordPagination,
+): NormalizedWordPagination {
+  const rawLimit = pagination?.limit;
+  const rawOffset = pagination?.offset;
+  const limit =
+    typeof rawLimit === "number" && Number.isFinite(rawLimit)
+      ? Math.min(
+          MAX_PUBLIC_WORD_PAGE_LIMIT,
+          Math.max(1, Math.floor(rawLimit)),
+        )
+      : DEFAULT_PUBLIC_WORD_PAGE_LIMIT;
+  const offset =
+    typeof rawOffset === "number" && Number.isFinite(rawOffset)
+      ? Math.max(0, Math.floor(rawOffset))
+      : 0;
+
+  return { limit, offset };
+}
+
+export function createPublicWordsPageState(
+  total: number,
+  pagination: NormalizedWordPagination,
+  returned: number,
+) {
+  const safeTotal = Math.max(0, total);
+  const safeReturned = Math.max(
+    0,
+    Math.min(returned, pagination.limit, Math.max(safeTotal - pagination.offset, 0)),
+  );
+  const hasMore = pagination.offset + safeReturned < safeTotal;
+
+  return {
+    counts: {
+      showing: safeReturned,
+      total: safeTotal,
+    },
+    pageInfo: {
+      hasMore,
+      limit: pagination.limit,
+      offset: pagination.offset,
+      total: safeTotal,
+    },
+    truncated: hasMore,
+  } satisfies Pick<PublicWordsResponse, "counts" | "pageInfo" | "truncated">;
+}
+
+export function createPublicWordsShellResponse(
+  filters?: WordQueryFilters,
+  pagination?: WordPagination,
+): PublicWordsResponse {
+  const normalizedPagination = normalizeWordPagination(pagination);
+
+  return {
+    configured: hasSupabasePublicEnv(),
+    ...createPublicWordsPageState(0, normalizedPagination, 0),
+    filterOptions: {
+      frequencies: [],
+      semanticFields: [],
+    },
+    filters: normalizeWordFilters(filters),
+    isOwner: false,
+    truncated: false,
+    words: [],
+  };
+}
+
+export function isDefaultPublicWordFilters(filters: NormalizedWordQueryFilters) {
+  return (
+    filters.freq === "" &&
+    filters.q === "" &&
+    filters.review === "all" &&
+    filters.semantic === ""
+  );
+}
+
+function buildWordSearchText(word: {
+  lemma: string;
+  semantic_field: string | null;
+  short_definition: string | null;
+  title: string;
+  word_freq: string | null;
+}) {
+  return [
+    word.lemma,
+    word.title,
+    word.short_definition ?? "",
+    word.semantic_field ?? "",
+    word.word_freq ?? "",
+  ]
+    .join(" ")
+    .normalize("NFKC")
+    .toLowerCase();
+}
+
+function toCachedPublicWordIndexRecord(
+  row: BareSlimPublicWordIndexRow,
+): CachedPublicWordIndexRecord {
+  const metadata = reconstructCompactMetadata(row);
+  const semanticField = row.metadata_semantic_field;
+  const wordFrequency = row.metadata_word_freq;
+
+  return {
+    id: row.id,
+    ipa: row.ipa,
+    lemma: row.lemma,
+    metadata,
+    search_text: buildWordSearchText({
+      lemma: row.lemma,
+      semantic_field: semanticField,
+      short_definition: row.short_definition,
+      title: row.title,
+      word_freq: wordFrequency,
+    }),
+    semantic_field: semanticField,
+    short_definition: row.short_definition,
+    slug: row.slug,
+    title: row.title,
+    updated_at: row.updated_at,
+    word_freq: wordFrequency,
+  };
+}
+
+function toPublicWordIndexEntry(record: CachedPublicWordIndexRecord): PublicWordIndexEntry {
+  return {
+    id: record.id,
+    ipa: record.ipa,
+    lemma: record.lemma,
+    metadata: record.metadata,
+    short_definition: record.short_definition,
+    slug: record.slug,
+    title: record.title,
+    updated_at: record.updated_at,
+  };
+}
+
+function toPublicWordSummary(
+  record: CachedPublicWordIndexRecord,
+  progress: OwnerWordProgressSummary | null,
+): PublicWordSummary {
+  return {
+    ...toPublicWordIndexEntry(record),
+    progress,
+  };
+}
+
+function buildPublicWordFilterOptions(
+  rows: BarePublicWordMetadataRow[],
+): PublicWordFilterOptions {
+  const semanticFields = [
+    ...new Set(
+      rows
+        .map((row) => getWordMetadataString(row.metadata, "semantic_field"))
+        .filter((value): value is string => Boolean(value)),
+    ),
+  ].sort((left, right) => left.localeCompare(right));
+  const frequencies = [
+    ...new Set(
+      rows
+        .map((row) => getWordMetadataString(row.metadata, "word_freq"))
+        .filter((value): value is string => Boolean(value)),
+    ),
+  ].sort((left, right) => left.localeCompare(right));
+
+  return {
+    frequencies,
+    semanticFields,
+  };
+}
+
+export function buildPublicWordFilterOptionsFromFacetRows(
+  rows: BareWordFilterFacetRow[],
+): PublicWordFilterOptions {
+  const semanticFields = [
+    ...new Set(
+      rows
+        .filter((row) => isWordFilterFacetDimension(row.dimension))
+        .filter((row) => row.dimension === "semantic_field" && row.count > 0)
+        .map((row) => row.value.trim())
+        .filter(Boolean),
+    ),
+  ].sort((left, right) => left.localeCompare(right));
+  const frequencies = [
+    ...new Set(
+      rows
+        .filter((row) => isWordFilterFacetDimension(row.dimension))
+        .filter((row) => row.dimension === "word_freq" && row.count > 0)
+        .map((row) => row.value.trim())
+        .filter(Boolean),
+    ),
+  ].sort((left, right) => left.localeCompare(right));
+
+  return {
+    frequencies,
+    semanticFields,
+  };
+}
+
+function parseStructuredArray<T>(value: Json | undefined, guard: (item: unknown) => item is T) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  const parsed: T[] = [];
+  for (const item of value) {
+    if (guard(item)) {
+      parsed.push(item);
+    }
+  }
+
+  return parsed;
+}
+
+function isCoreDefinition(value: unknown): value is CoreDefinition {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "partOfSpeech" in value &&
+    typeof value.partOfSpeech === "string" &&
+    "senses" in value &&
+    Array.isArray(value.senses)
+  );
+}
+
+function isCollocationExample(value: unknown): value is CollocationExample {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "text" in value &&
+    typeof value.text === "string" &&
+    "translation" in value
+  );
+}
+
+function parseCollocationItems(value: Json | undefined) {
+  if (!Array.isArray(value)) {
+    return [] as CollocationItem[];
+  }
+
+  const parsed: CollocationItem[] = [];
+  for (const item of value) {
+    if (
+      typeof item !== "object" ||
+      item === null ||
+      !("phrase" in item) ||
+      typeof item.phrase !== "string"
+    ) {
+      continue;
+    }
+
+    const examples: CollocationExample[] = [];
+    if ("examples" in item && Array.isArray(item.examples)) {
+      for (const example of item.examples) {
+        if (isCollocationExample(example)) {
+          examples.push(example);
+        }
+      }
+    }
+
+    const note =
+      "note" in item && (typeof item.note === "string" || item.note === null)
+        ? item.note
+        : null;
+    const gloss =
+      "gloss" in item && (typeof item.gloss === "string" || item.gloss === null)
+        ? item.gloss
+        : note;
+
+    parsed.push({
+      examples,
+      gloss,
+      note,
+      phrase: item.phrase,
+    });
+  }
+
+  return parsed;
+}
+
+function isCorpusItem(value: unknown): value is CorpusItem {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "text" in value &&
+    typeof value.text === "string" &&
+    "note" in value
+  );
+}
+
+function isSynonymItem(value: unknown): value is SynonymItem {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "word" in value &&
+    typeof value.word === "string" &&
+    "semanticDiff" in value &&
+    typeof value.semanticDiff === "string"
+  );
+}
+
+function isAntonymItem(value: unknown): value is AntonymItem {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "word" in value &&
+    typeof value.word === "string" &&
+    "note" in value
+  );
+}
+
+function matchesQuery(word: CachedPublicWordIndexRecord, query: string) {
+  if (!query) {
+    return true;
+  }
+
+  return word.search_text.includes(query.normalize("NFKC").toLowerCase());
+}
+
+function isDue(dueAt: string | null | undefined) {
+  return Boolean(dueAt && new Date(dueAt).getTime() <= Date.now());
+}
+
+export function serializeOwnerWordProgress(progress: {
+  again_count?: number | null;
+  due_at: string | null;
+  id: string;
+  lapse_count?: number | null;
+  last_reviewed_at: string | null;
+  review_count: number;
+  state: string;
+}): OwnerWordProgressSummary {
+  return {
+    again_count: progress.again_count ?? 0,
+    due_at: progress.due_at,
+    id: progress.id,
+    is_due: isDue(progress.due_at),
+    lapse_count: progress.lapse_count ?? 0,
+    last_reviewed_at: progress.last_reviewed_at,
+    review_count: progress.review_count,
+    state: progress.state,
+  };
+}
+
+function matchesReviewFilter(
+  progress: OwnerWordProgressSummary | null,
+  reviewFilter: ReviewFilter,
+) {
+  if (reviewFilter === "all") {
+    return true;
+  }
+
+  if (reviewFilter === "tracked") {
+    return Boolean(progress);
+  }
+
+  if (reviewFilter === "due") {
+    return Boolean(progress && progress.state !== "suspended" && progress.is_due);
+  }
+
+  return !progress;
+}
+
+function canUseDatabaseFilteredPublicWordsPath(
+  filters: NormalizedWordQueryFilters,
+) {
+  // The DB-filter path returns one paginated page directly from PostgREST.
+  // It works for any visitor (anonymous OR signed-in owner) as long as the
+  // active filter set doesn't depend on per-user data: review status needs
+  // user_word_progress (so review !== 'all' falls back), and free-text q
+  // is JS substring matching (no DB index yet, so q !== '' also falls back).
+  return (
+    filters.review === "all" &&
+    filters.q === "" &&
+    (filters.semantic !== "" || filters.freq !== "")
+  );
+}
+
+function applyDatabaseWordMetadataFilters<
+  T extends {
+    contains: (column: string, value: Record<string, string>) => T;
+  },
+>(query: T, filters: NormalizedWordQueryFilters) {
+  let nextQuery = query;
+
+  if (filters.semantic) {
+    nextQuery = nextQuery.contains("metadata", {
+      semantic_field: filters.semantic,
+    });
+  }
+
+  if (filters.freq) {
+    nextQuery = nextQuery.contains("metadata", {
+      word_freq: filters.freq,
+    });
+  }
+
+  return nextQuery;
+}
+
+async function loadLegacyPublicWordFilterOptions(
+  supabase: ReturnType<typeof getPublicSupabaseClientOrNull>,
+): Promise<PublicWordFilterOptions> {
+  if (!supabase) {
+    return {
+      frequencies: [],
+      semanticFields: [],
+    };
+  }
+
+  // Paginated to bypass PostgREST's silent 1000-row cap on .select() with no
+  // Range header. See same fix in getCachedPublicWordRows below.
+  const PAGE_SIZE = 500;
+  const accumulated: BarePublicWordMetadataRow[] = [];
+  let offset = 0;
+  while (true) {
+    const { data, error } = await supabase
+      .from("words")
+      .select(WORD_FILTER_METADATA_SELECT)
+      .eq("is_published", true)
+      .eq("is_deleted", false)
+      .range(offset, offset + PAGE_SIZE - 1);
+    if (error) {
+      throw error;
+    }
+    const rows = (data ?? []) as BarePublicWordMetadataRow[];
+    accumulated.push(...rows);
+    if (rows.length < PAGE_SIZE) {
+      break;
+    }
+    offset += PAGE_SIZE;
+  }
+
+  return buildPublicWordFilterOptions(accumulated);
+}
+
+async function getOwnerProgressMap(
+  ownerUserId: string,
+  supabase: ServerSupabaseClient,
+) {
+  // Paginated for the same reason public-words reads are paginated:
+  // PostgREST silently caps unbounded SELECTs at db-max-rows (1000 by
+  // default), and an owner who has tracked more than 1000 words would
+  // otherwise see review-state filters silently miss the surplus.
+  const PAGE_SIZE = 500;
+  type ProgressRow = {
+    again_count: number | null;
+    due_at: string | null;
+    id: string;
+    lapse_count: number | null;
+    last_reviewed_at: string | null;
+    review_count: number | null;
+    state: string | null;
+    word_id: string;
+  };
+  const data: ProgressRow[] = [];
+  let offset = 0;
+  while (true) {
+    const page = await supabase
+      .from("user_word_progress")
+      .select(
+        "word_id, id, due_at, review_count, state, last_reviewed_at, lapse_count, again_count",
+      )
+      .eq("user_id", ownerUserId)
+      .range(offset, offset + PAGE_SIZE - 1);
+    if (page.error) {
+      throw page.error;
+    }
+    const rows = (page.data ?? []) as ProgressRow[];
+    data.push(...rows);
+    if (rows.length < PAGE_SIZE) {
+      break;
+    }
+    offset += PAGE_SIZE;
+  }
+
+  return new Map(
+    (data as Array<{
+      again_count: number | null;
+      due_at: string | null;
+      id: string;
+      lapse_count: number | null;
+      last_reviewed_at: string | null;
+      review_count: number;
+      state: string;
+      word_id: string;
+    }>).map((entry) => [entry.word_id, serializeOwnerWordProgress(entry)]),
+  );
+}
+
+export function resolveWordHref(label: string, availableSlugs?: Set<string>) {
+  const slug = slugifyLabel(label);
+  if (!slug) {
+    return null;
+  }
+
+  if (availableSlugs && !availableSlugs.has(slug)) {
+    return null;
+  }
+
+  return `/words/${slug}`;
+}
+
+export function resolveSynonymItems(
+  items: SynonymItem[],
+  availableSlugs?: Set<string>,
+): ResolvedSynonymItem[] {
+  return items.map((item) => ({
+    ...item,
+    href: resolveWordHref(item.word, availableSlugs),
+  }));
+}
+
+export function resolveAntonymItems(
+  items: AntonymItem[],
+  availableSlugs?: Set<string>,
+): ResolvedAntonymItem[] {
+  return items.map((item) => ({
+    ...item,
+    href: resolveWordHref(item.word, availableSlugs),
+  }));
+}
+
+function getMetadataField<T>(metadata: Json, key: string): T | null {
+  if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) {
+    return null;
+  }
+  const value = (metadata as Record<string, Json>)[key];
+  return value == null ? null : (value as unknown as T);
+}
+
+function getMetadataArray<T>(metadata: Json, key: string): T[] {
+  const raw = getMetadataField<unknown>(metadata, key);
+  return Array.isArray(raw) ? (raw as T[]) : [];
+}
+
+function withStructuredFallback(
+  word: Record<string, Json | string | null>,
+): Omit<PublicWordDetail, "progress" | "tags"> {
+  const structuredDefaults = createEmptyStructuredWordFields();
+  const metadata = (word.metadata as Json) ?? {};
+
+  return {
+    antonym_html: (word.antonym_html as string | null) ?? null,
+    antonym_items: parseStructuredArray(word.antonym_items as Json, isAntonymItem),
+    body_html: (word.body_html as string | null) ?? null,
+    body_md: String(word.body_md ?? ""),
+    collocations: parseCollocationItems(word.collocations as Json),
+    core_definitions: parseStructuredArray(word.core_definitions as Json, isCoreDefinition),
+    corpus_items: parseStructuredArray(word.corpus_items as Json, isCorpusItem),
+    definition_html: (word.definition_html as string | null) ?? null,
+    definition_md: String(word.definition_md ?? ""),
+    derived_words: getMetadataArray<DerivedWord>(metadata, "derived_words"),
+    examples: (word.examples as Json) ?? [],
+    id: String(word.id),
+    ipa: (word.ipa as string | null) ?? null,
+    lemma: String(word.lemma),
+    metadata,
+    mnemonic: getMetadataField<Mnemonic>(metadata, "mnemonic"),
+    morphology: getMetadataField<Morphology>(metadata, "morphology"),
+    pos: (word.pos as string | null) ?? null,
+    pos_conversions: getMetadataArray<PosConversion>(metadata, "pos_conversions"),
+    prototype_text:
+      (word.prototype_text as string | null) ??
+      getWordMetadataString(metadata, "prototype") ??
+      structuredDefaults.prototypeText,
+    resolved_antonym_items: [],
+    resolved_synonym_items: [],
+    semantic_chain: getMetadataField<SemanticChain>(metadata, "semantic_chain"),
+    short_definition: (word.short_definition as string | null) ?? null,
+    slug: String(word.slug),
+    source_path: String(word.source_path ?? ""),
+    synonym_html: (word.synonym_html as string | null) ?? null,
+    synonym_items: parseStructuredArray(word.synonym_items as Json, isSynonymItem),
+    title: String(word.title),
+    updated_at: String(word.updated_at),
+  };
+}
+
+// CACHE-POISONING NOTE
+// --------------------
+// The cached read-path functions below all share a common shape:
+//
+//   1. The `unstable_cache`-wrapped inner function does the work and lets
+//      *errors propagate*. It must NEVER catch and return a fallback like
+//      `null`, because `unstable_cache` faithfully memoises whatever the
+//      inner function returns �?including `null` �?and only skips
+//      caching when the inner function throws.
+//
+//   2. The outer `async` wrapper catches the propagated error and returns
+//      `null` so callers don't have to `try`/`catch`. The next call after
+//      a transient failure re-runs the query against a clean slot.
+//
+// Without this split, a single Supabase statement_timeout poisons the
+// cache for the full revalidate window (5 minutes) and the user sees
+// `counts.total: 0` until the TTL elapses. We hit this on the
+// /api/words?semantic=抽象关系 path before this refactor: the JSONB
+// containment query intermittently times out without a GIN index on
+// `metadata`, the catch arm returned `null`, and that `null` stuck.
+async function fetchPublicWordRowsUncachedImpl(): Promise<CachedPublicWordIndexRecord[]> {
+  const supabase = getPublicSupabaseClientOrNull();
+  if (!supabase) {
+    throw new Error("Public Supabase client not configured");
+  }
+
+  return await withTransientPublicReadRetry("public word index", async () => {
+    const PAGE_SIZE = 500;
+    const accumulated: BareSlimPublicWordIndexRow[] = [];
+    let offset = 0;
+    while (true) {
+      const { data, error } = await supabase
+        .from("words")
+        .select(WORD_INDEX_SELECT)
+        .eq("is_published", true)
+        .eq("is_deleted", false)
+        .order("lemma")
+        .range(offset, offset + PAGE_SIZE - 1);
+      if (error) {
+        throw error;
+      }
+      const rows = (data ?? []) as unknown as BareSlimPublicWordIndexRow[];
+      accumulated.push(...rows);
+      if (rows.length < PAGE_SIZE) {
+        break;
+      }
+      offset += PAGE_SIZE;
+    }
+
+    return accumulated.map(toCachedPublicWordIndexRecord);
+  });
+}
+
+// Use React cache() instead of unstable_cache() because the full word
+// index (~3.2 MB) exceeds Next.js's 2 MB per-entry unstable_cache limit.
+const fetchPublicWordRowsUncached = cache(fetchPublicWordRowsUncachedImpl);
+
+async function getCachedPublicWordRows(): Promise<
+  CachedPublicWordIndexRecord[] | null
+> {
+  try {
+    return await fetchPublicWordRowsUncached();
+  } catch (err) {
+    console.error("[words] Failed to fetch public word index:", err);
+    return null;
+  }
+}
+
+const fetchDefaultPublicWordRowsUncached = unstable_cache(
+  async (offset: number, limit: number): Promise<CachedPublicWordIndexRecord[]> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      throw new Error("Public Supabase client not configured");
+    }
+
+    return await withTransientPublicReadRetry(
+      `default public word rows offset=${offset} limit=${limit}`,
+      async () => {
+        const { data, error } = await supabase
+          .from("words")
+          .select(WORD_INDEX_SELECT)
+          .eq("is_published", true)
+          .eq("is_deleted", false)
+          .order("lemma")
+          .range(offset, offset + limit - 1);
+
+        if (error) {
+          throw error;
+        }
+
+        return ((data ?? []) as unknown as BareSlimPublicWordIndexRow[]).map(
+          toCachedPublicWordIndexRecord,
+        );
+      },
+    );
+  },
+  // Bumped to `-v4` (was `-v3`) for the WORD_INDEX_SELECT projection
+  // payload shrink �?see the matching note on `public-word-rows-v5`.
+  ["public-default-word-rows-v4"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+async function getCachedDefaultPublicWordRows(
+  offset: number,
+  limit: number,
+): Promise<CachedPublicWordIndexRecord[] | null> {
+  try {
+    return await fetchDefaultPublicWordRowsUncached(offset, limit);
+  } catch (err) {
+    console.error("[words] Failed to fetch default public word rows:", err);
+    return null;
+  }
+}
+
+const fetchFilteredPublicWordRowsUncached = unstable_cache(
+  async (
+    semantic: string,
+    freq: string,
+    offset: number,
+    limit: number,
+  ): Promise<PublicWordRowsPage> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      throw new Error("Public Supabase client not configured");
+    }
+
+    return await withTransientPublicReadRetry(
+      `filtered public word rows semantic=${semantic || "-"} freq=${freq || "-"} offset=${offset} limit=${limit}`,
+      async () => {
+        const query = applyDatabaseWordMetadataFilters(
+          supabase
+            .from("words")
+            .select(WORD_INDEX_SELECT, { count: "exact" })
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .order("lemma")
+            .range(offset, offset + limit - 1),
+          {
+            freq,
+            q: "",
+            review: "all",
+            semantic,
+          },
+        );
+        const { data, error, count } = await query;
+
+        if (error) {
+          throw error;
+        }
+
+        return {
+          rows: ((data ?? []) as unknown as BareSlimPublicWordIndexRow[]).map(
+            toCachedPublicWordIndexRecord,
+          ),
+          total: count ?? 0,
+        };
+      },
+    );
+  },
+  // Bumped to `-v4` (was `-v3`) for the WORD_INDEX_SELECT projection
+  // payload shrink �?see the matching note on `public-word-rows-v5`.
+  ["public-filtered-word-rows-v4"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+async function getCachedFilteredPublicWordRows(
+  semantic: string,
+  freq: string,
+  offset: number,
+  limit: number,
+): Promise<PublicWordRowsPage | null> {
+  try {
+    return await fetchFilteredPublicWordRowsUncached(semantic, freq, offset, limit);
+  } catch (err) {
+    console.error("[words] Failed to fetch filtered public word rows:", err);
+    return null;
+  }
+}
+
+const getCachedPublicWordFilterOptions = unstable_cache(
+  async (): Promise<PublicWordFilterOptions> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return {
+        frequencies: [],
+        semanticFields: [],
+      };
+    }
+
+    try {
+      return await withTransientPublicReadRetry("public word filter options", async () => {
+        const { data, error } = await supabase
+          .from("word_filter_facets")
+          .select("dimension, value, count, updated_at")
+          .gt("count", 0)
+          .order("value");
+
+        if (isWordFilterFacetRelationMissing(error)) {
+          return await loadLegacyPublicWordFilterOptions(supabase);
+        }
+
+        if (error) {
+          throw error;
+        }
+
+        const facetRows = (data ?? []) as BareWordFilterFacetRow[];
+        if (facetRows.length === 0) {
+          return await loadLegacyPublicWordFilterOptions(supabase);
+        }
+
+        return buildPublicWordFilterOptionsFromFacetRows(facetRows);
+      });
+    } catch (err) {
+      console.error("[words] Failed to fetch public word filter options:", err);
+      return {
+        frequencies: [],
+        semanticFields: [],
+      };
+    }
+  },
+  ["public-word-filter-options"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+const getCachedPublicWordSlugs = unstable_cache(
+  async (): Promise<string[] | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry("public word slugs", async () => {
+        // Paginated for the same reason as getCachedPublicWordRows above �?        // generateStaticParams and sitemap callers walk the full slug list
+        // and must not be silently truncated.
+        const PAGE_SIZE = 500;
+        const slugs: string[] = [];
+        let offset = 0;
+        while (true) {
+          const { data, error } = await supabase
+            .from("words")
+            .select(WORD_SLUG_SELECT)
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .order("lemma")
+            .range(offset, offset + PAGE_SIZE - 1);
+          if (error) {
+            throw error;
+          }
+          const rows = (data ?? []) as Array<{ slug: string }>;
+          for (const row of rows) {
+            slugs.push(row.slug);
+          }
+          if (rows.length < PAGE_SIZE) {
+            break;
+          }
+          offset += PAGE_SIZE;
+        }
+
+        return slugs;
+      });
+    } catch (err) {
+      console.error("[words] Failed to fetch public word slugs:", err);
+      return null;
+    }
+  },
+  ["public-word-slugs"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+const getCachedStaticPublicWordSlugs = unstable_cache(
+  async (limit: number): Promise<string[] | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry(
+        `static public word slugs limit=${limit}`,
+        async () => {
+          const { data, error } = await supabase
+            .from("words")
+            .select(WORD_SLUG_SELECT)
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .order("updated_at", { ascending: false })
+            .order("lemma")
+            .limit(limit);
+
+          if (error) {
+            throw error;
+          }
+
+          return ((data ?? []) as Array<{ slug: string }>).map((row) => row.slug);
+        },
+      );
+    } catch (err) {
+      console.error("[words] Failed to fetch static public word slugs:", err);
+      return null;
+    }
+  },
+  ["public-static-word-slugs"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+const getCachedPublicWordMetadataRecord = unstable_cache(
+  async (slug: string): Promise<PublicWordMetadataRecord | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry(
+        `word metadata slug "${slug}"`,
+        async () => {
+          const { data, error } = await supabase
+            .from("words")
+            .select(WORD_METADATA_SELECT)
+            .eq("slug", escapePostgrestLike(slug))
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .maybeSingle();
+
+          if (error) {
+            throw error;
+          }
+
+          if (!data) {
+            return null;
+          }
+
+          return {
+            lemma: String(data.lemma),
+            short_definition: (data.short_definition as string | null) ?? null,
+            slug: String(data.slug),
+            title: String(data.title),
+          } satisfies PublicWordMetadataRecord;
+        },
+      );
+    } catch (err) {
+      console.error(`[words] Failed to fetch metadata for slug "${slug}":`, err);
+      return null;
+    }
+  },
+  ["public-word-metadata"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordDetail],
+  },
+);
+
+const getCachedFeaturedWordRows = unstable_cache(
+  async (): Promise<CachedPublicWordIndexRecord[] | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry("featured public words", async () => {
+        const { data, error } = await supabase
+          .from("words")
+          .select(WORD_INDEX_SELECT)
+          .eq("is_published", true)
+          .eq("is_deleted", false)
+          .order("updated_at", { ascending: false })
+          .limit(FEATURED_WORD_LIMIT);
+
+        if (error) {
+          throw error;
+        }
+
+        return ((data ?? []) as unknown as BareSlimPublicWordIndexRow[]).map(
+          toCachedPublicWordIndexRecord,
+        );
+      });
+    } catch (err) {
+      console.error("[words] Failed to fetch featured public words:", err);
+      return null;
+    }
+  },
+  // Bumped to `-v2` for the WORD_INDEX_SELECT projection payload shrink.
+  ["public-featured-word-rows-v2"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.landing, PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+const getCachedPublicWordsCountValue = unstable_cache(
+  async (): Promise<number> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return 0;
+    }
+
+    try {
+      return await withTransientPublicReadRetry("public word count", async () => {
+        // Use select("id") + limit(1) instead of head:true to avoid
+        // PostgREST HEAD-request edge cases where Content-Range is omitted.
+        const { count, error } = await supabase
+          .from("words")
+          .select("id", { count: "exact" })
+          .eq("is_published", true)
+          .eq("is_deleted", false)
+          .limit(1);
+
+        if (error) {
+          throw error;
+        }
+
+        return count ?? 0;
+      });
+    } catch (err) {
+      console.error("[words] Failed to fetch public word count:", err);
+      return 0;
+    }
+  },
+  ["public-word-count-v2"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.landing, PUBLIC_CACHE_TAGS.wordIndex],
+  },
+);
+
+// Raw layer: DB read + tag join + structured-field shaping. Crucially this
+// returns `PublicWordDetail` *without* the four rendered HTML strings �?for
+// long-form words those strings double the payload and historically pushed
+// the combined record past Next.js's 2 MB-per-entry unstable_cache limit,
+// which silently disabled caching ("items over 2MB can not be cached"
+// build warnings) and made every detail visit re-run the entire fetch +
+// markdown render + sanitize pipeline from scratch. Splitting them out
+// keeps the cached payload comfortably under the cap.
+const getCachedPublicWordDetailRaw = unstable_cache(
+  async (slug: string): Promise<PublicWordDetail | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry(
+        `word detail slug "${slug}"`,
+        async () => {
+          let word: Record<string, Json | string | null> | null = null;
+          const structuredAttempt = await supabase
+            .from("words")
+            .select(WORD_DETAIL_STRUCTURED_SELECT)
+            .eq("slug", escapePostgrestLike(slug))
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .maybeSingle();
+
+          if (isStructuredWordColumnsMissing(structuredAttempt.error)) {
+            const legacyAttempt = await supabase
+              .from("words")
+              .select(WORD_DETAIL_LEGACY_SELECT)
+              .eq("slug", escapePostgrestLike(slug))
+              .eq("is_published", true)
+              .eq("is_deleted", false)
+              .maybeSingle();
+
+            if (legacyAttempt.error) {
+              throw legacyAttempt.error;
+            }
+
+            word = legacyAttempt.data as Record<string, Json | string | null> | null;
+          } else {
+            if (structuredAttempt.error) {
+              throw structuredAttempt.error;
+            }
+
+            word = structuredAttempt.data as Record<string, Json | string | null> | null;
+          }
+
+          if (!word) {
+            return null;
+          }
+
+          const { data: tagRows, error: tagError } = await supabase
+            .from("word_tags")
+            .select("tags!inner(label, slug)")
+            .eq("word_id", word.id as string);
+
+          if (tagError) {
+            throw tagError;
+          }
+
+          const publicWord = withStructuredFallback(word);
+
+          return {
+            ...publicWord,
+            progress: null,
+            resolved_antonym_items: resolveAntonymItems(publicWord.antonym_items),
+            resolved_synonym_items: resolveSynonymItems(publicWord.synonym_items),
+            tags: (
+              (tagRows ?? []) as unknown as Array<{ tags: { label: string; slug: string } }>
+            ).map((row) => row.tags),
+          } satisfies PublicWordDetail;
+        },
+      );
+    } catch (err) {
+      // Graceful degradation during SSG: log the error but don't crash the build.
+      // The page will show a "word not found" shell; ISR will retry on revalidation.
+      console.error(`[words] Failed to fetch detail for slug "${slug}":`, err);
+      return null;
+    }
+  },
+  // v2: bumped after splitting HTML out so any pre-existing oversized
+  // entries from the v1 key are abandoned cleanly.
+  ["public-word-detail-raw-v2"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordDetail],
+  },
+);
+
+// Render layer: pure markdown �?HTML transform with defensive sanitisation.
+// Not cached �?each call costs ~50-200 ms depending on body length. Under
+// `force-static + revalidate=300` page configuration this runs once per
+// revalidation interval per slug, not per request, so the absolute cost
+// is negligible compared to the savings from re-enabling the raw cache.
+async function renderPublicWordDetailHtml(word: PublicWordDetail): Promise<{
+  antonym_html: string;
+  body_html: string;
+  definition_html: string;
+  synonym_html: string;
+}> {
+  const hasStructuredSynonyms = word.synonym_items.length > 0;
+  const hasStructuredAntonyms = word.antonym_items.length > 0;
+  const synonymSection = getSection(word.body_md, "同义词辨析");
+  const antonymSection = getSection(word.body_md, "反义词");
+
+  const [rawBodyHtml, rawDefinitionHtml, rawSynonymHtml, rawAntonymHtml] = await Promise.all([
+    renderObsidianMarkdown(word.body_md),
+    word.definition_md ? renderObsidianMarkdown(word.definition_md) : Promise.resolve(""),
+    !hasStructuredSynonyms && synonymSection
+      ? renderObsidianMarkdown(synonymSection)
+      : Promise.resolve(""),
+    !hasStructuredAntonyms && antonymSection
+      ? renderObsidianMarkdown(antonymSection)
+      : Promise.resolve(""),
+  ]);
+
+  // Sanitize all rendered HTML to prevent XSS (defensive �?never crash the page).
+  let bodyHtml = rawBodyHtml;
+  let definitionHtml = rawDefinitionHtml;
+  let synonymHtml = rawSynonymHtml;
+  let antonymHtml = rawAntonymHtml;
+  try {
+    const { sanitizeHtmlServer } = await import("@/lib/sanitize-server");
+    bodyHtml = sanitizeHtmlServer(rawBodyHtml);
+    definitionHtml = sanitizeHtmlServer(rawDefinitionHtml);
+    synonymHtml = sanitizeHtmlServer(rawSynonymHtml);
+    antonymHtml = sanitizeHtmlServer(rawAntonymHtml);
+  } catch (sanitizeError) {
+    console.error("[words] HTML sanitization failed:", sanitizeError);
+    // Fallback to empty string rather than raw unsanitised HTML to avoid XSS.
+    return {
+      antonym_html: "",
+      body_html: "",
+      definition_html: "",
+      synonym_html: "",
+    };
+  }
+
+  return {
+    antonym_html: antonymHtml,
+    body_html: bodyHtml,
+    definition_html: definitionHtml,
+    synonym_html: synonymHtml,
+  };
+}
+
+// Compose layer: same name and signature as the original cached function so
+// consumers (`getPublicWordBySlug`, page routes, modal) need no changes.
+async function getCachedPublicWordDetailRecord(
+  slug: string,
+): Promise<CachedPublicWordDetail | null> {
+  const raw = await getCachedPublicWordDetailRaw(slug);
+  if (!raw) {
+    return null;
+  }
+
+  // Fast path: if the database already stores pre-rendered HTML (populated
+  // by the import sync pipeline), use it directly and skip the expensive
+  // markdown �?HTML + sanitise pass entirely.
+  const hasPreRenderedHtml =
+    raw.body_html != null &&
+    raw.definition_html != null &&
+    raw.synonym_html != null &&
+    raw.antonym_html != null;
+
+  if (hasPreRenderedHtml) {
+    return {
+      ...raw,
+      antonym_html: raw.antonym_html ?? "",
+      body_html: raw.body_html ?? "",
+      definition_html: raw.definition_html ?? "",
+      synonym_html: raw.synonym_html ?? "",
+    };
+  }
+
+  // Fallback: real-time markdown render for rows that pre-date the HTML
+  // cache columns or were written outside the import pipeline.
+  try {
+    const html = await renderPublicWordDetailHtml(raw);
+    return { ...raw, ...html };
+  } catch (renderError) {
+    console.error(`[words] Failed to render detail HTML for slug "${slug}":`, renderError);
+    return {
+      ...raw,
+      antonym_html: "",
+      body_html: "",
+      definition_html: "",
+      synonym_html: "",
+    };
+  }
+}
+
+const getCachedPlainWordDetail = unstable_cache(
+  async (slug: string): Promise<PlainWordDetail | null> => {
+    const supabase = getPublicSupabaseClientOrNull();
+    if (!supabase) {
+      return null;
+    }
+
+    try {
+      return await withTransientPublicReadRetry(
+        `plain word slug "${slug}"`,
+        async () => {
+          let word: Record<string, Json | string | null> | null = null;
+          const structuredAttempt = await supabase
+            .from("words")
+            .select(WORD_PLAIN_STRUCTURED_SELECT)
+            .eq("slug", escapePostgrestLike(slug))
+            .eq("is_published", true)
+            .eq("is_deleted", false)
+            .maybeSingle();
+
+          if (isStructuredWordColumnsMissing(structuredAttempt.error)) {
+            const legacyAttempt = await supabase
+              .from("words")
+              .select(WORD_PLAIN_LEGACY_SELECT)
+              .eq("slug", escapePostgrestLike(slug))
+              .eq("is_published", true)
+              .eq("is_deleted", false)
+              .maybeSingle();
+
+            if (legacyAttempt.error) {
+              throw legacyAttempt.error;
+            }
+            word = legacyAttempt.data as Record<string, Json | string | null> | null;
+          } else {
+            if (structuredAttempt.error) {
+              throw structuredAttempt.error;
+            }
+            word = structuredAttempt.data as Record<string, Json | string | null> | null;
+          }
+
+          if (!word) {
+            return null;
+          }
+
+          const { data: tagRows, error: tagError } = await supabase
+            .from("word_tags")
+            .select("tags!inner(label, slug)")
+            .eq("word_id", word.id as string);
+
+          if (tagError) {
+            throw tagError;
+          }
+
+          const metadata = (word.metadata as Json) ?? {};
+
+          return {
+            antonym_items: parseStructuredArray(word.antonym_items as Json, isAntonymItem),
+            body_md: String(word.body_md ?? ""),
+            core_definitions: parseStructuredArray(word.core_definitions as Json, isCoreDefinition),
+            definition_html: (word.definition_html as string | null) ?? null,
+            id: String(word.id),
+            ipa: (word.ipa as string | null) ?? null,
+            lemma: String(word.lemma),
+            metadata,
+            pos: (word.pos as string | null) ?? null,
+            short_definition: (word.short_definition as string | null) ?? null,
+            slug: String(word.slug),
+            synonym_items: parseStructuredArray(word.synonym_items as Json, isSynonymItem),
+            tags: (
+              (tagRows ?? []) as unknown as Array<{ tags: { label: string; slug: string } }>
+            ).map((row) => row.tags),
+            title: String(word.title),
+            updated_at: String(word.updated_at),
+          } satisfies PlainWordDetail;
+        },
+      );
+    } catch (err) {
+      console.error(`[words] Failed to fetch plain detail for slug "${slug}":`, err);
+      return null;
+    }
+  },
+  ["plain-word-detail"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.wordDetail],
+  },
+);
+
+export const getLandingSnapshot = unstable_cache(
+  async (): Promise<LandingSnapshot> => {
+    const repoName = `${env.repoOwner}/${env.repoName}`;
+
+    if (!hasSupabasePublicEnv()) {
+      return {
+        configured: false,
+        featuredWords: [],
+        repoName,
+        totalWords: 0,
+      };
+    }
+
+    const [featuredRows, totalWords] = await Promise.all([
+      getCachedFeaturedWordRows(),
+      getCachedPublicWordsCountValue(),
+    ]);
+    const featuredWords = [...(featuredRows ?? [])]
+      .map((word) => toPublicWordSummary(word, null));
+
+    return {
+      configured: true,
+      featuredWords,
+      repoName,
+      totalWords,
+    };
+  },
+  ["public-landing-snapshot-v2"],
+  {
+    revalidate: PUBLIC_REVALIDATE_SECONDS,
+    tags: [PUBLIC_CACHE_TAGS.landing],
+  },
+);
+
+export async function getPublicWords(
+  filters?: WordQueryFilters,
+  options?: GetPublicWordsOptions,
+): Promise<PublicWordsResponse> {
+  const isOwner = Boolean(options?.ownerUserId && options.ownerSupabase);
+  const pagination = normalizeWordPagination(options?.pagination);
+  const normalizedFilters = normalizeWordFilters(filters, {
+    allowReviewFilter: isOwner,
+  });
+
+  if (!hasSupabasePublicEnv()) {
+    return {
+      ...createPublicWordsShellResponse(normalizedFilters, pagination),
+      configured: false,
+      isOwner,
+    };
+  }
+
+  const publicFilterOptionsPromise = getCachedPublicWordFilterOptions();
+
+  // Owners can use the same DB-paginated fast paths as anonymous visitors as
+  // long as their active filter set doesn't depend on per-user state
+  // (user_word_progress) or free-text q matching. We just fetch the progress
+  // map alongside and overlay it onto the visible page �?cheap because the
+  // overlay only runs for ~60 rows.
+  const ownerProgressMapPromise: Promise<Map<string, OwnerWordProgressSummary>> =
+    isOwner
+      ? getOwnerProgressMap(options!.ownerUserId!, options!.ownerSupabase!)
+      : Promise.resolve(new Map<string, OwnerWordProgressSummary>());
+
+  if (isDefaultPublicWordFilters(normalizedFilters)) {
+    const [defaultRows, filterOptions, total, ownerProgressMap] = await Promise.all([
+      getCachedDefaultPublicWordRows(pagination.offset, pagination.limit),
+      publicFilterOptionsPromise,
+      getCachedPublicWordsCountValue(),
+      ownerProgressMapPromise,
+    ]);
+    const visibleWords = (defaultRows ?? []).map((word) =>
+      toPublicWordSummary(word, isOwner ? (ownerProgressMap.get(word.id) ?? null) : null),
+    );
+    const pageState = createPublicWordsPageState(total, pagination, visibleWords.length);
+
+    return {
+      configured: true,
+      ...pageState,
+      filterOptions,
+      filters: normalizedFilters,
+      isOwner,
+      words: visibleWords,
+    };
+  }
+
+  if (canUseDatabaseFilteredPublicWordsPath(normalizedFilters)) {
+    const [filteredPage, filterOptions, ownerProgressMap] = await Promise.all([
+      getCachedFilteredPublicWordRows(
+        normalizedFilters.semantic,
+        normalizedFilters.freq,
+        pagination.offset,
+        pagination.limit,
+      ),
+      publicFilterOptionsPromise,
+      ownerProgressMapPromise,
+    ]);
+
+    // Only honour the DB-filtered fast path when it actually returned data.
+    // null means the inner cached fetch threw �?historically the Postgres
+    // statement_timeout on `.contains('metadata', {...})`. The metadata
+    // GIN index has existed since migration 0008, but `{ count: 'exact' }`
+    // forces a `count(*) OVER ()` window which has to materialise every
+    // matching row, and then `ORDER BY lemma` had no supporting index, so
+    // the GIN-scan �?sort �?window-count chain overflowed Supabase's 8s
+    // budget for selective filters (~1800 freq=必备�?rows). Migration
+    // 0018 adds a partial btree on lemma to fix the sort step. Until it
+    // ships �?and as a permanent safety net for any future planner
+    // regression �?fall through to the JS-filter path below, which has
+    // every row warm in unstable_cache and resolves any single
+    // semantic/freq predicate in microseconds without touching PostgREST.
+    if (filteredPage !== null) {
+      const visibleWords = filteredPage.rows.map((word) =>
+        toPublicWordSummary(word, isOwner ? (ownerProgressMap.get(word.id) ?? null) : null),
+      );
+      const pageState = createPublicWordsPageState(
+        filteredPage.total,
+        pagination,
+        visibleWords.length,
+      );
+
+      return {
+        configured: true,
+        ...pageState,
+        filterOptions,
+        filters: normalizedFilters,
+        isOwner,
+        words: visibleWords,
+      };
+    }
+  }
+
+  // Fallback path. Reached when:
+  //   - q !== '' (free-text search needs the full corpus in JS, no Postgres-
+  //     side text index yet)
+  //   - review !== 'all' (per-user progress join needs every row)
+  //   - OR the DB-filtered fast path above returned null (transient
+  //     statement_timeout on JSONB containment without a GIN index �?see
+  //     the explanatory comment in that branch).
+  // The .filter() block below correctly applies semantic/freq/q/review
+  // predicates against the cached full word list, so it acts as a
+  // universal correctness floor.
+  const [allWords, ownerProgressMap, filterOptions] = await Promise.all([
+    getCachedPublicWordRows(),
+    ownerProgressMapPromise,
+    publicFilterOptionsPromise,
+  ]);
+
+  const safeWords = allWords ?? [];
+
+  const filtered = safeWords.filter((word) => {
+    if (!matchesQuery(word, normalizedFilters.q)) {
+      return false;
+    }
+
+    if (normalizedFilters.semantic && word.semantic_field !== normalizedFilters.semantic) {
+      return false;
+    }
+
+    if (normalizedFilters.freq && word.word_freq !== normalizedFilters.freq) {
+      return false;
+    }
+
+    if (!matchesReviewFilter(ownerProgressMap.get(word.id) ?? null, normalizedFilters.review)) {
+      return false;
+    }
+
+    return true;
+  });
+
+  const visibleWords = filtered
+    .slice(pagination.offset, pagination.offset + pagination.limit)
+    .map((word) =>
+      toPublicWordSummary(word, isOwner ? (ownerProgressMap.get(word.id) ?? null) : null),
+    );
+  const pageState = createPublicWordsPageState(filtered.length, pagination, visibleWords.length);
+
+  return {
+    configured: true,
+    ...pageState,
+    filterOptions,
+    filters: normalizedFilters,
+    isOwner,
+    words: visibleWords,
+  };
+}
+
+export async function getPublicWordBySlug(slug: string) {
+  if (!hasSupabasePublicEnv()) {
+    return {
+      configured: false,
+      word: null as CachedPublicWordDetail | null,
+    };
+  }
+
+  return {
+    configured: true,
+    word: await getCachedPublicWordDetailRecord(slug),
+  };
+}
+
+export async function getPlainWordBySlug(slug: string) {
+  if (!hasSupabasePublicEnv()) {
+    return {
+      configured: false,
+      word: null as PlainWordDetail | null,
+    };
+  }
+
+  return {
+    configured: true,
+    word: await getCachedPlainWordDetail(slug),
+  };
+}
+
+export async function getPublicWordMetadataBySlug(slug: string) {
+  if (!hasSupabasePublicEnv()) {
+    return {
+      configured: false,
+      word: null as PublicWordMetadataRecord | null,
+    };
+  }
+
+  return {
+    configured: true,
+    word: await getCachedPublicWordMetadataRecord(slug),
+  };
+}
+
+export async function getPublicWordsCount() {
+  if (!hasSupabasePublicEnv()) {
+    return 0;
+  }
+
+  return getCachedPublicWordsCountValue();
+}
+
+export async function getStaticPublicWordSlugs(limit?: number) {
+  if (!hasSupabasePublicEnv()) {
+    return [];
+  }
+
+  if (typeof limit === "number") {
+    return (await getCachedStaticPublicWordSlugs(limit)) ?? [];
+  }
+
+  return (await getCachedPublicWordSlugs()) ?? [];
+}
+
+export async function getAllPublicWordIndexEntries(): Promise<PublicWordIndexEntry[]> {
+  if (!hasSupabasePublicEnv()) {
+    return [];
+  }
+
+  return ((await getCachedPublicWordRows()) ?? []).map(toPublicWordIndexEntry);
+}

@@ -1,0 +1,684 @@
+import type { SupabaseClient } from "@/lib/db";
+import {
+  isCollectionNotesRelationMissing,
+  type ParsedCollectionNote,
+} from "@/lib/collection-notes";
+import { env } from "@/lib/env";
+import {
+  completeImportRun,
+  createImportRun,
+  insertImportErrors,
+  type ImportFileError,
+} from "@/lib/imports";
+import {
+  castStructuredWordJson,
+  isStructuredWordColumnsMissing,
+} from "@/lib/structured-word";
+import { importWordsFromGitHubArchive } from "@/lib/sync/github-source";
+import {
+  planEntitySync,
+  planWordSync,
+  type ExistingSyncRef,
+  type ExistingWordRef,
+} from "@/lib/sync/import-plan";
+import type { Database } from "@/types/database.types";
+import { asJson } from "@/types/database.types";
+import { renderObsidianMarkdown, getSection } from "@/lib/markdown";
+import { chunkArray, slugifyLabel } from "@/lib/utils";
+
+type AdminClient = SupabaseClient<Database>;
+type ImportedWords = Awaited<ReturnType<typeof importWordsFromGitHubArchive>>["words"];
+type ImportedCollections =
+  Awaited<ReturnType<typeof importWordsFromGitHubArchive>>["collectionNotes"];
+const WORD_FILTER_FACET_DIMENSIONS = ["semantic_field", "word_freq"] as const;
+type WordFilterFacetDimension = (typeof WORD_FILTER_FACET_DIMENSIONS)[number];
+
+function isWordFilterFacetRelationMissing(error: unknown) {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "message" in error &&
+    typeof error.message === "string" &&
+    error.message.includes("word_filter_facets")
+  );
+}
+
+// PostgREST returns at most `db-max-rows` (1000 by default on Supabase) per
+// SELECT, even without an explicit `.limit()`. The import pipeline has two
+// reads that must enumerate every existing row in scope:
+//   1. `existingRows` �?drives create/update/unchanged classification and the
+//      soft-delete plan. A truncated set silently mis-classifies surplus rows
+//      as `create`; the upsert still fixes the data via `onConflict`, but the
+//      reported counts diverge from reality and any orphan rows past the
+//      first 1000 escape soft-delete entirely.
+//   2. `wordsWithIds` �?builds the `slug �?id` map used to insert
+//      `word_tags`. Truncation here is a real data bug: every word past the
+//      first 1000 in a prefix gets no tag associations.
+//
+// We iterate each prefix individually with `.like(..., '${prefix}/%')` rather
+// than a combined `.or(...)` filter. The `.or()` form was observed to ignore
+// `.range()` pagination on this Supabase project �?every page-2 request
+// returned the same first 1000 rows, regardless of offset. Per-prefix
+// `.like()` plays nicely with Range headers and stays simple.
+export async function selectAllInScope<TRow>(
+  admin: AdminClient,
+  table: "words",
+  columns: string,
+  prefixes: readonly string[],
+): Promise<TRow[]> {
+  const PAGE_SIZE = 500;
+  const accumulated: TRow[] = [];
+  for (const prefix of prefixes) {
+    let offset = 0;
+    while (true) {
+      const { data, error } = await admin
+        .from(table)
+        .select(columns)
+        .like("source_path", `${prefix}/%`)
+        .order("source_path")
+        .range(offset, offset + PAGE_SIZE - 1);
+      if (error) {
+        throw error;
+      }
+      const rows = (data ?? []) as TRow[];
+      accumulated.push(...rows);
+      if (rows.length < PAGE_SIZE) {
+        break;
+      }
+      offset += PAGE_SIZE;
+    }
+  }
+  return accumulated;
+}
+
+// Loosened from `ImportedWords` to a structural shape so we can also feed it
+// rows read from the DB (`words.metadata`) without round-tripping through the
+// parser. Used by the batched-import path to rebuild facets from the entire
+// corpus rather than from just the active prefix's incoming words.
+type FacetSourceWord = { metadata: Record<string, unknown> | null };
+
+function buildWordFilterFacetRows(
+  words: readonly FacetSourceWord[],
+  now: string,
+): Database["public"]["Tables"]["word_filter_facets"]["Insert"][] {
+  const counts = new Map<string, number>();
+
+  for (const word of words) {
+    if (!word.metadata) {
+      continue;
+    }
+    for (const dimension of WORD_FILTER_FACET_DIMENSIONS) {
+      const value = word.metadata[dimension];
+      if (typeof value !== "string") {
+        continue;
+      }
+
+      const trimmed = value.trim();
+      if (!trimmed) {
+        continue;
+      }
+
+      const key = `${dimension}:${trimmed}`;
+      counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+  }
+
+  return [...counts.entries()].map(([key, count]) => {
+    const separatorIndex = key.indexOf(":");
+    const dimension = key.slice(0, separatorIndex) as WordFilterFacetDimension;
+    const value = key.slice(separatorIndex + 1);
+
+    return {
+      count,
+      dimension,
+      updated_at: now,
+      value,
+    };
+  });
+}
+
+function tagRecordsFromWords(words: ImportedWords) {
+  const tagMap = new Map<string, { label: string; slug: string }>();
+
+  for (const word of words) {
+    for (const tag of word.tags) {
+      const label = tag.trim();
+      if (!label) {
+        continue;
+      }
+
+      const slug = slugifyLabel(label);
+      tagMap.set(slug, { label, slug });
+    }
+  }
+
+  return [...tagMap.values()];
+}
+
+type WordHtmlPayload = {
+  antonym_html: string;
+  body_html: string;
+  definition_html: string;
+  synonym_html: string;
+};
+
+export async function renderWordHtmlPayload(word: ImportedWords[number]): Promise<WordHtmlPayload> {
+  const hasStructuredSynonyms = word.synonymItems.length > 0;
+  const hasStructuredAntonyms = word.antonymItems.length > 0;
+  const synonymSection = getSection(word.bodyMd, "同义词辨析");
+  const antonymSection = getSection(word.bodyMd, "反义词");
+
+  const [rawBodyHtml, rawDefinitionHtml, rawSynonymHtml, rawAntonymHtml] = await Promise.all([
+    renderObsidianMarkdown(word.bodyMd),
+    word.definitionMd ? renderObsidianMarkdown(word.definitionMd) : Promise.resolve(""),
+    !hasStructuredSynonyms && synonymSection ? renderObsidianMarkdown(synonymSection) : Promise.resolve(""),
+    !hasStructuredAntonyms && antonymSection ? renderObsidianMarkdown(antonymSection) : Promise.resolve(""),
+  ]);
+
+  const { sanitizeHtmlServer } = await import("@/lib/sanitize-server");
+  return {
+    antonym_html: sanitizeHtmlServer(rawAntonymHtml),
+    body_html: sanitizeHtmlServer(rawBodyHtml),
+    definition_html: sanitizeHtmlServer(rawDefinitionHtml),
+    synonym_html: sanitizeHtmlServer(rawSynonymHtml),
+  };
+}
+
+export function createWordUpsertPayload(
+  word: ImportedWords[number],
+  now: string,
+  includeStructuredFields: boolean,
+  html: WordHtmlPayload,
+): Database["public"]["Tables"]["words"]["Insert"] {
+  return {
+    aliases: word.aliases,
+    antonym_html: html.antonym_html,
+    antonym_items: includeStructuredFields
+      ? castStructuredWordJson(word).antonym_items
+      : undefined,
+    body_html: html.body_html,
+    body_md: word.bodyMd,
+    collocations: includeStructuredFields
+      ? castStructuredWordJson(word).collocations
+      : undefined,
+    content_hash: word.contentHash,
+    core_definitions: includeStructuredFields
+      ? castStructuredWordJson(word).core_definitions
+      : undefined,
+    corpus_items: includeStructuredFields
+      ? castStructuredWordJson(word).corpus_items
+      : undefined,
+    definition_html: html.definition_html,
+    definition_md: word.definitionMd,
+    examples: asJson(word.examples),
+    ipa: word.ipa,
+    is_deleted: false,
+    is_published: true,
+    lang_code: word.langCode,
+    lemma: word.lemma,
+    metadata: word.metadata,
+    pos: word.pos,
+    prototype_text: includeStructuredFields
+      ? castStructuredWordJson(word).prototype_text
+      : undefined,
+    short_definition: word.shortDefinition,
+    slug: word.slug,
+    source_path: word.sourcePath,
+    source_updated_at: word.sourceUpdatedAt,
+    synonym_html: html.synonym_html,
+    synonym_items: includeStructuredFields
+      ? castStructuredWordJson(word).synonym_items
+      : undefined,
+    synced_at: now,
+    title: word.title,
+    updated_at: now,
+  };
+}
+
+function createCollectionNoteUpsertPayload(
+  note: ParsedCollectionNote,
+  now: string,
+): Database["public"]["Tables"]["collection_notes"]["Insert"] {
+  return {
+    body_md: note.bodyMd,
+    content_hash: note.contentHash,
+    is_deleted: false,
+    is_published: true,
+    kind: note.kind,
+    metadata: note.metadata,
+    related_word_slugs: note.relatedWordSlugs,
+    slug: note.slug,
+    source_path: note.sourcePath,
+    source_updated_at: note.sourceUpdatedAt,
+    summary: note.summary,
+    synced_at: now,
+    tags: note.tags,
+    title: note.title,
+    updated_at: now,
+  };
+}
+
+export interface SyncGitHubWordsOptions {
+  // Lets a manual call narrow the sync to a single prefix (e.g. only
+  // `Wiki/L0_超纲词`). When omitted we fall back to the full configured list,
+  // which is what the daily cron wants. A narrowed run still produces a
+  // complete import_run record; its soft-delete scope is likewise narrowed
+  // so untouched prefixes keep their existing rows.
+  prefixesOverride?: readonly string[];
+  triggerType?: string;
+}
+
+export async function syncGitHubWords(
+  admin: AdminClient,
+  options?: SyncGitHubWordsOptions,
+) {
+  console.log("[sync] Step 0: starting syncGitHubWords");
+  const triggerType = options?.triggerType ?? "manual";
+  const activePrefixes = options?.prefixesOverride ?? env.wordsPrefixes;
+  console.log("[sync] Step 1: createImportRun...");
+  const importRun = await createImportRun(admin, triggerType);
+  console.log("[sync] Step 1 done, runId:", importRun?.id);
+  const importErrors: ImportFileError[] = [];
+
+  try {
+    console.log("[sync] Step 2: importWordsFromGitHubArchive...");
+    const imported = await importWordsFromGitHubArchive({ prefixes: activePrefixes });
+    const incomingCollectionNotes = imported.collectionNotes;
+    const incomingWords = imported.words;
+    importErrors.push(...imported.errors);
+    console.log("[sync] Step 2 done, words:", incomingWords.length, "notes:", incomingCollectionNotes.length);
+
+    console.log("[sync] Step 3: selectAllInScope words...");
+    const existingRows = await selectAllInScope<{
+      content_hash: string | null;
+      is_deleted: boolean;
+      slug: string;
+      source_path: string;
+    }>(
+      admin,
+      "words",
+      "slug, source_path, content_hash, is_deleted",
+      activePrefixes,
+    );
+    console.log("[sync] Step 3 done, existing:", existingRows.length);
+
+    console.log("[sync] Step 4: select collection_notes...");
+    let collectionNotesAvailable = true;
+    const { data: existingCollectionRows, error: existingCollectionError } = await admin
+      .from("collection_notes")
+      .select("slug, source_path, content_hash, is_deleted");
+
+    if (isCollectionNotesRelationMissing(existingCollectionError)) {
+      collectionNotesAvailable = false;
+    } else if (existingCollectionError) {
+      throw existingCollectionError;
+    }
+    console.log("[sync] Step 4 done, collection notes:", existingCollectionRows?.length);
+
+    const plan = planWordSync(
+      (existingRows ?? []) as ExistingWordRef[],
+      incomingWords,
+    );
+    const collectionPlan = collectionNotesAvailable
+      ? planEntitySync(
+          (existingCollectionRows ?? []) as ExistingSyncRef[],
+          incomingCollectionNotes,
+        )
+      : {
+          create: [] as ImportedCollections,
+          softDelete: [] as ExistingSyncRef[],
+          unchanged: [] as ImportedCollections,
+          update: [] as ImportedCollections,
+        };
+    const failedSourcePaths = new Set(
+      importErrors
+        .map((entry) => entry.sourcePath)
+        .filter((value): value is string => Boolean(value)),
+    );
+    plan.softDelete = plan.softDelete.filter(
+      (row) => !failedSourcePaths.has(row.source_path),
+    );
+    collectionPlan.softDelete = collectionPlan.softDelete.filter(
+      (row) => !failedSourcePaths.has(row.source_path),
+    );
+
+    const now = new Date().toISOString();
+    const syncableWords = [
+      ...plan.create,
+      ...plan.update,
+      // Re-upsert unchanged source files so parser/schema upgrades can backfill derived fields.
+      ...plan.unchanged,
+    ];
+    console.log("[sync] Step 5: syncable words:", syncableWords.length);
+
+    // Pre-render markdown �?HTML once per word during import so the detail
+    // page can serve cached HTML instead of rendering on every request.
+    console.log("[sync] Step 6: renderWordHtmlPayload...");
+    const htmlPayloads = await Promise.all(
+      syncableWords.map((word) => renderWordHtmlPayload(word)),
+    );
+    console.log("[sync] Step 6 done");
+
+    let includeStructuredFields = true;
+    let upsertableWords: Database["public"]["Tables"]["words"]["Insert"][] = syncableWords.map(
+      (word, index) => createWordUpsertPayload(word, now, includeStructuredFields, htmlPayloads[index]),
+    );
+
+    // Deduplicate by slug — the same word may appear under multiple prefixes
+    // (e.g. both "Wiki/L0_基础词/appeal.md" and "Wiki/L0_单词集合/appeal.md").
+    // Postgres ON CONFLICT cannot handle duplicate conflict keys in one batch.
+    const slugMap = new Map<string, Database["public"]["Tables"]["words"]["Insert"]>();
+    for (const row of upsertableWords) {
+      if (!slugMap.has(row.slug!)) {
+        slugMap.set(row.slug!, row);
+      }
+    }
+    upsertableWords = Array.from(slugMap.values());
+    console.log("[sync] Step 7: upsert words... deduped:", upsertableWords.length);
+    let upsertChunks = chunkArray(upsertableWords, 100);
+    for (let chunkIndex = 0; chunkIndex < upsertChunks.length; chunkIndex += 1) {
+      const chunk = upsertChunks[chunkIndex];
+      if (chunk.length === 0) {
+        continue;
+      }
+
+      const { error } = await admin.from("words").upsert(chunk, {
+        onConflict: "slug",
+      });
+
+      if (isStructuredWordColumnsMissing(error) && includeStructuredFields) {
+        includeStructuredFields = false;
+        upsertableWords = syncableWords.map((word, index) =>
+          createWordUpsertPayload(word, now, false, htmlPayloads[index]),
+        );
+        upsertChunks = chunkArray(upsertableWords, 100);
+        chunkIndex = -1;
+        continue;
+      }
+
+      if (error) {
+        console.error("[sync] Step 7 FAILED at chunk", chunkIndex + 1, ":", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 7 done");
+
+    console.log("[sync] Step 8: word_filter_facets...");
+    let wordFilterFacetsAvailable = true;
+    // Batched runs (`?prefix=...`) only carry the active prefix's words in
+    // `incomingWords`, but the facets table is global �?wiping it and writing
+    // only one prefix's aggregates would erase the others. Read every
+    // configured prefix's metadata back from the DB so the rebuild reflects
+    // the full corpus regardless of which subset this invocation upserted.
+    const facetSourceWords: readonly FacetSourceWord[] = options?.prefixesOverride
+      ? await selectAllInScope<FacetSourceWord>(
+          admin,
+          "words",
+          "metadata",
+          env.wordsPrefixes,
+        )
+      : incomingWords;
+    const wordFilterFacetRows = buildWordFilterFacetRows(facetSourceWords, now);
+    const { error: clearWordFilterFacetError } = await admin
+      .from("word_filter_facets")
+      .delete()
+      .in("dimension", [...WORD_FILTER_FACET_DIMENSIONS]);
+
+    if (isWordFilterFacetRelationMissing(clearWordFilterFacetError)) {
+      wordFilterFacetsAvailable = false;
+    } else if (clearWordFilterFacetError) {
+      throw clearWordFilterFacetError;
+    }
+
+    for (const chunk of chunkArray(wordFilterFacetRows, 100)) {
+      if (chunk.length === 0 || !wordFilterFacetsAvailable) {
+        continue;
+      }
+
+      const { error } = await admin.from("word_filter_facets").upsert(chunk, {
+        onConflict: "dimension,value",
+      });
+
+      if (isWordFilterFacetRelationMissing(error)) {
+        wordFilterFacetsAvailable = false;
+        continue;
+      }
+
+      if (error) {
+        console.error("[sync] Step 8 FAILED (facets upsert):", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 8 done");
+
+    console.log("[sync] Step 9: collection_notes...");
+    const syncableCollectionNotes = [
+      ...collectionPlan.create,
+      ...collectionPlan.update,
+      ...collectionPlan.unchanged,
+    ];
+
+    for (const chunk of chunkArray(
+      syncableCollectionNotes.map((note) => createCollectionNoteUpsertPayload(note, now)),
+      100,
+    )) {
+      if (chunk.length === 0 || !collectionNotesAvailable) {
+        continue;
+      }
+
+      const { error } = await admin.from("collection_notes").upsert(chunk, {
+        onConflict: "slug",
+      });
+
+      if (isCollectionNotesRelationMissing(error)) {
+        collectionNotesAvailable = false;
+        continue;
+      }
+
+      if (error) {
+        console.error("[sync] Step 9 FAILED (collection_notes upsert):", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 9 done");
+
+    console.log("[sync] Step 10: soft deletes...");
+    const softDeletePaths = plan.softDelete.map((row) => row.source_path);
+    for (const chunk of chunkArray(softDeletePaths, 100)) {
+      if (chunk.length === 0) {
+        continue;
+      }
+
+      const { error } = await admin
+        .from("words")
+        .update({
+          is_deleted: true,
+          is_published: false,
+          updated_at: now,
+        })
+        .in("source_path", chunk);
+
+      if (error) {
+        console.error("[sync] Step 10 FAILED (words soft delete):", error);
+        throw error;
+      }
+    }
+
+    const collectionSoftDeletePaths = collectionPlan.softDelete.map((row) => row.source_path);
+    for (const chunk of chunkArray(collectionSoftDeletePaths, 100)) {
+      if (chunk.length === 0 || !collectionNotesAvailable) {
+        continue;
+      }
+
+      const { error } = await admin
+        .from("collection_notes")
+        .update({
+          is_deleted: true,
+          is_published: false,
+          updated_at: now,
+        })
+        .in("source_path", chunk);
+
+      if (isCollectionNotesRelationMissing(error)) {
+        collectionNotesAvailable = false;
+        continue;
+      }
+
+      if (error) {
+        console.error("[sync] Step 10 FAILED (collection_notes soft delete):", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 10 done");
+
+    console.log("[sync] Step 11: tags...");
+    const tags = tagRecordsFromWords(incomingWords);
+    for (const chunk of chunkArray(tags, 200)) {
+      if (chunk.length === 0) {
+        continue;
+      }
+
+      const { error } = await admin.from("tags").upsert(chunk, {
+        onConflict: "slug",
+      });
+
+      if (error) {
+        console.error("[sync] Step 11 FAILED (tags upsert):", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 11 done");
+
+    console.log("[sync] Step 12: word_tags...");
+    const wordsWithIds = await selectAllInScope<{ id: string; slug: string }>(
+      admin,
+      "words",
+      "id, slug",
+      activePrefixes,
+    );
+
+    const { data: tagsWithIds, error: tagsError } = await admin
+      .from("tags")
+      .select("id, slug");
+
+    if (tagsError) {
+      throw tagsError;
+    }
+
+    const wordIdBySlug = new Map((wordsWithIds ?? []).map((row) => [row.slug, row.id]));
+    const tagIdBySlug = new Map((tagsWithIds ?? []).map((row) => [row.slug, row.id]));
+    const importedWordIds = incomingWords
+      .map((word) => wordIdBySlug.get(word.slug))
+      .filter((value): value is string => Boolean(value));
+
+    for (const chunk of chunkArray(importedWordIds, 100)) {
+      if (chunk.length === 0) {
+        continue;
+      }
+
+      const { error } = await admin.from("word_tags").delete().in("word_id", chunk);
+      if (error) {
+        console.error("[sync] Step 12 FAILED (word_tags delete):", error);
+        throw error;
+      }
+    }
+
+    const wordTagRows = incomingWords.flatMap((word) => {
+      const wordId = wordIdBySlug.get(word.slug);
+      if (!wordId) {
+        return [];
+      }
+
+      return word.tags
+        .map((tag) => tagIdBySlug.get(slugifyLabel(tag)))
+        .filter((tagId): tagId is string => Boolean(tagId))
+        .map((tagId) => ({
+          tag_id: tagId,
+          word_id: wordId,
+        }));
+    });
+
+    for (const chunk of chunkArray(wordTagRows, 300)) {
+      if (chunk.length === 0) {
+        continue;
+      }
+
+      const { error } = await admin.from("word_tags").upsert(chunk, {
+        onConflict: "word_id,tag_id",
+      });
+
+      if (error) {
+        console.error("[sync] Step 12 FAILED (word_tags upsert):", error);
+        throw error;
+      }
+    }
+    console.log("[sync] Step 12 done");
+
+    console.log("[sync] Step 13: finalize import run...");
+    await insertImportErrors(admin, importRun?.id ?? null, importErrors);
+    await completeImportRun(admin, importRun?.id ?? null, {
+      created_count: plan.create.length,
+      error_count: importErrors.length,
+      finished_at: now,
+      imported_count: incomingWords.length,
+      soft_deleted_count: plan.softDelete.length,
+      status: importErrors.length > 0 ? "completed_with_errors" : "completed",
+      summary: {
+        collection_notes: collectionNotesAvailable
+          ? {
+              created: collectionPlan.create.length,
+              imported: incomingCollectionNotes.length,
+              soft_deleted: collectionPlan.softDelete.length,
+              unchanged: collectionPlan.unchanged.length,
+              updated: collectionPlan.update.length,
+            }
+          : {
+              available: false,
+            },
+        failed_source_paths: [...failedSourcePaths],
+        zip_root: imported.zipRoot,
+      },
+      tags_count: tags.length,
+      trigger_type: triggerType,
+      unchanged_count: plan.unchanged.length,
+      updated_count: plan.update.length,
+    });
+    console.log("[sync] Step 13 done");
+
+    return {
+      created: plan.create.length,
+      collectionNotesCreated: collectionNotesAvailable ? collectionPlan.create.length : 0,
+      collectionNotesImported: collectionNotesAvailable ? incomingCollectionNotes.length : 0,
+      collectionNotesSoftDeleted: collectionNotesAvailable ? collectionPlan.softDelete.length : 0,
+      collectionNotesUpdated: collectionNotesAvailable ? collectionPlan.update.length : 0,
+      errorCount: importErrors.length,
+      imported: incomingWords.length,
+      latestRunId: importRun?.id ?? null,
+      softDeleted: plan.softDelete.length,
+      tags: tags.length,
+      unchanged: plan.unchanged.length,
+      updated: plan.update.length,
+    };
+  } catch (error) {
+    console.error("[sync] CATCH BLOCK ERROR:", error);
+    const message = error instanceof Error ? error.message : "Import failed.";
+    const fallbackError: ImportFileError = {
+      errorMessage: message,
+      errorStage: "sync_pipeline",
+      rawExcerpt: null,
+      sourcePath: null,
+    };
+    importErrors.push(fallbackError);
+    await insertImportErrors(admin, importRun?.id ?? null, [fallbackError]);
+    await completeImportRun(admin, importRun?.id ?? null, {
+      error_count: importErrors.length,
+      finished_at: new Date().toISOString(),
+      status: "failed",
+      summary: {
+        message,
+      },
+      trigger_type: triggerType,
+    });
+    throw error;
+  }
+}

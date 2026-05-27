@@ -1,0 +1,61 @@
+import Link from "next/link";
+import type { Route } from "next";
+import { LemmaReveal } from "@/components/motion/LemmaReveal";
+import { Badge } from "@/components/ui/Badge";
+import { createCollectionNotePath, createCollectionNoteSlug } from "@/lib/collection-notes";
+import type { PublicWordDetail } from "@/lib/words";
+
+type WordHeaderWord = Pick<
+  PublicWordDetail,
+  "ipa" | "lemma" | "metadata" | "pos" | "short_definition" | "tags"
+>;
+
+function getMetadataValue(word: WordHeaderWord, key: string) {
+  return typeof word.metadata === "object" &&
+    word.metadata &&
+    !Array.isArray(word.metadata) &&
+    key in word.metadata
+    ? String(word.metadata[key])
+    : null;
+}
+
+export function WordHeader({ word }: { word: WordHeaderWord }) {
+  const semanticField = getMetadataValue(word, "semantic_field");
+  const wordFrequency = getMetadataValue(word, "word_freq");
+  const semanticFieldHref = semanticField
+    ? createCollectionNotePath(createCollectionNoteSlug("semantic_field", semanticField))
+    : null;
+
+  return (
+    <section className="panel-strong rounded-[2rem] p-8">
+      <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+        <div className="max-w-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-ink-soft)]">
+            {word.pos ?? "Word"}
+          </p>
+          <h1 className="mt-3">
+            <LemmaReveal lemma={word.lemma} />
+          </h1>
+          {word.ipa ? (
+            <p className="mt-3 text-lg tracking-wide text-[var(--color-ink-soft)]">{word.ipa}</p>
+          ) : null}
+          <p className="mt-6 text-base leading-8 text-[var(--color-ink-soft)]">
+            {word.short_definition ?? "暂无摘要释义。"}
+          </p>
+        </div>
+
+        <div className="flex max-w-md flex-wrap gap-2">
+          {semanticField && semanticFieldHref ? (
+            <Link href={semanticFieldHref as Route} className="transition hover:opacity-85">
+              <Badge>{semanticField}</Badge>
+            </Link>
+          ) : null}
+          {wordFrequency ? <Badge tone="warm">{wordFrequency}</Badge> : null}
+          {word.tags.map((tag) => (
+            <Badge key={tag.slug}>{tag.label}</Badge>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
