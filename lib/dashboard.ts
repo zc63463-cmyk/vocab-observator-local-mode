@@ -479,7 +479,7 @@ export async function getDashboardSummary() {
       recentLogs: [] as Array<{
         rating: string;
         reviewed_at: string;
-        words: { lemma: string; slug: string; title: string } | null;
+        words: { lemma: string; slug: string; title: string; semanticField: string | null } | null;
       }>,
       retentionDiagnostic: computeRetentionDiagnostic({
         desiredRetention: DEFAULT_DESIRED_RETENTION,
@@ -655,11 +655,22 @@ export async function getDashboardSummary() {
   const sevenDaysAgo = addDays(new Date(today), -6);
   const reviewLogs7d = reviewLogs30d.filter((row) => row.reviewed_at >= sevenDaysAgo.toISOString());
 
-  const recentLogs = reviewLogs30d.slice(0, 8).map((row) => ({
-    rating: row.rating,
-    reviewed_at: row.reviewed_at,
-    words: row.words ? { lemma: row.words.lemma, slug: row.words.slug, title: row.words.title } : null,
-  }));
+  const recentLogs = reviewLogs30d.slice(0, 8).map((row) => {
+    const metadata = row.words?.metadata as DashboardSemanticWord["metadata"] | null | undefined;
+    const semanticField =
+      metadata && typeof metadata === "object" && !Array.isArray(metadata)
+        ? typeof metadata.semantic_field === "string"
+          ? metadata.semantic_field
+          : null
+        : null;
+    return {
+      rating: row.rating,
+      reviewed_at: row.reviewed_at,
+      words: row.words
+        ? { lemma: row.words.lemma, slug: row.words.slug, title: row.words.title, semanticField }
+        : null,
+    };
+  });
 
   const ratingDistribution = { again: 0, easy: 0, good: 0, hard: 0 };
   for (const row of reviewLogs30d) {

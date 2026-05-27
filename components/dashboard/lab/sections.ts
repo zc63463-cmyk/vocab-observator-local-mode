@@ -24,8 +24,7 @@ export type SectionId =
   | "today-snapshot"
   | "review-load"
   | "rating-mix"
-  | "review-7d"
-  | "review-30d"
+  | "review-volume"
   | "retention-gap"
   | "plan-vs-actual"
   | "preset-forecast"
@@ -114,14 +113,14 @@ export const PATTERNS: readonly PatternDef[] = [
     glyph: "─",
     name: "顶横",
     description: "顶部一条横线",
-    sectionId: "review-7d",
+    sectionId: "review-volume",
   },
   {
     key: "7-8-9",
     glyph: "─",
     name: "底横",
     description: "底部一条横线",
-    sectionId: "review-30d",
+    sectionId: "review-volume",
   },
   {
     key: "1-4-7",
@@ -188,17 +187,11 @@ export const SECTION_META: Record<SectionId, SectionMeta> = {
     eyebrow: "Rating Mix",
     subtitle: "Again / Hard / Good / Easy 占比",
   },
-  "review-7d": {
-    id: "review-7d",
-    title: "7 日复习量",
-    eyebrow: "7-day Volume",
-    subtitle: "本周复习节奏与高低",
-  },
-  "review-30d": {
-    id: "review-30d",
-    title: "30 日深入",
-    eyebrow: "30-day Deep Dive",
-    subtitle: "更长尺度的复习量与最弱语义场",
+  "review-volume": {
+    id: "review-volume",
+    title: "复习量",
+    eyebrow: "Review Volume",
+    subtitle: "多时间尺度复习节奏与语义场分析",
   },
   "retention-gap": {
     id: "retention-gap",

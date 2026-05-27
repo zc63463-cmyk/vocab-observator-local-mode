@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { AnimatedCounter } from "@/components/motion/AnimatedCounter";
+import { InsightBanner } from "./_shared";
 import { formatPercent, formatSignedPoints } from "../format";
 import type { DashboardSummary } from "../types";
 
@@ -125,6 +126,30 @@ export function TodaySnapshotBody({ summary }: TodaySnapshotBodyProps) {
           </Link>
         </div>
       )}
+
+      {/* Dynamic insight */}
+      <InsightBanner
+        text={
+          dueToday === 0
+            ? "今日没有到期卡片，是补充新词或预习的好时机。"
+            : dueToday > 30
+              ? `今日负载较重（${dueToday} 张），建议分批处理，优先完成核心复习。`
+              : againPct > 0.2
+                ? "近期 Again 比例偏高，卡片可能过于生疏，建议检查 retention 目标。"
+                : streakDays >= 30
+                  ? `连续 ${streakDays} 天，复习习惯已稳固。保持节奏即可。`
+                  : streakDays >= 7
+                    ? `连续 ${streakDays} 天，势头不错。建议保持每日复习节奏以巩固习惯。`
+                    : "今日任务适中，开始复习吧。"
+        }
+        tone={
+          dueToday > 30 || againPct > 0.2
+            ? "warm"
+            : streakDays >= 7
+              ? "cool"
+              : "info"
+        }
+      />
 
       {/* Quick links */}
       <div className="flex flex-wrap gap-2">

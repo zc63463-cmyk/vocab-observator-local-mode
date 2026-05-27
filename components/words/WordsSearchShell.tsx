@@ -10,6 +10,7 @@ import { Input, Select } from "@/components/ui/Input";
 import { SkeletonBlock, SkeletonLine } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import { WordCard } from "@/components/words/WordCard";
+import { WordBatchAddPanel } from "@/components/words/WordBatchAddPanel";
 import { useFilteredSearch } from "@/hooks/useFilteredSearch";
 import { buildWordDetailHref } from "@/lib/words-routing";
 import type { PublicWordsResponse, ReviewFilter } from "@/lib/words";
@@ -151,6 +152,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
   } | null>(null);
   const [selectedWordIds, setSelectedWordIds] = useState<Set<string>>(new Set());
   const [isBatchPending, setIsBatchPending] = useState(false);
+  const [showBatchPanel, setShowBatchPanel] = useState(false);
   const { addToast } = useToast();
 
   const buildInitialApiHref = useCallback(
@@ -531,33 +533,53 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       ) : (
         <div className="space-y-6">
           {displayResult.isOwner && untrackedWords.length > 0 ? (
-            <div className="flex flex-wrap items-center gap-3 rounded-[1.2rem] border border-[var(--color-border)] bg-[var(--color-surface-soft)] px-4 py-3">
-              {selectedCount > 0 ? (
-                <>
+            <div className="rounded-[1.2rem] border border-[var(--color-border)] bg-[var(--color-surface-soft)]">
+              {/* Toggle bar */}
+              <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+                <div className="flex items-center gap-3">
                   <span className="text-sm text-[var(--color-ink-soft)]">
-                    已选 {selectedCount} 个未追踪词条
+                    当前{" "}
+                    <strong className="text-[var(--color-ink)]">{untrackedWords.length}</strong>{" "}
+                    个词条未加入复习
                   </span>
+                  {selectedCount > 0 && (
+                    <span className="text-xs text-[var(--color-accent)]">
+                      已选 {selectedCount} 个
+                    </span>
+                  )}
+                </div>
+                <div className="flex items-center gap-2">
+                  {!showBatchPanel && (
+                    <Button
+                      type="button"
+                      size="sm"
+                      variant="ghost"
+                      onClick={selectAllUntracked}
+                    >
+                      全选加入
+                    </Button>
+                  )}
                   <Button
                     type="button"
                     size="sm"
-                    disabled={isBatchPending}
-                    onClick={handleBatchAdd}
+                    variant={showBatchPanel ? "secondary" : "ghost"}
+                    onClick={() => setShowBatchPanel((v) => !v)}
                   >
-                    {isBatchPending ? "处理中..." : `批量加入复习 (${selectedCount})`}
+                    {showBatchPanel ? "收起面板 ↑" : "搜索加入 ↓"}
                   </Button>
-                  <Button type="button" size="sm" variant="ghost" onClick={clearSelection}>
-                    取消选择
-                  </Button>
-                </>
-              ) : (
-                <>
-                  <span className="text-sm text-[var(--color-ink-soft)]">
-                    当前 {untrackedWords.length} 个词条未加入复习
-                  </span>
-                  <Button type="button" size="sm" variant="ghost" onClick={selectAllUntracked}>
-                    全选加入
-                  </Button>
-                </>
+                </div>
+              </div>
+
+              {/* Expanded batch-add panel */}
+              {showBatchPanel && (
+                <div className="border-t border-[var(--color-border)] px-4 py-4">
+                  <WordBatchAddPanel
+                    selectedIds={visibleSelectedWordIds}
+                    onToggle={toggleWordSelect}
+                    onBatchAdd={handleBatchAdd}
+                    isPending={isBatchPending}
+                  />
+                </div>
               )}
             </div>
           ) : null}

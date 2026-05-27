@@ -79,14 +79,14 @@ export function ReviewRetentionSettings({
         };
 
         if (!response.ok) {
-          throw new Error(payload.error ?? "Failed to save review settings.");
+          throw new Error(payload.error ?? "保存设置失败");
         }
 
         setRetuneExisting(false);
         addToast(
           retuneExisting && payload.retunedCount
-            ? `Saved retention and retuned ${payload.retunedCount} review cards.`
-            : "Saved review retention.",
+            ? `已保存 retention 目标，并重新计算了 ${payload.retunedCount} 张卡片的到期日。`
+            : "Retention 目标已保存。",
           "success",
         );
         router.refresh();
@@ -94,7 +94,7 @@ export function ReviewRetentionSettings({
         addToast(
           error instanceof Error
             ? error.message
-            : "Failed to save review settings.",
+            : "保存设置失败，请重试。",
           "error",
         );
       } finally {
@@ -104,23 +104,23 @@ export function ReviewRetentionSettings({
   }
 
   return (
-    <div className="mt-5 rounded-[1.2rem] border border-[var(--color-border)] bg-[var(--color-surface-soft)] p-4">
+    <div className="rounded-[1.2rem] border border-[var(--color-border)] bg-[var(--color-surface-soft)] p-4">
+      {/* Header */}
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="space-y-1">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-ink-soft)]">
-            Review Target
+            目标记忆保持率
           </p>
           <p className="text-sm text-[var(--color-ink-soft)]">
-            {selectedPreset.label} preset, current target {toPercent(initialDesiredRetention)}%.
+            当前方案：{selectedPreset.label}（{toPercent(initialDesiredRetention)}%）
             {hasMixedRetention
-              ? ` Active cards average ${averagePercent}%.`
-              : " Active cards are aligned."}
+              ? `。活跃卡片的平均目标为 ${averagePercent}%，存在混合设置。`
+              : "，所有活跃卡片目标一致。"}
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
           {REVIEW_RETENTION_PRESETS.map((preset) => {
             const presetPercent = toPercent(preset.desiredRetention);
-
             return (
               <Button
                 key={preset.id}
@@ -137,14 +137,41 @@ export function ReviewRetentionSettings({
         </div>
       </div>
 
+      {/* Selected preset description */}
       <div className="mt-3 rounded-[1rem] border border-[var(--color-border)] bg-[var(--color-panel)] px-4 py-3 text-sm text-[var(--color-ink-soft)]">
         {selectedPreset.description}
       </div>
 
+      {/* How to choose — educational block */}
+      <div className="mt-3 rounded-[1rem] border border-[rgba(15,111,98,0.12)] bg-[var(--color-surface-muted)] px-4 py-3">
+        <p className="text-xs font-semibold text-[var(--color-ink)]">
+          📖 如何选择合适的 retention 目标？
+        </p>
+        <ul className="mt-2 space-y-1.5 text-xs leading-5 text-[var(--color-ink-soft)]">
+          <li>
+            <strong className="text-[var(--color-ink)]">冲刺（Sprint, 94%）：</strong>
+            间隔短、复习频繁，适合考前突击或核心词汇攻坚。时间成本高。
+          </li>
+          <li>
+            <strong className="text-[var(--color-ink)]">均衡（Balanced, 90%）：</strong>
+            大多数用户的推荐起点。兼顾记忆强度与复习效率。
+          </li>
+          <li>
+            <strong className="text-[var(--color-ink)]">保守（Conservative, 85%）：</strong>
+            间隔更长、复习量更少，适合时间有限或词汇已较熟悉的阶段。
+          </li>
+          <li>
+            <strong className="text-[var(--color-ink)]">自定义：</strong>
+            可在 70%–99% 之间手动输入。数值越高，系统越频繁地要求复习；越低，间隔拉得越长。
+          </li>
+        </ul>
+      </div>
+
+      {/* Input + actions */}
       <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,220px)_1fr]">
         <label className="space-y-2">
           <span className="text-sm font-semibold text-[var(--color-ink)]">
-            Desired retention (%)
+            目标 retention（%）
           </span>
           <Input
             type="number"
@@ -156,6 +183,11 @@ export function ReviewRetentionSettings({
             inputMode="numeric"
             aria-invalid={!isValidPercent}
           />
+          {!isValidPercent && (
+            <span className="text-xs text-[var(--color-accent-2)]">
+              请输入 70 到 99 之间的整数。
+            </span>
+          )}
         </label>
 
         <div className="flex flex-col justify-between gap-4 rounded-[1.1rem] border border-[var(--color-border)] bg-[var(--color-panel)] p-4">
@@ -168,8 +200,12 @@ export function ReviewRetentionSettings({
               className="mt-0.5 h-4 w-4 rounded border border-[var(--color-border)] accent-[var(--color-accent)]"
             />
             <span>
-              Recompute current due dates now for mature review cards.
-              {trackedWords > 0 ? ` Tracked cards: ${trackedWords}.` : " No tracked cards yet."}
+              <strong className="text-[var(--color-ink)]">同时重新计算已有卡片的到期日</strong>
+              <br />
+              勾选后，系统会立即根据新的 retention 目标重新排程所有已存在的复习卡片。
+              {trackedWords > 0
+                ? ` 当前共 ${trackedWords} 张跟踪卡片。`
+                : " 当前尚无跟踪卡片。"}
             </span>
           </label>
 
@@ -180,15 +216,15 @@ export function ReviewRetentionSettings({
               disabled={!isValidPercent || !hasChanges || pending}
               onClick={handleSave}
             >
-              {pending ? "Saving..." : "Save Target"}
+              {pending ? "保存中…" : "保存目标"}
             </Button>
-            {!isValidPercent ? (
-              <span className="text-xs text-[var(--color-accent-2)]">
-                Enter a value between 70 and 99.
-              </span>
-            ) : (
+            {isValidPercent && (
               <span className="text-xs text-[var(--color-ink-soft)]">
-                Higher targets shorten intervals and pull more cards forward.
+                {parsedPercent > toPercent(initialDesiredRetention)
+                  ? "目标提高 → 复习间隔缩短 → 工作量增加"
+                  : parsedPercent < toPercent(initialDesiredRetention)
+                    ? "目标降低 → 复习间隔拉长 → 工作量减少"
+                    : "目标未变更"}
               </span>
             )}
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/Badge";
+import { InsightBanner } from "./_shared";
 import { formatPercent, formatSignedPoints } from "../format";
 import type { DashboardSummary } from "../types";
 
@@ -81,6 +82,25 @@ export function RetentionGapBody({ summary }: RetentionGapBodyProps) {
           );
         })}
       </div>
+
+      <InsightBanner
+        text={
+          avgGap14d > 0.03
+            ? `近 14 天平均 retention gap 为 ${formatSignedPoints(avgGap14d)}，遗忘率显著高于目标。建议调高 retention 目标或检查卡片质量。`
+            : avgGap14d < -0.03
+              ? `近 14 天平均 retention gap 为 ${formatSignedPoints(avgGap14d)}，记忆表现优于目标。可以适当降低 retention 目标以节省时间。`
+              : aboveTargetDays === 0
+                ? "近 14 天无施压日，retention 控制非常稳定。"
+                : aboveTargetDays > activeDays.length * 0.5
+                  ? `近一半活跃日（${aboveTargetDays}/${activeDays.length}）遗忘率超出目标，建议审视 retention 设置。`
+                  : "Retention gap 在可控范围内，整体表现稳定。"
+        }
+        tone={
+          avgGap14d > 0.03 || aboveTargetDays > activeDays.length * 0.5
+            ? "warm"
+            : "cool"
+        }
+      />
 
       <div className="grid gap-3 sm:grid-cols-2">
         <Card title="施压天数">

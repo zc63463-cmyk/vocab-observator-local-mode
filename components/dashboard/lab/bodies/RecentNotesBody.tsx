@@ -2,16 +2,13 @@
 
 import Link from "next/link";
 import { excerpt, formatDateTime } from "@/lib/utils";
+import { InsightBanner } from "./_shared";
 import type { DashboardSummary } from "../types";
 
 interface RecentNotesBodyProps {
   summary: Pick<DashboardSummary, "notes">;
 }
 
-/**
- * Pure body for the recent-notes section.
- * Compact card list of the 8 most recently-edited notes.
- */
 export function RecentNotesBody({ summary }: RecentNotesBodyProps) {
   const notes = summary.notes;
 
@@ -30,7 +27,7 @@ export function RecentNotesBody({ summary }: RecentNotesBodyProps) {
   }
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-4">
       <div className="flex justify-end">
         <Link
           href="/notes"
@@ -56,18 +53,45 @@ export function RecentNotesBody({ summary }: RecentNotesBodyProps) {
             ) : (
               <span className="font-semibold text-[var(--color-ink-soft)]">已删除词条</span>
             )}
-            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--color-ink-soft)] opacity-70">
-              v{note.version}
-            </span>
+            <div className="flex items-center gap-2">
+              {note.version > 1 && (
+                <span className="rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2 py-0.5 text-[10px] font-medium text-[var(--color-ink-soft)]">
+                  已编辑 {note.version} 版
+                </span>
+              )}
+              <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--color-ink-soft)] opacity-70">
+                {formatDateTime(note.updated_at)}
+              </span>
+            </div>
           </div>
           <p className="mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">
             {excerpt(note.content_md, 140) || "（空笔记）"}
           </p>
-          <p className="mt-2 text-[11px] text-[var(--color-ink-soft)] opacity-60">
-            {formatDateTime(note.updated_at)}
-          </p>
+          {note.words && (
+            <div className="mt-3 flex items-center gap-2">
+              <Link
+                href={`/p/${note.words.slug}`}
+                className="text-xs font-medium text-[var(--color-accent)] hover:underline"
+              >
+                查看词条 →
+              </Link>
+              <Link
+                href={`/review?focus=${note.words.slug}`}
+                className="text-xs font-medium text-[var(--color-accent)] hover:underline"
+              >
+                复习该词 →
+              </Link>
+            </div>
+          )}
         </div>
       ))}
+
+      {notes.length >= 5 && (
+        <InsightBanner
+          text={`最近笔记活跃，共 ${notes.length} 条。笔记与复习相辅相成——记录个人理解能显著提升记忆保持率。`}
+          tone="cool"
+        />
+      )}
     </div>
   );
 }

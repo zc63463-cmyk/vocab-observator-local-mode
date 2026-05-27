@@ -78,10 +78,8 @@ function renderBody(id: SectionId, summary: DashboardSummary): React.ReactNode {
       return <ReviewLoadBody summary={summary} />;
     case "rating-mix":
       return <RatingMixBody summary={summary} />;
-    case "review-7d":
-      return <ReviewVolumeBody summary={summary} range="7d" />;
-    case "review-30d":
-      return <ReviewVolumeBody summary={summary} range="30d" />;
+    case "review-volume":
+      return <ReviewVolumeBody summary={summary} />;
     case "retention-gap":
       return <RetentionGapBody summary={summary} />;
     case "plan-vs-actual":
