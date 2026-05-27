@@ -5,10 +5,13 @@ import { requireOwnerApiSession } from "@/lib/request-auth";
 /**
  * GET /api/words/untracked
  *
- * Returns every published word that the current owner has NOT yet added
- * to their review queue. Used by the "Search & Add" panel on the words
- * page so users can search across the *entire* lexicon rather than the
+ * Returns up to 2000 published words that the current owner has NOT yet
+ * added to their review queue. Used by the "Search & Add" panel on the
+ * words page so users can search across the lexicon rather than the
  * paginated subset already loaded on the page.
+ *
+ * A hard LIMIT prevents memory/JSON pressure on large lexicons (> 5 k
+ * rows). The caller can surface a "load more" UI when `hasMore` is true.
  *
  * Performance: the NOT EXISTS clause uses the indexed (user_id, word_id)
  * composite on user_word_progress; for a few-thousand-row words table
@@ -22,6 +25,7 @@ export async function GET() {
 
   const ownerId = ownerSession.user.id;
 
+  const limit = 2000;
   const { data, error } = await sql<{
     id: string;
     slug: string;
@@ -40,11 +44,16 @@ export async function GET() {
         WHERE p.word_id = w.id AND p.user_id = ${ownerId}
       )
     ORDER BY w.lemma ASC
+    LIMIT ${limit + 1}
   `;
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json({ items: data ?? [] });
+  const rows = data ?? [];
+  const hasMore = rows.length > limit;
+  const items = hasMore ? rows.slice(0, limit) : rows;
+
+  return NextResponse.json({ items, hasMore });
 }

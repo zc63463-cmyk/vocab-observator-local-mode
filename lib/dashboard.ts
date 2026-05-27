@@ -785,21 +785,22 @@ export async function getDashboardSummary() {
   const todayKey = todayForecastDay?.date ?? startOfTodayIso().slice(0, 10);
   const todayForecastCount = todayForecastDay?.dueCount ?? 0;
 
-  await captureTodayForecastSnapshot({
-    supabase,
-    userId: owner.id,
-    date: todayKey,
-    forecastCount: todayForecastCount,
-    desiredRetention: configuredDesiredRetention,
-  });
-
-  const planVsActual = await fetchPlanVsActualSeries({
-    supabase,
-    userId: owner.id,
-    reviewLogs: reviewLogs30d.map((row) => ({ reviewed_at: row.reviewed_at })),
-    days: 14,
-    now: nowDate,
-  });
+  const [_, planVsActual] = await Promise.all([
+    captureTodayForecastSnapshot({
+      supabase,
+      userId: owner.id,
+      date: todayKey,
+      forecastCount: todayForecastCount,
+      desiredRetention: configuredDesiredRetention,
+    }),
+    fetchPlanVsActualSeries({
+      supabase,
+      userId: owner.id,
+      reviewLogs: reviewLogs30d.map((row) => ({ reviewed_at: row.reviewed_at })),
+      days: 14,
+      now: nowDate,
+    }),
+  ]);
 
   return {
     activeSession: activeSessionResult.data ?? null,

@@ -1,7 +1,12 @@
 "use client";
 
-import { MasteryGlobe } from "@/components/review/MasteryGlobe";
+import dynamic from "next/dynamic";
 import type { DashboardSummary } from "../types";
+
+const MasteryGlobe = dynamic(
+  () => import("@/components/review/MasteryGlobe").then((m) => m.MasteryGlobe),
+  { ssr: false }
+);
 
 interface MasteryNetworkBodyProps {
   summary: Pick<DashboardSummary, "masteryCells" | "relationGraph">;
