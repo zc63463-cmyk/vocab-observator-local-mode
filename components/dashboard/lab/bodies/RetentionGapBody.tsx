@@ -33,7 +33,17 @@ export function RetentionGapBody({ summary }: RetentionGapBodyProps) {
   const aboveTargetDays = activeDays.filter((d) => d.gap > 0).length;
 
   if (series.length === 0) {
-    return <p className="text-sm text-[var(--color-ink-soft)]">暂无 retention 趋势数据。</p>;
+    return (
+      <div className="space-y-3">
+        <p className="text-sm text-[var(--color-ink-soft)]">暂无 retention 趋势数据。</p>
+        <a
+          href="/review/zen"
+          className="inline-flex items-center rounded-full border border-[var(--color-accent)] bg-[var(--color-accent)] px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
+        >
+          开始首次复习 →
+        </a>
+      </div>
+    );
   }
 
   return (

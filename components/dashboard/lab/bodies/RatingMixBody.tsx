@@ -27,9 +27,17 @@ export function RatingMixBody({ summary }: RatingMixBodyProps) {
 
   if (total === 0) {
     return (
-      <p className="text-sm text-[var(--color-ink-soft)]">
-        暂无评分数据。完成几次复习后即可看到分布。
-      </p>
+      <div className="space-y-3">
+        <p className="text-sm text-[var(--color-ink-soft)]">
+          暂无评分数据。完成几次复习后即可看到分布。
+        </p>
+        <a
+          href="/review/zen"
+          className="inline-flex items-center rounded-full border border-[var(--color-accent)] bg-[var(--color-accent)] px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
+        >
+          开始首次复习 →
+        </a>
+      </div>
     );
   }
 

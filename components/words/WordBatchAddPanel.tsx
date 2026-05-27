@@ -129,6 +129,7 @@ export function WordBatchAddPanel({
   isPending,
 }: WordBatchAddPanelProps) {
   const [words, setWords] = useState<UntrackedWord[]>([]);
+  const [hasMore, setHasMore] = useState(false);
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState<string | null>(null);
 
@@ -146,12 +147,13 @@ export function WordBatchAddPanel({
 
     fetch("/api/words/untracked", { credentials: "same-origin" })
       .then(async (res) => {
-        const payload = (await res.json()) as { items?: UntrackedWord[]; error?: string };
+        const payload = (await res.json()) as { items?: UntrackedWord[]; hasMore?: boolean; error?: string };
         if (!mounted) return;
         if (!res.ok) {
           throw new Error(payload.error ?? "加载未追踪词条失败");
         }
         setWords(payload.items ?? []);
+        setHasMore(payload.hasMore ?? false);
       })
       .catch((err) => {
         if (!mounted) return;
@@ -407,6 +409,11 @@ export function WordBatchAddPanel({
           全局共{" "}
           <strong className="text-[var(--color-ink)]">{words.length}</strong>{" "}
           个未追踪
+          {hasMore && (
+            <span className="ml-1 text-[var(--color-ink-soft)] opacity-60">
+              （仅展示前 2000 个，请用搜索缩小范围）
+            </span>
+          )}
           {isFiltered && (
             <>
               {" · 匹配 "}

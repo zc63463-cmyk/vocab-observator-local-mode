@@ -40,9 +40,17 @@ export function MasteryNetworkBody({
 }: MasteryNetworkBodyProps) {
   if (summary.masteryCells.length === 0) {
     return (
-      <p className="text-sm text-[var(--color-ink-soft)]">
-        还没有词条进入复习队列。开始复习后这里会出现你的词汇网络图。
-      </p>
+      <div className="space-y-3">
+        <p className="text-sm text-[var(--color-ink-soft)]">
+          还没有词条进入复习队列。开始复习后这里会出现你的词汇网络图。
+        </p>
+        <a
+          href="/review/zen"
+          className="inline-flex items-center rounded-full border border-[var(--color-accent)] bg-[var(--color-accent)] px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
+        >
+          去复习页面添加词条 →
+        </a>
+      </div>
     );
   }
 
