@@ -65,6 +65,23 @@ function formatDayKey(date: Date) {
   return `${year}-${month}-${day}`;
 }
 
+/**
+ * Unwrap a Promise.allSettled result, returning the value on success or the
+ * fallback on rejection. Errors are logged in dev so they don't go completely
+ * silent, but they never bubble up to crash the dashboard.
+ */
+function unwrapSettled<T>(
+  result: PromiseSettledResult<T>,
+  fallback: T,
+  label: string,
+): T {
+  if (result.status === "fulfilled") return result.value;
+  if (process.env.NODE_ENV !== "production") {
+    console.error(`[dashboard] ${label} failed:`, result.reason);
+  }
+  return fallback;
+}
+
 function toLocalDayKey(value: Date | string) {
   const date = typeof value === "string" ? new Date(value) : value;
   return formatDayKey(date);
@@ -523,18 +540,7 @@ export async function getDashboardSummary() {
   const thirtyDaysAgo = addDays(new Date(today), -29);
   const ninetyDaysAgo = addDays(new Date(today), -89);
 
-  const [
-    progressSlimResult,
-    progressMetadataResult,
-    reviewLogs30dWithWordsResult,
-    reviewLogs90dDiagnosticResult,
-    streakResult,
-    notesResult,
-    notesCountResult,
-    activeSessionResult,
-    profileResult,
-    totalReviewLogCountResult,
-  ] = await Promise.all([
+  const settled = await Promise.allSettled([
     // Narrow query for forecast, mastery cells, and all non-graph metrics.
     // Intentionally omits metadata JSONB to reduce transfer & memory pressure.
     supabase
@@ -605,6 +611,17 @@ export async function getDashboardSummary() {
       .eq("user_id", owner.id)
       .eq("undone", false),
   ]);
+
+  const progressSlimResult = unwrapSettled(settled[0], { data: [], error: null }, "progressSlim");
+  const progressMetadataResult = unwrapSettled(settled[1], { data: [], error: null }, "progressMetadata");
+  const reviewLogs30dWithWordsResult = unwrapSettled(settled[2], { data: [], error: null }, "reviewLogs30d");
+  const reviewLogs90dDiagnosticResult = unwrapSettled(settled[3], { data: [], error: null }, "reviewLogs90d");
+  const streakResult = unwrapSettled(settled[4], { data: [], error: null }, "streak");
+  const notesResult = unwrapSettled(settled[5], { data: [], error: null }, "notes");
+  const notesCountResult = unwrapSettled(settled[6], { data: [], error: null, count: 0 }, "notesCount");
+  const activeSessionResult = unwrapSettled(settled[7], { data: null, error: null }, "activeSession");
+  const profileResult = unwrapSettled(settled[8], { data: null, error: null }, "profile");
+  const totalReviewLogCountResult = unwrapSettled(settled[9], { data: [], error: null, count: 0 }, "totalReviewLogCount");
 
   const progressRows = (progressSlimResult.data ?? []) as unknown as DashboardProgressRow[];
   const relationGraphRows = (progressMetadataResult.data ?? []) as unknown as RelationGraphRow[];
