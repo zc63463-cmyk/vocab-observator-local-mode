@@ -40,6 +40,13 @@ export function ImportRunBody({ summary }: ImportRunBodyProps) {
   const isError = run.status === "completed_with_errors" || run.status === "failed";
   const isRunning = run.status === "running";
 
+  const statusLabel: Record<string, string> = {
+    completed: "已完成",
+    "completed_with_errors": "完成（含错误）",
+    failed: "失败",
+    running: "进行中",
+  };
+
   const durationMs = useMemo(() => {
     if (!run.finished_at) return null;
     const start = new Date(run.started_at).getTime();
@@ -69,7 +76,7 @@ export function ImportRunBody({ summary }: ImportRunBodyProps) {
           保持同步管线可见，避免源文件损坏或局部失败悄悄陈旧化语料。
         </p>
         <Badge tone={isError ? "warm" : "default"}>
-          {run.status}
+          {statusLabel[run.status] ?? run.status}
         </Badge>
       </div>
 
