@@ -29,6 +29,12 @@ import type { StoredSchedulerCard } from "@/lib/review/types";
 import { getServerSupabaseClientOrNull } from "@/lib/supabase/server";
 import { startOfTodayIso } from "@/lib/utils";
 import type { Json } from "@/types/database.types";
+import type {
+  DailyForecastDay,
+  RetentionGapPoint,
+  RetentionLoadForecast,
+  RetentionPresetForecast,
+} from "./dashboard/types";
 
 type DashboardProgressRow = {
   desired_retention: number | null;
@@ -161,36 +167,6 @@ function resolveForecastDueAt(
   return retuned?.dueAt ?? row.due_at;
 }
 
-export interface RetentionGapPoint {
-  againRate: number;
-  date: string;
-  gap: number;
-  reviewCount: number;
-  targetForgettingRate: number;
-}
-
-export interface RetentionLoadForecast {
-  desiredRetention: number;
-  due14d: number;
-  due7d: number;
-  dueNow: number;
-}
-
-export interface RetentionPresetForecast extends RetentionLoadForecast {
-  description: string;
-  id: "sprint" | "balanced" | "conservative";
-  label: string;
-}
-
-export interface DailyForecastDay {
-  date: string;
-  weekday: string;
-  dateLabel: string;
-  dueCount: number;
-  isToday: boolean;
-  isPast: boolean;
-  actualReviewCount: number | null;
-}
 
 const WEEKDAY_LABELS = ["日", "一", "二", "三", "四", "五", "六"];
 
@@ -866,3 +842,11 @@ export async function getDashboardSummary() {
     relationGraph: buildRelationGraph(relationGraphRows),
   };
 }
+
+// Re-export types so existing importers from `@/lib/dashboard` continue to work.
+export type {
+  DailyForecastDay,
+  RetentionGapPoint,
+  RetentionLoadForecast,
+  RetentionPresetForecast,
+} from "./dashboard/types";

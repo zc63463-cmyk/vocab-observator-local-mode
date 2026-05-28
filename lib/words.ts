@@ -25,6 +25,25 @@ import {
 import { escapePostgrestLike, slugifyLabel } from "@/lib/utils";
 import type { Database, Json } from "@/types/database.types";
 import { PUBLIC_CACHE_TAGS } from "@/lib/cache/public";
+import type {
+  BareSlimPublicWordIndexRow,
+  CachedPublicWordDetail,
+  LandingSnapshot,
+  NormalizedWordPagination,
+  NormalizedWordQueryFilters,
+  OwnerWordProgressSummary,
+  PlainWordDetail,
+  PublicWordDetail,
+  PublicWordFilterOptions,
+  PublicWordIndexEntry,
+  PublicWordSummary,
+  PublicWordsResponse,
+  ResolvedAntonymItem,
+  ResolvedSynonymItem,
+  ReviewFilter,
+  WordPagination,
+  WordQueryFilters,
+} from "./words/types";
 
 // Slim projection used by every public *index* fetch (the heavy paths that
 // previously ran `.select("id, slug, ..., metadata, ...")` over
@@ -35,8 +54,8 @@ import { PUBLIC_CACHE_TAGS } from "@/lib/cache/public";
 // always strings) and JSON for the three graph fields (antonyms, roots,
 // synonyms can be a string OR a string[] depending on the source markdown,
 // and `compactPublicMetadata` keeps both shapes). The five projected keys
-// are exactly what `compactPublicMetadata` preserves �?see also the matching
-// `reconstructCompactMetadata` below �?so this select is a 30x payload
+// are exactly what `compactPublicMetadata` preserves — see also the matching
+// `reconstructCompactMetadata` below — so this select is a 30x payload
 // reduction with zero observable change to the cached record shape.
 //
 // Exported so plaza.ts can reuse the same projection for its related-word
@@ -77,162 +96,6 @@ const WORD_FILTER_FACET_DIMENSIONS = ["semantic_field", "word_freq"] as const;
 type ServerSupabaseClient = SupabaseClient<Database>;
 type WordFilterFacetDimension = (typeof WORD_FILTER_FACET_DIMENSIONS)[number];
 
-export type ReviewFilter = "all" | "tracked" | "due" | "untracked";
-
-export interface OwnerWordProgressSummary {
-  again_count: number;
-  due_at: string | null;
-  id: string;
-  is_due: boolean;
-  lapse_count: number;
-  last_reviewed_at: string | null;
-  review_count: number;
-  state: string;
-}
-
-export interface PublicWordSummary {
-  id: string;
-  ipa: string | null;
-  lemma: string;
-  metadata: Json;
-  progress: OwnerWordProgressSummary | null;
-  short_definition: string | null;
-  slug: string;
-  title: string;
-  updated_at: string;
-}
-
-export type PublicWordIndexEntry = Omit<PublicWordSummary, "progress">;
-
-export interface PublicWordDetail extends PublicWordSummary {
-  antonym_html?: string | null;
-  antonym_items: AntonymItem[];
-  body_html?: string | null;
-  body_md: string;
-  collocations: CollocationItem[];
-  core_definitions: CoreDefinition[];
-  corpus_items: CorpusItem[];
-  definition_html?: string | null;
-  definition_md: string;
-  // Extended structured fields surfaced from `metadata` JSON for direct access
-  // by view components. They mirror parser output and are nullable/empty for
-  // older rows that predate the new corpus format.
-  derived_words: DerivedWord[];
-  examples: Json;
-  mnemonic: Mnemonic | null;
-  morphology: Morphology | null;
-  pos: string | null;
-  pos_conversions: PosConversion[];
-  prototype_text: string | null;
-  resolved_antonym_items: ResolvedAntonymItem[];
-  resolved_synonym_items: ResolvedSynonymItem[];
-  semantic_chain: SemanticChain | null;
-  synonym_html?: string | null;
-  source_path: string;
-  synonym_items: SynonymItem[];
-  tags: Array<{ label: string; slug: string }>;
-}
-
-export interface CachedPublicWordDetail extends PublicWordDetail {
-  antonym_html: string;
-  body_html: string;
-  definition_html: string;
-  synonym_html: string;
-}
-
-/**
- * Lightweight word shape used by the plain/detail page (`/p/[slug]`).
- * Omits every heavy field (body_md, examples, collocations, corpus_items,
- * synonym_items, antonym_items, etc.) and skips the all-entries index query
- * so the page can be statically generated for the full corpus without
- * blowing build-time budgets.
- */
-export interface PlainWordDetail {
-  antonym_items: AntonymItem[];
-  body_md: string;
-  core_definitions: CoreDefinition[];
-  definition_html: string | null;
-  id: string;
-  ipa: string | null;
-  lemma: string;
-  metadata: Json;
-  pos: string | null;
-  short_definition: string | null;
-  slug: string;
-  synonym_items: SynonymItem[];
-  tags: Array<{ label: string; slug: string }>;
-  title: string;
-  updated_at: string;
-}
-
-export interface ResolvedSynonymItem extends SynonymItem {
-  href: string | null;
-}
-
-export interface ResolvedAntonymItem extends AntonymItem {
-  href: string | null;
-}
-
-export interface WordQueryFilters {
-  freq?: string;
-  q?: string;
-  review?: ReviewFilter;
-  semantic?: string;
-}
-
-export interface WordPagination {
-  limit?: number | null;
-  offset?: number | null;
-}
-
-export interface NormalizedWordQueryFilters {
-  freq: string;
-  q: string;
-  review: ReviewFilter;
-  semantic: string;
-}
-
-export interface NormalizedWordPagination {
-  limit: number;
-  offset: number;
-}
-
-export interface PublicWordsPageInfo {
-  hasMore: boolean;
-  limit: number;
-  offset: number;
-  total: number;
-}
-
-export interface PublicWordsResponse {
-  configured: boolean;
-  counts: {
-    showing: number;
-    total: number;
-  };
-  filterOptions: {
-    frequencies: string[];
-    semanticFields: string[];
-  };
-  filters: NormalizedWordQueryFilters;
-  isOwner: boolean;
-  pageInfo: PublicWordsPageInfo;
-  truncated: boolean;
-  words: PublicWordSummary[];
-}
-
-export interface PublicWordFilterOptions {
-  frequencies: string[];
-  semanticFields: string[];
-}
-
-export interface LandingSnapshot {
-  configured: boolean;
-  featuredWords: PublicWordSummary[];
-  repoName: string;
-  totalWords: number;
-}
-
 interface PublicWordMetadataRecord {
   lemma: string;
   short_definition: string | null;
@@ -254,27 +117,6 @@ interface GetPublicWordsOptions {
 
 type BarePublicWordMetadataRow = Pick<PublicWordIndexEntry, "metadata">;
 type BareWordFilterFacetRow = Database["public"]["Tables"]["word_filter_facets"]["Row"];
-
-// Row shape returned by the WORD_INDEX_SELECT projection. supabase-js's
-// generated Database types know nothing about JSONB key projection, so
-// every callsite has to cast through this interface (or a re-export of it)
-// after the .select() returns. The metadata_* aliases mirror the alias
-// names baked into WORD_INDEX_SELECT so the field-by-field rebuild in
-// `reconstructCompactMetadata` stays mechanical and easy to audit.
-export interface BareSlimPublicWordIndexRow {
-  id: string;
-  ipa: string | null;
-  lemma: string;
-  metadata_antonyms: Json | null;
-  metadata_roots: Json | null;
-  metadata_semantic_field: string | null;
-  metadata_synonyms: Json | null;
-  metadata_word_freq: string | null;
-  short_definition: string | null;
-  slug: string;
-  title: string;
-  updated_at: string;
-}
 
 // Mirror of `compactPublicMetadata` for callers that already have the
 // projected slim row in hand. The two functions must produce identical
@@ -1914,3 +1756,25 @@ export async function getAllPublicWordIndexEntries(): Promise<PublicWordIndexEnt
 
   return ((await getCachedPublicWordRows()) ?? []).map(toPublicWordIndexEntry);
 }
+
+// Re-export types so existing importers from `@/lib/words` continue to work.
+export type {
+  BareSlimPublicWordIndexRow,
+  CachedPublicWordDetail,
+  LandingSnapshot,
+  NormalizedWordPagination,
+  NormalizedWordQueryFilters,
+  OwnerWordProgressSummary,
+  PlainWordDetail,
+  PublicWordDetail,
+  PublicWordFilterOptions,
+  PublicWordIndexEntry,
+  PublicWordSummary,
+  PublicWordsPageInfo,
+  PublicWordsResponse,
+  ResolvedAntonymItem,
+  ResolvedSynonymItem,
+  ReviewFilter,
+  WordPagination,
+  WordQueryFilters,
+} from "./words/types";
