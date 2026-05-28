@@ -9,6 +9,13 @@ import { Pool, types } from "pg";
 types.setTypeParser(types.builtins.NUMERIC, (val) => parseFloat(val));
 types.setTypeParser(types.builtins.INT8, (val) => parseInt(val, 10));
 
+// Keep timestamps as ISO strings (matching supabase-js remote behaviour).
+// Without this, pg parses timestamptz into JS Date objects, which breaks
+// downstream code that expects string dates (e.g. `.slice(0, 10)`).
+types.setTypeParser(types.builtins.TIMESTAMP, (val) => val);
+types.setTypeParser(types.builtins.TIMESTAMPTZ, (val) => val);
+types.setTypeParser(types.builtins.DATE, (val) => val);
+
 let _pool: Pool | null = null;
 
 export function getPool(): Pool {

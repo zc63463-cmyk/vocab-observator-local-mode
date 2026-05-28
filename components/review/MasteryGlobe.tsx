@@ -874,7 +874,7 @@ export function MasteryGlobe({
           </p>
           {hoveredCell.dueAt ? (
             <p className="mt-0.5 text-[10px] text-[var(--color-ink-soft)] opacity-60">
-              到期 {hoveredCell.dueAt.slice(0, 10)}
+              到期 {typeof hoveredCell.dueAt === "string" ? hoveredCell.dueAt.slice(0, 10) : hoveredCell.dueAt instanceof Date ? hoveredCell.dueAt.toISOString().slice(0, 10) : "—"}
             </p>
           ) : null}
           {hoveredNeighbors.length > 0 && (
@@ -949,7 +949,7 @@ export function MasteryGlobe({
 
             {previewCell.dueAt && (
               <p className="mt-1 text-xs text-[var(--color-ink-soft)] opacity-60">
-                下次复习：{previewCell.dueAt.slice(0, 10)}
+                下次复习：{typeof previewCell.dueAt === "string" ? previewCell.dueAt.slice(0, 10) : previewCell.dueAt instanceof Date ? previewCell.dueAt.toISOString().slice(0, 10) : "—"}
               </p>
             )}
 

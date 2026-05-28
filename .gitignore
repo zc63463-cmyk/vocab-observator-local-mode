@@ -48,3 +48,5 @@ next-env.d.ts
 # supabase cli local state (project link, version cache, etc.)
 supabase/.temp/
 supabase/.branches/
+
+dev-server.log
