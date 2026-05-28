@@ -5,6 +5,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useId,
   useReducer,
   useRef,
   type ReactNode,
@@ -65,10 +66,10 @@ export function useToast() {
 
 /* ─── Provider ─── */
 
-let toastCounter = 0;
-
 export function ToastProvider({ children }: { children: ReactNode }) {
   const [toasts, dispatch] = useReducer(toastReducer, []);
+  const baseId = useId();
+  const counterRef = useRef(0);
 
   const removeToast = useCallback((id: string) => {
     dispatch({ payload: id, type: "REMOVE" });
@@ -76,10 +77,10 @@ export function ToastProvider({ children }: { children: ReactNode }) {
 
   const addToast = useCallback(
     (message: string, tone: ToastTone = "info") => {
-      const id = `toast-${++toastCounter}`;
+      const id = `${baseId}-${++counterRef.current}`;
       dispatch({ payload: { id, message, tone }, type: "ADD" });
     },
-    [],
+    [baseId],
   );
 
   return (

@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { apiErrorResponse } from "@/lib/api-error";
 import { z } from "zod";
 import {
   MIN_REVIEWS_FOR_TRAINING,
@@ -61,7 +62,7 @@ type AppSupabaseClient = SupabaseClient<Database>;
 async function fetchOptimizerLogs(
   supabase: AppSupabaseClient,
   userId: string,
-): Promise<OptimizerLog[]> {
+): Promise<{ data: OptimizerLog[]; error: unknown }> {
   const out: OptimizerLog[] = [];
   let offset = 0;
 
@@ -75,7 +76,7 @@ async function fetchOptimizerLogs(
       .range(offset, offset + PAGE_SIZE - 1);
 
     if (error) {
-      throw error;
+      return { data: [], error };
     }
 
     if (!data || data.length === 0) {
@@ -96,7 +97,7 @@ async function fetchOptimizerLogs(
     offset += PAGE_SIZE;
   }
 
-  return out;
+  return { data: out, error: null };
 }
 
 export async function GET() {
@@ -152,7 +153,10 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const logs = await fetchOptimizerLogs(supabase, userId);
+  const { data: logs, error: logsError } = await fetchOptimizerLogs(supabase, userId);
+  if (logsError) {
+    return apiErrorResponse(logsError, "api/review/train-weights");
+  }
   if (logs.length < MIN_REVIEWS_FOR_TRAINING) {
     return NextResponse.json(
       {

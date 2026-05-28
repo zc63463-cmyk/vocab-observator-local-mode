@@ -12,6 +12,7 @@ import {
   type ReactNode,
 } from "react";
 import { useRouter } from "next/navigation";
+import { useIsMounted } from "@/hooks/useIsMounted";
 import { speakLemma } from "@/lib/tts";
 import { useToast } from "@/components/ui/Toast";
 import { useZenReview } from "./useZenReview";
@@ -198,7 +199,7 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
   const { addToast } = useToast();
   const omni = useOmniStore();
   const [animationLock, setAnimationLock] = useState(false);
-  const mountedRef = useRef(true);
+  const mountedRef = useIsMounted();
   const undoInFlightRef = useRef(false); // Synchronous guard for rapid-fire clicks (Fix-5)
   const cardShownAtRef = useRef<number | null>(null); // Per-card shown timestamp for durationMs
 
@@ -208,13 +209,6 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
     isUndoing: false,
     sessionHistory: [],
   });
-  
-  useEffect(() => {
-    mountedRef.current = true;
-    return () => {
-      mountedRef.current = false;
-    };
-  }, []);
   
   const {
     items,
@@ -381,7 +375,7 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
         }
       }
     },
-    [state.item, state.items, state.pending, session, animationLock, uiState.isUndoing, submitRating, updateStatsAfterRemoval, fetchQueue, setItems, setSession, setStats, addToast]
+    [state.item, state.items, state.pending, session, animationLock, uiState.isUndoing, submitRating, updateStatsAfterRemoval, fetchQueue, setItems, setSession, setStats, addToast, mountedRef]
   );
 
   // Exit action
@@ -440,7 +434,7 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
         setAnimationLock(false);
       }
     }
-  }, [animationLock, fetchQueue, setItems, setSession, setStats, addToast]);
+  }, [animationLock, fetchQueue, setItems, setSession, setStats, addToast, mountedRef]);
 
   // Retry action
   const retry = useCallback(() => {
@@ -505,7 +499,7 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
         undoInFlightRef.current = false; // Reset sync guard
       }
     },
-    [uiState.isUndoing, submitUndo, setStats, setSession, addToast]
+    [uiState.isUndoing, submitUndo, setStats, setSession, addToast, mountedRef]
   );
 
   // Keyboard shortcuts

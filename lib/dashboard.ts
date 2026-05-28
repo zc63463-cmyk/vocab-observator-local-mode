@@ -48,9 +48,6 @@ type DashboardReviewLogRow = {
   reviewed_at: string;
 };
 
-type DashboardSemanticWord = {
-  metadata: Json;
-};
 
 function isJsonObject(
   value: Json | null | undefined,
@@ -556,7 +553,7 @@ export async function getDashboardSummary() {
       .limit(2000),
     supabase
       .from("review_logs")
-      .select("rating, reviewed_at, metadata, words(lemma, slug, title, metadata)")
+      .select("rating, reviewed_at, metadata, words(lemma, slug, title, semantic_field:metadata->>semantic_field)")
       .eq("user_id", owner.id)
       .gte("reviewed_at", thirtyDaysAgo.toISOString())
       .order("reviewed_at", { ascending: false })
@@ -679,29 +676,20 @@ export async function getDashboardSummary() {
     metadata: Json;
     rating: string;
     reviewed_at: string;
-    words: { lemma: string; metadata: Json; slug: string; title: string } | null;
+    words: { lemma: string; semantic_field: string | null; slug: string; title: string } | null;
   };
   const reviewLogs30d = (reviewLogs30dWithWordsResult.data ?? []) as unknown as ReviewLogWithWords[];
 
   const sevenDaysAgo = addDays(new Date(today), -6);
   const reviewLogs7d = reviewLogs30d.filter((row) => row.reviewed_at >= sevenDaysAgo.toISOString());
 
-  const recentLogs = reviewLogs30d.slice(0, 8).map((row) => {
-    const metadata = row.words?.metadata as DashboardSemanticWord["metadata"] | null | undefined;
-    const semanticField =
-      metadata && typeof metadata === "object" && !Array.isArray(metadata)
-        ? typeof metadata.semantic_field === "string"
-          ? metadata.semantic_field
-          : null
-        : null;
-    return {
-      rating: row.rating,
-      reviewed_at: row.reviewed_at,
-      words: row.words
-        ? { lemma: row.words.lemma, slug: row.words.slug, title: row.words.title, semanticField }
-        : null,
-    };
-  });
+  const recentLogs = reviewLogs30d.slice(0, 8).map((row) => ({
+    rating: row.rating,
+    reviewed_at: row.reviewed_at,
+    words: row.words
+      ? { lemma: row.words.lemma, slug: row.words.slug, title: row.words.title, semanticField: row.words.semantic_field }
+      : null,
+  }));
 
   const ratingDistribution = { again: 0, easy: 0, good: 0, hard: 0 };
   for (const row of reviewLogs30d) {
@@ -712,13 +700,7 @@ export async function getDashboardSummary() {
 
   const semanticCounts = new Map<string, { again: number; total: number }>();
   for (const row of reviewLogs30d) {
-    const metadata = row.words?.metadata as DashboardSemanticWord["metadata"] | null | undefined;
-    if (!isJsonObject(metadata)) {
-      continue;
-    }
-
-    const semanticField =
-      typeof metadata.semantic_field === "string" ? metadata.semantic_field : null;
+    const semanticField = row.words?.semantic_field ?? null;
     if (!semanticField) {
       continue;
     }

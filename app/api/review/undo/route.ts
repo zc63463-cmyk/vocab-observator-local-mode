@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { apiErrorResponse } from "@/lib/api-error";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { reviewUndoSchema } from "@/lib/validation/schemas";
 import type { ReviewQueueItem } from "@/lib/review/types";
@@ -32,10 +33,7 @@ export async function POST(request: NextRequest) {
   );
 
   if (rpcError) {
-    return NextResponse.json(
-      { error: "撤销操作失败: " + rpcError.message },
-      { status: 500 },
-    );
+    return apiErrorResponse(rpcError, "api/review/undo");
   }
 
   // RPC returns an array with one row

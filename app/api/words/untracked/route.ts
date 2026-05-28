@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { apiErrorResponse } from "@/lib/api-error";
 import { sql } from "@/lib/db";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 
@@ -48,7 +49,7 @@ export async function GET() {
   `;
 
   if (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return apiErrorResponse(error, "api/words/untracked");
   }
 
   const rows = data ?? [];

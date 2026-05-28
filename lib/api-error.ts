@@ -9,10 +9,11 @@ export function apiErrorResponse(
   error: unknown,
   context: string,
   status = 500,
+  message?: string,
 ) {
   console.error(`[${context}] Internal error:`, error);
   return NextResponse.json(
-    { error: "Internal server error" },
+    { error: message ?? "Internal server error" },
     { status },
   );
 }

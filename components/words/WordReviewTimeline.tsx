@@ -1,7 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState, useTransition } from "react";
+import { useMemo, useState, useTransition } from "react";
+import { useIsMounted } from "@/hooks/useIsMounted";
 import { useToast } from "@/components/ui/Toast";
 import type { OwnerWordReviewLogEntry } from "@/lib/owner-word-sidebar";
 import { submitReviewRejoin } from "@/lib/review/rejoin-client";
@@ -71,14 +72,7 @@ export function WordReviewTimeline({ logs, progressId }: WordReviewTimelineProps
   const { addToast } = useToast();
   const [submitting, setSubmitting] = useState(false);
   const [, startTransition] = useTransition();
-  const mountedRef = useRef(true);
-
-  useEffect(() => {
-    mountedRef.current = true;
-    return () => {
-      mountedRef.current = false;
-    };
-  }, []);
+  const mountedRef = useIsMounted();
 
   async function handleReviewNow() {
     if (!progressId || submitting) return;

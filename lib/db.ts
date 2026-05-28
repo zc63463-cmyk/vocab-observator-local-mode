@@ -22,6 +22,12 @@ export function getPool(): Pool {
       max: 10,
       idleTimeoutMillis: 30000,
       connectionTimeoutMillis: 5000,
+      // Prevent Docker Desktop / Windows NAT from silently closing idle
+      // connections after a few minutes of inactivity (manifests as random
+      // ECONNRESET). keepAlive probes keep the socket alive; the initial
+      // delay is short enough to outpace typical NAT idle timeouts.
+      keepAlive: true,
+      keepAliveInitialDelayMillis: 10000,
     });
   }
   return _pool;
@@ -104,7 +110,11 @@ class FilterState {
   }
 
   quote(id: string) {
-    return `"${id.replace(/"/g, '""')}"`;
+    // Handle qualified identifiers like "table.column" by quoting each part
+    return id
+      .split(".")
+      .map((part) => `"${part.replace(/"/g, '""')}"`)
+      .join(".");
   }
 
   nextParam() {
@@ -150,47 +160,61 @@ class PostgrestBuilder<T = any> {
     this.op = op;
   }
 
+  // ---- column qualification ----
+
+  /**
+   * Prefixes a bare column name with the current table so filters stay
+   * unambiguous when JOINs are present (e.g. `words!inner(...)` embeds).
+   * Columns that already contain a dot are left untouched.
+   */
+  private qualifyColumn(column: string): string {
+    if (column.includes(".")) return column;
+    return `${this.table}.${column}`;
+  }
+
   // ---- filter methods ----
 
   eq(column: string, value: any): this {
-    this.filter.addFilter(column, "=", value);
+    this.filter.addFilter(this.qualifyColumn(column), "=", value);
     return this;
   }
 
   neq(column: string, value: any): this {
+    const col = this.qualifyColumn(column);
     if (value === null || value === undefined) {
-      this.filter.addRaw(`${this.filter.quote(column)} IS NOT NULL`);
+      this.filter.addRaw(`${this.filter.quote(col)} IS NOT NULL`);
     } else {
-      this.filter.addFilter(column, "!=", value);
+      this.filter.addFilter(col, "!=", value);
     }
     return this;
   }
 
   gt(column: string, value: any): this {
-    this.filter.addFilter(column, ">", value);
+    this.filter.addFilter(this.qualifyColumn(column), ">", value);
     return this;
   }
 
   gte(column: string, value: any): this {
-    this.filter.addFilter(column, ">=", value);
+    this.filter.addFilter(this.qualifyColumn(column), ">=", value);
     return this;
   }
 
   lt(column: string, value: any): this {
-    this.filter.addFilter(column, "<", value);
+    this.filter.addFilter(this.qualifyColumn(column), "<", value);
     return this;
   }
 
   lte(column: string, value: any): this {
-    this.filter.addFilter(column, "<=", value);
+    this.filter.addFilter(this.qualifyColumn(column), "<=", value);
     return this;
   }
 
   is(column: string, value: any): this {
+    const col = this.qualifyColumn(column);
     if (value === null || value === undefined) {
-      this.filter.addRaw(`${this.filter.quote(column)} IS NULL`);
+      this.filter.addRaw(`${this.filter.quote(col)} IS NULL`);
     } else {
-      this.filter.addFilter(column, "IS", value);
+      this.filter.addFilter(col, "IS", value);
     }
     return this;
   }
@@ -201,13 +225,13 @@ class PostgrestBuilder<T = any> {
       return this;
     }
     const placeholders = values.map(() => this.filter.nextParam()).join(", ");
-    this.filter.filters.push(`${this.filter.quote(column)} IN (${placeholders})`);
+    this.filter.filters.push(`${this.filter.quote(this.qualifyColumn(column))} IN (${placeholders})`);
     this.filter.params.push(...values);
     return this;
   }
 
   contains(column: string, value: any): this {
-    this.filter.filters.push(`${this.filter.quote(column)} @> ${this.filter.nextParam()}`);
+    this.filter.filters.push(`${this.filter.quote(this.qualifyColumn(column))} @> ${this.filter.nextParam()}`);
     this.filter.params.push(JSON.stringify(value));
     return this;
   }
@@ -225,7 +249,7 @@ class PostgrestBuilder<T = any> {
           like: "LIKE", ilike: "ILIKE",
         };
         const op = opMap[opStr] || "=";
-        clauses.push(`${this.filter.quote(col)} ${op} ${this.filter.nextParam()}`);
+        clauses.push(`${this.filter.quote(this.qualifyColumn(col))} ${op} ${this.filter.nextParam()}`);
         this.filter.params.push(val);
       }
     }
@@ -236,20 +260,20 @@ class PostgrestBuilder<T = any> {
   }
 
   like(column: string, pattern: string): this {
-    this.filter.filters.push(`${this.filter.quote(column)} LIKE ${this.filter.nextParam()}`);
+    this.filter.filters.push(`${this.filter.quote(this.qualifyColumn(column))} LIKE ${this.filter.nextParam()}`);
     this.filter.params.push(pattern);
     return this;
   }
 
   ilike(column: string, pattern: string): this {
-    this.filter.filters.push(`${this.filter.quote(column)} ILIKE ${this.filter.nextParam()}`);
+    this.filter.filters.push(`${this.filter.quote(this.qualifyColumn(column))} ILIKE ${this.filter.nextParam()}`);
     this.filter.params.push(pattern);
     return this;
   }
 
   textSearch(column: string, query: string, _options?: { type?: "plain" | "phrase" | "websearch" }): this {
     // Simple ILIKE fallback for text search
-    this.filter.filters.push(`${this.filter.quote(column)} ILIKE ${this.filter.nextParam()}`);
+    this.filter.filters.push(`${this.filter.quote(this.qualifyColumn(column))} ILIKE ${this.filter.nextParam()}`);
     this.filter.params.push(`%${query}%`);
     return this;
   }
@@ -453,7 +477,22 @@ class PostgrestBuilder<T = any> {
         `${joinKeyword} ${f.quote(embed.table)} ON ${f.quote(embed.table)}.${f.quote(rel.pk)} = ${f.quote(this.table)}.${f.quote(rel.fk)}`,
       );
       const jsonCols = embed.columns
-        .map((c) => `'${c}', ${f.quote(embed.table)}.${f.quote(c)}`)
+        .map((c) => {
+          // Support aliased expressions like "alias:column->>key" inside embeds.
+          const aliasMatch = c.match(/^([^:]+):(.+)$/);
+          if (aliasMatch) {
+            const [, alias, expr] = aliasMatch;
+            let sqlExpr = expr.trim();
+            // PostgREST JSON-path shorthand → PostgreSQL syntax
+            sqlExpr = sqlExpr.replace(/->>(\w+)/g, "->>'$1'");
+            sqlExpr = sqlExpr.replace(/->(\w+)/g, "->'$1'");
+            return `'${alias.trim()}', ${f.quote(embed.table)}.${sqlExpr}`;
+          }
+          let sqlExpr = c.trim();
+          sqlExpr = sqlExpr.replace(/->>(\w+)/g, "->>'$1'");
+          sqlExpr = sqlExpr.replace(/->(\w+)/g, "->'$1'");
+          return `'${c}', ${f.quote(embed.table)}.${sqlExpr}`;
+        })
         .join(", ");
       selectParts.push(`jsonb_build_object(${jsonCols}) AS ${f.quote(embed.table)}`);
     }
