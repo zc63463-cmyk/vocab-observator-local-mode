@@ -8,9 +8,15 @@
 - 文件名使用小写单词本身，如 `abandon.md`、`inevitable.md`
 - 文件使用 UTF-8 编码
 
+## 标杆文件
+
+- **`_benchmark.md`** — 完整的高质量示例（`inevitable`），展示所有章节的最佳写法
+- **`_prompt.md`** — 给 AI 的批量生成提示，含详细的格式规范和质量标准
+- **`.template.md`** — 空模板，快速上手用
+
 ## 笔记格式
 
-参考同目录下的 `.template.md` 模板。核心结构：
+参考 `_benchmark.md` 标杆文件。核心结构：
 
 1. **YAML Frontmatter**（顶部 `---` 包裹的元数据）
    - `title`: 单词原形
