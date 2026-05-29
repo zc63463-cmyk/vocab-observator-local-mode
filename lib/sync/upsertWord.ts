@@ -329,7 +329,18 @@ export async function syncGitHubWords(
           softDelete: [] as ExistingSyncRef[],
           unchanged: [] as ImportedCollections,
           update: [] as ImportedCollections,
+          skip: [] as Array<{ word: ImportedCollections; reason: string }>,
         };
+    // Record cross-corpus skips as import errors for diagnostics.
+    for (const skipped of plan.skip) {
+      importErrors.push({
+        errorMessage: skipped.reason,
+        errorStage: "cross-corpus-skip",
+        rawExcerpt: null,
+        sourcePath: skipped.word.sourcePath,
+      });
+    }
+
     const failedSourcePaths = new Set(
       importErrors
         .map((entry) => entry.sourcePath)
@@ -349,7 +360,13 @@ export async function syncGitHubWords(
       // Re-upsert unchanged source files so parser/schema upgrades can backfill derived fields.
       ...plan.unchanged,
     ];
-    console.log("[sync] Step 5: syncable words:", syncableWords.length);
+    console.log(
+      "[sync] Step 5: syncable:", syncableWords.length,
+      "create:", plan.create.length,
+      "update:", plan.update.length,
+      "unchanged:", plan.unchanged.length,
+      "skip:", plan.skip.length,
+    );
 
     // Pre-render markdown �?HTML once per word during import so the detail
     // page can serve cached HTML instead of rendering on every request.
