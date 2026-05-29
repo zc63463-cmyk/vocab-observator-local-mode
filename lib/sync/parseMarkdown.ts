@@ -57,6 +57,7 @@ const WORD_FREQ_LABEL_MAP: Record<string, string> = {
   L0_超纲词: "超纲词",
   L0_基础词: "基础词",
   L0_单词集合: "必备词",
+  L1_雅思词汇: "雅思词汇",
 };
 
 function deriveFreqFromSourcePath(sourcePath: string): string | null {

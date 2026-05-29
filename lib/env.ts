@@ -6,6 +6,7 @@ const defaults = {
     "Wiki/L0_超纲词",
     "Wiki/L0_基础词",
     "Wiki/L0_单词集合",
+    "Wiki/L1_雅思词汇",
   ],
 } as const;
 
