@@ -44,7 +44,14 @@ export async function GET() {
   // Group by date (YYYY-MM-DD)
   const dayMap = new Map<string, DayStat>();
   for (const row of rows) {
-    const date = row.reviewed_at.slice(0, 10);
+    const raw = row.reviewed_at;
+    const date =
+      typeof raw === "string"
+        ? raw.slice(0, 10)
+        : raw instanceof Date
+          ? raw.toISOString().slice(0, 10)
+          : null;
+    if (!date) continue;
     const stat = dayMap.get(date) ?? {
       date,
       total: 0,

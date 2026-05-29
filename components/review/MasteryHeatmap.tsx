@@ -3,6 +3,7 @@
 import * as d3 from "d3";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
+import { formatDateShort } from "@/lib/date-utils";
 
 interface MasteryCell {
   cefr: string;
@@ -542,7 +543,7 @@ export function MasteryHeatmap({
           </p>
           {tooltip.cell.dueAt ? (
             <p className="mt-0.5 text-[10px] text-[var(--color-ink-soft)] opacity-60">
-              到期 {tooltip.cell.dueAt.slice(0, 10)}
+              到期 {formatDateShort(tooltip.cell.dueAt)}
             </p>
           ) : null}
           {tooltip.neighbors.length > 0 && (
@@ -613,7 +614,7 @@ export function MasteryHeatmap({
 
             {previewCell.dueAt && (
               <p className="mt-1 text-xs text-[var(--color-ink-soft)] opacity-60">
-                下次复习：{previewCell.dueAt.slice(0, 10)}
+                下次复习：{formatDateShort(previewCell.dueAt)}
               </p>
             )}
 
