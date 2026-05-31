@@ -113,6 +113,7 @@ interface GetPublicWordsOptions {
   ownerSupabase?: ServerSupabaseClient | null;
   ownerUserId?: string | null;
   pagination?: WordPagination;
+  wordbookId?: string | null;
 }
 
 type BarePublicWordMetadataRow = Pick<PublicWordIndexEntry, "metadata">;
@@ -647,6 +648,7 @@ async function loadLegacyPublicWordFilterOptions(
 async function getOwnerProgressMap(
   ownerUserId: string,
   supabase: ServerSupabaseClient,
+  wordbookId?: string | null,
 ) {
   // Paginated for the same reason public-words reads are paginated:
   // PostgREST silently caps unbounded SELECTs at db-max-rows (1000 by
@@ -666,13 +668,16 @@ async function getOwnerProgressMap(
   const data: ProgressRow[] = [];
   let offset = 0;
   while (true) {
-    const page = await supabase
+    let query = supabase
       .from("user_word_progress")
       .select(
         "word_id, id, due_at, review_count, state, last_reviewed_at, lapse_count, again_count",
       )
-      .eq("user_id", ownerUserId)
-      .range(offset, offset + PAGE_SIZE - 1);
+      .eq("user_id", ownerUserId);
+    if (wordbookId) {
+      query = query.eq("wordbook_id", wordbookId);
+    }
+    const page = await query.range(offset, offset + PAGE_SIZE - 1);
     if (page.error) {
       throw page.error;
     }
@@ -1561,7 +1566,7 @@ export async function getPublicWords(
   // overlay only runs for ~60 rows.
   const ownerProgressMapPromise: Promise<Map<string, OwnerWordProgressSummary>> =
     isOwner
-      ? getOwnerProgressMap(options!.ownerUserId!, options!.ownerSupabase!)
+      ? getOwnerProgressMap(options!.ownerUserId!, options!.ownerSupabase!, options?.wordbookId)
       : Promise.resolve(new Map<string, OwnerWordProgressSummary>());
 
   if (isDefaultPublicWordFilters(normalizedFilters)) {

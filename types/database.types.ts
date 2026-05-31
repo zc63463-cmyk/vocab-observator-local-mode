@@ -159,6 +159,7 @@ export interface Database {
           user_id: string;
           version: number;
           word_id: string;
+          wordbook_id: string;
         };
         Insert: {
           content_md?: string;
@@ -168,6 +169,7 @@ export interface Database {
           user_id: string;
           version: number;
           word_id: string;
+          wordbook_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["note_revisions"]["Insert"]>;
         Relationships: [];
@@ -181,6 +183,7 @@ export interface Database {
           user_id: string;
           version: number;
           word_id: string;
+          wordbook_id: string;
         };
         Insert: {
           content_md?: string;
@@ -190,6 +193,7 @@ export interface Database {
           user_id: string;
           version?: number;
           word_id: string;
+          wordbook_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["notes"]["Insert"]>;
         Relationships: [];
@@ -238,6 +242,7 @@ export interface Database {
           undone_at: string | null;
           user_id: string;
           word_id: string;
+          wordbook_id: string;
         };
         Insert: {
           created_at?: string;
@@ -258,6 +263,7 @@ export interface Database {
           undone_at?: string | null;
           user_id: string;
           word_id: string;
+          wordbook_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["review_logs"]["Insert"]>;
         Relationships: [];
@@ -272,6 +278,7 @@ export interface Database {
           started_at: string;
           updated_at: string;
           user_id: string;
+          wordbook_id: string;
         };
         Insert: {
           cards_seen?: number;
@@ -282,6 +289,7 @@ export interface Database {
           started_at?: string;
           updated_at?: string;
           user_id: string;
+          wordbook_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["sessions"]["Insert"]>;
         Relationships: [];
@@ -330,6 +338,7 @@ export interface Database {
           updated_at: string;
           user_id: string;
           word_id: string;
+          wordbook_id: string;
         };
         Insert: {
           again_count?: number;
@@ -356,6 +365,7 @@ export interface Database {
           updated_at?: string;
           user_id: string;
           word_id: string;
+          wordbook_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["user_word_progress"]["Insert"]>;
         Relationships: [];
@@ -370,6 +380,42 @@ export interface Database {
           word_id: string;
         };
         Update: Partial<Database["public"]["Tables"]["word_tags"]["Insert"]>;
+        Relationships: [];
+      };
+      wordbooks: {
+        Row: {
+          id: string;
+          user_id: string;
+          name: string;
+          description: string | null;
+          is_default: boolean;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          name: string;
+          description?: string | null;
+          is_default?: boolean;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: Partial<Database["public"]["Tables"]["wordbooks"]["Insert"]>;
+        Relationships: [];
+      };
+      wordbook_items: {
+        Row: {
+          wordbook_id: string;
+          word_id: string;
+          created_at: string;
+        };
+        Insert: {
+          wordbook_id: string;
+          word_id: string;
+          created_at?: string;
+        };
+        Update: Partial<Database["public"]["Tables"]["wordbook_items"]["Insert"]>;
         Relationships: [];
       };
       word_filter_facets: {

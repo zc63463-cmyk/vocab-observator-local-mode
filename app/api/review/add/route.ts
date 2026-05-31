@@ -5,6 +5,7 @@ import {
 } from "@/lib/review/fsrs-adapter";
 import { getUserDesiredRetention } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { resolveWordbookId } from "@/lib/wordbook";
 import { addToReviewSchema } from "@/lib/validation/schemas";
 import { serializeOwnerWordProgress } from "@/lib/words";
 import { asJson } from "@/types/database.types";
@@ -26,6 +27,9 @@ export async function POST(request: NextRequest) {
   }
 
   const supabase = ownerSession.supabase!;
+  const userId = ownerSession.user!.id;
+  const wordbookId = await resolveWordbookId(supabase, userId);
+
   const { data: word, error: wordError } = await supabase
     .from("words")
     .select("id, content_hash")
@@ -58,11 +62,12 @@ export async function POST(request: NextRequest) {
         scheduler_payload: asJson(initialPayload),
         state: "new",
         updated_at: now,
-        user_id: ownerSession.user!.id,
+        user_id: userId,
         word_id: body.data.wordId,
+        wordbook_id: wordbookId,
       },
       {
-        onConflict: "user_id,word_id",
+        onConflict: "user_id,wordbook_id,word_id",
       },
     )
     .select(

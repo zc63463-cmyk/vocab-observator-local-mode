@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import type { ReviewQueueItem, ReviewQueueStats, ReviewSessionSummary } from "@/lib/review/types";
 import type { RatingKey } from "./types";
 
@@ -36,6 +37,7 @@ export function useZenReview({
   const [stats, setStats] = useState<ReviewQueueStats | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { activeWordbook } = useWordbook();
 
   // Free-mode only: maps synthetic reviewLogId → ReviewQueueItem so undo can
   // restore the card locally without any DB round-trip.
@@ -58,7 +60,10 @@ export function useZenReview({
       };
     }
 
-    const response = await fetch("/api/review/queue");
+    const url = activeWordbook
+      ? `/api/review/queue?wordbookId=${activeWordbook.id}`
+      : "/api/review/queue";
+    const response = await fetch(url);
     const payload = (await response.json()) as QueueResponse & { error?: string };
     if (!response.ok) {
       throw new Error(payload.error ?? "加载复习队列失败");
@@ -68,7 +73,7 @@ export function useZenReview({
       session: payload.session ?? null,
       stats: payload.stats ?? null,
     };
-  }, [mode, wordIds]);
+  }, [mode, wordIds, activeWordbook]);
 
   const submitRating = useCallback(
     async (item: ReviewQueueItem, rating: RatingKey): Promise<string> => {

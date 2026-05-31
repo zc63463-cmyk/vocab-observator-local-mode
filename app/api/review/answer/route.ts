@@ -5,6 +5,7 @@ import { getUserFsrsWeights } from "@/lib/review/settings";
 import type { StoredSchedulerCard } from "@/lib/review/types";
 import { incrementSessionCardsSeen } from "@/lib/review/session";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { resolveWordbookId } from "@/lib/wordbook";
 import { reviewAnswerSchema } from "@/lib/validation/schemas";
 import type { Database, Json } from "@/types/database.types";
 import { asJson } from "@/types/database.types";
@@ -26,10 +27,12 @@ export async function POST(request: NextRequest) {
   }
 
   const supabase = ownerSession.supabase!;
+  const userId = ownerSession.user!.id;
+
   const { data: progressData, error: progressError } = await supabase
     .from("user_word_progress")
     .select(
-      "id, word_id, again_count, desired_retention, easy_count, good_count, hard_count, lapse_count, review_count, scheduler_payload, difficulty, due_at, interval_days, last_reviewed_at, last_rating, retrievability, stability, state, content_hash_snapshot, words!inner(content_hash)",
+      "id, word_id, wordbook_id, again_count, desired_retention, easy_count, good_count, hard_count, lapse_count, review_count, scheduler_payload, difficulty, due_at, interval_days, last_reviewed_at, last_rating, retrievability, stability, state, content_hash_snapshot, words!inner(content_hash)",
     )
     .eq("id", parsed.data.progressId)
     .single();
@@ -59,6 +62,7 @@ export async function POST(request: NextRequest) {
     stability: number | null;
     state: string;
     word_id: string;
+    wordbook_id: string;
     words: { content_hash: string };
   }
 
@@ -120,6 +124,8 @@ export async function POST(request: NextRequest) {
     return apiErrorResponse(updateError, "api/review/answer");
   }
 
+  const wordbookId = progress.wordbook_id;
+
   const previousSnapshot = {
     scheduler_payload: progress.scheduler_payload,
     difficulty: progress.difficulty,
@@ -157,8 +163,9 @@ export async function POST(request: NextRequest) {
     scheduled_days: scheduling.scheduledDays,
     stability: scheduling.stability,
     state: scheduling.state,
-    user_id: ownerSession.user!.id,
+    user_id: userId,
     word_id: progress.word_id,
+    wordbook_id: wordbookId,
   }).select("id").single();
 
   if (logError) {

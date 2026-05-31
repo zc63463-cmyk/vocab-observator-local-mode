@@ -20,6 +20,7 @@ describe("batch review add helpers", () => {
       nowIso: "2026-04-28T00:00:00.000Z",
       requestedWordIds: [wordA, wordB, missingWord],
       userId,
+      wordbookId: "00000000-0000-4000-8000-200000000001",
       words: [
         { content_hash: "hash-a", id: wordA },
         { content_hash: "hash-b", id: wordB },
@@ -39,6 +40,7 @@ describe("batch review add helpers", () => {
         updated_at: "2026-04-28T00:00:00.000Z",
         user_id: userId,
         word_id: wordB,
+        wordbook_id: "00000000-0000-4000-8000-200000000001",
       },
     ]);
   });
@@ -51,6 +53,7 @@ describe("batch review add helpers", () => {
       nowIso: "2026-04-28T01:00:00.000Z",
       requestedWordIds: [wordA, wordB],
       userId,
+      wordbookId: "00000000-0000-4000-8000-200000000001",
       words: [
         { content_hash: "hash-a", id: wordA },
         { content_hash: "hash-b", id: wordB },

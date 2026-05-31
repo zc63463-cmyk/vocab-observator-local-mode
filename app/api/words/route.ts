@@ -39,6 +39,7 @@ export async function GET(request: NextRequest) {
           ownerSupabase,
           ownerUserId: owner.id,
           pagination,
+          wordbookId: request.nextUrl.searchParams.get("wordbookId") ?? undefined,
         }
       : {
           pagination,

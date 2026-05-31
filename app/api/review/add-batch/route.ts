@@ -8,6 +8,7 @@ import {
 } from "@/lib/review/batch-add";
 import { getUserDesiredRetention } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { resolveWordbookId } from "@/lib/wordbook";
 import { batchAddToReviewSchema } from "@/lib/validation/schemas";
 
 export async function POST(request: NextRequest) {
@@ -26,6 +27,7 @@ export async function POST(request: NextRequest) {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const wordbookId = await resolveWordbookId(supabase, userId, body.data.wordbookId);
   const requestedWordIds = uniqueWordIds(body.data.wordIds);
 
   const { data: words, error: wordsError } = await supabase
@@ -45,6 +47,7 @@ export async function POST(request: NextRequest) {
       .from("user_word_progress")
       .select("word_id")
       .eq("user_id", userId)
+      .eq("wordbook_id", wordbookId)
       .in("word_id", foundWordIds);
 
     if (existingProgressError) {
@@ -66,6 +69,7 @@ export async function POST(request: NextRequest) {
     nowIso,
     requestedWordIds,
     userId,
+    wordbookId,
     words: (words ?? []) as BatchReviewWord[],
   });
 
@@ -82,7 +86,7 @@ export async function POST(request: NextRequest) {
     .from("user_word_progress")
     .upsert(plan.rows, {
       ignoreDuplicates: true,
-      onConflict: "user_id,word_id",
+      onConflict: "user_id,wordbook_id,word_id",
     })
     .select("id, word_id");
 

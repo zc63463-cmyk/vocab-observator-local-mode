@@ -4,6 +4,7 @@ import { BookOpen, LayoutGrid, Notebook, Repeat } from "lucide-react";
 import { HeaderAuthStatus } from "@/components/layout/HeaderAuthStatus";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
 import { MobileNav } from "@/components/layout/MobileNav";
+import { WordbookSwitcher } from "@/components/wordbook/WordbookSwitcher";
 
 const NAV_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   "/words": BookOpen,
@@ -67,6 +68,7 @@ export function SiteHeader() {
         <DesktopNav />
 
         <div className="flex items-center gap-3">
+          <WordbookSwitcher />
           <ThemeToggle />
           <HeaderAuthStatus />
           <MobileNav items={navItems} />

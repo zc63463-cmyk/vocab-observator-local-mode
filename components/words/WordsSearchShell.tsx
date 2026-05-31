@@ -11,6 +11,7 @@ import { SkeletonBlock, SkeletonLine } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import { WordCard } from "@/components/words/WordCard";
 import { WordSearchPanel } from "@/components/words/WordSearchPanel";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { useFilteredSearch } from "@/hooks/useFilteredSearch";
 import { buildWordDetailHref } from "@/lib/words-routing";
 import type { PublicWordsResponse, ReviewFilter } from "@/lib/words";
@@ -100,8 +101,13 @@ function buildWordsHref(pathname: string, filters: WordFilters) {
 function buildWordsApiHref(
   filters: WordFilters,
   pagination?: Partial<WordPagination>,
+  wordbookId?: string | null,
 ) {
-  const query = createWordsSearchParams(filters, pagination).toString();
+  const params = createWordsSearchParams(filters, pagination);
+  if (wordbookId) {
+    params.set("wordbookId", wordbookId);
+  }
+  const query = params.toString();
   return query ? `/api/words?${query}` : "/api/words";
 }
 
@@ -145,10 +151,12 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
   const [selectedWordIds, setSelectedWordIds] = useState<Set<string>>(new Set());
   const [showSearchPanel, setShowSearchPanel] = useState(false);
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
+  const activeWordbookId = activeWordbook?.id ?? null;
 
   const buildInitialApiHref = useCallback(
-    (filters: WordFilters) => buildWordsApiHref(filters, { limit: initialPageLimit }),
-    [initialPageLimit],
+    (filters: WordFilters) => buildWordsApiHref(filters, { limit: initialPageLimit }, activeWordbookId),
+    [initialPageLimit, activeWordbookId],
   );
 
   const {
@@ -251,7 +259,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
     const response = await fetch(
       buildWordsApiHref(displayResult.filters, {
         limit: Math.max(displayResult.words.length, initialPageLimit),
-      }),
+      }, activeWordbookId),
       {
         credentials: "same-origin",
       },
@@ -319,7 +327,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       buildWordsApiHref(displayResult.filters, {
         limit: displayResult.pageInfo.limit,
         offset: nextOffset,
-      }),
+      }, activeWordbookId),
       {
         credentials: "same-origin",
         signal: controller.signal,

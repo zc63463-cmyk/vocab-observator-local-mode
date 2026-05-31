@@ -11,12 +11,14 @@ type OwnerSupabaseClient = SupabaseClient<Database>;
 export async function getOrCreateReviewSession(
   supabase: OwnerSupabaseClient,
   userId: string,
+  wordbookId: string,
 ) {
   const todayIso = startOfTodayIso();
   const { data: existingSession, error } = await supabase
     .from("sessions")
     .select("id, started_at, cards_seen, mode, ended_at")
     .eq("user_id", userId)
+    .eq("wordbook_id", wordbookId)
     .eq("mode", "review")
     .is("ended_at", null)
     .order("started_at", { ascending: false })
@@ -51,6 +53,7 @@ export async function getOrCreateReviewSession(
     .insert({
       mode: "review",
       user_id: userId,
+      wordbook_id: wordbookId,
     })
     .select("id, started_at, cards_seen")
     .single();
@@ -65,12 +68,14 @@ export async function getOrCreateReviewSession(
 export async function getActiveReviewSession(
   supabase: OwnerSupabaseClient,
   userId: string,
+  wordbookId: string,
 ) {
   const todayIso = startOfTodayIso();
   const { data, error } = await supabase
     .from("sessions")
     .select("id, started_at, cards_seen")
     .eq("user_id", userId)
+    .eq("wordbook_id", wordbookId)
     .eq("mode", "review")
     .is("ended_at", null)
     .gte("started_at", todayIso)

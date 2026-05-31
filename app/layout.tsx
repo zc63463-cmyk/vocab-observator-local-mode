@@ -6,6 +6,7 @@ import { ToastProvider } from "@/components/ui/Toast";
 import { ReducedMotionProvider } from "@/components/motion/ReducedMotionProvider";
 import { OmniPalette } from "@/components/omni";
 import { OmniProvider } from "@/components/omni/useOmniStore";
+import { WordbookProvider } from "@/components/wordbook/WordbookContext";
 
 const headingFont = Fraunces({
   variable: "--font-heading",
@@ -77,10 +78,12 @@ export default function RootLayout({
           <ToastProvider>
             <GlobalErrorBoundary>
               <OmniProvider>
-                <div className="relative flex min-h-screen flex-col">
-                  {children}
-                </div>
-                <OmniPalette />
+                <WordbookProvider>
+                  <div className="relative flex min-h-screen flex-col">
+                    {children}
+                  </div>
+                  <OmniPalette />
+                </WordbookProvider>
               </OmniProvider>
             </GlobalErrorBoundary>
           </ToastProvider>

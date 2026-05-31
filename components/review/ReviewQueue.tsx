@@ -12,6 +12,7 @@ import { ReviewCard } from "@/components/review/ReviewCard";
 import { ReviewProgressBar } from "@/components/review/ReviewProgressBar";
 import { CompletionCelebration } from "@/components/review/CompletionCelebration";
 import { useToast } from "@/components/ui/Toast";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { formatDateTime } from "@/lib/utils";
 import type {
   ReviewQueueItem,
@@ -33,9 +34,13 @@ export function ReviewQueue() {
   const [session, setSession] = useState<ReviewSessionSummary | null>(null);
   const [stats, setStats] = useState<ReviewQueueStats | null>(null);
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
 
   const fetchQueue = useCallback(async (): Promise<QueueResponse> => {
-    const response = await fetch("/api/review/queue");
+    const url = activeWordbook
+      ? `/api/review/queue?wordbookId=${activeWordbook.id}`
+      : "/api/review/queue";
+    const response = await fetch(url);
     const payload = (await response.json()) as QueueResponse & { error?: string };
     if (!response.ok) {
       throw new Error(payload.error ?? "加载复习队列失败");
@@ -46,7 +51,7 @@ export function ReviewQueue() {
       session: payload.session ?? null,
       stats: payload.stats ?? null,
     };
-  }, []);
+  }, [activeWordbook]);
 
   const loadQueue = useCallback(async (showLoader = true) => {
     if (showLoader) {

@@ -6,6 +6,7 @@ import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "rea
 import { Virtuoso } from "react-virtuoso";
 import { Button } from "@/components/ui/Button";
 import { useToast } from "@/components/ui/Toast";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { buildWordDetailHref } from "@/lib/words-routing";
 
 interface UntrackedWord {
@@ -145,6 +146,7 @@ export function WordSearchPanel({
   const [semanticFilter, setSemanticFilter] = useState("");
   const [freqFilter, setFreqFilter] = useState("");
 
+  const { activeWordbook } = useWordbook();
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [isPending, setIsPending] = useState(false);
 
@@ -155,7 +157,11 @@ export function WordSearchPanel({
   useEffect(() => {
     let mounted = true;
 
-    fetch("/api/words/untracked", { credentials: "same-origin" })
+    const url = activeWordbook
+      ? `/api/words/untracked?wordbookId=${activeWordbook.id}`
+      : "/api/words/untracked";
+
+    fetch(url, { credentials: "same-origin" })
       .then(async (res) => {
         const payload = (await res.json()) as { items?: UntrackedWord[]; error?: string };
         if (!mounted) return;
@@ -269,7 +275,10 @@ export function WordSearchPanel({
         const response = await fetch("/api/review/add-batch", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ wordIds: [...selectedIds] }),
+          body: JSON.stringify({
+            wordIds: [...selectedIds],
+            wordbookId: activeWordbook?.id,
+          }),
         });
         const payload = (await response.json()) as BatchAddResponse;
         if (!response.ok) {

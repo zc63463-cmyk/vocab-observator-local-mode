@@ -1,31 +1,27 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { sql } from "@/lib/db";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { resolveWordbookId } from "@/lib/wordbook";
 
 /**
  * GET /api/words/untracked
  *
  * Returns ALL published words that the current owner has NOT yet
- * added to their review queue. Used by the "Search & Add" panel on the
- * words page so users can search across the entire lexicon rather than a
- * paginated subset.
- *
- * The caller (WordBatchAddPanel) uses react-virtuoso for virtualisation
- * when the list exceeds 100 items, so large result sets are handled
- * efficiently on the client.
- *
- * Performance: the NOT EXISTS clause uses the indexed (user_id, word_id)
- * composite on user_word_progress; for a few-thousand-row words table
- * this is typically < 20 ms on a warm connection.
+ * added to their review queue for the active wordbook.
  */
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
   }
 
   const ownerId = ownerSession.user.id;
+  const wordbookId = await resolveWordbookId(
+    ownerSession.supabase!,
+    ownerId,
+    request.nextUrl.searchParams.get("wordbookId"),
+  );
 
   const { data, error } = await sql<{
     id: string;
@@ -42,7 +38,7 @@ export async function GET() {
       AND w.is_deleted = false
       AND NOT EXISTS (
         SELECT 1 FROM user_word_progress p
-        WHERE p.word_id = w.id AND p.user_id = ${ownerId}
+        WHERE p.word_id = w.id AND p.user_id = ${ownerId} AND p.wordbook_id = ${wordbookId}
       )
     ORDER BY w.lemma ASC
   `;

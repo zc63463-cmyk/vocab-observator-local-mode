@@ -12,6 +12,7 @@ export const addToReviewSchema = z.object({
 
 export const batchAddToReviewSchema = z.object({
   wordIds: z.array(z.string().uuid()).min(1).max(100),
+  wordbookId: z.string().uuid().optional(),
 });
 
 export const reviewAnswerSchema = z.object({
@@ -77,4 +78,13 @@ export const noteSchema = z.object({
 
 export const noteRestoreSchema = z.object({
   revisionId: z.string().uuid(),
+});
+
+export const wordbookCreateSchema = z.object({
+  name: z.string().min(1).max(100),
+  description: z.string().max(500).optional(),
+});
+
+export const wordbookAddWordsSchema = z.object({
+  wordIds: z.array(z.string().uuid()).min(1).max(500),
 });

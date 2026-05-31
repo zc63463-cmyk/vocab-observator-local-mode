@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import {
   buildReviewQueueBatch,
@@ -7,10 +7,11 @@ import {
 import { getOrCreateReviewSession } from "@/lib/review/session";
 import { getUserFsrsWeights } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { resolveWordbookId } from "@/lib/wordbook";
 import type { ReviewQueueItem, StoredSchedulerCard } from "@/lib/review/types";
 import type { ParsedExample } from "@/lib/sync/parseMarkdown";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -18,7 +19,12 @@ export async function GET() {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
-  const session = await getOrCreateReviewSession(supabase, userId);
+  const wordbookId = await resolveWordbookId(
+    supabase,
+    userId,
+    request.nextUrl.searchParams.get("wordbookId"),
+  );
+  const session = await getOrCreateReviewSession(supabase, userId, wordbookId);
   // Personalised weights influence retrievability ranking inside the queue
   // builder. Fetched in parallel with the candidate query to avoid an extra
   // round-trip latency. A null result keeps ts-fsrs defaults active.
@@ -30,6 +36,7 @@ export async function GET() {
         { count: "exact" },
       )
       .eq("user_id", userId)
+      .eq("wordbook_id", wordbookId)
       .neq("state", "suspended")
       .lte("due_at", new Date().toISOString())
       .order("due_at", { ascending: true })

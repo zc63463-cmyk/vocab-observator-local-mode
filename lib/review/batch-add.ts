@@ -12,6 +12,7 @@ export interface BatchReviewInsertPlanOptions {
   nowIso: string;
   requestedWordIds: string[];
   userId: string;
+  wordbookId: string;
   words: BatchReviewWord[];
 }
 
@@ -25,6 +26,7 @@ export interface BatchReviewInsertRow {
   updated_at: string;
   user_id: string;
   word_id: string;
+  wordbook_id: string;
 }
 
 export interface BatchReviewInsertPlan {
@@ -44,6 +46,7 @@ export function buildBatchReviewInsertPlan({
   nowIso,
   requestedWordIds,
   userId,
+  wordbookId,
   words,
 }: BatchReviewInsertPlanOptions): BatchReviewInsertPlan {
   const requestedIds = uniqueWordIds(requestedWordIds);
@@ -66,6 +69,7 @@ export function buildBatchReviewInsertPlan({
       updated_at: nowIso,
       user_id: userId,
       word_id: word.id,
+      wordbook_id: wordbookId,
     }));
 
   return {

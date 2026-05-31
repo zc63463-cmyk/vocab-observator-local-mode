@@ -456,6 +456,7 @@ class PostgrestBuilder<T = any> {
       review_logs: { words: { fk: "word_id", pk: "id" } },
       notes: { words: { fk: "word_id", pk: "id" } },
       word_tags: { words: { fk: "word_id", pk: "id" }, tags: { fk: "tag_id", pk: "id" } },
+      wordbook_items: { wordbooks: { fk: "wordbook_id", pk: "id" }, words: { fk: "word_id", pk: "id" } },
     };
 
     // Clean up plain columns
