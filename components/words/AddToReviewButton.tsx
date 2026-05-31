@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { useToast } from "@/components/ui/Toast";
 import { springs } from "@/components/motion";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { formatDateTime } from "@/lib/utils";
 import type { OwnerWordProgressSummary } from "@/lib/words";
 
@@ -20,6 +21,7 @@ export function AddToReviewButton({
   const [pending, setPending] = useState(false);
   const [progress, setProgress] = useState(initialProgress);
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
   const dueNow = progress?.is_due ?? false;
   const isSuspended = progress?.state === "suspended";
 
@@ -32,7 +34,7 @@ export function AddToReviewButton({
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ wordId }),
+          body: JSON.stringify({ wordId, wordbookId: activeWordbook?.id }),
         });
         const payload = await response.json();
         if (!response.ok) {

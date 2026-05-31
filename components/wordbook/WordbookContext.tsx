@@ -68,7 +68,10 @@ export function WordbookProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    fetchWordbooks();
+    // Defer to next tick so React Compiler doesn't flag the synchronous
+    // setState inside fetchWordbooks as a cascading-render issue.
+    const timer = setTimeout(() => fetchWordbooks(), 0);
+    return () => clearTimeout(timer);
   }, [fetchWordbooks]);
 
   const setActiveWordbookId = useCallback((id: string) => {

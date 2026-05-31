@@ -147,6 +147,7 @@ export function WordSearchPanel({
   const [freqFilter, setFreqFilter] = useState("");
 
   const { activeWordbook } = useWordbook();
+  const activeWordbookId = activeWordbook?.id;
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [isPending, setIsPending] = useState(false);
 
@@ -157,8 +158,8 @@ export function WordSearchPanel({
   useEffect(() => {
     let mounted = true;
 
-    const url = activeWordbook
-      ? `/api/words/untracked?wordbookId=${activeWordbook.id}`
+    const url = activeWordbookId
+      ? `/api/words/untracked?wordbookId=${activeWordbookId}`
       : "/api/words/untracked";
 
     fetch(url, { credentials: "same-origin" })
@@ -179,7 +180,7 @@ export function WordSearchPanel({
       });
 
     return () => { mounted = false; };
-  }, []);
+  }, [activeWordbookId]);
 
   // ── Extract facet options from loaded words ───────────────────────
   const { semanticOptions, freqOptions } = useMemo(() => {
@@ -277,7 +278,7 @@ export function WordSearchPanel({
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             wordIds: [...selectedIds],
-            wordbookId: activeWordbook?.id,
+            wordbookId: activeWordbookId,
           }),
         });
         const payload = (await response.json()) as BatchAddResponse;
@@ -299,7 +300,7 @@ export function WordSearchPanel({
         setIsPending(false);
       }
     })();
-  }, [selectedCount, isPending, selectedIds, onRefresh, addToast]);
+  }, [selectedCount, isPending, selectedIds, onRefresh, addToast, activeWordbookId]);
 
   const isTextFiltered = needle.length > 0;
   const isFacetFiltered = semanticFilter !== "" || freqFilter !== "";

@@ -4,7 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
 import {
+  BookMarked,
   BookOpen,
+  ChevronDown,
   LayoutGrid,
   Menu,
   Notebook,
@@ -13,6 +15,8 @@ import {
 } from "lucide-react";
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
+import { WordbookManagerModal } from "@/components/wordbook/WordbookManagerModal";
 
 /* ── Icon mapping ── */
 const NAV_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -30,12 +34,15 @@ interface MobileNavProps {
 export function MobileNav({ items }: MobileNavProps) {
   const [open, setOpen] = useState(false);
   const [closing, setClosing] = useState(false);
+  const [wordbookOpen, setWordbookOpen] = useState(false);
+  const [managerOpen, setManagerOpen] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
   const closeTimeoutRef = useRef<number | null>(null);
   const touchStartX = useRef(0);
   const touchCurrentX = useRef(0);
   const pathname = usePathname();
   const previousPathnameRef = useRef(pathname);
+  const { activeWordbook, wordbooks, isLoading, setActiveWordbookId } = useWordbook();
 
   /* ── Portal target only available client-side. Reuses the same
         useSyncExternalStore helpers defined below for MobileThemeToggle. ── */
@@ -150,158 +157,216 @@ export function MobileNav({ items }: MobileNavProps) {
   );
 
   return (
-    <div className="md:hidden">
-      {/* Hamburger button */}
-      <button
-        type="button"
-        onClick={toggle}
-        data-testid="mobile-nav-toggle"
-        style={{ touchAction: "manipulation", WebkitTapHighlightColor: "transparent" }}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-border)] transition-colors duration-200 hover:border-[var(--color-border-strong)] hover:bg-[var(--color-surface-glass-hover)] active:scale-[0.92]"
-        aria-label={open ? "关闭菜单" : "打开菜单"}
-        aria-expanded={open}
-      >
-        {open && !closing ? (
-          <X className="h-[18px] w-[18px]" />
-        ) : (
-          <Menu className="h-[18px] w-[18px]" />
-        )}
-      </button>
+    <>
+      <div className="md:hidden">
+        {/* Hamburger button */}
+        <button
+          type="button"
+          onClick={toggle}
+          data-testid="mobile-nav-toggle"
+          style={{ touchAction: "manipulation", WebkitTapHighlightColor: "transparent" }}
+          className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-border)] transition-colors duration-200 hover:border-[var(--color-border-strong)] hover:bg-[var(--color-surface-glass-hover)] active:scale-[0.92]"
+          aria-label={open ? "关闭菜单" : "打开菜单"}
+          aria-expanded={open}
+        >
+          {open && !closing ? (
+            <X className="h-[18px] w-[18px]" />
+          ) : (
+            <Menu className="h-[18px] w-[18px]" />
+          )}
+        </button>
 
-      {/* Backdrop + Drawer rendered via portal to <body> so SiteHeader's
-          backdrop-filter doesn't capture them in its containing block. */}
-      {portalReady && open &&
-        createPortal(
-          <>
-            {/* Backdrop */}
-            <div
-              className={`fixed inset-0 z-50 bg-black/40 backdrop-blur-[2px] transition-opacity duration-300 ${
-                closing ? "opacity-0" : "opacity-100"
-              }`}
-              onClick={close}
-              aria-hidden="true"
-            />
+        {/* Backdrop + Drawer rendered via portal to <body> so SiteHeader's
+            backdrop-filter doesn't capture them in its containing block. */}
+        {portalReady && open &&
+          createPortal(
+            <>
+              {/* Backdrop */}
+              <div
+                className={`fixed inset-0 z-50 bg-black/40 backdrop-blur-[2px] transition-opacity duration-300 ${
+                  closing ? "opacity-0" : "opacity-100"
+                }`}
+                onClick={close}
+                aria-hidden="true"
+              />
 
-            {/* Drawer */}
-            <div
-              ref={drawerRef}
-              className={`fixed right-0 top-0 z-50 flex h-full w-[280px] flex-col border-l border-[var(--color-border)] bg-[var(--color-panel-strong)] backdrop-blur-xl shadow-2xl transition-transform duration-[280ms] ${
-                closing
-                  ? "translate-x-full ease-[cubic-bezier(0.4,0,0.2,1)]"
-                  : "translate-x-0 ease-[cubic-bezier(0.16,1,0.3,1)]"
-              }`}
-              role="dialog"
-              aria-modal="true"
-              aria-label="导航菜单"
-              onTouchStart={handleTouchStart}
-              onTouchMove={handleTouchMove}
-              onTouchEnd={handleTouchEnd}
-            >
-          {/* Header */}
-          <div className="flex items-center justify-between border-b border-[var(--color-border)] px-5 py-4">
-            <p className="section-title text-base font-semibold">Vocab Observatory</p>
-            <button
-              type="button"
-              onClick={close}
-              className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)] transition-colors hover:bg-[var(--color-surface-glass-hover)] active:scale-[0.92]"
-              aria-label="关闭菜单"
-            >
-              <X className="h-3.5 w-3.5" />
-            </button>
-          </div>
+              {/* Drawer */}
+              <div
+                ref={drawerRef}
+                className={`fixed right-0 top-0 z-50 flex h-full w-[280px] flex-col border-l border-[var(--color-border)] bg-[var(--color-panel-strong)] backdrop-blur-xl shadow-2xl transition-transform duration-[280ms] ${
+                  closing
+                    ? "translate-x-full ease-[cubic-bezier(0.4,0,0.2,1)]"
+                    : "translate-x-0 ease-[cubic-bezier(0.16,1,0.3,1)]"
+                }`}
+                role="dialog"
+                aria-modal="true"
+                aria-label="导航菜单"
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+              >
+            {/* Header */}
+            <div className="flex items-center justify-between border-b border-[var(--color-border)] px-5 py-4">
+              <p className="section-title text-base font-semibold">Vocab Observatory</p>
+              <button
+                type="button"
+                onClick={close}
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)] transition-colors hover:bg-[var(--color-surface-glass-hover)] active:scale-[0.92]"
+                aria-label="关闭菜单"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
 
-          {/* Navigation */}
-          <nav className="flex-1 overflow-y-auto px-3 py-3">
-            {/* Public section */}
-            <div className="mb-1">
-              <p className="px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-ink-soft)]">
-                浏览
+            {/* Navigation */}
+            <nav className="flex-1 overflow-y-auto px-3 py-3">
+              {/* Public section */}
+              <div className="mb-1">
+                <p className="px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-ink-soft)]">
+                  浏览
+                </p>
+                {publicItems.map((item) => {
+                  const Icon = NAV_ICONS[item.href];
+                  const active = isActive(item.href);
+                  return (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={close}
+                      className={`group flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors duration-150 ${
+                        active
+                          ? "bg-[var(--color-surface-muted)] text-[var(--color-accent)]"
+                          : "text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-glass-hover)] hover:text-[var(--color-ink)]"
+                      }`}
+                    >
+                      {Icon ? (
+                        <Icon
+                          className={`h-[18px] w-[18px] flex-shrink-0 transition-colors duration-150 ${
+                            active
+                              ? "text-[var(--color-accent)]"
+                              : "text-[var(--color-ink-soft)] group-hover:text-[var(--color-ink)]"
+                          }`}
+                        />
+                      ) : null}
+                      {item.label}
+                      {active ? (
+                        <span className="ml-auto h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />
+                      ) : null}
+                    </Link>
+                  );
+                })}
+              </div>
+
+              {/* Divider */}
+              <div className="my-2 h-px bg-[var(--color-border)]" />
+
+              {/* Private section */}
+              <div className="mb-1">
+                <p className="px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-ink-soft)]">
+                  学习
+                </p>
+                {privateItems.map((item) => {
+                  const Icon = NAV_ICONS[item.href];
+                  const active = isActive(item.href);
+                  return (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={close}
+                      className={`group flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors duration-150 ${
+                        active
+                          ? "bg-[var(--color-surface-muted)] text-[var(--color-accent)]"
+                          : "text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-glass-hover)] hover:text-[var(--color-ink)]"
+                      }`}
+                    >
+                      {Icon ? (
+                        <Icon
+                          className={`h-[18px] w-[18px] flex-shrink-0 transition-colors duration-150 ${
+                            active
+                              ? "text-[var(--color-accent)]"
+                              : "text-[var(--color-ink-soft)] group-hover:text-[var(--color-ink)]"
+                          }`}
+                        />
+                      ) : null}
+                      {item.label}
+                      {active ? (
+                        <span className="ml-auto h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />
+                      ) : null}
+                    </Link>
+                  );
+                })}
+              </div>
+            </nav>
+
+            {/* Wordbook switcher (mobile) */}
+            <div className="border-t border-[var(--color-border)] px-4 py-3">
+              <p className="px-4 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-ink-soft)]">
+                当前词本
               </p>
-              {publicItems.map((item) => {
-                const Icon = NAV_ICONS[item.href];
-                const active = isActive(item.href);
-                return (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={close}
-                    className={`group flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors duration-150 ${
-                      active
-                        ? "bg-[var(--color-surface-muted)] text-[var(--color-accent)]"
-                        : "text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-glass-hover)] hover:text-[var(--color-ink)]"
-                    }`}
+              {isLoading || wordbooks.length === 0 ? (
+                <p className="px-4 py-2 text-sm text-[var(--color-ink-soft)]">加载中…</p>
+              ) : (
+                <>
+                  <button
+                    onClick={() => setWordbookOpen((v) => !v)}
+                    className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-surface-glass-hover)]"
                   >
-                    {Icon ? (
-                      <Icon
-                        className={`h-[18px] w-[18px] flex-shrink-0 transition-colors duration-150 ${
-                          active
-                            ? "text-[var(--color-accent)]"
-                            : "text-[var(--color-ink-soft)] group-hover:text-[var(--color-ink)]"
-                        }`}
-                      />
-                    ) : null}
-                    {item.label}
-                    {active ? (
-                      <span className="ml-auto h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />
-                    ) : null}
-                  </Link>
-                );
-              })}
+                    <span className="flex items-center gap-2">
+                      <BookMarked className="h-4 w-4 text-[var(--color-accent)]" />
+                      {activeWordbook?.name ?? "词本"}
+                    </span>
+                    <ChevronDown className={`h-3.5 w-3.5 transition-transform ${wordbookOpen ? "rotate-180" : ""}`} />
+                  </button>
+                  {wordbookOpen && (
+                    <div className="mt-1 space-y-0.5 px-2">
+                      {wordbooks.map((wb) => (
+                        <button
+                          key={wb.id}
+                          onClick={() => {
+                            setActiveWordbookId(wb.id);
+                            setWordbookOpen(false);
+                            window.location.reload();
+                          }}
+                          className={`flex w-full items-center justify-between rounded-xl px-4 py-2.5 text-left text-sm transition-colors ${
+                            wb.id === activeWordbook?.id
+                              ? "bg-[var(--color-surface-muted)] font-medium text-[var(--color-accent)]"
+                              : "text-[var(--color-ink)] hover:bg-[var(--color-surface-glass-hover)]"
+                          }`}
+                        >
+                          <span>{wb.name}</span>
+                          <span className="text-xs text-[var(--color-ink-soft)]">{wb.word_count}词</span>
+                        </button>
+                      ))}
+                      <button
+                        onClick={() => {
+                          setWordbookOpen(false);
+                          setManagerOpen(true);
+                        }}
+                        className="w-full rounded-xl px-4 py-2 text-left text-xs text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-accent)]"
+                      >
+                        管理词本 →
+                      </button>
+                    </div>
+                  )}
+                </>
+              )}
             </div>
 
-            {/* Divider */}
-            <div className="my-2 h-px bg-[var(--color-border)]" />
+            {/* Footer with ThemeToggle */}
+            <div className="border-t border-[var(--color-border)] px-4 py-4">
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-[var(--color-ink-soft)]">外观模式</span>
+                <MobileThemeToggle />
+              </div>
+            </div>
+              </div>
+            </>,
+            document.body,
+          )}
+      </div>
 
-            {/* Private section */}
-            <div className="mb-1">
-              <p className="px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--color-ink-soft)]">
-                学习
-              </p>
-              {privateItems.map((item) => {
-                const Icon = NAV_ICONS[item.href];
-                const active = isActive(item.href);
-                return (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={close}
-                    className={`group flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors duration-150 ${
-                      active
-                        ? "bg-[var(--color-surface-muted)] text-[var(--color-accent)]"
-                        : "text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-glass-hover)] hover:text-[var(--color-ink)]"
-                    }`}
-                  >
-                    {Icon ? (
-                      <Icon
-                        className={`h-[18px] w-[18px] flex-shrink-0 transition-colors duration-150 ${
-                          active
-                            ? "text-[var(--color-accent)]"
-                            : "text-[var(--color-ink-soft)] group-hover:text-[var(--color-ink)]"
-                        }`}
-                      />
-                    ) : null}
-                    {item.label}
-                    {active ? (
-                      <span className="ml-auto h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />
-                    ) : null}
-                  </Link>
-                );
-              })}
-            </div>
-          </nav>
-
-          {/* Footer with ThemeToggle */}
-          <div className="border-t border-[var(--color-border)] px-4 py-4">
-            <div className="flex items-center justify-between">
-              <span className="text-xs text-[var(--color-ink-soft)]">外观模式</span>
-              <MobileThemeToggle />
-            </div>
-          </div>
-            </div>
-          </>,
-          document.body,
-        )}
-    </div>
+      <WordbookManagerModal open={managerOpen} onClose={() => setManagerOpen(false)} />
+    </>
   );
 }
 

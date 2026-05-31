@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { X, Plus, Trash2, BookMarked, Loader2 } from "lucide-react";
+import { X, Plus, Trash2, BookMarked, Loader2, Pencil, Check, XIcon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useWordbook } from "./WordbookContext";
 
@@ -17,6 +17,10 @@ export function WordbookManagerModal({
   const [description, setDescription] = useState("");
   const [isCreating, setIsCreating] = useState(false);
   const [isDeleting, setIsDeleting] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editName, setEditName] = useState("");
+  const [editDescription, setEditDescription] = useState("");
+  const [isRenaming, setIsRenaming] = useState(false);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -72,6 +76,39 @@ export function WordbookManagerModal({
       }
     } finally {
       setIsDeleting(null);
+    }
+  };
+
+  const startEdit = (wb: typeof wordbooks[number]) => {
+    setEditingId(wb.id);
+    setEditName(wb.name);
+    setEditDescription(wb.description ?? "");
+  };
+
+  const cancelEdit = () => {
+    setEditingId(null);
+    setEditName("");
+    setEditDescription("");
+  };
+
+  const handleRename = async (id: string) => {
+    if (!editName.trim()) return;
+    setIsRenaming(true);
+    try {
+      const res = await fetch(`/api/wordbooks/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: editName.trim(),
+          description: editDescription.trim() || undefined,
+        }),
+      });
+      if (res.ok) {
+        setEditingId(null);
+        await refreshWordbooks();
+      }
+    } finally {
+      setIsRenaming(false);
     }
   };
 
@@ -141,29 +178,95 @@ export function WordbookManagerModal({
                     key={wb.id}
                     className="flex items-center justify-between rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-glass)] px-3 py-2.5"
                   >
-                    <div className="flex items-center gap-2.5 min-w-0">
+                    <div className="flex items-center gap-2.5 min-w-0 flex-1">
                       <BookMarked className="h-4 w-4 shrink-0 text-[var(--color-accent)]" />
-                      <div className="min-w-0">
-                        <p className="text-sm font-medium truncate">{wb.name}</p>
-                        <p className="text-xs text-[var(--color-ink-soft)]">
-                          {wb.word_count} 词 · {wb.progress_count} 在复习
-                          {wb.is_default && " · 默认"}
-                        </p>
-                      </div>
+                      {editingId === wb.id ? (
+                        <div className="min-w-0 flex-1 space-y-1.5">
+                          <input
+                            type="text"
+                            value={editName}
+                            onChange={(e) => setEditName(e.target.value)}
+                            placeholder="词本名称"
+                            className="w-full rounded-md border border-[var(--color-border)] bg-[var(--color-canvas)] px-2 py-1 text-sm outline-none focus:border-[var(--color-accent)]"
+                            maxLength={100}
+                            autoFocus
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") handleRename(wb.id);
+                              if (e.key === "Escape") cancelEdit();
+                            }}
+                          />
+                          <input
+                            type="text"
+                            value={editDescription}
+                            onChange={(e) => setEditDescription(e.target.value)}
+                            placeholder="描述（可选）"
+                            className="w-full rounded-md border border-[var(--color-border)] bg-[var(--color-canvas)] px-2 py-1 text-sm outline-none focus:border-[var(--color-accent)]"
+                            maxLength={500}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") handleRename(wb.id);
+                              if (e.key === "Escape") cancelEdit();
+                            }}
+                          />
+                        </div>
+                      ) : (
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium truncate">{wb.name}</p>
+                          <p className="text-xs text-[var(--color-ink-soft)]">
+                            {wb.word_count} 词 · {wb.progress_count} 在复习
+                            {wb.is_default && " · 默认"}
+                          </p>
+                        </div>
+                      )}
                     </div>
-                    {!wb.is_default && (
-                      <button
-                        onClick={() => handleDelete(wb.id)}
-                        disabled={isDeleting === wb.id}
-                        className="ml-2 shrink-0 rounded p-1.5 text-[var(--color-ink-soft)] transition-colors hover:bg-red-100 hover:text-red-600"
-                      >
-                        {isDeleting === wb.id ? (
-                          <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                        ) : (
-                          <Trash2 className="h-3.5 w-3.5" />
-                        )}
-                      </button>
-                    )}
+                    <div className="ml-2 flex shrink-0 items-center gap-0.5">
+                      {editingId === wb.id ? (
+                        <>
+                          <button
+                            onClick={() => handleRename(wb.id)}
+                            disabled={isRenaming || !editName.trim()}
+                            className="rounded p-1.5 text-emerald-600 transition-colors hover:bg-emerald-50 disabled:opacity-50"
+                            title="保存"
+                          >
+                            {isRenaming ? (
+                              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                            ) : (
+                              <Check className="h-3.5 w-3.5" />
+                            )}
+                          </button>
+                          <button
+                            onClick={cancelEdit}
+                            disabled={isRenaming}
+                            className="rounded p-1.5 text-[var(--color-ink-soft)] transition-colors hover:bg-[var(--color-surface-muted)]"
+                            title="取消"
+                          >
+                            <XIcon className="h-3.5 w-3.5" />
+                          </button>
+                        </>
+                      ) : (
+                        <>
+                          <button
+                            onClick={() => startEdit(wb)}
+                            className="rounded p-1.5 text-[var(--color-ink-soft)] transition-colors hover:bg-[var(--color-surface-muted)] hover:text-[var(--color-ink)]"
+                            title="重命名"
+                          >
+                            <Pencil className="h-3.5 w-3.5" />
+                          </button>
+                          {!wb.is_default && (
+                            <button
+                              onClick={() => handleDelete(wb.id)}
+                              disabled={isDeleting === wb.id}
+                              className="rounded p-1.5 text-[var(--color-ink-soft)] transition-colors hover:bg-red-100 hover:text-red-600"
+                            >
+                              {isDeleting === wb.id ? (
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                              ) : (
+                                <Trash2 className="h-3.5 w-3.5" />
+                              )}
+                            </button>
+                          )}
+                        </>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>

@@ -99,12 +99,14 @@ export function WordNotes({
   initialUpdatedAt,
   initialVersion,
   wordId,
+  wordbookId,
 }: {
   initialContent: string;
   initialHistory: NoteRevision[];
   initialUpdatedAt: string | null;
   initialVersion: number;
   wordId: string;
+  wordbookId?: string;
 }) {
   const [state, dispatch] = useReducer(wordNotesReducer, {
     content: initialContent,
@@ -135,7 +137,10 @@ export function WordNotes({
   }, [deferredContent, state.view]);
 
   const loadHistory = useCallback(async () => {
-    const response = await fetch(`/api/notes/${wordId}/history`);
+    const url = wordbookId
+      ? `/api/notes/${wordId}/history?wordbookId=${wordbookId}`
+      : `/api/notes/${wordId}/history`;
+    const response = await fetch(url);
     const payload = (await response.json()) as {
       error?: string;
       revisions?: NoteRevision[];
@@ -144,7 +149,7 @@ export function WordNotes({
       throw new Error(payload.error ?? "加载历史失败");
     }
     dispatch({ payload: payload.revisions ?? [], type: "SET_HISTORY" });
-  }, [wordId]);
+  }, [wordId, wordbookId]);
 
   const persist = useCallback(async (force = false) => {
     if (!force && state.content === state.lastSavedContent) {
@@ -158,7 +163,7 @@ export function WordNotes({
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ contentMd: state.content }),
+        body: JSON.stringify({ contentMd: state.content, wordbookId }),
       });
       const payload = (await response.json()) as {
         error?: string;
@@ -178,7 +183,7 @@ export function WordNotes({
     } catch {
       dispatch({ payload: "error", type: "SET_SAVE_STATE" });
     }
-  }, [state.content, state.lastSavedContent, state.version, loadHistory, wordId]);
+  }, [state.content, state.lastSavedContent, state.version, loadHistory, wordId, wordbookId]);
 
   const restoreRevision = useCallback(
     async (revisionId: string, revisionVersion: number) => {
@@ -189,7 +194,7 @@ export function WordNotes({
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ revisionId }),
+          body: JSON.stringify({ revisionId, wordbookId }),
         });
         const payload = (await response.json()) as {
           contentMd?: string;
@@ -217,7 +222,7 @@ export function WordNotes({
         dispatch({ payload: null, type: "SET_RESTORING_VERSION" });
       }
     },
-    [loadHistory, state.version, wordId],
+    [loadHistory, state.version, wordId, wordbookId],
   );
 
   useEffect(() => {

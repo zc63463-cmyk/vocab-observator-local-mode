@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { springs } from "@/components/motion";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { Flame, TrendingUp, AlertTriangle } from "lucide-react";
 
 interface DayStat {
@@ -40,11 +41,16 @@ export function ReviewStatsPanel() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
+  const { activeWordbook } = useWordbook();
+
   useEffect(() => {
     let mounted = true;
     async function load() {
       try {
-        const res = await fetch("/api/review/stats");
+        const url = activeWordbook?.id
+          ? `/api/review/stats?wordbookId=${activeWordbook.id}`
+          : "/api/review/stats";
+        const res = await fetch(url);
         if (!res.ok) throw new Error("Failed");
         const data = (await res.json()) as ReviewStats;
         if (mounted) setStats(data);
@@ -56,7 +62,7 @@ export function ReviewStatsPanel() {
     }
     void load();
     return () => { mounted = false; };
-  }, []);
+  }, [activeWordbook?.id]);
 
   if (loading) {
     return (

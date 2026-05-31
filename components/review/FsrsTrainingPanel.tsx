@@ -4,6 +4,7 @@ import { startTransition, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import { useToast } from "@/components/ui/Toast";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { CheckCircle, RefreshCw, RotateCcw, ChevronDown, ChevronUp, BarChart3 } from "lucide-react";
 import type { FsrsTrainingStatus } from "@/lib/review/training-status";
 
@@ -76,6 +77,7 @@ function formatNumber(value: number) {
 export function FsrsTrainingPanel({ initialStatus }: FsrsTrainingPanelProps) {
   const router = useRouter();
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
   const [status, setStatus] = useState<FsrsTrainingStatus>(initialStatus);
   const [pending, setPending] = useState<"train" | "reset" | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
@@ -121,9 +123,12 @@ export function FsrsTrainingPanel({ initialStatus }: FsrsTrainingPanelProps) {
     setTrainProgress(null);
     startTransition(async () => {
       try {
-        const response = await fetch("/api/review/train-weights", {
-          method: "POST",
-        });
+        const response = await fetch(
+          activeWordbook?.id
+            ? `/api/review/train-weights?wordbookId=${activeWordbook.id}`
+            : "/api/review/train-weights",
+          { method: "POST" },
+        );
 
         if (!response.ok) {
           const payload = (await response.json().catch(() => null)) as unknown;
@@ -203,9 +208,12 @@ export function FsrsTrainingPanel({ initialStatus }: FsrsTrainingPanelProps) {
     setConfirmReset(false);
     startTransition(async () => {
       try {
-        const response = await fetch("/api/review/train-weights", {
-          method: "DELETE",
-        });
+        const response = await fetch(
+          activeWordbook?.id
+            ? `/api/review/train-weights?wordbookId=${activeWordbook.id}`
+            : "/api/review/train-weights",
+          { method: "DELETE" },
+        );
         const payload = (await response.json().catch(() => null)) as unknown;
         if (!response.ok) {
           const message =

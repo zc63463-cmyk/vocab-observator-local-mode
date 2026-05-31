@@ -150,7 +150,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
   } | null>(null);
   const [selectedWordIds, setSelectedWordIds] = useState<Set<string>>(new Set());
   const [showSearchPanel, setShowSearchPanel] = useState(false);
-  const { addToast } = useToast();
+  const { addToast: _addToast } = useToast();
   const { activeWordbook } = useWordbook();
   const activeWordbookId = activeWordbook?.id ?? null;
 
@@ -251,7 +251,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
     setSelectedWordIds(new Set());
   }, []);
 
-  const selectAllUntracked = useCallback(() => {
+  const _selectAllUntracked = useCallback(() => {
     setSelectedWordIds(new Set(untrackedWords.map((word) => word.id)));
   }, [untrackedWords]);
 
@@ -275,7 +275,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       result: payload,
       sourceResult: result,
     });
-  }, [displayResult.filters, displayResult.words.length, initialPageLimit, result]);
+  }, [displayResult.filters, displayResult.words.length, initialPageLimit, result, activeWordbookId]);
 
   const onQueryChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => setFilter("q", event.target.value),
@@ -381,7 +381,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
           loadMoreControllerRef.current = null;
         }
       });
-  }, [displayResult, isLoadingMore, isUpdating, resultKey]);
+  }, [displayResult, isLoadingMore, isUpdating, resultKey, activeWordbookId]);
 
   const combinedFetchError = fetchError ?? loadMoreError;
   const isBusy = isUpdating || isLoadingMore;

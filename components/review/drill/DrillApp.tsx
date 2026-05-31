@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import { useToast } from "@/components/ui/Toast";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { springs } from "@/components/motion";
 import { type DrillCard, type DrillQueueState, type DrillMode } from "@/lib/review/drill";
 import { DrillWordPicker } from "./DrillWordPicker";
@@ -29,6 +30,7 @@ import type { DrillAppPhase, DrillCandidate, DrillCandidatesResponse } from "./t
 export function DrillApp() {
   const router = useRouter();
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
 
   const [phase, setPhase] = useState<DrillAppPhase>("loading");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -37,11 +39,15 @@ export function DrillApp() {
   const [finalState, setFinalState] = useState<DrillQueueState | null>(null);
   const [drillMode, setDrillMode] = useState<DrillMode>("cloze");
 
+  const activeWordbookId = activeWordbook?.id;
   const fetchCandidates = useCallback(async () => {
     setPhase("loading");
     setErrorMessage(null);
     try {
-      const res = await fetch("/api/review/drill/candidates", {
+      const url = activeWordbookId
+        ? `/api/review/drill/candidates?wordbookId=${activeWordbookId}`
+        : "/api/review/drill/candidates";
+      const res = await fetch(url, {
         cache: "no-store",
       });
       if (!res.ok) {
@@ -55,7 +61,7 @@ export function DrillApp() {
       setErrorMessage(e instanceof Error ? e.message : "加载候选词失败");
       setPhase("error");
     }
-  }, []);
+  }, [activeWordbookId]);
 
   useEffect(() => {
     startTransition(() => {

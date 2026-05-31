@@ -7,6 +7,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { SkeletonBlock } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 import { AddToReviewButton } from "@/components/words/AddToReviewButton";
 import { LeechPanel } from "@/components/words/LeechPanel";
 import { WordNotes } from "@/components/words/WordNotes";
@@ -120,7 +121,7 @@ function scheduleIdleTask(callback: IdleCallbackFn) {
   };
 }
 
-function RelatedWordsReviewBatchButton({ wordIds }: { wordIds: string[] }) {
+function RelatedWordsReviewBatchButton({ wordIds, wordbookId }: { wordIds: string[]; wordbookId?: string }) {
   const [pending, setPending] = useState(false);
   const [processed, setProcessed] = useState(false);
   const { addToast } = useToast();
@@ -142,7 +143,7 @@ function RelatedWordsReviewBatchButton({ wordIds }: { wordIds: string[] }) {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ wordIds }),
+          body: JSON.stringify({ wordIds, wordbookId }),
         });
         const payload = (await response.json()) as BatchAddResponse;
 
@@ -199,6 +200,7 @@ export function OwnerWordSidebar({
   wordId: string;
 }) {
   const pathname = usePathname();
+  const { activeWordbook } = useWordbook();
   const uniqueRelatedReviewWordIds = useMemo(
     () => [...new Set(relatedReviewWordIds)].filter((id) => id !== wordId),
     [relatedReviewWordIds, wordId],
@@ -239,8 +241,11 @@ export function OwnerWordSidebar({
         abortRef.current = controller;
 
         try {
+          const url = activeWordbook?.id
+            ? `/api/words/${wordId}/owner-sidebar?wordbookId=${activeWordbook.id}`
+            : `/api/words/${wordId}/owner-sidebar`;
           const result = await readJson<SidebarPayload>(
-            `/api/words/${wordId}/owner-sidebar`,
+            url,
             controller.signal,
           );
 
@@ -289,7 +294,7 @@ export function OwnerWordSidebar({
       active = false;
       clearPendingWork();
     };
-  }, [wordId]);
+  }, [wordId, activeWordbook?.id]);
 
   if (sidebarState.status === "loading") {
     return (
@@ -353,9 +358,10 @@ export function OwnerWordSidebar({
         logs={sidebarState.reviewLogs}
         progressId={sidebarState.progress?.id ?? null}
       />
-      <RelatedWordsReviewBatchButton wordIds={uniqueRelatedReviewWordIds} />
+      <RelatedWordsReviewBatchButton wordIds={uniqueRelatedReviewWordIds} wordbookId={activeWordbook?.id} />
       <WordNotes
         wordId={wordId}
+        wordbookId={activeWordbook?.id}
         initialContent={sidebarState.note.contentMd}
         initialHistory={sidebarState.history}
         initialUpdatedAt={sidebarState.note.updatedAt}

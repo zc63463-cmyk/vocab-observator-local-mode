@@ -9,6 +9,7 @@ import {
   getNearestReviewRetentionPreset,
   REVIEW_RETENTION_PRESETS,
 } from "@/lib/review/settings";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 
 interface ReviewRetentionSettingsProps {
   averageDesiredRetention: number;
@@ -27,6 +28,7 @@ export function ReviewRetentionSettings({
 }: ReviewRetentionSettingsProps) {
   const router = useRouter();
   const { addToast } = useToast();
+  const { activeWordbook } = useWordbook();
   const [pending, setPending] = useState(false);
   const [retentionPercent, setRetentionPercent] = useState(() =>
     String(toPercent(initialDesiredRetention)),
@@ -62,7 +64,10 @@ export function ReviewRetentionSettings({
     setPending(true);
     startTransition(async () => {
       try {
-        const response = await fetch("/api/review/settings", {
+        const url = activeWordbook?.id
+          ? `/api/review/settings?wordbookId=${activeWordbook.id}`
+          : "/api/review/settings";
+        const response = await fetch(url, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -70,6 +75,7 @@ export function ReviewRetentionSettings({
           body: JSON.stringify({
             desiredRetention,
             retuneExisting,
+            wordbookId: activeWordbook?.id,
           }),
         });
         const payload = (await response.json()) as {
