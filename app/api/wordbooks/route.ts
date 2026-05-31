@@ -18,8 +18,9 @@ export async function GET() {
     const wordbooks = await getUserWordbooksWithStats(supabase, userId);
     return NextResponse.json({ wordbooks });
   } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
     return apiErrorResponse(
-      { message: (error as Error).message },
+      { message },
       "api/wordbooks",
     );
   }

@@ -37,32 +37,49 @@ export async function getUserWordbooksWithStats(
   supabase: OwnerSupabaseClient,
   userId: string,
 ): Promise<WordbookWithStats[]> {
-  const { data, error } = await supabase
+  // Fetch wordbooks
+  const { data: wordbooksData, error: wbError } = await supabase
     .from("wordbooks")
-    .select(
-      `id, user_id, name, description, is_default, created_at, updated_at,
-      wordbook_items(count),
-      user_word_progress(count)`,
-    )
+    .select("id, user_id, name, description, is_default, created_at, updated_at")
     .eq("user_id", userId)
     .order("is_default", { ascending: false })
     .order("created_at", { ascending: true });
 
-  if (error) throw error;
-  return ((data ?? []) as unknown as Array<{
-    id: string;
-    user_id: string;
-    name: string;
-    description: string | null;
-    is_default: boolean;
-    created_at: string;
-    updated_at: string;
-    wordbook_items: [{ count: number }] | [];
-    user_word_progress: [{ count: number }] | [];
-  }>).map((w) => ({
-    ...w,
-    word_count: w.wordbook_items[0]?.count ?? 0,
-    progress_count: w.user_word_progress[0]?.count ?? 0,
+  if (wbError) throw wbError;
+  const wordbooks = (wordbooksData ?? []) as Wordbook[];
+  if (wordbooks.length === 0) return [];
+
+  const wordbookIds = wordbooks.map((w) => w.id);
+
+  // Fetch word counts per wordbook
+  const { data: itemsData, error: itemsError } = await supabase
+    .from("wordbook_items")
+    .select("wordbook_id")
+    .in("wordbook_id", wordbookIds);
+
+  if (itemsError) throw itemsError;
+  const wordCounts = new Map<string, number>();
+  for (const row of itemsData ?? []) {
+    wordCounts.set(row.wordbook_id, (wordCounts.get(row.wordbook_id) ?? 0) + 1);
+  }
+
+  // Fetch progress counts per wordbook
+  const { data: progressData, error: progressError } = await supabase
+    .from("user_word_progress")
+    .select("wordbook_id")
+    .eq("user_id", userId)
+    .in("wordbook_id", wordbookIds);
+
+  if (progressError) throw progressError;
+  const progressCounts = new Map<string, number>();
+  for (const row of progressData ?? []) {
+    progressCounts.set(row.wordbook_id, (progressCounts.get(row.wordbook_id) ?? 0) + 1);
+  }
+
+  return wordbooks.map((wb) => ({
+    ...wb,
+    word_count: wordCounts.get(wb.id) ?? 0,
+    progress_count: progressCounts.get(wb.id) ?? 0,
   }));
 }
 
