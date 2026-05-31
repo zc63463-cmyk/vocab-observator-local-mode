@@ -50,3 +50,6 @@ supabase/.temp/
 supabase/.branches/
 
 dev-server.log
+
+# database backups
+backup/

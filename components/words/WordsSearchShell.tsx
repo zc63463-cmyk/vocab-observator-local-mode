@@ -10,7 +10,7 @@ import { Input, Select } from "@/components/ui/Input";
 import { SkeletonBlock, SkeletonLine } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import { WordCard } from "@/components/words/WordCard";
-import { WordBatchAddPanel } from "@/components/words/WordBatchAddPanel";
+import { WordSearchPanel } from "@/components/words/WordSearchPanel";
 import { useFilteredSearch } from "@/hooks/useFilteredSearch";
 import { buildWordDetailHref } from "@/lib/words-routing";
 import type { PublicWordsResponse, ReviewFilter } from "@/lib/words";
@@ -24,14 +24,6 @@ interface LoadMoreState {
   key: string | null;
   pageInfo: PublicWordsResponse["pageInfo"] | null;
   words: PublicWordsResponse["words"];
-}
-
-interface BatchAddResponse {
-  addedCount: number;
-  alreadyTrackedCount?: number;
-  error?: string;
-  notFound?: string[];
-  ok: boolean;
 }
 
 function createEmptyLoadMoreState(): LoadMoreState {
@@ -151,8 +143,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
     sourceResult: PublicWordsResponse;
   } | null>(null);
   const [selectedWordIds, setSelectedWordIds] = useState<Set<string>>(new Set());
-  const [isBatchPending, setIsBatchPending] = useState(false);
-  const [showBatchPanel, setShowBatchPanel] = useState(false);
+  const [showSearchPanel, setShowSearchPanel] = useState(false);
   const { addToast } = useToast();
 
   const buildInitialApiHref = useCallback(
@@ -277,40 +268,6 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       sourceResult: result,
     });
   }, [displayResult.filters, displayResult.words.length, initialPageLimit, result]);
-
-  const handleBatchAdd = useCallback(() => {
-    if (visibleSelectedWordIds.size === 0 || isBatchPending) {
-      return;
-    }
-
-    setIsBatchPending(true);
-    void (async () => {
-      try {
-        const response = await fetch("/api/review/add-batch", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ wordIds: [...visibleSelectedWordIds] }),
-        });
-        const payload = (await response.json()) as BatchAddResponse;
-        if (!response.ok) {
-          throw new Error(payload.error ?? "批量添加失败");
-        }
-
-        setSelectedWordIds(new Set());
-        await refreshCurrentWords();
-        addToast(
-          payload.alreadyTrackedCount
-            ? `已将 ${payload.addedCount} 个词条加入复习，${payload.alreadyTrackedCount} 个已在复习中`
-            : `已将 ${payload.addedCount} 个词条加入复习`,
-          "success",
-        );
-      } catch (error) {
-        addToast(error instanceof Error ? error.message : "批量添加失败", "error");
-      } finally {
-        setIsBatchPending(false);
-      }
-    })();
-  }, [visibleSelectedWordIds, isBatchPending, addToast, refreshCurrentWords]);
 
   const onQueryChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => setFilter("q", event.target.value),
@@ -533,7 +490,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       ) : (
         <div className="space-y-6">
           {displayResult.isOwner && untrackedWords.length > 0 ? (
-            <div className="rounded-[1.2rem] border border-[var(--color-border)] bg-[var(--color-surface-soft)]">
+            <div className="rounded-[1.2rem] border border-[var(--color-border)]">
               {/* Toggle bar */}
               <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                 <div className="flex items-center gap-3">
@@ -549,35 +506,23 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
                   )}
                 </div>
                 <div className="flex items-center gap-2">
-                  {!showBatchPanel && (
-                    <Button
-                      type="button"
-                      size="sm"
-                      variant="ghost"
-                      onClick={selectAllUntracked}
-                    >
-                      全选加入
-                    </Button>
-                  )}
                   <Button
                     type="button"
                     size="sm"
-                    variant={showBatchPanel ? "secondary" : "ghost"}
-                    onClick={() => setShowBatchPanel((v) => !v)}
+                    variant={showSearchPanel ? "secondary" : "ghost"}
+                    onClick={() => setShowSearchPanel((v) => !v)}
                   >
-                    {showBatchPanel ? "收起面板 ↑" : "搜索加入 ↓"}
+                    {showSearchPanel ? "收起面板 ↑" : "搜索浏览 ↓"}
                   </Button>
                 </div>
               </div>
 
-              {/* Expanded batch-add panel */}
-              {showBatchPanel && (
+              {/* Expanded search panel */}
+              {showSearchPanel && (
                 <div className="border-t border-[var(--color-border)] px-4 py-4">
-                  <WordBatchAddPanel
-                    selectedIds={visibleSelectedWordIds}
-                    onToggle={toggleWordSelect}
-                    onBatchAdd={handleBatchAdd}
-                    isPending={isBatchPending}
+                  <WordSearchPanel
+                    sourceParams={new URLSearchParams(searchParamsString)}
+                    onRefresh={refreshCurrentWords}
                   />
                 </div>
               )}
