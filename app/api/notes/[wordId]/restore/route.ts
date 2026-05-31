@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { isNoteRevisionsRelationMissing } from "@/lib/notes";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 import { noteRestoreSchema } from "@/lib/validation/schemas";
 
 export async function POST(
@@ -20,6 +21,8 @@ export async function POST(
   const { wordId } = await context.params;
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const wordbookId = parsed.data.wordbookId
+    ?? await getOrCreateDefaultWordbook(supabase, userId);
 
   const { data: revision, error: revisionError } = await supabase
     .from("note_revisions")
@@ -27,6 +30,7 @@ export async function POST(
     .eq("id", parsed.data.revisionId)
     .eq("user_id", userId)
     .eq("word_id", wordId)
+    .eq("wordbook_id", wordbookId)
     .maybeSingle();
 
   if (isNoteRevisionsRelationMissing(revisionError)) {
@@ -48,6 +52,7 @@ export async function POST(
     .from("notes")
     .select("id, version")
     .eq("word_id", wordId)
+    .eq("wordbook_id", wordbookId)
     .eq("user_id", userId)
     .single();
 
@@ -79,6 +84,7 @@ export async function POST(
     user_id: userId,
     version: nextVersion,
     word_id: wordId,
+    wordbook_id: wordbookId,
   });
 
   if (insertRevisionError && !isNoteRevisionsRelationMissing(insertRevisionError)) {

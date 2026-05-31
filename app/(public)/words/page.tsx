@@ -3,6 +3,7 @@ import { WordsSearchShell } from "@/components/words/WordsSearchShell";
 import { getOwnerUser } from "@/lib/auth";
 import { getServerSupabaseClientOrNull } from "@/lib/supabase/server";
 import { getPublicWords } from "@/lib/words";
+import { cookies } from "next/headers";
 
 // Page is intentionally dynamic so signed-in owners get their per-account
 // progress overlay (batch-add UI, review-state filter) on the same URL the
@@ -24,10 +25,13 @@ export const metadata: Metadata = {
 export default async function WordsPage() {
   const owner = await getOwnerUser();
   const ownerSupabase = owner ? await getServerSupabaseClientOrNull() : null;
+  const cookieStore = await cookies();
+  const wordbookId = cookieStore.get("wordbook-id")?.value;
+
   const result = await getPublicWords(
     undefined,
     owner && ownerSupabase
-      ? { ownerSupabase, ownerUserId: owner.id }
+      ? { ownerSupabase, ownerUserId: owner.id, wordbookId }
       : undefined,
   );
 

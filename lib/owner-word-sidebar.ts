@@ -44,37 +44,46 @@ export async function getOwnerWordSidebarData(
   supabase: ServerSupabaseClient,
   userId: string,
   wordId: string,
+  wordbookId?: string,
 ): Promise<OwnerWordSidebarResponse> {
+  const progressQuery = supabase
+    .from("user_word_progress")
+    .select(
+      "id, due_at, review_count, state, last_reviewed_at, lapse_count, again_count",
+    )
+    .eq("user_id", userId)
+    .eq("word_id", wordId);
+  if (wordbookId) progressQuery.eq("wordbook_id", wordbookId);
+
+  const noteQuery = supabase
+    .from("notes")
+    .select("content_md, updated_at, version")
+    .eq("user_id", userId)
+    .eq("word_id", wordId);
+  if (wordbookId) noteQuery.eq("wordbook_id", wordbookId);
+
+  const historyQuery = supabase
+    .from("note_revisions")
+    .select("id, version, content_md, created_at")
+    .eq("user_id", userId)
+    .eq("word_id", wordId);
+  if (wordbookId) historyQuery.eq("wordbook_id", wordbookId);
+  historyQuery.order("version", { ascending: false }).limit(8);
+
+  const reviewLogsQuery = supabase
+    .from("review_logs")
+    .select("rating, reviewed_at, scheduled_days, elapsed_days, stability, difficulty, state")
+    .eq("user_id", userId)
+    .eq("word_id", wordId)
+    .eq("undone", false);
+  if (wordbookId) reviewLogsQuery.eq("wordbook_id", wordbookId);
+  reviewLogsQuery.order("reviewed_at", { ascending: true }).limit(REVIEW_LOG_HISTORY_LIMIT);
+
   const [progressResult, noteResult, historyResult, reviewLogsResult] = await Promise.all([
-    supabase
-      .from("user_word_progress")
-      .select(
-        "id, due_at, review_count, state, last_reviewed_at, lapse_count, again_count",
-      )
-      .eq("user_id", userId)
-      .eq("word_id", wordId)
-      .maybeSingle(),
-    supabase
-      .from("notes")
-      .select("content_md, updated_at, version")
-      .eq("user_id", userId)
-      .eq("word_id", wordId)
-      .maybeSingle(),
-    supabase
-      .from("note_revisions")
-      .select("id, version, content_md, created_at")
-      .eq("user_id", userId)
-      .eq("word_id", wordId)
-      .order("version", { ascending: false })
-      .limit(8),
-    supabase
-      .from("review_logs")
-      .select("rating, reviewed_at, scheduled_days, elapsed_days, stability, difficulty, state")
-      .eq("user_id", userId)
-      .eq("word_id", wordId)
-      .eq("undone", false)
-      .order("reviewed_at", { ascending: true })
-      .limit(REVIEW_LOG_HISTORY_LIMIT),
+    progressQuery.maybeSingle(),
+    noteQuery.maybeSingle(),
+    historyQuery,
+    reviewLogsQuery,
   ]);
 
   if (progressResult.error) {

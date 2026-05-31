@@ -11,7 +11,7 @@ import {
   type OptimizerLog,
 } from "@/lib/review/fsrs-optimizer";
 import {
-  updateUserFsrsWeightsSetting,
+  updateWordbookFsrsWeightsSetting,
   validateFsrsWeightsArray,
   type FsrsWeightsSetting,
   FSRS_WEIGHTS_SETTING_VERSION,
@@ -23,6 +23,7 @@ import {
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import type { Database } from "@/types/database.types";
 import type { SupabaseClient } from "@/lib/db";
+import { resolveWordbookId } from "@/lib/wordbook";
 
 /**
  * Training is heavier than other review endpoints —the WASI optimizer in
@@ -41,6 +42,8 @@ const trainBodySchema = z
   .object({
     /** Forwarded to the optimizer; defaults to ts-fsrs's preferred behaviour. */
     enableShortTerm: z.boolean().optional(),
+    /** Scope training to a specific wordbook. Falls back to the user's default wordbook. */
+    wordbookId: z.string().uuid().optional(),
   })
   .strict()
   .optional();
@@ -62,6 +65,7 @@ type AppSupabaseClient = SupabaseClient<Database>;
 async function fetchOptimizerLogs(
   supabase: AppSupabaseClient,
   userId: string,
+  wordbookId: string,
 ): Promise<{ data: OptimizerLog[]; error: unknown }> {
   const out: OptimizerLog[] = [];
   let offset = 0;
@@ -71,6 +75,7 @@ async function fetchOptimizerLogs(
       .from("review_logs")
       .select("progress_id, rating, reviewed_at")
       .eq("user_id", userId)
+      .eq("wordbook_id", wordbookId)
       .eq("undone", false)
       .order("reviewed_at", { ascending: false })
       .range(offset, offset + PAGE_SIZE - 1);
@@ -100,15 +105,22 @@ async function fetchOptimizerLogs(
   return { data: out, error: null };
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
   }
 
+  const wordbookId = await resolveWordbookId(
+    ownerSession.supabase!,
+    ownerSession.user!.id,
+    request.nextUrl.searchParams.get("wordbookId"),
+  );
+
   const status = await getFsrsTrainingStatus(
     ownerSession.supabase!,
     ownerSession.user!.id,
+    wordbookId,
   );
   return NextResponse.json(status satisfies FsrsTrainingStatus);
 }
@@ -153,7 +165,9 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const { data: logs, error: logsError } = await fetchOptimizerLogs(supabase, userId);
+  const wordbookId = await resolveWordbookId(supabase, userId, bodyOptions?.wordbookId);
+
+  const { data: logs, error: logsError } = await fetchOptimizerLogs(supabase, userId, wordbookId);
   if (logsError) {
     return apiErrorResponse(logsError, "api/review/train-weights");
   }
@@ -242,10 +256,10 @@ export async function POST(request: NextRequest) {
           evaluation,
           diagnostics,
         };
-        await updateUserFsrsWeightsSetting(supabase, userId, payload, nowIso);
+        await updateWordbookFsrsWeightsSetting(supabase, wordbookId, payload, nowIso);
 
         // 7. Return final status
-        const status = await getFsrsTrainingStatus(supabase, userId);
+        const status = await getFsrsTrainingStatus(supabase, userId, wordbookId);
         send({ type: "result", status });
         controller.close();
       } catch (error) {
@@ -265,7 +279,7 @@ export async function POST(request: NextRequest) {
   });
 }
 
-export async function DELETE() {
+export async function DELETE(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -273,9 +287,14 @@ export async function DELETE() {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const wordbookId = await resolveWordbookId(
+    supabase,
+    userId,
+    request.nextUrl.searchParams.get("wordbookId"),
+  );
   const nowIso = new Date().toISOString();
 
-  await updateUserFsrsWeightsSetting(supabase, userId, null, nowIso);
-  const status = await getFsrsTrainingStatus(supabase, userId);
+  await updateWordbookFsrsWeightsSetting(supabase, wordbookId, null, nowIso);
+  const status = await getFsrsTrainingStatus(supabase, userId, wordbookId);
   return NextResponse.json(status satisfies FsrsTrainingStatus);
 }

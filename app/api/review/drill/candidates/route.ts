@@ -1,7 +1,8 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { redactLemmaInSentence } from "@/lib/review/prompt-mode";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 import type { ParsedExample } from "@/lib/sync/parseMarkdown";
 
 /**
@@ -43,7 +44,7 @@ interface DrillCandidateResponseItem {
   clozeSource: string;
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -51,6 +52,9 @@ export async function GET() {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const { searchParams } = new URL(request.url);
+  const wordbookId = searchParams.get("wordbookId")
+    ?? await getOrCreateDefaultWordbook(supabase, userId);
 
   // Pull everything that's eligible in one query; we filter client-side
   // for "has a usable cloze" because the logic lives in TS, not SQL.
@@ -62,6 +66,7 @@ export async function GET() {
       "id, word_id, state, review_count, due_at, words!inner(slug, title, lemma, lang_code, short_definition, examples)",
     )
     .eq("user_id", userId)
+    .eq("wordbook_id", wordbookId)
     .neq("state", "new")
     .neq("state", "suspended")
     .gte("review_count", 1)

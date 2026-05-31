@@ -1,24 +1,29 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { retuneScheduledReviewCard } from "@/lib/review/fsrs-adapter";
 import {
-  getUserDesiredRetention,
-  getUserFsrsWeights,
-  updateUserDesiredRetentionSetting,
+  getWordbookDesiredRetention,
+  getWordbookFsrsWeights,
+  updateWordbookDesiredRetentionSetting,
 } from "@/lib/review/settings";
 import type { StoredSchedulerCard } from "@/lib/review/types";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 import { reviewSettingsSchema } from "@/lib/validation/schemas";
 import { asJson } from "@/types/database.types";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
   }
 
-  const desiredRetention = await getUserDesiredRetention(
+  const { searchParams } = new URL(request.url);
+  const wordbookId = searchParams.get("wordbookId")
+    ?? await getOrCreateDefaultWordbook(ownerSession.supabase!, ownerSession.user!.id);
+
+  const desiredRetention = await getWordbookDesiredRetention(
     ownerSession.supabase!,
-    ownerSession.user!.id,
+    wordbookId,
   );
 
   return NextResponse.json({
@@ -44,11 +49,13 @@ export async function POST(request: NextRequest) {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const wordbookId = parsed.data.wordbookId
+    ?? await getOrCreateDefaultWordbook(supabase, userId);
   const now = new Date();
   const nowIso = now.toISOString();
-  const desiredRetention = await updateUserDesiredRetentionSetting(
+  const desiredRetention = await updateWordbookDesiredRetentionSetting(
     supabase,
-    userId,
+    wordbookId,
     parsed.data.desiredRetention,
     nowIso,
   );
@@ -59,7 +66,8 @@ export async function POST(request: NextRequest) {
       desired_retention: desiredRetention,
       updated_at: nowIso,
     })
-    .eq("user_id", userId);
+    .eq("user_id", userId)
+    .eq("wordbook_id", wordbookId);
 
   if (progressError) {
     throw progressError;
@@ -69,11 +77,12 @@ export async function POST(request: NextRequest) {
   if (parsed.data.retuneExisting) {
     // Personalised weights are baked into every retune call so the new
     // intervals reflect both the new desired retention AND the user's fitted w.
-    const fsrsWeights = await getUserFsrsWeights(supabase, userId);
+    const fsrsWeights = await getWordbookFsrsWeights(supabase, wordbookId);
     const { data: progressRows, error: progressRowsError } = await supabase
       .from("user_word_progress")
       .select("id, scheduler_payload")
       .eq("user_id", userId)
+      .eq("wordbook_id", wordbookId)
       .neq("state", "suspended");
 
     if (progressRowsError) {
@@ -103,7 +112,8 @@ export async function POST(request: NextRequest) {
           updated_at: nowIso,
         })
         .eq("id", row.id)
-        .eq("user_id", userId);
+        .eq("user_id", userId)
+        .eq("wordbook_id", wordbookId);
 
       if (retuneError) {
         throw retuneError;

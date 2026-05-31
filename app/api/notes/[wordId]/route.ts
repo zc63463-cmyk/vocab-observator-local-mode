@@ -2,10 +2,11 @@ import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { isNoteRevisionsRelationMissing } from "@/lib/notes";
 import { requireOwnerApiSession } from "@/lib/request-auth";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 import { noteSchema } from "@/lib/validation/schemas";
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   context: { params: Promise<{ wordId: string }> },
 ) {
   const ownerSession = await requireOwnerApiSession();
@@ -14,10 +15,15 @@ export async function GET(
   }
 
   const { wordId } = await context.params;
+  const { searchParams } = new URL(request.url);
+  const wordbookId = searchParams.get("wordbookId")
+    ?? await getOrCreateDefaultWordbook(ownerSession.supabase!, ownerSession.user!.id);
+
   const { data, error } = await ownerSession.supabase!
     .from("notes")
     .select("content_md, updated_at, version")
     .eq("word_id", wordId)
+    .eq("wordbook_id", wordbookId)
     .maybeSingle();
 
   if (error) {
@@ -52,10 +58,15 @@ export async function PUT(
 
   const { wordId } = await context.params;
   const supabase = ownerSession.supabase!;
+  const userId = ownerSession.user!.id;
+  const wordbookId = parsed.data.wordbookId
+    ?? await getOrCreateDefaultWordbook(supabase, userId);
+
   const { data: current, error: currentError } = await supabase
     .from("notes")
     .select("id, version, content_md")
     .eq("word_id", wordId)
+    .eq("wordbook_id", wordbookId)
     .maybeSingle();
 
   if (currentError) {
@@ -71,12 +82,13 @@ export async function PUT(
         content_md: parsed.data.contentMd,
         id: current?.id,
         updated_at: new Date().toISOString(),
-        user_id: ownerSession.user!.id,
+        user_id: userId,
         version: nextVersion || 1,
         word_id: wordId,
+        wordbook_id: wordbookId,
       },
       {
-        onConflict: "user_id,word_id",
+        onConflict: "user_id,wordbook_id,word_id",
       },
     )
     .select("id, updated_at, version")
@@ -90,9 +102,10 @@ export async function PUT(
     const { error: revisionError } = await supabase.from("note_revisions").insert({
       content_md: parsed.data.contentMd,
       note_id: data.id,
-      user_id: ownerSession.user!.id,
+      user_id: userId,
       version: data.version,
       word_id: wordId,
+      wordbook_id: wordbookId,
     });
 
     if (revisionError && !isNoteRevisionsRelationMissing(revisionError)) {

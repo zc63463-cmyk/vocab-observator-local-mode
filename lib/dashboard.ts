@@ -1,5 +1,6 @@
 import { getOwnerUser } from "@/lib/auth";
 import { getLatestImportOverview } from "@/lib/imports";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 import {
   DEFAULT_DESIRED_RETENTION,
   getCurrentRetrievability,
@@ -427,7 +428,7 @@ function buildRelationGraph(
   return graph;
 }
 
-export async function getDashboardSummary() {
+export async function getDashboardSummary(wordbookId?: string) {
   const emptyForecast = buildRetentionForecast([], DEFAULT_DESIRED_RETENTION);
   const emptyPresetForecasts = buildRetentionForecasts([]);
 
@@ -507,6 +508,9 @@ export async function getDashboardSummary() {
     };
   }
 
+  const resolvedWordbookId = wordbookId ?? await getOrCreateDefaultWordbook(supabase, owner.id);
+  wordbookId = resolvedWordbookId;
+
   const today = startOfTodayIso();
   const nowDate = new Date();
   const nowIso = nowDate.toISOString();
@@ -520,17 +524,20 @@ export async function getDashboardSummary() {
       .from("user_word_progress")
       .select("state, due_at, desired_retention, scheduler_payload, words!inner(cefr, lemma, slug, ipa, short_definition, pos, title)")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .limit(2000),
     // Slim query that only fetches metadata for the relation graph builder.
     supabase
       .from("user_word_progress")
       .select("words!inner(slug, lemma, metadata)")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .limit(2000),
     supabase
       .from("review_logs")
       .select("rating, reviewed_at, metadata, words(lemma, slug, title, semantic_field:metadata->>semantic_field)")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .gte("reviewed_at", thirtyDaysAgo.toISOString())
       .order("reviewed_at", { ascending: false })
       .limit(500),
@@ -541,6 +548,7 @@ export async function getDashboardSummary() {
       .from("review_logs")
       .select("rating, reviewed_at, elapsed_days, scheduled_days")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .eq("undone", false)
       .gte("reviewed_at", ninetyDaysAgo.toISOString())
       .order("reviewed_at", { ascending: false })
@@ -555,6 +563,7 @@ export async function getDashboardSummary() {
       .from("review_logs")
       .select("reviewed_at")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .gte("reviewed_at", ninetyDaysAgo.toISOString())
       .order("reviewed_at", { ascending: false })
       .limit(400),
@@ -562,13 +571,15 @@ export async function getDashboardSummary() {
       .from("notes")
       .select("content_md, updated_at, version, words(lemma, slug, title)")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .order("updated_at", { ascending: false })
       .limit(8),
-    supabase.from("notes").select("*", { count: "exact", head: true }).eq("user_id", owner.id),
+    supabase.from("notes").select("*", { count: "exact", head: true }).eq("user_id", owner.id).eq("wordbook_id", wordbookId),
     supabase
       .from("sessions")
       .select("id, cards_seen, started_at")
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .eq("mode", "review")
       .is("ended_at", null)
       .gte("started_at", today)
@@ -576,12 +587,14 @@ export async function getDashboardSummary() {
       .limit(1)
       .maybeSingle(),
     supabase.from("profiles").select("settings").eq("id", owner.id).maybeSingle(),
+    supabase.from("wordbooks").select("settings").eq("id", wordbookId).maybeSingle(),
     // Total non-undone review log count — used to gate the FSRS training UI.
     // Cheap HEAD-only count over an indexed user_id column.
     supabase
       .from("review_logs")
       .select("*", { count: "exact", head: true })
       .eq("user_id", owner.id)
+      .eq("wordbook_id", wordbookId)
       .eq("undone", false),
   ]);
 
@@ -594,7 +607,8 @@ export async function getDashboardSummary() {
   const notesCountResult = unwrapSettled(settled[6], { data: [], error: null, count: 0 }, "notesCount");
   const activeSessionResult = unwrapSettled(settled[7], { data: null, error: null }, "activeSession");
   const profileResult = unwrapSettled(settled[8], { data: null, error: null }, "profile");
-  const totalReviewLogCountResult = unwrapSettled(settled[9], { data: [], error: null, count: 0 }, "totalReviewLogCount");
+  const wordbookSettingsResult = unwrapSettled(settled[9], { data: null, error: null }, "wordbookSettings");
+  const totalReviewLogCountResult = unwrapSettled(settled[10], { data: [], error: null, count: 0 }, "totalReviewLogCount");
 
   const progressRows = (progressSlimResult.data ?? []) as unknown as DashboardProgressRow[];
   const relationGraphRows = (progressMetadataResult.data ?? []) as unknown as RelationGraphRow[];
@@ -613,14 +627,14 @@ export async function getDashboardSummary() {
     desiredRetentionValues.length > 0
       ? desiredRetentionValues.reduce((sum, value) => sum + value, 0) / desiredRetentionValues.length
       : DEFAULT_DESIRED_RETENTION;
+  // Per-wordbook settings take precedence; fall back to legacy profile settings.
+  const wordbookSettings = wordbookSettingsResult.data?.settings ?? null;
   const configuredDesiredRetention = readDesiredRetentionSetting(
-    profileResult.data?.settings ?? null,
+    wordbookSettings ?? profileResult.data?.settings ?? null,
   );
-  // Personalised FSRS weights, read from the same settings JSON the desired
-  // retention lives in. `null` when the user has never trained, which keeps
-  // every downstream calc on ts-fsrs defaults.
+  // Personalised FSRS weights, read from wordbook settings first, then profile.
   const fsrsWeightsSetting = readFsrsWeightsSetting(
-    profileResult.data?.settings ?? null,
+    wordbookSettings ?? profileResult.data?.settings ?? null,
   );
   const fsrsWeights = fsrsWeightsSetting?.weights ?? null;
   // Wrap weights + total log count into the shape the training UI expects.

@@ -3,7 +3,7 @@ import { apiErrorResponse } from "@/lib/api-error";
 import {
   buildInitialSchedulerPayload,
 } from "@/lib/review/fsrs-adapter";
-import { getUserDesiredRetention } from "@/lib/review/settings";
+import { getWordbookDesiredRetention } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { resolveWordbookId } from "@/lib/wordbook";
 import { addToReviewSchema } from "@/lib/validation/schemas";
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
-  const wordbookId = await resolveWordbookId(supabase, userId);
+  const wordbookId = await resolveWordbookId(supabase, userId, body.data.wordbookId);
 
   const { data: word, error: wordError } = await supabase
     .from("words")
@@ -47,9 +47,9 @@ export async function POST(request: NextRequest) {
 
   const now = new Date().toISOString();
   const initialPayload = buildInitialSchedulerPayload(new Date(now));
-  const desiredRetention = await getUserDesiredRetention(
+  const desiredRetention = await getWordbookDesiredRetention(
     supabase,
-    ownerSession.user!.id,
+    wordbookId,
   );
   const { data, error } = await supabase
     .from("user_word_progress")

@@ -5,7 +5,7 @@ import {
   REVIEW_QUEUE_CANDIDATE_LIMIT,
 } from "@/lib/review/queue";
 import { getOrCreateReviewSession } from "@/lib/review/session";
-import { getUserFsrsWeights } from "@/lib/review/settings";
+import { getWordbookFsrsWeights } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { resolveWordbookId } from "@/lib/wordbook";
 import type { ReviewQueueItem, StoredSchedulerCard } from "@/lib/review/types";
@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
       .lte("due_at", new Date().toISOString())
       .order("due_at", { ascending: true })
       .limit(REVIEW_QUEUE_CANDIDATE_LIMIT),
-    getUserFsrsWeights(supabase, userId),
+    getWordbookFsrsWeights(supabase, wordbookId),
   ]);
   const { count, data, error } = queueResult;
 

@@ -1,5 +1,6 @@
 import { LabClient } from "@/components/dashboard/lab/LabClient";
 import { getDashboardSummary } from "@/lib/dashboard";
+import { cookies } from "next/headers";
 
 /**
  * Dashboard — the canonical owner-facing dashboard.
@@ -24,7 +25,9 @@ import { getDashboardSummary } from "@/lib/dashboard";
 export default async function DashboardPage() {
   let summary: Awaited<ReturnType<typeof getDashboardSummary>>;
   try {
-    summary = await getDashboardSummary();
+    const cookieStore = await cookies();
+    const wordbookId = cookieStore.get("wordbook-id")?.value;
+    summary = await getDashboardSummary(wordbookId);
   } catch (err) {
     return (
       <div className="space-y-6">

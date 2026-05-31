@@ -1,5 +1,6 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { requireOwnerApiSession, jsonError } from "@/lib/request-auth";
+import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 
 interface DayStat {
   date: string;
@@ -17,7 +18,7 @@ interface ReviewStatsResponse {
   againRate: number;
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -25,12 +26,16 @@ export async function GET() {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
+  const { searchParams } = new URL(request.url);
+  const wordbookId = searchParams.get("wordbookId")
+    ?? await getOrCreateDefaultWordbook(supabase, userId);
 
   // Fetch last 30 days of review logs (capped at 5000 rows to protect performance)
   const { data: logs, error } = await supabase
     .from("review_logs")
     .select("rating, reviewed_at")
     .eq("user_id", userId)
+    .eq("wordbook_id", wordbookId)
     .gte("reviewed_at", new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString())
     .order("reviewed_at", { ascending: false })
     .limit(5000);

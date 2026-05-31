@@ -1,9 +1,12 @@
 import Link from "next/link";
 import { getDashboardSummary } from "@/lib/dashboard";
 import { formatDateTime } from "@/lib/utils";
+import { cookies } from "next/headers";
 
 export default async function NotesPage() {
-  const summary = await getDashboardSummary();
+  const cookieStore = await cookies();
+  const wordbookId = cookieStore.get("wordbook-id")?.value;
+  const summary = await getDashboardSummary(wordbookId);
 
   return (
     <div className="space-y-8">

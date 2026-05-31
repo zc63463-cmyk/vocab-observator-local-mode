@@ -7,7 +7,7 @@
  * 用法：npx tsx scripts/generate-ielts-ch1-framework.ts
  */
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const CHAPTER_DIR = join(process.cwd(), "data", "ielts-vocabulary", "自然地理");
@@ -222,7 +222,7 @@ for (const w of chapter1Words) {
 
   // Skip if file already exists (handwritten benchmarks)
   try {
-    const existing = require("node:fs").readFileSync(filePath, "utf8");
+    const existing = readFileSync(filePath, "utf8");
     if (existing.includes("词义链路") && existing.includes("记忆锚点")) {
       console.log(`[skip] ${w.word}.md already has full content`);
       skipped++;

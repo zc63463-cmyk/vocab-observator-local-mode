@@ -6,7 +6,7 @@ import {
   uniqueWordIds,
   type BatchReviewWord,
 } from "@/lib/review/batch-add";
-import { getUserDesiredRetention } from "@/lib/review/settings";
+import { getWordbookDesiredRetention } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { getWordbookWordIds } from "@/lib/wordbook";
 
@@ -59,7 +59,7 @@ export async function POST(
     }
 
     const nowIso = new Date().toISOString();
-    const desiredRetention = await getUserDesiredRetention(supabase, userId);
+    const desiredRetention = await getWordbookDesiredRetention(supabase, wordbookId);
     const initialPayload = buildInitialSchedulerPayload(new Date(nowIso));
     const plan = buildBatchReviewInsertPlan({
       desiredRetention,

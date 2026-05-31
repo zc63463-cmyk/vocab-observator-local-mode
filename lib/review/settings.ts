@@ -415,3 +415,110 @@ export async function updateUserFsrsWeightsSetting(
 
   return readFsrsWeightsSetting(data ?? null);
 }
+
+/* ── Wordbook-scoped settings (per-wordbook desired_retention & weights) ─ */
+
+export async function getWordbookDesiredRetention(
+  supabase: AppSupabaseClient,
+  wordbookId: string,
+) {
+  const { data, error } = await supabase
+    .from("wordbooks")
+    .select("settings")
+    .eq("id", wordbookId)
+    .maybeSingle();
+
+  if (error) {
+    throw error;
+  }
+
+  return readDesiredRetentionSetting(data?.settings ?? null);
+}
+
+export async function updateWordbookDesiredRetentionSetting(
+  supabase: AppSupabaseClient,
+  wordbookId: string,
+  desiredRetention: number,
+  nowIso: string,
+) {
+  const normalized = normalizeDesiredRetention(desiredRetention);
+  const { data, error } = await supabase.rpc("upsert_wordbook_setting", {
+    p_wordbook_id: wordbookId,
+    p_key: "desired_retention",
+    p_value: asJson(normalized),
+    p_now: nowIso,
+  });
+
+  if (error) {
+    throw error;
+  }
+
+  return readDesiredRetentionSetting(data ?? null);
+}
+
+export async function getWordbookFsrsWeights(
+  supabase: AppSupabaseClient,
+  wordbookId: string,
+): Promise<FsrsWeightsSetting | null> {
+  const { data, error } = await supabase
+    .from("wordbooks")
+    .select("settings")
+    .eq("id", wordbookId)
+    .maybeSingle();
+
+  if (error) {
+    throw error;
+  }
+
+  return readFsrsWeightsSetting(data?.settings ?? null);
+}
+
+export async function updateWordbookFsrsWeightsSetting(
+  supabase: AppSupabaseClient,
+  wordbookId: string,
+  payload: FsrsWeightsSetting | null,
+  nowIso: string,
+) {
+  const jsonValue: Json | null = payload
+    ? asJson({
+        sample_size: payload.sampleSize,
+        trained_at: payload.trainedAt,
+        version: payload.version,
+        weights: [...payload.weights],
+        evaluation: payload.evaluation
+          ? {
+              log_loss: payload.evaluation.logLoss,
+              rmse_bins: payload.evaluation.rmseBins,
+              baseline_log_loss: payload.evaluation.baselineLogLoss,
+              baseline_rmse_bins: payload.evaluation.baselineRmseBins,
+            }
+          : null,
+        diagnostics: payload.diagnostics
+          ? {
+              card_count: payload.diagnostics.cardCount,
+              time_span_days: payload.diagnostics.timeSpanDays,
+              rating_distribution: payload.diagnostics.ratingDistribution,
+              simulations: payload.diagnostics.simulations.map((s) => ({
+                name: s.name,
+                description: s.description,
+                default_interval: s.defaultInterval,
+                personalized_interval: s.personalizedInterval,
+              })),
+            }
+          : null,
+      })
+    : null;
+
+  const { data, error } = await supabase.rpc("upsert_wordbook_setting", {
+    p_wordbook_id: wordbookId,
+    p_key: "fsrs_weights",
+    p_value: jsonValue,
+    p_now: nowIso,
+  });
+
+  if (error) {
+    throw error;
+  }
+
+  return readFsrsWeightsSetting(data ?? null);
+}

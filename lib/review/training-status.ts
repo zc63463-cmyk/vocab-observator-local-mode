@@ -1,7 +1,7 @@
 import type { SupabaseClient } from "@/lib/db";
 import {
   MIN_REVIEWS_FOR_TRAINING,
-  getUserFsrsWeights,
+  getWordbookFsrsWeights,
   type FsrsWeightsSetting,
 } from "@/lib/review/settings";
 import type { Database } from "@/types/database.types";
@@ -56,14 +56,20 @@ type AppSupabaseClient = SupabaseClient<Database>;
 export async function getFsrsTrainingStatus(
   supabase: AppSupabaseClient,
   userId: string,
+  wordbookId?: string,
 ): Promise<FsrsTrainingStatus> {
+  const countQuery = supabase
+    .from("review_logs")
+    .select("*", { count: "exact", head: true })
+    .eq("user_id", userId)
+    .eq("undone", false);
+  if (wordbookId) countQuery.eq("wordbook_id", wordbookId);
+
   const [weights, countResult] = await Promise.all([
-    getUserFsrsWeights(supabase, userId),
-    supabase
-      .from("review_logs")
-      .select("*", { count: "exact", head: true })
-      .eq("user_id", userId)
-      .eq("undone", false),
+    wordbookId
+      ? getWordbookFsrsWeights(supabase, wordbookId)
+      : Promise.resolve(null),
+    countQuery,
   ]);
 
   if (countResult.error) {

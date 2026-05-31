@@ -1,11 +1,10 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { applyReviewAnswer } from "@/lib/review/fsrs-adapter";
-import { getUserFsrsWeights } from "@/lib/review/settings";
+import { getWordbookFsrsWeights } from "@/lib/review/settings";
 import type { StoredSchedulerCard } from "@/lib/review/types";
 import { incrementSessionCardsSeen } from "@/lib/review/session";
 import { requireOwnerApiSession } from "@/lib/request-auth";
-import { resolveWordbookId } from "@/lib/wordbook";
 import { reviewAnswerSchema } from "@/lib/validation/schemas";
 import type { Database, Json } from "@/types/database.types";
 import { asJson } from "@/types/database.types";
@@ -73,9 +72,9 @@ export async function POST(request: NextRequest) {
   // A failure reading the weights must NOT block rating persistence: the
   // user's answer is the critical path, personalisation is a nicety. On
   // error we log and proceed with defaults.
-  let fsrsWeights: Awaited<ReturnType<typeof getUserFsrsWeights>> = null;
+  let fsrsWeights: Awaited<ReturnType<typeof getWordbookFsrsWeights>> = null;
   try {
-    fsrsWeights = await getUserFsrsWeights(supabase, ownerSession.user!.id);
+    fsrsWeights = await getWordbookFsrsWeights(supabase, progress.wordbook_id);
   } catch (error) {
     console.warn(
       "[review/answer] failed to load personalised weights, falling back to defaults:",
