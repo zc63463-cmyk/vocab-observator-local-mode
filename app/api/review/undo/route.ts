@@ -3,6 +3,13 @@ import { apiErrorResponse } from "@/lib/api-error";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { reviewUndoSchema } from "@/lib/validation/schemas";
 import type { ReviewQueueItem } from "@/lib/review/types";
+import type { ParsedExample } from "@/lib/sync/parseMarkdown";
+
+function extractPreviewExamples(raw: unknown): ParsedExample[] | null {
+  const arr = Array.isArray(raw) ? (raw as ParsedExample[]) : null;
+  if (!arr || arr.length === 0) return null;
+  return arr.slice(0, 2);
+}
 
 export async function POST(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
@@ -66,7 +73,7 @@ export async function POST(request: NextRequest) {
   const { data: restoredProgress, error: fetchError } = await supabase
     .from("user_word_progress")
     .select(
-      "id, word_id, state, review_count, due_at, content_hash_snapshot, scheduler_payload, words!inner(slug, title, lemma, lang_code, ipa, short_definition, definition_md, metadata)",
+      "id, word_id, state, review_count, due_at, content_hash_snapshot, scheduler_payload, words!inner(slug, title, lemma, lang_code, ipa, short_definition, definition_md, metadata, examples)",
     )
     .eq("id", result.out_progress_id)
     .single();
@@ -96,6 +103,7 @@ export async function POST(request: NextRequest) {
     word_id: string;
     words: {
       definition_md: string;
+      examples: unknown;
       ipa: string | null;
       lang_code: string;
       lemma: string;
@@ -126,7 +134,7 @@ export async function POST(request: NextRequest) {
     state: row.state,
     title: row.words.title,
     word_id: row.word_id,
-    previewExamples: [],
+    previewExamples: extractPreviewExamples(row.words.examples),
   };
 
   return NextResponse.json({ ok: true, restoredItem });
