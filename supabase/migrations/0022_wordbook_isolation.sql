@@ -179,16 +179,12 @@ BEGIN
   END IF;
 END $$;
 
-/* ── 7. Update unique constraint on user_word_progress ─────────────── */
+/* ── 7. Update unique constraints ──────────────────────────────────── */
 
-/* Drop old single-user unique constraint if it exists */
+/* user_word_progress */
 ALTER TABLE user_word_progress
   DROP CONSTRAINT IF EXISTS user_word_progress_user_id_word_id_key;
-
-/* Drop old index-based unique if it exists (created by Supabase/PostgREST) */
 DROP INDEX IF EXISTS idx_user_word_progress_user_word;
-
-/* Add new composite unique key */
 DO $$
 BEGIN
   IF NOT EXISTS (
@@ -198,6 +194,22 @@ BEGIN
   ) THEN
     ALTER TABLE user_word_progress
       ADD CONSTRAINT user_word_progress_user_wordbook_word_key
+      UNIQUE (user_id, wordbook_id, word_id);
+  END IF;
+END $$;
+
+/* notes */
+ALTER TABLE notes
+  DROP CONSTRAINT IF EXISTS notes_user_id_word_id_key;
+DO $$
+BEGIN
+  IF NOT EXISTS (
+    SELECT 1 FROM information_schema.table_constraints
+    WHERE constraint_name = 'notes_user_wordbook_word_key'
+      AND table_name = 'notes'
+  ) THEN
+    ALTER TABLE notes
+      ADD CONSTRAINT notes_user_wordbook_word_key
       UNIQUE (user_id, wordbook_id, word_id);
   END IF;
 END $$;

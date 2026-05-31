@@ -8,6 +8,7 @@ export const reviewRatingSchema = z.enum(["again", "hard", "good", "easy"]);
 
 export const addToReviewSchema = z.object({
   wordId: z.string().uuid(),
+  wordbookId: z.string().uuid().optional(),
 });
 
 export const batchAddToReviewSchema = z.object({
@@ -70,14 +71,17 @@ export const reviewSettingsSchema = z.object({
     .min(MIN_DESIRED_RETENTION)
     .max(MAX_DESIRED_RETENTION),
   retuneExisting: z.boolean().default(false),
+  wordbookId: z.string().uuid().optional(),
 });
 
 export const noteSchema = z.object({
   contentMd: z.string().max(20_000),
+  wordbookId: z.string().uuid().optional(),
 });
 
 export const noteRestoreSchema = z.object({
   revisionId: z.string().uuid(),
+  wordbookId: z.string().uuid().optional(),
 });
 
 export const wordbookCreateSchema = z.object({

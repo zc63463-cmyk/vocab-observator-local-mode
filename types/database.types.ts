@@ -389,6 +389,7 @@ export interface Database {
           name: string;
           description: string | null;
           is_default: boolean;
+          settings: Json | null;
           created_at: string;
           updated_at: string;
         };
@@ -398,6 +399,7 @@ export interface Database {
           name: string;
           description?: string | null;
           is_default?: boolean;
+          settings?: Json | null;
           created_at?: string;
           updated_at?: string;
         };
