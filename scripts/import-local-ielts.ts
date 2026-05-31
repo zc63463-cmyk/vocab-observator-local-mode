@@ -25,12 +25,14 @@ const dryRun = process.argv.includes("--dry-run");
 function collectMarkdownFiles(dir: string): string[] {
   const out: string[] = [];
   for (const entry of readdirSync(dir)) {
-    if (entry.startsWith(".")) continue;
+    if (entry.startsWith(".") || entry.startsWith("_")) continue;
+    const lower = entry.toLowerCase();
+    if (lower === "readme.md" || lower === "readme") continue;
     const full = join(dir, entry);
     const stat = statSync(full);
     if (stat.isDirectory()) {
       out.push(...collectMarkdownFiles(full));
-    } else if (entry.toLowerCase().endsWith(".md")) {
+    } else if (lower.endsWith(".md")) {
       out.push(full);
     }
   }
@@ -114,8 +116,24 @@ async function main() {
         continue;
       }
 
+      const JSONB_COLUMNS = [
+        "examples",
+        "metadata",
+        "core_definitions",
+        "collocations",
+        "corpus_items",
+        "synonym_items",
+        "antonym_items",
+      ];
       const columns = Object.keys(payload);
-      const values = Object.values(payload);
+      const values = columns.map((col) => {
+        const v = (payload as Record<string, unknown>)[col];
+        if (v === undefined) return v;
+        if (JSONB_COLUMNS.includes(col) && typeof v === "object" && v !== null) {
+          return JSON.stringify(v);
+        }
+        return v;
+      });
       const placeholders = values.map((_, idx) => `$${idx + 1}`).join(", ");
 
       const onConflict = columns
