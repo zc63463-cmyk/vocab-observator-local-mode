@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **world religions**：世界宗教
-  - *Christianity, Islam, and Buddhism are major world religions.*
+  - *Christianity, Islam, and Buddhism are major world religions.*（世界上有主要宗教，每种都有自己独特的信仰和习俗。）
 - **practice a religion**：信仰宗教
-  - *She has practiced her religion faithfully since childhood.*
+  - *She has practiced her religion faithfully since childhood.*（她从小就一直忠实地实践她的宗教信仰。）
 - **religious beliefs**：宗教信仰
-  - *People should respect each other's religious beliefs.*
+  - *People should respect each other's religious beliefs.*（人们应该尊重彼此的宗教信仰。）
 - **religious freedom**：宗教自由
-  - *Religious freedom is a fundamental human right.*
+  - *Religious freedom is a fundamental human right.*（宗教自由是一项基本人权。）
 - **organized religion**：有组织的宗教
-  - *Some people prefer spirituality over organized religion.*
+  - *Some people prefer spirituality over organized religion.*（有些人更喜欢灵性而非有组织的宗教。）
 
 ## 真题/语料关联
 

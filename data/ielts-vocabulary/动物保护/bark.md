@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bark at the moon**：对着月亮吠叫（徒劳无功）
-  - *Complaining about the decision is like barking at the moon.*
+  - *Complaining about the decision is like barking at the moon.*（抱怨这个决定就像对着月亮吠叫一样徒劳。）
 - **bark up the wrong tree**：找错目标，弄错方向
-  - *If you think I'm responsible, you're barking up the wrong tree.*
+  - *If you think I'm responsible, you're barking up the wrong tree.*（如果你认为是我负责，那你就找错对象了。）
 - **bark orders**：大声下达命令
-  - *The sergeant barked orders at the new recruits.*
+  - *The sergeant barked orders at the new recruits.*（中士对新兵大声下达命令。）
 - **tree bark**：树皮
-  - *The tree bark was rough and covered in moss.*
+  - *The tree bark was rough and covered in moss.*（树皮很粗糙，上面覆盖着苔藓。）
 - **his bark is worse than his bite**：刀子嘴豆腐心
-  - *Don't worry about the boss—he barks but doesn't bite.*
+  - *Don't worry about the boss—he barks but doesn't bite.*（别担心老板——他雷声大雨点小。）
 
 ## 真题/语料关联
 

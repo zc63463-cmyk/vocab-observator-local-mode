@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rational thinking/decision**：理性思维/决定
-  - *We need to make rational decisions based on evidence.*
+  - *We need to make rational decisions based on evidence.*（我们需要基于证据做出理性的决定。）
 - **rational explanation**：合理的解释
-  - *There must be a rational explanation for this.*
+  - *There must be a rational explanation for this.*（对此一定有合理的解释。）
 - **rational number**：有理数
-  - *All integers are rational numbers.*
+  - *All integers are rational numbers.*（所有整数都是有理数。）
 - **rational argument**：合理的论点
-  - *She presented a rational argument for her position.*
+  - *She presented a rational argument for her position.*（她为自己的立场提出了合理的论点。）
 - **perfectly/completely rational**：完全理性的
-  - *His behaviour was perfectly rational under the circumstances.*
+  - *His behaviour was perfectly rational under the circumstances.*（在那种情况下，他的行为是完全理性的。）
 
 ## 真题/语料关联
 

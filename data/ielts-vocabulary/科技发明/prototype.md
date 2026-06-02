@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **develop a prototype**：开发原型
-  - *The team spent months developing a prototype of the new device.*
+  - *The team spent months developing a prototype of the new device.*（团队花了几个月开发新设备的原型。）
 - **working prototype**：可工作的原型
-  - *They created a working prototype within six months.*
+  - *They created a working prototype within six months.*（他们在六个月内创建了一个可工作的原型。）
 - **the prototype of**：……的典型
-  - *She is the prototype of a successful entrepreneur.*
+  - *She is the prototype of a successful entrepreneur.*（她是成功企业家的典型。）
 - **prototype stage**：原型阶段
-  - *The product is still in the prototype stage.*
+  - *The product is still in the prototype stage.*（产品仍处于原型阶段。）
 - **prototype testing**：原型测试
-  - *Prototype testing revealed several design flaws.*
+  - *Prototype testing revealed several design flaws.*（原型测试揭示了几处设计缺陷。）
 
 ## 真题/语料关联
 

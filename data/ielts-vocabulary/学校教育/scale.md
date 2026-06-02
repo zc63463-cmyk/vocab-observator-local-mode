@@ -73,19 +73,19 @@ review_count: 0
 ## 搭配与短语
 
 - **on a large/small scale**：大/小规模地
-  - *The project was implemented on a large scale.*
+  - *The project was implemented on a large scale.*（该项目大规模实施。）
 - **scale of**：……的规模/比例尺
-  - *The scale of the problem is enormous.*
+  - *The scale of the problem is enormous.*（问题的规模是巨大的。）
 - **map scale**：地图比例尺
-  - *The map has a scale of 1:50,000.*
+  - *The map has a scale of 1:50,000.*（这幅地图的比例尺是1:50,000。）
 - **pay scale**：工资等级
-  - *The company has a competitive pay scale.*
+  - *The company has a competitive pay scale.*（该公司有具有竞争力的工资等级。）
 - **scale up/down**：扩大/缩小规模
-  - *We need to scale up production to meet demand.*
+  - *We need to scale up production to meet demand.*（我们需要扩大生产以满足需求。）
 - **sliding scale**：浮动标准
-  - *Fees are calculated on a sliding scale based on income.*
+  - *Fees are calculated on a sliding scale based on income.*（费用根据收入按浮动标准计算。）
 - **economies of scale**：规模经济
-  - *Larger companies benefit from economies of scale.*
+  - *Larger companies benefit from economies of scale.*（大公司受益于规模经济。）
 
 ## 真题/语料关联
 

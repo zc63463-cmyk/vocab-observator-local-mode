@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **graduation ceremony**：毕业典礼
-  - *The graduation ceremony will be held in the main hall.*
+  - *The graduation ceremony will be held in the main hall.*（毕业典礼将在主礼堂举行。）
 - **opening/closing ceremony**：开幕式/闭幕式
-  - *The opening ceremony of the Olympics is always spectacular.*
+  - *The opening ceremony of the Olympics is always spectacular.*（奥运会的开幕式总是很壮观。）
 - **wedding ceremony**：婚礼仪式
-  - *The wedding ceremony took place in a beautiful garden.*
+  - *The wedding ceremony took place in a beautiful garden.*（婚礼在一个美丽的花园里举行。）
 - **stand on ceremony**：讲究礼节
-  - *Please don't stand on ceremony — make yourself at home.*
+  - *Please don't stand on ceremony — make yourself at home.*（请不要拘礼——随便一点。）
 - **without ceremony**：不拘礼节地
-  - *He opened the door without ceremony and walked in.*
+  - *He opened the door without ceremony and walked in.*（他不拘礼节地推开门走了进去。）
 
 ## 真题/语料关联
 

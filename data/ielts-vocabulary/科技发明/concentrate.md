@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **concentrate on**：专注于
-  - *I need to concentrate on my studies and avoid distractions.*
+  - *I need to concentrate on my studies and avoid distractions.*（我需要专注于学习，避免分心。）
 - **concentrate resources/efforts**：集中资源/努力
-  - *The company decided to concentrate its resources on research and development.*
+  - *The company decided to concentrate its resources on research and development.*（公司决定将资源集中在研发上。）
 - **concentrate the mind**：集中注意力
-  - *The approaching deadline really concentrated my mind.*
+  - *The approaching deadline really concentrated my mind.*（临近的截止日期确实让我集中了注意力。）
 - **concentrated form**：浓缩形式
-  - *The product is available in concentrated form.*
+  - *The product is available in concentrated form.*（该产品有浓缩形式出售。）
 - **concentrate fire**：集中火力
-  - *The military concentrated fire on the enemy position.*
+  - *The military concentrated fire on the enemy position.*（军队集中火力攻击敌军阵地。）
 
 ## 真题/语料关联
 

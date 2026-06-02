@@ -1,6 +1,25 @@
 /**
  * Local PostgreSQL client that mimics the supabase-js Postgrest API
  * so the rest of the codebase needs minimal changes.
+ *
+ * ─── Supported features ───
+ * - Basic CRUD: select, insert, upsert, update, delete
+ * - Filters: eq, neq, gt, gte, lt, lte, is, in, contains, like, ilike
+ * - Order, limit, range, match
+ * - Embeds (JOINs): `table!inner(cols)` — NOTE: only `!inner` is parsed;
+ *   omitting the marker produces a LEFT JOIN, but `!left` is NOT supported
+ * - Count with head: true
+ * - RPC: hardcoded `undo_review_log` and `upsert_profile_review_setting`;
+ *   all other function names fall through to `SELECT * FROM fn(...)`
+ * - Alias expressions inside embeds: `alias:column->>key`
+ *
+ * ─── Known limitations ───
+ * - Embeds: `!inner` → INNER JOIN, `!left` → LEFT JOIN, omitted → LEFT JOIN
+ * - `or()` only supports `col.op.val` pairs (no JSON paths like `metadata->>key`)
+ * - `textSearch()` is a simple ILIKE `%query%` fallback
+ * - `single()` returns PGRST116 when no rows match
+ * - FK relations in `buildSelectWithEmbeds` are hardcoded; new tables/embeds
+ *   must be added to `fkMap` or runtime throws "No FK relation defined"
  */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Pool, types } from "pg";
@@ -417,7 +436,7 @@ class PostgrestBuilder<T = any> {
 
   private buildSelectWithEmbeds(): { sql: string; joinSql?: string } {
     const f = this.filter;
-    const embedPattern = /(\w+)(!inner)?\(([^)]+)\)/g;
+    const embedPattern = /(\w+)(!inner|!left)?\(([^)]+)\)/g;
     let match: RegExpExecArray | null;
     const embeds: Array<{ table: string; joinType: "inner" | "left"; columns: string[] }> = [];
     let plainCols = this.selectColumns;

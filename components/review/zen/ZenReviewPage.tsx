@@ -172,11 +172,11 @@ function ZenContent() {
           className="flex min-h-[80vh] flex-col items-center justify-between py-8 px-4 sm:py-12"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, x: -100, scale: 0.9 }}
+          exit={{ opacity: 0, x: -100, scale: 0.9, transition: { duration: 0.35 } }}
           transition={{ type: "spring", ...springs.smooth }}
         >
           <div className="flex-1 flex w-full max-w-5xl items-center justify-center">
-            <ZenFlashcard />
+            <ZenFlashcard key={item.word_id} />
           </div>
 
           <div className="mt-8 w-full max-w-md">

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **invisible to the naked eye**：肉眼看不见的
-  - *Many bacteria are invisible to the naked eye.*
+  - *Many bacteria are invisible to the naked eye.*（许多细菌是肉眼看不见的。）
 - **invisible ink**：隐形墨水
-  - *The spy wrote the message in invisible ink.*
+  - *The spy wrote the message in invisible ink.*（间谍用隐形墨水写下了消息。）
 - **invisible barrier**：无形的障碍
-  - *There seems to be an invisible barrier preventing women from advancing in the company.*
+  - *There seems to be an invisible barrier preventing women from advancing in the company.*（似乎有一道无形的屏障阻碍着女性在公司中晋升。）
 - **invisible hand**：看不见的手（经济学术语）
-  - *Adam Smith's invisible hand describes how markets self-regulate.*
+  - *Adam Smith's invisible hand describes how markets self-regulate.*（亚当·斯密的"看不见的手"描述了市场如何自我调节。）
 - **invisible radiation**：不可见辐射
-  - *Ultraviolet light is a form of invisible radiation.*
+  - *Ultraviolet light is a form of invisible radiation.*（紫外线是一种不可见辐射。）
 
 ## 真题/语料关联
 

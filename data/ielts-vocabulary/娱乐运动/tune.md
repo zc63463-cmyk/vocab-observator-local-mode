@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **catchy tune**：朗朗上口的曲调
-  - *The pop song has a catchy tune that everyone remembers.*
+  - *The pop song has a catchy tune that everyone remembers.*（这首流行歌曲的曲调朗朗上口，人人都记得。）
 - **hum a tune**：哼曲调
-  - *She was humming a tune while cooking.*
+  - *She was humming a tune while cooking.*（她一边做饭一边哼着曲子。）
 - **in tune**：音准正确；和谐
-  - *The piano is in tune.*
+  - *The piano is in tune.*（钢琴音准了。）
 - **out of tune**：音准不正确；不和谐
-  - *The guitar is out of tune.*
+  - *The guitar is out of tune.*（吉他走音了。）
 - **tune in**：收听；关注
-  - *Tune in tomorrow for the next episode.*
+  - *Tune in tomorrow for the next episode.*（明天收看下一集。）
 
 ## 真题/语料关联
 

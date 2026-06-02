@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ambassador to**：驻……大使
-  - *She was appointed ambassador to the United Nations.*
+  - *She was appointed ambassador to the United Nations.*（她被任命为驻联合国大使。）
 - **brand ambassador**：品牌代言人
-  - *The company hired a famous actor as their brand ambassador.*
+  - *The company hired a famous actor as their brand ambassador.*（公司聘请了一位著名演员作为品牌代言人。）
 - **goodwill ambassador**：亲善大使
-  - *The celebrity serves as a goodwill ambassador for UNICEF.*
+  - *The celebrity serves as a goodwill ambassador for UNICEF.*（这位名人在联合国儿童基金会担任亲善大使。）
 - **ambassador of peace**：和平使者
-  - *Nelson Mandela was seen as an ambassador of peace.*
+  - *Nelson Mandela was seen as an ambassador of peace.*（纳尔逊·曼德拉被视为和平使者。）
 - **ambassadorial** (adj.)：大使的
-  - *He holds an ambassadorial position at the embassy.*
+  - *He holds an ambassadorial position at the embassy.*（他在大使馆担任大使职务。）
 
 ## 真题/语料关联
 

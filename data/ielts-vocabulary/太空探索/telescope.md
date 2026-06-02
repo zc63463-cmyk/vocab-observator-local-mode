@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **optical telescope**：光学望远镜
-  - *Optical telescopes use lenses or mirrors to collect visible light.*
+  - *Optical telescopes use lenses or mirrors to collect visible light.*（光学望远镜使用透镜或反射镜收集可见光。）
 - **radio telescope**：射电望远镜
-  - *Radio telescopes detect radio waves emitted by celestial objects.*
+  - *Radio telescopes detect radio waves emitted by celestial objects.*（射电望远镜探测天体发出的无线电波。）
 - **Hubble Space Telescope**：哈勃太空望远镜
-  - *The Hubble Space Telescope has captured stunning images of distant galaxies.*
+  - *The Hubble Space Telescope has captured stunning images of distant galaxies.*（哈勃太空望远镜拍摄了遥远星系的惊人图像。）
 - **telescopic lens**：望远镜头
-  - *The photographer used a telescopic lens to capture the distant bird.*
+  - *The photographer used a telescopic lens to capture the distant bird.*（摄影师使用长焦镜头拍摄了远处的那只鸟。）
 - **telescope into**：压缩成
-  - *The five-year project was telescoped into just two years.*
+  - *The five-year project was telescoped into just two years.*（这个五年项目被压缩到了仅仅两年。）
 
 ## 真题/语料关联
 

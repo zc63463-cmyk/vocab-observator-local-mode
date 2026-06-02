@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **diligent student**：勤奋的学生
-  - *She is a diligent student who always completes her homework on time.*
+  - *She is a diligent student who always completes her homework on time.*（她是个勤奋的学生，总是按时完成作业。）
 - **diligent worker**：勤奋的工作者
-  - *He is known as a diligent and reliable employee.*
+  - *He is known as a diligent and reliable employee.*（他以勤奋可靠的员工而闻名。）
 - **diligent research**：细致的研究
-  - *The report was based on diligent research.*
+  - *The report was based on diligent research.*（这份报告基于细致的研究。）
 - **diligent effort**：不懈的努力
-  - *Success requires diligent effort over time.*
+  - *Success requires diligent effort over time.*（成功需要长期不懈的努力。）
 - **diligent in**：在……方面勤奋
-  - *She is diligent in her studies.*
+  - *She is diligent in her studies.*（她在学习上很勤奋。）
 
 ## 真题/语料关联
 

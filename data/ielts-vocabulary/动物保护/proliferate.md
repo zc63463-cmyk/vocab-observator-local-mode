@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **proliferate rapidly**：迅速增殖
-  - *The bacteria proliferate rapidly in warm water.*
+  - *The bacteria proliferate rapidly in warm water.*（细菌在温水中迅速繁殖。）
 - **proliferate across**：在……蔓延
-  - *Fast food chains have proliferated across the country.*
+  - *Fast food chains have proliferated across the country.*（快餐连锁店在全国各地激增。）
 - **proliferate throughout**：遍及
-  - *Rumours proliferated throughout the office.*
+  - *Rumours proliferated throughout the office.*（谣言在办公室里蔓延开来。）
 - **proliferate in**：在……中激增
-  - *Fake news proliferates in social media.*
+  - *Fake news proliferates in social media.*（假新闻在社交媒体上泛滥。）
 - **cause to proliferate**：导致激增
-  - *The new policy caused problems to proliferate.*
+  - *The new policy caused problems to proliferate.*（新政策导致问题激增。）
 
 ## 真题/语料关联
 

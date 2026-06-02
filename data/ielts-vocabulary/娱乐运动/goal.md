@@ -69,16 +69,16 @@ review_count: 0
 ## 搭配与短语
 
 - **score a goal**：进球，得分
-  - *He scored a brilliant goal from outside the penalty area.*
+  - *He scored a brilliant goal from outside the penalty area.*（他在禁区外打入了一记精彩的进球。）
 - **achieve/reach a goal**：实现目标
-  - *She achieved her goal of graduating with honors.*
+  - *She achieved her goal of graduating with honors.*（她实现了以优异成绩毕业的目标。）
 - **set a goal**：设定目标
-  - *It's important to set realistic goals for yourself.*
+  - *It's important to set realistic goals for yourself.*（为自己设定现实的目标很重要。）
 - **life goal**：人生目标
-  - *My life goal is to travel to every continent.*
+  - *My life goal is to travel to every continent.*（我的人生目标是游遍每个大洲。）
 - **own goal**：乌龙球；自招的失败
-  - *The defender accidentally scored an own goal.*
-  - *Cancelling the project turned out to be an own goal for the company.*
+  - *The defender accidentally scored an own goal.*（后卫不小心打入了一个乌龙球。）
+  - *Cancelling the project turned out to be an own goal for the company.*（取消这个项目对公司来说反而是自讨苦吃。）
 
 ## 真题/语料关联
 

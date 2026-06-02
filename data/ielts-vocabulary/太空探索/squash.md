@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **squash the box**：压扁盒子
-  - *The child accidentally squashed the box by sitting on it.*
+  - *The child accidentally squashed the box by sitting on it.*（孩子不小心坐在盒子上把它压扁了。）
 - **squash into**：挤进
-  - *We all squashed into the tiny elevator.*
+  - *We all squashed into the tiny elevator.*（我们全都挤进了那部小电梯。）
 - **squash the rebellion**：镇压叛乱
-  - *The government quickly squashed the rebellion.*
+  - *The government quickly squashed the rebellion.*（政府迅速镇压了叛乱。）
 - **play squash**：打壁球
-  - *He plays squash twice a week to stay fit.*
+  - *He plays squash twice a week to stay fit.*（他每周打两次壁球来保持健康。）
 - **butternut squash**：奶油南瓜
-  - *Butternut squash soup is a popular autumn dish.*
+  - *Butternut squash soup is a popular autumn dish.*（奶油南瓜汤是一道受欢迎的秋季菜肴。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **master a technique**：掌握一项技术
-  - *It takes years to master the technique of oil painting.*
+  - *It takes years to master the technique of oil painting.*（掌握油画技法需要很多年。）
 - **develop a technique**：开发一种技术
-  - *Scientists have developed a new technique for gene editing.*
+  - *Scientists have developed a new technique for gene editing.*（科学家开发了一种基因编辑的新技术。）
 - **technique for (doing) sth**：做某事的方法
-  - *She demonstrated a technique for improving memory retention.*
+  - *She demonstrated a technique for improving memory retention.*（她演示了一种提高记忆力的方法。）
 - **basic/fundamental technique**：基本技术
-  - *Students must learn the basic techniques before advancing.*
+  - *Students must learn the basic techniques before advancing.*（学生在进阶之前必须先学习基本技术。）
 - **state-of-the-art technique**：最先进的技术
-  - *The lab uses state-of-art techniques in molecular biology.*
+  - *The lab uses state-of-art techniques in molecular biology.*（该实验室在分子生物学中使用最先进的技术。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **uncover evidence**：发现证据
-  - *The police uncovered evidence of corruption within the government.*
+  - *The police uncovered evidence of corruption within the government.*（警方发现了政府内部腐败的证据。）
 - **uncover the truth**：揭露真相
-  - *Journalists worked tirelessly to uncover the truth behind the scandal.*
+  - *Journalists worked tirelessly to uncover the truth behind the scandal.*（记者们不懈努力，揭露了丑闻背后的真相。）
 - **uncover a secret**：揭露秘密
-  - *The investigation uncovered a secret that had been hidden for decades.*
+  - *The investigation uncovered a secret that had been hidden for decades.*（调查揭露了一个隐藏了几十年的秘密。）
 - **uncover ancient ruins**：发掘古代遗迹
-  - *Archaeologists uncovered ancient ruins during the excavation.*
+  - *Archaeologists uncovered ancient ruins during the excavation.*（考古学家在挖掘过程中发现了古代遗迹。）
 - **uncover a plot**：揭露阴谋
-  - *The intelligence agency uncovered a plot to overthrow the government.*
+  - *The intelligence agency uncovered a plot to overthrow the government.*（情报机构揭露了一个推翻政府的阴谋。）
 
 ## 真题/语料关联
 

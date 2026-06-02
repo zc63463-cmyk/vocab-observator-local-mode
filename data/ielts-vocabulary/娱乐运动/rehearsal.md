@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dress rehearsal**：彩排（带妆排练）
-  - *The dress rehearsal went smoothly, so we were confident for the opening night.*
+  - *The dress rehearsal went smoothly, so we were confident for the opening night.*（彩排进行得很顺利，所以我们对首演之夜很有信心。）
 - **rehearsal for**：为……的排练
-  - *The band had a rehearsal for the concert.*
+  - *The band had a rehearsal for the concert.*（乐队为音乐会进行了一次排练。）
 - **rehearsal room**：排练室
-  - *The actors gathered in the rehearsal room to practice their lines.*
+  - *The actors gathered in the rehearsal room to practice their lines.*（演员们在排练室集合练习台词。）
 - **rehearsal dinner**：彩排晚宴（婚礼前）
-  - *The rehearsal dinner was held the night before the wedding.*
+  - *The rehearsal dinner was held the night before the wedding.*（彩排晚宴在婚礼前夜举行。）
 - **in rehearsal**：在排练中
-  - *The play is currently in rehearsal and will open next month.*
+  - *The play is currently in rehearsal and will open next month.*（这出戏目前正在排练中，将于下月首演。）
 
 ## 真题/语料关联
 

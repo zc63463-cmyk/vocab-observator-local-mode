@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mass medium**：大众媒体
-  - *Television is still one of the most powerful mass mediums.*
+  - *Television is still one of the most powerful mass mediums.*（电视仍然是最有影响力的大众媒体之一。）
 - **social medium**：社交媒体
-  - *Social mediums like Facebook and Twitter have changed how we communicate.*
+  - *Social mediums like Facebook and Twitter have changed how we communicate.*（像Facebook和Twitter这样的社交媒体改变了我们的沟通方式。）
 - **medium of exchange**：交换媒介
-  - *Money serves as a medium of exchange in economic transactions.*
+  - *Money serves as a medium of exchange in economic transactions.*（货币在经济交易中充当交换媒介。）
 - **medium size**：中等大小
-  - *I'd like a medium size coffee, please.*
+  - *I'd like a medium size coffee, please.*（请给我来一杯中杯咖啡。）
 - **through the medium of**：通过……的媒介
-  - *The message was transmitted through the medium of radio waves.*
+  - *The message was transmitted through the medium of radio waves.*（这条信息是通过无线电波传输的。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **energetic person**：精力充沛的人
-  - *She is an energetic person who loves sports.*
+  - *She is an energetic person who loves sports.*（她是一个热爱运动的精力充沛的人。）
 - **energetic performance**：充满活力的表演
-  - *The dancer gave an energetic performance.*
+  - *The dancer gave an energetic performance.*（舞者带来了一场充满活力的表演。）
 - **energetic exercise**：有力的锻炼
-  - *Running is an energetic exercise that keeps you fit.*
+  - *Running is an energetic exercise that keeps you fit.*（跑步是一种让你保持健康的剧烈运动。）
 - **energetic child**：活泼的孩子
-  - *The energetic child ran around the playground all day.*
+  - *The energetic child ran around the playground all day.*（这个活泼的孩子在操场上跑了一整天。）
 - **energetic movement**：有力的动作
-  - *The martial arts expert made energetic movements.*
+  - *The martial arts expert made energetic movements.*（武术专家做出了有力的动作。）
 
 ## 真题/语料关联
 

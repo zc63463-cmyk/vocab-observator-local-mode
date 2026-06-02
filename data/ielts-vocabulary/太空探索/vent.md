@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **air vent**：通风口
-  - *The air vent allows fresh air to circulate in the room.*
+  - *The air vent allows fresh air to circulate in the room.*（通风口让新鲜空气在房间里循环。）
 - **exhaust vent**：排气口
-  - *The exhaust vent releases fumes from the kitchen.*
+  - *The exhaust vent releases fumes from the kitchen.*（排气口排出厨房的油烟。）
 - **volcanic vent**：火山口
-  - *Lava erupted from the volcanic vent, flowing down the mountainside.*
+  - *Lava erupted from the volcanic vent, flowing down the mountainside.*（熔岩从火山口喷出，沿着山坡流下。）
 - **give vent to**：发泄
-  - *She gave vent to her frustration by slamming the door.*
+  - *She gave vent to her frustration by slamming the door.*（她摔门以发泄她的沮丧。）
 - **vent anger/frustration**：发泄愤怒/沮丧
-  - *He vented his anger by shouting at the wall.*
+  - *He vented his anger by shouting at the wall.*（他对着墙大喊来发泄愤怒。）
 
 ## 真题/语料关联
 

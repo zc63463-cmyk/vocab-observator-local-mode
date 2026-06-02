@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bite an apple**：咬苹果
-  - *She took a big bite of the apple.*
+  - *She took a big bite of the apple.*（她咬了一大口苹果。）
 - **mosquito bite**：蚊子叮咬
-  - *The mosquito bite was itchy and swollen.*
+  - *The mosquito bite was itchy and swollen.*（蚊子叮咬的地方又痒又肿。）
 - **bite your tongue**：忍住不说
-  - *I had to bite my tongue to avoid arguing with him.*
+  - *I had to bite my tongue to avoid arguing with him.*（我不得不忍住不说，以免和他争吵。）
 - **bite the bullet**：咬紧牙关，忍受痛苦
-  - *You'll just have to bite the bullet and face the consequences.*
+  - *You'll just have to bite the bullet and face the consequences.*（你只能硬着头皮面对后果。）
 - **once bitten, twice shy**：一朝被蛇咬，十年怕井绳
-  - *After losing money in the stock market, he's once bitten, twice shy.*
+  - *After losing money in the stock market, he's once bitten, twice shy.*（在股市亏钱后，他一朝被蛇咬，十年怕井绳。）
 
 ## 真题/语料关联
 

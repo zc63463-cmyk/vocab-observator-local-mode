@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an important aspect**：重要方面
-  - *This is an important aspect of the problem.*
+  - *This is an important aspect of the problem.*（这是问题的一个重要方面。）
 - **every aspect**：每个方面
-  - *We need to consider every aspect of the situation.*
+  - *We need to consider every aspect of the situation.*（我们需要考虑情况的每个方面。）
 - **in all aspects**：在所有方面
-  - *The new policy affects life in all aspects.*
+  - *The new policy affects life in all aspects.*（新政策影响到生活的所有方面。）
 - **aspect of life**：生活方面
-  - *Technology has transformed every aspect of life.*
+  - *Technology has transformed every aspect of life.*（技术已经改变了生活的方方面面。）
 - **southern aspect**：朝南的方向
-  - *The garden has a sunny southern aspect.*
+  - *The garden has a sunny southern aspect.*（这个花园有阳光充足的朝南方向。）
 
 ## 真题/语料关联
 

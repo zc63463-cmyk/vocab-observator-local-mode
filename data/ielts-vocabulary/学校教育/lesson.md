@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **learn a lesson**：吸取教训
-  - *I've learned my lesson and will never make the same mistake again.*
+  - *I've learned my lesson and will never make the same mistake again.*（中文翻译）
 - **teach someone a lesson**：给某人一个教训
-  - *The experience taught him a valuable lesson about honesty.*
+  - *The experience taught him a valuable lesson about honesty.*（中文翻译）
 - **give a lesson**：授课
-  - *The teacher gave an excellent lesson on grammar.*
+  - *The teacher gave an excellent lesson on grammar.*（中文翻译）
 - **take/have a lesson**：上课
-  - *I take piano lessons every Saturday.*
+  - *I take piano lessons every Saturday.*（中文翻译）
 - **lesson plan**：教学计划
-  - *The teacher prepared a detailed lesson plan for the week.*
+  - *The teacher prepared a detailed lesson plan for the week.*（中文翻译）
 
 ## 真题/语料关联
 

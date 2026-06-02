@@ -9,7 +9,7 @@ import { getWordbookFsrsWeights } from "@/lib/review/settings";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { resolveWordbookId } from "@/lib/wordbook";
 import type { ReviewQueueItem, StoredSchedulerCard } from "@/lib/review/types";
-import type { ParsedExample } from "@/lib/sync/parseMarkdown";
+import { extractPreviewExamples } from "@/lib/review/examples";
 
 export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
@@ -24,7 +24,10 @@ export async function GET(request: NextRequest) {
     userId,
     request.nextUrl.searchParams.get("wordbookId"),
   );
-  const session = await getOrCreateReviewSession(supabase, userId, wordbookId);
+  const { session, error: sessionError } = await getOrCreateReviewSession(supabase, userId, wordbookId);
+  if (sessionError || !session) {
+    return apiErrorResponse(sessionError ?? { message: "Failed to create session" }, "api/review/queue");
+  }
   // Personalised weights influence retrievability ranking inside the queue
   // builder. Fetched in parallel with the candidate query to avoid an extra
   // round-trip latency. A null result keeps ts-fsrs defaults active.
@@ -71,20 +74,17 @@ export async function GET(request: NextRequest) {
     };
   }>;
 
+  // Filter out orphaned progress rows whose linked word has been soft-deleted.
+  const validRows = rawRows.filter((row) => row.words != null);
+
   const batch = buildReviewQueueBatch(
-    rawRows,
+    validRows,
     new Date(),
     undefined,
     fsrsWeights?.weights ?? null,
   );
   const dueToday = count ?? rawRows.length;
   const newCards = rawRows.filter((row) => row.state === "new").length;
-
-  function extractPreviewExamples(raw: unknown): ParsedExample[] | null {
-    const arr = Array.isArray(raw) ? (raw as ParsedExample[]) : null;
-    if (!arr || arr.length === 0) return null;
-    return arr.slice(0, 2);
-  }
 
   const items = batch.items.map(({ item: row, priority }): ReviewQueueItem => ({
     content_hash_snapshot: row.content_hash_snapshot,

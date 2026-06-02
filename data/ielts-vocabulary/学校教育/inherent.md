@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inherent quality**：固有品质
-  - *The inherent quality of the product ensures its durability.*
+  - *The inherent quality of the product ensures its durability.*（产品的固有品质保证了其耐用性。）
 - **inherent value**：内在价值
-  - *The inherent value of education cannot be measured in money.*
+  - *The inherent value of education cannot be measured in money.*（教育的内在价值无法用金钱衡量。）
 - **inherent ability**：天生能力
-  - *Some people have an inherent ability for music.*
+  - *Some people have an inherent ability for music.*（有些人有音乐天赋。）
 - **inherent risk**：固有风险
-  - *Every investment carries some inherent risk.*
-- **inherent in**： inherent in
-  - *There are inherent limitations in any system.*
+  - *Every investment carries some inherent risk.*（每项投资都带有一些固有风险。）
+- **inherent in**：固有的
+  - *There are inherent limitations in any system.*（任何系统都存在固有的局限性。）
 
 ## 真题/语料关联
 

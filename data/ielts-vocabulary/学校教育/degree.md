@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bachelor's/master's/doctoral degree**：学士/硕士/博士学位
-  - *She completed her master's degree in computer science.*
+  - *She completed her master's degree in computer science.*（她完成了计算机科学硕士学位。）
 - **earn/obtain a degree**：获得学位
-  - *He earned a degree in law from Harvard.*
+  - *He earned a degree in law from Harvard.*（他获得了哈佛大学的法律学位。）
 - **to a (certain) degree**：在（一定）程度上
-  - *To a degree, I agree with your analysis.*
+  - *To a degree, I agree with your analysis.*（在一定程度上，我同意你的分析。）
 - **by degrees**：逐渐地
-  - *By degrees, the situation improved.*
+  - *By degrees, the situation improved.*（情况逐渐改善了。）
 - **a degree in**：……学位
-  - *She holds a degree in English literature.*
+  - *She holds a degree in English literature.*（她拥有英国文学学位。）
 
 ## 真题/语料关联
 

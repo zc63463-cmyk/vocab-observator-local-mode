@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bachelor's degree**：学士学位
-  - *She earned her bachelor's degree in computer science.*
+  - *She earned her bachelor's degree in computer science.*（她获得了计算机科学学士学位。）
 - **bachelor of arts (BA)**：文学学士
-  - *He graduated with a Bachelor of Arts in History.*
+  - *He graduated with a Bachelor of Arts in History.*（他以历史学文学学士学位毕业。）
 - **bachelor of science (BS/BSc)**：理学学士
-  - *A Bachelor of Science is required for the engineering position.*
+  - *A Bachelor of Science is required for the engineering position.*（工程职位要求理学学士学位。）
 - **eligible bachelor**：黄金单身汉
-  - *He is considered one of the city's most eligible bachelors.*
+  - *He is considered one of the city's most eligible bachelors.*（他被认为是城里最炙手可热的单身汉之一。）
 - **bachelor party**：单身派对
-  - *His friends organized a bachelor party before the wedding.*
+  - *His friends organized a bachelor party before the wedding.*（他的朋友在婚礼前组织了一个单身派对。）
 
 ## 真题/语料关联
 

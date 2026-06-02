@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dominant gene**：显性基因
-  - *Brown eyes are a dominant trait, controlled by a dominant gene.*
+  - *Brown eyes are a dominant trait, controlled by a dominant gene.*（棕色眼睛是由显性基因控制的显性性状。）
 - **gene pool**：基因库
-  - *The gene pool of the endangered species has become dangerously small.*
+  - *The gene pool of the endangered species has become dangerously small.*（濒危物种的基因库已经变得小得危险。）
 - **gene therapy**：基因治疗
-  - *Gene therapy offers hope for treating genetic disorders.*
+  - *Gene therapy offers hope for treating genetic disorders.*（基因疗法为治疗遗传性疾病带来了希望。）
 - **gene mutation**：基因突变
-  - *Gene mutations can be caused by environmental factors or errors in DNA replication.*
+  - *Gene mutations can be caused by environmental factors or errors in DNA replication.*（基因突变可能由环境因素或DNA复制错误引起。）
 - **gene editing**：基因编辑
-  - *Gene editing technology, such as CRISPR, has revolutionized genetic research.*
+  - *Gene editing technology, such as CRISPR, has revolutionized genetic research.*（CRISPR等基因编辑技术彻底改变了遗传学研究。）
 
 ## 真题/语料关联
 

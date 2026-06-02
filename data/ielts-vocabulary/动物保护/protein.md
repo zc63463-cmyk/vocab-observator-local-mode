@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **protein synthesis**：蛋白质合成
-  - *Ribosomes are the cellular machines responsible for protein synthesis.*
+  - *Ribosomes are the cellular machines responsible for protein synthesis.*（核糖体是负责蛋白质合成的细胞机器。）
 - **high-protein diet**：高蛋白饮食
-  - *Athletes often follow a high-protein diet to support muscle growth.*
+  - *Athletes often follow a high-protein diet to support muscle growth.*（运动员通常采用高蛋白饮食以支持肌肉生长。）
 - **animal protein**：动物蛋白
-  - *Animal protein contains all the essential amino acids the body needs.*
+  - *Animal protein contains all the essential amino acids the body needs.*（动物蛋白含有人体所需的所有必需氨基酸。）
 - **plant-based protein**：植物蛋白
-  - *Plant-based protein sources include beans, lentils, and tofu.*
+  - *Plant-based protein sources include beans, lentils, and tofu.*（植物蛋白来源包括豆类、小扁豆和豆腐。）
 - **protein structure**：蛋白质结构
-  - *Understanding protein structure is crucial for drug design.*
+  - *Understanding protein structure is crucial for drug design.*（理解蛋白质结构对药物设计至关重要。）
 - **whey protein**：乳清蛋白
-  - *Whey protein supplements are popular among bodybuilders.*
+  - *Whey protein supplements are popular among bodybuilders.*（乳清蛋白补充剂在健美运动员中很受欢迎。）
 
 ## 真题/语料关联
 

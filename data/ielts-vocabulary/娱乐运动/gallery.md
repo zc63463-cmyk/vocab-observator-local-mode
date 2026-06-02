@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **art gallery**：美术馆，画廊
-  - *We visited the art gallery to see the new exhibition.*
+  - *We visited the art gallery to see the new exhibition.*（我们去美术馆看了新的展览。）
 - **picture gallery**：画廊；图片集
-  - *The picture gallery contains works from the 18th century.*
+  - *The picture gallery contains works from the 18th century.*（画廊里收藏着18世纪的作品。）
 - **public gallery**：公众旁听席
-  - *The debate was watched by people in the public gallery.*
+  - *The debate was watched by people in the public gallery.*（公众旁听席上的人们观看了辩论。）
 - **gallery of**：一系列，一组
-  - *The website features a gallery of user-submitted photos.*
+  - *The website features a gallery of user-submitted photos.*（网站上有一个用户提交的照片集。）
 
 ## 真题/语料关联
 

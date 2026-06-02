@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ice hockey**：冰球
-  - *Ice hockey is the most popular sport in Canada.*
+  - *Ice hockey is the most popular sport in Canada.*（冰球是加拿大最受欢迎的运动。）
 - **field hockey**：曲棍球
-  - *Field hockey is widely played in India and Pakistan.*
+  - *Field hockey is widely played in India and Pakistan.*（曲棍球在印度和巴基斯坦广泛开展。）
 - **hockey stick**：曲棍/冰球杆
-  - *He broke his hockey stick during the match.*
+  - *He broke his hockey stick during the match.*（他在比赛中折断了球杆。）
 - **hockey rink**：冰球场
-  - *The hockey rink was packed with fans for the championship game.*
+  - *The hockey rink was packed with fans for the championship game.*（冰球场挤满了前来观看冠军赛的球迷。）
 - **hockey team**：曲棍球队/冰球队
-  - *She joined the school hockey team when she was twelve.*
+  - *She joined the school hockey team when she was twelve.*（她十二岁时加入了学校曲棍球队。）
 
 ## 真题/语料关联
 

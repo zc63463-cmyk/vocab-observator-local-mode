@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the trumpet**：吹小号
-  - *He learned to play the trumpet in the school band.*
+  - *He learned to play the trumpet in the school band.*（他在学校乐队里学会了吹小号。）
 - **trumpet player**：小号手
-  - *She is a talented trumpet player.*
+  - *She is a talented trumpet player.*（她是一位有才华的小号手。）
 - **trumpet solo**：小号独奏
-  - *The trumpet solo was the highlight of the concert.*
+  - *The trumpet solo was the highlight of the concert.*（小号独奏是音乐会的亮点。）
 - **trumpet section**：小号声部
-  - *The trumpet section played the fanfare.*
+  - *The trumpet section played the fanfare.*（小号声部演奏了号角曲。）
 - **trumpet call**：号角声
-  - *The trumpet call announced the start of the ceremony.*
+  - *The trumpet call announced the start of the ceremony.*（小号声宣布仪式开始。）
 
 ## 真题/语料关联
 

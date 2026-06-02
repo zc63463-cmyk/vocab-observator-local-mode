@@ -96,6 +96,7 @@ export async function GET(request: NextRequest) {
   const items: DrillCandidateResponseItem[] = [];
 
   for (const row of rows) {
+    if (!row.words) continue;
     const examples = Array.isArray(row.words.examples)
       ? (row.words.examples as ParsedExample[])
       : null;

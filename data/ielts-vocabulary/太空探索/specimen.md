@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **biological specimen**：生物标本
-  - *The museum has an extensive collection of biological specimens.*
+  - *The museum has an extensive collection of biological specimens.*（博物馆有大量的生物标本收藏。）
 - **specimen collection**：样本采集
-  - *Specimen collection must be done carefully to avoid contamination.*
+  - *Specimen collection must be done carefully to avoid contamination.*（标本采集必须小心进行以避免污染。）
 - **museum specimen**：博物馆标本
-  - *The museum specimen is over 100 years old and still in excellent condition.*
+  - *The museum specimen is over 100 years old and still in excellent condition.*（这个博物馆标本已有100多年历史，仍然保存完好。）
 - **fine specimen**：优良的范例
-  - *The horse was a fine specimen of the breed.*
+  - *The horse was a fine specimen of the breed.*（这匹马是该品种的优良标本。）
 - **specimen jar**：标本瓶
-  - *The specimen jar contained a preserved octopus.*
+  - *The specimen jar contained a preserved octopus.*（标本罐里装着一个保存的章鱼。）
 
 ## 真题/语料关联
 

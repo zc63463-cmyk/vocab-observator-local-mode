@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the flute**：吹长笛
-  - *She learned to play the flute at a young age.*
+  - *She learned to play the flute at a young age.*（她从小就学会了吹长笛。）
 - **flute player**：长笛手
-  - *She is a talented flute player.*
+  - *She is a talented flute player.*（她是一位有才华的长笛手。）
 - **flute concerto**：长笛协奏曲
-  - *Mozart's flute concerto is one of his most famous works.*
+  - *Mozart's flute concerto is one of his most famous works.*（莫扎特的长笛协奏曲是他最著名的作品之一。）
 - **flute solo**：长笛独奏
-  - *The flute solo was the highlight of the concert.*
+  - *The flute solo was the highlight of the concert.*（长笛独奏是音乐会的亮点。）
 - **flute section**：长笛声部
-  - *The flute section played the melody beautifully.*
+  - *The flute section played the melody beautifully.*（长笛声部优美地演奏了旋律。）
 
 ## 真题/语料关联
 

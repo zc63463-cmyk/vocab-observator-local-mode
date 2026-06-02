@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mosquito net**：蚊帐
-  - *Insecticide-treated mosquito nets have significantly reduced malaria cases in Africa.*
+  - *Insecticide-treated mosquito nets have significantly reduced malaria cases in Africa.*（经过杀虫剂处理的蚊帐显著减少了非洲的疟疾病例。）
 - **mosquito repellent**：驱蚊剂
-  - *Apply mosquito repellent before going outdoors in tropical areas.*
+  - *Apply mosquito repellent before going outdoors in tropical areas.*（在热带地区外出前涂抹驱蚊剂。）
 - **mosquito-borne disease**：蚊媒疾病
-  - *Dengue fever is a mosquito-borne disease prevalent in Southeast Asia.*
+  - *Dengue fever is a mosquito-borne disease prevalent in Southeast Asia.*（登革热是一种在东南亚流行的蚊媒疾病。）
 - **mosquito bite**：蚊子叮咬
-  - *Mosquito bites can cause itching, swelling, and allergic reactions.*
+  - *Mosquito bites can cause itching, swelling, and allergic reactions.*（蚊虫叮咬会引起瘙痒、肿胀和过敏反应。）
 - **mosquito trap**：捕蚊器
-  - *UV mosquito traps are effective for indoor use.*
+  - *UV mosquito traps are effective for indoor use.*（紫外线灭蚊灯在室内使用效果很好。）
 
 ## 真题/语料关联
 

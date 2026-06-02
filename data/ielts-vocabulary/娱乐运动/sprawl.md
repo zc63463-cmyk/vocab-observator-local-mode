@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sprawl on the sofa**：四肢摊开地躺在沙发上
-  - *After the long hike, he sprawled on the sofa.*
+  - *After the long hike, he sprawled on the sofa.*（长途徒步后，他四肢摊开躺在沙发上。）
 - **urban sprawl**：城市蔓延
-  - *Urban sprawl has led to increased traffic and pollution.*
+  - *Urban sprawl has led to increased traffic and pollution.*（城市蔓延导致了交通拥堵和污染加剧。）
 - **city sprawl**：城市扩展
-  - *The city sprawl has consumed much of the surrounding farmland.*
+  - *The city sprawl has consumed much of the surrounding farmland.*（城市的扩展吞噬了周边大量农田。）
 - **sprawl out**：伸展四肢
-  - *She sprawled out on the beach to enjoy the sun.*
+  - *She sprawled out on the beach to enjoy the sun.*（她伸展四肢躺在沙滩上享受阳光。）
 - **suburb sprawl**：郊区蔓延
-  - *Suburb sprawl has changed the character of the rural area.*
+  - *Suburb sprawl has changed the character of the rural area.*（郊区蔓延改变了乡村地区的特色。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study physics**：学习物理学
-  - *He decided to study physics at university.*
+  - *He decided to study physics at university.*（中文翻译）
 - **quantum physics**：量子物理学
-  - *Quantum physics is one of the most challenging subjects.*
+  - *Quantum physics is one of the most challenging subjects.*（中文翻译）
 - **nuclear physics**：核物理学
-  - *Nuclear physics has applications in energy production.*
+  - *Nuclear physics has applications in energy production.*（中文翻译）
 - **the physics of**：……的物理学
-  - *Understanding the physics of flight is essential for aircraft design.*
+  - *Understanding the physics of flight is essential for aircraft design.*（中文翻译）
 - **physical** (adj.)：物理的
-  - *Physical laws govern the behavior of matter and energy.*
+  - *Physical laws govern the behavior of matter and energy.*（中文翻译）
 
 ## 真题/语料关联
 

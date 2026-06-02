@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research scientist**：研究科学家
-  - *She works as a research scientist at a pharmaceutical company.*
+  - *She works as a research scientist at a pharmaceutical company.*（她在一家制药公司担任研究科学家。）
 - **data scientist**：数据科学家
-  - *Data scientists are in high demand in the tech industry.*
+  - *Data scientists are in high demand in the tech industry.*（数据科学家在科技行业需求旺盛。）
 - **Nobel Prize-winning scientist**：诺贝尔奖获奖科学家
-  - *The Nobel Prize-winning scientist gave a lecture at the university.*
+  - *The Nobel Prize-winning scientist gave a lecture at the university.*（这位诺贝尔奖获奖科学家在那所大学做了讲座。）
 - **political/social scientist**：政治学家/社会学家
-  - *Social scientists have studied the effects of inequality on education.*
+  - *Social scientists have studied the effects of inequality on education.*（社会科学家研究了不平等对教育的影响。）
 - **scientist and engineer**：科学家和工程师
-  - *The project requires close collaboration between scientists and engineers.*
+  - *The project requires close collaboration between scientists and engineers.*（该项目需要科学家和工程师之间的密切合作。）
 
 ## 真题/语料关联
 

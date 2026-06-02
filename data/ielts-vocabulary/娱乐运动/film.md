@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **feature film**：故事片
-  - *The feature film was shot in three months.*
+  - *The feature film was shot in three months.*（这部故事片用了三个月拍摄。）
 - **documentary film**：纪录片
-  - *The documentary film won several awards.*
+  - *The documentary film won several awards.*（这部纪录片赢得了多个奖项。）
 - **film a movie**：拍摄电影
-  - *The director filmed the movie on location in Italy.*
+  - *The director filmed the movie on location in Italy.*（导演在意大利实地拍摄了这部电影。）
 - **film industry**：电影产业
-  - *The film industry is a major employer in the region.*
+  - *The film industry is a major employer in the region.*（电影产业是该地区的主要雇主。）
 - **film festival**：电影节
-  - *The film festival showcases independent films.*
+  - *The film festival showcases independent films.*（这个电影节展示独立电影。）
 
 ## 真题/语料关联
 

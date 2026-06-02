@@ -79,15 +79,15 @@ review_count: 0
 ## 搭配与短语
 
 - **round table**：圆桌
-  - *The knights gathered around the round table.*
+  - *The knights gathered around the round table.*（骑士们聚集在圆桌旁。）
 - **round number**：整数
-  - *Let's use a round number for easier calculation.*
+  - *Let's use a round number for easier calculation.*（我们用一个整数来方便计算。）
 - **first round**：第一轮
-  - *He was eliminated in the first round of the competition.*
+  - *He was eliminated in the first round of the competition.*（他在比赛的第一轮就被淘汰了。）
 - **a round of drinks**：一轮饮料
-  - *It's my turn to buy a round of drinks.*
+  - *It's my turn to buy a round of drinks.*（轮到我请一轮饮料了。）
 - **round the clock**：全天候地
-  - *The hospital provides round-the-clock care.*
+  - *The hospital provides round-the-clock care.*（这家医院提供全天候的护理服务。）
 
 ## 真题/语料关联
 

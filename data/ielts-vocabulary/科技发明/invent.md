@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **invent a device/machine**：发明一个装置/机器
-  - *Thomas Edison invented the phonograph in 1877.*
+  - *Thomas Edison invented the phonograph in 1877.*（托马斯·爱迪生于1877年发明了留声机。）
 - **invent a new method/technique**：发明新方法/技术
-  - *Scientists invented a new technique for DNA sequencing.*
+  - *Scientists invented a new technique for DNA sequencing.*（科学家发明了一种DNA测序的新技术。）
 - **invent an excuse/story**：编造借口/故事
-  - *He invented an excuse to avoid attending the meeting.*
+  - *He invented an excuse to avoid attending the meeting.*（他编造了一个借口来避免参加会议。）
 - **invented the wheel**：发明轮子（常用于比喻重大发明）
-  - *You don't need to reinvent the wheel—use existing solutions.*
+  - *You don't need to reinvent the wheel—use existing solutions.*（你不需要重新发明轮子——使用现有的解决方案即可。）
 - **purely invented**：纯属编造的
-  - *The allegations were purely invented to damage his reputation.*
+  - *The allegations were purely invented to damage his reputation.*（这些指控纯属编造，目的是损害他的名誉。）
 
 ## 真题/语料关联
 

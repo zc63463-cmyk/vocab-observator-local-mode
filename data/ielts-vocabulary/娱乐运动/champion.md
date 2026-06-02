@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **world champion**：世界冠军
-  - *She became the world champion in swimming.*
+  - *She became the world champion in swimming.*（她成为了游泳世界冠军。）
 - **national champion**：全国冠军
-  - *He is the national champion in chess.*
+  - *He is the national champion in chess.*（他是国际象棋全国冠军。）
 - **defending champion**：卫冕冠军
-  - *The defending champion won the match again.*
+  - *The defending champion won the match again.*（卫冕冠军再次赢得了比赛。）
 - **champion a cause**：拥护某项事业
-  - *She has championed the cause of education for years.*
+  - *She has championed the cause of education for years.*（她多年来一直拥护教育事业。）
 - **champion of justice**：正义的捍卫者
-  - *He is known as a champion of justice in the community.*
+  - *He is known as a champion of justice in the community.*（他在社区中以正义的捍卫者著称。）
 
 ## 真题/语料关联
 

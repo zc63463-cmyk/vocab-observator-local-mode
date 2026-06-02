@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **atmospheric pressure**：大气压力
-  - *Atmospheric pressure decreases with altitude.*
+  - *Atmospheric pressure decreases with altitude.*（大气压力随海拔升高而降低。）
 - **high/low pressure**：高/低气压
-  - *High pressure usually brings clear skies and good weather.*
+  - *High pressure usually brings clear skies and good weather.*（高气压通常会带来晴朗的天空和好天气。）
 - **peer pressure**：同伴压力
-  - *Teenagers often face peer pressure to conform to group norms.*
+  - *Teenagers often face peer pressure to conform to group norms.*（青少年常常面临来自同龄人的压力，要遵守群体规范。）
 - **under pressure**：在压力下
-  - *The team performed well under pressure.*
+  - *The team performed well under pressure.*（该团队在压力下表现出色。）
 - **put pressure on**：对……施加压力
-  - *The government put pressure on companies to reduce emissions.*
+  - *The government put pressure on companies to reduce emissions.*（政府对公司施加压力，要求其减少排放。）
 
 ## 真题/语料关联
 

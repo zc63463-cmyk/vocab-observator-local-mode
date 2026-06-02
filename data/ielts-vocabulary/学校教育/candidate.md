@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **exam candidate**：应试者
-  - *All exam candidates must bring their ID cards to the examination hall.*
+  - *All exam candidates must bring their ID cards to the examination hall.*（所有应试者必须携带身份证进入考场。）
 - **presidential candidate**：总统候选人
-  - *The presidential candidate delivered a powerful speech on education reform.*
+  - *The presidential candidate delivered a powerful speech on education reform.*（总统候选人就教育改革发表了强有力的演讲。）
 - **job candidate**：求职候选人
-  - *The company interviewed ten job candidates for the position.*
+  - *The company interviewed ten job candidates for the position.*（公司面试了十位求职候选人。）
 - **a strong candidate**：有力的候选人
-  - *She is a strong candidate for the scholarship due to her excellent academic record.*
+  - *She is a strong candidate for the scholarship due to her excellent academic record.*（由于她优异的学业成绩，她是奖学金的有力候选人。）
 - **candidate for**：某事的候选人/适合者
-  - *He is the ideal candidate for the leadership role.*
+  - *He is the ideal candidate for the leadership role.*（他是领导角色的理想人选。）
 
 ## 真题/语料关联
 

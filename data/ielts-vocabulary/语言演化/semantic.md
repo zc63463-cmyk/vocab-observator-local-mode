@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **semantic meaning**：语义意义
-  - *The semantic meaning of a word can change over time.*
+  - *The semantic meaning of a word can change over time.*（一个词的语义意义会随着时间而改变。）
 - **semantic analysis**：语义分析
-  - *Semantic analysis helps us understand the deeper meaning of texts.*
+  - *Semantic analysis helps us understand the deeper meaning of texts.*（语义分析帮助我们理解文本的深层含义。）
 - **semantic field**：语义场
-  - *Words in the same semantic field are related in meaning.*
+  - *Words in the same semantic field are related in meaning.*（同一语义场中的词在意义上相关。）
 - **semantic change**：语义变化
-  - *Semantic change is a natural process in language evolution.*
+  - *Semantic change is a natural process in language evolution.*（语义变化是语言演变的自然过程。）
 - **semantic web**：语义网
-  - *The semantic web aims to make internet data more meaningful.*
+  - *The semantic web aims to make internet data more meaningful.*（语义网旨在使互联网数据更有意义。）
 
 ## 真题/语料关联
 

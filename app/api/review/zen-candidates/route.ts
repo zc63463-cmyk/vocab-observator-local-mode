@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { sql } from "@/lib/db";
 import { requireOwnerApiSession } from "@/lib/request-auth";
@@ -59,7 +59,7 @@ function extractMorphParts(metadata: unknown, kind: "prefix" | "suffix"): string
  * for the active wordbook, with morphological prefix/suffix data extracted
  * from words.metadata so the Free Zen picker can search by affix.
  */
-export async function GET() {
+export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -67,7 +67,11 @@ export async function GET() {
 
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
-  const wordbookId = await resolveWordbookId(supabase, userId, null);
+  const wordbookId = await resolveWordbookId(
+    supabase,
+    userId,
+    request.nextUrl.searchParams.get("wordbookId"),
+  );
 
   const { data, error } = await sql<{
     word_id: string;

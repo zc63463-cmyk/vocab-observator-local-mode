@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **economic prosperity**：经济繁荣
-  - *The country enjoyed a period of economic prosperity.*
+  - *The country enjoyed a period of economic prosperity.*（经济繁荣通常伴随着较低的失业率和较高的生活水平。）
 - **national prosperity**：国家繁荣
-  - *Education is key to national prosperity.*
+  - *Education is key to national prosperity.*（教育是国家繁荣的关键。）
 - **prosperity and peace**：繁荣与和平
-  - *The region has enjoyed decades of prosperity and peace.*
+  - *The region has enjoyed decades of prosperity and peace.*（这个地区享受了几十年的繁荣与和平。）
 - **prosperity gospel**：成功神学
-  - *The prosperity gospel teaches that faith leads to material wealth.*
+  - *The prosperity gospel teaches that faith leads to material wealth.*（成功神学教导信仰会导致物质财富。）
 - **wishes for prosperity**：祝愿繁荣
-  - *We wish you health and prosperity in the new year.*
+  - *We wish you health and prosperity in the new year.*（我们在新年祝您健康繁荣。）
 
 ## 真题/语料关联
 

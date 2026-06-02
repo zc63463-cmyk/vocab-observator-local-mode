@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **non-human primate**：非人灵长类
-  - *Non-human primates, such as chimpanzees, share over 98% of human DNA.*
+  - *Non-human primates, such as chimpanzees, share over 98% of human DNA.*（黑猩猩等非人灵长类动物与人类共享超过98%的DNA。）
 - **great ape**：大型猿类（灵长类的一个子集）
-  - *Great apes include gorillas, orangutans, chimpanzees, and bonobos.*
+  - *Great apes include gorillas, orangutans, chimpanzees, and bonobos.*（大型猿类包括大猩猩、猩猩、黑猩猩和倭黑猩猩。）
 - **primate behavior**：灵长类行为
-  - *Primate behavior studies reveal complex social structures and communication systems.*
+  - *Primate behavior studies reveal complex social structures and communication systems.*（灵长类动物行为研究揭示了复杂的社会结构和交流系统。）
 - **endangered primate**：濒危灵长类
-  - *The mountain gorilla is one of the world's most endangered primates.*
+  - *The mountain gorilla is one of the world's most endangered primates.*（山地大猩猩是世界上最濒危的灵长类动物之一。）
 - **primate conservation**：灵长类保护
-  - *Primate conservation efforts have helped stabilize some declining populations.*
+  - *Primate conservation efforts have helped stabilize some declining populations.*（灵长类动物保护工作已帮助稳定了一些正在减少的种群。）
 
 ## 真题/语料关联
 

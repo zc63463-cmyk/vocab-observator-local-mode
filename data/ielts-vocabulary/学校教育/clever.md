@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a clever student**：聪明的学生
-  - *She's a clever student who picks up new concepts quickly.*
+  - *She's a clever student who picks up new concepts quickly.*（她是个聪明的学生，能快速掌握新概念。）
 - **a clever solution**：巧妙的解决方案
-  - *The engineer came up with a clever solution to reduce costs.*
+  - *The engineer came up with a clever solution to reduce costs.*（工程师想出了降低成本的巧妙方案。）
 - **clever with one's hands**：手巧
-  - *He's clever with his hands and can fix almost anything.*
+  - *He's clever with his hands and can fix almost anything.*（他手很巧，几乎什么都能修。）
 - **too clever by half**：聪明过头（贬义）
-  - *His scheme was too clever by half and ended up backfiring.*
+  - *His scheme was too clever by half and ended up backfiring.*（他的计划聪明过头，结果适得其反。）
 - **clever clogs**：自作聪明的人（口语）
-  - *Don't be such a clever clogs – listen to others' opinions.*
+  - *Don't be such a clever clogs – listen to others' opinions.*（别自作聪明——听听别人的意见。）
 
 ## 真题/语料关联
 

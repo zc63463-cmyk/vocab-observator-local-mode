@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study economics**：学习经济学
-  - *He decided to study economics at university.*
+  - *He decided to study economics at university.*（他决定在大学学习经济学。）
 - **economics of scale**：规模经济学
-  - *The company benefits from economics of scale.*
+  - *The company benefits from economics of scale.*（这家公司受益于规模经济。）
 - **supply and demand**：供需关系
-  - *The price is determined by supply and demand.*
+  - *The price is determined by supply and demand.*（价格由供需关系决定。）
 - **economic growth**：经济增长
-  - *The country experienced rapid economic growth.*
+  - *The country experienced rapid economic growth.*（该国经历了快速的经济增长。）
 - **economic policy**：经济政策
-  - *The government introduced new economic policies.*
+  - *The government introduced new economic policies.*（政府推出了新的经济政策。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **radio antenna**：无线电天线
-  - *The radio antenna on the roof receives signals from distant stations.*
+  - *The radio antenna on the roof receives signals from distant stations.*（屋顶上的无线电天线接收来自远处电台的信号。）
 - **satellite antenna**：卫星天线
-  - *The satellite antenna is used to receive TV signals from space.*
+  - *The satellite antenna is used to receive TV signals from space.*（卫星天线用于接收来自太空的电视信号。）
 - **parabolic antenna**：抛物面天线
-  - *Parabolic antennas are used in radio telescopes to focus signals.*
+  - *Parabolic antennas are used in radio telescopes to focus signals.*（抛物面天线用于射电望远镜中以聚焦信号。）
 - **insect antenna**：昆虫触角
-  - *Insects use their antennae to sense their environment.*
+  - *Insects use their antennae to sense their environment.*（昆虫用触角感知周围环境。）
 - **have an antenna for**：对……敏感
-  - *She has an antenna for spotting talent in young musicians.*
+  - *She has an antenna for spotting talent in young musicians.*（她善于发现年轻音乐家的才华。）
 
 ## 真题/语料关联
 

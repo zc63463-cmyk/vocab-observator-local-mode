@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Broadway musical**：百老汇音乐剧
-  - *The Broadway musical was a huge success.*
+  - *The Broadway musical was a huge success.*（这部百老汇音乐剧取得了巨大成功。）
 - **musical instrument**：乐器
-  - *She can play several musical instruments.*
+  - *She can play several musical instruments.*（她会演奏多种乐器。）
 - **musical talent**：音乐天赋
-  - *The child has great musical talent.*
+  - *The child has great musical talent.*（这孩子有很高的音乐天赋。）
 - **musical performance**：音乐表演
-  - *The musical performance was outstanding.*
+  - *The musical performance was outstanding.*（这场音乐表演非常出色。）
 - **musical comedy**：音乐喜剧
-  - *The musical comedy was very entertaining.*
+  - *The musical comedy was very entertaining.*（这部音乐喜剧非常有趣。）
 
 ## 真题/语料关联
 

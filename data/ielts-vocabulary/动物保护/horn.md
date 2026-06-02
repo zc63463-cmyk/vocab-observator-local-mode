@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **deer horn**：鹿角
-  - *The deer shed their antlers every year.*
+  - *The deer shed their antlers every year.*（鹿每年都会脱落鹿角。）
 - **blow the horn**：吹号角
-  - *The hunter blew the horn to signal the start of the chase.*
+  - *The hunter blew the horn to signal the start of the chase.*（猎人吹响号角示意追猎开始。）
 - **car horn**：汽车喇叭
-  - *He honked the car horn to warn the pedestrian.*
+  - *He honked the car horn to warn the pedestrian.*（他按响了汽车喇叭警告行人。）
 - **horn rimmed**：角质边框的
-  - *She wore horn rimmed glasses.*
+  - *She wore horn rimmed glasses.*（她戴着一副角质框眼镜。）
 - **take the bull by the horns**：勇敢面对困难
-  - *She decided to take the bull by the horns and confront her boss.*
+  - *She decided to take the bull by the horns and confront her boss.*（她决定勇敢面对困难，与老板当面对质。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **divide A by B**：A除以B
-  - *If you divide 12 by 3, you get 4.*
+  - *If you divide 12 by 3, you get 4.*（12除以3等于4。）
 - **divide into**：分成
-  - *The class was divided into four groups.*
+  - *The class was divided into four groups.*（全班被分成四组。）
 - **divide among/between**：在……之间分配
-  - *The money was divided equally among the three brothers.*
+  - *The money was divided equally among the three brothers.*（钱被三个兄弟平分了。）
 - **opinions are divided**：意见分歧
-  - *Opinions are divided on this issue.*
+  - *Opinions are divided on this issue.*（在这个问题上意见有分歧。）
 - **the great divide**：重大分歧/分界线
-  - *The river forms a natural divide between the two regions.*
+  - *The river forms a natural divide between the two regions.*（这条河构成了两个地区之间的天然分界线。）
 
 ## 真题/语料关联
 

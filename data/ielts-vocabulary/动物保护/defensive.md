@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **defensive mechanism**：防御机制
-  - *Some animals have developed defensive mechanisms to protect themselves from predators.*
+  - *Some animals have developed defensive mechanisms to protect themselves from predators.*（一些动物进化出了防御机制以保护自己免受捕食者伤害。）
 - **defensive behavior**：防御行为
-  - *The bird displays defensive behavior when its nest is threatened.*
+  - *The bird displays defensive behavior when its nest is threatened.*（当巢穴受到威胁时，这只鸟表现出防御行为。）
 - **defensive attitude**：防御态度
-  - *He took a defensive attitude when questioned about his mistakes.*
+  - *He took a defensive attitude when questioned about his mistakes.*（当被问及自己的错误时，他采取了防御态度。）
 - **on the defensive**：处于防御状态
-  - *The team was on the defensive for most of the game.*
+  - *The team was on the defensive for most of the game.*（整场比赛大部分时间该队都处于防守状态。）
 - **defensive driving**：防御性驾驶
-  - *Defensive driving techniques can help prevent accidents on the road.*
+  - *Defensive driving techniques can help prevent accidents on the road.*（防御性驾驶技巧有助于预防道路事故。）
 
 ## 真题/语料关联
 

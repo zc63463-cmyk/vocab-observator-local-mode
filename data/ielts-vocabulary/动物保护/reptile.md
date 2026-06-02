@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **reptile species**：爬行动物物种
-  - *Over 10,000 reptile species have been identified worldwide.*
+  - *Over 10,000 reptile species have been identified worldwide.*（全球已鉴定出超过一万种爬行动物。）
 - **venomous reptile**：有毒爬行动物
-  - *The king cobra is one of the most dangerous venomous reptiles.*
+  - *The king cobra is one of the most dangerous venomous reptiles.*（眼镜王蛇是最危险的毒蛇之一。）
 - **reptile habitat**：爬行动物栖息地
-  - *Reptiles thrive in warm, dry habitats like deserts and grasslands.*
+  - *Reptiles thrive in warm, dry habitats like deserts and grasslands.*（爬行动物在沙漠和草原等温暖干燥的栖息地中繁衍生息。）
 - **reptile conservation**：爬行动物保护
-  - *Reptile conservation efforts focus on protecting nesting sites and reducing habitat loss.*
+  - *Reptile conservation efforts focus on protecting nesting sites and reducing habitat loss.*（爬行动物保护工作侧重于保护筑巢地和减少栖息地丧失。）
 - **reptile park**：爬行动物公园
-  - *The reptile park offers visitors the chance to see rare species up close.*
+  - *The reptile park offers visitors the chance to see rare species up close.*（爬行动物公园让游客有机会近距离观察稀有物种。）
 
 ## 真题/语料关联
 

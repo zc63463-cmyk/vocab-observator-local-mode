@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **junior year**：大三学年
-  - *She did an internship during her junior year.*
+  - *She did an internship during her junior year.*（中文翻译）
 - **junior college**：两年制专科学校
-  - *He attended a junior college before transferring to a university.*
+  - *He attended a junior college before transferring to a university.*（中文翻译）
 - **junior high (school)**：初中（美式）
-  - *Students enter junior high school at around age twelve.*
+  - *Students enter junior high school at around age twelve.*（中文翻译）
 - **junior staff / junior doctor**：初级员工/初级医生
-  - *Junior doctors often work extremely long shifts.*
+  - *Junior doctors often work extremely long shifts.*（中文翻译）
 - **John Smith Junior**：小约翰·史密斯
-  - *He is named after his father and goes by Junior.*
+  - *He is named after his father and goes by Junior.*（中文翻译）
 
 ## 真题/语料关联
 

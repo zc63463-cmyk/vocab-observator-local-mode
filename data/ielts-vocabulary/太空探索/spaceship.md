@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **launch a spaceship**：发射宇宙飞船
-  - *The agency successfully launched a spaceship to the International Space Station.*
+  - *The agency successfully launched a spaceship to the International Space Station.*（该机构成功向国际空间站发射了一艘飞船。）
 - **piloted spaceship**：载人宇宙飞船
-  - *The piloted spaceship carried three astronauts to the Moon.*
+  - *The piloted spaceship carried three astronauts to the Moon.*（这艘载人飞船将三名宇航员送往月球。）
 - **spaceship design**：飞船设计
-  - *Spaceship design must account for the extreme conditions of space.*
+  - *Spaceship design must account for the extreme conditions of space.*（飞船设计必须考虑太空的极端条件。）
 - **alien spaceship**：外星飞船
-  - *The movie featured an alien spaceship landing on Earth.*
+  - *The movie featured an alien spaceship landing on Earth.*（这部电影描绘了外星飞船在地球上降落。）
 - **spaceship Earth**：地球号飞船（比喻）
-  - *We all share spaceship Earth and must take care of it.*
+  - *We all share spaceship Earth and must take care of it.*（我们都共享着地球这艘宇宙飞船，必须好好照顾它。）
 
 ## 真题/语料关联
 

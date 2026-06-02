@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fully functional**：完全正常运作的
-  - *The system is now fully functional after the repairs.*
+  - *The system is now fully functional after the repairs.*（维修后系统现在完全正常运行。）
 - **functional design**：功能性设计
-  - *The building's functional design prioritizes efficiency over aesthetics.*
+  - *The building's functional design prioritizes efficiency over aesthetics.*（这座建筑的功能性设计优先考虑效率而非美观。）
 - **functional skills**：实用技能
-  - *Functional skills like literacy and numeracy are essential for everyday life.*
+  - *Functional skills like literacy and numeracy are essential for everyday life.*（读写和算术等实用技能对日常生活至关重要。）
 - **functional food**：功能性食品
-  - *Functional foods provide health benefits beyond basic nutrition.*
+  - *Functional foods provide health benefits beyond basic nutrition.*（功能性食品提供超越基础营养的健康益处。）
 - **dysfunctional**：功能失调的
-  - *The dysfunctional team struggled to complete the project on time.*
+  - *The dysfunctional team struggled to complete the project on time.*（功能失调的团队难以按时完成项目。）
 
 ## 真题/语料关联
 

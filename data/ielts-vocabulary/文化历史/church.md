@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **go to church**：去教堂做礼拜
-  - *She goes to church every Sunday morning.*
+  - *She goes to church every Sunday morning.*（她每个星期天早上去教堂做礼拜。）
 - **Catholic Church**：天主教会
-  - *The Catholic Church is the largest Christian denomination in the world.*
+  - *The Catholic Church is the largest Christian denomination in the world.*（天主教会是世界上最大的基督教派别。）
 - **Church of England**：英国国教会（圣公会）
-  - *The Church of England was established during the Reformation.*
+  - *The Church of England was established during the Reformation.*（英国国教会在宗教改革期间建立。）
 - **church service**：礼拜仪式
-  - *The church service includes hymns, prayers, and a sermon.*
+  - *The church service includes hymns, prayers, and a sermon.*（礼拜仪式包括赞美诗、祷告和布道。）
 - **church bell**：教堂钟声
-  - *The church bell rings every hour on the hour.*
+  - *The church bell rings every hour on the hour.*（教堂的钟声每小时准时敲响。）
 - **churchyard**：教堂墓地
-  - *The churchyard is filled with ancient tombstones.*
+  - *The churchyard is filled with ancient tombstones.*（教堂墓地里布满了古老的墓碑。）
 
 ## 真题/语料关联
 

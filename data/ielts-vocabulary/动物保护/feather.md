@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **birds of a feather**：物以类聚
-  - *Birds of a feather flock together—that's why they became best friends.*
+  - *Birds of a feather flock together—that's why they became best friends.*（物以类聚，人以群分——这就是他们成为挚友的原因。）
 - **light as a feather**：轻如鸿毛
-  - *The silk scarf was light as a feather.*
+  - *The silk scarf was light as a feather.*（这条丝巾轻如羽毛。）
 - **feather in one's cap**：值得骄傲的成就
-  - *Winning the national award was a real feather in her cap.*
+  - *Winning the national award was a real feather in her cap.*（赢得国家奖项是她引以为豪的成就。）
 - **ruffle someone's feathers**：惹恼某人
-  - *His rude comment ruffled a few feathers at the meeting.*
+  - *His rude comment ruffled a few feathers at the meeting.*（他粗鲁的评论在会上惹恼了某些人。）
 - **feather one's nest**：中饱私囊
-  - *The corrupt official used public funds to feather his own nest.*
+  - *The corrupt official used public funds to feather his own nest.*（腐败官员用公共资金中饱私囊。）
 
 ## 真题/语料关联
 

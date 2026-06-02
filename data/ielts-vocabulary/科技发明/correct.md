@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the correct answer**：正确答案
-  - *Please select the correct answer from the options.*
+  - *Please select the correct answer from the options.*（请从选项中选择正确的答案。）
 - **correct the mistakes/errors**：纠正错误
-  - *The teacher corrected the mistakes in my essay.*
+  - *The teacher corrected the mistakes in my essay.*（老师纠正了我文章中的错误。）
 - **politically correct**：政治正确的
-  - *Some people think being politically correct limits free speech.*
+  - *Some people think being politically correct limits free speech.*（有些人认为政治正确限制了言论自由。）
 - **correct behavior**：恰当的行为
-  - *It's important to teach children correct behavior.*
+  - *It's important to teach children correct behavior.*（教育孩子正确的行为很重要。）
 - **stand corrected**：接受纠正
-  - *I stand corrected on that point.*
+  - *I stand corrected on that point.*（在这一点上我接受指正。）
 
 ## 真题/语料关联
 

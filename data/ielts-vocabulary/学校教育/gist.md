@@ -65,13 +65,13 @@ review_count: 0
 ## 搭配与短语
 
 - **the gist of**：……的要点/主旨
-  - *Can you give me the gist of the article?*
+  - *Can you give me the gist of the article?*（你能告诉我这篇文章的要点吗？）
 - **get the gist**：理解大意
-  - *I didn't understand every word, but I got the gist.*
+  - *I didn't understand every word, but I got the gist.*（我不是每个词都懂，但我明白了大意。）
 - **the general gist**：大意
-  - *The general gist of the speech was about economic reform.*
+  - *The general gist of the speech was about economic reform.*（演讲的大意是关于经济改革。）
 - **in gist**：大意上
-  - *In gist, the argument is that education reduces poverty.*
+  - *In gist, the argument is that education reduces poverty.*（简而言之，论点就是教育能减少贫困。）
 
 ## 真题/语料关联
 

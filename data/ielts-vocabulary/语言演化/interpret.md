@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **interpret the data/results**：解读数据/结果
-  - *Scientists are still trying to interpret the experimental results.*
+  - *Scientists are still trying to interpret the experimental results.*（科学家们仍在努力解读实验结果。）
 - **interpret as**：把……理解为
-  - *His silence was interpreted as a sign of guilt.*
+  - *His silence was interpreted as a sign of guilt.*（他的沉默被理解为有罪的迹象。）
 - **interpret for**：为……口译
-  - *She interpreted for the French delegation during the meeting.*
+  - *She interpreted for the French delegation during the meeting.*（她在会议期间为法国代表团口译。）
 - **differently interpreted**：被不同地解读
-  - *The law has been differently interpreted by various courts.*
+  - *The law has been differently interpreted by various courts.*（这项法律被不同的法院作出了不同的解释。）
 - **interpret a role/character**：演绎角色
-  - *The actor interpreted the role with great depth and nuance.*
+  - *The actor interpreted the role with great depth and nuance.*（这位演员以极大的深度和细腻演绎了这个角色。）
 
 ## 真题/语料关联
 

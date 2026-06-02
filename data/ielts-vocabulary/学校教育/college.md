@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go to college**：上大学
-  - *He went to college in New York and majored in economics.*
+  - *He went to college in New York and majored in economics.*（他在纽约上大学，主修经济学。）
 - **attend college**：就读大学
-  - *She attended a liberal arts college in Massachusetts.*
+  - *She attended a liberal arts college in Massachusetts.*（她就读于马萨诸塞州的一所文理学院。）
 - **college student**：大学生
-  - *College students often balance studies with part-time jobs.*
+  - *College students often balance studies with part-time jobs.*（大学生常常需要在学习和兼职工作之间取得平衡。）
 - **college campus**：大学校园
-  - *The college campus is beautiful in autumn.*
+  - *The college campus is beautiful in autumn.*（秋天的大学校园很美。）
 - **community college**：社区学院
-  - *Many students start at a community college before transferring to a university.*
+  - *Many students start at a community college before transferring to a university.*（许多学生先在社区学院就读，然后转入大学。）
 
 ## 真题/语料关联
 

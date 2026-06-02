@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **introduce yourself**：自我介绍
-  - *Let me introduce myself. My name is Sarah.*
+  - *Let me introduce myself. My name is Sarah.*（让我自我介绍一下。我叫莎拉。）
 - **introduce someone to**：把某人介绍给
-  - *I'd like to introduce you to my colleague.*
+  - *I'd like to introduce you to my colleague.*（我想把你介绍给我的同事。）
 - **introduce a topic**：引出话题
-  - *The speaker introduced the topic with a brief anecdote.*
+  - *The speaker introduced the topic with a brief anecdote.*（演讲者用一段简短的轶事引出了话题。）
 - **introduce a new policy/law**：推行新政策/法律
-  - *The government introduced a new tax policy.*
+  - *The government introduced a new tax policy.*（政府推行了一项新的税收政策。）
 - **introduce a product**：推出产品
-  - *The company plans to introduce a new smartphone next month.*
+  - *The company plans to introduce a new smartphone next month.*（该公司计划下个月推出一款新的智能手机。）
 
 ## 真题/语料关联
 

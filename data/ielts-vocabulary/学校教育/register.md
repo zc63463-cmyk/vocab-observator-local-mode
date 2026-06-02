@@ -75,15 +75,15 @@ review_count: 0
 ## 搭配与短语
 
 - **register for**：登记参加（课程、考试等）
-  - *She registered for three courses this semester.*
+  - *She registered for three courses this semester.*（她这学期注册了三门课程。）
 - **registered mail / registered letter**：挂号信
-  - *I sent the documents by registered mail.*
+  - *I sent the documents by registered mail.*（我通过挂号信寄送了文件。）
 - **school register**：学校点名册
-  - *The teacher checked the register at the beginning of each class.*
+  - *The teacher checked the register at the beginning of each class.*（老师在每节课开始时检查点名册。）
 - **register a complaint / register a claim**：正式投诉/提出索赔
-  - *Customers can register a complaint with the manager.*
+  - *Customers can register a complaint with the manager.*（顾客可以向经理正式投诉。）
 - **it didn't register**：没有意识到/没有留下印象
-  - *The name didn't register at first, but then I remembered.*
+  - *The name didn't register at first, but then I remembered.*（这个名字一开始没留下印象，但后来我想起来了。）
 
 ## 真题/语料关联
 

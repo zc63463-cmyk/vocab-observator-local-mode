@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **barely discernible**：几乎无法辨认的
-  - *The star was barely discernible in the night sky.*
+  - *The star was barely discernible in the night sky.*（那颗星星在夜空中几乎看不出来。）
 - **easily discernible**：容易辨认的
-  - *The difference between the two samples is easily discernible.*
+  - *The difference between the two samples is easily discernible.*（两个样品之间的差异是容易辨别的。）
 - **no discernible difference**：没有明显的差异
-  - *There was no discernible difference between the two products.*
+  - *There was no discernible difference between the two products.*（这两个产品之间没有明显的差异。）
 - **discernible pattern**：可识别的模式
-  - *The data shows a discernible pattern of growth.*
+  - *The data shows a discernible pattern of growth.*（数据显示出可辨识的增长模式。）
 - **discernible change**：可察觉的变化
-  - *There has been a discernible change in the weather.*
+  - *There has been a discernible change in the weather.*（天气出现了可察觉的变化。）
 
 ## 真题/语料关联
 

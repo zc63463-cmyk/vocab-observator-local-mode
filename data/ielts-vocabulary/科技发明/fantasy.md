@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fantasy novel**：奇幻小说
-  - *The Harry Potter series is a famous fantasy novel.*
+  - *The Harry Potter series is a famous fantasy novel.*（《哈利·波特》系列是一部著名的奇幻小说。）
 - **fantasy world**：幻想世界
-  - *The fantasy world in the book is richly detailed.*
+  - *The fantasy world in the book is richly detailed.*（书中的幻想世界细节丰富。）
 - **pure fantasy**：纯粹的幻想
-  - *The idea of living on Mars is still pure fantasy.*
+  - *The idea of living on Mars is still pure fantasy.*（在火星上生活的想法仍然只是纯粹的幻想。）
 - **fantasy film**：奇幻电影
-  - *Fantasy films often feature magical creatures and epic battles.*
+  - *Fantasy films often feature magical creatures and epic battles.*（奇幻电影通常以魔法生物和史诗般的战斗为特色。）
 - **fantasy football**：梦幻足球（虚拟体育游戏）
-  - *Fantasy football allows fans to create their own teams.*
+  - *Fantasy football allows fans to create their own teams.*（梦幻足球让球迷可以创建自己的球队。）
 
 ## 真题/语料关联
 

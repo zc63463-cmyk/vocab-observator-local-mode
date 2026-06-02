@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **computer keyboard**：计算机键盘
-  - *The computer keyboard is the primary input device for typing.*
+  - *The computer keyboard is the primary input device for typing.*（计算机键盘是打字的主要输入设备。）
 - **keyboard shortcut**：键盘快捷键
-  - *Keyboard shortcuts can significantly improve productivity.*
+  - *Keyboard shortcuts can significantly improve productivity.*（键盘快捷键可以显著提高工作效率。）
 - **keyboard layout**：键盘布局
-  - *The QWERTY keyboard layout is the most common worldwide.*
+  - *The QWERTY keyboard layout is the most common worldwide.*（QWERTY键盘布局在全球范围内最为常见。）
 - **keyboard player**：键盘手
-  - *The band's keyboard player is exceptionally talented.*
+  - *The band's keyboard player is exceptionally talented.*（乐队的键盘手非常有才华。）
 - **on the keyboard**：在键盘上
-  - *She typed the report quickly on the keyboard.*
+  - *She typed the report quickly on the keyboard.*（她在键盘上快速地输入了报告。）
 
 ## 真题/语料关联
 

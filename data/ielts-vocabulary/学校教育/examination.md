@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take/sit an examination**：参加考试
-  - *Students must take the final examination at the end of the semester.*
+  - *Students must take the final examination at the end of the semester.*（学生必须在本学期末参加期末考试。）
 - **pass/fail an examination**：通过/未通过考试
-  - *She passed the driving examination on her first attempt.*
+  - *She passed the driving examination on her first attempt.*（她第一次就通过了驾驶考试。）
 - **medical/physical examination**：体检
-  - *The doctor conducted a thorough medical examination.*
+  - *The doctor conducted a thorough medical examination.*（医生进行了彻底的医学检查。）
 - **under examination**：在审查中
-  - *The evidence is still under examination.*
+  - *The evidence is still under examination.*（证据仍在审查中。）
 - **cross-examination**：交叉询问
-  - *The witness was subjected to intense cross-examination.*
+  - *The witness was subjected to intense cross-examination.*（证人受到了激烈的交叉询问。）
 
 ## 真题/语料关联
 

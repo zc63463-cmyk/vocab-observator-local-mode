@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **understand something**：理解某事
-  - *I don't understand this equation.*
+  - *I don't understand this equation.*（我不理解这个方程。）
 - **understand what/why/how**：明白什么/为什么/如何
-  - *Do you understand why this is important?*
+  - *Do you understand why this is important?*（你明白为什么这很重要吗？）
 - **understand that...**：获悉……
-  - *I understand that you're busy right now.*
+  - *I understand that you're busy right now.*（我了解到你现在很忙。）
 - **be understood**：被理解
-  - *The message was clearly understood.*
+  - *The message was clearly understood.*（这条信息被清楚地理解了。）
 - **come to understand**：逐渐理解
-  - *Over time, she came to understand his perspective.*
+  - *Over time, she came to understand his perspective.*（随着时间的推移，她逐渐理解了他的观点。）
 
 ## 真题/语料关联
 

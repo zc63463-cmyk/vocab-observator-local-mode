@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **piano solo**：钢琴独奏
-  - *The pianist performed a beautiful piano solo.*
+  - *The pianist performed a beautiful piano solo.*（钢琴家演奏了一首优美的钢琴独奏曲。）
 - **guitar solo**：吉他独奏
-  - *The guitarist played an amazing guitar solo.*
+  - *The guitarist played an amazing guitar solo.*（吉他手演奏了一段精彩的吉他独奏。）
 - **solo performance**：独奏表演
-  - *Her solo performance received a standing ovation.*
+  - *Her solo performance received a standing ovation.*（她的独奏表演获得了起立鼓掌。）
 - **solo artist**：独唱歌手
-  - *She started her career as a solo artist.*
+  - *She started her career as a solo artist.*（她以独唱歌手的身份开始了她的职业生涯。）
 - **go solo**：单飞（离开团体独自发展）
-  - *The singer decided to go solo after the band broke up.*
+  - *The singer decided to go solo after the band broke up.*（乐队解散后，这位歌手决定单飞。）
 
 ## 真题/语料关联
 

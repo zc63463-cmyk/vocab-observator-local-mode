@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **manifest itself**：显现
-  - *The disease manifests itself in various ways.*
+  - *The disease manifests itself in various ways.*（中文翻译）
 - **manifest in**：表现在
-  - *His anxiety manifested in nervous habits.*
+  - *His anxiety manifested in nervous habits.*（中文翻译）
 - **manifest as**：表现为
-  - *The problem may manifest as fatigue.*
+  - *The problem may manifest as fatigue.*（中文翻译）
 - **manifestly clear**：明显清楚
-  - *The error was manifestly clear.*
+  - *The error was manifestly clear.*（中文翻译）
 - **manifestation** (n.) — 表现
-  - *The symptoms are a manifestation of the disease.*
+  - *The symptoms are a manifestation of the disease.*（中文翻译）
 
 ## 真题/语料关联
 

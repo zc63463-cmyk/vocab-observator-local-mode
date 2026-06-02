@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **local custom**：当地风俗
-  - *It is a local custom to remove your shoes before entering a house.*
+  - *It is a local custom to remove your shoes before entering a house.*（当地风俗是在进屋前脱鞋。）
 - **by custom**：按照习俗
-  - *By custom, the eldest son inherits the family property.*
+  - *By custom, the eldest son inherits the family property.*（按照习俗，长子继承家族财产。）
 - **go through customs**：通过海关
-  - *We had to go through customs before leaving the airport.*
+  - *We had to go through customs before leaving the airport.*（我们离开机场前必须通过海关。）
 - **customs duty**：关税
-  - *The government imposed a customs duty on imported cars.*
+  - *The government imposed a customs duty on imported cars.*（政府对进口汽车征收关税。）
 - **lose custom**：失去顾客
-  - *The shop lost custom due to its poor service.*
+  - *The shop lost custom due to its poor service.*（这家店因服务差而失去了顾客。）
 
 ## 真题/语料关联
 

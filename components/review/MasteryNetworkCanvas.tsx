@@ -259,9 +259,16 @@ function NetworkScene({
   }, [nodes, count]);
 
   /* Stabilise the instanceColor args tuple so r3f never thinks the buffer
-     attribute needs recreation on an orchestrator rerender. */
+     attribute needs recreation on an orchestrator rerender.
+     NOTE: we clone baseColors here because mesh.instanceColor.array and
+     baseColors must NOT alias each other.  The frame loop reads baseColors
+     to compute the original baseR/G/B values, then writes dimmed colours
+     into mesh.instanceColor via setXYZ.  If the two arrays were the same
+     object, the dimmed values would overwrite baseColors, causing an
+     ever-darkening cascade on subsequent frames (each frame multiplying
+     by 0.25 again) until every non-highlighted node turns pure black. */
   const instanceColorArgs = useMemo<[Float32Array, number]>(
-    () => [baseColors, 3],
+    () => [new Float32Array(baseColors), 3],
     [baseColors],
   );
 

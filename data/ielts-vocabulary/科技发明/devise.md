@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **devise a plan/scheme**：设计一个计划/方案
-  - *The team devised a plan to reduce costs without sacrificing quality.*
+  - *The team devised a plan to reduce costs without sacrificing quality.*（团队设计了一个在不牺牲质量的前提下降低成本的计划。）
 - **devise a solution**：想出解决方案
-  - *Engineers devised an innovative solution to the traffic problem.*
+  - *Engineers devised an innovative solution to the traffic problem.*（工程师们想出了一个创新的交通问题解决方案。）
 - **devise a strategy**：制定策略
-  - *The company devised a new marketing strategy to attract younger customers.*
+  - *The company devised a new marketing strategy to attract younger customers.*（公司制定了新的营销策略来吸引年轻客户。）
 - **devise a method/way**：想出一个方法
-  - *Scientists devised a new method for detecting early-stage cancer.*
+  - *Scientists devised a new method for detecting early-stage cancer.*（科学家设计出一种检测早期癌症的新方法。）
 - **carefully devised**：精心设计的
-  - *The carefully devised experiment yielded impressive results.*
+  - *The carefully devised experiment yielded impressive results.*（精心设计的实验取得了令人瞩目的结果。）
 
 ## 真题/语料关联
 

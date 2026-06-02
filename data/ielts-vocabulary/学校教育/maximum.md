@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the maximum (of)**：最大值
-  - *The maximum of 3, 5, and 7 is 7.*
+  - *The maximum of 3, 5, and 7 is 7.*（中文翻译）
 - **maximum speed/temperature**：最高速度/温度
-  - *The car has a maximum speed of 200 km/h.*
+  - *The car has a maximum speed of 200 km/h.*（中文翻译）
 - **to the maximum**：到最大限度
-  - *She pushed herself to the maximum.*
+  - *She pushed herself to the maximum.*（中文翻译）
 - **maximum effort**：最大努力
-  - *We need to make maximum effort to succeed.*
+  - *We need to make maximum effort to succeed.*（中文翻译）
 - **maximum capacity**：最大容量
-  - *The stadium was filled to maximum capacity.*
+  - *The stadium was filled to maximum capacity.*（中文翻译）
 
 ## 真题/语料关联
 

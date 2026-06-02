@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **ask/tell a riddle**：出谜语
-  - *The children asked each other riddles during the party.*
+  - *The children asked each other riddles during the party.*（孩子们在派对上互相出谜语。）
 - **solve a riddle**：解开谜语
-  - *It took me a while to solve the riddle.*
+  - *It took me a while to solve the riddle.*（我花了一段时间才解开这个谜语。）
 - **a riddle wrapped in a mystery**：谜中之谜
-  - *The situation is a riddle wrapped in a mystery.*
+  - *The situation is a riddle wrapped in a mystery.*（这种情况是一个谜中之谜。）
 - **be riddled with**：布满，充斥
-  - *The report was riddled with errors.*
+  - *The report was riddled with errors.*（这份报告错误百出。）
 - **riddle me this**：请回答这个问题（文学用语）
-  - *Riddle me this: what has keys but no locks?*
+  - *Riddle me this: what has keys but no locks?*（请你猜一猜：什么东西有钥匙但没有锁？）
 - **the riddle of**：……之谜
-  - *Scientists are still trying to solve the riddle of the universe.*
+  - *Scientists are still trying to solve the riddle of the universe.*（科学家仍在试图解开宇宙之谜。）
 
 ## 真题/语料关联
 

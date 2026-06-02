@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dust particle**：尘埃颗粒
-  - *Dust particles in the air can cause allergies and respiratory problems.*
+  - *Dust particles in the air can cause allergies and respiratory problems.*（空气中的尘埃颗粒会引起过敏和呼吸问题。）
 - **cosmic dust**：宇宙尘埃
-  - *Cosmic dust is found in meteorites that land on Earth.*
+  - *Cosmic dust is found in meteorites that land on Earth.*（在落在地球上的陨石中发现了宇宙尘埃。）
 - **dust storm**：沙尘暴
-  - *The dust storm reduced visibility to near zero.*
+  - *The dust storm reduced visibility to near zero.*（沙尘暴将能见度降至几乎为零。）
 - **dust off**：擦去灰尘；重新使用
-  - *She dusted off her old bicycle and went for a ride.*
+  - *She dusted off her old bicycle and went for a ride.*（她拂去旧自行车上的灰尘，然后骑了出去。）
 - **bite the dust**：失败；死亡（习语）
-  - *Another small business bit the dust during the economic recession.*
+  - *Another small business bit the dust during the economic recession.*（在经济衰退期间，又一家小企业倒闭了。）
 
 ## 真题/语料关联
 

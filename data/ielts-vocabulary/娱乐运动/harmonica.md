@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the harmonica**：吹口琴
-  - *He learned to play the harmonica from his grandfather.*
+  - *He learned to play the harmonica from his grandfather.*（他跟祖父学会了吹口琴。）
 - **blues harmonica**：蓝调口琴
-  - *The blues harmonica player performed a soulful solo.*
+  - *The blues harmonica player performed a soulful solo.*（蓝调口琴手演奏了一段深情的独奏。）
 - **harmonica player**：口琴手
-  - *She is a talented harmonica player.*
+  - *She is a talented harmonica player.*（她是一位有才华的口琴手。）
 - **harmonica solo**：口琴独奏
-  - *The harmonica solo was the highlight of the concert.*
+  - *The harmonica solo was the highlight of the concert.*（口琴独奏是音乐会的亮点。）
 - **chromatic harmonica**：半音阶口琴
-  - *The chromatic harmonica can play all the notes in the scale.*
+  - *The chromatic harmonica can play all the notes in the scale.*（半音阶口琴可以演奏音阶中的所有音符。）
 
 ## 真题/语料关联
 

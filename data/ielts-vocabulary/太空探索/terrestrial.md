@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **terrestrial life**：陆地生命
-  - *Terrestrial life evolved from aquatic organisms over millions of years.*
+  - *Terrestrial life evolved from aquatic organisms over millions of years.*（地球上的生命经过数百万年从水生生物进化而来。）
 - **terrestrial planet**：类地行星
-  - *Mercury, Venus, Earth, and Mars are terrestrial planets.*
+  - *Mercury, Venus, Earth, and Mars are terrestrial planets.*（水星、金星、地球和火星是类地行星。）
 - **terrestrial ecosystem**：陆地生态系统
-  - *Forests are the most complex terrestrial ecosystems.*
+  - *Forests are the most complex terrestrial ecosystems.*（森林是最复杂的陆地生态系统。）
 - **terrestrial animals/plants**：陆生动物/植物
-  - *Terrestrial animals breathe air, unlike aquatic species.*
+  - *Terrestrial animals breathe air, unlike aquatic species.*（陆地动物呼吸空气，与水生动物不同。）
 - **terrestrial television**：地面电视（相对于卫星电视）
-  - *Terrestrial television signals are broadcast from ground-based transmitters.*
+  - *Terrestrial television signals are broadcast from ground-based transmitters.*（地面电视信号是从地面发射器广播的。）
 
 ## 真题/语料关联
 

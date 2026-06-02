@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **overestimate the importance of**：高估……的重要性
-  - *Some people overestimate the importance of money.*
+  - *Some people overestimate the importance of money.*（中文翻译）
 - **overestimate the risk/danger**：高估风险
-  - *We should not overestimate the threat.*
+  - *We should not overestimate the threat.*（中文翻译）
 - **overestimate someone's ability**：高估某人的能力
-  - *Don't overestimate his ability to handle pressure.*
+  - *Don't overestimate his ability to handle pressure.*（中文翻译）
 - **overestimate the time/cost needed**：高估所需时间/成本
-  - *We overestimated how much time we would need.*
+  - *We overestimated how much time we would need.*（中文翻译）
 - **be overestimated**：被高估
-  - *The impact of the policy has been overestimated.*
+  - *The impact of the policy has been overestimated.*（中文翻译）
 
 ## 真题/语料关联
 

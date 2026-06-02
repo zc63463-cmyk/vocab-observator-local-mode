@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **refine oil/sugar**：提炼石油/糖
-  - *The refinery processes crude oil into useful products.*
+  - *The refinery processes crude oil into useful products.*（炼油厂将原油加工成有用的产品。）
 - **refine the technique/method**：改进技术/方法
-  - *Scientists continue to refine the technique for better results.*
+  - *Scientists continue to refine the technique for better results.*（科学家们继续改进该技术以获得更好的结果。）
 - **refine the essay/draft**：润色文章/草稿
-  - *She spent hours refining her essay before submission.*
+  - *She spent hours refining her essay before submission.*（她花了几个小时润色她的文章然后才提交。）
 - **refined manners/taste**：优雅的举止/品味
-  - *He has refined manners and speaks elegantly.*
+  - *He has refined manners and speaks elegantly.*（他举止优雅，谈吐得体。）
 - **refine on/upon**：改进，超越
-  - *The new model refines on the previous design.*
+  - *The new model refines on the previous design.*（新款改进了之前的设计。）
 
 ## 真题/语料关联
 

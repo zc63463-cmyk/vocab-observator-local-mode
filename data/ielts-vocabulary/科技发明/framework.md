@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **basic framework**：基本框架
-  - *We need to establish a basic framework for the project.*
+  - *We need to establish a basic framework for the project.*（我们需要为该项目建立一个基本框架。）
 - **legal framework**：法律框架
-  - *The government is developing a new legal framework for online commerce.*
+  - *The government is developing a new legal framework for online commerce.*（政府正在为在线商务制定新的法律框架。）
 - **theoretical framework**：理论框架
-  - *The research is based on a solid theoretical framework.*
+  - *The research is based on a solid theoretical framework.*（这项研究建立在坚实的理论框架之上。）
 - **within the framework of**：在……框架内
-  - *The policy operates within the framework of existing laws.*
+  - *The policy operates within the framework of existing laws.*（该政策在现有法律框架内运作。）
 - **framework agreement**：框架协议
-  - *The two countries signed a framework agreement on trade.*
+  - *The two countries signed a framework agreement on trade.*（两国签署了一项贸易框架协议。）
 
 ## 真题/语料关联
 

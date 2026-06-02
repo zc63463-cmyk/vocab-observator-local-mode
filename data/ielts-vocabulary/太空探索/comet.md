@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Halley's Comet**：哈雷彗星
-  - *Halley's Comet is visible from Earth every 75-76 years.*
+  - *Halley's Comet is visible from Earth every 75-76 years.*（哈雷彗星每75至76年可从地球上观测到一次。）
 - **comet tail**：彗星尾巴
-  - *A comet tail always points away from the Sun due to solar wind.*
+  - *A comet tail always points away from the Sun due to solar wind.*（由于太阳风的作用，彗星尾巴总是背向太阳。）
 - **periodic comet**：周期彗星
-  - *Periodic comets return to the inner solar system at regular intervals.*
+  - *Periodic comets return to the inner solar system at regular intervals.*（周期彗星定期返回内太阳系。）
 - **comet nucleus**：彗星核
-  - *The comet nucleus is a dirty snowball of ice and dust.*
-- **comet shower**：彗星雨
-  - *Some scientists believe comet showers occur periodically, affecting Earth's climate.*
+  - *The comet nucleus is a dirty snowball of ice and dust.*（彗星核是一个由冰和尘埃组成的脏雪球。）
+- **comet observation**：彗星观测
+  - *Amateur astronomers contribute to comet observation by tracking their movements.*（业余天文学家通过追踪彗星运动为彗星观测做出贡献。）
 
 ## 真题/语料关联
 

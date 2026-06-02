@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **blood sample**：血液样本
-  - *The doctor took a blood sample to test for infections.*
+  - *The doctor took a blood sample to test for infections.*（医生抽取了血样来检测感染。）
 - **random sample**：随机抽样
-  - *The survey was based on a random sample of 1,000 participants.*
+  - *The survey was based on a random sample of 1,000 participants.*（这项调查基于1000名参与者的随机样本。）
 - **sample size**：样本量
-  - *A larger sample size generally produces more reliable results.*
+  - *A larger sample size generally produces more reliable results.*（较大的样本量通常会产生更可靠的结果。）
 - **free sample**：免费样品
-  - *The supermarket was giving away free samples of the new product.*
+  - *The supermarket was giving away free samples of the new product.*（超市正在免费赠送新产品的样品。）
 - **sample the local culture**：体验当地文化
-  - *Traveling allows you to sample different cultures and cuisines.*
+  - *Traveling allows you to sample different cultures and cuisines.*（旅行让你能够体验不同的文化和美食。）
 
 ## 真题/语料关联
 

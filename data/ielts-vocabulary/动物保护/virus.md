@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **viral infection**：病毒感染
-  - *Antibiotics are ineffective against viral infections.*
+  - *Antibiotics are ineffective against viral infections.*（抗生素对病毒感染无效。）
 - **computer virus**：计算机病毒
-  - *The computer virus corrupted all the files on the hard drive.*
+  - *The computer virus corrupted all the files on the hard drive.*（计算机病毒破坏了硬盘上的所有文件。）
 - **go viral**：病毒式传播
-  - *The video went viral and got over 10 million views in a day.*
+  - *The video went viral and got over 10 million views in a day.*（这个视频迅速走红，一天内获得了超过一千万次播放。）
 - **virus mutation**：病毒变异
-  - *Virus mutation is a major challenge in developing effective vaccines.*
+  - *Virus mutation is a major challenge in developing effective vaccines.*（病毒变异是开发有效疫苗的主要挑战。）
 - **antivirus software**：杀毒软件
-  - *Make sure your antivirus software is up to date.*
+  - *Make sure your antivirus software is up to date.*（确保你的杀毒软件是最新版本。）
 - **virus carrier**：病毒携带者
-  - *Some virus carriers show no symptoms but can still infect others.*
+  - *Some virus carriers show no symptoms but can still infect others.*（一些病毒携带者没有症状但仍可传染他人。）
 
 ## 真题/语料关联
 

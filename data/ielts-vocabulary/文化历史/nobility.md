@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the nobility**：贵族阶层
-  - *The nobility held most of the land in feudal Europe.*
+  - *The nobility held most of the land in feudal Europe.*（在封建欧洲，贵族拥有大部分土地。）
 - **a man/woman of nobility**：有贵族身份的人
-  - *She was a woman of nobility who dedicated her life to charity.*
+  - *She was a woman of nobility who dedicated her life to charity.*（她是一位品格高尚的女性，一生致力于慈善事业。）
 - **nobility of character/spirit**：品格/精神的高贵
-  - *His nobility of character was admired by all.*
+  - *His nobility of character was admired by all.*（他高尚的品格受到所有人的钦佩。）
 - **hereditary nobility**：世袭贵族
-  - *The hereditary nobility lost many privileges after the revolution.*
+  - *The hereditary nobility lost many privileges after the revolution.*（革命后，世袭贵族失去了许多特权。）
 - **noble** (adj.) — 高贵的，高尚的
-  - *It was a noble gesture to forgive his enemies.*
+  - *It was a noble gesture to forgive his enemies.*（宽恕他的敌人是一个高尚的姿态。）
 
 ## 真题/语料关联
 

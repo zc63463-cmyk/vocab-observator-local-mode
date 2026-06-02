@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **quadruple the amount/price**：四倍的数量/价格
-  - *The company's value has quadrupled in five years.*
+  - *The company's value has quadrupled in five years.*（中文翻译）
 - **quadruple alliance**：四方同盟
-  - *The four nations formed a quadruple alliance.*
+  - *The four nations formed a quadruple alliance.*（中文翻译）
 - **quadruple jump**：四周跳（花样滑冰）
-  - *The skater landed a perfect quadruple jump.*
+  - *The skater landed a perfect quadruple jump.*（中文翻译）
 - **quadruple bypass**：四重搭桥手术（医学）
-  - *He underwent quadruple bypass surgery.*
+  - *He underwent quadruple bypass surgery.*（中文翻译）
 
 ## 真题/语料关联
 

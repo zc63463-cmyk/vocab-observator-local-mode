@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fiber optics**：光纤
-  - *Fiber optics revolutionized the telecommunications industry.*
+  - *Fiber optics revolutionized the telecommunications industry.*（光纤彻底改变了电信行业。）
 - **optical fiber**：光纤
-  - *Optical fiber transmits data as pulses of light.*
+  - *Optical fiber transmits data as pulses of light.*（光纤以光脉冲的形式传输数据。）
 - **field of optics**：光学领域
-  - *Advances in the field of optics have transformed medical imaging.*
+  - *Advances in the field of optics have transformed medical imaging.*（光学领域的进步已经改变了医学影像。）
 - **optical illusion**：视错觉
-  - *The painting creates an optical illusion that makes the room appear larger.*
+  - *The painting creates an optical illusion that makes the room appear larger.*（这幅画创造了一种视错觉，使房间看起来更大。）
 - **the optics of**：……的形象/观感
-  - *The optics of the politician's vacation during the crisis were terrible.*
+  - *The optics of the politician's vacation during the crisis were terrible.*（那位政客在危机期间度假的形象很糟糕。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **auxiliary equipment**：辅助设备
-  - *The laboratory is equipped with auxiliary equipment for backup experiments.*
+  - *The laboratory is equipped with auxiliary equipment for backup experiments.*（实验室配备了用于备份实验的辅助设备。）
 - **auxiliary power**：备用电源
-  - *The hospital has an auxiliary power generator in case of blackouts.*
+  - *The hospital has an auxiliary power generator in case of blackouts.*（医院备有一台备用发电机，以防停电。）
 - **auxiliary verb**：助动词
-  - *"Have" and "be" are auxiliary verbs in English grammar.*
+  - *"Have" and "be" are auxiliary verbs in English grammar.*（在英语语法中，"have"和"be"是助动词。）
 - **auxiliary staff**：辅助人员
-  - *The hospital relies on auxiliary staff to support the nursing team.*
+  - *The hospital relies on auxiliary staff to support the nursing team.*（医院依靠辅助人员来支持护理团队。）
 - **auxiliary fuel tank**：副油箱
-  - *The aircraft was fitted with auxiliary fuel tanks for the long-distance flight.*
+  - *The aircraft was fitted with auxiliary fuel tanks for the long-distance flight.*（飞机配备了副油箱以支持长途飞行。）
 
 ## 真题/语料关联
 

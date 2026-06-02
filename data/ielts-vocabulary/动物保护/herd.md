@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a herd of cattle**：一群牛
-  - *A herd of cattle grazed peacefully in the meadow.*
+  - *A herd of cattle grazed peacefully in the meadow.*（一群牛在草地上安详地吃草。）
 - **a herd of elephants**：一群大象
-  - *We watched a herd of elephants crossing the river at sunset.*
+  - *We watched a herd of elephants crossing the river at sunset.*（我们看着一群大象在日落时过河。）
 - **herd mentality**：从众心理
-  - *Herd mentality can lead people to make poor decisions.*
+  - *Herd mentality can lead people to make poor decisions.*（从众心理会导致人们做出糟糕的决定。）
 - **herd behavior**：从众行为
-  - *Herd behavior in financial markets can cause bubbles and crashes.*
+  - *Herd behavior in financial markets can cause bubbles and crashes.*（金融市场中的羊群行为可能导致泡沫和崩盘。）
 - **herd immunity**：群体免疫
-  - *Herd immunity is achieved when a large portion of the population becomes immune to a disease.*
+  - *Herd immunity is achieved when a large portion of the population becomes immune to a disease.*（当大部分人口对某种疾病产生免疫力时，就实现了群体免疫。）
 
 ## 真题/语料关联
 

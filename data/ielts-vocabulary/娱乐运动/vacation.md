@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **summer vacation**：暑假
-  - *The children are looking forward to the summer vacation.*
+  - *The children are looking forward to the summer vacation.*（孩子们期待着暑假。）
 - **take a vacation**：休假
-  - *I need to take a vacation to recharge my batteries.*
+  - *I need to take a vacation to recharge my batteries.*（我需要休假以恢复精力。）
 - **go on vacation**：去度假
-  - *We're going on vacation to Spain next month.*
+  - *We're going on vacation to Spain next month.*（我们下个月去西班牙度假。）
 - **vacation spot**：度假胜地
-  - *Hawaii is a popular vacation spot for tourists.*
+  - *Hawaii is a popular vacation spot for tourists.*（夏威夷是游客喜爱的度假胜地。）
 - **vacation days**：假期天数
-  - *You have 20 vacation days per year.*
+  - *You have 20 vacation days per year.*（你每年有20天假期。）
 
 ## 真题/语料关联
 

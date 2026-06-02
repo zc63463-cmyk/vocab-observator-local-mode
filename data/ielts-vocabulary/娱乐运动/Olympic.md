@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Olympic Games**：奥运会
-  - *The Olympic Games are held every four years.*
+  - *The Olympic Games are held every four years.*（奥运会每四年举办一次。）
 - **Olympic athlete**：奥运选手
-  - *She trained for years to become an Olympic athlete.*
+  - *She trained for years to become an Olympic athlete.*（她训练了多年，只为成为一名奥运选手。）
 - **Olympic medal**：奥运奖牌
-  - *He won a gold Olympic medal in swimming.*
+  - *He won a gold Olympic medal in swimming.*（他在游泳项目上赢得了一枚奥运金牌。）
 - **Olympic torch**：奥运火炬
-  - *The Olympic torch relay symbolizes the spread of peace.*
+  - *The Olympic torch relay symbolizes the spread of peace.*（奥运火炬传递象征着和平的传播。）
 - **Olympic village**：奥运村
-  - *Athletes from around the world stay in the Olympic village.*
+  - *Athletes from around the world stay in the Olympic village.*（来自世界各地的运动员住在奥运村。）
 
 ## 真题/语料关联
 

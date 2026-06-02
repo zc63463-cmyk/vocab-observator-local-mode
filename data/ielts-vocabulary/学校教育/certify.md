@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **certify that**：证明……
-  - *The doctor certified that the patient was fit to work.*
+  - *The doctor certified that the patient was fit to work.*（医生证明病人可以恢复工作。）
 - **be certified as**：被认证为
-  - *She was certified as a professional translator.*
+  - *She was certified as a professional translator.*（她被认证为专业翻译。）
 - **certified** (adj.)：经认证的
-  - *He is a certified public accountant.*
+  - *He is a certified public accountant.*（他是一名注册会计师。）
 - **certified mail**：挂号信（有送达证明）
-  - *Send the application by certified mail.*
+  - *Send the application by certified mail.*（通过挂号信发送申请。）
 - **certified copy**：经认证的副本
-  - *You need a certified copy of your birth certificate.*
+  - *You need a certified copy of your birth certificate.*（你需要一份经过认证的出生证明副本。）
 
 ## 真题/语料关联
 

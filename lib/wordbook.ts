@@ -111,7 +111,15 @@ export async function getOrCreateDefaultWordbook(
     .select("id")
     .single();
 
-  if (error) throw error;
+  if (error) {
+    // Concurrent creation race: another request created it between our
+    // check and insert. Re-query and return the winner's ID.
+    if ((error as { code?: string }).code === "23505") {
+      const retry = await getDefaultWordbook(supabase, userId);
+      if (retry) return retry.id;
+    }
+    throw error;
+  }
   return data!.id;
 }
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **famous for**：因……而著名
-  - *The city is famous for its beautiful architecture.*
+  - *The city is famous for its beautiful architecture.*（这座城市以其美丽的建筑而闻名。）
 - **famous as**：作为……而著名
-  - *She is famous as a tennis player.*
+  - *She is famous as a tennis player.*（她作为网球运动员而著名。）
 - **world-famous**：世界著名的
-  - *The museum houses world-famous paintings.*
+  - *The museum houses world-famous paintings.*（这家博物馆收藏了世界著名的画作。）
 - **famous athlete**：著名运动员
-  - *He is a famous basketball player.*
+  - *He is a famous basketball player.*（他是一位著名的篮球运动员。）
 - **famous landmark**：著名地标
-  - *The Eiffel Tower is a famous landmark in Paris.*
+  - *The Eiffel Tower is a famous landmark in Paris.*（埃菲尔铁塔是巴黎著名的地标。）
 
 ## 真题/语料关联
 

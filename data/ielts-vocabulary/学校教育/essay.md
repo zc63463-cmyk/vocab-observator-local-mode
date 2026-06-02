@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **write an essay**：写论文/作文
-  - *She spent the weekend writing an essay on climate change.*
+  - *She spent the weekend writing an essay on climate change.*（她整个周末都在写一篇关于气候变化的文章。）
 - **essay question**：论述题（考试中的开放性问题）
-  - *The exam consists of multiple-choice questions and two essay questions.*
+  - *The exam consists of multiple-choice questions and two essay questions.*（考试包括选择题和两道论述题。）
 - **essay writing**：论文写作
-  - *Essay writing is a key skill assessed in IELTS.*
+  - *Essay writing is a key skill assessed in IELTS.*（论文写作是雅思考试评估的关键技能之一。）
 - **personal essay**：个人散文
-  - *The personal essay explores the author's childhood memories.*
+  - *The personal essay explores the author's childhood memories.*（这篇个人散文探讨了作者的童年记忆。）
 - **essay collection**：散文集
-  - *Her essay collection was published last year.*
+  - *Her essay collection was published last year.*（她的散文集去年出版了。）
 
 ## 真题/语料关联
 

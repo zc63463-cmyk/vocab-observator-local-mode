@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the royal family**：王室家族
-  - *The royal family attended the state dinner.*
+  - *The royal family attended the state dinner.*（王室出席了国宴。）
 - **royal palace**：皇宫
-  - *The royal palace is now a museum open to the public.*
+  - *The royal palace is now a museum open to the public.*（皇宫现在是对公众开放的博物馆。）
 - **royal welcome**：盛大欢迎
-  - *The visiting president received a royal welcome.*
+  - *The visiting president received a royal welcome.*（来访的总统受到了王室般的欢迎。）
 - **royal treatment**：皇家待遇
-  - *The hotel gave us the royal treatment during our stay.*
+  - *The hotel gave us the royal treatment during our stay.*（酒店在我们入住期间给予了皇室般的待遇。）
 - **royal pain**：大麻烦（口语）
-  - *This project has been a royal pain.*
+  - *This project has been a royal pain.*（这个项目真是个麻烦。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **team spirit**：团队精神
-  - *Good team spirit is essential for success in any collaborative project.*
+  - *Good team spirit is essential for success in any collaborative project.*（良好的团队精神对于任何合作项目的成功至关重要。）
 - **fighting spirit**：战斗精神
-  - *The soldiers showed incredible fighting spirit even in the face of defeat.*
+  - *The soldiers showed incredible fighting spirit even in the face of defeat.*（即使在失败面前，士兵们也展现了令人难以置信的战斗精神。）
 - **the spirit of the law**：法律的精神（与条文相对）
-  - *The judge ruled based on the spirit of the law, not just its literal wording.*
+  - *The judge ruled based on the spirit of the law, not just its literal wording.*（法官根据法律的精神而不是字面意思作出裁决。）
 - **in high spirits**：情绪高涨
-  - *The children were in high spirits on the last day of school.*
+  - *The children were in high spirits on the last day of school.*（孩子们在学期的最后一天情绪高涨。）
 - **the Holy Spirit**：圣灵
-  - *In Christianity, the Holy Spirit is part of the Holy Trinity.*
+  - *In Christianity, the Holy Spirit is part of the Holy Trinity.*（在基督教中，圣灵是三位一体的一部分。）
 
 ## 真题/语料关联
 

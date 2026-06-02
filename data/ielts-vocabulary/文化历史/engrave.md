@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **engrave a name**：刻名字
-  - *They engraved his name on the memorial plaque.*
+  - *They engraved his name on the memorial plaque.*（他们把他的名字刻在纪念牌上。）
 - **engrave on stone/metal**：刻在石头/金属上
-  - *The ancient text was engraved on a stone tablet.*
+  - *The ancient text was engraved on a stone tablet.*（古代文字被刻在一块石板上。）
 - **engrave a design**：刻图案
-  - *The artisan engraved a beautiful floral design on the silver bracelet.*
+  - *The artisan engraved a beautiful floral design on the silver bracelet.*（工匠在银手镯上雕刻了精美的花卉图案。）
 - **engraved in memory**：铭刻在记忆中
-  - *The image of that sunset is engraved in my memory forever.*
+  - *The image of that sunset is engraved in my memory forever.*（那个日落的景象永远铭刻在我的记忆中。）
 - **engrave an inscription**：刻铭文
-  - *The sword had a Latin inscription engraved on the blade.*
+  - *The sword had a Latin inscription engraved on the blade.*（剑刃上刻有拉丁铭文。）
 
 ## 真题/语料关联
 

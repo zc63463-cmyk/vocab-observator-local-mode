@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **feel homesick**：感到想家
-  - *She felt homesick during her first week at university.*
+  - *She felt homesick during her first week at university.*（她上大学的第一周感到想家。）
 - **homesick for**：思念……
-  - *He was homesick for his family and friends.*
+  - *He was homesick for his family and friends.*（他思念他的家人和朋友。）
 - **get homesick**：变得想家
-  - *Children often get homesick at summer camp.*
+  - *Children often get homesick at summer camp.*（孩子们在夏令营时常常会想家。）
 - **homesick blues**：思乡之苦
-  - *The song captures the homesick blues of immigrants.*
+  - *The song captures the homesick blues of immigrants.*（这首歌捕捉到了移民的思乡之苦。）
 - **homesick feeling**：想家的感觉
-  - *A homesick feeling washed over her when she saw the family photo.*
+  - *A homesick feeling washed over her when she saw the family photo.*（当她看到全家福时，一阵想家的感觉涌上心头。）
 
 ## 真题/语料关联
 

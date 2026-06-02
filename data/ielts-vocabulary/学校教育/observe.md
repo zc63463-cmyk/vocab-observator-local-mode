@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **observe something**：观察某事
-  - *Scientists observed the behavior of the animals.*
+  - *Scientists observed the behavior of the animals.*（中文翻译）
 - **observe that...**：注意到……
-  - *I observed that he seemed nervous.*
+  - *I observed that he seemed nervous.*（中文翻译）
 - **observe the law/rules**：遵守法律/规则
-  - *Citizens are expected to observe the law.*
+  - *Citizens are expected to observe the law.*（中文翻译）
 - **carefully observe**：仔细观察
-  - *The doctor carefully observed the patient's symptoms.*
+  - *The doctor carefully observed the patient's symptoms.*（中文翻译）
 - **observation** (n.)：观察
-  - *The observation of the stars led to new discoveries.*
+  - *The observation of the stars led to new discoveries.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dictate a letter/memo**：口述信件/备忘录
-  - *The manager dictated a letter to her secretary.*
+  - *The manager dictated a letter to her secretary.*（经理向秘书口述了一封信。）
 - **dictate terms/conditions**：规定条款/条件
-  - *The winning team dictated the terms of the agreement.*
+  - *The winning team dictated the terms of the agreement.*（获胜的队伍规定了协议的条款。）
 - **dictate to somebody**：对某人发号施令
-  - *I won't have anyone dictate to me how to do my job.*
+  - *I won't have anyone dictate to me how to do my job.*（我不允许任何人对我发号施令告诉我该怎么做我的工作。）
 - **as dictated by**：按……的要求
-  - *Follow the procedure as dictated by the manual.*
+  - *Follow the procedure as dictated by the manual.*（按照手册的要求执行程序。）
 - **the dictates of**：……的要求/命令
-  - *She followed the dictates of her conscience.*
+  - *She followed the dictates of her conscience.*（她遵循良心的指引。）
 
 ## 真题/语料关联
 

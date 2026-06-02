@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the remainder of**：……的剩余部分
-  - *She spent the remainder of the day reading.*
+  - *She spent the remainder of the day reading.*（她花了一天中剩下的时间读书。）
 - **remainder theorem**：余数定理
-  - *The remainder theorem states that the remainder of dividing a polynomial by (x-a) is f(a).*
+  - *The remainder theorem states that the remainder of dividing a polynomial by (x-a) is f(a).*（余数定理指出，多项式除以(x-a)的余数是f(a)。）
 - **remaindered books**：削价书
-  - *The bookshop had a section for remaindered books.*
+  - *The bookshop had a section for remaindered books.*（这家书店有一个削价书专区。）
 - **for the remainder of**：在……的剩余时间里
-  - *He remained silent for the remainder of the meeting.*
+  - *He remained silent for the remainder of the meeting.*（在会议剩余的时间里他一直保持沉默。）
 - **take the remainder**：取余数
-  - *Divide 17 by 5 and take the remainder.*
+  - *Divide 17 by 5 and take the remainder.*（用17除以5，然后取余数。）
 
 ## 真题/语料关联
 

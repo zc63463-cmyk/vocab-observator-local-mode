@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **body fluid**：体液
-  - *Body fluids include blood, saliva, and urine.*
+  - *Body fluids include blood, saliva, and urine.*（体液包括血液、唾液和尿液。）
 - **fluid dynamics**：流体力学
-  - *Fluid dynamics studies the movement of liquids and gases.*
+  - *Fluid dynamics studies the movement of liquids and gases.*（流体动力学研究液体和气体的运动。）
 - **fluid motion**：流动的动作
-  - *The dancer's fluid motion captivated the audience.*
+  - *The dancer's fluid motion captivated the audience.*（舞者流畅的动作迷住了观众。）
 - **fluid situation**：易变的局势
-  - *The political situation remains fluid and unpredictable.*
+  - *The political situation remains fluid and unpredictable.*（政治局势仍然不稳定且难以预测。）
 - **fluid ounce**：液量盎司
-  - *The bottle contains 16 fluid ounces of water.*
+  - *The bottle contains 16 fluid ounces of water.*（这个瓶子装有16液盎司的水。）
 
 ## 真题/语料关联
 

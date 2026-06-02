@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **recruit staff/employees**：招聘员工
-  - *The company plans to recruit 50 new graduates this year.*
+  - *The company plans to recruit 50 new graduates this year.*（该公司计划今年招聘50名新毕业生。）
 - **recruit volunteers**：招募志愿者
-  - *We need to recruit more volunteers for the charity event.*
+  - *We need to recruit more volunteers for the charity event.*（我们需要为慈善活动招募更多志愿者。）
 - **recruit students/applicants**：招收学生/申请者
-  - *The university actively recruits international students.*
+  - *The university actively recruits international students.*（这所大学积极招收国际学生。）
 - **recruit talent**：招募人才
-  - *Tech companies compete fiercely to recruit top talent.*
+  - *Tech companies compete fiercely to recruit top talent.*（科技公司为招募顶尖人才而激烈竞争。）
 - **recruit from**：从……招募
-  - *Most of our new staff are recruited from local universities.*
+  - *Most of our new staff are recruited from local universities.*（我们的大部分新员工都是从本地大学招聘的。）
 - **recruit into**：招募进入
-  - *Young people are often recruited into the army at 18.*
+  - *Young people are often recruited into the army at 18.*（年轻人通常在18岁被征召入伍。）
 
 ## 真题/语料关联
 

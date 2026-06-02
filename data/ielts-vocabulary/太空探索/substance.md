@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **chemical substance**：化学物质
-  - *The factory discharges harmful chemical substances into the river.*
+  - *The factory discharges harmful chemical substances into the river.*（工厂向河流排放有害化学物质。）
 - **radioactive substance**：放射性物质
-  - *Radioactive substances must be handled with extreme care.*
+  - *Radioactive substances must be handled with extreme care.*（放射性物质必须极其小心地处理。）
 - **the substance of**：……的实质
-  - *The substance of his argument was that we need more funding.*
+  - *The substance of his argument was that we need more funding.*（他论证的实质是我们需要更多资金。）
 - **of substance**：有实质的
-  - *We need to make decisions of substance, not just talk.*
+  - *We need to make decisions of substance, not just talk.*（我们需要做出有实质内容的决定，而不仅仅是空谈。）
 - **substance abuse**：药物滥用
-  - *Substance abuse is a growing problem among young people.*
+  - *Substance abuse is a growing problem among young people.*（药物滥用是年轻人中日益严重的问题。）
 
 ## 真题/语料关联
 

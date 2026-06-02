@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an outstanding achievement**：杰出的成就
-  - *Winning the Nobel Prize is an outstanding achievement.*
+  - *Winning the Nobel Prize is an outstanding achievement.*（中文翻译）
 - **outstanding performance**：出色的表现
-  - *The athlete gave an outstanding performance in the Olympics.*
+  - *The athlete gave an outstanding performance in the Olympics.*（中文翻译）
 - **outstanding issues**：未解决的问题
-  - *There are still some outstanding issues that need to be addressed.*
+  - *There are still some outstanding issues that need to be addressed.*（中文翻译）
 - **outstanding debt**：未偿还的债务
-  - *The company has a large amount of outstanding debt.*
+  - *The company has a large amount of outstanding debt.*（中文翻译）
 - **stand out**：突出，显眼（动词短语）
-  - *Her talent really stands out in the team.*
+  - *Her talent really stands out in the team.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in orbit**：在轨道上
-  - *The International Space Station has been in orbit since 1998.*
+  - *The International Space Station has been in orbit since 1998.*（国际空间站自1998年以来一直在轨道上运行。）
 - **low Earth orbit (LEO)**：近地轨道
-  - *Most communication satellites operate in low Earth orbit.*
+  - *Most communication satellites operate in low Earth orbit.*（大多数通信卫星在近地轨道运行。）
 - **geostationary orbit**：地球同步轨道
-  - *Weather satellites are placed in geostationary orbit to observe the same area continuously.*
+  - *Weather satellites are placed in geostationary orbit to observe the same area continuously.*（气象卫星被放置在地球同步轨道以持续观测同一区域。）
 - **orbit the Earth/Mars**：环绕地球/火星运行
-  - *The spacecraft will orbit Mars for six months before landing.*
+  - *The spacecraft will orbit Mars for six months before landing.*（该航天器将在着陆前环绕火星运行六个月。）
 - **within the orbit of**：在……的势力范围内
-  - *The country fell within the orbit of the superpower during the Cold War.*
+  - *The country fell within the orbit of the superpower during the Cold War.*（冷战期间，该国处于超级大国的势力范围之内。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the sum of**：……的总和
-  - *The sum of 3, 5, and 7 is 15.*
+  - *The sum of 3, 5, and 7 is 15.*（3、5和7的总和是15。）
 - **a large/small sum of money**：一大/小笔钱
-  - *He donated a large sum of money to charity.*
+  - *He donated a large sum of money to charity.*（他捐了一大笔钱给慈善机构。）
 - **sum total**：总计，全部
-  - *The sum total of our efforts was disappointing.*
+  - *The sum total of our efforts was disappointing.*（我们全部努力的总和令人失望。）
 - **sum up**：总结，概括
-  - *To sum up, we need more investment in education.*
+  - *To sum up, we need more investment in education.*（总之，我们需要对教育进行更多投资。）
 - **lump sum**：一次性付款
-  - *She received a lump sum payment when she retired.*
+  - *She received a lump sum payment when she retired.*（她退休时收到了一笔一次性付款。）
 
 ## 真题/语料关联
 

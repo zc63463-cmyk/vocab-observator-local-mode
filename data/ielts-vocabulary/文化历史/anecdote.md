@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tell an anecdote**：讲一个轶事
-  - *He told an anecdote about his childhood adventures.*
+  - *He told an anecdote about his childhood adventures.*（他讲了一个关于他童年冒险的趣闻。）
 - **personal anecdote**：个人轶事
-  - *She shared a personal anecdote about her first day at work.*
+  - *She shared a personal anecdote about her first day at work.*（她分享了一个关于她第一天上班的个人经历。）
 - **anecdotal evidence**：轶事证据
-  - *The theory is supported only by anecdotal evidence.*
+  - *The theory is supported only by anecdotal evidence.*（这个理论只有轶事证据支持。）
 - **amusing anecdote**：有趣的轶事
-  - *The book is full of amusing anecdotes about famous people.*
+  - *The book is full of amusing anecdotes about famous people.*（这本书充满了关于名人的有趣轶事。）
 - **anecdote from**：来自……的轶事
-  - *She recounted an anecdote from her travels in Asia.*
+  - *She recounted an anecdote from her travels in Asia.*（她讲述了她在亚洲旅行的一个故事。）
 
 ## 真题/语料关联
 

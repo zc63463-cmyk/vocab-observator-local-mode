@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **faculty member**：教员
-  - *All faculty members are required to attend the annual meeting.*
+  - *All faculty members are required to attend the annual meeting.*（所有教职员工都必须参加年度会议。）
 - **faculty meeting**：教员会议
-  - *The faculty meeting will be held on Friday afternoon.*
+  - *The faculty meeting will be held on Friday afternoon.*（教员会议将在周五下午举行。）
 - **Faculty of Arts/Science**：文学院/理学院
-  - *She is a professor in the Faculty of Arts.*
+  - *She is a professor in the Faculty of Arts.*（她是文学院的一名教授。）
 - **mental faculty**：心智能力
-  - *The disease affected his mental faculties.*
+  - *The disease affected his mental faculties.*（这种疾病影响了他的心智能力。）
 - **faculty of speech**：言语能力
-  - *The injury temporarily impaired his faculty of speech.*
+  - *The injury temporarily impaired his faculty of speech.*（伤势暂时影响了他的言语能力。）
 
 ## 真题/语料关联
 

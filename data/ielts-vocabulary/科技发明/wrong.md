@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the wrong answer**：错误答案
-  - *I chose the wrong answer on the test.*
+  - *I chose the wrong answer on the test.*（我在测试中选错了答案。）
 - **go wrong**：出问题，出故障
-  - *Something went wrong with the computer.*
+  - *Something went wrong with the computer.*（电脑出了故障。）
 - **what's wrong**：怎么了，出什么问题了
-  - *What's wrong? You look upset.*
+  - *What's wrong? You look upset.*（怎么了？你看起来不太开心。）
 - **wrong time/place**：错误的时间/地点
-  - *I was in the wrong place at the wrong time.*
+  - *I was in the wrong place at the wrong time.*（我在错误的时间出现在了错误的地点。）
 - **morally wrong**：道德上错误的
-  - *It's morally wrong to cheat on an exam.*
+  - *It's morally wrong to cheat on an exam.*（考试作弊在道德上是错误的。）
 
 ## 真题/语料关联
 

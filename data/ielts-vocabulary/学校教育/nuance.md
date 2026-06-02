@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **subtle nuance**：微妙的差别
-  - *There are subtle nuances in the meaning of these words.*
+  - *There are subtle nuances in the meaning of these words.*（中文翻译）
 - **the nuances of**：……的微妙之处
-  - *Understanding the nuances of a language takes years of practice.*
+  - *Understanding the nuances of a language takes years of practice.*（中文翻译）
 - **appreciate the nuance**：体会微妙之处
-  - *Only a native speaker can fully appreciate the nuance.*
+  - *Only a native speaker can fully appreciate the nuance.*（中文翻译）
 - **nuanced** (adj.)：微妙的，细致入微的
-  - *The report provides a nuanced analysis of the issue.*
+  - *The report provides a nuanced analysis of the issue.*（中文翻译）
 - **with nuance**：有细微差别地
-  - *The artist paints with great nuance.*
+  - *The artist paints with great nuance.*（中文翻译）
 
 ## 真题/语料关联
 

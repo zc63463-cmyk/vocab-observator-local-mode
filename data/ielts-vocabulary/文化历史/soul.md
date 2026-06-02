@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the immortal soul**：不朽的灵魂
-  - *Many religions teach that the immortal soul lives on after the body dies.*
+  - *Many religions teach that the immortal soul lives on after the body dies.*（许多宗教教导说灵魂是不朽的，在死后继续存在。）
 - **soul searching**：深刻反省
-  - *After the failure, he did a lot of soul searching about his career choices.*
+  - *After the failure, he did a lot of soul searching about his career choices.*（在失败之后，他做了很多深刻的自我反省，重新评估了他的职业选择。）
 - **from the bottom of my soul**：发自内心深处
-  - *I thank you from the bottom of my soul for your kindness.*
+  - *I thank you from the bottom of my soul for your kindness.*（我从灵魂深处感谢你的善意。）
 - **the soul of the party**：聚会的灵魂人物
-  - *She was always the soul of the party, making everyone laugh and feel welcome.*
+  - *She was always the soul of the party, making everyone laugh and feel welcome.*（她总是派对的灵魂人物，让每个人都感到快乐和受欢迎。）
 - **not a soul**：一个人也没有
-  - *The streets were empty—not a soul in sight.*
+  - *The streets were empty—not a soul in sight.*（街道上空荡荡的，一个人影也没有。）
 
 ## 真题/语料关联
 

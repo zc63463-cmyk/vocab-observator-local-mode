@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **emperor penguin**：帝企鹅
-  - *Emperor penguins are the largest species and can survive extreme cold.*
+  - *Emperor penguins are the largest species and can survive extreme cold.*（帝企鹅是最大的企鹅物种，能够在极端寒冷中生存。）
 - **penguin colony**：企鹅群落
-  - *The penguin colony on the island numbers over 10,000 pairs.*
+  - *The penguin colony on the island numbers over 10,000 pairs.*（岛上的企鹅群落数量超过一万对。）
 - **penguin habitat**：企鹅栖息地
-  - *Climate change is threatening penguin habitats in Antarctica.*
+  - *Climate change is threatening penguin habitats in Antarctica.*（气候变化正威胁着南极的企鹅栖息地。）
 - **penguin walk**：企鹅步态
-  - *The penguin walk is an adaptation to conserve energy on ice.*
+  - *The penguin walk is an adaptation to conserve energy on ice.*（企鹅走路的方式是一种在冰上保存能量的适应表现。）
 - **penguin conservation**：企鹅保护
-  - *Penguin conservation efforts focus on protecting breeding grounds and reducing pollution.*
+  - *Penguin conservation efforts focus on protecting breeding grounds and reducing pollution.*（企鹅保护工作重点在于保护繁殖地和减少污染。）
 
 ## 真题/语料关联
 

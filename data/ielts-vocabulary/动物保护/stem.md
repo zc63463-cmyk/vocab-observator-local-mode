@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stem from**：源于，来自
-  - *The conflict stems from a misunderstanding between the two parties.*
+  - *The conflict stems from a misunderstanding between the two parties.*（冲突源于双方之间的误解。）
 - **stem cell**：干细胞
-  - *Stem cell research has the potential to revolutionize medicine.*
+  - *Stem cell research has the potential to revolutionize medicine.*（干细胞研究有潜力彻底改变医学。）
 - **stem the flow**：阻止流动
-  - *The government tried to stem the flow of illegal immigrants.*
+  - *The government tried to stem the flow of illegal immigrants.*（政府试图阻止非法移民的流入。）
 - **stem the tide**：阻止潮流
-  - *The company struggled to stem the tide of declining sales.*
+  - *The company struggled to stem the tide of declining sales.*（该公司奋力阻止销售额下滑的势头。）
 - **from stem to stern**：从头到尾（彻底地）
-  - *The ship was renovated from stem to stern.*
+  - *The ship was renovated from stem to stern.*（这艘船从头到尾进行了翻新。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stage drama**：舞台剧
-  - *The stage drama received critical acclaim.*
+  - *The stage drama received critical acclaim.*（这部舞台剧获得了评论界的赞誉。）
 - **real-life drama**：现实生活中的戏剧性事件
-  - *The rescue was a real-life drama that captured the nation's attention.*
+  - *The rescue was a real-life drama that captured the nation's attention.*（这次救援是一场扣人心弦的现实戏剧，吸引了全国的关注。）
 - **study drama**：学习戏剧
-  - *She decided to study drama at university.*
+  - *She decided to study drama at university.*（她决定在大学学习戏剧。）
 - **drama school**：戏剧学校
-  - *He graduated from a prestigious drama school.*
+  - *He graduated from a prestigious drama school.*（他毕业于一所著名的戏剧学校。）
 - **create drama**：制造戏剧性（夸大事实）
-  - *She tends to create drama over small issues.*
+  - *She tends to create drama over small issues.*（她倾向于在小事上制造戏剧性。）
 
 ## 真题/语料关联
 

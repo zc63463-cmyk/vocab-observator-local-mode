@@ -75,15 +75,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dive into**：跳入；投入
-  - *She dived into the pool with a perfect entry.*
+  - *She dived into the pool with a perfect entry.*（她以完美的姿势跳入泳池。）
 - **scuba diving**：水肺潜水
-  - *Scuba diving in the Great Barrier Reef is an unforgettable experience.*
+  - *Scuba diving in the Great Barrier Reef is an unforgettable experience.*（在大堡礁水肺潜水是一次难忘的经历。）
 - **dive in**：开始做某事（口语）
-  - *Don't wait — just dive in and start working.*
+  - *Don't wait — just dive in and start working.*（别等了——直接开始工作吧。）
 - **take a dive**：故意输掉；假装倒下
-  - *The boxer was accused of taking a dive in the final round.*
+  - *The boxer was accused of taking a dive in the final round.*（这位拳击手被指控在最后一轮故意倒下。）
 - **diving board**：跳板
-  - *He stood on the diving board, nervous but excited.*
+  - *He stood on the diving board, nervous but excited.*（他站在跳板上，既紧张又兴奋。）
 
 ## 真题/语料关联
 

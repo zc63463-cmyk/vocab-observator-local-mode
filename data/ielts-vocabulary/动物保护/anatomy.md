@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **human anatomy**：人体解剖学
-  - *Medical students must study human anatomy in their first year.*
+  - *Medical students must study human anatomy in their first year.*（医学生在第一年必须学习人体解剖学。）
 - **comparative anatomy**：比较解剖学
-  - *Comparative anatomy reveals evolutionary relationships between species.*
+  - *Comparative anatomy reveals evolutionary relationships between species.*（比较解剖学揭示了物种之间的进化关系。）
 - **the anatomy of**：对……的剖析/分析
-  - *The book explores the anatomy of the 2008 financial crisis.*
+  - *The book explores the anatomy of the 2008 financial crisis.*（这本书剖析了2008年金融危机的结构。）
 - **gross anatomy**：大体解剖学（肉眼可见的结构）
-  - *Gross anatomy is taught using cadavers in medical schools.*
+  - *Gross anatomy is taught using cadavers in medical schools.*（大体解剖学在医学院使用尸体进行教学。）
 - **anatomy lesson**：解剖课
-  - *The anatomy lesson was both fascinating and challenging.*
+  - *The anatomy lesson was both fascinating and challenging.*（解剖课既引人入胜又充满挑战。）
 
 ## 真题/语料关联
 

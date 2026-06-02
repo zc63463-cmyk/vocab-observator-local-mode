@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **eminent scientist/scholar**：杰出的科学家/学者
-  - *Einstein was an eminent physicist of the 20th century.*
+  - *Einstein was an eminent physicist of the 20th century.*（爱因斯坦是20世纪杰出的物理学家。）
 - **eminent domain**：（法律）征用权
-  - *The government used eminent domain to acquire the land.*
+  - *The government used eminent domain to acquire the land.*（政府行使土地征用权获得了这块土地。）
 - **eminent figure**：杰出人物
-  - *She is an eminent figure in the field of medicine.*
+  - *She is an eminent figure in the field of medicine.*（她是医学界的杰出人物。）
 - **eminent fairness**：显著的公正性
-  - *The judge was known for his eminent fairness.*
+  - *The judge was known for his eminent fairness.*（这位法官以其显著的公正性而闻名。）
 - **eminent suitability**：显著的适合性
-  - *The candidate showed eminent suitability for the role.*
+  - *The candidate showed eminent suitability for the role.*（这位候选人表现出与该职位高度的匹配性。）
 
 ## 真题/语料关联
 

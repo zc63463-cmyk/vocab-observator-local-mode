@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compose music**：作曲
-  - *Mozart began to compose music at the age of five.*
+  - *Mozart began to compose music at the age of five.*（莫扎特五岁开始作曲。）
 - **compose a letter**：写信
-  - *She sat down to compose a letter to her friend.*
+  - *She sat down to compose a letter to her friend.*（她坐下来给朋友写了一封信。）
 - **compose yourself**：使自己镇定
-  - *He took a deep breath to compose himself before the speech.*
+  - *He took a deep breath to compose himself before the speech.*（他深吸一口气，在演讲前使自己镇定下来。）
 - **composed of**：由……组成
-  - *The committee is composed of ten members.*
+  - *The committee is composed of ten members.*（委员会由十名成员组成。）
 - **compose a team**：组建团队
-  - *The manager composed a team of experts for the project.*
+  - *The manager composed a team of experts for the project.*（经理组建了一个专家团队来负责这个项目。）
 
 ## 真题/语料关联
 

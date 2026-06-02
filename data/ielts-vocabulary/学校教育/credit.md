@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **earn/obtain credits**：获得学分
-  - *She earned enough credits to graduate a semester early.*
+  - *She earned enough credits to graduate a semester early.*（她获得了足够的学分，提前一个学期毕业。）
 - **transfer credits**：转学分
-  - *The university accepted the transfer credits from his previous school.*
+  - *The university accepted the transfer credits from his previous school.*（大学接收了他之前学校的转学分。）
 - **give credit to**：归功于
-  - *We should give credit to the team for their hard work.*
+  - *We should give credit to the team for their hard work.*（我们应该归功于团队的辛勤工作。）
 - **take credit for**：因……而居功
-  - *He took credit for the project's success.*
+  - *He took credit for the project's success.*（他把项目的成功归功于自己。）
 - **credit card**：信用卡
-  - *She paid for the course with her credit card.*
+  - *She paid for the course with her credit card.*（她用信用卡支付了课程费用。）
 - **credit limit**：信用额度
-  - *The bank increased her credit limit.*
+  - *The bank increased her credit limit.*（银行提高了她的信用额度。）
 
 ## 真题/语料关联
 

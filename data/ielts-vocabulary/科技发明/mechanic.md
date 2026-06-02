@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **car/auto mechanic**：汽车修理工
-  - *The car mechanic fixed the engine problem in just two hours.*
+  - *The car mechanic fixed the engine problem in just two hours.*（汽车修理工仅用两小时就修好了发动机问题。）
 - **aircraft mechanic**：飞机技师
-  - *Aircraft mechanics must undergo rigorous training and certification.*
+  - *Aircraft mechanics must undergo rigorous training and certification.*（飞机技师必须接受严格的培训和认证。）
 - **qualified mechanic**：合格的技师
-  - *Always take your car to a qualified mechanic for repairs.*
+  - *Always take your car to a qualified mechanic for repairs.*（务必把你的车送到合格的技师那里维修。）
 - **mechanic's shop/garage**：修车厂
-  - *He took his motorcycle to the mechanic's shop for an oil change.*
+  - *He took his motorcycle to the mechanic's shop for an oil change.*（他把摩托车送到修车厂换机油。）
 - **master mechanic**：高级技师
-  - *The master mechanic has over 30 years of experience.*
+  - *The master mechanic has over 30 years of experience.*（这位高级技师有30多年的经验。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **social movement**：社会运动
-  - *The civil rights movement changed American society.*
+  - *The civil rights movement changed American society.*（民权运动改变了美国社会。）
 - **body movement**：身体移动
-  - *Dance involves graceful body movements.*
+  - *Dance involves graceful body movements.*（舞蹈包含优美的身体动作。）
 - **political movement**：政治运动
-  - *The political movement gained momentum across the country.*
+  - *The political movement gained momentum across the country.*（这场政治运动在全国范围内获得了势头。）
 - **eye movement**：眼球运动
-  - *Scientists study eye movement to understand reading processes.*
+  - *Scientists study eye movement to understand reading processes.*（科学家研究眼球运动以理解阅读过程。）
 - **freedom of movement**：行动自由
-  - *Citizens have the right to freedom of movement.*
+  - *Citizens have the right to freedom of movement.*（公民享有行动自由的权利。）
 
 ## 真题/语料关联
 

@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **narrate a story**：叙述故事
-  - *She narrated the story of her childhood with great emotion.*
+  - *She narrated the story of her childhood with great emotion.*（她充满感情地讲述了她童年的故事。）
 - **narrate a documentary**：为纪录片做旁白
-  - *The documentary was narrated by a famous actor.*
+  - *The documentary was narrated by a famous actor.*（这部纪录片由一位著名演员旁白。）
 - **narrate an experience**：叙述经历
-  - *He narrated his travel experiences in vivid detail.*
+  - *He narrated his travel experiences in vivid detail.*（他生动详细地叙述了他的旅行经历。）
 - **narrated in the first person**：以第一人称叙述
-  - *The novel is narrated in the first person by the main character.*
+  - *The novel is narrated in the first person by the main character.*（这部小说由主人公以第一人称叙述。）
 - **narrate an audiobook**：录制有声读物
-  - *She narrated the audiobook version of her bestselling novel.*
+  - *She narrated the audiobook version of her bestselling novel.*（她录制了她畅销小说的有声书版本。）
 
 ## 真题/语料关联
 

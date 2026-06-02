@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the ecliptic**：黄道
-  - *The ecliptic is the apparent path of the Sun across the sky over the course of a year.*
+  - *The ecliptic is the apparent path of the Sun across the sky over the course of a year.*（黄道是太阳在一年中穿越天空的视路径。）
 - **ecliptic plane**：黄道面
-  - *The ecliptic plane is the plane of Earth's orbit around the Sun.*
+  - *The ecliptic plane is the plane of Earth's orbit around the Sun.*（黄道面是地球绕太阳公转的轨道平面。）
 - **ecliptic coordinates**：黄道坐标
-  - *Astronomers use ecliptic coordinates to locate objects relative to the ecliptic.*
+  - *Astronomers use ecliptic coordinates to locate objects relative to the ecliptic.*（天文学家使用黄道坐标来确定天体相对于黄道的位置。）
 - **ecliptic longitude/latitude**：黄经/黄纬
-  - *Ecliptic longitude measures the position of a celestial object along the ecliptic.*
+  - *Ecliptic longitude measures the position of a celestial object along the ecliptic.*（黄经测量天体沿黄道的位置。）
 - **along the ecliptic**：沿着黄道
-  - *The planets are always found along the ecliptic in the night sky.*
+  - *The planets are always found along the ecliptic in the night sky.*（行星在夜空中总是出现在黄道附近。）
 
 ## 真题/语料关联
 

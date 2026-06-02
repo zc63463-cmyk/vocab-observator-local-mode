@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spider web / cobweb**：蜘蛛网
-  - *The garden was full of spider webs glistening in the morning dew.*
+  - *The garden was full of spider webs glistening in the morning dew.*（花园里满是蜘蛛网，在晨露中闪闪发光。）
 - **spider silk**：蛛丝
-  - *Spider silk is one of the strongest natural materials known.*
+  - *Spider silk is one of the strongest natural materials known.*（蛛丝是已知最结实的天然材料之一。）
 - **spider crab**：蜘蛛蟹
-  - *The Japanese spider crab has the largest leg span of any arthropod.*
+  - *The Japanese spider crab has the largest leg span of any arthropod.*（日本蜘蛛蟹的腿跨度是所有节肢动物中最大的。）
 - **spider plant**：吊兰（因其细长叶片得名）
-  - *Spider plants are easy to grow and help purify indoor air.*
+  - *Spider plants are easy to grow and help purify indoor air.*（吊兰易于种植，有助于净化室内空气。）
 - **web spider**：网络爬虫
-  - *Search engines use web spiders to index billions of pages.*
+  - *Search engines use web spiders to index billions of pages.*（搜索引擎使用网络爬虫来索引数十亿个页面。）
 
 ## 真题/语料关联
 

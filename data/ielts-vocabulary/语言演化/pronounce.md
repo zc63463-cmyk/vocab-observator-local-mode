@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pronounce a word**：读出一个词
-  - *How do you pronounce this word?*
+  - *How do you pronounce this word?*（你怎么读这个词？）
 - **pronounce correctly**：正确发音
-  - *She pronounced the French words correctly.*
+  - *She pronounced the French words correctly.*（她正确地发出了这些法语单词的音。）
 - **hard to pronounce**：难以发音
-  - *The name is hard to pronounce for English speakers.*
+  - *The name is hard to pronounce for English speakers.*（这个名字对说英语的人来说很难发音。）
 - **pronounce a verdict**：宣布判决
-  - *The judge pronounced a verdict of not guilty.*
+  - *The judge pronounced a verdict of not guilty.*（法官宣布了无罪判决。）
 - **pronounce on**：对...发表意见
-  - *The expert pronounced on the authenticity of the painting.*
+  - *The expert pronounced on the authenticity of the painting.*（专家对这幅画的真伪发表了意见。）
 
 ## 真题/语料关联
 

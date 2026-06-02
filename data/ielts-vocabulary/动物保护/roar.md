@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **roar with laughter**：放声大笑
-  - *The audience roared with laughter at the comedian's jokes.*
+  - *The audience roared with laughter at the comedian's jokes.*（观众被喜剧演员的笑话逗得哄堂大笑。）
 - **roar of the crowd**：人群的欢呼声
-  - *The roar of the crowd could be heard throughout the stadium.*
+  - *The roar of the crowd could be heard throughout the stadium.*（人群的吼声整个体育场都能听到。）
 - **roar back**：强势回归
-  - *The team roared back from a 2-0 deficit to win the match.*
+  - *The team roared back from a 2-0 deficit to win the match.*（这支队伍从0比2落后强势反弹，最终赢得了比赛。）
 - **roar past/through**：呼啸而过
-  - *The train roared through the station without stopping.*
+  - *The train roared through the station without stopping.*（火车呼啸着驶过车站没有停下。）
 - **set the room roaring**：让整个房间沸腾
-  - *His speech set the room roaring with excitement.*
+  - *His speech set the room roaring with excitement.*（他的演讲让全场沸腾起来。）
 
 ## 真题/语料关联
 

@@ -1,15 +1,16 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronDown, Volume2 } from "lucide-react";
-import { useState } from "react";
-import { springs } from "@/components/motion";
+import { ChevronDown, Pencil, Volume2 } from "lucide-react";
+import { useCallback, useEffect, useState } from "react";
 import { useZenReviewContext } from "./ZenReviewProvider";
-import type { ReviewQueueItem } from "@/lib/review/types";
+import type { ReviewQueueItem, WordHighlight } from "@/lib/review/types";
 import { speakLemma, canSpeak } from "@/lib/tts";
 import { WordRelationLinks } from "./WordRelationLinks";
 import { ZenDefinitionRenderer } from "./ZenDefinitionRenderer";
 import { ZenChainRenderer } from "./ZenChainRenderer";
+import { HighlightedText } from "./HighlightedText";
+import { AnnotationModal } from "./AnnotationModal";
 
 function FlashcardFront({
   item,
@@ -19,15 +20,10 @@ function FlashcardFront({
   onReveal: () => void;
 }) {
   return (
-    <motion.div
-      key="front"
+    <div
       className="absolute inset-0 flex flex-col items-center justify-center backface-hidden cursor-pointer"
       style={{ backfaceVisibility: "hidden" }}
       onClick={onReveal}
-      initial={{ rotateY: 0 }}
-      animate={{ rotateY: 0 }}
-      exit={{ rotateY: 180 }}
-      transition={{ type: "spring", ...springs.smooth }}
     >
       <div className="flex w-full flex-1 items-center justify-center px-6 sm:px-10">
         <div className="text-center">
@@ -68,15 +64,30 @@ function FlashcardFront({
           <kbd className="rounded border border-[var(--color-border)] bg-[var(--color-surface-soft)] px-2 py-1 text-xs">P</kbd> 朗读
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
+const HIGHLIGHT_COLORS = [
+  { hex: "#eab308", label: "重点" },
+  { hex: "#f97316", label: "易错" },
+  { hex: "#16a34a", label: "词根" },
+  { hex: "#3b82f6", label: "搭配" },
+];
+
 interface FlashcardBackProps {
   item: ReviewQueueItem;
+  highlights: WordHighlight[];
+  onTextSelect: (e: React.MouseEvent, sourceField: string) => void;
+  onDeleteHighlight: (id: string) => void;
 }
 
-function FlashcardBack({ item }: FlashcardBackProps) {
+function FlashcardBack({
+  item,
+  highlights,
+  onTextSelect,
+  onDeleteHighlight,
+}: FlashcardBackProps) {
   const [examplesOpen, setExamplesOpen] = useState(false);
   const [mnemonicOpen, setMnemonicOpen] = useState(false);
   const [chainOpen, setChainOpen] = useState(false);
@@ -130,17 +141,9 @@ function FlashcardBack({ item }: FlashcardBackProps) {
       : null;
 
   return (
-    <motion.div
-      key="back"
+    <div
       className="absolute inset-0 flex flex-col items-center overflow-hidden p-6 backface-hidden"
-      style={{ 
-        backfaceVisibility: "hidden",
-        transform: "rotateY(180deg)",
-      }}
-      initial={{ rotateY: -180 }}
-      animate={{ rotateY: 0 }}
-      exit={{ rotateY: -180 }}
-      transition={{ type: "spring", ...springs.smooth }}
+      style={{ backfaceVisibility: "hidden" }}
     >
       {/*
         Scroll container. Takes remaining vertical space via flex-1.
@@ -222,13 +225,18 @@ function FlashcardBack({ item }: FlashcardBackProps) {
           one-line summary used only as a fallback when the word
           entry predates structured fields.
         */}
-        <div className="mt-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)]/40 p-5">
+        <div
+          className="relative mt-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)]/40 p-5"
+          onMouseUp={(e) => onTextSelect(e, "definition_md")}
+        >
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-ink-soft)]">
             核心释义
           </p>
           <div className="mt-4">
             <ZenDefinitionRenderer
               markdown={item.definition_md?.trim() || item.short_definition || ""}
+              highlights={highlights.filter((h) => h.source_field === "definition_md")}
+              onDeleteHighlight={onDeleteHighlight}
             />
           </div>
         </div>
@@ -258,22 +266,36 @@ function FlashcardBack({ item }: FlashcardBackProps) {
                 >
                   <div className="space-y-2">
                     {mnemonic!.etymology && (
-                      <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3">
+                      <div
+                        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3"
+                        onMouseUp={(e) => onTextSelect(e, "mnemonic_etymology")}
+                      >
                         <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-accent)]">
                           叙事化词源
                         </span>
                         <p className="mt-2 text-sm leading-7 text-[var(--color-ink)]">
-                          {mnemonic!.etymology}
+                          <HighlightedText
+                            text={mnemonic!.etymology}
+                            highlights={highlights.filter((h) => h.source_field === "mnemonic_etymology")}
+                            onDeleteHighlight={onDeleteHighlight}
+                          />
                         </p>
                       </div>
                     )}
                     {mnemonic!.breakdown && (
-                      <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-glass)]/60 p-3">
+                      <div
+                        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-glass)]/60 p-3"
+                        onMouseUp={(e) => onTextSelect(e, "mnemonic_breakdown")}
+                      >
                         <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-ink-soft)]">
                           词拆分记忆
                         </span>
                         <p className="mt-2 text-sm leading-7 text-[var(--color-ink-soft)]">
-                          {mnemonic!.breakdown}
+                          <HighlightedText
+                            text={mnemonic!.breakdown}
+                            highlights={highlights.filter((h) => h.source_field === "mnemonic_breakdown")}
+                            onDeleteHighlight={onDeleteHighlight}
+                          />
                         </p>
                       </div>
                     )}
@@ -309,32 +331,53 @@ function FlashcardBack({ item }: FlashcardBackProps) {
                 >
                   <div className="space-y-2">
                     {semanticChain!.oneWord && (
-                      <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3">
+                      <div
+                        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3"
+                        onMouseUp={(e) => onTextSelect(e, "semantic_one_word")}
+                      >
                         <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-accent)]">
                           一字一词
                         </span>
                         <p className="mt-2 text-sm font-medium leading-7 text-[var(--color-ink)]">
-                          {semanticChain!.oneWord}
+                          <HighlightedText
+                            text={semanticChain!.oneWord}
+                            highlights={highlights.filter((h) => h.source_field === "semantic_one_word")}
+                            onDeleteHighlight={onDeleteHighlight}
+                          />
                         </p>
                       </div>
                     )}
                     {semanticChain!.centerExtension && (
-                      <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3">
+                      <div
+                        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3"
+                        onMouseUp={(e) => onTextSelect(e, "semantic_center_extension")}
+                      >
                         <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-ink-soft)]">
                           延伸中心
                         </span>
                         <p className="mt-2 text-sm leading-7 text-[var(--color-ink-soft)]">
-                          {semanticChain!.centerExtension}
+                          <HighlightedText
+                            text={semanticChain!.centerExtension}
+                            highlights={highlights.filter((h) => h.source_field === "semantic_center_extension")}
+                            onDeleteHighlight={onDeleteHighlight}
+                          />
                         </p>
                       </div>
                     )}
                     {semanticChain!.chain && (
-                      <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-glass)]/60 p-3">
+                      <div
+                        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-glass)]/60 p-3"
+                        onMouseUp={(e) => onTextSelect(e, "semantic_chain")}
+                      >
                         <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-ink-soft)]">
                           链路展开
                         </span>
                         <div className="mt-2">
-                          <ZenChainRenderer text={semanticChain!.chain} />
+                          <ZenChainRenderer
+                            text={semanticChain!.chain}
+                            highlights={highlights.filter((h) => h.source_field === "semantic_chain")}
+                            onDeleteHighlight={onDeleteHighlight}
+                          />
                         </div>
                       </div>
                     )}
@@ -444,24 +487,52 @@ function FlashcardBack({ item }: FlashcardBackProps) {
                             key={`col-${i}`}
                             className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3"
                           >
-                            <p className="text-sm font-semibold text-[var(--color-ink)]">
-                              {col.phrase}
+                            <p
+                              className="text-sm font-semibold text-[var(--color-ink)]"
+                              onMouseUp={(e) => onTextSelect(e, "collocation_phrase")}
+                            >
+                              <HighlightedText
+                                text={col.phrase}
+                                highlights={highlights.filter((h) => h.source_field === "collocation_phrase")}
+                                onDeleteHighlight={onDeleteHighlight}
+                              />
                             </p>
                             {col.gloss && (
-                              <p className="mt-1 text-xs leading-5 text-[var(--color-ink-soft)]">
-                                {col.gloss}
+                              <p
+                                className="mt-1 text-xs leading-5 text-[var(--color-ink-soft)]"
+                                onMouseUp={(e) => onTextSelect(e, "collocation_gloss")}
+                              >
+                                <HighlightedText
+                                  text={col.gloss}
+                                  highlights={highlights.filter((h) => h.source_field === "collocation_gloss")}
+                                  onDeleteHighlight={onDeleteHighlight}
+                                />
                               </p>
                             )}
                             {col.examples.length > 0 && (
                               <div className="mt-2 space-y-1.5 rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-glass)]/40 p-2.5">
                                 {col.examples.map((ex, j) => (
                                   <div key={`ex-${j}`}>
-                                    <p className="text-xs leading-5 text-[var(--color-ink)]">
-                                      {ex.text}
+                                    <p
+                                      className="text-xs leading-5 text-[var(--color-ink)]"
+                                      onMouseUp={(e) => onTextSelect(e, "collocation_example")}
+                                    >
+                                      <HighlightedText
+                                        text={ex.text}
+                                        highlights={highlights.filter((h) => h.source_field === "collocation_example")}
+                                        onDeleteHighlight={onDeleteHighlight}
+                                      />
                                     </p>
                                     {ex.translation && (
-                                      <p className="text-xs leading-5 text-[var(--color-ink-soft)]">
-                                        {ex.translation}
+                                      <p
+                                        className="text-xs leading-5 text-[var(--color-ink-soft)]"
+                                        onMouseUp={(e) => onTextSelect(e, "collocation_example")}
+                                      >
+                                        <HighlightedText
+                                          text={ex.translation}
+                                          highlights={highlights.filter((h) => h.source_field === "collocation_example")}
+                                          onDeleteHighlight={onDeleteHighlight}
+                                        />
                                       </p>
                                     )}
                                   </div>
@@ -477,17 +548,38 @@ function FlashcardBack({ item }: FlashcardBackProps) {
                             key={`corp-${i}`}
                             className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 p-3"
                           >
-                            <p className="text-sm font-semibold leading-6 text-[var(--color-ink)]">
-                              {corp.text}
+                            <p
+                              className="text-sm font-semibold leading-6 text-[var(--color-ink)]"
+                              onMouseUp={(e) => onTextSelect(e, "corpus_text")}
+                            >
+                              <HighlightedText
+                                text={corp.text}
+                                highlights={highlights.filter((h) => h.source_field === "corpus_text")}
+                                onDeleteHighlight={onDeleteHighlight}
+                              />
                             </p>
                             {corp.translation && (
-                              <p className="mt-1.5 text-xs leading-5 text-[var(--color-ink-soft)]">
-                                {corp.translation}
+                              <p
+                                className="mt-1.5 text-xs leading-5 text-[var(--color-ink-soft)]"
+                                onMouseUp={(e) => onTextSelect(e, "corpus_translation")}
+                              >
+                                <HighlightedText
+                                  text={corp.translation}
+                                  highlights={highlights.filter((h) => h.source_field === "corpus_translation")}
+                                  onDeleteHighlight={onDeleteHighlight}
+                                />
                               </p>
                             )}
                             {corp.note && !corp.translation && (
-                              <p className="mt-1.5 text-xs leading-5 text-[var(--color-ink-soft)]">
-                                {corp.note}
+                              <p
+                                className="mt-1.5 text-xs leading-5 text-[var(--color-ink-soft)]"
+                                onMouseUp={(e) => onTextSelect(e, "corpus_translation")}
+                              >
+                                <HighlightedText
+                                  text={corp.note}
+                                  highlights={highlights.filter((h) => h.source_field === "corpus_translation")}
+                                  onDeleteHighlight={onDeleteHighlight}
+                                />
                               </p>
                             )}
                             {corp.source && (
@@ -501,8 +593,16 @@ function FlashcardBack({ item }: FlashcardBackProps) {
                     ) : (
                       <ul className="space-y-2 text-[var(--color-ink-soft)]">
                         {item.previewExamples!.map((ex, i) => (
-                          <li key={i} className="text-sm leading-relaxed">
-                            {ex.text}
+                          <li
+                            key={i}
+                            className="text-sm leading-relaxed"
+                            onMouseUp={(e) => onTextSelect(e, "example_text")}
+                          >
+                            <HighlightedText
+                              text={ex.text}
+                              highlights={highlights.filter((h) => h.source_field === "example_text")}
+                              onDeleteHighlight={onDeleteHighlight}
+                            />
                             {ex.label && (
                               <span className="ml-1 text-xs text-[var(--color-ink-muted)]">
                                 ({ex.label})
@@ -556,52 +656,292 @@ function FlashcardBack({ item }: FlashcardBackProps) {
           </span>
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
 export function ZenFlashcard() {
   const { item, phase, reveal } = useZenReviewContext();
 
-  if (!item) return null;
+  // ── Highlights (lifted from FlashcardBack to render toolbar outside card) ──
+  const [highlights, setHighlights] = useState<WordHighlight[]>([]);
+  const [toolbar, setToolbar] = useState<{
+    visible: boolean;
+    selectedText: string;
+    sourceField: string;
+  } | null>(null);
 
+  // ── Annotation ──
+  const [annotation, setAnnotation] = useState("");
+  const [annotationOpen, setAnnotationOpen] = useState(false);
+
+  const currentWordId = item?.word_id ?? null;
+  useEffect(() => {
+    if (!currentWordId) return;
+
+    window.getSelection()?.removeAllRanges();
+
+    let cancelled = false;
+    const ctrl = new AbortController();
+
+    // Load highlights
+    fetch(`/api/highlights?wordIds=${encodeURIComponent(currentWordId)}`, {
+      signal: ctrl.signal,
+    })
+      .then((r) => r.json())
+      .then((data: { highlights?: WordHighlight[] }) => {
+        if (!cancelled) setHighlights(data.highlights ?? []);
+      })
+      .catch(() => {
+        if (!cancelled) setHighlights([]);
+      });
+
+    // Load annotation
+    fetch(`/api/annotations?wordId=${encodeURIComponent(currentWordId)}`, {
+      signal: ctrl.signal,
+    })
+      .then((r) => r.json())
+      .then((data: { annotation?: { content: string } | null }) => {
+        if (!cancelled) setAnnotation(data.annotation?.content ?? "");
+      })
+      .catch(() => {
+        if (!cancelled) setAnnotation("");
+      });
+
+    return () => {
+      cancelled = true;
+      ctrl.abort();
+    };
+  }, [currentWordId]);
+
+  const handleMouseUp = useCallback(
+    (e: React.MouseEvent, sourceField: string) => {
+      const sel = window.getSelection();
+      if (!sel || sel.rangeCount === 0) {
+        setToolbar(null);
+        return;
+      }
+      const text = sel.toString().trim();
+      if (!text || text.length < 2) {
+        setToolbar(null);
+        return;
+      }
+
+      const range = sel.getRangeAt(0);
+      const container = e.currentTarget as HTMLElement;
+
+      if (!container.contains(range.commonAncestorContainer)) {
+        setToolbar(null);
+        return;
+      }
+
+      const containerText = container.innerText;
+      if (!containerText.includes(text)) {
+        setToolbar(null);
+        return;
+      }
+
+      const startParent = range.startContainer.parentElement;
+      const endParent = range.endContainer.parentElement;
+      if (
+        startParent?.tagName === "MARK" &&
+        endParent?.tagName === "MARK" &&
+        startParent === endParent
+      ) {
+        setToolbar(null);
+        return;
+      }
+
+      setToolbar({
+        visible: true,
+        selectedText: text,
+        sourceField,
+      });
+    },
+    [],
+  );
+
+  const createHighlight = useCallback(
+    async (color: string) => {
+      if (!toolbar?.selectedText || !item) return;
+      const snippet = toolbar.selectedText;
+      const sourceField = toolbar.sourceField;
+      setToolbar(null);
+      window.getSelection()?.removeAllRanges();
+
+      const alreadyExists = highlights.some(
+        (h) => h.source_field === sourceField && h.text_snippet === snippet,
+      );
+      if (alreadyExists) return;
+
+      const res = await fetch("/api/highlights", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          word_id: item.word_id,
+          source_field: sourceField,
+          text_snippet: snippet,
+          color,
+        }),
+      });
+      if (!res.ok) return;
+      const data = (await res.json()) as { highlight: WordHighlight | null };
+      if (data.highlight) {
+        setHighlights((prev) => [...prev, data.highlight!]);
+      }
+    },
+    [toolbar, item, highlights],
+  );
+
+  const deleteHighlight = useCallback(
+    async (id: string) => {
+      const res = await fetch(`/api/highlights/${encodeURIComponent(id)}`, {
+        method: "DELETE",
+      });
+      if (res.ok) {
+        setHighlights((prev) => prev.filter((h) => h.id !== id));
+      }
+    },
+    [],
+  );
+
+  if (!item) return null;
   const showBack = phase === "back" || phase === "rating";
 
   return (
-    <div
-      className="relative mx-auto aspect-[4/3] w-full max-w-3xl cursor-pointer sm:aspect-[16/10]"
-      style={{ perspective: "1200px" }}
-      onClick={phase === "front" ? reveal : undefined}
-    >
-      <motion.div
-        className="relative h-full w-full"
-        style={{ transformStyle: "preserve-3d" }}
-        animate={{ rotateY: showBack ? 180 : 0 }}
-        transition={{ type: "spring", stiffness: 150, damping: 20 }}
+    <div className="flex w-full max-w-3xl flex-col items-center">
+      {/* Card */}
+      <div
+        className="relative mx-auto aspect-[4/3] w-full cursor-pointer sm:aspect-[16/10]"
+        style={{ perspective: "1200px" }}
+        onClick={phase === "front" ? reveal : undefined}
       >
-        {/* Front Face */}
-        <div
-          className="absolute inset-0 rounded-[2.5rem] border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] shadow-[var(--shadow-panel-strong)]"
-          style={{
-            backfaceVisibility: "hidden",
-            WebkitBackfaceVisibility: "hidden",
-          }}
+        <motion.div
+          className="relative h-full w-full"
+          style={{ transformStyle: "preserve-3d" }}
+          animate={{ rotateY: showBack ? 180 : 0 }}
+          transition={{ type: "spring", stiffness: 150, damping: 20 }}
         >
-          <FlashcardFront item={item} onReveal={reveal} />
-        </div>
+          {/* Front Face */}
+          <div
+            className="absolute inset-0 rounded-[2.5rem] border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] shadow-[var(--shadow-panel-strong)]"
+            style={{
+              backfaceVisibility: "hidden",
+              WebkitBackfaceVisibility: "hidden",
+            }}
+          >
+            <FlashcardFront item={item} onReveal={reveal} />
+          </div>
 
-        {/* Back Face */}
-        <div 
-          className="absolute inset-0 rounded-[2.5rem] border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] shadow-[var(--shadow-panel-strong)]"
-          style={{ 
-            backfaceVisibility: "hidden",
-            WebkitBackfaceVisibility: "hidden",
-            transform: "rotateY(180deg)",
-          }}
-        >
-          <FlashcardBack item={item} />
+          {/* Back Face */}
+          <div
+            className="absolute inset-0 rounded-[2.5rem] border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] shadow-[var(--shadow-panel-strong)]"
+            style={{
+              backfaceVisibility: "hidden",
+              WebkitBackfaceVisibility: "hidden",
+              transform: "rotateY(180deg)",
+            }}
+          >
+            <FlashcardBack
+              key={item.word_id}
+              item={item}
+              highlights={highlights}
+              onTextSelect={handleMouseUp}
+              onDeleteHighlight={deleteHighlight}
+            />
+          </div>
+        </motion.div>
+      </div>
+
+      {/* Highlight toolbar — outside card, below it */}
+      {toolbar?.visible && (
+        <div className="mt-4 flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] px-3 py-2 shadow-lg">
+          <span className="max-w-[140px] truncate text-xs text-[var(--color-ink-soft)]">
+            「{toolbar.selectedText.slice(0, 24)}
+            {toolbar.selectedText.length > 24 ? "…" : ""}」
+          </span>
+          <div className="h-4 w-px bg-[var(--color-border)]" />
+          {HIGHLIGHT_COLORS.map((c) => (
+            <button
+              key={c.hex}
+              type="button"
+              title={c.label}
+              onClick={() => createHighlight(c.hex)}
+              className="flex h-6 w-6 items-center justify-center rounded-full transition hover:scale-110"
+              style={{ backgroundColor: c.hex }}
+            />
+          ))}
+          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <button
+            type="button"
+            title="加粗"
+            onClick={() => createHighlight("bold")}
+            className="flex h-6 w-6 items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] font-bold text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+          >
+            B
+          </button>
+          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <button
+            type="button"
+            title="批注"
+            onClick={() => {
+              setAnnotationOpen(true);
+            }}
+            className="relative flex h-6 w-6 items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+          >
+            <Pencil size={11} />
+            {annotation && (
+              <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-[var(--color-accent)]" />
+            )}
+          </button>
+          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <button
+            type="button"
+            onClick={() => {
+              setToolbar(null);
+              window.getSelection()?.removeAllRanges();
+            }}
+            className="flex h-6 w-6 items-center justify-center rounded-full text-[10px] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)]"
+          >
+            ✕
+          </button>
         </div>
-      </motion.div>
+      )}
+
+      {/* Annotation area — always visible as an entry point */}
+      {annotation ? (
+        <div
+          className="mt-3 w-full max-w-lg cursor-pointer rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-soft)]/60 px-4 py-2.5 transition hover:border-[var(--color-border-strong)] hover:bg-[var(--color-surface-soft)]"
+          onClick={() => setAnnotationOpen(true)}
+          title="点击编辑批注"
+        >
+          <div className="flex items-start gap-2">
+            <span className="mt-0.5 shrink-0 text-xs">📝</span>
+            <p className="line-clamp-2 text-xs leading-5 text-[var(--color-ink-soft)]">
+              {annotation}
+            </p>
+          </div>
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setAnnotationOpen(true)}
+          className="mt-3 flex items-center gap-1.5 rounded-full border border-dashed border-[var(--color-border)] px-3 py-1.5 text-xs text-[var(--color-ink-faint)] transition hover:border-[var(--color-border-strong)] hover:text-[var(--color-ink-soft)]"
+        >
+          <Pencil size={12} />
+          添加批注
+        </button>
+      )}
+
+      {/* Annotation modal */}
+      <AnnotationModal
+        isOpen={annotationOpen}
+        wordId={item.word_id}
+        initialContent={annotation}
+        onClose={() => setAnnotationOpen(false)}
+        onSaved={(content) => setAnnotation(content)}
+        onDeleted={() => setAnnotation("")}
+      />
     </div>
   );
 }

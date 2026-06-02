@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a complete idiot**：十足的白痴
-  - *He felt like a complete idiot after making such a simple mistake.*
+  - *He felt like a complete idiot after making such a simple mistake.*（犯了这么简单的一个错误后，他觉得自己像个十足的白痴。）
 - **Don't be an idiot**：别犯傻（口语）
-  - *Don't be an idiot – wear a helmet when cycling.*
+  - *Don't be an idiot – wear a helmet when cycling.*（别犯傻——骑车时戴上头盔。）
 - **act like an idiot**：表现得像个傻瓜
-  - *Stop acting like an idiot and take this seriously.*
+  - *Stop acting like an idiot and take this seriously.*（别像个傻瓜一样，认真对待这件事。）
 - **You idiot!**：你这个笨蛋！（口语，可含亲昵）
-  - *You idiot! You forgot your keys again.*
+  - *You idiot! You forgot your keys again.*（你这个笨蛋！你又忘了钥匙。）
 - **village idiot**：村里的傻子（习语）
-  - *He's the village idiot who wanders around talking to himself.*
+  - *He's the village idiot who wanders around talking to himself.*（他就是那个四处游荡、自言自语的村中傻子。）
 
 ## 真题/语料关联
 

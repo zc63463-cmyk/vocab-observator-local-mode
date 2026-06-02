@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **lag behind**：落后于
-  - *The runner lagged behind the rest of the group.*
+  - *The runner lagged behind the rest of the group.*（这位选手落后于队伍中的其他人。）
 - **lag behind in**：在……方面落后
-  - *The country lags behind in technological development.*
+  - *The country lags behind in technological development.*（这个国家在技术发展方面落后了。）
 - **time lag**：时间滞后
-  - *There is a time lag between the policy change and its effects.*
+  - *There is a time lag between the policy change and its effects.*（政策变化与其效果之间存在时间滞后。）
 - **jet lag**：时差反应
-  - *I suffered from severe jet lag after the long flight.*
+  - *I suffered from severe jet lag after the long flight.*（长途飞行后我遭受了严重的时差反应。）
 - **lag period**：延迟期
-  - *There is a lag period between infection and symptoms.*
+  - *There is a lag period between infection and symptoms.*（感染和症状之间存在一段延迟期。）
 
 ## 真题/语料关联
 

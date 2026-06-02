@@ -65,13 +65,13 @@ review_count: 0
 ## 搭配与短语
 
 - **distinct phoneme**：不同的音素
-  - *English has about 44 distinct phonemes.*
+  - *English has about 44 distinct phonemes.*（英语约有44个不同的音素。）
 - **minimal pair**：最小对立体（仅一个音素不同的词对）
-  - *"Pat" and "bat" form a minimal pair.*
+  - *"Pat" and "bat" form a minimal pair.*（"Pat"和"bat"构成一个最小对立体。）
 - **phoneme inventory**：音素库
-  - *The phoneme inventory varies from language to language.*
+  - *The phoneme inventory varies from language to language.*（音素库因语言而异。）
 - **phonemic contrast**：音位对立
-  - *Phonemic contrast is essential for distinguishing meaning.*
+  - *Phonemic contrast is essential for distinguishing meaning.*（音位对立对于区分意义至关重要。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in terms of**：就……而言；在……方面
-  - *In terms of academic performance, she is the best student in the class.*
+  - *In terms of academic performance, she is the best student in the class.*（就学业表现而言，她是班上最好的学生。）
 - **technical term**：术语
-  - *The textbook explains many technical terms in simple language.*
+  - *The textbook explains many technical terms in simple language.*（这本教科书用简单的语言解释了许多术语。）
 - **terms and conditions**：条款和条件
-  - *Please read the terms and conditions before signing the contract.*
+  - *Please read the terms and conditions before signing the contract.*（签署合同前请阅读条款和条件。）
 - **long-term/short-term**：长期的/短期的
-  - *We need to consider the long-term effects of this policy.*
+  - *We need to consider the long-term effects of this policy.*（我们需要考虑这项政策的长期影响。）
 - **serve a term**：任职一个任期
-  - *The president serves a four-year term.*
+  - *The president serves a four-year term.*（总统任期四年。）
 
 ## 真题/语料关联
 

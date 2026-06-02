@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **lay the foundation**：奠定基础
-  - *The early scientists laid the foundation for modern physics.*
+  - *The early scientists laid the foundation for modern physics.*（早期科学家为现代物理学奠定了基础。）
 - **the foundation of**：……的基础
-  - *Trust is the foundation of any good relationship.*
+  - *Trust is the foundation of any good relationship.*（信任是任何良好关系的基础。）
 - **charitable foundation**：慈善基金会
-  - *The company set up a charitable foundation to support education.*
+  - *The company set up a charitable foundation to support education.*（该公司设立了一个慈善基金会来支持教育。）
 - **without foundation**：没有根据
-  - *The allegations were completely without foundation.*
+  - *The allegations were completely without foundation.*（这些指控完全没有根据。）
 - **shake the foundations**：动摇根基
-  - *The scandal shook the foundations of the government.*
+  - *The scandal shook the foundations of the government.*（丑闻动摇了政府的根基。）
 
 ## 真题/语料关联
 

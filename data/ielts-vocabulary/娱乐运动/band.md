@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rock band**：摇滚乐队
-  - *The rock band released their new album last month.*
+  - *The rock band released their new album last month.*（这支摇滚乐队上个月发布了新专辑。）
 - **boy band**：男子组合
-  - *The boy band has millions of fans worldwide.*
+  - *The boy band has millions of fans worldwide.*（这支男子组合在全球有数百万粉丝。）
 - **band member**：乐队成员
-  - *All band members contributed to the songwriting process.*
+  - *All band members contributed to the songwriting process.*（所有乐队成员都为歌曲创作做出了贡献。）
 - **band leader**：乐队领队
-  - *The band leader directed the musicians during the performance.*
+  - *The band leader directed the musicians during the performance.*（乐队领队在演出中指导乐手们。）
 - **live band**：现场乐队
-  - *The restaurant features a live band every Friday night.*
+  - *The restaurant features a live band every Friday night.*（这家餐厅每周五晚上都有现场乐队表演。）
 
 ## 真题/语料关联
 

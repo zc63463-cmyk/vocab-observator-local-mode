@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **decorate a room**：装饰房间
-  - *We spent the weekend decorating the living room with new curtains and paintings.*
+  - *We spent the weekend decorating the living room with new curtains and paintings.*（我们周末用新窗帘和画作装饰了客厅。）
 - **decorate with flowers/ribbons**：用花/丝带装饰
-  - *The hall was decorated with flowers and ribbons for the wedding.*
+  - *The hall was decorated with flowers and ribbons for the wedding.*（大厅用鲜花和丝带装饰以迎接婚礼。）
 - **decorate a house**：装修房子
-  - *They hired a professional to decorate their new house.*
+  - *They hired a professional to decorate their new house.*（他们雇了一名专业人士来装修新房。）
 - **decorate a Christmas tree**：装饰圣诞树
-  - *The children loved decorating the Christmas tree with ornaments.*
+  - *The children loved decorating the Christmas tree with ornaments.*（孩子们喜欢用装饰品来装饰圣诞树。）
 - **decorate a soldier**：授予军人勋章
-  - *The soldier was decorated for bravery in battle.*
+  - *The soldier was decorated for bravery in battle.*（这名士兵因在战斗中的英勇表现被授予勋章。）
 
 ## 真题/语料关联
 

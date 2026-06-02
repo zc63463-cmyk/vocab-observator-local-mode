@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **financial reward**：经济回报
-  - *The job offers good financial rewards.*
+  - *The job offers good financial rewards.*（这份工作提供丰厚的经济回报。）
 - **reward for**：因……的奖励
-  - *There is a reward for anyone who finds the lost dog.*
+  - *There is a reward for anyone who finds the lost dog.*（找到丢失的狗的人有赏金。）
 - **reward someone for**：因……奖励某人
-  - *The company rewarded employees for their hard work.*
+  - *The company rewarded employees for their hard work.*（公司奖励了员工的辛勤工作。）
 - **in reward for**：作为……的回报
-  - *He received a medal in reward for his bravery.*
+  - *He received a medal in reward for his bravery.*（他获得了一枚勋章作为他勇敢的回报。）
 - **rewarding experience**：有回报的经历
-  - *Teaching can be a very rewarding experience.*
+  - *Teaching can be a very rewarding experience.*（教学可以是一种非常有回报的经历。）
 
 ## 真题/语料关联
 

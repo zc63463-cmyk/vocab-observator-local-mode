@@ -77,15 +77,15 @@ review_count: 0
 ## 搭配与短语
 
 - **drift along**：随波逐流
-  - *He's been drifting along without any real purpose in life.*
+  - *He's been drifting along without any real purpose in life.*（他一直在随波逐流，生活中没有任何真正的目标。）
 - **drift off**：渐渐入睡
-  - *She drifted off to sleep listening to the sound of the rain.*
+  - *She drifted off to sleep listening to the sound of the rain.*（她在雨声中渐渐入睡。）
 - **get the drift**：明白大意
-  - *I don't understand every word, but I get the drift.*
+  - *I don't understand every word, but I get the drift.*（我不是每个字都懂，但我明白大意了。）
 - **drift apart**：逐渐疏远
-  - *After college, they slowly drifted apart.*
+  - *After college, they slowly drifted apart.*（大学毕业后，他们逐渐疏远了。）
 - **snow drift**：雪堆
-  - *The car was stuck in a massive snow drift.*
+  - *The car was stuck in a massive snow drift.*（汽车被困在一个巨大的雪堆里。）
 
 ## 真题/语料关联
 

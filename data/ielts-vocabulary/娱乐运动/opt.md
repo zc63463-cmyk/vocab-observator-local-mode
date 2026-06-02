@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **opt for**：选择，决定
-  - *She opted for the vegetarian meal.*
+  - *She opted for the vegetarian meal.*（她选择了素食餐。）
 - **opt to do**：选择做某事
-  - *He opted to stay at home rather than go out.*
+  - *He opted to stay at home rather than go out.*（他选择待在家里而不是出去。）
 - **opt out**：退出，选择不参与
-  - *You can opt out of the program at any time.*
+  - *You can opt out of the program at any time.*（你可以随时退出这个项目。）
 - **opt in**：选择加入
-  - *Employees can opt in to the pension scheme.*
+  - *Employees can opt in to the pension scheme.*（员工可以选择加入养老金计划。）
 
 ## 真题/语料关联
 

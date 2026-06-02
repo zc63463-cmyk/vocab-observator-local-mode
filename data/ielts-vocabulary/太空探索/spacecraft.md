@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **manned/crewed spacecraft**：载人航天器
-  - *China successfully launched its first manned spacecraft in 2003.*
+  - *China successfully launched its first manned spacecraft in 2003.*（中国于2003年成功发射了第一艘载人航天器。）
 - **unmanned spacecraft**：无人航天器
-  - *Unmanned spacecraft can explore places too dangerous for humans.*
+  - *Unmanned spacecraft can explore places too dangerous for humans.*（无人航天器可以探索对人类来说太危险的地方。）
 - **launch a spacecraft**：发射航天器
-  - *The agency plans to launch a spacecraft to study Jupiter's moons.*
+  - *The agency plans to launch a spacecraft to study Jupiter's moons.*（该机构计划发射一艘航天器来研究木星的卫星。）
 - **spacecraft design**：航天器设计
-  - *Spacecraft design must account for extreme temperatures and radiation.*
+  - *Spacecraft design must account for extreme temperatures and radiation.*（航天器设计必须考虑极端温度和辐射。）
 - **spacecraft docking**：航天器对接
-  - *The spacecraft docking procedure requires precise calculations.*
+  - *The spacecraft docking procedure requires precise calculations.*（航天器对接程序需要精确的计算。）
 
 ## 真题/语料关联
 

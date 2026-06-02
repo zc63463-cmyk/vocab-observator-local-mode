@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a freelance journalist**：自由记者
-  - *She works as a freelance journalist, writing for several magazines.*
+  - *She works as a freelance journalist, writing for several magazines.*（她是一名自由记者，为几家杂志撰稿。）
 - **an investigative journalist**：调查记者
-  - *The investigative journalist uncovered the corruption scandal.*
+  - *The investigative journalist uncovered the corruption scandal.*（这位调查记者揭露了腐败丑闻。）
 - **a war/correspondent journalist**：战地记者
-  - *The war journalist reported from the front lines.*
+  - *The war journalist reported from the front lines.*（战地记者从前线发回报道。）
 - **a broadcast journalist**：广播记者
-  - *He started his career as a broadcast journalist at the BBC.*
+  - *He started his career as a broadcast journalist at the BBC.*（他的职业生涯始于BBC的一名广播记者。）
 - **citizen journalism**：公民新闻
-  - *Citizen journalism has become more common with the rise of social media.*
+  - *Citizen journalism has become more common with the rise of social media.*（随着社交媒体的兴起，公民新闻变得更加普遍。）
 
 ## 真题/语料关联
 

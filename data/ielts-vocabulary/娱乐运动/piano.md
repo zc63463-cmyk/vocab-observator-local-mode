@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the piano**：弹钢琴
-  - *She learned to play the piano at a young age.*
+  - *She learned to play the piano at a young age.*（她从小就开始学习弹钢琴。）
 - **grand piano**：三角钢琴
-  - *The concert hall has a beautiful grand piano.*
+  - *The concert hall has a beautiful grand piano.*（音乐厅里有一架漂亮的三角钢琴。）
 - **piano lesson**：钢琴课
-  - *He takes piano lessons every Saturday.*
+  - *He takes piano lessons every Saturday.*（他每周六上钢琴课。）
 - **piano player**：钢琴演奏者
-  - *She is an excellent piano player.*
+  - *She is an excellent piano player.*（她是一位出色的钢琴演奏者。）
 - **piano keys**：钢琴键
-  - *The piano keys are black and white.*
+  - *The piano keys are black and white.*（钢琴键是黑白相间的。）
 
 ## 真题/语料关联
 

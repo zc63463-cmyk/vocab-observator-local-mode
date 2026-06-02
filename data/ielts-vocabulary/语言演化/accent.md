@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **speak with an accent**：说话带口音
-  - *She speaks English with a slight French accent.*
+  - *She speaks English with a slight French accent.*（她说英语带有一点法国口音。）
 - **strong/broad accent**：浓重的口音
-  - *He has a strong Scottish accent.*
+  - *He has a strong Scottish accent.*（他有浓重的苏格兰口音。）
 - **put/place the accent on**：强调，着重于
-  - *The school puts the accent on practical skills.*
+  - *The school puts the accent on practical skills.*（这所学校强调实用技能。）
 - **accent mark**：重音符号
-  - *You need to add an accent mark to this word.*
+  - *You need to add an accent mark to this word.*（你需要在这个词上加一个重音符号。）
 
 ## 真题/语料关联
 

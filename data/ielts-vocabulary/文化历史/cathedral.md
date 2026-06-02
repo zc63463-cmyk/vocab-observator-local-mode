@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Gothic cathedral**：哥特式大教堂
-  - *Gothic cathedrals are known for their pointed arches and flying buttresses.*
+  - *Gothic cathedrals are known for their pointed arches and flying buttresses.*（哥特式大教堂以其尖拱和飞扶壁而闻名。）
 - **Notre-Dame Cathedral**：巴黎圣母院
-  - *Notre-Dame Cathedral was severely damaged by fire in 2019.*
+  - *Notre-Dame Cathedral was severely damaged by fire in 2019.*（巴黎圣母院在2019年被大火严重损坏。）
 - **cathedral city**：大教堂城市（以大教堂为中心的城市）
-  - *Salisbury is a famous cathedral city in England.*
+  - *Salisbury is a famous cathedral city in England.*（索尔兹伯里是英格兰著名的大教堂城市。）
 - **cathedral ceiling**：高耸的天花板
-  - *The living room has a cathedral ceiling that makes it feel spacious.*
+  - *The living room has a cathedral ceiling that makes it feel spacious.*（客厅有一个高耸的天花板，让人感觉宽敞。）
 - **cathedral of learning**：学习的殿堂
-  - *The university library is a cathedral of learning.*
+  - *The university library is a cathedral of learning.*（大学图书馆是一座学习的殿堂。）
 - **cathedral glass**：教堂彩色玻璃
-  - *The cathedral glass windows depict scenes from the Bible.*
+  - *The cathedral glass windows depict scenes from the Bible.*（教堂的彩色玻璃窗描绘了圣经中的场景。）
 
 ## 真题/语料关联
 

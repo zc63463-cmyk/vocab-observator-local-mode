@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compare with**：与……比较
-  - *The results were compared with those of previous studies.*
+  - *The results were compared with those of previous studies.*（结果与先前研究的结果进行了比较。）
 - **compare to**：比作
-  - *The poet compared love to a rose.*
+  - *The poet compared love to a rose.*（诗人把爱情比作玫瑰。）
 - **compared with/to**：与……相比
-  - *Compared with last year, sales have increased by 20%.*
+  - *Compared with last year, sales have increased by 20%.*（与去年相比，销售额增长了20%。）
 - **make a comparison**：进行比较
-  - *The report makes a comparison between urban and rural schools.*
+  - *The report makes a comparison between urban and rural schools.*（报告对城市和乡村学校进行了比较。）
 - **beyond compare**：无与伦比
-  - *Her beauty is beyond compare.*
+  - *Her beauty is beyond compare.*（她的美丽无与伦比。）
 
 ## 真题/语料关联
 

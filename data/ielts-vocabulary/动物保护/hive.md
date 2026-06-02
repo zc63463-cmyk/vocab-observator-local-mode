@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bee hive**：蜂巢，蜂箱
-  - *The beekeeper checked the bee hive for honey.*
+  - *The beekeeper checked the bee hive for honey.*（养蜂人检查蜂箱中的蜂蜜。）
 - **hive of activity**：繁忙的活动场所
-  - *The office was a hive of activity before the deadline.*
+  - *The office was a hive of activity before the deadline.*（截止日期前办公室里一片繁忙景象。）
 - **hive mind**：蜂巢思维，集体智慧
-  - *The internet has created a kind of hive mind for sharing information.*
+  - *The internet has created a kind of hive mind for sharing information.*（互联网创造了一种分享信息的群体智慧。）
 - **hive off**：分离，分出
-  - *The company hived off its retail division into a separate entity.*
+  - *The company hived off its retail division into a separate entity.*（公司将零售部门剥离出来成立了一个独立实体。）
 - **hive away**：储存，积攒
-  - *She hived away money for her children's education.*
+  - *She hived away money for her children's education.*（她为孩子们的教育存了钱。）
 
 ## 真题/语料关联
 

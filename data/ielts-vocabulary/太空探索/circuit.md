@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **electrical circuit**：电路
-  - *The electrical circuit was damaged by the power surge.*
+  - *The electrical circuit was damaged by the power surge.*（电路因电涌而损坏。）
 - **integrated circuit**：集成电路
-  - *Integrated circuits are the building blocks of modern electronics.*
+  - *Integrated circuits are the building blocks of modern electronics.*（集成电路是现代电子产品的基石。）
 - **short circuit**：短路
-  - *A short circuit caused the power outage in the building.*
+  - *A short circuit caused the power outage in the building.*（短路导致大楼停电。）
 - **lecture circuit**：巡回演讲
-  - *The professor is on the lecture circuit, speaking at universities across the country.*
+  - *The professor is on the lecture circuit, speaking at universities across the country.*（这位教授正在进行巡回演讲，在全国各大学发表讲话。）
 - **racing circuit**：赛车赛道
-  - *The Monaco racing circuit is one of the most famous in the world.*
+  - *The Monaco racing circuit is one of the most famous in the world.*（摩纳哥赛道是世界上最著名的赛道之一。）
 
 ## 真题/语料关联
 

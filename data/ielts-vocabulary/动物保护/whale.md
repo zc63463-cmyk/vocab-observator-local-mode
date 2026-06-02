@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **blue whale**：蓝鲸
-  - *The blue whale is the largest animal ever known to have existed.*
+  - *The blue whale is the largest animal ever known to have existed.*（蓝鲸是有史以来已知最大的动物。）
 - **whale watching**：观鲸
-  - *Whale watching has become a popular tourist activity in many coastal regions.*
+  - *Whale watching has become a popular tourist activity in many coastal regions.*（观鲸已成为许多沿海地区热门的旅游活动。）
 - **a whale of a time**：非常愉快的时光
-  - *We had a whale of a time at the party last night.*
+  - *We had a whale of a time at the party last night.*（昨晚的派对我们玩得非常开心。）
 - **whale fall**：鲸落（鲸鱼尸体沉入海底形成的生态系统）
-  - *Whale falls support unique deep-sea ecosystems for decades.*
+  - *Whale falls support unique deep-sea ecosystems for decades.*（鲸落数十年来支撑着独特的深海生态系统。）
 - **whale shark**：鲸鲨
-  - *The whale shark is the largest fish in the world.*
+  - *The whale shark is the largest fish in the world.*（鲸鲨是世界上最大的鱼类。）
 
 ## 真题/语料关联
 

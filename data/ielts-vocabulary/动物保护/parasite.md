@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **parasitic infection**：寄生虫感染
-  - *Parasitic infections are common in tropical regions with poor sanitation.*
+  - *Parasitic infections are common in tropical regions with poor sanitation.*（寄生虫感染在卫生条件差的热带地区很常见。）
 - **host-parasite relationship**：宿主-寄生虫关系
-  - *The study examines the complex host-parasite relationship in marine ecosystems.*
+  - *The study examines the complex host-parasite relationship in marine ecosystems.*（该研究考察了海洋生态系统中复杂的宿主-寄生虫关系。）
 - **parasitic plant**：寄生植物
-  - *Mistletoe is a well-known parasitic plant that grows on trees.*
+  - *Mistletoe is a well-known parasitic plant that grows on trees.*（槲寄生是一种著名的寄生植物，生长在树上。）
 - **social parasite**：社会寄生虫
-  - *Some people view welfare recipients as social parasites, which is unfair.*
+  - *Some people view welfare recipients as social parasites, which is unfair.*（有些人把福利领取者视为社会寄生虫，这并不公平。）
 - **parasite load**：寄生虫负荷
-  - *The parasite load in wild animals can indicate ecosystem health.*
+  - *The parasite load in wild animals can indicate ecosystem health.*（野生动物体内的寄生虫数量可以指示生态系统的健康状况。）
 
 ## 真题/语料关联
 

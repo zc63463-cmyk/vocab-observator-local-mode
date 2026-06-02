@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **radioactive material**：放射性物质
-  - *Radioactive materials must be handled with extreme care.*
+  - *Radioactive materials must be handled with extreme care.*（放射性材料必须极其小心地处理。）
 - **radioactive waste**：放射性废物
-  - *The disposal of radioactive waste is a major environmental concern.*
+  - *The disposal of radioactive waste is a major environmental concern.*（放射性废物的处理是一个重大的环境问题。）
 - **radioactive contamination**：放射性污染
-  - *The nuclear accident caused radioactive contamination of the surrounding area.*
+  - *The nuclear accident caused radioactive contamination of the surrounding area.*（核事故导致周边地区受到放射性污染。）
 - **radioactive decay**：放射性衰变
-  - *Radioactive decay is the process by which an unstable atom loses energy.*
+  - *Radioactive decay is the process by which an unstable atom loses energy.*（放射性衰变是不稳定原子失去能量的过程。）
 - **radioactive isotope**：放射性同位素
-  - *Radioactive isotopes are used in medicine for diagnosis and treatment.*
+  - *Radioactive isotopes are used in medicine for diagnosis and treatment.*（放射性同位素在医学中用于诊断和治疗。）
 
 ## 真题/语料关联
 

@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hollow tree**：空心树
-  - *The owl made its home in a hollow tree.*
+  - *The owl made its home in a hollow tree.*（猫头鹰在一棵空心树上安了家。）
 - **hollow cheeks**：凹陷的脸颊
-  - *After his illness, he had hollow cheeks and dark circles under his eyes.*
+  - *After his illness, he had hollow cheeks and dark circles under his eyes.*（生病后他脸颊凹陷，眼睛下面有黑眼圈。）
 - **hollow words**：空洞的话
-  - *His promises turned out to be hollow words.*
+  - *His promises turned out to be hollow words.*（他的承诺结果只是空洞的话语。）
 - **hollow victory**：空洞的胜利
-  - *Winning the competition felt like a hollow victory without my family's support.*
+  - *Winning the competition felt like a hollow victory without my family's support.*（没有家人的支持，赢得比赛感觉像是一场空洞的胜利。）
 - **hollow sound**：空洞的声音
-  - *The empty room produced a hollow sound when he spoke.*
+  - *The empty room produced a hollow sound when he spoke.*（他说话时空荡荡的房间发出了空洞的回声。）
 
 ## 真题/语料关联
 

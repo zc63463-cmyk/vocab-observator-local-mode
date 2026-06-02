@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **large herbivore**：大型食草动物
-  - *Elephants are the largest living herbivores on land.*
+  - *Elephants are the largest living herbivores on land.*（大象是陆地上现存最大的食草动物。）
 - **herbivore species**：食草动物物种
-  - *The grassland supports a diverse range of herbivore species.*
+  - *The grassland supports a diverse range of herbivore species.*（这片草地供养着多种食草动物。）
 - **herbivore diet**：食草饮食
-  - *Some people adopt a herbivore diet for ethical or health reasons.*
+  - *Some people adopt a herbivore diet for ethical or health reasons.*（有些人出于道德或健康原因采用素食。）
 - **herbivore-plant interaction**：食草动物-植物相互作用
-  - *Herbivore-plant interactions shape the structure of plant communities.*
+  - *Herbivore-plant interactions shape the structure of plant communities.*（食草动物与植物的相互作用塑造了植物群落的结构。）
 - **herbivore population**：食草动物种群
-  - *The herbivore population has grown rapidly due to the absence of predators.*
+  - *The herbivore population has grown rapidly due to the absence of predators.*（由于没有捕食者，食草动物数量迅速增长。）
 
 ## 真题/语料关联
 

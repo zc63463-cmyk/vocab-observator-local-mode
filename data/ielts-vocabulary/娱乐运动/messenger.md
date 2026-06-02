@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a messenger from**：来自……的信使
-  - *The messenger from the king delivered the urgent news.*
+  - *The messenger from the king delivered the urgent news.*（国王的信使传递了紧急消息。）
 - **a bicycle messenger**：自行车信使
-  - *The bicycle messenger delivered the package across the city.*
+  - *The bicycle messenger delivered the package across the city.*（自行车信使把包裹送到了城市各处。）
 - **instant messenger**：即时通讯工具
-  - *We use an instant messenger to communicate with our team.*
+  - *We use an instant messenger to communicate with our team.*（我们使用即时通讯工具与团队沟通。）
 - **messenger RNA**：信使RNA
-  - *Messenger RNA carries genetic information from DNA to the ribosome.*
+  - *Messenger RNA carries genetic information from DNA to the ribosome.*（信使RNA将遗传信息从DNA携带到核糖体。）
 - **shoot the messenger**：迁怒于报信人
-  - *Don't shoot the messenger—I'm just telling you what happened.*
+  - *Don't shoot the messenger—I'm just telling you what happened.*（不要迁怒于报信人——我只是告诉你发生了什么。）
 
 ## 真题/语料关联
 

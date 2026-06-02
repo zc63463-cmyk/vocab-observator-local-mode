@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **have a picnic**：举行野餐
-  - *We had a picnic in the park on Sunday afternoon.*
+  - *We had a picnic in the park on Sunday afternoon.*（我们周日下午在公园里野餐。）
 - **go on a picnic**：去野餐
-  - *Let's go on a picnic by the lake this weekend.*
+  - *Let's go on a picnic by the lake this weekend.*（这周末我们去湖边野餐吧。）
 - **picnic basket**：野餐篮
-  - *She packed a picnic basket with sandwiches and fruit.*
+  - *She packed a picnic basket with sandwiches and fruit.*（她在野餐篮里装满了三明治和水果。）
 - **picnic area**：野餐区
-  - *The park has several picnic areas with tables and benches.*
+  - *The park has several picnic areas with tables and benches.*（公园里有几个带有桌椅的野餐区。）
 - **be no picnic**：不是轻松的事（非正式）
-  - *Moving house is no picnic, I can tell you.*
+  - *Moving house is no picnic, I can tell you.*（搬家可不是轻松的事，我可以告诉你。）
 
 ## 真题/语料关联
 

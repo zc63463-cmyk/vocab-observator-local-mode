@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **present tense**：现在时态
-  - *In English, the present tense is used to describe habitual actions.*
+  - *In English, the present tense is used to describe habitual actions.*（在英语中，现在时用于描述习惯性动作。）
 - **past tense**：过去时态
-  - *The past tense of "go" is "went".*
+  - *The past tense of "go" is "went".*（"Go"的过去时是"went"。）
 - **future tense**：将来时态
-  - *The future tense is formed using "will" or "going to".*
+  - *The future tense is formed using "will" or "going to".*（将来时用"will"或"going to"构成。）
 - **tense atmosphere**：紧张的气氛
-  - *There was a tense atmosphere in the room during the negotiation.*
+  - *There was a tense atmosphere in the room during the negotiation.*（谈判期间房间里气氛紧张。）
 - **tense up**：变得紧张
-  - *She tensed up when she heard the news.*
+  - *She tensed up when she heard the news.*（她听到消息时变得紧张起来。）
 
 ## 真题/语料关联
 

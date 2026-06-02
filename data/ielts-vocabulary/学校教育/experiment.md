@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **scientific experiment**：科学实验
-  - *The scientist conducted a series of scientific experiments.*
+  - *The scientist conducted a series of scientific experiments.*（科学家进行了一系列科学实验。）
 - **experiment with**：用…做实验；尝试
-  - *Students experiment with different chemicals in the lab.*
+  - *Students experiment with different chemicals in the lab.*（学生们在实验室里用不同的化学物质做实验。）
 - **experiment on**：对…做实验
-  - *Researchers experiment on animals to test new drugs.*
+  - *Researchers experiment on animals to test new drugs.*（研究人员在动物身上做实验来测试新药。）
 - **conduct an experiment**：进行实验
-  - *We conducted an experiment to test the hypothesis.*
+  - *We conducted an experiment to test the hypothesis.*（我们进行了一项实验来检验假设。）
 - **experimental design**：实验设计
-  - *Good experimental design is crucial for valid results.*
+  - *Good experimental design is crucial for valid results.*（好的实验设计对于获得有效结果至关重要。）
 
 ## 真题/语料关联
 

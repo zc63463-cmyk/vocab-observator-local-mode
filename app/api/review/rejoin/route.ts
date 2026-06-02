@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
     .single();
 
   if (fetchError) {
-    throw fetchError;
+    return apiErrorResponse(fetchError, "api/review/rejoin", 404, "Progress not found.");
   }
 
   const now = new Date().toISOString();

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **singular noun**：单数名词
-  - *The singular noun "cat" becomes "cats" in the plural.*
+  - *The singular noun "cat" becomes "cats" in the plural.*（单数名词"cat"在复数时变成"cats"。）
 - **singular form**：单数形式
-  - *The singular form of "children" is "child".*
+  - *The singular form of "children" is "child".*（"Children"的单数形式是"child"。）
 - **third person singular**：第三人称单数
-  - *In English, the third person singular of "go" is "goes".*
+  - *In English, the third person singular of "go" is "goes".*（在英语中，"go"的第三人称单数形式是"goes"。）
 - **singular achievement**：非凡的成就
-  - *Her singular achievement in science earned her a Nobel Prize.*
+  - *Her singular achievement in science earned her a Nobel Prize.*（她在科学领域的非凡成就为她赢得了诺贝尔奖。）
 - **singular talent**：非凡的才能
-  - *He has a singular talent for music.*
+  - *He has a singular talent for music.*（他有着非凡的音乐才能。）
 
 ## 真题/语料关联
 

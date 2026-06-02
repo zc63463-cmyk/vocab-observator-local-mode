@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the Prince of Wales**：威尔士亲王（英国王储的称号）
-  - *The Prince of Wales will attend the ceremony.*
+  - *The Prince of Wales will attend the ceremony.*（威尔士亲王将出席典礼。）
 - **Prince Charming**：白马王子（理想中的完美伴侣）
-  - *She's still waiting for her Prince Charming.*
+  - *She's still waiting for her Prince Charming.*（她还在等待她的白马王子。）
 - **prince consort**：王夫（女王的丈夫）
-  - *Prince Albert was Queen Victoria's prince consort.*
+  - *Prince Albert was Queen Victoria's prince consort.*（阿尔伯特亲王是维多利亚女王的王夫。）
 - **the prince of ...**：……王子
-  - *He was known as the prince of poets.*
+  - *He was known as the prince of poets.*（他被称为诗人王子。）
 - **princely** (adj.) — 王子的，高贵的；慷慨的
-  - *He made a princely donation to the charity.*
+  - *He made a princely donation to the charity.*（他向慈善机构捐赠了一笔可观的款项。）
 
 ## 真题/语料关联
 

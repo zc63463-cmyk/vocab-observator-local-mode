@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **noun suffix**：名词后缀
-  - *The suffix "-tion" is used to form nouns from verbs, as in "education".*
+  - *The suffix "-tion" is used to form nouns from verbs, as in "education".*（后缀"-tion"用于将动词转化为名词，如"education"。）
 - **adjective suffix**：形容词后缀
-  - *The suffix "-ful" turns nouns into adjectives, as in "beautiful".*
+  - *The suffix "-ful" turns nouns into adjectives, as in "beautiful".*（后缀"-ful"将名词转化为形容词，如"beautiful"。）
 - **verb suffix**：动词后缀
-  - *The suffix "-ize" turns adjectives into verbs, as in "modernize".*
+  - *The suffix "-ize" turns adjectives into verbs, as in "modernize".*（后缀"-ize"将形容词转化为动词，如"modernize"。）
 - **add a suffix**：加后缀
-  - *You can add the suffix "-ly" to turn an adjective into an adverb.*
+  - *You can add the suffix "-ly" to turn an adjective into an adverb.*（你可以添加后缀"-ly"将形容词变成副词。）
 - **suffix "-ed"**：过去式后缀
-  - *The suffix "-ed" is added to regular verbs to form the past tense.*
+  - *The suffix "-ed" is added to regular verbs to form the past tense.*（后缀"-ed"加在规则动词后构成过去时。）
 
 ## 真题/语料关联
 

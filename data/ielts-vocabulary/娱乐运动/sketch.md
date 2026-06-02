@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pencil sketch**：铅笔素描
-  - *She made a pencil sketch of the landscape.*
+  - *She made a pencil sketch of the landscape.*（她画了一幅风景的铅笔素描。）
 - **quick sketch**：快速素描
-  - *The artist did a quick sketch of the model.*
+  - *The artist did a quick sketch of the model.*（艺术家为模特画了一幅快速素描。）
 - **sketch out**：概述，草拟
-  - *He sketched out the main points of his plan.*
+  - *He sketched out the main points of his plan.*（他概述了他计划的主要要点。）
 - **sketch of**：……的素描
-  - *The museum has a sketch by Leonardo da Vinci.*
+  - *The museum has a sketch by Leonardo da Vinci.*（博物馆有一幅列奥纳多·达·芬奇的素描。）
 - **comedy sketch**：喜剧小品
-  - *The comedy sketch was very funny.*
+  - *The comedy sketch was very funny.*（喜剧小品非常有趣。）
 
 ## 真题/语料关联
 

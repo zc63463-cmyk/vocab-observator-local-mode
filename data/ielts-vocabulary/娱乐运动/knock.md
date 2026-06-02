@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **knock on/at the door**：敲门
-  - *Someone is knocking on the door. Can you go and check?*
+  - *Someone is knocking on the door. Can you go and check?*（有人在敲门，你能去看看吗？）
 - **knock over**：碰倒，撞翻
-  - *The child knocked over the vase while playing.*
+  - *The child knocked over the vase while playing.*（孩子玩耍时碰倒了花瓶。）
 - **knock into**：撞上；偶然遇见
-  - *I knocked into an old friend at the supermarket yesterday.*
+  - *I knocked into an old friend at the supermarket yesterday.*（我昨天在超市偶然遇见了一位老朋友。）
 - **knock down**：拆除；压低（价格）
-  - *They're going to knock down the old building and build a new one.*
+  - *They're going to knock down the old building and build a new one.*（他们打算拆掉旧楼建一座新的。）
 - **take a knock**：受到打击/挫折
-  - *The economy took a hard knock during the pandemic.*
+  - *The economy took a hard knock during the pandemic.*（经济在疫情期间受到了严重打击。）
 
 ## 真题/语料关联
 

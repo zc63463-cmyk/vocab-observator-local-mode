@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **aesthetic value**：审美价值
-  - *The aesthetic value of the painting is more important than its price.*
+  - *The aesthetic value of the painting is more important than its price.*（这幅画的审美价值比它的价格更重要。）
 - **aesthetic appeal**：审美吸引力
-  - *The building has great aesthetic appeal.*
+  - *The building has great aesthetic appeal.*（这座建筑有极大的审美吸引力。）
 - **aesthetically pleasing**：美观的，令人赏心悦目的
-  - *The garden is aesthetically pleasing with its colorful flowers.*
+  - *The garden is aesthetically pleasing with its colorful flowers.*（花园里五彩缤纷的鲜花令人赏心悦目。）
 - **personal aesthetic**：个人审美观
-  - *Her personal aesthetic is minimalist and modern.*
+  - *Her personal aesthetic is minimalist and modern.*（她的个人审美观是极简主义和现代风格。）
 - **a sense of aesthetic**：审美感
-  - *He has a strong sense of aesthetic and loves beautiful things.*
+  - *He has a strong sense of aesthetic and loves beautiful things.*（他有很强的审美感，热爱美好的事物。）
 
 ## 真题/语料关联
 

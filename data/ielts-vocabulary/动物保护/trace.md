@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **trace back to**：追溯到
-  - *The tradition can be traced back to ancient Rome.*
+  - *The tradition can be traced back to ancient Rome.*（这个传统可以追溯到古罗马时期。）
 - **without a trace**：无影无踪
-  - *The animal disappeared without a trace.*
+  - *The animal disappeared without a trace.*（那只动物消失得无影无踪。）
 - **trace element**：微量元素
-  - *Iron and zinc are trace elements essential for human health.*
+  - *Iron and zinc are trace elements essential for human health.*（铁和锌是对人体健康至关重要的微量元素。）
 - **trace amount**：微量
-  - *Only trace amounts of the chemical were found in the water.*
+  - *Only trace amounts of the chemical were found in the water.*（水中只检测到了微量的这种化学物质。）
 - **trace one's steps**：循原路返回
-  - *The hiker traced his steps back to the campsite.*
+  - *The hiker traced his steps back to the campsite.*（徒步者沿着原路返回了营地。）
 
 ## 真题/语料关联
 

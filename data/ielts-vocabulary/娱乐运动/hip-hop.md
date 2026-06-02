@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hip-hop music**：嘻哈音乐
-  - *Hip-hop music has become mainstream worldwide.*
+  - *Hip-hop music has become mainstream worldwide.*（嘻哈音乐已在全球成为主流。）
 - **hip-hop culture**：嘻哈文化
-  - *Hip-hop culture includes music, dance, fashion, and art.*
+  - *Hip-hop culture includes music, dance, fashion, and art.*（嘻哈文化包括音乐、舞蹈、时尚和艺术。）
 - **hip-hop artist**：嘻哈艺术家
-  - *Many hip-hop artists started their careers on the streets.*
+  - *Many hip-hop artists started their careers on the streets.*（许多嘻哈艺术家都是从街头起步的。）
 - **hip-hop dance**：嘻哈舞蹈
-  - *She is learning hip-hop dance at a local studio.*
+  - *She is learning hip-hop dance at a local studio.*（她在当地的工作室学习嘻哈舞蹈。）
 - **hip-hop scene**：嘻哈圈
-  - *The hip-hop scene in this city is very vibrant.*
+  - *The hip-hop scene in this city is very vibrant.*（这座城市的嘻哈圈非常活跃。）
 
 ## 真题/语料关联
 

@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **insist that...**：坚持……
-  - *She insisted that she was innocent.*
+  - *She insisted that she was innocent.*（她坚称自己是无辜的。）
 - **insist on/upon**：坚持要求
-  - *He insisted on paying for dinner.*
+  - *He insisted on paying for dinner.*（他坚持要付晚餐钱。）
 - **insist on doing something**：坚持做某事
-  - *She insisted on walking home alone.*
+  - *She insisted on walking home alone.*（她坚持要独自走回家。）
 - **if you insist**：如果你坚持的话
-  - *I'll have another piece of cake, if you insist.*
+  - *I'll have another piece of cake, if you insist.*（如果你坚持的话，我就再吃一块蛋糕。）
 - **insistence** (n.)：坚持
-  - *At her insistence, the meeting was postponed.*
+  - *At her insistence, the meeting was postponed.*（在她的坚持下，会议被推迟了。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ gizmo 的词源不明确，可能源自美国英语俚语或方言。有学者�
 ## 搭配与短语
 
 - **clever/handy gizmo**：聪明的/方便的小装置
-  - *This clever gizmo makes peeling vegetables much easier.*
+  - *This clever gizmo makes peeling vegetables much easier.*（这个聪明的小玩意儿让削蔬菜皮变得容易多了。）
 - **latest gizmos**：最新的小玩意儿
-  - *He loves buying the latest gizmos and gadgets.*
+  - *He loves buying the latest gizmos and gadgets.*（他喜欢购买最新的小玩意儿和小工具。）
 - **electronic gizmo**：电子小装置
-  - *The store sells all kinds of electronic gizmos.*
+  - *The store sells all kinds of electronic gizmos.*（这家商店出售各种电子小装置。）
 - **some kind of gizmo**：某种小玩意儿
-  - *I found some kind of gizmo in the drawer—do you know what it's for?*
+  - *I found some kind of gizmo in the drawer—do you know what it's for?*（我在抽屉里找到一个小玩意儿——你知道它是干什么的吗？）
 - **gizmos and gadgets**：小玩意儿和小工具（常连用）
-  - *The kitchen is full of gizmos and gadgets.*
+  - *The kitchen is full of gizmos and gadgets.*（厨房里到处都是小玩意儿和小工具。）
 
 ## 真题/语料关联
 

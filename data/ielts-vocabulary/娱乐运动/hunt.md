@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go hunting**：去打猎
-  - *They went hunting in the forest early in the morning.*
+  - *They went hunting in the forest early in the morning.*（他们一大早就去森林里打猎了。）
 - **hunt for**：搜寻；寻找
-  - *She hunted for a job for several months.*
+  - *She hunted for a job for several months.*（她找工作找了几个月。）
 - **hunt down**：追捕到；找到
-  - *The police finally hunted down the escaped prisoner.*
+  - *The police finally hunted down the escaped prisoner.*（警方最终追捕到了越狱的囚犯。）
 - **job hunt**：求职
-  - *The job hunt can be very stressful for graduates.*
+  - *The job hunt can be very stressful for graduates.*（求职对毕业生来说压力很大。）
 - **treasure hunt**：寻宝游戏
-  - *The children organized a treasure hunt in the garden.*
+  - *The children organized a treasure hunt in the garden.*（孩子们在花园里组织了一场寻宝游戏。）
 
 ## 真题/语料关联
 

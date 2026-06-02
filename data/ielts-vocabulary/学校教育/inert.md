@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inert gas**：惰性气体
-  - *Helium is an inert gas that does not react with other elements.*
+  - *Helium is an inert gas that does not react with other elements.*（氦是一种惰性气体，不与其他元素反应。）
 - **inert material**：惰性材料
-  - *The packaging uses inert materials to protect the food.*
+  - *The packaging uses inert materials to protect the food.*（包装使用惰性材料来保护食品。）
 - **inert response**：迟钝的反应
-  - *His inert response showed a lack of interest in the topic.*
+  - *His inert response showed a lack of interest in the topic.*（他迟钝的反应表明对这个话题缺乏兴趣。）
 - **inert society**：停滞的社会
-  - *The inert society lacked innovation and progress.*
+  - *The inert society lacked innovation and progress.*（这个停滞的社会缺乏创新和进步。）
 - **inert ingredients**：惰性成分
-  - *The product contains inert ingredients that are not active.*
+  - *The product contains inert ingredients that are not active.*（该产品含有不具活性的惰性成分。）
 
 ## 真题/语料关联
 

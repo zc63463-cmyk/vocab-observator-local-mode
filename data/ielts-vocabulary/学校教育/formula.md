@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mathematical formula**：数学公式
-  - *The mathematical formula for calculating area is length times width.*
+  - *The mathematical formula for calculating area is length times width.*（计算面积的数学公式是长乘以宽。）
 - **chemical formula**：化学式
-  - *The chemical formula for water is H₂O.*
+  - *The chemical formula for water is H₂O.*（水的化学式是H₂O。）
 - **secret formula**：秘密配方
-  - *The company's success is based on its secret formula.*
+  - *The company's success is based on its secret formula.*（公司的成功基于其秘方。）
 - **formula for success**：成功之道
-  - *Hard work and dedication are the formula for success.*
+  - *Hard work and dedication are the formula for success.*（努力工作和奉献是成功之道。）
 - **baby formula**：婴儿配方奶粉
-  - *Baby formula is designed to provide essential nutrients for infants.*
+  - *Baby formula is designed to provide essential nutrients for infants.*（婴儿配方奶粉旨在为婴儿提供必需的营养。）
 
 ## 真题/语料关联
 

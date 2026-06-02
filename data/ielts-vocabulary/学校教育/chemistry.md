@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study chemistry**：学习化学
-  - *She decided to study chemistry at university.*
+  - *She decided to study chemistry at university.*（她决定在大学学习化学。）
 - **organic chemistry**：有机化学
-  - *Organic chemistry is essential for understanding biological molecules.*
+  - *Organic chemistry is essential for understanding biological molecules.*（有机化学对理解生物分子至关重要。）
 - **chemical reaction**：化学反应
-  - *The chemical reaction produced a lot of heat.*
+  - *The chemical reaction produced a lot of heat.*（化学反应产生了大量热量。）
 - **chemical properties**：化学性质
-  - *The chemical properties of gold make it resistant to corrosion.*
+  - *The chemical properties of gold make it resistant to corrosion.*（黄金的化学性质使其耐腐蚀。）
 - **the chemistry between**：……之间的化学反应
-  - *The chemistry between the two actors was amazing.*
+  - *The chemistry between the two actors was amazing.*（这两位演员之间的化学反应非常精彩。）
 
 ## 真题/语料关联
 

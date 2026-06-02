@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an intelligent student**：聪明的学生
-  - *She is one of the most intelligent students in the class.*
+  - *She is one of the most intelligent students in the class.*（她是班上最聪明的学生之一。）
 - **highly intelligent**：非常聪明的
-  - *The child is highly intelligent and learns quickly.*
+  - *The child is highly intelligent and learns quickly.*（这个孩子非常聪明，学东西很快。）
 - **intelligent systems**：智能系统
-  - *Intelligent systems can process data faster than humans.*
+  - *Intelligent systems can process data faster than humans.*（智能系统处理数据比人类更快。）
 - **an intelligent decision**：明智的决定
-  - *It was an intelligent decision to save money for emergencies.*
+  - *It was an intelligent decision to save money for emergencies.*（为应急而存钱是一个明智的决定。）
 - **artificial intelligence (AI)**：人工智能
-  - *Artificial intelligence is transforming many industries.*
+  - *Artificial intelligence is transforming many industries.*（人工智能正在改变许多行业。）
 
 ## 真题/语料关联
 

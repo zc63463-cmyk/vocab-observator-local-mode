@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **precise measurements**：精确的测量
-  - *Scientists need precise measurements to conduct experiments.*
+  - *Scientists need precise measurements to conduct experiments.*（科学家需要精确的测量来进行实验。）
 - **precise details/information**：精确的细节/信息
-  - *Please provide precise details about the incident.*
+  - *Please provide precise details about the incident.*（请提供关于该事件的精确细节。）
 - **to be precise**：确切地说
-  - *The meeting is at 3:15 pm, to be precise.*
+  - *The meeting is at 3:15 pm, to be precise.*（会议在下午3点15分，确切地说。）
 - **at that precise moment**：就在那一刻
-  - *At that precise moment, the phone rang.*
+  - *At that precise moment, the phone rang.*（就在那一刻，电话响了。）
 - **precise reason/cause**：确切的原因
-  - *The precise cause of the accident is still unknown.*
+  - *The precise cause of the accident is still unknown.*（事故的确切原因尚不清楚。）
 
 ## 真题/语料关联
 

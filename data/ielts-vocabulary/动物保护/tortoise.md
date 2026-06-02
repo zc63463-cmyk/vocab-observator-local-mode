@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **giant tortoise**：巨型陆龟
-  - *The giant tortoise of the Galápagos can live for over 100 years.*
+  - *The giant tortoise of the Galápagos can live for over 100 years.*（加拉帕戈斯象龟可以活100年以上。）
 - **tortoise shell**：龟甲；玳瑁色
-  - *Tortoise shell was once used to make jewelry and combs.*
+  - *Tortoise shell was once used to make jewelry and combs.*（龟壳曾用于制作珠宝和梳子。）
 - **tortoise and hare**：龟兔赛跑
-  - *The fable of the tortoise and hare teaches that slow and steady wins the race.*
+  - *The fable of the tortoise and hare teaches that slow and steady wins the race.*（龟兔赛跑的寓言告诉我们稳扎稳打才能赢得比赛。）
 - **tortoise pace**：龟速
-  - *The project is progressing at a tortoise pace.*
+  - *The project is progressing at a tortoise pace.*（这个项目以乌龟般的速度推进着。）
 - **tortoise-like** (adj.) — 陆龟似的，缓慢的
-  - *His tortoise-like approach to work frustrates his colleagues.*
+  - *His tortoise-like approach to work frustrates his colleagues.*（他像乌龟一样的工作方式让同事们很沮丧。）
 
 ## 真题/语料关联
 

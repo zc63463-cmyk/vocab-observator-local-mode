@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **under/in the circumstances**：在这种情况下
-  - *Under the circumstances, we had no choice but to cancel the event.*
+  - *Under the circumstances, we had no choice but to cancel the event.*（在这种情况下，我们别无选择，只能取消活动。）
 - **in no circumstances**：决不，在任何情况下都不
-  - *In no circumstances should you leave the building.*
+  - *In no circumstances should you leave the building.*（在任何情况下你都不应该离开大楼。）
 - **difficult/adverse circumstances**：困难的处境
-  - *She succeeded despite difficult circumstances.*
+  - *She succeeded despite difficult circumstances.*（尽管处境艰难，她还是成功了。）
 - **the circumstances of the case**：案件的情况
-  - *The court will consider the circumstances of the case before making a decision.*
+  - *The court will consider the circumstances of the case before making a decision.*（法庭在做出判决前会考虑案件的情况。）
 - **financial/personal circumstances**：财务/个人状况
-  - *Your application will be assessed based on your personal circumstances.*
+  - *Your application will be assessed based on your personal circumstances.*（你的申请将根据个人情况进行评估。）
 
 ## 真题/语料关联
 

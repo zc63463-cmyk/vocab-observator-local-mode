@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **film reel**：电影胶片卷盘
-  - *The old film reel was carefully preserved in the archive.*
+  - *The old film reel was carefully preserved in the archive.*（旧电影胶片卷盘在档案中被小心保存。）
 - **a reel of**：一卷
-  - *She bought a reel of cotton for sewing.*
+  - *She bought a reel of cotton for sewing.*（她买了一卷棉线用于缝纫。）
 - **reel in**：收卷（钓鱼线）
-  - *He slowly reeled in the fish.*
+  - *He slowly reeled in the fish.*（他慢慢收线把鱼拉上来。）
 - **reel off**：流畅地说出
-  - *She reeled off a list of statistics from memory.*
+  - *She reeled off a list of statistics from memory.*（她凭记忆流畅地说出了一串统计数据。）
 - **reel from**：因……而震惊/混乱
-  - *The city was still reeling from the earthquake.*
+  - *The city was still reeling from the earthquake.*（这座城市仍然因地震而感到震惊和混乱。）
 
 ## 真题/语料关联
 

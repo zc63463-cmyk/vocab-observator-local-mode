@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **digital technology**：数字技术
-  - *Digital technology has transformed the way we communicate.*
+  - *Digital technology has transformed the way we communicate.*（数字技术改变了我们沟通的方式。）
 - **digital camera**：数码相机
-  - *Digital cameras have largely replaced film cameras.*
+  - *Digital cameras have largely replaced film cameras.*（数码相机在很大程度上取代了胶片相机。）
 - **digital media**：数字媒体
-  - *Digital media includes websites, social media, and streaming services.*
+  - *Digital media includes websites, social media, and streaming services.*（数字媒体包括网站、社交媒体和流媒体服务。）
 - **digital transformation**：数字化转型
-  - *Many companies are undergoing digital transformation to stay competitive.*
+  - *Many companies are undergoing digital transformation to stay competitive.*（许多公司正在进行数字化转型以保持竞争力。）
 - **digital native**：数字原住民（从小接触数字技术的人）
-  - *Today's students are digital natives who have grown up with technology.*
+  - *Today's students are digital natives who have grown up with technology.*（今天的学生是与技术一起长大的数字原住民。）
 
 ## 真题/语料关联
 

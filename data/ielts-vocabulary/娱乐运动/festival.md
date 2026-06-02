@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **music festival**：音乐节
-  - *The city hosts an annual music festival in the summer.*
+  - *The city hosts an annual music festival in the summer.*（这座城市每年夏天举办音乐节。）
 - **film festival**：电影节
-  - *The Cannes Film Festival is one of the most prestigious in the world.*
+  - *The Cannes Film Festival is one of the most prestigious in the world.*（戛纳电影节是世界上最负盛名的电影节之一。）
 - **festival season**：节日期间
-  - *The festival season is a busy time for retailers.*
+  - *The festival season is a busy time for retailers.*（节日期间是零售商的忙碌时节。）
 - **street festival**：街头节庆
-  - *The street festival featured live performances and food stalls.*
+  - *The street festival featured live performances and food stalls.*（街头节庆以现场表演和美食摊位为特色。）
 - **harvest festival**：丰收节
-  - *The harvest festival celebrates the year's agricultural bounty.*
+  - *The harvest festival celebrates the year's agricultural bounty.*（丰收节庆祝一年的农业丰收。）
 
 ## 真题/语料关联
 

@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **be numerate**：有数学素养的
-  - *Students need to be numerate to succeed in science subjects.*
+  - *Students need to be numerate to succeed in science subjects.*（中文翻译）
 - **highly numerate**：数学能力很强的
-  - *The job requires someone who is highly numerate.*
+  - *The job requires someone who is highly numerate.*（中文翻译）
 - **numerically literate**：精通数字的
-  - *In today's data-driven world, being numerically literate is essential.*
+  - *In today's data-driven world, being numerically literate is essential.*（中文翻译）
 - **mathematically numerate**：有数学素养的
-  - *A mathematically numerate person can understand statistical data.*
+  - *A mathematically numerate person can understand statistical data.*（中文翻译）
 - **become numerate**：学会数学
-  - *Children become numerate through practice and education.*
+  - *Children become numerate through practice and education.*（中文翻译）
 - **innumerate**：无数学素养的
-  - *Many adults are innumerate and struggle with basic calculations.*
+  - *Many adults are innumerate and struggle with basic calculations.*（中文翻译）
 
 ## 真题/语料关联
 

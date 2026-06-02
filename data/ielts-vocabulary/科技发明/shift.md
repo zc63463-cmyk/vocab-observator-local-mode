@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **shift position**：改变位置
-  - *The company decided to shift its position on the issue.*
+  - *The company decided to shift its position on the issue.*（公司决定改变在这个问题上的立场。）
 - **shift focus**：转移重点
-  - *The teacher shifted focus from grammar to vocabulary.*
+  - *The teacher shifted focus from grammar to vocabulary.*（老师把重点从语法转移到了词汇。）
 - **shift blame**：转嫁责任
-  - *He tried to shift the blame onto his colleague.*
+  - *He tried to shift the blame onto his colleague.*（他试图把责任转嫁给同事。）
 - **night shift**：夜班
-  - *She works the night shift at the hospital.*
+  - *She works the night shift at the hospital.*（她在医院上夜班。）
 - **paradigm shift**：范式转变
-  - *The discovery caused a paradigm shift in scientific thinking.*
+  - *The discovery caused a paradigm shift in scientific thinking.*（这个发现引起了科学思维的范式转变。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **supply chain logistics**：供应链物流
-  - *Efficient supply chain logistics are crucial for business success.*
+  - *Efficient supply chain logistics are crucial for business success.*（中文翻译）
 - **military logistics**：军事后勤
-  - *Military logistics involves the movement of troops and supplies.*
+  - *Military logistics involves the movement of troops and supplies.*（中文翻译）
 - **logistics company**：物流公司
-  - *The logistics company handles all our shipping needs.*
+  - *The logistics company handles all our shipping needs.*（中文翻译）
 - **logistics management**：物流管理
-  - *Logistics management is a key part of business operations.*
+  - *Logistics management is a key part of business operations.*（中文翻译）
 - **logistical** (adj.)：后勤的
-  - *The logistical challenges of the event were enormous.*
+  - *The logistical challenges of the event were enormous.*（中文翻译）
 
 ## 真题/语料关联
 

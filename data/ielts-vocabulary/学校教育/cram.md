@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **cram for an exam**：临时抱佛脚
-  - *I stayed up all night cramming for the exam.*
+  - *I stayed up all night cramming for the exam.*（我熬夜突击复习准备考试。）
 - **cram into**：挤入
-  - *We all crammed into the small elevator.*
+  - *We all crammed into the small elevator.*（我们都挤进了狭小的电梯里。）
 - **cram something into**：把某物塞入
-  - *She tried to cram all her clothes into one suitcase.*
+  - *She tried to cram all her clothes into one suitcase.*（她试图把所有衣服都塞进一个行李箱里。）
 - **cram school**：补习班
-  - *Many students attend cram schools after regular classes.*
+  - *Many students attend cram schools after regular classes.*（许多学生放学后去上补习班。）
 - **cram session**：突击学习课
-  - *The professor held a cram session before the final exam.*
+  - *The professor held a cram session before the final exam.*（教授在期末考试前组织了一次突击学习课。）
 - **cram down**：狼吞虎咽地吃
-  - *He crammed down his lunch and rushed to the meeting.*
+  - *He crammed down his lunch and rushed to the meeting.*（他狼吞虎咽地吃完午饭就赶去开会了。）
 
 ## 真题/语料关联
 

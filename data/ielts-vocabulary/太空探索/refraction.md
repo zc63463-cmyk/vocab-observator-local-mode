@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **light refraction**：光折射
-  - *Light refraction explains why objects appear bent when viewed through water.*
+  - *Light refraction explains why objects appear bent when viewed through water.*（光的折射解释了为什么透过水看物体会显得弯曲。）
 - **atmospheric refraction**：大气折射
-  - *Atmospheric refraction allows us to see the Sun before it actually rises.*
+  - *Atmospheric refraction allows us to see the Sun before it actually rises.*（大气折射使我们能够在太阳实际升起之前就看到它。）
 - **refractive index**：折射率
-  - *The refractive index of glass is higher than that of air.*
+  - *The refractive index of glass is higher than that of air.*（玻璃的折射率比空气高。）
 - **refracting telescope**：折射望远镜
-  - *A refracting telescope uses lenses to focus light through refraction.*
+  - *A refracting telescope uses lenses to focus light through refraction.*（折射望远镜使用透镜通过折射来聚焦光线。）
 - **refraction of light**：光的折射
-  - *The refraction of light through a prism creates a rainbow.*
+  - *The refraction of light through a prism creates a rainbow.*（光线通过棱镜的折射产生彩虹。）
 
 ## 真题/语料关联
 

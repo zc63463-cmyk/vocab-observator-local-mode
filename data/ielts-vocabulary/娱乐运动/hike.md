@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go on a hike**：去徒步旅行
-  - *We went on a hike in the national park last weekend.*
+  - *We went on a hike in the national park last weekend.*（上周末我们去国家公园徒步旅行了。）
 - **hiking trail**：徒步小径
-  - *The hiking trail offers stunning views of the valley.*
+  - *The hiking trail offers stunning views of the valley.*（这条徒步小径能欣赏到山谷的壮丽景色。）
 - **hiking boots**：登山靴
-  - *You'll need sturdy hiking boots for the mountain trail.*
+  - *You'll need sturdy hiking boots for the mountain trail.*（走山路你需要一双结实的登山靴。）
 - **day hike**：一日徒步
-  - *The day hike to the waterfall takes about four hours.*
+  - *The day hike to the waterfall takes about four hours.*（去瀑布的一日徒步大约需要四个小时。）
 - **price hike**：涨价
-  - *The price hike in fuel has affected many industries.*
+  - *The price hike in fuel has affected many industries.*（燃料涨价已经影响到了许多行业。）
 
 ## 真题/语料关联
 

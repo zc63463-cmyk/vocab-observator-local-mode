@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **endangered species**：濒危物种
-  - *The giant panda is one of the world's most iconic endangered species.*
+  - *The giant panda is one of the world's most iconic endangered species.*（大熊猫是世界上最具代表性的濒危物种之一。）
 - **invasive species**：入侵物种
-  - *Invasive species can cause significant damage to native ecosystems.*
+  - *Invasive species can cause significant damage to native ecosystems.*（入侵物种会对本地生态系统造成重大破坏。）
 - **species diversity**：物种多样性
-  - *Tropical rainforests have the highest species diversity on Earth.*
+  - *Tropical rainforests have the highest species diversity on Earth.*（热带雨林拥有地球上最高的物种多样性。）
 - **species extinction**：物种灭绝
-  - *Scientists warn that the current rate of species extinction is unprecedented.*
+  - *Scientists warn that the current rate of species extinction is unprecedented.*（科学家警告说，当前的物种灭绝速度是前所未有的。）
 - **native species**：本地物种
-  - *Conservation efforts focus on protecting native species from habitat loss.*
+  - *Conservation efforts focus on protecting native species from habitat loss.*（保护工作侧重于保护本地物种免受栖息地丧失的影响。）
 
 ## 真题/语料关联
 

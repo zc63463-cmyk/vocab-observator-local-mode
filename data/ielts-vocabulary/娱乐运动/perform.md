@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **perform on stage**：在舞台上表演
-  - *The singer performed on stage in front of thousands of fans.*
+  - *The singer performed on stage in front of thousands of fans.*（歌手在舞台上面对成千上万的粉丝表演。）
 - **perform a task**：执行任务
-  - *The robot can perform tasks with precision and speed.*
+  - *The robot can perform tasks with precision and speed.*（这个机器人可以精确快速地执行任务。）
 - **perform well/badly**：表现好/差
-  - *The company performed well financially last year.*
+  - *The company performed well financially last year.*（公司去年的财务状况表现良好。）
 - **perform an operation**：进行手术
-  - *The surgeon performed a complex operation.*
+  - *The surgeon performed a complex operation.*（外科医生进行了一场复杂的手术。）
 - **perform miracles**：创造奇迹
-  - *The new treatment performed miracles for the patient.*
+  - *The new treatment performed miracles for the patient.*（新疗法为患者创造了奇迹。）
 
 ## 真题/语料关联
 

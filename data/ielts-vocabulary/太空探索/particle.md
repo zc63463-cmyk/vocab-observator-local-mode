@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **subatomic particle**：亚原子粒子
-  - *Protons, neutrons, and electrons are subatomic particles.*
+  - *Protons, neutrons, and electrons are subatomic particles.*（质子、中子和电子是亚原子粒子。）
 - **particle physics**：粒子物理学
-  - *Particle physics studies the fundamental building blocks of matter.*
+  - *Particle physics studies the fundamental building blocks of matter.*（粒子物理学研究物质的基本组成单元。）
 - **particle accelerator**：粒子加速器
-  - *The Large Hadron Collider is the world's largest particle accelerator.*
+  - *The Large Hadron Collider is the world's largest particle accelerator.*（大型强子对撞机是世界上最大的粒子加速器。）
 - **dust particle**：尘埃颗粒
-  - *Dust particles in the air can cause respiratory problems.*
+  - *Dust particles in the air can cause respiratory problems.*（空气中的尘埃颗粒会引起呼吸问题。）
 - **particle pollution**：颗粒污染
-  - *Particle pollution from vehicles is a major health concern in cities.*
+  - *Particle pollution from vehicles is a major health concern in cities.*（来自车辆的颗粒物污染是城市中的一个主要健康问题。）
 
 ## 真题/语料关联
 

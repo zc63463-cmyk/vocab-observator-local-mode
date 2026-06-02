@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research fellowship**：研究奖学金
-  - *She was awarded a research fellowship at Oxford.*
+  - *She was awarded a research fellowship at Oxford.*（她获得了牛津大学的研究奖学金。）
 - **apply for a fellowship**：申请研究金
-  - *He applied for a fellowship to fund his PhD studies.*
+  - *He applied for a fellowship to fund his PhD studies.*（他申请了研究金来资助博士研究。）
 - **sense of fellowship**：伙伴关系感
-  - *There was a strong sense of fellowship among the team members.*
+  - *There was a strong sense of fellowship among the team members.*（团队成员之间有着强烈的伙伴情谊。）
 - **senior fellowship**：高级研究员职位
-  - *She holds a senior fellowship at the institute.*
+  - *She holds a senior fellowship at the institute.*（她在该研究所担任高级研究员。）
 - **fellowship program**：研究员项目
-  - *The fellowship program attracts scholars from around the world.*
+  - *The fellowship program attracts scholars from around the world.*（该研究员项目吸引了来自世界各地的学者。）
 
 ## 真题/语料关联
 

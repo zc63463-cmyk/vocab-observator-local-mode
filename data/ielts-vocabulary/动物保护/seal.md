@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **seal pup**：小海豹
-  - *The seal pup was left on the beach while its mother hunted for food.*
+  - *The seal pup was left on the beach while its mother hunted for food.*（海豹幼崽被留在海滩上，而它的母亲则去捕食。）
 - **seal of approval**：批准，认可
-  - *The product received the government's seal of approval.*
+  - *The product received the government's seal of approval.*（该产品获得了政府的批准印章。）
 - **seal the deal**：敲定交易，达成协议
-  - *A handshake is often enough to seal the deal.*
+  - *A handshake is often enough to seal the deal.*（握手通常就足以达成协议。）
 - **break the seal**：打破封条；（口语）第一次上厕所
-  - *Don't break the seal on the medicine bottle until you're ready to use it.*
+  - *Don't break the seal on the medicine bottle until you're ready to use it.*（在准备使用之前不要打开药瓶的封口。）
 - **seal off**：封锁，封闭
-  - *The police sealed off the area after the explosion.*
+  - *The police sealed off the area after the explosion.*（爆炸后警方封锁了该区域。）
 
 ## 真题/语料关联
 

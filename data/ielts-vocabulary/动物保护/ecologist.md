@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **conservation ecologist**：保护生态学家
-  - *Conservation ecologists work to preserve biodiversity in threatened ecosystems.*
+  - *Conservation ecologists work to preserve biodiversity in threatened ecosystems.*（保护生态学家致力于保护受威胁生态系统中的生物多样性。）
 - **marine ecologist**：海洋生态学家
-  - *Marine ecologists study the health of coral reefs and ocean food chains.*
+  - *Marine ecologists study the health of coral reefs and ocean food chains.*（海洋生态学家研究珊瑚礁和海洋食物链的健康状况。）
 - **forest ecologist**：森林生态学家
-  - *Forest ecologists monitor the impact of deforestation on wildlife habitats.*
+  - *Forest ecologists monitor the impact of deforestation on wildlife habitats.*（森林生态学家监测森林砍伐对野生动物栖息地的影响。）
 - **urban ecologist**：城市生态学家
-  - *Urban ecologists research how wildlife adapts to city environments.*
+  - *Urban ecologists research how wildlife adapts to city environments.*（城市生态学家研究野生动物如何适应城市环境。）
 - **restoration ecologist**：修复生态学家
-  - *Restoration ecologists design projects to rehabilitate degraded ecosystems.*
+  - *Restoration ecologists design projects to rehabilitate degraded ecosystems.*（恢复生态学家设计项目以修复退化的生态系统。）
 
 ## 真题/语料关联
 

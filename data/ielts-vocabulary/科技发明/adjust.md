@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **adjust the settings**：调整设置
-  - *You can adjust the settings to suit your preferences.*
+  - *You can adjust the settings to suit your preferences.*（你可以调整设置以适应个人偏好。）
 - **adjust to**：适应
-  - *It took time to adjust to the new environment.*
+  - *It took time to adjust to the new environment.*（适应新环境需要时间。）
 - **adjust for**：校正，考虑
-  - *The results were adjusted for age and gender.*
+  - *The results were adjusted for age and gender.*（结果根据年龄和性别进行了校正。）
 - **adjust clothing**：整理衣服
-  - *He adjusted his tie before the interview.*
-- **fine-adjust**：精细调整
-  - *The instrument needs to be fine-adjusted.*
+  - *He adjusted his tie before the interview.*（面试前他整理了一下领带。）
+- **fine-tune**：精细调整
+  - *The instrument needs to be fine-tuned.*（这台仪器需要精细调整。）
 
 ## 真题/语料关联
 

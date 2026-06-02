@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a Hollywood celebrity**：好莱坞明星
-  - *The party was attended by several Hollywood celebrities.*
+  - *The party was attended by several Hollywood celebrities.*（派对上有几位好莱坞明星出席。）
 - **achieve celebrity**：获得名声
-  - *She achieved celebrity after her bestselling novel.*
+  - *She achieved celebrity after her bestselling novel.*（她的畅销小说出版后获得了名声。）
 - **celebrity culture**：名人文化
-  - *Celebrity culture has become increasingly prominent in modern society.*
+  - *Celebrity culture has become increasingly prominent in modern society.*（名人文化在现代社会中变得越来越突出。）
 - **celebrity status**：名人地位
-  - *The athlete gained celebrity status after winning the gold medal.*
+  - *The athlete gained celebrity status after winning the gold medal.*（这位运动员赢得金牌后获得了名人地位。）
 - **instant celebrity**：一夜成名
-  - *The viral video brought her instant celebrity.*
+  - *The viral video brought her instant celebrity.*（那个病毒式视频让她一夜成名。）
 
 ## 真题/语料关联
 

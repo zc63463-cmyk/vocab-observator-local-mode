@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **face adversity**：面对逆境
-  - *She showed great courage in facing adversity.*
+  - *She showed great courage in facing adversity.*（她在面对逆境时表现出了巨大的勇气。）
 - **in times of adversity**：在逆境中
-  - *True friends are those who stand by you in times of adversity.*
+  - *True friends are those who stand by you in times of adversity.*（真正的朋友是在逆境中支持你的人。）
 - **overcome adversity**：克服逆境
-  - *He overcame adversity to become a successful businessman.*
+  - *He overcame adversity to become a successful businessman.*（他克服逆境成为了一名成功的商人。）
 - **adversity and hardship**：逆境与困苦
-  - *The community pulled together through adversity and hardship.*
+  - *The community pulled together through adversity and hardship.*（社区团结一致共同度过了逆境与困苦。）
 - **prosperity and adversity**：顺境与逆境
-  - *Life is a mix of prosperity and adversity.*
+  - *Life is a mix of prosperity and adversity.*（生活是顺境与逆境的混合。）
 
 ## 真题/语料关联
 

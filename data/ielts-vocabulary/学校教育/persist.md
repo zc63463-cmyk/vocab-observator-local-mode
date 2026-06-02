@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **persist in (doing something)**：坚持（做某事）
-  - *She persisted in her efforts despite the difficulties.*
+  - *She persisted in her efforts despite the difficulties.*（中文翻译）
 - **persist with**：继续做
-  - *He persisted with the treatment until he recovered.*
+  - *He persisted with the treatment until he recovered.*（中文翻译）
 - **the problem persists**：问题持续存在
-  - *Despite many efforts, the problem persists.*
+  - *Despite many efforts, the problem persists.*（中文翻译）
 - **persistent** (adj.)：持续的
-  - *The persistent rain caused flooding.*
+  - *The persistent rain caused flooding.*（中文翻译）
 - **persistence** (n.)：坚持
-  - *His persistence finally paid off.*
+  - *His persistence finally paid off.*（中文翻译）
 
 ## 真题/语料关联
 

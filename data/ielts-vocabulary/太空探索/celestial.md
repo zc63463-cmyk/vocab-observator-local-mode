@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **celestial bodies**：天体
-  - *The Moon, Sun, and stars are all celestial bodies.*
+  - *The Moon, Sun, and stars are all celestial bodies.*（月球、太阳和星星都是天体。）
 - **celestial mechanics**：天体力学
-  - *Celestial mechanics studies the motions of planets and stars.*
+  - *Celestial mechanics studies the motions of planets and stars.*（天体力学研究行星和恒星的运动。）
 - **celestial sphere**：天球
-  - *The celestial sphere is an imaginary sphere surrounding the Earth.*
+  - *The celestial sphere is an imaginary sphere surrounding the Earth.*（天球是一个假想的包围地球的球面。）
 - **celestial navigation**：天文导航
-  - *Sailors once used celestial navigation to find their way across the oceans.*
+  - *Sailors once used celestial navigation to find their way across the oceans.*（水手们曾经使用天文导航在海洋中航行。）
 - **celestial beauty**：天仙般的美丽
-  - *The aurora borealis displayed a celestial beauty that left viewers speechless.*
+  - *The aurora borealis displayed a celestial beauty that left viewers speechless.*（北极光展现了天仙般的美丽，让观者叹为观止。）
 
 ## 真题/语料关联
 

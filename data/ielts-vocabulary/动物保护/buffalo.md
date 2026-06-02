@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **water buffalo**：水牛
-  - *The farmer uses a water buffalo to plow the rice fields.*
+  - *The farmer uses a water buffalo to plow the rice fields.*（农夫用水牛耕稻田。）
 - **American buffalo**：美洲野牛
-  - *The American buffalo was nearly hunted to extinction.*
+  - *The American buffalo was nearly hunted to extinction.*（美洲野牛几乎被捕猎至灭绝。）
 - **Cape buffalo**：非洲水牛
-  - *The Cape buffalo is one of the most dangerous animals in Africa.*
+  - *The Cape buffalo is one of the most dangerous animals in Africa.*（非洲水牛是非洲最危险的动物之一。）
 - **buffalo wings**：水牛城鸡翅
-  - *Buffalo wings are a popular appetizer in the US.*
+  - *Buffalo wings are a popular appetizer in the US.*（布法罗辣鸡翅在美国是一种受欢迎的开胃菜。）
 - **buffalo soldier**：水牛士兵（美国历史）
-  - *Buffalo soldiers were African American soldiers in the US Army.*
+  - *Buffalo soldiers were African American soldiers in the US Army.*（布法罗士兵是美国陆军中的非裔美国士兵。）
 
 ## 真题/语料关联
 

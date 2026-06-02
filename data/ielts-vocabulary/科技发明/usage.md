@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **correct usage**：正确用法
-  - *The correct usage of this word is often misunderstood.*
+  - *The correct usage of this word is often misunderstood.*（这个词的正确用法经常被误解。）
 - **common usage**：常见用法
-  - *This expression is in common usage in British English.*
+  - *This expression is in common usage in British English.*（这个表达在英式英语中是常见用法。）
 - **energy usage**：能源使用量
-  - *The company has reduced its energy usage by 20%.*
+  - *The company has reduced its energy usage by 20%.*（公司将其能源使用量减少了20%。）
 - **terms of usage**：使用条款
-  - *Please read the terms of usage before installing the software.*
+  - *Please read the terms of usage before installing the software.*（安装软件前请阅读使用条款。）
 - **modern usage**：现代用法
-  - *The word has changed its meaning in modern usage.*
+  - *The word has changed its meaning in modern usage.*（这个词在现代用法中含义发生了变化。）
 
 ## 真题/语料关联
 

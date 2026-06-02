@@ -66,15 +66,15 @@ review_count: 0
 ## 搭配与短语
 
 - **50 per cent**：百分之五十
-  - *About 50 per cent of the students passed the exam.*
+  - *About 50 per cent of the students passed the exam.*（中文翻译）
 - **a high/low per cent**：高/低百分比
-  - *A high per cent of the population lives in urban areas.*
+  - *A high per cent of the population lives in urban areas.*（中文翻译）
 - **per cent increase/decrease**：百分比增长/下降
-  - *There was a 20 per cent increase in sales.*
+  - *There was a 20 per cent increase in sales.*（中文翻译）
 - **per cent of**：……的百分比
-  - *What per cent of the budget is allocated to education?*
+  - *What per cent of the budget is allocated to education?*（中文翻译）
 - **expressed as a per cent**：以百分比表示
-  - *The results are expressed as a per cent of the total.*
+  - *The results are expressed as a per cent of the total.*（中文翻译）
 
 ## 真题/语料关联
 

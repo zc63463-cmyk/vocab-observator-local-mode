@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **school canteen**：学校食堂/小卖部
-  - *Students can buy snacks at the school canteen.*
+  - *Students can buy snacks at the school canteen.*（学生可以在学校小卖部买零食。）
 - **factory canteen**：工厂食堂
-  - *The factory canteen provides free meals for workers.*
+  - *The factory canteen provides free meals for workers.*（工厂食堂为工人提供免费餐食。）
 - **office canteen**：办公室食堂
-  - *We have lunch in the office canteen.*
+  - *We have lunch in the office canteen.*（我们在办公室食堂吃午餐。）
 - **military canteen**：军用水壶；军营小卖部
-  - *Soldiers carry a military canteen for water.*
+  - *Soldiers carry a military canteen for water.*（士兵携带军用水壶装水。）
 - **canteen food**：食堂食物
-  - *Canteen food is usually cheap but not very tasty.*
+  - *Canteen food is usually cheap but not very tasty.*（食堂的食物通常便宜但不太好吃。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **higher education**：高等教育
-  - *Access to higher education should be available to all students regardless of their background.*
+  - *Access to higher education should be available to all students regardless of their background.*（所有学生无论背景如何都应有接受高等教育的机会。）
 - **receive/get an education**：接受教育
-  - *Every child has the right to receive a quality education.*
+  - *Every child has the right to receive a quality education.*（每个孩子都有权接受优质教育。）
 - **the education sector/system**：教育部门/体系
-  - *The government has increased funding for the education sector.*
+  - *The government has increased funding for the education sector.*（政府增加了对教育部门的拨款。）
 - **moral/vocational education**：道德/职业教育
-  - *Vocational education equips students with practical skills for the workplace.*
+  - *Vocational education equips students with practical skills for the workplace.*（职业教育为学生提供职场所需的实用技能。）
 - **a man/woman of little education**：没受过多少教育的人
-  - *Despite being a man of little education, he built a successful business.*
+  - *Despite being a man of little education, he built a successful business.*（尽管他受教育程度不高，但创建了一家成功的企业。）
 
 ## 真题/语料关联
 

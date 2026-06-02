@@ -70,17 +70,17 @@ review_count: 0
 ## 搭配与短语
 
 - **local community**：当地社区
-  - *The local community came together to support the families affected by the flood.*
+  - *The local community came together to support the families affected by the flood.*（当地社区团结起来支持受洪水影响的家庭。）
 - **local government**：地方政府
-  - *Local government is responsible for public services like waste collection.*
+  - *Local government is responsible for public services like waste collection.*（地方政府负责垃圾收集等公共服务。）
 - **local resident**：当地居民
-  - *Local residents have expressed concerns about the new development.*
+  - *Local residents have expressed concerns about the new development.*（当地居民对新开发项目表示担忧。）
 - **local area**：本地地区
-  - *There are many attractions in the local area.*
+  - *There are many attractions in the local area.*（本地地区有许多景点。）
 - **local time**：当地时间
-  - *The plane arrived at 10pm local time.*
+  - *The plane arrived at 10pm local time.*（飞机于当地时间晚上10点抵达。）
 - **go local**：融入当地生活
-  - *When travelling, I prefer to go local and eat at small family restaurants.*
+  - *When travelling, I prefer to go local and eat at small family restaurants.*（旅行时，我更喜欢融入当地生活，在小家庭餐馆吃饭。）
 
 ## 真题/语料关联
 

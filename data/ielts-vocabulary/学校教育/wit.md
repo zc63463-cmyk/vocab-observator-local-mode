@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **quick wit**：机智，敏捷的思维
-  - *Her quick wit saved the situation from becoming awkward.*
+  - *Her quick wit saved the situation from becoming awkward.*（她的机智避免了局面变得尴尬。）
 - **sharp wit**：敏锐的机智
-  - *He's known for his sharp wit and clever remarks.*
+  - *He's known for his sharp wit and clever remarks.*（他以敏锐的机智和聪明的言辞而闻名。）
 - **keep one's wits about one**：保持警惕，保持头脑清醒
-  - *You need to keep your wits about you in this competitive environment.*
+  - *You need to keep your wits about you in this competitive environment.*（在这个竞争激烈的环境中你需要保持警惕。）
 - **at one's wits' end**：智穷计尽，不知所措
-  - *I'm at my wits' end trying to solve this problem.*
+  - *I'm at my wits' end trying to solve this problem.*（我绞尽脑汁也无法解决这个问题。）
 - **live by one's wits**：靠小聪明过日子
-  - *After losing his job, he lived by his wits for a while.*
+  - *After losing his job, he lived by his wits for a while.*（失业后，他靠小聪明过活了一段时间。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **natural barrier**：天然屏障
-  - *The Himalayas form a natural barrier between India and China.*
+  - *The Himalayas form a natural barrier between India and China.*（喜马拉雅山脉构成了印度和中国之间的天然屏障。）
 - **language barrier**：语言障碍
-  - *The language barrier made it difficult for immigrants to access healthcare.*
+  - *The language barrier made it difficult for immigrants to access healthcare.*（语言障碍使移民难以获得医疗服务。）
 - **trade barrier**：贸易壁垒
-  - *The government imposed trade barriers to protect domestic industries.*
+  - *The government imposed trade barriers to protect domestic industries.*（政府实施贸易壁垒以保护国内产业。）
 - **barrier reef**：堡礁（沿海岸线形成的珊瑚礁）
-  - *The Great Barrier Reef is the world's largest coral reef system.*
+  - *The Great Barrier Reef is the world's largest coral reef system.*（大堡礁是世界上最大的珊瑚礁系统。）
 - **break down barriers**：打破障碍
-  - *Education can help break down barriers between different cultures.*
+  - *Education can help break down barriers between different cultures.*（教育有助于打破不同文化之间的障碍。）
 
 ## 真题/语料关联
 

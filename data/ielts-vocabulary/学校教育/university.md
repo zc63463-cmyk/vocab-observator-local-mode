@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go to university**：上大学
-  - *She went to university to study law.*
+  - *She went to university to study law.*（她上大学学习法律。）
 - **attend university**：就读大学
-  - *He attended Oxford University from 2018 to 2021.*
+  - *He attended Oxford University from 2018 to 2021.*（他于2018年至2021年就读于牛津大学。）
 - **apply to university**：申请大学
-  - *Students should apply to university well before the deadline.*
+  - *Students should apply to university well before the deadline.*（学生应在截止日期之前尽早申请大学。）
 - **at university**：在大学期间
-  - *I met my best friend at university.*
+  - *I met my best friend at university.*（我在大学遇到了我最好的朋友。）
 - **university degree**：大学学位
-  - *A university degree is often a prerequisite for professional jobs.*
+  - *A university degree is often a prerequisite for professional jobs.*（大学学位通常是专业工作的先决条件。）
 
 ## 真题/语料关联
 

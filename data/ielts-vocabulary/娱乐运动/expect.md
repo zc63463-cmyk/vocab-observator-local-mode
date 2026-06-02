@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **expect success**：期待成功
-  - *We expect success in our new venture.*
+  - *We expect success in our new venture.*（我们期待新事业的成功。）
 - **expect problems**：预料问题
-  - *We did not expect the problems that arose.*
+  - *We did not expect the problems that arose.*（我们没有预料到出现的问题。）
 - **expect someone to do something**：指望某人做某事
-  - *The teacher expects the students to complete the assignment on time.*
+  - *The teacher expects the students to complete the assignment on time.*（老师期望学生按时完成作业。）
 - **be expected to**：被期望/预计
-  - *The project is expected to be completed by next month.*
+  - *The project is expected to be completed by next month.*（这个项目预计下个月完成。）
 - **be expecting**：怀孕
-  - *She is expecting her first child.*
+  - *She is expecting her first child.*（她怀了第一个孩子。）
 
 ## 真题/语料关联
 

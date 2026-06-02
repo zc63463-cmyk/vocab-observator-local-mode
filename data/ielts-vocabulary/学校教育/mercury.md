@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mercury thermometer**：水银温度计
-  - *The doctor used a mercury thermometer to check my temperature.*
+  - *The doctor used a mercury thermometer to check my temperature.*（中文翻译）
 - **mercury poisoning**：水银中毒
-  - *Mercury poisoning can cause serious neurological damage.*
+  - *Mercury poisoning can cause serious neurological damage.*（中文翻译）
 - **the planet Mercury**：水星
-  - *Mercury is the smallest planet in our solar system.*
+  - *Mercury is the smallest planet in our solar system.*（中文翻译）
 - **mercury rising**：水银柱上升（比喻温度上升或情绪高涨）
-  - *The mercury is rising as summer approaches.*
+  - *The mercury is rising as summer approaches.*（中文翻译）
 - **quick as mercury**：像水银一样快（比喻行动迅速）
-  - *The child was quick as mercury, darting around the playground.*
+  - *The child was quick as mercury, darting around the playground.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { FreeZenWordPicker } from "@/components/review/free/FreeZenWordPicker";
 import { springs } from "@/components/motion";
 import { Button } from "@/components/ui/Button";
+import { useWordbook } from "@/components/wordbook/WordbookContext";
 
 interface FreeZenCandidate {
   id: string;
@@ -15,10 +16,14 @@ interface FreeZenCandidate {
   ipa: string | null;
   short_definition: string | null;
   metadata: unknown;
+  prefixes?: string[];
+  suffixes?: string[];
 }
 
 export default function FreeZenSelectPage() {
   const router = useRouter();
+  const { activeWordbook } = useWordbook();
+  const activeWordbookId = activeWordbook?.id ?? null;
   const [candidates, setCandidates] = useState<FreeZenCandidate[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -27,7 +32,10 @@ export default function FreeZenSelectPage() {
     let mounted = true;
     const load = async () => {
       try {
-        const res = await fetch("/api/words/index");
+        const url = activeWordbookId
+          ? `/api/review/zen-candidates?wordbookId=${encodeURIComponent(activeWordbookId)}`
+          : "/api/review/zen-candidates";
+        const res = await fetch(url);
         if (!res.ok) {
           const payload = (await res.json()) as { error?: string };
           throw new Error(payload.error ?? "加载词条失败");
@@ -44,7 +52,7 @@ export default function FreeZenSelectPage() {
     };
     void load();
     return () => { mounted = false; };
-  }, []);
+  }, [activeWordbookId]);
 
   const handleStart = useCallback((selectedIds: string[]) => {
     if (selectedIds.length === 0) return;
@@ -65,7 +73,7 @@ export default function FreeZenSelectPage() {
           transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
         />
         <p className="mt-4 text-sm text-[var(--color-ink-soft)] opacity-60">
-          正在加载词条列表…
+          正在加载复习队列…
         </p>
       </div>
     );

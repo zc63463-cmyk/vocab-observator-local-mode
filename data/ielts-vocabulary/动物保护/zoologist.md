@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **marine zoologist**：海洋动物学家
-  - *The marine zoologist studied the migration patterns of humpback whales.*
+  - *The marine zoologist studied the migration patterns of humpback whales.*（这位海洋动物学家研究了座头鲸的迁徙模式。）
 - **wildlife zoologist**：野生动物学家
-  - *Wildlife zoologists work to protect endangered species in their natural habitats.*
+  - *Wildlife zoologists work to protect endangered species in their natural habitats.*（野生动物动物学家致力于保护自然栖息地中的濒危物种。）
 - **field zoologist**：野外动物学家
-  - *Field zoologists spend years observing animal behavior in remote locations.*
+  - *Field zoologists spend years observing animal behavior in remote locations.*（野外动物学家花费数年时间在偏远地点观察动物行为。）
 - **zoo zoologist**：动物园动物学家
-  - *The zoo zoologist designed enrichment programs for captive animals.*
+  - *The zoo zoologist designed enrichment programs for captive animals.*（动物园动物学家为圈养动物设计了丰富活动项目。）
 - **comparative zoologist**：比较动物学家
-  - *Comparative zoologists study similarities and differences across species.*
+  - *Comparative zoologists study similarities and differences across species.*（比较动物学家研究不同物种之间的异同。）
 
 ## 真题/语料关联
 

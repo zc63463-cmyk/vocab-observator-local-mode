@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **keep a record (of)**：记录，记载
-  - *It's important to keep a record of your expenses.*
+  - *It's important to keep a record of your expenses.*（记录你的开支很重要。）
 - **break/beat a record**：打破纪录
-  - *She broke the world record in the 100-meter sprint.*
+  - *She broke the world record in the 100-meter sprint.*（她打破了100米短跑的世界纪录。）
 - **medical/school records**：医疗/学校档案
-  - *The hospital keeps detailed medical records of all patients.*
+  - *The hospital keeps detailed medical records of all patients.*（医院保存所有患者的详细病历。）
 - **on record**：有记录的
-  - *This is the hottest summer on record.*
+  - *This is the hottest summer on record.*（这是有记录以来最热的夏天。）
 - **record high/low**：创纪录的高/低
-  - *The stock market reached a record high last week.*
+  - *The stock market reached a record high last week.*（上周股市达到了历史新高。）
 
 ## 真题/语料关联
 

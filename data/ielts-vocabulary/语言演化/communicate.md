@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **communicate with**：与……交流
-  - *It's important to communicate with your team regularly.*
+  - *It's important to communicate with your team regularly.*（定期与你的团队沟通很重要。）
 - **communicate ideas**：传达想法
-  - *The ability to communicate ideas clearly is essential in business.*
+  - *The ability to communicate ideas clearly is essential in business.*（清晰传达想法的能力在商业中至关重要。）
 - **communicate effectively**：有效沟通
-  - *Good leaders know how to communicate effectively with their employees.*
+  - *Good leaders know how to communicate effectively with their employees.*（优秀的领导者知道如何与员工有效沟通。）
 - **communication skills**：沟通技巧
-  - *Strong communication skills are valued in every profession.*
+  - *Strong communication skills are valued in every profession.*（强大的沟通技巧在每个行业都受到重视。）
 - **communicate via**：通过……沟通
-  - *We communicate via email and video calls.*
+  - *We communicate via email and video calls.*（我们通过电子邮件和视频通话沟通。）
 
 ## 真题/语料关联
 

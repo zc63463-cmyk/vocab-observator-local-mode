@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play volleyball**：打排球
-  - *We played volleyball on the beach during our vacation.*
+  - *We played volleyball on the beach during our vacation.*（我们在度假时在海滩上打了排球。）
 - **volleyball court**：排球场
-  - *The volleyball court was set up in the school gymnasium.*
+  - *The volleyball court was set up in the school gymnasium.*（排球场设在学校的体育馆里。）
 - **volleyball net**：排球网
-  - *The volleyball net needs to be adjusted to the correct height.*
+  - *The volleyball net needs to be adjusted to the correct height.*（排球网需要调整到正确的高度。）
 - **beach volleyball**：沙滩排球
-  - *Beach volleyball became an Olympic sport in 1996.*
+  - *Beach volleyball became an Olympic sport in 1996.*（沙滩排球于1996年成为奥运会项目。）
 - **volleyball team**：排球队
-  - *Our school volleyball team won the regional championship.*
+  - *Our school volleyball team won the regional championship.*（我们学校排球队赢得了地区冠军。）
 
 ## 真题/语料关联
 

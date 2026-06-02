@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go jogging**：去慢跑
-  - *I go jogging in the park every morning.*
+  - *I go jogging in the park every morning.*（我每天早上去公园慢跑。）
 - **go for a jog**：去慢跑
-  - *Let's go for a jog before breakfast.*
+  - *Let's go for a jog before breakfast.*（我们早餐前去慢跑吧。）
 - **jogging suit**：慢跑服
-  - *She wore a comfortable jogging suit for her morning run.*
+  - *She wore a comfortable jogging suit for her morning run.*（她穿了一身舒适的慢跑服去晨跑。）
 - **jogging track**：慢跑道
-  - *The jogging track around the lake is very popular.*
+  - *The jogging track around the lake is very popular.*（环湖的那条慢跑道很受欢迎。）
 - **jog someone's memory**：唤醒某人的记忆
-  - *The photo helped jog my memory about the trip.*
+  - *The photo helped jog my memory about the trip.*（这张照片唤起了我对那次旅行的记忆。）
 
 ## 真题/语料关联
 

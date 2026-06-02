@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a knight in shining armor**：白马骑士（拯救者）
-  - *He appeared like a knight in shining armor to help her.*
+  - *He appeared like a knight in shining armor to help her.*（他像白马骑士一样出现来帮助她。）
 - **knight errant**：游侠骑士
-  - *Don Quixote was a famous knight errant.*
+  - *Don Quixote was a famous knight errant.*（堂吉诃德是一位著名的游侠骑士。）
 - **the Knights of the Round Table**：圆桌骑士
-  - *The Knights of the Round Table served King Arthur.*
+  - *The Knights of the Round Table served King Arthur.*（圆桌骑士为亚瑟王服务。）
 - **knight bachelor**：最低级爵士
-  - *He was made a knight bachelor for his services to education.*
+  - *He was made a knight bachelor for his services to education.*（他因对教育的贡献而被封为最低级爵士。）
 - **knighthood** (n.) — 骑士身份，爵士称号
-  - *He received a knighthood from the Queen.*
+  - *He received a knighthood from the Queen.*（他从女王那里获得了爵士称号。）
 
 ## 真题/语料关联
 

@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **common/popular idiom**：常见的习语
-  - *"Break a leg" is a common idiom meaning "good luck."*
+  - *"Break a leg" is a common idiom meaning "good luck."*（"Break a leg"是一个常见的习语，意思是"祝你好运"。）
 - **English idiom**：英语习语
-  - *Learning English idioms can help you sound more natural.*
+  - *Learning English idioms can help you sound more natural.*（学习英语习语能让你的英语听起来更自然。）
 - **use an idiom**：使用习语
-  - *She used an idiom that I had never heard before.*
+  - *She used an idiom that I had never heard before.*（她用了一个我从未听过的习语。）
 - **idiomatic expression**：地道的表达
-  - *Using idiomatic expressions can improve your IELTS speaking score.*
+  - *Using idiomatic expressions can improve your IELTS speaking score.*（使用地道表达可以提高你的雅思口语成绩。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **believe in astrology**：相信占星术
-  - *Many people believe in astrology and check their horoscope daily.*
+  - *Many people believe in astrology and check their horoscope daily.*（许多人相信占星术，每天查看星座运势。）
 - **Western/Chinese astrology**：西方/中国占星术
-  - *Western astrology is based on the twelve zodiac signs.*
+  - *Western astrology is based on the twelve zodiac signs.*（西方占星术基于十二星座。）
 - **astrology chart/horoscope**：星盘/星座运势
-  - *She had her astrology chart read by a professional astrologer.*
+  - *She had her astrology chart read by a professional astrologer.*（她让专业的占星师解读了她的星盘。）
 - **astrological sign**：星座
-  - *What's your astrological sign? I'm a Scorpio.*
+  - *What's your astrological sign? I'm a Scorpio.*（你是什么星座？我是天蝎座。）
 - **astrology reading**：占星解读
-  - *An astrology reading can reveal personality traits and potential challenges.*
+  - *An astrology reading can reveal personality traits and potential challenges.*（占星解读可以揭示性格特征和潜在挑战。）
 
 ## 真题/语料关联
 

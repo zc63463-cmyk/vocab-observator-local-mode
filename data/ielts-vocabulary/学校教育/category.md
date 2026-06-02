@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fall into a category**：属于某一类别
-  - *This type of problem falls into a different category.*
+  - *This type of problem falls into a different category.*（这类问题属于不同的类别。）
 - **belong to a category**：属于某一类别
-  - *The product belongs to the premium category.*
+  - *The product belongs to the premium category.*（该产品属于高端类别。）
 - **age category**：年龄组
-  - *The competition is open to all age categories.*
+  - *The competition is open to all age categories.*（比赛对所有年龄组开放。）
 - **income category**：收入等级
-  - *Families in the lowest income category need more support.*
+  - *Families in the lowest income category need more support.*（最低收入等级的家庭需要更多支持。）
 - **category mistake**：范畴错误
-  - *Asking "what color is justice?" is a category mistake.*
+  - *Asking "what color is justice?" is a category mistake.*（问"正义是什么颜色？"是一个范畴错误。）
 
 ## 真题/语料关联
 

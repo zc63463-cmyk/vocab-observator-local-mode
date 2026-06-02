@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **indulge in**：沉溺于，尽情享受
-  - *She indulged in a long hot bath after work.*
+  - *She indulged in a long hot bath after work.*（下班后她尽情享受了一个长时间的热水澡。）
 - **indulge a child**：迁就孩子
-  - *Parents should not indulge their children too much.*
+  - *Parents should not indulge their children too much.*（父母不应该过分迁就孩子。）
 - **indulge a passion**：满足热情
-  - *He indulged his passion for painting during the holidays.*
+  - *He indulged his passion for painting during the holidays.*（他在假期里满足了对绘画的热情。）
 - **indulge oneself**：放纵自己
-  - *It's okay to indulge yourself occasionally.*
+  - *It's okay to indulge yourself occasionally.*（偶尔放纵一下自己是可以的。）
 - **indulge in luxury**：享受奢侈品
-  - *She indulged in luxury during her vacation.*
+  - *She indulged in luxury during her vacation.*（她在假期里尽情享受了奢华。）
 
 ## 真题/语料关联
 

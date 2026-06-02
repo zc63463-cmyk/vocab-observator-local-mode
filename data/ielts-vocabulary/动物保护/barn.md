@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **barn door**：谷仓大门；比喻"极易击中的目标"
-  - *He couldn't miss — it was like hitting a barn door.*
+  - *He couldn't miss — it was like hitting a barn door.*（他不可能错过——那就像击中谷仓门一样容易。）
 - **barn dance**：谷仓舞会（一种乡村社交舞蹈活动）
-  - *The community organized a barn dance to raise funds for the school.*
+  - *The community organized a barn dance to raise funds for the school.*（社区组织了一场谷仓舞会为学校筹款。）
 - **barn owl**：仓鸮（常在谷仓中筑巢的猫头鹰）
-  - *The barn owl is a nocturnal predator commonly found in rural areas.*
+  - *The barn owl is a nocturnal predator commonly found in rural areas.*（仓鸮是一种在农村地区常见的夜间捕食者。）
 - **barn conversion**：谷仓改建（将旧谷仓改造成住宅）
-  - *They bought an old barn conversion in the countryside.*
+  - *They bought an old barn conversion in the countryside.*（他们在乡下买了一套由旧谷仓改造的房子。）
 - **barnstorm**：巡回演出；四处游历拉票
-  - *The politician barnstormed across the state to gather support.*
+  - *The politician barnstormed across the state to gather support.*（这位政治家在该州巡回演讲以争取支持。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **personal pronoun**：人称代词
-  - *"He" and "she" are personal pronouns.*
+  - *"He" and "she" are personal pronouns.*（"He"和"she"是人称代词。）
 - **possessive pronoun**：物主代词
-  - *"Mine" and "yours" are possessive pronouns.*
+  - *"Mine" and "yours" are possessive pronouns.*（"Mine"和"yours"是物主代词。）
 - **relative pronoun**：关系代词
-  - *"Who" and "which" are relative pronouns used to introduce relative clauses.*
+  - *"Who" and "which" are relative pronouns used to introduce relative clauses.*（"Who"和"which"是用于引导定语从句的关系代词。）
 - **reflexive pronoun**：反身代词
-  - *"Myself" and "yourself" are reflexive pronouns.*
+  - *"Myself" and "yourself" are reflexive pronouns.*（"Myself"和"yourself"是反身代词。）
 - **demonstrative pronoun**：指示代词
-  - *"This" and "that" are demonstrative pronouns.*
+  - *"This" and "that" are demonstrative pronouns.*（"This"和"that"是指示代词。）
 
 ## 真题/语料关联
 

@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **exterminate pests**：消灭害虫
-  - *Farmers use pesticides to exterminate pests that damage crops.*
+  - *Farmers use pesticides to exterminate pests that damage crops.*（农民使用杀虫剂来消灭危害作物的害虫。）
 - **be exterminated**：被灭绝
-  - *The dodo was exterminated within a century of human arrival on Mauritius.*
+  - *The dodo was exterminated within a century of human arrival on Mauritius.*（渡渡鸟在人类到达毛里求斯的一个世纪内就被灭绝了。）
 - **exterminate vermin**：灭除害兽
-  - *The government launched a campaign to exterminate vermin in urban areas.*
+  - *The government launched a campaign to exterminate vermin in urban areas.*（政府发起了一场消灭城市地区有害动物的运动。）
 - **systematically exterminate**：系统性地消灭
-  - *The invasive species was systematically exterminated to protect the native ecosystem.*
+  - *The invasive species was systematically exterminated to protect the native ecosystem.*（入侵物种被系统地消灭以保护本土生态系统。）
 
 ## 真题/语料关联
 

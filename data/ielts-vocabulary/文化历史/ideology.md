@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **political ideology**：政治意识形态
-  - *People's voting behavior is often influenced by their political ideology.*
+  - *People's voting behavior is often influenced by their political ideology.*（人们的投票行为通常受其政治意识形态的影响。）
 - **dominant ideology**：主导意识形态
-  - *The dominant ideology of a society shapes its institutions and values.*
+  - *The dominant ideology of a society shapes its institutions and values.*（社会的主导意识形态塑造了其制度和价值观。）
 - **ideological conflict**：意识形态冲突
-  - *The Cold War was characterized by ideological conflict between capitalism and communism.*
+  - *The Cold War was characterized by ideological conflict between capitalism and communism.*（冷战的特点是资本主义和共产主义之间的意识形态冲突。）
 - **ideological differences**：意识形态差异
-  - *Ideological differences can lead to political polarization.*
+  - *Ideological differences can lead to political polarization.*（意识形态差异可能导致政治两极分化。）
 - **under the guise of ideology**：以意识形态为名
-  - *Some leaders use ideology to justify their actions.*
+  - *Some leaders use ideology to justify their actions.*（一些领导人利用意识形态来证明他们的行为是正当的。）
 
 ## 真题/语料关联
 

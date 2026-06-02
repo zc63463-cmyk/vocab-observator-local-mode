@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **earthworm**：蚯蚓
-  - *Earthworms are essential for soil health.*
+  - *Earthworms are essential for soil health.*（蚯蚓对土壤健康至关重要。）
 - **worm infection**：寄生虫感染
-  - *The child was diagnosed with a worm infection.*
+  - *The child was diagnosed with a worm infection.*（这个孩子被诊断出寄生虫感染。）
 - **worm one's way through**：蠕动穿过，艰难挤过
-  - *He wormed his way through the narrow tunnel.*
+  - *He wormed his way through the narrow tunnel.*（他慢慢地钻过狭窄的隧道。）
 - **open a can of worms**：打开潘多拉盒子（惹出麻烦）
-  - *Discussing that topic is like opening a can of worms.*
+  - *Discussing that topic is like opening a can of worms.*（讨论那个话题就像打开潘多拉的盒子。）
 - **the worm turns**：弱者终于反抗
-  - *After years of abuse, the worm turned and she fought back.*
+  - *After years of abuse, the worm turned and she fought back.*（忍受了多年的虐待后，她终于反抗了。）
 
 ## 真题/语料关联
 

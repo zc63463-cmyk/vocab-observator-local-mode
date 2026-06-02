@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **improvise a song**：即兴创作歌曲
-  - *The musician improvised a beautiful melody.*
+  - *The musician improvised a beautiful melody.*（这位音乐家即兴创作了一段优美的旋律。）
 - **improvise on stage**：在舞台上即兴发挥
-  - *The actors improvised on stage during the performance.*
+  - *The actors improvised on stage during the performance.*（演员们在表演时在舞台上即兴发挥。）
 - **improvise a solution**：临时想出解决方案
-  - *We had to improvise a solution when the power went out.*
+  - *We had to improvise a solution when the power went out.*（停电时我们只好临时想办法解决。）
 - **improvise with**：用……凑合
-  - *We improvised with what we had available.*
+  - *We improvised with what we had available.*（我们用现有的东西凑合了一下。）
 
 ## 真题/语料关联
 

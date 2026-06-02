@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **magnetic tape**：磁带
-  - *Magnetic tape was the primary recording medium before digital formats.*
+  - *Magnetic tape was the primary recording medium before digital formats.*（在数字格式之前，磁带是主要的录音介质。）
 - **audio tape**：录音带
-  - *The audio tape contains a recording of the interview.*
+  - *The audio tape contains a recording of the interview.*（这盘录音带包含采访的录音。）
 - **video tape**：录像带
-  - *The video tape has footage of the wedding ceremony.*
+  - *The video tape has footage of the wedding ceremony.*（这盘录像带有婚礼的镜头。）
 - **tape recorder**：磁带录音机
-  - *The tape recorder captured every word of the speech.*
+  - *The tape recorder captured every word of the speech.*（磁带录音机录下了演讲的每一个字。）
 - **on tape**：用磁带录下
-  - *The confession was recorded on tape.*
+  - *The confession was recorded on tape.*（供词被录在了磁带上。）
 
 ## 真题/语料关联
 

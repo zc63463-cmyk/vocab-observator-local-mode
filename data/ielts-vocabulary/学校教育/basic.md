@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **basic principles**：基本原则
-  - *The course covers the basic principles of economics.*
+  - *The course covers the basic principles of economics.*（这门课程涵盖经济学的基本原则。）
 - **basic needs**：基本需要
-  - *Access to clean water is a basic human need.*
+  - *Access to clean water is a basic human need.*（获得清洁的水是一项基本人类需求。）
 - **basic knowledge**：基础知识
-  - *Students should have a basic knowledge of mathematics.*
+  - *Students should have a basic knowledge of mathematics.*（学生应具备基础数学知识。）
 - **basic skills**：基本技能
-  - *Reading and writing are basic skills for education.*
+  - *Reading and writing are basic skills for education.*（阅读和写作是教育的基本技能。）
 - **at its basic level**：在基本层面上
-  - *At its basic level, the theory is quite simple.*
+  - *At its basic level, the theory is quite simple.*（在其基本层面上，这个理论相当简单。）
 
 ## 真题/语料关联
 

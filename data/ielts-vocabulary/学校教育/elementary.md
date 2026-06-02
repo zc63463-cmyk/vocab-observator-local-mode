@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **elementary school**：小学
-  - *She teaches at an elementary school.*
+  - *She teaches at an elementary school.*（她在一所小学教书。）
 - **elementary level**：初级水平
-  - *The course is designed for elementary level students.*
+  - *The course is designed for elementary level students.*（这门课程是为初级水平学生设计的。）
 - **elementary knowledge**：基础知识
-  - *Elementary knowledge of computers is required for this job.*
+  - *Elementary knowledge of computers is required for this job.*（这份工作需要具备基础计算机知识。）
 - **elementary education**：初等教育
-  - *Elementary education is compulsory in most countries.*
+  - *Elementary education is compulsory in most countries.*（大多数国家都实行初等义务教育。）
 - **elementary particles**：基本粒子
-  - *The study of elementary particles is a branch of physics.*
+  - *The study of elementary particles is a branch of physics.*（基本粒子的研究是物理学的一个分支。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in chronological order**：按时间顺序
-  - *Please arrange the documents in chronological order.*
+  - *Please arrange the documents in chronological order.*（请按时间顺序排列文件。）
 - **a chronology of events**：事件年表
-  - *The report includes a chronology of events leading up to the crisis.*
+  - *The report includes a chronology of events leading up to the crisis.*（报告包含危机前事件的时间线。）
 - **establish a chronology**：确定年表
-  - *Archaeologists worked to establish a chronology for the artifacts.*
+  - *Archaeologists worked to establish a chronology for the artifacts.*（考古学家努力为这些文物确定年代顺序。）
 - **biblical/historical chronology**：圣经/历史年代学
-  - *The study of biblical chronology is a complex field.*
+  - *The study of biblical chronology is a complex field.*（圣经年代学的研究是一个复杂的领域。）
 - **reverse chronology**：逆时间顺序
-  - *The film uses reverse chronology to tell the story.*
+  - *The film uses reverse chronology to tell the story.*（这部电影采用倒叙的时间顺序来讲述故事。）
 
 ## 真题/语料关联
 

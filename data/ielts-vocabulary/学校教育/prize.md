@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **win first prize**：赢得一等奖
-  - *She won first prize in the speech competition.*
+  - *She won first prize in the speech competition.*（中文翻译）
 - **prize money**：奖金
-  - *The prize money for the competition is $10,000.*
+  - *The prize money for the competition is $10,000.*（中文翻译）
 - **prize possession**：珍贵的财产
-  - *This painting is my most prized possession.*
+  - *This painting is my most prized possession.*（中文翻译）
 - **prize-winning**：获奖的
-  - *He is a prize-winning scientist.*
+  - *He is a prize-winning scientist.*（中文翻译）
 - **booby prize**：末名奖（安慰奖）
-  - *Last place gets the booby prize.*
+  - *Last place gets the booby prize.*（中文翻译）
 
 ## 真题/语料关联
 

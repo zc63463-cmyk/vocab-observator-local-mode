@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **head-on collision**：正面碰撞
-  - *The head-on collision between the two trucks was catastrophic.*
+  - *The head-on collision between the two trucks was catastrophic.*（两辆卡车的正面碰撞是灾难性的。）
 - **collision course**：碰撞航线；冲突路线
-  - *The two countries are on a collision course over trade disputes.*
+  - *The two countries are on a collision course over trade disputes.*（这两个国家在贸易争端上正走向冲突。）
 - **collision detection**：碰撞检测
-  - *Modern cars have collision detection systems that can apply brakes automatically.*
+  - *Modern cars have collision detection systems that can apply brakes automatically.*（现代汽车配备碰撞检测系统，可以自动刹车。）
 - **collision of ideas/interests**：观念/利益冲突
-  - *The meeting was a collision of ideas between the old and new management.*
+  - *The meeting was a collision of ideas between the old and new management.*（这次会议是新旧管理层观念的一次碰撞。）
 - **avoid a collision**：避免碰撞
-  - *The pilot took evasive action to avoid a collision with the other aircraft.*
+  - *The pilot took evasive action to avoid a collision with the other aircraft.*（飞行员采取规避动作以避免与另一架飞机相撞。）
 
 ## 真题/语料关联
 

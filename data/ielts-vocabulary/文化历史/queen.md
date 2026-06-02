@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the Queen of ...**：……的女王
-  - *The Queen of Denmark visited the museum.*
+  - *The Queen of Denmark visited the museum.*（丹麦女王参观了博物馆。）
 - **queen-size/queen-sized**：大号的（比双人大，比特大号小）
-  - *She bought a queen-size mattress for her room.*
+  - *She bought a queen-size mattress for her room.*（她为卧室买了一张大号床垫。）
 - **the queen of ...**：……女王
-  - *Aretha Franklin was known as the queen of soul.*
+  - *Aretha Franklin was known as the queen of soul.*（艾瑞莎·弗兰克林被称为灵魂歌后。）
 - **queen consort**：王后（国王的妻子）
-  - *The queen consort accompanied the king on his tour.*
+  - *The queen consort accompanied the king on his tour.*（王后陪同国王出巡。）
 - **queen mother**：王太后（已故国王的妻子，现任国王的母亲）
-  - *The queen mother was widely respected.*
+  - *The queen mother was widely respected.*（王太后深受人们尊敬。）
 
 ## 真题/语料关联
 

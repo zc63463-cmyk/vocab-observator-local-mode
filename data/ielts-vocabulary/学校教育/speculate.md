@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **speculate about/on**：推测，猜想
-  - *Scientists speculate about the origins of the universe.*
+  - *Scientists speculate about the origins of the universe.*（科学家们推测宇宙的起源。）
 - **speculate that...**：推测……
-  - *Analysts speculate that interest rates will rise next month.*
+  - *Analysts speculate that interest rates will rise next month.*（分析人士推测下个月利率将上升。）
 - **speculate in/on**：投机
-  - *He made a fortune speculating in real estate.*
+  - *He made a fortune speculating in real estate.*（他通过投机房地产赚了一大笔钱。）
 - **purely/speculative**：纯属推测的
-  - *The claims are purely speculative and not supported by evidence.*
+  - *The claims are purely speculative and not supported by evidence.*（这些说法纯属推测，没有证据支持。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **prerequisite for**：……的先决条件
-  - *A bachelor's degree is a prerequisite for the master's program.*
+  - *A bachelor's degree is a prerequisite for the master's program.*（中文翻译）
 - **prerequisite to**：……的前提
-  - *Trust is a prerequisite to any successful relationship.*
+  - *Trust is a prerequisite to any successful relationship.*（中文翻译）
 - **basic prerequisite**：基本前提
-  - *Basic computer skills are a prerequisite for this job.*
+  - *Basic computer skills are a prerequisite for this job.*（中文翻译）
 - **prerequisite course**：前置课程
-  - *You must complete the prerequisite course before enrolling.*
+  - *You must complete the prerequisite course before enrolling.*（中文翻译）
 - **meet the prerequisites**：满足前提条件
-  - *Applicants must meet all the prerequisites before applying.*
+  - *Applicants must meet all the prerequisites before applying.*（中文翻译）
 
 ## 真题/语料关联
 

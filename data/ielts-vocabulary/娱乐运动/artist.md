@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **professional artist**：职业艺术家
-  - *She works as a professional artist in New York.*
+  - *She works as a professional artist in New York.*（她在纽约做职业艺术家。）
 - **portrait artist**：肖像画家
-  - *The portrait artist captured her likeness perfectly.*
+  - *The portrait artist captured her likeness perfectly.*（肖像画家完美地捕捉了她的容貌。）
 - **performance artist**：表演艺术家
-  - *The performance artist created a thought-provoking piece.*
+  - *The performance artist created a thought-provoking piece.*（这位表演艺术家创作了一件发人深省的作品。）
 - **street artist**：街头艺术家
-  - *The street artist painted a mural on the building.*
+  - *The street artist painted a mural on the building.*（街头艺术家在大楼上画了一幅壁画。）
 - **an artist of words**：语言大师
-  - *Shakespeare was an artist of words.*
+  - *Shakespeare was an artist of words.*（莎士比亚是语言大师。）
 
 ## 真题/语料关联
 

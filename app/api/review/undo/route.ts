@@ -3,13 +3,7 @@ import { apiErrorResponse } from "@/lib/api-error";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { reviewUndoSchema } from "@/lib/validation/schemas";
 import type { ReviewQueueItem } from "@/lib/review/types";
-import type { ParsedExample } from "@/lib/sync/parseMarkdown";
-
-function extractPreviewExamples(raw: unknown): ParsedExample[] | null {
-  const arr = Array.isArray(raw) ? (raw as ParsedExample[]) : null;
-  if (!arr || arr.length === 0) return null;
-  return arr.slice(0, 2);
-}
+import { extractPreviewExamples } from "@/lib/review/examples";
 
 export async function POST(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();
@@ -111,8 +105,13 @@ export async function POST(request: NextRequest) {
       short_definition: string | null;
       slug: string;
       title: string;
-    };
+    } | null;
   };
+
+  if (!row.words) {
+    // Undo succeeded but linked word was soft-deleted — still a success
+    return NextResponse.json({ ok: true, restoredItem: null });
+  }
 
   const restoredItem: ReviewQueueItem = {
     content_hash_snapshot: row.content_hash_snapshot,

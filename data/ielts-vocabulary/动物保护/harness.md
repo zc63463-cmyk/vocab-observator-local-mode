@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in harness**：在工作中；在职
-  - *He died in harness, working until the very end.*
+  - *He died in harness, working until the very end.*（他死在工作中，一直工作到最后一刻。）
 - **harness solar/wind energy**：利用太阳能/风能
-  - *The country aims to harness solar energy to meet 50% of its electricity needs.*
+  - *The country aims to harness solar energy to meet 50% of its electricity needs.*（该国旨在利用太阳能满足其50%的电力需求。）
 - **safety harness**：安全带
-  - *Climbers must wear a safety harness at all times.*
+  - *Climbers must wear a safety harness at all times.*（攀岩者必须始终佩戴安全绑带。）
 - **die in harness**：殉职，工作到死
-  - *The old professor died in harness, lecturing until his final days.*
+  - *The old professor died in harness, lecturing until his final days.*（老教授工作到生命最后一刻，一直讲课到临终。）
 - **get back into harness**：重新投入工作
-  - *After the holiday, it was hard to get back into harness.*
+  - *After the holiday, it was hard to get back into harness.*（假期过后，很难重新投入工作。）
 
 ## 真题/语料关联
 

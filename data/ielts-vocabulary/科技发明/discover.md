@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **discover a new species/planet**：发现新物种/行星
-  - *Scientists discovered a new species of frog in the Amazon rainforest.*
+  - *Scientists discovered a new species of frog in the Amazon rainforest.*（科学家在亚马逊雨林中发现了一种新的青蛙物种。）
 - **discover the truth**：发现真相
-  - *The investigation helped discover the truth about the accident.*
+  - *The investigation helped discover the truth about the accident.*（调查帮助发现了事故的真相。）
 - **discover talent**：发掘人才
-  - *The competition aims to discover young musical talent.*
+  - *The competition aims to discover young musical talent.*（这项比赛旨在发掘年轻的音乐人才。）
 - **discover by chance**：偶然发现
-  - *Penicillin was discovered by chance by Alexander Fleming.*
+  - *Penicillin was discovered by chance by Alexander Fleming.*（青霉素是由亚历山大·弗莱明偶然发现的。）
 - **make a discovery**：做出发现
-  - *The team made a groundbreaking discovery in cancer research.*
+  - *The team made a groundbreaking discovery in cancer research.*（该团队在癌症研究中取得了突破性发现。）
 
 ## 真题/语料关联
 

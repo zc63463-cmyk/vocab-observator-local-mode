@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study statistics**：学习统计学
-  - *She decided to study statistics at university.*
+  - *She decided to study statistics at university.*（她决定在大学学习统计学。）
 - **official statistics**：官方统计数据
-  - *The government released official statistics on unemployment.*
+  - *The government released official statistics on unemployment.*（政府发布了关于失业率的官方统计数据。）
 - **crime statistics**：犯罪统计数据
-  - *Crime statistics show a decrease in violent crime.*
+  - *Crime statistics show a decrease in violent crime.*（犯罪统计数据显示暴力犯罪有所减少。）
 - **statistical methods**：统计方法
-  - *The study used advanced statistical methods.*
+  - *The study used advanced statistical methods.*（该研究使用了先进的统计方法。）
 - **statistical analysis**：统计分析
-  - *The statistical analysis revealed significant trends.*
+  - *The statistical analysis revealed significant trends.*（统计分析揭示了显著的趋势。）
 
 ## 真题/语料关联
 

@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a piece of paper**：一张纸
-  - *Write your name on a piece of paper.*
+  - *Write your name on a piece of paper.*（中文翻译）
 - **research paper**：研究论文
-  - *She published a research paper in a top journal.*
+  - *She published a research paper in a top journal.*（中文翻译）
 - **term paper**：学期论文
-  - *The term paper is due at the end of the semester.*
+  - *The term paper is due at the end of the semester.*（中文翻译）
 - **on paper**：在纸面上；理论上
-  - *The plan looks good on paper, but it's hard to implement.*
+  - *The plan looks good on paper, but it's hard to implement.*（中文翻译）
 - **paper over**：掩盖，粉饰（问题）
-  - *They tried to paper over the cracks in their relationship.*
+  - *They tried to paper over the cracks in their relationship.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **grand opera**：大歌剧
-  - *Grand opera is known for its elaborate sets and costumes.*
+  - *Grand opera is known for its elaborate sets and costumes.*（大歌剧以其精致的布景和服装而闻名。）
 - **comic opera**：喜歌剧
-  - *Mozart's comic operas are still popular today.*
+  - *Mozart's comic operas are still popular today.*（莫扎特的喜歌剧至今仍然很受欢迎。）
 - **opera house**：歌剧院
-  - *The Sydney Opera House is an iconic building.*
+  - *The Sydney Opera House is an iconic building.*（悉尼歌剧院是一座标志性建筑。）
 - **opera singer**：歌剧演员
-  - *The opera singer had a powerful and beautiful voice.*
+  - *The opera singer had a powerful and beautiful voice.*（这位歌剧演员有着有力而优美的嗓音。）
 - **soap opera**：肥皂剧（连续剧）
-  - *She watches soap operas every evening.*
+  - *She watches soap operas every evening.*（她每天晚上都看肥皂剧。）
 
 ## 真题/语料关联
 

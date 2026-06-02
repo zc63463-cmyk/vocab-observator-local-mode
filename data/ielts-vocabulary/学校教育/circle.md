@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **draw a circle**：画一个圆
-  - *Please draw a circle with a radius of 5 cm.*
+  - *Please draw a circle with a radius of 5 cm.*（请画一个半径为5厘米的圆。）
 - **sit in a circle**：围坐成一圈
-  - *The children sat in a circle for the storytelling session.*
+  - *The children sat in a circle for the storytelling session.*（孩子们围坐成一圈听故事。）
 - **vicious circle**：恶性循环
-  - *Poverty and lack of education form a vicious circle.*
+  - *Poverty and lack of education form a vicious circle.*（贫困和缺乏教育形成恶性循环。）
 - **circle of friends**：朋友圈
-  - *She has a large circle of friends.*
+  - *She has a large circle of friends.*（她的朋友圈很广。）
 - **come full circle**：回到原点
-  - *After years of traveling, he came full circle and returned to his hometown.*
+  - *After years of traveling, he came full circle and returned to his hometown.*（经过多年的旅行，他又回到了原点——回到了家乡。）
 
 ## 真题/语料关联
 

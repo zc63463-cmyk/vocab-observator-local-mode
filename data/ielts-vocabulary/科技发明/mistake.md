@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **make a mistake**：犯错误
-  - *Everyone makes mistakes sometimes.*
+  - *Everyone makes mistakes sometimes.*（每个人有时都会犯错。）
 - **mistake A for B**：把A误认为B
-  - *I mistook her for her sister.*
+  - *I mistook her for her sister.*（我误以为她是她的妹妹。）
 - **by mistake**：错误地，无意中
-  - *I took your bag by mistake.*
+  - *I took your bag by mistake.*（我错拿了你的包。）
 - **a big mistake**：大错误
-  - *It was a big mistake to trust him.*
+  - *It was a big mistake to trust him.*（信任他是一个大错误。）
 - **learn from mistakes**：从错误中学习
-  - *We should learn from our mistakes.*
+  - *We should learn from our mistakes.*（我们应该从错误中学习。）
 
 ## 真题/语料关联
 

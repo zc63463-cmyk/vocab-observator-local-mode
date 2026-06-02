@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **assemble a machine/furniture**：组装机器/家具
-  - *It took us three hours to assemble the new bookshelf.*
+  - *It took us three hours to assemble the new bookshelf.*（我们花了三个小时组装新书架。）
 - **assemble a team**：组建团队
-  - *The company assembled a team of experts to tackle the problem.*
+  - *The company assembled a team of experts to tackle the problem.*（公司组建了一个专家团队来解决这个问题。）
 - **assemble evidence**：汇集证据
-  - *Lawyers assembled enough evidence to win the case.*
+  - *Lawyers assembled enough evidence to win the case.*（律师汇集了足够的证据来打赢这场官司。）
 - **assemble in**：在……集合
-  - *Students assembled in the main hall for the morning assembly.*
+  - *Students assembled in the main hall for the morning assembly.*（学生们在大礼堂集合参加晨会。）
 - **mass-produce and assemble**：批量生产和组装
-  - *The parts are mass-produced in one country and assembled in another.*
+  - *The parts are mass-produced in one country and assembled in another.*（零件在一个国家批量生产，在另一个国家组装。）
 
 ## 真题/语料关联
 

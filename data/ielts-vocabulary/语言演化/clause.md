@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **relative clause**：定语从句
-  - *The relative clause "who lives next door" modifies "the man".*
+  - *The relative clause "who lives next door" modifies "the man".*（定语从句"who lives next door"修饰"the man"。）
 - **main clause**：主句
-  - *Every sentence must contain at least one main clause.*
+  - *Every sentence must contain at least one main clause.*（每个句子必须至少包含一个主句。）
 - **subordinate clause**：从句
-  - *A subordinate clause cannot stand alone as a complete sentence.*
+  - *A subordinate clause cannot stand alone as a complete sentence.*（从句不能单独作为一个完整的句子。）
 - **clause in a contract**：合同条款
-  - *There is a clause in the contract that requires 30 days' notice.*
+  - *There is a clause in the contract that requires 30 days' notice.*（合同中有一个条款要求提前30天通知。）
 - **escape clause**：免责条款
-  - *The lease includes an escape clause in case of job relocation.*
+  - *The lease includes an escape clause in case of job relocation.*（租约中包含一个因工作调动而免责的条款。）
 
 ## 真题/语料关联
 

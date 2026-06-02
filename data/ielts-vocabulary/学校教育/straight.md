@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **straight line**：直线
-  - *The shortest distance between two points is a straight line.*
+  - *The shortest distance between two points is a straight line.*（两点之间最短的距离是直线。）
 - **go straight ahead**：径直往前走
-  - *Go straight ahead and turn left at the traffic lights.*
+  - *Go straight ahead and turn left at the traffic lights.*（径直往前走，在红绿灯处左转。）
 - **straight answer**：直接的回答
-  - *I want a straight answer: yes or no?*
+  - *I want a straight answer: yes or no?*（我想要一个直接的回答：是还是不是？）
 - **straight away**：立即，马上
-  - *I'll do it straight away.*
+  - *I'll do it straight away.*（我马上去做。）
 - **straight face**：面无表情
-  - *He told the joke with a straight face.*
+  - *He told the joke with a straight face.*（他面无表情地讲了个笑话。）
 
 ## 真题/语料关联
 

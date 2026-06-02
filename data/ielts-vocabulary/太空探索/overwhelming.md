@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an overwhelming majority**：压倒性多数
-  - *The proposal was approved by an overwhelming majority.*
+  - *The proposal was approved by an overwhelming majority.*（该提案以压倒性多数获得通过。）
 - **overwhelming emotion**：难以抑制的情感
-  - *She felt overwhelming emotion when she saw her child for the first time.*
+  - *She felt overwhelming emotion when she saw her child for the first time.*（当她第一次看到自己的孩子时，感到无比激动。）
 - **overwhelming force**：压倒性的力量
-  - *The army attacked with overwhelming force.*
+  - *The army attacked with overwhelming force.*（军队以压倒性的力量发动了攻击。）
 - **overwhelming urge**：强烈的冲动
-  - *He felt an overwhelming urge to laugh.*
+  - *He felt an overwhelming urge to laugh.*（他感到一股忍不住想笑的强烈冲动。）
 - **overwhelmingly** (adv.)：压倒性地
-  - *The response was overwhelmingly positive.*
+  - *The response was overwhelmingly positive.*（回应绝大多数是积极的。）
 
 ## 真题/语料关联
 

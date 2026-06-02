@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **software tester**：软件测试员
-  - *She works as a software tester for a major tech company.*
+  - *She works as a software tester for a major tech company.*（她在一家大型科技公司担任软件测试员。）
 - **voltage tester**：电压测试器
-  - *Use a voltage tester to check if the wire is live.*
+  - *Use a voltage tester to check if the wire is live.*（使用电压测试器检查电线是否带电。）
 - **product tester**：产品测试员
-  - *We need product testers to try our new skincare line.*
+  - *We need product testers to try our new skincare line.*（我们需要产品测试员试用我们的新护肤品系列。）
 - **beta tester**：Beta 测试员
-  - *The game is currently being tested by beta testers.*
+  - *The game is currently being tested by beta testers.*（这款游戏目前正在由Beta测试员测试。）
 - **quality tester**：质量检验员
-  - *The quality tester found a defect in the batch.*
+  - *The quality tester found a defect in the batch.*（质量检验员在这批产品中发现了一个缺陷。）
 
 ## 真题/语料关联
 

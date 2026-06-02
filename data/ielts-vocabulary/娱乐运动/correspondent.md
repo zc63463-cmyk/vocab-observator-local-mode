@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a foreign correspondent**：驻外记者
-  - *The foreign correspondent reported from the war zone.*
+  - *The foreign correspondent reported from the war zone.*（驻外记者从战区发回了报道。）
 - **a war correspondent**：战地记者
-  - *The war correspondent risked his life to cover the conflict.*
+  - *The war correspondent risked his life to cover the conflict.*（战地记者冒着生命危险报道冲突。）
 - **a special correspondent**：特派记者
-  - *The newspaper sent a special correspondent to cover the summit.*
+  - *The newspaper sent a special correspondent to cover the summit.*（报社派了一名特派记者报道峰会。）
 - **a BBC/CNN correspondent**：BBC/CNN记者
-  - *The BBC correspondent interviewed the president.*
+  - *The BBC correspondent interviewed the president.*（BBC记者采访了总统。）
 - **a regular correspondent**：定期通信者
-  - *He was a regular correspondent for the magazine.*
+  - *He was a regular correspondent for the magazine.*（他是这家杂志的定期撰稿人。）
 
 ## 真题/语料关联
 

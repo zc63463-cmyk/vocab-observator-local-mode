@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **solid object**：固体
-  - *The box contained several solid objects.*
+  - *The box contained several solid objects.*（中文翻译）
 - **the object of**：……的目标/对象
-  - *The object of the game is to score as many points as possible.*
+  - *The object of the game is to score as many points as possible.*（中文翻译）
 - **object to**：反对
-  - *I object to being called a liar.*
+  - *I object to being called a liar.*（中文翻译）
 - **no object**：不成问题（通常与 money/time 连用）
-  - *Money is no object when it comes to health.*
+  - *Money is no object when it comes to health.*（中文翻译）
 - **object lesson**：实际教训
-  - *The scandal was an object lesson in corporate governance.*
+  - *The scandal was an object lesson in corporate governance.*（中文翻译）
 
 ## 真题/语料关联
 

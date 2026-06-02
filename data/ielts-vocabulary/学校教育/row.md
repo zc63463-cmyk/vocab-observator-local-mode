@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **front/back row**：前排/后排
-  - *The teacher asked the front row students to stand up.*
+  - *The teacher asked the front row students to stand up.*（老师请前排的学生站起来。）
 - **in a row**：连续地
-  - *She won the competition three years in a row.*
+  - *She won the competition three years in a row.*（她连续三年赢得比赛。）
 - **a row of**：一排
-  - *There was a row of books on the shelf.*
+  - *There was a row of books on the shelf.*（书架上有一排书。）
 - **back-to-back rows**：连续几排
-  - *The seats were arranged in back-to-back rows.*
+  - *The seats were arranged in back-to-back rows.*（座位被安排成背对背的排。）
 - **row by row**：逐排地
-  - *The audience left the theater row by row.*
+  - *The audience left the theater row by row.*（观众一排一排地离开了剧院。）
 
 ## 真题/语料关联
 

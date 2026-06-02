@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the cosmos**：宇宙
-  - *Scientists continue to explore the mysteries of the cosmos.*
+  - *Scientists continue to explore the mysteries of the cosmos.*（科学家们继续探索宇宙的奥秘。）
 - **cosmic order**：宇宙秩序
-  - *Ancient astronomers believed in a cosmic order that governed the heavens.*
+  - *Ancient astronomers believed in a cosmic order that governed the heavens.*（古代天文学家相信存在支配着天界的宇宙秩序。）
 - **cosmic radiation/rays**：宇宙辐射/射线
-  - *Cosmic rays from deep space constantly bombard the Earth.*
+  - *Cosmic rays from deep space constantly bombard the Earth.*（来自深空的宇宙射线不断轰击地球。）
 - **cosmic scale**：宇宙尺度
-  - *On a cosmic scale, human civilization is barely a blip in time.*
+  - *On a cosmic scale, human civilization is barely a blip in time.*（在宇宙尺度上，人类文明不过是时间中的一个小点。）
 - **cosmic dust**：宇宙尘埃
-  - *Cosmic dust particles can be found in meteorites that land on Earth.*
+  - *Cosmic dust particles can be found in meteorites that land on Earth.*（在落在地球上的陨石中可以找到宇宙尘埃颗粒。）
 
 ## 真题/语料关联
 

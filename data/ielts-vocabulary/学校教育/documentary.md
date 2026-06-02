@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a nature documentary**：自然纪录片
-  - *The nature documentary was filmed over three years.*
+  - *The nature documentary was filmed over three years.*（这部自然纪录片拍摄了三年多。）
 - **a documentary about**：关于……的纪录片
-  - *She watched a documentary about climate change.*
+  - *She watched a documentary about climate change.*（她看了一部关于气候变化的纪录片。）
 - **documentary film**：纪录片
-  - *The documentary film won the Academy Award.*
+  - *The documentary film won the Academy Award.*（这部纪录片获得了奥斯卡奖。）
 - **documentary evidence**：书面证据
-  - *The documentary evidence proved his innocence.*
+  - *The documentary evidence proved his innocence.*（书面证明了他的清白。）
 - **documentary style**：纪实风格
-  - *The film was shot in a documentary style.*
+  - *The film was shot in a documentary style.*（这部电影是以纪实风格拍摄的。）
 - **documentary filmmaker**：纪录片制作人
-  - *The documentary filmmaker traveled to remote locations.*
+  - *The documentary filmmaker traveled to remote locations.*（这位纪录片制作人前往偏远地区拍摄。）
 
 ## 真题/语料关联
 

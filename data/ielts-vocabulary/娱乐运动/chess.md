@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play chess**：下国际象棋
-  - *He learned to play chess when he was five years old.*
+  - *He learned to play chess when he was five years old.*（他五岁时就学会了国际象棋。）
 - **chess board**：棋盘
-  - *The chess board has 64 squares.*
+  - *The chess board has 64 squares.*（棋盘有64个方格。）
 - **chess match**：国际象棋比赛
-  - *The chess match lasted for several hours.*
+  - *The chess match lasted for several hours.*（国际象棋比赛持续了几个小时。）
 - **chess strategy**：棋艺策略
-  - *A good chess player needs to develop effective strategies.*
+  - *A good chess player needs to develop effective strategies.*（一个好的棋手需要制定有效的策略。）
 - **chess piece**：棋子
-  - *Each player starts with 16 chess pieces.*
+  - *Each player starts with 16 chess pieces.*（每位棋手开局时有16枚棋子。）
 
 ## 真题/语料关联
 

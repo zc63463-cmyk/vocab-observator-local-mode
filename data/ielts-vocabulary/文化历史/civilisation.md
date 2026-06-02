@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ancient civilisation**：古代文明
-  - *The ancient civilisations of Egypt and Mesopotamia made significant contributions to human history.*
+  - *The ancient civilisations of Egypt and Mesopotamia made significant contributions to human history.*（埃及和美索不达米亚的古代文明对人类历史做出了重大贡献。）
 - **modern civilisation**：现代文明
-  - *Modern civilisation relies heavily on technology and scientific advancements.*
+  - *Modern civilisation relies heavily on technology and scientific advancements.*（现代文明严重依赖技术和科学进步。）
 - **the rise/fall of civilisation**：文明的兴起/衰落
-  - *Historians study the rise and fall of civilisations to understand patterns of human development.*
+  - *Historians study the rise and fall of civilisations to understand patterns of human development.*（历史学家研究文明的兴衰，以理解人类发展的模式。）
 - **Western/Eastern civilisation**：西方/东方文明
-  - *Western civilisation has been influenced by Greek and Roman thought.*
+  - *Western civilisation has been influenced by Greek and Roman thought.*（西方文明受到希腊和罗马思想的影响。）
 - **the comforts of civilisation**：文明的舒适（设施）
-  - *After weeks in the wilderness, she longed for the comforts of civilisation.*
+  - *After weeks in the wilderness, she longed for the comforts of civilisation.*（在荒野中待了几周后，她渴望文明的便利设施。）
 
 ## 真题/语料关联
 

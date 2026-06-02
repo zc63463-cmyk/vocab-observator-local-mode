@@ -28,7 +28,7 @@ import {
 } from "@/lib/review/forecast-snapshots";
 import type { StoredSchedulerCard } from "@/lib/review/types";
 import { getServerSupabaseClientOrNull } from "@/lib/supabase/server";
-import { startOfTodayIso } from "@/lib/utils";
+import { slugifyLabel, startOfTodayIso } from "@/lib/utils";
 import type { Json } from "@/types/database.types";
 import type {
   DailyForecastDay,
@@ -42,7 +42,7 @@ type DashboardProgressRow = {
   due_at: string | null;
   scheduler_payload: Json;
   state: string;
-  words: { cefr: string | null; lemma: string; slug: string; ipa: string | null; short_definition: string | null; pos: string | null; title: string | null } | null;
+  words: { cefr: string | null; lemma: string; metadata: Json | null; slug: string; ipa: string | null; short_definition: string | null; pos: string | null; title: string | null } | null;
 };
 
 type RelationGraphRow = {
@@ -353,18 +353,20 @@ export function buildDailyForecastCalendar(
 function readMetadataStrings(metadata: unknown, keys: string[]): string[] {
   if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) return [];
   const record = metadata as Record<string, unknown>;
+  const out: string[] = [];
   for (const key of keys) {
     const value = record[key];
     if (value == null) continue;
     if (typeof value === "string") {
-      return value.split(/[,;，、\n]/).map((s) => s.trim()).filter(Boolean);
+      out.push(...value.split(/[,;，、\n]/).map((s) => s.trim()).filter(Boolean));
     }
     if (Array.isArray(value)) {
-      return value.flatMap((item) => {
+      out.push(...value.flatMap((item) => {
         if (typeof item === "string") return item.trim();
         if (item && typeof item === "object") {
           const r = item as Record<string, unknown>;
           return [
+            typeof r.text === "string" ? r.text : null,
             typeof r.word === "string" ? r.word : null,
             typeof r.lemma === "string" ? r.lemma : null,
             typeof r.label === "string" ? r.label : null,
@@ -372,59 +374,146 @@ function readMetadataStrings(metadata: unknown, keys: string[]): string[] {
           ].filter((v): v is string => typeof v === "string");
         }
         return [];
-      }).filter(Boolean);
+      }).filter(Boolean));
     }
   }
-  return [];
+  return out;
 }
 
 function buildRelationGraph(
   rows: RelationGraphRow[],
 ): Record<string, { slug: string; lemma: string; relation: string }[]> {
-  const lemmaToSlug = new Map<string, string>();
+  /* Multi-value label→slug lookup.  A single label (e.g. "re") can map to
+     multiple slugs when lemmas collide, and we index by BOTH the raw
+     lower-cased form and the slugified form so metadata that stores either
+     "word root" or "word-root" resolves correctly. */
+  const labelToSlugs = new Map<string, string[]>();
   const slugToLemma = new Map<string, string>();
   for (const row of rows) {
     if (!row.words) continue;
-    slugToLemma.set(row.words.slug, row.words.lemma);
-    lemmaToSlug.set(row.words.lemma.toLowerCase(), row.words.slug);
-    lemmaToSlug.set(row.words.slug.toLowerCase(), row.words.slug);
+    const slug = row.words.slug;
+    const lemma = row.words.lemma;
+    slugToLemma.set(slug, lemma);
+    for (const key of [lemma.toLowerCase(), slugifyLabel(lemma), slug.toLowerCase(), slugifyLabel(slug)]) {
+      if (!key) continue;
+      const list = labelToSlugs.get(key) ?? [];
+      if (!list.includes(slug)) list.push(slug);
+      labelToSlugs.set(key, list);
+    }
   }
 
   const graph: Record<string, { slug: string; lemma: string; relation: string }[]> = {};
+
+  // Collect morphological features per word for global grouping (root/prefix/suffix)
+  const wordRoots = new Map<string, Set<string>>();
+
   for (const row of rows) {
-    if (!row.words?.metadata) continue;
+    if (!row.words) continue;
     const slug = row.words.slug;
+    const metadata = row.words.metadata;
     const neighbors: { slug: string; lemma: string; relation: string }[] = [];
 
-    for (const label of readMetadataStrings(row.words.metadata, [
-      "synonyms", "synonym_items", "synonym_words",
-    ])) {
-      const neighborSlug = lemmaToSlug.get(label.toLowerCase());
-      if (neighborSlug && neighborSlug !== slug) {
-        neighbors.push({ slug: neighborSlug, lemma: slugToLemma.get(neighborSlug) ?? label, relation: "近义" });
+    if (metadata) {
+      // Synonyms & antonyms: per-word label lookup (supports multi-match)
+      for (const label of readMetadataStrings(metadata, [
+        "synonyms", "synonym_items", "synonym_words",
+      ])) {
+        const candidates = labelToSlugs.get(label.toLowerCase())
+          ?? labelToSlugs.get(slugifyLabel(label))
+          ?? [];
+        for (const neighborSlug of candidates) {
+          if (neighborSlug !== slug) {
+            neighbors.push({ slug: neighborSlug, lemma: slugToLemma.get(neighborSlug) ?? label, relation: "近义" });
+            break; // only add first match for synonym
+          }
+        }
       }
-    }
-    for (const label of readMetadataStrings(row.words.metadata, [
-      "antonyms", "antonym_items", "antonym_words",
-    ])) {
-      const neighborSlug = lemmaToSlug.get(label.toLowerCase());
-      if (neighborSlug && neighborSlug !== slug) {
-        neighbors.push({ slug: neighborSlug, lemma: slugToLemma.get(neighborSlug) ?? label, relation: "反义" });
+      for (const label of readMetadataStrings(metadata, [
+        "antonyms", "antonym_items", "antonym_words",
+      ])) {
+        const candidates = labelToSlugs.get(label.toLowerCase())
+          ?? labelToSlugs.get(slugifyLabel(label))
+          ?? [];
+        for (const neighborSlug of candidates) {
+          if (neighborSlug !== slug) {
+            neighbors.push({ slug: neighborSlug, lemma: slugToLemma.get(neighborSlug) ?? label, relation: "反义" });
+            break;
+          }
+        }
       }
-    }
-    for (const label of readMetadataStrings(row.words.metadata, [
-      "roots", "root", "root_family", "rootFamily", "word_roots",
-    ])) {
-      const neighborSlug = lemmaToSlug.get(label.toLowerCase());
-      if (neighborSlug && neighborSlug !== slug) {
-        neighbors.push({ slug: neighborSlug, lemma: slugToLemma.get(neighborSlug) ?? label, relation: "词根" });
+
+      // Collect roots from metadata keys
+      const roots = new Set<string>();
+      for (const label of readMetadataStrings(metadata, [
+        "word_root", "roots", "root", "root_family", "rootFamily", "word_roots",
+      ])) {
+        roots.add(label.toLowerCase());
       }
+
+      // Collect roots from morphology.parts
+      const morphology = isJsonObject(metadata) ? metadata.morphology : null;
+      const parts = isJsonObject(morphology) && Array.isArray(morphology.parts) ? morphology.parts : [];
+      for (const part of parts) {
+        if (isJsonObject(part) && typeof part.text === "string") {
+          const text = part.text.trim().toLowerCase();
+          if (!text) continue;
+          if (part.kind === "root") {
+            roots.add(text);
+          }
+        }
+      }
+
+      if (roots.size > 0) wordRoots.set(slug, roots);
     }
 
     if (neighbors.length > 0) {
       graph[slug] = neighbors;
     }
   }
+
+  // Helper: group slugs by shared feature value
+  function groupByFeature(
+    wordFeatures: Map<string, Set<string>>,
+  ): Map<string, string[]> {
+    const featureToSlugs = new Map<string, string[]>();
+    for (const [slug, features] of wordFeatures) {
+      for (const feature of features) {
+        if (!featureToSlugs.has(feature)) featureToSlugs.set(feature, []);
+        featureToSlugs.get(feature)!.push(slug);
+      }
+    }
+    return featureToSlugs;
+  }
+
+  function addBidirectionalEdges(
+    featureToSlugs: Map<string, string[]>,
+    relation: string,
+  ) {
+    for (const [, slugs] of featureToSlugs) {
+      if (slugs.length < 2) continue;
+      for (let i = 0; i < slugs.length; i++) {
+        for (let j = i + 1; j < slugs.length; j++) {
+          const a = slugs[i];
+          const b = slugs[j];
+          if (!graph[a]) graph[a] = [];
+          if (!graph[b]) graph[b] = [];
+          const aHasB = graph[a].some((n) => n.slug === b && n.relation === relation);
+          const bHasA = graph[b].some((n) => n.slug === a && n.relation === relation);
+          if (!aHasB) {
+            graph[a].push({ slug: b, lemma: slugToLemma.get(b) ?? b, relation });
+          }
+          if (!bHasA) {
+            graph[b].push({ slug: a, lemma: slugToLemma.get(a) ?? a, relation });
+          }
+        }
+      }
+    }
+  }
+
+  addBidirectionalEdges(groupByFeature(wordRoots), "词根");
+  // Prefix/suffix edges intentionally omitted: too dense for the global
+  // network. They are surfaced instead via the morphological filter UI.
+
   return graph;
 }
 
@@ -518,18 +607,11 @@ export async function getDashboardSummary(wordbookId?: string) {
   const ninetyDaysAgo = addDays(new Date(today), -89);
 
   const settled = await Promise.allSettled([
-    // Narrow query for forecast, mastery cells, and all non-graph metrics.
-    // Intentionally omits metadata JSONB to reduce transfer & memory pressure.
+    // Single query covers both mastery cells and relation graph.
+    // Metadata is needed for synonym/antonym/root-family edge detection.
     supabase
       .from("user_word_progress")
-      .select("state, due_at, desired_retention, scheduler_payload, words!inner(cefr, lemma, slug, ipa, short_definition, pos, title)")
-      .eq("user_id", owner.id)
-      .eq("wordbook_id", wordbookId)
-      .limit(2000),
-    // Slim query that only fetches metadata for the relation graph builder.
-    supabase
-      .from("user_word_progress")
-      .select("words!inner(slug, lemma, metadata)")
+      .select("state, due_at, desired_retention, scheduler_payload, words!inner(cefr, lemma, slug, ipa, short_definition, pos, title, metadata)")
       .eq("user_id", owner.id)
       .eq("wordbook_id", wordbookId)
       .limit(2000),
@@ -599,19 +681,22 @@ export async function getDashboardSummary(wordbookId?: string) {
   ]);
 
   const progressSlimResult = unwrapSettled(settled[0], { data: [], error: null }, "progressSlim");
-  const progressMetadataResult = unwrapSettled(settled[1], { data: [], error: null }, "progressMetadata");
-  const reviewLogs30dWithWordsResult = unwrapSettled(settled[2], { data: [], error: null }, "reviewLogs30d");
-  const reviewLogs90dDiagnosticResult = unwrapSettled(settled[3], { data: [], error: null }, "reviewLogs90d");
-  const streakResult = unwrapSettled(settled[4], { data: [], error: null }, "streak");
-  const notesResult = unwrapSettled(settled[5], { data: [], error: null }, "notes");
-  const notesCountResult = unwrapSettled(settled[6], { data: [], error: null, count: 0 }, "notesCount");
-  const activeSessionResult = unwrapSettled(settled[7], { data: null, error: null }, "activeSession");
-  const profileResult = unwrapSettled(settled[8], { data: null, error: null }, "profile");
-  const wordbookSettingsResult = unwrapSettled(settled[9], { data: null, error: null }, "wordbookSettings");
-  const totalReviewLogCountResult = unwrapSettled(settled[10], { data: [], error: null, count: 0 }, "totalReviewLogCount");
+  const reviewLogs30dWithWordsResult = unwrapSettled(settled[1], { data: [], error: null }, "reviewLogs30d");
+  const reviewLogs90dDiagnosticResult = unwrapSettled(settled[2], { data: [], error: null }, "reviewLogs90d");
+  const streakResult = unwrapSettled(settled[3], { data: [], error: null }, "streak");
+  const notesResult = unwrapSettled(settled[4], { data: [], error: null }, "notes");
+  const notesCountResult = unwrapSettled(settled[5], { data: [], error: null, count: 0 }, "notesCount");
+  const activeSessionResult = unwrapSettled(settled[6], { data: null, error: null }, "activeSession");
+  const profileResult = unwrapSettled(settled[7], { data: null, error: null }, "profile");
+  const wordbookSettingsResult = unwrapSettled(settled[8], { data: null, error: null }, "wordbookSettings");
+  const totalReviewLogCountResult = unwrapSettled(settled[9], { data: [], error: null, count: 0 }, "totalReviewLogCount");
 
   const progressRows = (progressSlimResult.data ?? []) as unknown as DashboardProgressRow[];
-  const relationGraphRows = (progressMetadataResult.data ?? []) as unknown as RelationGraphRow[];
+  // Build relation graph from the same progress rows, filtering out suspended
+  // words so edges never point to nodes that are invisible in the globe.
+  const relationGraphRows = progressRows
+    .filter((row) => row.state !== "suspended" && row.words)
+    .map((row) => ({ words: row.words })) as RelationGraphRow[];
   const trackedWords = progressRows.length;
   const dueToday = progressRows.filter(
     (row) => row.state !== "suspended" && row.due_at && row.due_at <= nowIso,
@@ -749,6 +834,20 @@ export async function getDashboardSummary(wordbookId?: string) {
         nowDate,
         fsrsWeights,
       );
+      // Extract prefixes/suffixes from morphology.parts for client-side filtering
+      const metadata = row.words!.metadata;
+      const prefixes: string[] = [];
+      const suffixes: string[] = [];
+      const morphology = isJsonObject(metadata) ? metadata.morphology : null;
+      const parts = isJsonObject(morphology) && Array.isArray(morphology.parts) ? morphology.parts : [];
+      for (const part of parts) {
+        if (isJsonObject(part) && typeof part.text === "string") {
+          const text = part.text.trim();
+          if (!text) continue;
+          if (part.kind === "prefix") prefixes.push(text);
+          else if (part.kind === "suffix") suffixes.push(text);
+        }
+      }
       return {
         cefr: row.words!.cefr ?? "unknown",
         lemma: row.words!.lemma,
@@ -760,6 +859,8 @@ export async function getDashboardSummary(wordbookId?: string) {
         shortDefinition: row.words!.short_definition,
         pos: row.words!.pos,
         title: row.words!.title,
+        prefixes,
+        suffixes,
       };
     })
     .sort((a, b) => {

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bar chart**：柱状图
-  - *The bar chart shows the changes in population over the last decade.*
+  - *The bar chart shows the changes in population over the last decade.*（柱状图显示了过去十年人口的变化。）
 - **pie chart**：饼图
-  - *The pie chart illustrates the proportion of different energy sources.*
+  - *The pie chart illustrates the proportion of different energy sources.*（饼图展示了不同能源的比例。）
 - **flow chart**：流程图
-  - *A flow chart helps to visualize the decision-making process.*
+  - *A flow chart helps to visualize the decision-making process.*（流程图有助于直观地展示决策过程。）
 - **top the charts**：登上排行榜首位
-  - *Her new album topped the charts for three consecutive weeks.*
+  - *Her new album topped the charts for three consecutive weeks.*（她的新专辑连续三周登上排行榜首位。）
 - **chart a course**：规划路线
-  - *The company needs to chart a clear course for future development.*
+  - *The company needs to chart a clear course for future development.*（公司需要为未来发展规划一条清晰的路线。）
 
 ## 真题/语料关联
 

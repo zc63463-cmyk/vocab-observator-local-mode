@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **emphasise the importance of**：强调……的重要性
-  - *The teacher emphasised the importance of regular practice.*
+  - *The teacher emphasised the importance of regular practice.*（老师强调了定期练习的重要性。）
 - **emphasise the need for**：强调对……的需要
-  - *The report emphasises the need for better funding.*
+  - *The report emphasises the need for better funding.*（报告强调需要更好的资金支持。）
 - **emphasise the point**：强调这一点
-  - *Let me emphasise this point: safety comes first.*
+  - *Let me emphasise this point: safety comes first.*（让我强调这一点：安全第一。）
 - **cannot emphasise enough**：怎么强调都不为过
-  - *I cannot emphasise enough how crucial this is.*
+  - *I cannot emphasise enough how crucial this is.*（我再怎么强调这件事的重要性也不为过。）
 - **heavily emphasise**：重点强调
-  - *The curriculum heavily emphasises critical thinking.*
+  - *The curriculum heavily emphasises critical thinking.*（该课程重点强调批判性思维。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a contradiction**：矛盾
-  - *There is a contradiction between his words and actions.*
+  - *There is a contradiction between his words and actions.*（他的言行之间存在矛盾。）
 - **in contradiction with**：与……矛盾
-  - *The findings are in contradiction with previous research.*
+  - *The findings are in contradiction with previous research.*（这些发现与先前的研究相矛盾。）
 - **contradiction of**：对……的反驳
-  - *His statement is a direct contradiction of the facts.*
+  - *His statement is a direct contradiction of the facts.*（他的陈述是对事实的直接反驳。）
 - **a contradiction in terms**：自相矛盾的说法
-  - *"A deafening silence" is a contradiction in terms.*
+  - *"A deafening silence" is a contradiction in terms.*（"震耳欲聋的沉默"是一个自相矛盾的说法。）
 - **internal contradiction**：内部矛盾
-  - *The argument has several internal contradictions.*
+  - *The argument has several internal contradictions.*（这个论点有几处内部矛盾。）
 
 ## 真题/语料关联
 

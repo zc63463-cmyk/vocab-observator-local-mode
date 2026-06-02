@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **to some extent**：在某种程度上
-  - *I agree with you to some extent.*
+  - *I agree with you to some extent.*（我在某种程度上同意你的看法。）
 - **to a large/great extent**：在很大程度上
-  - *The success of the project depends to a large extent on funding.*
+  - *The success of the project depends to a large extent on funding.*（项目的成功在很大程度上取决于资金。）
 - **to the extent that**：到……的程度；以至于
-  - *He helped her to the extent that he could.*
+  - *He helped her to the extent that he could.*（他尽其所能地帮助了她。）
 - **the full extent of**：……的全部范围/程度
-  - *The full extent of the damage is still being assessed.*
+  - *The full extent of the damage is still being assessed.*（损失的全部程度仍在评估中。）
 - **within the limits/extent of**：在……范围内
-  - *We must work within the extent of our resources.*
+  - *We must work within the extent of our resources.*（我们必须在资源范围内进行工作。）
 
 ## 真题/语料关联
 

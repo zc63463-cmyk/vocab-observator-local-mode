@@ -76,17 +76,17 @@ review_count: 0
 ## 搭配与短语
 
 - **research grant**：研究经费
-  - *The professor received a substantial research grant.*
+  - *The professor received a substantial research grant.*（教授获得了一笔可观的研究经费。）
 - **government grant**：政府拨款
-  - *The school received a government grant for new equipment.*
+  - *The school received a government grant for new equipment.*（学校获得了一笔政府拨款用于购置新设备。）
 - **grant a scholarship**：授予奖学金
-  - *The university granted her a full scholarship.*
+  - *The university granted her a full scholarship.*（大学授予了她全额奖学金。）
 - **grant permission**：准许
-  - *The teacher granted permission for the field trip.*
+  - *The teacher granted permission for the field trip.*（老师批准了这次实地考察。）
 - **take for granted**：认为……理所当然
-  - *We often take our health for granted.*
+  - *We often take our health for granted.*（我们常常把自己的健康视为理所当然。）
 - **grant a request**：批准请求
-  - *The committee granted the request for an extension.*
+  - *The committee granted the request for an extension.*（委员会批准了延期的请求。）
 
 ## 真题/语料关联
 

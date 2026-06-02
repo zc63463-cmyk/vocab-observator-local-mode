@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **imperial palace**：皇宫
-  - *The imperial palace in Beijing is now known as the Forbidden City.*
+  - *The imperial palace in Beijing is now known as the Forbidden City.*（北京的皇宫现在被称为紫禁城。）
 - **imperial examination**：科举考试
-  - *The imperial examination system was abolished in 1905.*
+  - *The imperial examination system was abolished in 1905.*（科举制度于1905年被废除。）
 - **imperial court**：朝廷
-  - *The imperial court was filled with officials and nobles.*
+  - *The imperial court was filled with officials and nobles.*（朝廷中挤满了官员和贵族。）
 - **imperial guard**：禁卫军
-  - *The imperial guard protected the emperor at all times.*
+  - *The imperial guard protected the emperor at all times.*（禁卫军时刻保护着皇帝。）
 - **imperial scale**：帝国般的规模
-  - *The construction project was of imperial scale.*
+  - *The construction project was of imperial scale.*（这个建设项目具有帝国般的规模。）
 - **imperial units**：英制单位
-  - *The UK still uses imperial units for some measurements.*
+  - *The UK still uses imperial units for some measurements.*（英国在某些测量中仍使用英制单位。）
 
 ## 真题/语料关联
 

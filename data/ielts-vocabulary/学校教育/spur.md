@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spur sb to do sth**：鞭策某人做某事
-  - *The criticism spurred him to work harder.*
+  - *The criticism spurred him to work harder.*（批评鞭策他更加努力工作。）
 - **spur sb into action**：促使某人采取行动
-  - *The crisis spurred the government into action.*
+  - *The crisis spurred the government into action.*（危机促使政府采取了行动。）
 - **spur growth**：促进增长
-  - *Investment in education can spur economic growth.*
+  - *Investment in education can spur economic growth.*（教育投资可以促进经济增长。）
 - **on the spur of the moment**：一时冲动
-  - *She decided to travel on the spur of the moment.*
+  - *She decided to travel on the spur of the moment.*（她一时冲动决定去旅行。）
 - **win/earn one's spurs**：获得荣誉，证明能力
-  - *He earned his spurs as a young journalist.*
+  - *He earned his spurs as a young journalist.*（他作为一名年轻记者证明了自己的能力。）
 
 ## 真题/语料关联
 

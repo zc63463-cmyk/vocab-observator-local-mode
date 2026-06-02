@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an ounce of**：少量的；一点点
-  - *An ounce of prevention is worth a pound of cure.*
+  - *An ounce of prevention is worth a pound of cure.*（中文翻译）
 - **ounce of gold/silver**：盎司黄金/白银
-  - *The price of gold is $1,800 per ounce.*
+  - *The price of gold is $1,800 per ounce.*（中文翻译）
 - **fluid ounce**：液量盎司（容量单位）
-  - *The bottle contains 8 fluid ounces.*
+  - *The bottle contains 8 fluid ounces.*（中文翻译）
 - **not an ounce of**：一点也没有
-  - *There is not an ounce of truth in what he said.*
+  - *There is not an ounce of truth in what he said.*（中文翻译）
 - **every ounce of**：每一盎司；全部
-  - *She put every ounce of effort into the project.*
+  - *She put every ounce of effort into the project.*（中文翻译）
 
 ## 真题/语料关联
 

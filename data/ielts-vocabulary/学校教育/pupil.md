@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **school pupil**：学校学生
-  - *The school has over 500 pupils.*
+  - *The school has over 500 pupils.*（中文翻译）
 - **primary/secondary school pupil**：小学/中学生
-  - *Primary school pupils usually start at age six.*
+  - *Primary school pupils usually start at age six.*（中文翻译）
 - **gifted pupil**：天才学生
-  - *The teacher identified her as a gifted pupil.*
+  - *The teacher identified her as a gifted pupil.*（中文翻译）
 - **dilated pupil**：散大的瞳孔
-  - *The doctor shone a light into her dilated pupil.*
+  - *The doctor shone a light into her dilated pupil.*（中文翻译）
 - **pupil teacher**：见习教师（旧时）
-  - *In Victorian England, many pupils became pupil teachers.*
+  - *In Victorian England, many pupils became pupil teachers.*（中文翻译）
 
 ## 真题/语料关联
 

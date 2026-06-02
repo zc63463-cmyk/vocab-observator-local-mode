@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **legal guardian**：法定监护人
-  - *After their parents died, their uncle became their legal guardian.*
+  - *After their parents died, their uncle became their legal guardian.*（父母去世后，他们的叔叔成了他们的法定监护人。）
 - **guardian angel**：守护天使
-  - *She felt like she had a guardian angel watching over her.*
+  - *She felt like she had a guardian angel watching over her.*（她感觉像有守护天使在看着她。）
 - **guardian of ...**：……的守护者
-  - *The elders are considered guardians of traditional knowledge.*
+  - *The elders are considered guardians of traditional knowledge.*（长者被认为是传统知识的守护者。）
 - **guardian of the peace**：和平守护者
-  - *The police are guardians of the peace.*
+  - *The police are guardians of the peace.*（警察是和平的守护者。）
 - **guardianship** (n.) — 监护权，保护职责
-  - *The court granted guardianship to the grandmother.*
+  - *The court granted guardianship to the grandmother.*（法院将监护权授予了祖母。）
 
 ## 真题/语料关联
 

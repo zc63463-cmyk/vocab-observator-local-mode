@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **make a reference to**：提及，引用
-  - *The author makes several references to earlier studies.*
+  - *The author makes several references to earlier studies.*（作者多次引用早期的研究。）
 - **list of references**：参考文献列表
-  - *Include a list of references at the end of your essay.*
+  - *Include a list of references at the end of your essay.*（在论文末尾附上参考文献列表。）
 - **in reference to**：关于
-  - *In reference to your question, I believe the answer is yes.*
+  - *In reference to your question, I believe the answer is yes.*（关于你的问题，我认为答案是肯定的。）
 - **for reference**：供参考
-  - *Keep this manual for future reference.*
+  - *Keep this manual for future reference.*（保留这本手册以供将来参考。）
 - **with reference to**：关于（正式）
-  - *With reference to your application, we are pleased to offer you the position.*
+  - *With reference to your application, we are pleased to offer you the position.*（关于你的申请，我们很高兴地为你提供这个职位。）
 
 ## 真题/语料关联
 

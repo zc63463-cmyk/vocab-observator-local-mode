@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **wander through**：漫步穿过
-  - *We wandered through the old town, admiring the architecture.*
+  - *We wandered through the old town, admiring the architecture.*（我们在老城区漫步，欣赏着建筑。）
 - **wander around**：四处闲逛
-  - *She wandered around the market looking for souvenirs.*
+  - *She wandered around the market looking for souvenirs.*（她在市场上闲逛，寻找纪念品。）
 - **wander off**：离开；走散
-  - *The child wandered off and got lost in the crowd.*
+  - *The child wandered off and got lost in the crowd.*（孩子走开了，在人群中迷路了。）
 - **go for a wander**：去散步
-  - *Let's go for a wander along the beach.*
+  - *Let's go for a wander along the beach.*（我们去海边散散步吧。）
 - **mind wanders**：走神
-  - *My mind often wanders during long meetings.*
+  - *My mind often wanders during long meetings.*（在冗长的会议中我的思绪常常游离。）
 
 ## 真题/语料关联
 

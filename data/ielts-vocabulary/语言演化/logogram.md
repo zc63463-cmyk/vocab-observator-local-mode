@@ -65,11 +65,11 @@ review_count: 0
 ## 搭配与短语
 
 - **Chinese logogram**：汉字（语素文字）
-  - *Chinese logograms are among the oldest continuously used writing systems.*
+  - *Chinese logograms are among the oldest continuously used writing systems.*（汉字是持续使用最古老的文字系统之一。）
 - **logographic script**：表意文字系统
-  - *The logographic script of ancient Egypt was deciphered using the Rosetta Stone.*
+  - *The logographic script of ancient Egypt was deciphered using the Rosetta Stone.*（古埃及的表意文字系统是使用罗塞塔石碑破译的。）
 - **numerical logogram**：数字符号
-  - *The symbols 1, 2, 3 are numerical logograms.*
+  - *The symbols 1, 2, 3 are numerical logograms.*（符号1、2、3是数字符号。）
 
 ## 真题/语料关联
 

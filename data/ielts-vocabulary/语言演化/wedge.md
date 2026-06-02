@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a wedge of**：一块楔形的...
-  - *She cut a wedge of lemon for the drink.*
+  - *She cut a wedge of lemon for the drink.*（她切了一块楔形柠檬用于饮品。）
 - **drive a wedge between**：在...之间制造分裂
-  - *The disagreement drove a wedge between the two friends.*
+  - *The disagreement drove a wedge between the two friends.*（分歧在两个朋友之间制造了裂痕。）
 - **wedge in/into**：挤入
-  - *He wedged himself into the crowded elevator.*
+  - *He wedged himself into the crowded elevator.*（他挤进了拥挤的电梯。）
 - **wedge-shaped**：楔形的
-  - *The ancient tablets had wedge-shaped markings.*
+  - *The ancient tablets had wedge-shaped markings.*（这些古代泥板有楔形的刻痕。）
 - **thin end of the wedge**：（不好的事的）开端
-  - *The new regulation is seen as the thin end of the wedge.*
+  - *The new regulation is seen as the thin end of the wedge.*（新规定被视为不良趋势的开端。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **accumulate wealth/experience**：积累财富/经验
-  - *She accumulated years of experience before starting her own business.*
+  - *She accumulated years of experience before starting her own business.*（她在创业之前积累了多年的经验。）
 - **accumulate over time**：随时间积累
-  - *Problems can accumulate over time if they are not addressed promptly.*
+  - *Problems can accumulate over time if they are not addressed promptly.*（问题如果不及时处理，会随着时间的推移而积累。）
 - **accumulate dust**：积灰尘
-  - *The old books had accumulated a thick layer of dust.*
+  - *The old books had accumulated a thick layer of dust.*（旧书上积了厚厚的一层灰。）
 - **accumulate evidence**：积累证据
-  - *Detectives accumulated enough evidence to make an arrest.*
+  - *Detectives accumulated enough evidence to make an arrest.*（侦探们积累了足够的证据来实施逮捕。）
 - **accumulate rapidly**：迅速积累
-  - *Debt can accumulate rapidly if you don't manage your spending.*
+  - *Debt can accumulate rapidly if you don't manage your spending.*（如果你不控制开支，债务会迅速累积。）
 
 ## 真题/语料关联
 

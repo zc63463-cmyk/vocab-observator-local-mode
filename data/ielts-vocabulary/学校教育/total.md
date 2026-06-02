@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the total of**：……的总数
-  - *The total of all expenses was £2,500.*
+  - *The total of all expenses was £2,500.*（所有费用的总额为2,500英镑。）
 - **in total**：总计，总共
-  - *There were 50 people at the meeting in total.*
+  - *There were 50 people at the meeting in total.*（总共有50人参加了会议。）
 - **grand total**：总计，合计
-  - *The grand total comes to £10,000.*
+  - *The grand total comes to £10,000.*（总计达到1万英镑。）
 - **total amount/number**：总金额/总数
-  - *The total amount due is £350.*
+  - *The total amount due is £350.*（应付总金额为350英镑。）
 - **total failure/silence**：彻底失败/完全沉默
-  - *The project was a total failure.*
+  - *The project was a total failure.*（这个项目完全失败了。）
 
 ## 真题/语料关联
 

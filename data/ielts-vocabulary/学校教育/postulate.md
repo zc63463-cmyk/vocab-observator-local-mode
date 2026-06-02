@@ -68,13 +68,13 @@ review_count: 0
 ## 搭配与短语
 
 - **postulate that...**：假定……
-  - *Scientists postulate that the universe began with a massive explosion.*
+  - *Scientists postulate that the universe began with a massive explosion.*（中文翻译）
 - **postulate the existence of**：假定……的存在
-  - *The theory postulates the existence of dark matter.*
+  - *The theory postulates the existence of dark matter.*（中文翻译）
 - **basic/fundamental postulate**：基本假定
-  - *Einstein's theory is built on the postulate that the speed of light is constant.*
+  - *Einstein's theory is built on the postulate that the speed of light is constant.*（中文翻译）
 - **mathematical postulate**：数学公设
-  - *Euclid's geometry is based on five postulates.*
+  - *Euclid's geometry is based on five postulates.*（中文翻译）
 
 ## 真题/语料关联
 

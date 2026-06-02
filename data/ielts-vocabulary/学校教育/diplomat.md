@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **career diplomat**：职业外交官
-  - *He has been a career diplomat for over 20 years.*
+  - *He has been a career diplomat for over 20 years.*（他担任职业外交官已有20多年。）
 - **foreign diplomat**：外国外交官
-  - *Foreign diplomats gathered at the embassy for the reception.*
+  - *Foreign diplomats gathered at the embassy for the reception.*（外国外交官聚集在大使馆参加招待会。）
 - **diplomatic skills**：外交手腕
-  - *Resolving this conflict requires diplomatic skills.*
+  - *Resolving this conflict requires diplomatic skills.*（解决这场冲突需要外交手腕。）
 - **diplomatic immunity**：外交豁免权
-  - *Diplomats are protected by diplomatic immunity.*
+  - *Diplomats are protected by diplomatic immunity.*（外交官受外交豁免权保护。）
 - **diplomatic relations**：外交关系
-  - *The two countries have established diplomatic relations.*
+  - *The two countries have established diplomatic relations.*（两国已建立外交关系。）
 
 ## 真题/语料关联
 

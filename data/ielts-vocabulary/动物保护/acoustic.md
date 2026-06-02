@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **acoustic guitar**：原声吉他
-  - *The acoustic guitar produces a warm, natural sound without electronic amplification.*
+  - *The acoustic guitar produces a warm, natural sound without electronic amplification.*（原声吉他无需电子扩音即可发出温暖自然的声音。）
 - **acoustic properties**：声学特性
-  - *The acoustic properties of the concert hall were carefully designed.*
+  - *The acoustic properties of the concert hall were carefully designed.*（音乐厅的声学特性经过了精心设计。）
 - **acoustic treatment**：声学处理
-  - *Recording studios require proper acoustic treatment to achieve high-quality sound.*
+  - *Recording studios require proper acoustic treatment to achieve high-quality sound.*（录音室需要适当的声学处理才能获得高质量的声音。）
 - **acoustic perception**：听觉感知
-  - *Acoustic perception allows animals to detect sounds in their environment.*
+  - *Acoustic perception allows animals to detect sounds in their environment.*（听觉感知使动物能够察觉环境中的声音。）
 - **good/bad acoustics**：音响效果好/差
-  - *The old theater has excellent acoustics for orchestral performances.*
+  - *The old theater has excellent acoustics for orchestral performances.*（这座老剧院在管弦乐演出方面有着极佳的音响效果。）
 
 ## 真题/语料关联
 

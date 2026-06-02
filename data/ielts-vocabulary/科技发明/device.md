@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **electronic device**：电子设备
-  - *Most electronic devices use lithium-ion batteries.*
+  - *Most electronic devices use lithium-ion batteries.*（大多数电子设备使用锂离子电池。）
 - **mobile device**：移动设备
-  - *Mobile devices have become an essential part of modern life.*
+  - *Mobile devices have become an essential part of modern life.*（移动设备已成为现代生活必不可少的一部分。）
 - **safety device**：安全装置
-  - *The car is equipped with multiple safety devices.*
+  - *The car is equipped with multiple safety devices.*（这辆车配备了多种安全装置。）
 - **medical device**：医疗器械
-  - *The new medical device can detect cancer at an early stage.*
+  - *The new medical device can detect cancer at an early stage.*（这种新型医疗设备可以在早期检测癌症。）
 - **literary device**：文学手法
-  - *Metaphor is a common literary device used by poets.*
+  - *Metaphor is a common literary device used by poets.*（隐喻是诗人常用的文学手法。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **odd number**：奇数
-  - *1, 3, 5, and 7 are odd numbers.*
+  - *1, 3, 5, and 7 are odd numbers.*（中文翻译）
 - **odd behaviour**：奇怪的行为
-  - *His odd behaviour made everyone suspicious.*
+  - *His odd behaviour made everyone suspicious.*（中文翻译）
 - **odd jobs**：零工
-  - *He does odd jobs to earn extra money.*
+  - *He does odd jobs to earn extra money.*（中文翻译）
 - **odd socks**：不成对的袜子
-  - *I always end up with odd socks after doing laundry.*
+  - *I always end up with odd socks after doing laundry.*（中文翻译）
 - **twenty-odd/thirty-odd**：二十几个/三十几个
-  - *I've been waiting for twenty-odd minutes.*
+  - *I've been waiting for twenty-odd minutes.*（中文翻译）
 
 ## 真题/语料关联
 

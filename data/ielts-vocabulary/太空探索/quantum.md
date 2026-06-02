@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **quantum mechanics**：量子力学
-  - *Quantum mechanics describes the behavior of particles at the atomic and subatomic levels.*
+  - *Quantum mechanics describes the behavior of particles at the atomic and subatomic levels.*（量子力学描述原子和亚原子级别粒子的行为。）
 - **quantum leap/jump**：量子跃迁；巨大的飞跃
-  - *The invention of the transistor was a quantum leap in electronics.*
+  - *The invention of the transistor was a quantum leap in electronics.*（晶体管的发明是电子学领域的一个巨大飞跃。）
 - **quantum computing**：量子计算
-  - *Quantum computing could revolutionize fields like cryptography and drug discovery.*
+  - *Quantum computing could revolutionize fields like cryptography and drug discovery.*（量子计算可能会彻底改变密码学和药物发现等领域。）
 - **quantum state**：量子态
-  - *A quantum state can exist in superposition—being in multiple states simultaneously.*
+  - *A quantum state can exist in superposition—being in multiple states simultaneously.*（量子态可以处于叠加态，同时存在于多个状态中。）
 - **quantum entanglement**：量子纠缠
-  - *Quantum entanglement allows particles to be connected regardless of distance.*
+  - *Quantum entanglement allows particles to be connected regardless of distance.*（量子纠缠使粒子无论距离多远都能相互关联。）
 
 ## 真题/语料关联
 

@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **originate from**：源自
-  - *The word 'democracy' originates from ancient Greek.*
+  - *The word 'democracy' originates from ancient Greek.*（'民主'一词源于古希腊语。）
 - **originate in**：起源于
-  - *The disease is believed to have originated in Africa.*
+  - *The disease is believed to have originated in Africa.*（这种疾病被认为起源于非洲。）
 - **originate with**：由……创立
-  - *The theory originated with Einstein.*
+  - *The theory originated with Einstein.*（这个理论源自爱因斯坦。）
 - **originate a new theory**：创立新理论
-  - *The scientist originated a new theory about the origin of the universe.*
+  - *The scientist originated a new theory about the origin of the universe.*（这位科学家提出了关于宇宙起源的新理论。）
 
 ## 真题/语料关联
 

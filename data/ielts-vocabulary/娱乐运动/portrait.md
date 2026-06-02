@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **paint a portrait**：画肖像
-  - *The artist painted a portrait of the queen.*
+  - *The artist painted a portrait of the queen.*（艺术家为女王画了一幅肖像。）
 - **self-portrait**：自画像
-  - *Van Gogh is famous for his self-portraits.*
+  - *Van Gogh is famous for his self-portraits.*（梵高以他的自画像而闻名。）
 - **portrait of**：……的肖像
-  - *The gallery has a portrait of the founder.*
+  - *The gallery has a portrait of the founder.*（画廊里有一幅创始人的肖像。）
 - **portrait mode**：人像模式（手机摄影）
-  - *The phone's portrait mode blurs the background.*
+  - *The phone's portrait mode blurs the background.*（手机的人像模式会模糊背景。）
 - **portrait orientation**：竖版方向
-  - *The document is in portrait orientation.*
+  - *The document is in portrait orientation.*（这份文件是竖版方向的。）
 
 ## 真题/语料关联
 

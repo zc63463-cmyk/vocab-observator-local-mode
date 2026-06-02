@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **leap over**：跳过
-  - *The horse leaped over the obstacle with grace.*
+  - *The horse leaped over the obstacle with grace.*（那匹马优雅地跳过了障碍物。）
 - **leap of faith**：信仰之跃（冒险的信任）
-  - *Starting a business requires a leap of faith.*
+  - *Starting a business requires a leap of faith.*（创业需要冒险一试的信念。）
 - **a giant leap**：巨大的飞跃
-  - *The invention of the internet was a giant leap for communication.*
+  - *The invention of the internet was a giant leap for communication.*（互联网的发明是通信领域的巨大飞跃。）
 - **leap year**：闰年
-  - *February has 29 days in a leap year.*
+  - *February has 29 days in a leap year.*（闰年二月有29天。）
 - **by/in leaps and bounds**：突飞猛进
-  - *Her English has improved by leaps and bounds.*
+  - *Her English has improved by leaps and bounds.*（她的英语突飞猛进。）
 
 ## 真题/语料关联
 

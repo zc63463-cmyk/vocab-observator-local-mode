@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tropical botanist**：热带植物学家
-  - *The tropical botanist discovered several new orchid species in the Amazon rainforest.*
+  - *The tropical botanist discovered several new orchid species in the Amazon rainforest.*（这位热带植物学家在亚马逊雨林中发现了几个新的兰花物种。）
 - **field botanist**：野外植物学家
-  - *Field botanists often spend months cataloguing plant species in remote areas.*
+  - *Field botanists often spend months cataloguing plant species in remote areas.*（野外植物学家经常花费数月时间在偏远地区对植物物种进行分类编目。）
 - **marine botanist**：海洋植物学家
-  - *Marine botanists study algae and seagrass ecosystems.*
+  - *Marine botanists study algae and seagrass ecosystems.*（海洋植物学家研究藻类和海草生态系统。）
 - **paleobotanist**：古植物学家
-  - *Paleobotanists use fossilized plants to understand prehistoric climates.*
+  - *Paleobotanists use fossilized plants to understand prehistoric climates.*（古植物学家利用植物化石来了解史前气候。）
 - **economic botanist**：经济植物学家
-  - *Economic botanists research plants with commercial or medicinal value.*
+  - *Economic botanists research plants with commercial or medicinal value.*（经济植物学家研究具有商业或药用价值的植物。）
 
 ## 真题/语料关联
 

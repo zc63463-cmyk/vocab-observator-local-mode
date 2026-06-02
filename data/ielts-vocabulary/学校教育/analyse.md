@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **analyse data/results**：分析数据/结果
-  - *The researchers analysed the data collected from the survey.*
+  - *The researchers analysed the data collected from the survey.*（研究人员分析了从调查中收集的数据。）
 - **analyse a problem/situation**：分析问题/情况
-  - *We need to analyse the situation before making a decision.*
+  - *We need to analyse the situation before making a decision.*（在做决定之前，我们需要分析情况。）
 - **in-depth analysis**：深入分析
-  - *The report provides an in-depth analysis of the economic trends.*
+  - *The report provides an in-depth analysis of the economic trends.*（该报告对经济趋势进行了深入分析。）
 - **statistical analysis**：统计分析
-  - *Statistical analysis showed a significant correlation between the two variables.*
+  - *Statistical analysis showed a significant correlation between the two variables.*（统计分析显示这两个变量之间存在显著相关性。）
 - **cost-benefit analysis**：成本效益分析
-  - *A cost-benefit analysis is essential before starting any major project.*
+  - *A cost-benefit analysis is essential before starting any major project.*（在启动任何重大项目之前，进行成本效益分析至关重要。）
 
 ## 真题/语料关联
 

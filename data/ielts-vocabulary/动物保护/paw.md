@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cat's paw**：被人利用的人（出自伊索寓言）
-  - *He was merely a cat's paw in the scheme, doing the real mastermind's dirty work.*
+  - *He was merely a cat's paw in the scheme, doing the real mastermind's dirty work.*（在这个阴谋中他不过是个爪牙，替真正的幕后主使干脏活。）
 - **paw at sth**：用爪子/手扒拉某物
-  - *The kitten pawed at the ball of yarn.*
+  - *The kitten pawed at the ball of yarn.*（小猫用爪子拨弄毛线球。）
 - **bear paw**：熊掌
-  - *Bear paw prints were visible in the mud near the river.*
+  - *Bear paw prints were visible in the mud near the river.*（河边的泥地上能看到熊掌印。）
 - **soft paw**：柔软的肉垫
-  - *Cats have soft paws that allow them to move silently.*
+  - *Cats have soft paws that allow them to move silently.*（猫有柔软的爪子，使它们能够悄无声息地移动。）
 - **get one's paws on**：把手弄到（口语）
-  - *I can't wait to get my paws on the new book.*
+  - *I can't wait to get my paws on the new book.*（我等不及要拿到这本新书了。）
 
 ## 真题/语料关联
 

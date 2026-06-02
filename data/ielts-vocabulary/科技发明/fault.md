@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **it's someone's fault**：是某人的错
-  - *It's not my fault that the project failed.*
+  - *It's not my fault that the project failed.*（项目失败不是我的错。）
 - **find fault with**：挑剔，找茬
-  - *She always finds fault with my work.*
+  - *She always finds fault with my work.*（她总是挑剔我的工作。）
 - **at fault**：有过错
-  - *The driver was clearly at fault.*
+  - *The driver was clearly at fault.*（司机显然有过错。）
 - **to a fault**：过分地，过度地
-  - *She is generous to a fault.*
+  - *She is generous to a fault.*（她慷慨得过分了。）
 - **fault line**：断层线；分歧点
-  - *There is a clear fault line between the two political parties.*
+  - *There is a clear fault line between the two political parties.*（两个政党之间存在明显的分歧线。）
 
 ## 真题/语料关联
 

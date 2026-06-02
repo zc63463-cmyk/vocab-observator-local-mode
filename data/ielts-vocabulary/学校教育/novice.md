@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a complete novice**：完全的新手
-  - *When I first started coding, I was a complete novice.*
+  - *When I first started coding, I was a complete novice.*（中文翻译）
 - **a novice at**：在……方面的新手
-  - *She's a novice at cooking but eager to learn.*
+  - *She's a novice at cooking but eager to learn.*（中文翻译）
 - **novice driver**：新手司机
-  - *Novice drivers are more likely to be involved in accidents.*
+  - *Novice drivers are more likely to be involved in accidents.*（中文翻译）
 - **from novice to expert**：从新手到专家
-  - *The course takes you from novice to expert in six months.*
+  - *The course takes you from novice to expert in six months.*（中文翻译）
 - **rank novice**：十足的新手
-  - *He's a rank novice when it comes to investing.*
+  - *He's a rank novice when it comes to investing.*（中文翻译）
 
 ## 真题/语料关联
 

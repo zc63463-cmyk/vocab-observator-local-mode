@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **modern/advanced technology**：现代/先进技术
-  - *Modern technology has transformed the way we communicate.*
+  - *Modern technology has transformed the way we communicate.*（现代技术已经改变了我们的沟通方式。）
 - **information technology (IT)**：信息技术
-  - *Information technology is now essential in every industry.*
+  - *Information technology is now essential in every industry.*（信息技术如今在每个行业都至关重要。）
 - **green/clean technology**：绿色/清洁技术
-  - *Green technology offers solutions to environmental problems.*
+  - *Green technology offers solutions to environmental problems.*（绿色技术为环境问题提供了解决方案。）
 - **technology transfer**：技术转让
-  - *Technology transfer from universities to industry is crucial for innovation.*
+  - *Technology transfer from universities to industry is crucial for innovation.*（从大学到产业的技术转让对创新至关重要。）
 - **technology-driven**：技术驱动的
-  - *We live in a technology-driven society.*
+  - *We live in a technology-driven society.*（我们生活在一个技术驱动的社会。）
 
 ## 真题/语料关联
 

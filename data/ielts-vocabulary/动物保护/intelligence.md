@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **artificial intelligence (AI)**：人工智能
-  - *Artificial intelligence is transforming industries from healthcare to finance.*
+  - *Artificial intelligence is transforming industries from healthcare to finance.*（人工智能正在从医疗到金融等各个行业引发变革。）
 - **emotional intelligence (EQ)**：情商
-  - *Emotional intelligence is just as important as IQ for success in the workplace.*
+  - *Emotional intelligence is just as important as IQ for success in the workplace.*（情商与智商对于职场成功同样重要。）
 - **intelligence quotient (IQ)**：智商
-  - *IQ tests measure certain cognitive abilities but not all aspects of intelligence.*
+  - *IQ tests measure certain cognitive abilities but not all aspects of intelligence.*（智商测试衡量某些认知能力，但并非智力的所有方面。）
 - **gather intelligence**：收集情报
-  - *The agency gathered intelligence on the enemy's movements.*
+  - *The agency gathered intelligence on the enemy's movements.*（该机构收集了关于敌人动向的情报。）
 - **high/low intelligence**：高/低智力
-  - *Studies suggest that intelligence is influenced by both genetics and environment.*
+  - *Studies suggest that intelligence is influenced by both genetics and environment.*（研究表明智力受遗传和环境的共同影响。）
 
 ## 真题/语料关联
 

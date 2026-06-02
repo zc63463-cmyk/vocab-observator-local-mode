@@ -75,17 +75,17 @@ review_count: 0
 ## 搭配与短语
 
 - **press the button**：按按钮
-  - *She pressed the button to call the elevator.*
+  - *She pressed the button to call the elevator.*（她按下按钮叫电梯。）
 - **press conference**：新闻发布会
-  - *The prime minister held a press conference this morning.*
+  - *The prime minister held a press conference this morning.*（首相今天上午举行了新闻发布会。）
 - **the freedom of the press**：新闻自由
-  - *The freedom of the press is a fundamental right in democratic societies.*
+  - *The freedom of the press is a fundamental right in democratic societies.*（新闻自由是民主社会的基本权利。）
 - **press for**：敦促，催促
-  - *The union is pressing for higher wages.*
+  - *The union is pressing for higher wages.*（工会正在敦促提高工资。）
 - **press on**：继续前进
-  - *Despite the rain, we pressed on with our journey.*
+  - *Despite the rain, we pressed on with our journey.*（尽管下雨，我们还是继续前行。）
 - **get good/bad press**：得到好/坏的报道
-  - *The new policy has received a lot of bad press.*
+  - *The new policy has received a lot of bad press.*（这项新政策受到了很多负面报道。）
 
 ## 真题/语料关联
 

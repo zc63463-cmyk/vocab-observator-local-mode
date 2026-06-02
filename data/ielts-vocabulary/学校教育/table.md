@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dining table**：餐桌
-  - *We gathered around the dining table for the family reunion.*
+  - *We gathered around the dining table for the family reunion.*（我们围坐在餐桌旁进行家庭团聚。）
 - **data table**：数据表
-  - *The data table summarizes the experimental results.*
+  - *The data table summarizes the experimental results.*（数据表汇总了实验结果。）
 - **table of contents**：目录
-  - *The table of contents lists all the chapters in the book.*
+  - *The table of contents lists all the chapters in the book.*（目录列出了书中所有章节。）
 - **multiplication table**：乘法表
-  - *Children are required to memorize the multiplication table.*
+  - *Children are required to memorize the multiplication table.*（孩子们必须背诵乘法表。）
 - **table the motion**：搁置动议
-  - *The committee decided to table the motion until the next meeting.*
+  - *The committee decided to table the motion until the next meeting.*（委员会决定将动议搁置到下次会议。）
 
 ## 真题/语料关联
 

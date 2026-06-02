@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **simulate conditions**：模拟条件
-  - *The lab can simulate extreme weather conditions.*
+  - *The lab can simulate extreme weather conditions.*（实验室可以模拟极端天气条件。）
 - **simulate a scenario**：模拟场景
-  - *The software can simulate various business scenarios.*
+  - *The software can simulate various business scenarios.*（该软件可以模拟各种商业场景。）
 - **simulate illness**：假装生病
-  - *He tried to simulate illness to avoid going to school.*
+  - *He tried to simulate illness to avoid going to school.*（他试图装病不去上学。）
 - **computer simulation**：计算机模拟
-  - *The engineers used computer simulation to test the design.*
+  - *The engineers used computer simulation to test the design.*（工程师们使用计算机模拟来测试设计。）
 - **flight simulator**：飞行模拟器
-  - *Pilots train using flight simulators before flying real planes.*
+  - *Pilots train using flight simulators before flying real planes.*（飞行员在驾驶真飞机之前使用飞行模拟器进行训练。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stretch your arms**：伸展手臂
-  - *She stretched her arms above her head.*
+  - *She stretched her arms above her head.*（她将手臂伸展过头顶。）
 - **stretch before exercise**：运动前拉伸
-  - *It's important to stretch before exercise to prevent injuries.*
+  - *It's important to stretch before exercise to prevent injuries.*（运动前拉伸很重要，可以预防受伤。）
 - **stretch of road**：一段路
-  - *There is a long stretch of road between the two towns.*
+  - *There is a long stretch of road between the two towns.*（两个城镇之间有一段很长的路。）
 - **stretch your limits**：挑战极限
-  - *Running a marathon will stretch your limits.*
+  - *Running a marathon will stretch your limits.*（跑马拉松会挑战你的极限。）
 - **morning stretch**：晨间伸展
-  - *I do a morning stretch routine every day.*
+  - *I do a morning stretch routine every day.*（我每天做晨间伸展运动。）
 
 ## 真题/语料关联
 

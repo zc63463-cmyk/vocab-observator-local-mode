@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take a photograph**：拍照
-  - *She took a photograph of the sunset.*
+  - *She took a photograph of the sunset.*（她拍了一张日落的照片。）
 - **photograph well/badly**：上相/不上相
-  - *She always photographs well in pictures.*
+  - *She always photographs well in pictures.*（她总是很上相。）
 - **photograph of**：……的照片
-  - *He showed me a photograph of his family.*
+  - *He showed me a photograph of his family.*（他给我看了一张他家人的照片。）
 - **photograph album**：相册
-  - *She keeps all her photographs in a photo album.*
+  - *She keeps all her photographs in a photo album.*（她把她所有的照片都放在相册里。）
 - **photograph something**：拍摄某物
-  - *The tourists photographed the historic buildings.*
+  - *The tourists photographed the historic buildings.*（游客们拍摄了这些历史建筑。）
 
 ## 真题/语料关联
 

@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **rank first/second**：排名第一/第二
-  - *She ranked first in her class.*
+  - *She ranked first in her class.*（她在班上排名第一。）
 - **top rank**：顶级排名
-  - *The university is among the top ranks globally.*
+  - *The university is among the top ranks globally.*（这所大学在全球排名中名列前茅。）
 - **rank among/between**：位列其中
-  - *This film ranks among the best I've ever seen.*
+  - *This film ranks among the best I've ever seen.*（这部电影位列我看过的最好的影片之中。）
 - **rise through the ranks**：晋升；步步高升
-  - *He rose through the ranks to become CEO.*
+  - *He rose through the ranks to become CEO.*（他从基层晋升成为首席执行官。）
 - **rank and file**：普通成员；基层
-  - *The rank and file of the company were not consulted.*
+  - *The rank and file of the company were not consulted.*（公司的普通员工没有被征求意见。）
 - **rank highly/poorly**：排名靠前/靠后
-  - *The country ranks highly in education quality.*
+  - *The country ranks highly in education quality.*（该国在教育质量方面排名靠前。）
 
 ## 真题/语料关联
 

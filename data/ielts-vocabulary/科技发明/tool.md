@@ -81,15 +81,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hand tool**：手动工具
-  - *A hammer is a basic hand tool used in construction.*
+  - *A hammer is a basic hand tool used in construction.*（锤子是建筑中使用的基本手动工具。）
 - **power tool**：电动工具
-  - *Power tools make woodworking much faster and easier.*
+  - *Power tools make woodworking much faster and easier.*（电动工具使木工活更快、更容易。）
 - **kitchen tool**：厨房工具
-  - *A good knife is an essential kitchen tool.*
+  - *A good knife is an essential kitchen tool.*（一把好刀是必不可少的厨房工具。）
 - **learning tool**：学习工具
-  - *Flashcards are a popular learning tool for vocabulary.*
+  - *Flashcards are a popular learning tool for vocabulary.*（闪卡是一种流行的词汇学习工具。）
 - **tool for the job**：完成任务所需的工具
-  - *We need the right tool for the job to do it efficiently.*
+  - *We need the right tool for the job to do it efficiently.*（我们需要合适的工具来高效完成工作。）
 
 ## 真题/语料关联
 

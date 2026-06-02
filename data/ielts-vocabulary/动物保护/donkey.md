@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **donkey ride**：骑驴
-  - *The children enjoyed a donkey ride on the beach.*
+  - *The children enjoyed a donkey ride on the beach.*（孩子们在海滩上享受了骑驴的乐趣。）
 - **donkey work**：苦工；繁重的工作
-  - *I did all the donkey work while he relaxed.*
+  - *I did all the donkey work while he relaxed.*（我做完了所有苦力活，而他却在休息。）
 - **donkey years**：很久
-  - *I haven't seen him in donkey years.*
+  - *I haven't seen him in donkey years.*（我很久很久没见到他了。）
 - **donkey jacket**：工作服
-  - *He wore a donkey jacket to work.*
+  - *He wore a donkey jacket to work.*（他穿着厚呢短工作外套去上班。）
 - **as stubborn as a donkey**：像驴一样固执
-  - *He's as stubborn as a donkey.*
+  - *He's as stubborn as a donkey.*（他像驴一样固执。）
 
 ## 真题/语料关联
 

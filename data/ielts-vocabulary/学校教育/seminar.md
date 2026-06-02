@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research seminar**：学术研讨会
-  - *The department holds a weekly research seminar for graduate students.*
+  - *The department holds a weekly research seminar for graduate students.*（该系为研究生每周举办一次学术研讨会。）
 - **graduate seminar**：研究生研讨课
-  - *The graduate seminar focuses on advanced topics in the field.*
+  - *The graduate seminar focuses on advanced topics in the field.*（研究生研讨课侧重于该领域的高级课题。）
 - **attend a seminar**：参加研讨会
-  - *I attended a seminar on climate change last week.*
+  - *I attended a seminar on climate change last week.*（上周我参加了一个关于气候变化的研讨会。）
 - **conduct/hold a seminar**：举办研讨会
-  - *The university will conduct a seminar on artificial intelligence.*
+  - *The university will conduct a seminar on artificial intelligence.*（这所大学将举办一个关于人工智能的研讨会。）
 - **seminar room**：研讨室
-  - *The meeting will be held in the seminar room on the third floor.*
+  - *The meeting will be held in the seminar room on the third floor.*（会议将在三楼的研讨室举行。）
 
 ## 真题/语料关联
 

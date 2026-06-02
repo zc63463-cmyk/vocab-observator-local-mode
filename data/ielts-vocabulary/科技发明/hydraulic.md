@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hydraulic system**：液压系统
-  - *The excavator uses a hydraulic system to lift heavy loads.*
+  - *The excavator uses a hydraulic system to lift heavy loads.*（挖掘机使用液压系统来提升重物。）
 - **hydraulic brake**：液压制动器
-  - *Modern cars use hydraulic brakes for better stopping power.*
+  - *Modern cars use hydraulic brakes for better stopping power.*（现代汽车使用液压制动器以提供更好的制动力。）
 - **hydraulic engineering**：水利工程
-  - *Hydraulic engineering is essential for flood control.*
+  - *Hydraulic engineering is essential for flood control.*（水利工程对于防洪至关重要。）
 - **hydraulic pressure**：液压，水压
-  - *The machine operates using hydraulic pressure.*
+  - *The machine operates using hydraulic pressure.*（这台机器利用液压运行。）
 - **hydraulic ram**：液压缸
-  - *The hydraulic ram pushes the piston with great force.*
+  - *The hydraulic ram pushes the piston with great force.*（液压缸以巨大的力量推动活塞。）
 
 ## 真题/语料关联
 

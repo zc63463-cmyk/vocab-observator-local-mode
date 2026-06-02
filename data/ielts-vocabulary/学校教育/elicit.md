@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **elicit a response**：引出回应
-  - *The question elicited a variety of responses from the audience.*
+  - *The question elicited a variety of responses from the audience.*（这个问题引发了观众的各种回应。）
 - **elicit information**：套出信息
-  - *The detective managed to elicit crucial information from the witness.*
+  - *The detective managed to elicit crucial information from the witness.*（侦探设法从证人那里获取了关键信息。）
 - **elicit sympathy/support**：引起同情/支持
-  - *The story elicited widespread sympathy from the public.*
+  - *The story elicited widespread sympathy from the public.*（这个故事引起了公众的广泛同情。）
 - **elicit a reaction**：引发反应
-  - *The advertisement was designed to elicit a strong emotional reaction.*
+  - *The advertisement was designed to elicit a strong emotional reaction.*（这则广告旨在引发强烈的情感反应。）
 - **elicit the truth**：探出真相
-  - *It took hours of questioning to elicit the truth.*
+  - *It took hours of questioning to elicit the truth.*（经过数小时的盘问才探出了真相。）
 
 ## 真题/语料关联
 

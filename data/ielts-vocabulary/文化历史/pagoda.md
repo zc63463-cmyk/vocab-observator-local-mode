@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Chinese pagoda**：中国宝塔
-  - *The Chinese pagoda is a symbol of Buddhist architecture.*
+  - *The Chinese pagoda is a symbol of Buddhist architecture.*（中国宝塔是佛教建筑的重要象征。）
 - **five-story pagoda**：五重塔
-  - *The five-story pagoda is a famous landmark in Kyoto.*
+  - *The five-story pagoda is a famous landmark in Kyoto.*（这座五层宝塔是京都著名的地标。）
 - **pagoda tree**：宝塔树（国槐）
-  - *The pagoda tree is commonly planted in Chinese temples.*
+  - *The pagoda tree is commonly planted in Chinese temples.*（槐树在中国寺庙中常被种植。）
 - **pagoda roof**：宝塔式屋顶
-  - *The building features a distinctive pagoda roof.*
+  - *The building features a distinctive pagoda roof.*（这座建筑有一个独特的宝塔式屋顶。）
 - **pagoda hat**：宝塔帽（尖顶帽）
-  - *The traditional pagoda hat is worn during certain ceremonies.*
+  - *The traditional pagoda hat is worn during certain ceremonies.*（传统的宝塔形帽在某些仪式中佩戴。）
 - **pagoda-style**：宝塔式的
-  - *The restaurant has a pagoda-style entrance.*
+  - *The restaurant has a pagoda-style entrance.*（这家餐厅有一个宝塔风格的门廊。）
 
 ## 真题/语料关联
 

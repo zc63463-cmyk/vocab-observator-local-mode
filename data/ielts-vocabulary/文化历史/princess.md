@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the Princess of Wales**：威尔士王妃（英国王储的妻子）
-  - *The Princess of Wales visited the children's hospital.*
+  - *The Princess of Wales visited the children's hospital.*（威尔士王妃访问了儿童医院。）
 - **princess cut**：公主方切割（钻石的一种切割方式）
-  - *She chose a princess cut diamond for her engagement ring.*
+  - *She chose a princess cut diamond for her engagement ring.*（她为订婚戒指选择了一颗公主方切割钻石。）
 - **Disney princess**：迪士尼公主
-  - *My daughter loves Disney princess movies.*
+  - *My daughter loves Disney princess movies.*（我女儿喜欢迪士尼公主电影。）
 - **princess in the tower**：塔中的公主（比喻需要拯救的人）
-  - *Don't act like a princess in the tower waiting to be rescued.*
+  - *Don't act like a princess in the tower waiting to be rescued.*（不要表现得像一个等待被拯救的塔中公主。）
 - **princess dress**：公主裙（童话风格的裙子）
-  - *She wore a beautiful princess dress to the party.*
+  - *She wore a beautiful princess dress to the party.*（她穿了一条漂亮的公主裙去参加派对。）
 
 ## 真题/语料关联
 

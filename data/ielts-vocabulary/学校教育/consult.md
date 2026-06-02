@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **consult a doctor/lawyer**：咨询医生/律师
-  - *You should consult a doctor if the symptoms persist.*
+  - *You should consult a doctor if the symptoms persist.*（如果症状持续，你应该咨询医生。）
 - **consult a dictionary/reference**：查字典/参考资料
-  - *Please consult the dictionary for the correct pronunciation.*
+  - *Please consult the dictionary for the correct pronunciation.*（请查字典以确认正确发音。）
 - **consult with somebody**：与某人商议
-  - *I need to consult with my team before making a decision.*
+  - *I need to consult with my team before making a decision.*（在做决定之前我需要和团队商议。）
 - **seek advice/consultation**：寻求建议/咨询
-  - *She sought legal consultation before signing the contract.*
+  - *She sought legal consultation before signing the contract.*（她在签合同前寻求了法律咨询。）
 - **in consultation with**：与……商议后
-  - *The decision was made in consultation with the board.*
+  - *The decision was made in consultation with the board.*（这个决定是与董事会商议后做出的。）
 
 ## 真题/语料关联
 

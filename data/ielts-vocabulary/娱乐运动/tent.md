@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pitch a tent**：搭帐篷
-  - *They pitched their tent by the river for the night.*
+  - *They pitched their tent by the river for the night.*（他们在河边搭帐篷过夜。）
 - **tent peg**：帐篷桩
-  - *Make sure the tent pegs are firmly in the ground.*
+  - *Make sure the tent pegs are firmly in the ground.*（确保帐篷桩牢牢地插在地上。）
 - **tent pole**：帐篷杆
-  - *The tent pole broke in the strong wind.*
+  - *The tent pole broke in the strong wind.*（帐篷杆在大风中断了。）
 - **camping tent**：露营帐篷
-  - *We bought a new camping tent for our trip.*
+  - *We bought a new camping tent for our trip.*（我们为旅行买了一个新露营帐篷。）
 - **under canvas**：在帐篷里（英式英语）
-  - *We spent the week under canvas in the mountains.*
+  - *We spent the week under canvas in the mountains.*（我们在山里的帐篷中度过了一周。）
 
 ## 真题/语料关联
 

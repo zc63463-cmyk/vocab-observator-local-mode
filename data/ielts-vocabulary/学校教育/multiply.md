@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **multiply A by B**：A乘以B
-  - *If you multiply 3 by 4, you get 12.*
+  - *If you multiply 3 by 4, you get 12.*（中文翻译）
 - **multiplication table**：乘法表
-  - *Children should memorize their multiplication tables.*
+  - *Children should memorize their multiplication tables.*（中文翻译）
 - **multiply rapidly/quickly**：迅速增加
-  - *The virus can multiply rapidly in the body.*
+  - *The virus can multiply rapidly in the body.*（中文翻译）
 - **multiply exponentially**：呈指数增长
-  - *The population has multiplied exponentially.*
+  - *The population has multiplied exponentially.*（中文翻译）
 - **multiply out**：乘出来，计算乘积
-  - *Multiply out the brackets to simplify the expression.*
+  - *Multiply out the brackets to simplify the expression.*（中文翻译）
 
 ## 真题/语料关联
 

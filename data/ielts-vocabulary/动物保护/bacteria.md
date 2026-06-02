@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **bacterial infection**：细菌感染
-  - *The patient was prescribed antibiotics for a bacterial infection.*
+  - *The patient was prescribed antibiotics for a bacterial infection.*（患者因细菌感染被开了抗生素。）
 - **beneficial bacteria**：有益菌
-  - *Yoghurt contains beneficial bacteria that aid digestion.*
+  - *Yoghurt contains beneficial bacteria that aid digestion.*（酸奶含有帮助消化的有益细菌。）
 - **gut bacteria**：肠道菌群
-  - *Recent research has shown that gut bacteria play a crucial role in mental health.*
+  - *Recent research has shown that gut bacteria play a crucial role in mental health.*（最近的研究表明肠道细菌在心理健康中起着关键作用。）
 - **bacteria culture**：细菌培养
-  - *The lab technician prepared a bacteria culture to identify the pathogen.*
+  - *The lab technician prepared a bacteria culture to identify the pathogen.*（实验室技术员制备了细菌培养物以鉴定病原体。）
 - **antibiotic-resistant bacteria**：耐药菌
-  - *The rise of antibiotic-resistant bacteria is a major public health concern.*
+  - *The rise of antibiotic-resistant bacteria is a major public health concern.*（抗生素耐药细菌的增加是一个重大的公共卫生问题。）
 - **soil bacteria**：土壤细菌
-  - *Soil bacteria break down organic matter and release nutrients for plant growth.*
+  - *Soil bacteria break down organic matter and release nutrients for plant growth.*（土壤细菌分解有机物并释放植物生长所需的养分。）
 
 ## 真题/语料关联
 

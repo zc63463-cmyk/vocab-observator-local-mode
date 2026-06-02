@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **beautiful melody**：优美的旋律
-  - *The song has a beautiful melody that stays in your head.*
+  - *The song has a beautiful melody that stays in your head.*（这首歌有优美的旋律，让人难以忘怀。）
 - **catchy melody**：朗朗上口的旋律
-  - *The pop song has a catchy melody.*
+  - *The pop song has a catchy melody.*（这首流行歌曲旋律朗朗上口。）
 - **melody line**：旋律线
-  - *The melody line is played by the violin section.*
+  - *The melody line is played by the violin section.*（旋律线由小提琴声部演奏。）
 - **compose a melody**：创作旋律
-  - *The composer spent hours composing a melody for the new piece.*
+  - *The composer spent hours composing a melody for the new piece.*（作曲家花了数小时为新作品创作旋律。）
 - **hum a melody**：哼旋律
-  - *She was humming a melody while cooking.*
+  - *She was humming a melody while cooking.*（她一边做饭一边哼着旋律。）
 
 ## 真题/语料关联
 

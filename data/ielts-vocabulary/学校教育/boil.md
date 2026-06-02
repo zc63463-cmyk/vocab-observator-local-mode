@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **boil water**：烧开水
-  - *You should boil water before drinking it in some countries.*
+  - *You should boil water before drinking it in some countries.*（在某些国家，饮用水之前应该先烧开。）
 - **bring to a boil**：加热至沸腾
-  - *Bring the mixture to a boil, then reduce the heat.*
+  - *Bring the mixture to a boil, then reduce the heat.*（将混合物加热至沸腾，然后调小火力。）
 - **boiling point**：沸点；爆发点
-  - *Water has a boiling point of 100 degrees Celsius.*
+  - *Water has a boiling point of 100 degrees Celsius.*（水的沸点是100摄氏度。）
 - **boiling with rage**：怒火中烧
-  - *She was boiling with rage after hearing the unfair decision.*
+  - *She was boiling with rage after hearing the unfair decision.*（听到这个不公平的决定后，她怒火中烧。）
 - **blood boiling**： blood boiling（非常愤怒）
-  - *His blood was boiling when he saw the injustice.*
+  - *His blood was boiling when he saw the injustice.*（看到这种不公正，他热血沸腾。）
 
 ## 真题/语料关联
 

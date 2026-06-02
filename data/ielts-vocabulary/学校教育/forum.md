@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **public forum**：公共论坛
-  - *The town hall meeting served as a public forum for community issues.*
+  - *The town hall meeting served as a public forum for community issues.*（市政厅会议为社区问题提供了一个公共论坛。）
 - **online forum**：网络论坛
-  - *I found helpful information on an online forum.*
+  - *I found helpful information on an online forum.*（我在一个网络论坛上找到了有用的信息。）
 - **discussion forum**：讨论区
-  - *The course has an online discussion forum for students.*
+  - *The course has an online discussion forum for students.*（该课程有一个供学生使用的在线讨论区。）
 - **open forum**：开放论坛
-  - *The conference includes an open forum for Q&A.*
+  - *The conference includes an open forum for Q&A.*（会议包括一个开放的问答论坛。）
 - **forum for debate**：辩论平台
-  - *The university provides a forum for debate on important issues.*
+  - *The university provides a forum for debate on important issues.*（大学为重要问题的辩论提供了一个平台。）
 
 ## 真题/语料关联
 

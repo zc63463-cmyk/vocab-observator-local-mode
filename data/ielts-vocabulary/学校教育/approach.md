@@ -73,19 +73,19 @@ review_count: 0
 ## 搭配与短语
 
 - **a new approach**：新方法
-  - *We need to find a new approach to this problem.*
+  - *We need to find a new approach to this problem.*（我们需要找到解决这个问题的新方法。）
 - **approach to**：……的方法/途径
-  - *What is your approach to teaching?*
+  - *What is your approach to teaching?*（你的教学方法是什么？）
 - **approach a problem**：处理问题
-  - *Let's approach this problem from a different angle.*
+  - *Let's approach this problem from a different angle.*（让我们从不同的角度来处理这个问题。）
 - **approach the deadline**：临近截止日期
-  - *As the deadline approaches, the team works harder.*
+  - *As the deadline approaches, the team works harder.*（随着截止日期的临近，团队工作更加努力。）
 - **approach someone for help**：找某人帮忙
-  - *She approached her professor for advice on her thesis.*
+  - *She approached her professor for advice on her thesis.*（她找教授寻求关于论文的建议。）
 - **a positive approach**：积极的态度
-  - *A positive approach can lead to better outcomes.*
+  - *A positive approach can lead to better outcomes.*（积极的态度可以带来更好的结果。）
 - **practical approach**：实用的方法
-  - *The book offers a practical approach to learning English.*
+  - *The book offers a practical approach to learning English.*（这本书提供了一种实用的英语学习方法。）
 
 ## 真题/语料关联
 

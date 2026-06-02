@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **foreign tourists/visitors**：外国游客
-  - *The city attracts millions of foreign tourists every year.*
+  - *The city attracts millions of foreign tourists every year.*（这座城市每年吸引数百万外国游客。）
 - **foreign nationals**：外国国民
-  - *Foreign nationals must register with the local authorities.*
+  - *Foreign nationals must register with the local authorities.*（外国国民必须在当地政府登记。）
 - **foreign workers**：外籍工人
-  - *The country relies heavily on foreign workers in the construction sector.*
+  - *The country relies heavily on foreign workers in the construction sector.*（该国在建筑行业严重依赖外籍工人。）
 - **treat someone as a foreigner**：把某人当外人
-  - *Even after years of living there, she was still treated as a foreigner.*
+  - *Even after years of living there, she was still treated as a foreigner.*（即使在那里住了多年，她仍然被当作外人对待。）
 - **feel like a foreigner**：感觉像外人
-  - *I felt like a foreigner in my own country after living abroad for so long.*
+  - *I felt like a foreigner in my own country after living abroad for so long.*（在国外生活了这么久之后，我在自己的国家感觉像个外人。）
 
 ## 真题/语料关联
 

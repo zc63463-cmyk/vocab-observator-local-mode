@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **student accommodation**：学生宿舍
-  - *The university provides on-campus student accommodation for first-year students.*
+  - *The university provides on-campus student accommodation for first-year students.*（大学为一年级学生提供校内住宿。）
 - **university accommodation**：大学住宿
-  - *University accommodation is often cheaper than private rentals.*
+  - *University accommodation is often cheaper than private rentals.*（大学住宿通常比私人租房便宜。）
 - **self-catering accommodation**：自助式住宿（不含餐食）
-  - *We booked self-catering accommodation for our holiday.*
+  - *We booked self-catering accommodation for our holiday.*（我们为假期预订了自助式住宿。）
 - **make accommodation for**：为…提供便利
-  - *The school makes accommodation for students with disabilities.*
+  - *The school makes accommodation for students with disabilities.*（学校为残疾学生提供便利。）
 - **reach an accommodation**：达成和解
-  - *After long negotiations, the two sides reached an accommodation.*
+  - *After long negotiations, the two sides reached an accommodation.*（经过漫长的谈判，双方达成了和解。）
 
 ## 真题/语料关联
 

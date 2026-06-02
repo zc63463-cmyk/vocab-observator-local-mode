@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **military academy**：军事学院
-  - *He graduated from a prestigious military academy.*
+  - *He graduated from a prestigious military academy.*（他从一所著名的军事学院毕业。）
 - **Royal Academy**：皇家学院/皇家艺术院
-  - *Her paintings were exhibited at the Royal Academy.*
+  - *Her paintings were exhibited at the Royal Academy.*（她的画作在皇家艺术院展出。）
 - **academy award**：学院奖（奥斯卡金像奖）
-  - *The film won three Academy Awards.*
+  - *The film won three Academy Awards.*（这部电影获得了三项奥斯卡奖。）
 - **police academy**：警察学院
-  - *New recruits must complete training at the police academy.*
+  - *New recruits must complete training at the police academy.*（新招募的警员必须在警察学院完成培训。）
 - **the academy**：学术界
-  - *There is often a gap between the academy and the real world.*
+  - *There is often a gap between the academy and the real world.*（学术界和现实世界之间常常存在差距。）
 
 ## 真题/语料关联
 

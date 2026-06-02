@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **lunar module**：登月舱
-  - *The lunar module carried astronauts from orbit to the Moon's surface.*
+  - *The lunar module carried astronauts from orbit to the Moon's surface.*（登月舱将宇航员从轨道运送到月球表面。）
 - **command module**：指令舱
-  - *The command module remained in orbit while the lunar module landed.*
+  - *The command module remained in orbit while the lunar module landed.*（指令舱在轨道上停留，而登月舱则着陆。）
 - **software module**：软件模块
-  - *The software is divided into modules for easier development and maintenance.*
+  - *The software is divided into modules for easier development and maintenance.*（软件被分成模块以便于开发和维护。）
 - **course module**：课程模块
-  - *The online course is divided into six modules.*
+  - *The online course is divided into six modules.*（在线课程分为六个模块。）
 - **modular design**：模块化设计
-  - *Modular design allows for easy upgrades and repairs.*
+  - *Modular design allows for easy upgrades and repairs.*（模块化设计便于升级和维修。）
 
 ## 真题/语料关联
 

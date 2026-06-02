@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **syntax rules**：语法规则
-  - *English syntax rules require the subject to come before the verb.*
+  - *English syntax rules require the subject to come before the verb.*（英语句法规则要求主语在动词之前。）
 - **word order**：语序
-  - *Word order is an important aspect of syntax.*
+  - *Word order is an important aspect of syntax.*（语序是句法的一个重要方面。）
 - **syntactic structure**：句法结构
-  - *The syntactic structure of the sentence is quite complex.*
+  - *The syntactic structure of the sentence is quite complex.*（这个句子的句法结构相当复杂。）
 - **syntax error**：语法错误
-  - *The program won't run because of a syntax error.*
+  - *The program won't run because of a syntax error.*（程序因为语法错误而无法运行。）
 - **basic syntax**：基本语法
-  - *Learning the basic syntax of a language is the first step to fluency.*
+  - *Learning the basic syntax of a language is the first step to fluency.*（学习一门语言的基本句法是通向流利的第一步。）
 
 ## 真题/语料关联
 

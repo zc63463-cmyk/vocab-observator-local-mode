@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **negotiate a deal**：谈判交易
-  - *The two companies are negotiating a deal worth millions.*
+  - *The two companies are negotiating a deal worth millions.*（两家公司正在谈判一笔价值数百万的交易。）
 - **negotiate terms**：商定条款
-  - *The unions are negotiating better terms for workers.*
+  - *The unions are negotiating better terms for workers.*（工会正在为工人们商定更好的条款。）
 - **negotiate with someone**：与某人谈判
-  - *We need to negotiate with the supplier for a better price.*
+  - *We need to negotiate with the supplier for a better price.*（我们需要与供应商谈判争取更好的价格。）
 - **negotiate peace**：谈判和平
-  - *The diplomats worked tirelessly to negotiate peace between the two countries.*
+  - *The diplomats worked tirelessly to negotiate peace between the two countries.*（外交官们不知疲倦地为两国谈判和平。）
 - **negotiate a corner/curve**：顺利转弯
-  - *The driver skillfully negotiated the sharp corner.*
+  - *The driver skillfully negotiated the sharp corner.*（司机熟练地通过了那个急转弯。）
 
 ## 真题/语料关联
 

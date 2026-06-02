@@ -54,6 +54,8 @@ interface MasteryCell {
   shortDefinition: string | null;
   pos: string | null;
   title: string | null;
+  prefixes?: string[];
+  suffixes?: string[];
 }
 
 interface MasteryGlobeProps {
@@ -136,6 +138,42 @@ export function MasteryGlobe({
   const [interactionMode, setInteractionMode] = useState<
     "locked" | "manual" | "auto"
   >("locked");
+
+  /* Morphological filter: type in a prefix/suffix to show only the words
+     that contain it. This lets users explore "word families" (e.g. all
+     re- words or all -tion words) without cluttering the network with
+     thousands of morphological edges. */
+  const [morphFilter, setMorphFilter] = useState("");
+  const [morphFilterType, setMorphFilterType] = useState<"prefix" | "suffix" | "any">("any");
+
+  const filteredCells = useMemo(() => {
+    if (!morphFilter.trim()) return cells;
+    const q = morphFilter.trim().toLowerCase();
+    return cells.filter((c) => {
+      if (morphFilterType === "prefix" || morphFilterType === "any") {
+        const prefixes = (c.prefixes ?? []).map((p) => p.toLowerCase());
+        if (prefixes.some((p) => p === q || p.includes(q))) return true;
+      }
+      if (morphFilterType === "suffix" || morphFilterType === "any") {
+        const suffixes = (c.suffixes ?? []).map((s) => s.toLowerCase());
+        if (suffixes.some((s) => s === q || s.includes(q))) return true;
+      }
+      return false;
+    });
+  }, [cells, morphFilter, morphFilterType]);
+
+  const filteredRelationGraph = useMemo(() => {
+    if (!morphFilter.trim()) return relationGraph;
+    const visible = new Set(filteredCells.map((c) => c.slug));
+    const result: Record<string, { slug: string; lemma: string; relation: string }[]> = {};
+    for (const [source, neighbors] of Object.entries(relationGraph)) {
+      if (!visible.has(source)) continue;
+      const filtered = neighbors.filter((n) => visible.has(n.slug));
+      if (filtered.length > 0) result[source] = filtered;
+    }
+    return result;
+  }, [relationGraph, filteredCells, morphFilter]);
+
   const morph = useMotionValue(0);
   const zoom = useMotionValue(1);
   /* Pan (world units, 2D mode) and user-rotation (radians, 3D mode).
@@ -209,7 +247,7 @@ export function MasteryGlobe({
      doesn't cause the canvas to rebuild its Float32Arrays. */
   const nodes = useMemo<MasteryNetworkNode[]>(
     () =>
-      cells
+      filteredCells
         .filter((c) => c.lemma && c.lemma.trim().length > 0)
         .map((c) => ({
           slug: c.slug,
@@ -218,18 +256,18 @@ export function MasteryGlobe({
           retrievability: c.retrievability,
           dueAt: c.dueAt,
         })),
-    [cells],
+    [filteredCells],
   );
 
   const { edgeIndices, adjacency } = useMemo(() => {
     const visible = new Set(nodes.map((n) => n.slug));
-    const raw = flattenRelationGraph(relationGraph, visible);
+    const raw = flattenRelationGraph(filteredRelationGraph, visible);
     const pruned = pruneTopKEdges(raw, nodes, EDGE_TOP_K);
     return {
       edgeIndices: toEdgeIndexBuffer(pruned, nodes),
       adjacency: buildAdjacency(pruned),
     };
-  }, [nodes, relationGraph]);
+  }, [nodes, filteredRelationGraph]);
 
   const cellBySlug = useMemo(() => {
     const m = new Map<string, MasteryCell>();
@@ -626,15 +664,23 @@ export function MasteryGlobe({
   }, [previewSlug, relationGraph, prefetchWord]);
 
   const stats = useMemo(() => {
-    const total = cells.length;
-    const atRisk = cells.filter((c) => c.retrievability < 0.4).length;
-    const solid = cells.filter((c) => c.retrievability >= 0.9).length;
+    const total = filteredCells.length;
+    const atRisk = filteredCells.filter((c) => c.retrievability < 0.4).length;
+    const solid = filteredCells.filter((c) => c.retrievability >= 0.9).length;
     return { atRisk, solid, total, visible: nodes.length };
-  }, [cells, nodes.length]);
+  }, [filteredCells, nodes.length]);
 
   const hoveredCell = hovered ? cellBySlug.get(hovered.slug) ?? null : null;
   const hoveredNeighbors = hovered
-    ? (relationGraph[hovered.slug] ?? []).filter((n) => cellBySlug.has(n.slug))
+    ? (() => {
+        const seen = new Set<string>();
+        return (filteredRelationGraph[hovered.slug] ?? [])
+          .filter((n) => {
+            if (!cellBySlug.has(n.slug) || seen.has(n.slug)) return false;
+            seen.add(n.slug);
+            return true;
+          });
+      })()
     : [];
 
   const previewCell = previewSlug ? cellBySlug.get(previewSlug) ?? null : null;
@@ -683,6 +729,35 @@ export function MasteryGlobe({
         <span style={{ color: "#16a34a" }}>
           牢固 <strong>{stats.solid}</strong>
         </span>
+      </div>
+
+      {/* Morphological filter */}
+      <div className="mt-3 flex items-center gap-2">
+        <input
+          type="text"
+          value={morphFilter}
+          onChange={(e) => setMorphFilter(e.target.value)}
+          placeholder="输入词缀筛选，如 re / tion"
+          className="h-8 rounded-lg border border-[var(--color-border)] bg-[var(--color-canvas)] px-3 text-xs text-[var(--color-ink)] outline-none focus:border-[var(--color-accent)]"
+        />
+        <select
+          value={morphFilterType}
+          onChange={(e) => setMorphFilterType(e.target.value as "prefix" | "suffix" | "any")}
+          className="h-8 rounded-lg border border-[var(--color-border)] bg-[var(--color-canvas)] px-2 text-xs text-[var(--color-ink)] outline-none focus:border-[var(--color-accent)]"
+        >
+          <option value="any">前缀或后缀</option>
+          <option value="prefix">仅前缀</option>
+          <option value="suffix">仅后缀</option>
+        </select>
+        {morphFilter && (
+          <button
+            type="button"
+            onClick={() => { setMorphFilter(""); }}
+            className="h-8 rounded-lg border border-[var(--color-border)] px-2 text-xs text-[var(--color-ink-soft)] transition hover:text-[var(--color-ink)]"
+          >
+            清除
+          </button>
+        )}
       </div>
 
       <div
@@ -955,7 +1030,13 @@ export function MasteryGlobe({
             )}
 
             {(() => {
-              const neighbors = relationGraph[previewCell.slug] ?? [];
+              const seen = new Set<string>();
+              const neighbors = (relationGraph[previewCell.slug] ?? [])
+                .filter((n) => {
+                  if (seen.has(n.slug)) return false;
+                  seen.add(n.slug);
+                  return true;
+                });
               return neighbors.length > 0 ? (
                 <div className="mt-5">
                   <p className="mb-2 text-xs font-semibold text-[var(--color-ink-soft)]">关联词汇</p>

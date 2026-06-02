@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the minimum (of)**：最小值
-  - *The minimum of 3, 5, and 7 is 3.*
+  - *The minimum of 3, 5, and 7 is 3.*（中文翻译）
 - **minimum wage**：最低工资
-  - *The government raised the minimum wage.*
+  - *The government raised the minimum wage.*（中文翻译）
 - **at a minimum**：至少
-  - *You should study for two hours at a minimum.*
+  - *You should study for two hours at a minimum.*（中文翻译）
 - **minimum requirement**：最低要求
-  - *A bachelor's degree is the minimum requirement for the job.*
+  - *A bachelor's degree is the minimum requirement for the job.*（中文翻译）
 - **minimum effort/amount**：最少的努力/数量
-  - *He did the minimum effort to pass the exam.*
+  - *He did the minimum effort to pass the exam.*（中文翻译）
 
 ## 真题/语料关联
 

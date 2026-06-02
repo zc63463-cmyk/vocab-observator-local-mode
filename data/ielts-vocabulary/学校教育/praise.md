@@ -76,17 +76,17 @@ review_count: 0
 ## 搭配与短语
 
 - **praise someone for**：因……而表扬某人
-  - *The teacher praised the students for their hard work.*
+  - *The teacher praised the students for their hard work.*（中文翻译）
 - **receive praise**：受到赞扬
-  - *Her performance received widespread praise.*
+  - *Her performance received widespread praise.*（中文翻译）
 - **praise highly**：高度赞扬
-  - *The critics praised the film highly.*
+  - *The critics praised the film highly.*（中文翻译）
 - **words of praise**：赞扬的话语
-  - *He was generous with words of praise.*
+  - *He was generous with words of praise.*（中文翻译）
 - **sing someone's praises**：高度赞扬某人
-  - *The manager sang her praises at the meeting.*
+  - *The manager sang her praises at the meeting.*（中文翻译）
 - **praise to the skies**：捧上天
-  - *The product was praised to the skies by reviewers.*
+  - *The product was praised to the skies by reviewers.*（中文翻译）
 
 ## 真题/语料关联
 

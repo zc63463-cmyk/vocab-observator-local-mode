@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a brown hare**：一只棕色野兔
-  - *We spotted a brown hare in the field at dawn.*
+  - *We spotted a brown hare in the field at dawn.*（黎明时分我们在田野里发现了一只褐色的野兔。）
 - **mad as a March hare**：像三月的野兔一样疯狂（形容行为古怪）
-  - *He's as mad as a March hare, talking to himself all day.*
+  - *He's as mad as a March hare, talking to himself all day.*（他像三月发情的野兔一样疯癫，整天自言自语。）
 - **hare off**：飞快地跑走
-  - *She hared off to catch the bus before it left.*
+  - *She hared off to catch the bus before it left.*（她飞快地跑去赶公交车。）
 - **start a hare**：提出话题引起讨论（英式用法）
-  - *He started a hare about the new policy at the meeting.*
+  - *He started a hare about the new policy at the meeting.*（他在会上提出了关于新政策的讨论。）
 - **hare and hounds**：追兔游戏（一种追逐游戏）
-  - *The children played hare and hounds in the park.*
+  - *The children played hare and hounds in the park.*（孩子们在公园玩追逐游戏。）
 
 ## 真题/语料关联
 

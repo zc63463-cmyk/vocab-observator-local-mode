@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **draw an analogy**：做类比
-  - *The teacher drew an analogy between the brain and a computer.*
+  - *The teacher drew an analogy between the brain and a computer.*（老师将大脑和计算机做了类比。）
 - **make an analogy**：进行类比
-  - *He made an analogy to explain the complex concept.*
+  - *He made an analogy to explain the complex concept.*（他做了一个类比来解释这个复杂的概念。）
 - **analogy between**：……之间的类比
-  - *There is a close analogy between the two situations.*
+  - *There is a close analogy between the two situations.*（这两种情况之间有密切的相似性。）
 - **bear an analogy to**：与……相似
-  - *The structure bears a close analogy to that of a cell.*
+  - *The structure bears a close analogy to that of a cell.*（这个结构与细胞的结构非常相似。）
 - **by analogy**：通过类比
-  - *We can understand the new system by analogy with the old one.*
+  - *We can understand the new system by analogy with the old one.*（我们可以通过与旧系统的类比来理解新系统。）
 
 ## 真题/语料关联
 

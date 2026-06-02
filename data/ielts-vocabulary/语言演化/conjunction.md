@@ -72,13 +72,13 @@ review_count: 0
 ## 搭配与短语
 
 - **in conjunction with**：与……一起，联合
-  - *The drug should be used in conjunction with physical therapy.*
+  - *The drug should be used in conjunction with physical therapy.*（这种药物应与物理治疗联合使用。）
 - **coordinating conjunction**：并列连词
-  - *"And" is one of the most common coordinating conjunctions.*
+  - *"And" is one of the most common coordinating conjunctions.*（"And"是最常见的并列连词之一。）
 - **subordinating conjunction**：从属连词
-  - *"Although" is a subordinating conjunction that introduces a concessive clause.*
+  - *"Although" is a subordinating conjunction that introduces a concessive clause.*（"Although"是引导让步从句的从属连词。）
 - **conjunction of events**：事件的巧合/同时发生
-  - *A strange conjunction of events led to the discovery.*
+  - *A strange conjunction of events led to the discovery.*（事件的奇怪巧合导致了这一发现。）
 
 ## 真题/语料关联
 

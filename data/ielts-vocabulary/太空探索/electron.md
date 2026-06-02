@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **free electron**：自由电子
-  - *Free electrons in metals allow them to conduct electricity.*
+  - *Free electrons in metals allow them to conduct electricity.*（金属中的自由电子使其能够导电。）
 - **electron cloud**：电子云
-  - *The electron cloud represents the probability of finding an electron in a region.*
+  - *The electron cloud represents the probability of finding an electron in a region.*（电子云代表了在某个区域找到电子的概率。）
 - **electron microscope**：电子显微镜
-  - *An electron microscope uses electrons instead of light to magnify objects.*
+  - *An electron microscope uses electrons instead of light to magnify objects.*（电子显微镜使用电子代替光来放大物体。）
 - **electron beam**：电子束
-  - *An electron beam is used in television tubes and electron microscopes.*
+  - *An electron beam is used in television tubes and electron microscopes.*（电子束用于电视显像管和电子显微镜中。）
 - **electron transfer**：电子转移
-  - *Electron transfer is the basis of many chemical reactions.*
+  - *Electron transfer is the basis of many chemical reactions.*（电子转移是许多化学反应的基础。）
 
 ## 真题/语料关联
 

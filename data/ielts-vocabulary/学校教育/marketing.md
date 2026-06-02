@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **digital marketing**：数字营销
-  - *The company invested heavily in digital marketing.*
+  - *The company invested heavily in digital marketing.*（中文翻译）
 - **marketing campaign**：营销活动
-  - *The marketing campaign was a huge success.*
+  - *The marketing campaign was a huge success.*（中文翻译）
 - **marketing strategy**：营销策略
-  - *We need to develop a new marketing strategy.*
+  - *We need to develop a new marketing strategy.*（中文翻译）
 - **market research**：市场调研
-  - *The company conducted market research before launching the product.*
+  - *The company conducted market research before launching the product.*（中文翻译）
 - **marketing mix**：营销组合（4P：产品、价格、渠道、促销）
-  - *The marketing mix includes product, price, place, and promotion.*
+  - *The marketing mix includes product, price, place, and promotion.*（中文翻译）
 
 ## 真题/语料关联
 

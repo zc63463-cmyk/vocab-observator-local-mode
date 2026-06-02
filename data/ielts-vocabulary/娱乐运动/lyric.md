@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **song lyrics**：歌曲歌词
-  - *She can sing along because she knows all the lyrics.*
+  - *She can sing along because she knows all the lyrics.*（她能跟着唱，因为她知道所有的歌词。）
 - **write lyrics**：写歌词
-  - *He writes lyrics for popular songs.*
+  - *He writes lyrics for popular songs.*（他为流行歌曲写歌词。）
 - **lyric poetry**：抒情诗
-  - *Keats is famous for his lyric poetry.*
+  - *Keats is famous for his lyric poetry.*（济慈以其抒情诗而闻名。）
 - **lyric writer**：歌词作者
-  - *The lyric writer collaborated with the composer.*
+  - *The lyric writer collaborated with the composer.*（歌词作者与作曲家合作了。）
 - **lyric video**：歌词视频
-  - *The lyric video on YouTube has millions of views.*
+  - *The lyric video on YouTube has millions of views.*（YouTube上的歌词视频有数百万的观看量。）
 
 ## 真题/语料关联
 

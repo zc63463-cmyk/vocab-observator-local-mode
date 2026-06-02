@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **be literate**：有读写能力的
-  - *About 86% of the world's adult population is now literate.*
+  - *About 86% of the world's adult population is now literate.*（中文翻译）
 - **become literate**：学会读写
-  - *Children become literate gradually through schooling.*
+  - *Children become literate gradually through schooling.*（中文翻译）
 - **culturally literate**：有文化素养的
-  - *A culturally literate person understands the references in classic literature.*
+  - *A culturally literate person understands the references in classic literature.*（中文翻译）
 - **computer literate**：会使用电脑的
-  - *Most jobs now require applicants to be computer literate.*
+  - *Most jobs now require applicants to be computer literate.*（中文翻译）
 - **financially literate**：有金融素养的
-  - *Schools should teach students to be financially literate.*
+  - *Schools should teach students to be financially literate.*（中文翻译）
 - **highly literate**：文化水平高的
-  - *The country has a highly literate population.*
+  - *The country has a highly literate population.*（中文翻译）
 
 ## 真题/语料关联
 

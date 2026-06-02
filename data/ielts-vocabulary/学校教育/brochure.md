@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **travel brochure**：旅游宣传册
-  - *The travel brochure showed beautiful pictures of the beach.*
+  - *The travel brochure showed beautiful pictures of the beach.*（旅游宣传册展示了海滩的美丽图片。）
 - **product brochure**：产品手册
-  - *You can find all the specifications in the product brochure.*
+  - *You can find all the specifications in the product brochure.*（你可以在产品手册中找到所有规格。）
 - **sales brochure**：销售手册
-  - *The sales brochure highlights the key features of the new car.*
+  - *The sales brochure highlights the key features of the new car.*（销售手册突出了新车的主要特点。）
 - **information brochure**：信息手册
-  - *The hospital provides an information brochure for new patients.*
+  - *The hospital provides an information brochure for new patients.*（医院为新病人提供信息手册。）
 - **brochure website**：宣传网站
-  - *A brochure website is designed to provide basic information about a business.*
+  - *A brochure website is designed to provide basic information about a business.*（宣传网站旨在提供企业的基本信息。）
 
 ## 真题/语料关联
 

@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **complex system**：复杂系统
-  - *The human body is an incredibly complex system.*
+  - *The human body is an incredibly complex system.*（人体是一个极其复杂的系统。）
 - **complex issues**：复杂问题
-  - *Climate change involves complex issues that require international cooperation.*
+  - *Climate change involves complex issues that require international cooperation.*（气候变化涉及需要国际合作的复杂问题。）
 - **complex network**：复杂网络
-  - *Social media has created a complex network of relationships.*
+  - *Social media has created a complex network of relationships.*（社交媒体创造了一个复杂的关系网络。）
 - **inferiority complex**：自卑情结
-  - *His arrogance may stem from an underlying inferiority complex.*
+  - *His arrogance may stem from an underlying inferiority complex.*（他的傲慢可能源于潜在的自卑情结。）
 - **sports complex**：体育综合体
-  - *The new sports complex includes a gym, pool, and running track.*
+  - *The new sports complex includes a gym, pool, and running track.*（新的体育综合体包括健身房、游泳池和跑道。）
 
 ## 真题/语料关联
 

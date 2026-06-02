@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **outdoor recreation**：户外娱乐
-  - *The park provides facilities for outdoor recreation.*
+  - *The park provides facilities for outdoor recreation.*（公园提供户外娱乐设施。）
 - **recreation facilities**：娱乐设施
-  - *The city has excellent recreation facilities.*
+  - *The city has excellent recreation facilities.*（这个城市有极好的娱乐设施。）
 - **recreation center**：娱乐中心
-  - *The recreation center offers various activities for children.*
+  - *The recreation center offers various activities for children.*（娱乐中心为儿童提供各种活动。）
 - **recreation area**：娱乐区
-  - *The recreation area is popular with families.*
+  - *The recreation area is popular with families.*（娱乐区很受家庭欢迎。）
 - **leisure and recreation**：休闲与娱乐
-  - *Leisure and recreation are important for a balanced lifestyle.*
+  - *Leisure and recreation are important for a balanced lifestyle.*（休闲和娱乐对于平衡的生活方式很重要。）
 
 ## 真题/语料关联
 

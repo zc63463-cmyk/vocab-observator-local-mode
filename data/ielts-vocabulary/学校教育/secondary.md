@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **secondary school**：中学
-  - *She attended a prestigious secondary school in London.*
+  - *She attended a prestigious secondary school in London.*（她就读于伦敦一所著名的中学。）
 - **secondary education**：中等教育
-  - *Secondary education typically covers ages 11 to 18 in the UK.*
+  - *Secondary education typically covers ages 11 to 18 in the UK.*（在英国，中等教育通常涵盖11至18岁。）
 - **of secondary importance**：次要的
-  - *Cost is of secondary importance when safety is at stake.*
+  - *Cost is of secondary importance when safety is at stake.*（当安全受到威胁时，成本是次要的。）
 - **secondary effect**：次级效应、附带影响
-  - *The secondary effects of the policy were felt years later.*
+  - *The secondary effects of the policy were felt years later.*（该政策的附带影响在多年后才显现出来。）
 - **secondary to**：次于；从属于
-  - *Personal preferences should be secondary to professional requirements.*
+  - *Personal preferences should be secondary to professional requirements.*（个人偏好应次于专业要求。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **recite a poem/speech**：背诵诗歌/演讲
-  - *The student recited a Shakespeare sonnet in class.*
+  - *The student recited a Shakespeare sonnet in class.*（那个学生在课堂上背诵了一首莎士比亚的十四行诗。）
 - **recite from memory**：凭记忆背诵
-  - *He can recite the entire speech from memory.*
+  - *He can recite the entire speech from memory.*（他能凭记忆背诵整篇演讲。）
 - **recite a list**：列举清单
-  - *She recited a list of names from the register.*
+  - *She recited a list of names from the register.*（她从名册上逐一念出了一串名字。）
 - **recite prayers/verses**：吟诵祈祷文/经文
-  - *The monks recited prayers every morning.*
+  - *The monks recited prayers every morning.*（僧侣们每天早上吟诵祈祷文。）
 - **recite by rote**：死记硬背地背诵
-  - *The children were taught to recite multiplication tables by rote.*
+  - *The children were taught to recite multiplication tables by rote.*（孩子们被教导通过死记硬背来背诵乘法表。）
 
 ## 真题/语料关联
 

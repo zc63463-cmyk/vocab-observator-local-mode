@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **three dimensions**：三维
-  - *We live in a three-dimensional world with length, width, and height.*
+  - *We live in a three-dimensional world with length, width, and height.*（我们生活在一个具有长、宽、高的三维世界中。）
 - **the fourth dimension**：第四维度（时间）
-  - *In physics, time is often referred to as the fourth dimension.*
+  - *In physics, time is often referred to as the fourth dimension.*（在物理学中，时间常被称为第四维。）
 - **room dimensions**：房间尺寸
-  - *The room dimensions are 5 meters by 4 meters.*
+  - *The room dimensions are 5 meters by 4 meters.*（房间的尺寸是5米乘4米。）
 - **add a new dimension**：增加一个新的方面
-  - *The internet has added a new dimension to communication.*
+  - *The internet has added a new dimension to communication.*（互联网为沟通增添了一个新的维度。）
 - **on a grand scale**：大规模地
-  - *The project was implemented on a grand dimension.*
+  - *The project was implemented on a grand scale.*（该项目是在宏大的规模上实施的。）
 
 ## 真题/语料关联
 

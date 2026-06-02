@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **apply for**：申请（职位、许可等）
-  - *She applied for a scholarship to study abroad.*
+  - *She applied for a scholarship to study abroad.*（她申请了出国留学的奖学金。）
 - **apply to**：适用于；向……申请
-  - *This rule applies to all students.*
+  - *This rule applies to all students.*（这条规则适用于所有学生。）
 - **apply knowledge/theory**：应用知识/理论
-  - *Students learn to apply theory to real-world problems.*
+  - *Students learn to apply theory to real-world problems.*（学生学会将理论应用于实际问题。）
 - **apply to university**：申请大学
-  - *He applied to several universities last year.*
+  - *He applied to several universities last year.*（他去年申请了好几所大学。）
 - **apply oneself**：努力致力于
-  - *If you apply yourself, you can succeed.*
+  - *If you apply yourself, you can succeed.*（如果你全力以赴，就能成功。）
 
 ## 真题/语料关联
 

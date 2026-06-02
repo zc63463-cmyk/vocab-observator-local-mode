@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **plural noun**：复数名词
-  - *The plural noun "cats" refers to more than one cat.*
+  - *The plural noun "cats" refers to more than one cat.*（复数名词"cats"指一只以上的猫。）
 - **plural form**：复数形式
-  - *The plural form of "child" is "children".*
+  - *The plural form of "child" is "children".*（"Child"的复数形式是"children"。）
 - **plural society**：多元社会
-  - *Singapore is a plural society with many different cultures.*
+  - *Singapore is a plural society with many different cultures.*（新加坡是一个拥有多种不同文化的多元社会。）
 - **plural verb**：复数动词
-  - *In English, plural verbs do not add "-s" in the present tense.*
+  - *In English, plural verbs do not add "-s" in the present tense.*（在英语中，复数动词在现在时中不加"-s"。）
 - **in the plural**：以复数形式
-  - *The word "sheep" is the same in the singular and the plural.*
+  - *The word "sheep" is the same in the singular and the plural.*（单词"sheep"的单数和复数形式相同。）
 
 ## 真题/语料关联
 

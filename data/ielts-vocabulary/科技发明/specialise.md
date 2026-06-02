@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **specialise in**：专攻； specialize
-  - *She decided to specialise in pediatric medicine.*
+  - *She decided to specialise in pediatric medicine.*（她决定专攻儿科医学。）
 - **specialised knowledge**：专业知识
-  - *The job requires specialised knowledge in computer programming.*
+  - *The job requires specialised knowledge in computer programming.*（这份工作需要计算机编程方面的专业知识。）
 - **specialised equipment**：专业设备
-  - *The laboratory has specialised equipment for chemical analysis.*
+  - *The laboratory has specialised equipment for chemical analysis.*（实验室有用于化学分析的专业设备。）
 - **highly specialised**：高度专业化的
-  - *The field has become highly specialised in recent years.*
+  - *The field has become highly specialised in recent years.*（这个领域近年来变得高度专业化。）
 - **specialise as**：成为……专家
-  - *He specialised as a neurosurgeon after years of training.*
+  - *He specialised as a neurosurgeon after years of training.*（经过多年的培训，他成为了一名神经外科专家。）
 
 ## 真题/语料关联
 

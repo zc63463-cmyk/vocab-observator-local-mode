@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dormant volcano**：休眠火山
-  - *The dormant volcano could erupt again at any time.*
+  - *The dormant volcano could erupt again at any time.*（这座休眠火山随时可能再次喷发。）
 - **dormant period**：休眠期
-  - *Many animals have a dormant period during the winter months.*
+  - *Many animals have a dormant period during the winter months.*（许多动物在冬季有一段休眠期。）
 - **dormant account**：休眠账户
-  - *The bank charges a fee for dormant accounts.*
+  - *The bank charges a fee for dormant accounts.*（银行对休眠账户收取费用。）
 - **dormant infection**：潜伏感染
-  - *The virus can remain dormant in the body for years.*
+  - *The virus can remain dormant in the body for years.*（病毒可以在体内潜伏多年。）
 - **lie dormant**：处于休眠状态
-  - *The disease can lie dormant for decades before showing symptoms.*
+  - *The disease can lie dormant for decades before showing symptoms.*（这种疾病可以潜伏数十年才出现症状。）
 
 ## 真题/语料关联
 

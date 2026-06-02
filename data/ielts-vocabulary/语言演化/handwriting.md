@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **neat handwriting**：字迹工整
-  - *She has very neat handwriting that is easy to read.*
+  - *She has very neat handwriting that is easy to read.*（她的字迹很工整，容易辨认。）
 - **illegible handwriting**：难以辨认的笔迹
-  - *The doctor's illegible handwriting made the prescription hard to read.*
+  - *The doctor's illegible handwriting made the prescription hard to read.*（医生难以辨认的笔迹使得处方很难看清。）
 - **handwriting analysis**：笔迹分析
-  - *Handwriting analysis can reveal aspects of a person's personality.*
+  - *Handwriting analysis can reveal aspects of a person's personality.*（笔迹分析可以揭示一个人性格的某些方面。）
 - **handwriting recognition**：手写识别
-  - *Modern tablets have advanced handwriting recognition technology.*
+  - *Modern tablets have advanced handwriting recognition technology.*（现代平板电脑拥有先进的手写识别技术。）
 - **by hand / in handwriting**：手写的
-  - *The letter was written by hand in beautiful cursive script.*
+  - *The letter was written by hand in beautiful cursive script.*（这封信是用漂亮的手写草书写的。）
 
 ## 真题/语料关联
 

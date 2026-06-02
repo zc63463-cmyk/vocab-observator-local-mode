@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go skiing**：去滑雪
-  - *We went skiing in the French Alps last winter.*
+  - *We went skiing in the French Alps last winter.*（去年冬天我们去法国阿尔卑斯山滑雪了。）
 - **ski resort**：滑雪度假村
-  - *The ski resort was packed with tourists during the holiday season.*
+  - *The ski resort was packed with tourists during the holiday season.*（滑雪度假村在假期期间挤满了游客。）
 - **ski slope**：滑雪坡道
-  - *The ski slope was perfect for beginners.*
+  - *The ski slope was perfect for beginners.*（这条滑雪道非常适合初学者。）
 - **water ski**：滑水
-  - *She learned to water ski during her summer holiday.*
+  - *She learned to water ski during her summer holiday.*（她在暑假期间学会了滑水。）
 - **ski lift**：滑雪缆车
-  - *The ski lift took us to the top of the mountain.*
+  - *The ski lift took us to the top of the mountain.*（滑雪缆车把我们带到了山顶。）
 
 ## 真题/语料关联
 

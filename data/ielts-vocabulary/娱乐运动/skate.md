@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go skating**：去滑冰
-  - *We went skating at the outdoor rink last weekend.*
+  - *We went skating at the outdoor rink last weekend.*（我们上周末在室外溜冰场滑冰了。）
 - **ice skating**：滑冰
-  - *Ice skating is a popular activity during the winter holidays.*
+  - *Ice skating is a popular activity during the winter holidays.*（滑冰是寒假期间受欢迎的活动。）
 - **roller skate**：轮滑鞋；轮滑
-  - *She learned to roller skate when she was six.*
+  - *She learned to roller skate when she was six.*（她六岁时学会了轮滑。）
 - **skate around/round**：回避（问题）
-  - *The politician skated around the difficult questions.*
+  - *The politician skated around the difficult questions.*（这位政治家回避了那些棘手的问题。）
 - **skateboard**：滑板
-  - *Teenagers love to skateboard in the park.*
+  - *Teenagers love to skateboard in the park.*（青少年喜欢在公园里玩滑板。）
 
 ## 真题/语料关联
 

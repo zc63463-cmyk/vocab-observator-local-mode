@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research method**：研究方法
-  - *The research method used in this study was a combination of surveys and interviews.*
+  - *The research method used in this study was a combination of surveys and interviews.*（本研究使用的研究方法是问卷调查和访谈相结合。）
 - **scientific method**：科学方法
-  - *The scientific method involves observation, hypothesis, experimentation, and conclusion.*
+  - *The scientific method involves observation, hypothesis, experimentation, and conclusion.*（科学方法包括观察、假设、实验和结论。）
 - **teaching method**：教学方法
-  - *The teacher adopted a new teaching method to engage students.*
+  - *The teacher adopted a new teaching method to engage students.*（老师采用了新的教学方法来吸引学生。）
 - **method of**：……的方法
-  - *What method did you use to solve the problem?*
+  - *What method did you use to solve the problem?*（你用什么方法解决了这个问题？）
 - **methodical approach**：有条理的方法
-  - *She took a methodical approach to organizing the event.*
+  - *She took a methodical approach to organizing the event.*（她以有条不紊的方式来组织这次活动。）
 
 ## 真题/语料关联
 

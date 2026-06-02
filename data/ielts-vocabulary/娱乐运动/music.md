@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **classical music**：古典音乐
-  - *She enjoys listening to classical music while studying.*
+  - *She enjoys listening to classical music while studying.*（她喜欢在学习时听古典音乐。）
 - **pop music**：流行音乐
-  - *Pop music is popular among teenagers.*
+  - *Pop music is popular among teenagers.*（流行音乐在青少年中很受欢迎。）
 - **folk music**：民间音乐
-  - *Folk music often reflects the culture and traditions of a region.*
+  - *Folk music often reflects the culture and traditions of a region.*（民间音乐通常反映一个地区的文化和传统。）
 - **piece of music**：一首乐曲
-  - *He composed a beautiful piece of music for the wedding.*
+  - *He composed a beautiful piece of music for the wedding.*（他为婚礼创作了一首优美的乐曲。）
 - **read music**：识谱
-  - *She learned to read music at a young age.*
+  - *She learned to read music at a young age.*（她从小就开始学习识谱。）
 
 ## 真题/语料关联
 

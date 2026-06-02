@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rock pigeon**：原鸽（家鸽的野生祖先）
-  - *The rock pigeon is the ancestor of all domestic pigeons.*
+  - *The rock pigeon is the ancestor of all domestic pigeons.*（岩鸽是所有家鸽的祖先。）
 - **carrier/homing pigeon**：信鸽
-  - *During World War II, carrier pigeons were used to deliver messages across enemy lines.*
+  - *During World War II, carrier pigeons were used to deliver messages across enemy lines.*（二战期间，信鸽被用来穿越敌方防线传递信息。）
 - **pigeonhole** (n./v.) — 鸽巢；将……分类
-  - *Don't pigeonhole me — I can do many different things.*
+  - *Don't pigeonhole me — I can do many different things.*（别把我归类——我能做很多不同的事情。）
 - **clay pigeon**：泥鸽（射击用的飞靶）
-  - *He practiced shooting at clay pigeons every weekend.*
+  - *He practiced shooting at clay pigeons every weekend.*（他每周末练习射击泥鸽靶。）
 - **be someone's pigeon**：是某人的责任
-  - *That's not my pigeon — you deal with it.*
+  - *That's not my pigeon — you deal with it.*（那不关我的事——你自己处理。）
 
 ## 真题/语料关联
 

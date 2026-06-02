@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **action verb**：动作动词
-  - *"Run" and "jump" are action verbs.*
+  - *"Run" and "jump" are action verbs.*（"Run"和"jump"是动作动词。）
 - **linking verb**：连系动词
-  - *"Be" and "seem" are linking verbs.*
+  - *"Be" and "seem" are linking verbs.*（"Be"和"seem"是连系动词。）
 - **transitive verb**：及物动词
-  - *"Eat" is a transitive verb because it requires an object.*
+  - *"Eat" is a transitive verb because it requires an object.*（"Eat"是及物动词，因为它需要宾语。）
 - **intransitive verb**：不及物动词
-  - *"Sleep" is an intransitive verb because it does not require an object.*
+  - *"Sleep" is an intransitive verb because it does not require an object.*（"Sleep"是不及物动词，因为它不需要宾语。）
 - **verb tense**：动词时态
-  - *English has twelve verb tenses.*
+  - *English has twelve verb tenses.*（英语有十二个动词时态。）
 
 ## 真题/语料关联
 

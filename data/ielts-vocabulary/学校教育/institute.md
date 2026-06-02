@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research institute**：研究所
-  - *He works at a prestigious research institute in Berlin.*
+  - *He works at a prestigious research institute in Berlin.*（他在柏林一家著名的研究所工作。）
 - **institute of technology**：理工学院
-  - *Massachusetts Institute of Technology is world-renowned.*
+  - *Massachusetts Institute of Technology is world-renowned.*（麻省理工学院闻名世界。）
 - **institute a policy**：制定政策
-  - *The government instituted a new policy on immigration.*
+  - *The government instituted a new policy on immigration.*（政府制定了一项新的移民政策。）
 - **institute proceedings**：提起诉讼
-  - *The company instituted legal proceedings against the competitor.*
+  - *The company instituted legal proceedings against the competitor.*（该公司对其竞争对手提起了法律诉讼。）
 - **art institute**：艺术学院
-  - *She studied painting at the local art institute.*
+  - *She studied painting at the local art institute.*（她在当地的艺术学院学习绘画。）
 
 ## 真题/语料关联
 

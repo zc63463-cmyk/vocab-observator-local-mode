@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tumble down**：倒塌；跌倒
-  - *The old building finally tumbled down after years of neglect.*
+  - *The old building finally tumbled down after years of neglect.*（这座旧建筑在多年失修后终于倒塌了。）
 - **take a tumble**：跌倒；下跌
-  - *She took a tumble on the icy sidewalk.*
+  - *She took a tumble on the icy sidewalk.*（她在结冰的人行道上摔了一跤。）
 - **tumble dryer**：滚筒式烘干机
-  - *Put the clothes in the tumble dryer.*
+  - *Put the clothes in the tumble dryer.*（把衣服放进滚筒烘干机。）
 - **prices tumbled**：价格暴跌
-  - *Oil prices tumbled following the announcement.*
+  - *Oil prices tumbled following the announcement.*（公告发布后油价暴跌。）
 - **tumble to**：领悟，明白
-  - *It took me a while to tumble to what he was really saying.*
+  - *It took me a while to tumble to what he was really saying.*（我过了一阵子才明白他真正在说什么。）
 
 ## 真题/语料关联
 

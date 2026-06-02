@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **attach a file**：附上文件
-  - *Please find the report attached to this email.*
+  - *Please find the report attached to this email.*（请查收随邮件附上的报告。）
 - **attach importance to**：重视
-  - *The school attaches great importance to students' mental health.*
+  - *The school attaches great importance to students' mental health.*（学校非常重视学生的心理健康。）
 - **attach to**：附属于；依恋于
-  - *The research institute is attached to the university.*
+  - *The research institute is attached to the university.*（该研究所隶属于这所大学。）
 - **become attached to**：对……产生依恋
-  - *Children naturally become attached to their caregivers.*
+  - *Children naturally become attached to their caregivers.*（孩子自然而然地会依恋照顾他们的人。）
 - **attached please find**：（正式信函）请查收附件
-  - *Attached please find the contract for your review.*
+  - *Attached please find the contract for your review.*（随函附上合同供您审阅。）
 - **no strings attached**：无附加条件
-  - *The grant comes with no strings attached.*
+  - *The grant comes with no strings attached.*（这笔资助没有任何附加条件。）
 
 ## 真题/语料关联
 

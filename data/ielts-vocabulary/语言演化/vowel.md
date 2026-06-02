@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **short/long vowel**：短元音/长元音
-  - *The word "bit" has a short vowel, while "beat" has a long vowel.*
+  - *The word "bit" has a short vowel, while "beat" has a long vowel.*（单词"bit"有短元音，而"beat"有长元音。）
 - **vowel sound**：元音音素
-  - *English has more vowel sounds than vowel letters.*
+  - *English has more vowel sounds than vowel letters.*（英语的元音音素比元音字母多。）
 - **vowel letter**：元音字母
-  - *Every English word must contain at least one vowel letter.*
+  - *Every English word must contain at least one vowel letter.*（每个英语单词必须至少包含一个元音字母。）
 - **diphthong**：双元音
-  - *The diphthong /aɪ/ in "time" combines two vowel sounds.*
+  - *The diphthong /aɪ/ in "time" combines two vowel sounds.*（单词"time"中的双元音/aɪ/结合了两个元音。）
 
 ## 真题/语料关联
 

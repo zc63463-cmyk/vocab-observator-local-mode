@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **feudal system**：封建制度
-  - *The feudal system was based on the exchange of land for military service.*
+  - *The feudal system was based on the exchange of land for military service.*（封建制度建立在以土地换军役的基础上。）
 - **feudal society**：封建社会
-  - *In feudal society, social mobility was very limited.*
+  - *In feudal society, social mobility was very limited.*（在封建社会中，社会流动性非常有限。）
 - **feudal lord**：封建领主
-  - *The feudal lord controlled vast estates and had many serfs.*
+  - *The feudal lord controlled vast estates and had many serfs.*（封建领主控制着广阔的庄园，拥有许多农奴。）
 - **feudal mentality**：封建思想
-  - *Some people still have a feudal mentality that emphasizes hierarchy and obedience.*
+  - *Some people still have a feudal mentality that emphasizes hierarchy and obedience.*（有些人仍然有强调等级和服从的封建思想。）
 - **feudal era**：封建时代
-  - *The feudal era in Europe lasted from the 9th to the 15th century.*
+  - *The feudal era in Europe lasted from the 9th to the 15th century.*（欧洲的封建时代从9世纪持续到15世纪。）
 
 ## 真题/语料关联
 

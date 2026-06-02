@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **casting mould**：铸造模具
-  - *The metal was poured into the casting mould.*
+  - *The metal was poured into the casting mould.*（金属被倒入铸造模具中。）
 - **in the mould of**：类似于……的类型
-  - *He is in the mould of his father.*
+  - *He is in the mould of his father.*（他长得像他父亲。）
 - **break the mould**：打破常规
-  - *She broke the mould by becoming the first female engineer in her family.*
+  - *She broke the mould by becoming the first female engineer in her family.*（她打破了常规，成为家里第一位女性工程师。）
 - **mould into**：塑造成为
-  - *The teacher helped mould the students into confident speakers.*
+  - *The teacher helped mould the students into confident speakers.*（老师帮助学生塑造成为自信的演讲者。）
 - **mould growth**：霉菌生长
-  - *The damp conditions caused mould growth on the walls.*
+  - *The damp conditions caused mould growth on the walls.*（潮湿的环境导致墙壁上长了霉菌。）
 
 ## 真题/语料关联
 

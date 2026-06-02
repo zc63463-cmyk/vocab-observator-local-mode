@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **reckon (that)...**：认为……
-  - *I reckon (that) we should leave early to avoid traffic.*
+  - *I reckon (that) we should leave early to avoid traffic.*（我认为我们应该早点出发以避开交通拥堵。）
 - **I reckon so**：我认为是的
-  - *Will it rain tomorrow? — I reckon so.*
+  - *Will it rain tomorrow? — I reckon so.*（明天会下雨吗？——我认为是的。）
 - **reckon on**：指望，依赖
-  - *Don't reckon on getting a promotion this year.*
+  - *Don't reckon on getting a promotion this year.*（别指望今年能升职。）
 - **reckon with**：考虑到，处理
-  - *The new law is something we have to reckon with.*
+  - *The new law is something we have to reckon with.*（这项新法律是我们必须面对和处理的事情。）
 - **dead reckoning**：航位推算（推测航行位置）
-  - *Before GPS, sailors used dead reckoning to navigate.*
+  - *Before GPS, sailors used dead reckoning to navigate.*（在全球定位系统出现之前，水手们使用航位推算法来导航。）
 
 ## 真题/语料关联
 

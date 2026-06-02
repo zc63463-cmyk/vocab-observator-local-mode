@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **English minor**：英语辅修学生
-  - *She is an English minor but her major is biology.*
+  - *She is an English minor but her major is biology.*（中文翻译）
 - **minor in**：辅修
-  - *He decided to minor in psychology.*
+  - *He decided to minor in psychology.*（中文翻译）
 - **a minor problem**：小问题
-  - *It's just a minor problem; don't worry about it.*
+  - *It's just a minor problem; don't worry about it.*（中文翻译）
 - **minor detail**：次要细节
-  - *Let's not get bogged down in minor details.*
+  - *Let's not get bogged down in minor details.*（中文翻译）
 - **minor key**：小调
-  - *The song is written in a minor key, giving it a sad feeling.*
+  - *The song is written in a minor key, giving it a sad feeling.*（中文翻译）
 
 ## 真题/语料关联
 

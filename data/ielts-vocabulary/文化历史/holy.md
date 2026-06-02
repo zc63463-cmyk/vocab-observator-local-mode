@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **holy water**：圣水
-  - *The priest sprinkled holy water on the congregation.*
+  - *The priest sprinkled holy water on the congregation.*（牧师向会众洒圣水。）
 - **holy ground**：圣地
-  - *Remove your shoes, for this is holy ground.*
+  - *Remove your shoes, for this is holy ground.*（脱下你的鞋子，因为这里是圣地。）
 - **Holy Bible**：圣经
-  - *The Holy Bible is the sacred text of Christianity.*
+  - *The Holy Bible is the sacred text of Christianity.*（圣经是基督教的圣典。）
 - **Holy Spirit**：圣灵
-  - *Christians believe in the Father, the Son, and the Holy Spirit.*
+  - *Christians believe in the Father, the Son, and the Holy Spirit.*（基督徒相信圣父、圣子和圣灵。）
 - **holy war**：圣战
-  - *The concept of holy war has been used throughout history to justify religious conflicts.*
+  - *The concept of holy war has been used throughout history to justify religious conflicts.*（圣战的概念在历史上一直被用来为宗教冲突辩护。）
 - **holy cow**：天哪（感叹语）
-  - *Holy cow! That was an amazing performance!*
+  - *Holy cow! That was an amazing performance!*（天哪！那真是一场精彩的表演！）
 
 ## 真题/语料关联
 

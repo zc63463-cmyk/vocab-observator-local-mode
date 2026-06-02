@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **visible spectrum**：可见光谱
-  - *The visible spectrum is the portion of the electromagnetic spectrum that can be seen by the human eye.*
+  - *The visible spectrum is the portion of the electromagnetic spectrum that can be seen by the human eye.*（可见光谱是电磁波谱中人眼可以看见的部分。）
 - **electromagnetic spectrum**：电磁波谱
-  - *The electromagnetic spectrum includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.*
+  - *The electromagnetic spectrum includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.*（电磁波谱包括无线电波、微波、红外线、可见光、紫外线、X射线和伽马射线。）
 - **a wide spectrum of**：广泛的
-  - *The conference covered a wide spectrum of topics related to climate change.*
+  - *The conference covered a wide spectrum of topics related to climate change.*（会议涵盖了与气候变化相关的广泛话题。）
 - **spectrum analysis**：频谱分析
-  - *Spectrum analysis is used to identify the chemical composition of stars.*
+  - *Spectrum analysis is used to identify the chemical composition of stars.*（光谱分析用于确定恒星的化学成分。）
 - **the political spectrum**：政治光谱
-  - *The candidates represent different points on the political spectrum.*
+  - *The candidates represent different points on the political spectrum.*（候选人代表了政治光谱上的不同立场。）
 
 ## 真题/语料关联
 

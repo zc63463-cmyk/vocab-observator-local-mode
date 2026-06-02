@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **motion sensor**：运动传感器
-  - *The motion sensor triggers the security light when it detects movement.*
+  - *The motion sensor triggers the security light when it detects movement.*（运动传感器检测到移动时会触发安防灯。）
 - **smoke sensor**：烟雾传感器
-  - *The smoke sensor alerted us to the fire.*
+  - *The smoke sensor alerted us to the fire.*（烟雾传感器向我们发出了火灾警报。）
 - **light sensor**：光传感器
-  - *The light sensor automatically adjusts the screen brightness.*
+  - *The light sensor automatically adjusts the screen brightness.*（光传感器自动调节屏幕亮度。）
 - **sensor technology**：传感器技术
-  - *Advances in sensor technology have revolutionized healthcare monitoring.*
+  - *Advances in sensor technology have revolutionized healthcare monitoring.*（传感器技术的进步彻底改变了医疗监控。）
 - **sensor array**：传感器阵列
-  - *The sensor array collects data from multiple sources simultaneously.*
+  - *The sensor array collects data from multiple sources simultaneously.*（传感器阵列同时从多个来源收集数据。）
 
 ## 真题/语料关联
 

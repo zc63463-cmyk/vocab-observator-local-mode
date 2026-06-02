@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rust on metal**：金属上的锈
-  - *The old car had a lot of rust on the metal body.*
+  - *The old car had a lot of rust on the metal body.*（那辆旧车的金属车身上有很多铁锈。）
 - **rust color**：铁锈色
-  - *She painted the walls in a warm rust color.*
+  - *She painted the walls in a warm rust color.*（她把墙壁刷成温暖的红褐色。）
 - **iron rusts**：铁生锈
-  - *Iron rusts when it is exposed to moisture and oxygen.*
+  - *Iron rusts when it is exposed to moisture and oxygen.*（铁暴露在湿气和氧气中时会生锈。）
 - **rust away**：锈蚀掉
-  - *The old tools had rusted away in the shed.*
+  - *The old tools had rusted away in the shed.*（旧工具在棚子里锈蚀掉了。）
 - **rust belt**：锈带（指工业衰退地区）
-  - *The rust belt in the United States has experienced economic decline.*
+  - *The rust belt in the United States has experienced economic decline.*（美国的锈带地区经历了经济衰退。）
 
 ## 真题/语料关联
 

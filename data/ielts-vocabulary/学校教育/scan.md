@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **scan the document/page**：扫描文件/页面
-  - *She scanned the page for her name.*
+  - *She scanned the page for her name.*（她扫描页面寻找她的名字。）
 - **scan for something**：搜索某物
-  - *The software scans for viruses automatically.*
+  - *The software scans for viruses automatically.*（该软件自动扫描病毒。）
 - **brain/body scan**：脑部/身体扫描
-  - *The doctor ordered a brain scan to check for abnormalities.*
+  - *The doctor ordered a brain scan to check for abnormalities.*（医生安排了脑部扫描以检查异常情况。）
 - **quick scan**：快速浏览
-  - *I did a quick scan of the email before replying.*
+  - *I did a quick scan of the email before replying.*（在回复之前我快速浏览了邮件。）
 - **scan through**：快速浏览
-  - *He scanned through the report to find the relevant section.*
+  - *He scanned through the report to find the relevant section.*（他快速浏览报告以找到相关部分。）
 
 ## 真题/语料关联
 

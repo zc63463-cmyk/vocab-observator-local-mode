@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **horse stable**：马厩
-  - *The racehorse was kept in a clean, comfortable stable.*
+  - *The racehorse was kept in a clean, comfortable stable.*（竞赛用马被养在干净舒适的马厩里。）
 - **stable economy**：稳定的经济
-  - *A stable economy is essential for business growth.*
+  - *A stable economy is essential for business growth.*（稳定的经济对商业增长至关重要。）
 - **stable relationship**：稳定的关系
-  - *They have maintained a stable relationship for over twenty years.*
+  - *They have maintained a stable relationship for over twenty years.*（他们维持了二十多年的稳定关系。）
 - **stable condition**：稳定状况（医疗）
-  - *The patient is now in a stable condition after the surgery.*
+  - *The patient is now in a stable condition after the surgery.*（手术后病人现在情况稳定。）
 - **dark horse**：黑马（出人意料的获胜者）
-  - *The young candidate was a dark horse who won the election.*
+  - *The young candidate was a dark horse who won the election.*（这位年轻候选人是一匹赢得选举的黑马。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **academic/scientific journal**：学术/科学期刊
-  - *The research was published in a leading academic journal.*
+  - *The research was published in a leading academic journal.*（这项研究发表在一家领先的学术期刊上。）
 - **peer-reviewed journal**：同行评审期刊
-  - *Peer-reviewed journals ensure the quality of published research.*
+  - *Peer-reviewed journals ensure the quality of published research.*（同行评审期刊保证了发表研究的质量。）
 - **keep a journal**：写日记/日志
-  - *Keeping a journal helps me reflect on my experiences.*
+  - *Keeping a journal helps me reflect on my experiences.*（写日记有助于我反思自己的经历。）
 - **journal article**：期刊文章
-  - *You can find the full text of the journal article online.*
+  - *You can find the full text of the journal article online.*（你可以在网上找到这篇期刊文章全文。）
 - **journal entry**：日记账分录；日记条目
-  - *The accountant made a journal entry to record the transaction.*
+  - *The accountant made a journal entry to record the transaction.*（会计做了一笔日记账分录来记录该交易。）
 
 ## 真题/语料关联
 

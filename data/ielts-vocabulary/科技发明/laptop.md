@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **laptop computer**：笔记本电脑
-  - *The laptop computer is lightweight and easy to carry.*
+  - *The laptop computer is lightweight and easy to carry.*（笔记本电脑轻便且易于携带。）
 - **portable laptop**：便携式笔记本电脑
-  - *A portable laptop is essential for business travelers.*
+  - *A portable laptop is essential for business travelers.*（便携式笔记本电脑对商务旅行者来说是必不可少的。）
 - **laptop bag**：笔记本电脑包
-  - *She put her laptop in a protective laptop bag.*
+  - *She put her laptop in a protective laptop bag.*（她把笔记本电脑放在保护性的电脑包里。）
 - **laptop battery**：笔记本电脑电池
-  - *The laptop battery lasts for about eight hours.*
+  - *The laptop battery lasts for about eight hours.*（笔记本电脑电池可持续大约八小时。）
 - **laptop stand**：笔记本电脑支架
-  - *A laptop stand can improve ergonomics and reduce neck strain.*
+  - *A laptop stand can improve ergonomics and reduce neck strain.*（笔记本电脑支架可以改善人体工学并减轻颈部疲劳。）
 
 ## 真题/语料关联
 

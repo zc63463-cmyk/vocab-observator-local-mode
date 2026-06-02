@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **within a radius of**：在……半径范围内
-  - *There are several restaurants within a radius of 500 meters.*
+  - *There are several restaurants within a radius of 500 meters.*（在500米半径范围内有几家餐厅。）
 - **radius of curvature**：曲率半径
-  - *The radius of curvature determines how sharply a road curves.*
+  - *The radius of curvature determines how sharply a road curves.*（曲率半径决定了道路的弯曲程度。）
 - **radius vector**：矢径（从原点到某点的向量）
-  - *The radius vector sweeps out equal areas in equal times (Kepler's second law).*
+  - *The radius vector sweeps out equal areas in equal times (Kepler's second law).（矢径在相等时间内扫过相等的面积（开普勒第二定律）。）*
 - **catchment radius**：集水半径
-  - *The dam has a catchment radius of 50 kilometers.*
+  - *The dam has a catchment radius of 50 kilometers.*（大坝的汇水半径为50公里。）
 - **radius bone**：桡骨
-  - *The radius is one of the two bones in the forearm.*
+  - *The radius is one of the two bones in the forearm.*（桡骨是前臂中的两块骨头之一。）
 
 ## 真题/语料关联
 

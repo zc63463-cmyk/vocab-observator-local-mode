@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **utilise resources**：利用资源
-  - *The company needs to utilise its resources more efficiently.*
+  - *The company needs to utilise its resources more efficiently.*（公司需要更有效地利用其资源。）
 - **utilise knowledge/skills**：运用知识/技能
-  - *Students should learn to utilise their knowledge in practical situations.*
+  - *Students should learn to utilise their knowledge in practical situations.*（学生应该学会在实际情境中运用他们的知识。）
 - **utilise opportunities**：利用机会
-  - *She utilised every opportunity to improve her English.*
+  - *She utilised every opportunity to improve her English.*（她利用每一个机会来提高英语水平。）
 - **utilise technology**：利用技术
-  - *Modern businesses utilise technology to streamline their operations.*
+  - *Modern businesses utilise technology to streamline their operations.*（现代企业利用技术来简化运营。）
 - **utilise time**：利用时间
-  - *It's important to utilise your time wisely.*
+  - *It's important to utilise your time wisely.*（明智地利用时间很重要。）
 
 ## 真题/语料关联
 

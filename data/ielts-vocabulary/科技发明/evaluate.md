@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **evaluate performance**：评估表现
-  - *The manager evaluates employee performance every six months.*
+  - *The manager evaluates employee performance every six months.*（经理每半年评估一次员工表现。）
 - **evaluate the effectiveness**：评估有效性
-  - *The study evaluates the effectiveness of the new teaching method.*
+  - *The study evaluates the effectiveness of the new teaching method.*（该研究评估了新教学方法的效果。）
 - **evaluate candidates**：评估候选人
-  - *The committee evaluates candidates based on their qualifications and experience.*
+  - *The committee evaluates candidates based on their qualifications and experience.*（委员会根据候选人的资质和经验进行评估。）
 - **evaluate risks**：评估风险
-  - *Investors should evaluate risks before making financial decisions.*
+  - *Investors should evaluate risks before making financial decisions.*（投资者在做出财务决策前应评估风险。）
 - **evaluate and improve**：评估并改进
-  - *The company regularly evaluates and improves its products.*
+  - *The company regularly evaluates and improves its products.*（公司定期评估并改进其产品。）
 
 ## 真题/语料关联
 

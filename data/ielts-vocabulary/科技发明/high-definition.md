@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **high-definition video**：高清视频
-  - *The high-definition video shows every detail clearly.*
+  - *The high-definition video shows every detail clearly.*（高清视频清晰地展示了每一个细节。）
 - **high-definition display**：高清显示器
-  - *The high-definition display produces vibrant colors.*
+  - *The high-definition display produces vibrant colors.*（高清显示器呈现出鲜艳的色彩。）
 - **in high-definition**：以高清格式
-  - *The movie is available in high-definition.*
+  - *The movie is available in high-definition.*（这部电影有高清格式。）
 - **HD resolution**：高清分辨率
-  - *The HD resolution is 1920x1080 pixels.*
+  - *The HD resolution is 1920x1080 pixels.*（高清分辨率为1920x1080像素。）
 - **high-definition television**：高清电视
-  - *High-definition television has become the standard.*
+  - *High-definition television has become the standard.*（高清电视已成为标准。）
 
 ## 真题/语料关联
 

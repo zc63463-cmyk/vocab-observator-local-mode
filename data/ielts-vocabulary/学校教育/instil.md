@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **instil values/morals**：灌输价值观/道德观
-  - *Parents should instil good values in their children from an early age.*
+  - *Parents should instil good values in their children from an early age.*（父母应该从小向孩子灌输良好的价值观。）
 - **instil confidence**：培养信心
-  - *The teacher's encouragement helped instil confidence in the students.*
+  - *The teacher's encouragement helped instil confidence in the students.*（老师的鼓励帮助学生树立了信心。）
 - **instil fear/terror**：注入恐惧
-  - *The dictator used propaganda to instil fear in the population.*
+  - *The dictator used propaganda to instil fear in the population.*（独裁者利用宣传向民众灌输恐惧。）
 - **instil discipline**：培养纪律性
-  - *Military training is designed to instil discipline in recruits.*
+  - *Military training is designed to instil discipline in recruits.*（军事训练旨在培养新兵的纪律性。）
 - **instil good habits**：培养好习惯
-  - *Schools should instil good study habits in students.*
+  - *Schools should instil good study habits in students.*（学校应培养学生良好的学习习惯。）
 - **instil in/into**：灌输给
-  - *The goal is to instil a love of learning in students.*
+  - *The goal is to instil a love of learning in students.*（目标是在学生心中培养对学习的热爱。）
 
 ## 真题/语料关联
 

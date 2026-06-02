@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **test/exam score**：考试分数
-  - *Her test scores have improved significantly this semester.*
+  - *Her test scores have improved significantly this semester.*（这学期她的考试成绩显著提高了。）
 - **score a goal**：进球得分
-  - *He scored the winning goal in the final minute.*
+  - *He scored the winning goal in the final minute.*（他在最后一分钟打进了制胜球。）
 - **keep score**：记分
-  - *Who's keeping score for the game?*
+  - *Who's keeping score for the game?*（谁在给比赛记分？）
 - **on that score**：在那方面
-  - *You don't need to worry on that score.*
+  - *You don't need to worry on that score.*（在那方面你不需要担心。）
 - **score high/low**：得分高/低
-  - *Students who score high on the exam will be admitted to the program.*
+  - *Students who score high on the exam will be admitted to the program.*（考试得分高的学生将被该项目录取。）
 - **settle a score**：算账；报复
-  - *He wanted to settle a score with his rival.*
+  - *He wanted to settle a score with his rival.*（他想和他的对手算账。）
 
 ## 真题/语料关联
 

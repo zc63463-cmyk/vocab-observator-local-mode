@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a smart student**：聪明的学生
-  - *He's a smart student who always gets top grades.*
+  - *He's a smart student who always gets top grades.*（他是一个聪明的学生，总是拿最高分。）
 - **a smart suit**：一套时髦的西装
-  - *He wore a smart suit to the job interview.*
+  - *He wore a smart suit to the job interview.*（他穿了一套时髦的西装去参加面试。）
 - **smart phone**：智能手机
-  - *Almost everyone owns a smart phone these days.*
+  - *Almost everyone owns a smart phone these days.*（如今几乎每个人都拥有一部智能手机。）
 - **look smart**：看起来时髦/精神
-  - *You look very smart in that new dress.*
+  - *You look very smart in that new dress.*（你穿那条新裙子看起来很时髦。）
 - **smart casual**：商务休闲（着装风格）
-  - *The dress code for the event is smart casual.*
+  - *The dress code for the event is smart casual.*（活动的着装要求是商务休闲装。）
 
 ## 真题/语料关联
 

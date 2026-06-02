@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **human behaviour**：人类行为
-  - *Psychologists study human behaviour to understand mental processes.*
+  - *Psychologists study human behaviour to understand mental processes.*（心理学家研究人类行为以理解心理过程。）
 - **animal behaviour**：动物行为
-  - *The course covers animal behaviour and conservation strategies.*
+  - *The course covers animal behaviour and conservation strategies.*（这门课程涵盖动物行为和保护策略。）
 - **good/bad behaviour**：良好/不良行为
-  - *The child was rewarded for good behaviour at school.*
+  - *The child was rewarded for good behaviour at school.*（这个孩子因为在学校表现良好而受到奖励。）
 - **pattern of behaviour**：行为模式
-  - *The police identified a pattern of behaviour in the suspect's actions.*
+  - *The police identified a pattern of behaviour in the suspect's actions.*（警方在嫌疑人的行动中识别出一种行为模式。）
 - **behaviour modification**：行为矫正
-  - *Behaviour therapy focuses on changing harmful patterns of behaviour.*
+  - *Behaviour therapy focuses on changing harmful patterns of behaviour.*（行为疗法专注于改变有害的行为模式。）
 
 ## 真题/语料关联
 

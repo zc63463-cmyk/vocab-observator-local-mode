@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **male sterility**：雄性不育
-  - *Male sterility is a common cause of infertility.*
+  - *Male sterility is a common cause of infertility.*（男性不育是不孕症的常见原因。）
 - **surgical sterility**：外科无菌
-  - *The instruments must be maintained at surgical sterility.*
+  - *The instruments must be maintained at surgical sterility.*（器械必须保持手术级无菌状态。）
 - **soil sterility**：土壤贫瘠
-  - *The soil sterility was caused by excessive use of chemicals.*
+  - *The soil sterility was caused by excessive use of chemicals.*（土壤贫瘠是由过度使用化学品造成的。）
 - **intellectual sterility**：思想贫乏
-  - *The intellectual sterility of the debate was disappointing.*
+  - *The intellectual sterility of the debate was disappointing.*（这场辩论的贫乏思想令人失望。）
 - **complete sterility**：完全无菌
-  - *The laboratory requires complete sterility for the experiment.*
+  - *The laboratory requires complete sterility for the experiment.*（实验室需要完全无菌状态才能进行实验。）
 
 ## 真题/语料关联
 

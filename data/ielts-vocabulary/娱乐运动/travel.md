@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **travel abroad**：出国旅行
-  - *She loves to travel abroad and experience different cultures.*
+  - *She loves to travel abroad and experience different cultures.*（她喜欢出国旅行，体验不同的文化。）
 - **business travel**：商务旅行
-  - *Business travel has decreased significantly since the pandemic.*
+  - *Business travel has decreased significantly since the pandemic.*（自疫情以来商务旅行大幅减少。）
 - **air travel**：航空旅行
-  - *Air travel has become more affordable in recent decades.*
+  - *Air travel has become more affordable in recent decades.*（近几十年来航空旅行变得更加实惠。）
 - **travel light**：轻装旅行
-  - *She always travels light, with just a small backpack.*
+  - *She always travels light, with just a small backpack.*（她总是轻装旅行，只带一个小背包。）
 - **travel the world**：环游世界
-  - *He dreams of traveling the world after retirement.*
+  - *He dreams of traveling the world after retirement.*（他梦想退休后环游世界。）
 
 ## 真题/语料关联
 

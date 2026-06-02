@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a large quantity of**：大量的
-  - *The factory produces a large quantity of goods every day.*
+  - *The factory produces a large quantity of goods every day.*（中文翻译）
 - **a small quantity of**：少量的
-  - *We only need a small quantity of sugar for this recipe.*
+  - *We only need a small quantity of sugar for this recipe.*（中文翻译）
 - **in quantity**：大量地
-  - *Buying in quantity is often cheaper.*
+  - *Buying in quantity is often cheaper.*（中文翻译）
 - **quantity over quality**：数量重于质量
-  - *Some companies focus on quantity over quality.*
+  - *Some companies focus on quantity over quality.*（中文翻译）
 - **unknown quantity**：未知量；未知因素
-  - *The new employee is still an unknown quantity.*
+  - *The new employee is still an unknown quantity.*（中文翻译）
 
 ## 真题/语料关联
 

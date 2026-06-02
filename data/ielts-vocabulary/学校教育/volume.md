@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Volume 2**：第二卷
-  - *Please refer to Volume 2 for more details.*
+  - *Please refer to Volume 2 for more details.*（请参阅第二卷了解更多详情。）
 - **calculate the volume**：计算体积
-  - *Students need to calculate the volume of this cylinder.*
+  - *Students need to calculate the volume of this cylinder.*（学生需要计算这个圆柱体的体积。）
 - **turn up/down the volume**：调高/调低音量
-  - *Could you turn down the volume? I'm trying to study.*
+  - *Could you turn down the volume? I'm trying to study.*（你能把音量调低吗？我正在学习。）
 - **a volume of**：大量的
-  - *The library receives a large volume of requests every day.*
+  - *The library receives a large volume of requests every day.*（图书馆每天收到大量请求。）
 - **sales volume**：销售量
-  - *The sales volume increased by 20% this quarter.*
+  - *The sales volume increased by 20% this quarter.*（本季度销售量增长了20%。）
 
 ## 真题/语料关联
 

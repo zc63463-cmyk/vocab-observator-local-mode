@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **underestimate the importance of**：低估……的重要性
-  - *People often underestimate the importance of sleep.*
+  - *People often underestimate the importance of sleep.*（人们往往低估睡眠的重要性。）
 - **underestimate the risk/danger**：低估风险
-  - *We should not underestimate the risks involved.*
+  - *We should not underestimate the risks involved.*（我们不应低估所涉及的风险。）
 - **underestimate someone's ability**：低估某人的能力
-  - *Never underestimate a determined person.*
+  - *Never underestimate a determined person.*（永远不要低估一个有决心的人。）
 - **underestimate the time/cost needed**：低估所需时间/成本
-  - *We underestimated how long the project would take.*
+  - *We underestimated how long the project would take.*（我们低估了这个项目需要多长时间。）
 - **be underestimated**：被低估
-  - *His contribution has been greatly underestimated.*
+  - *His contribution has been greatly underestimated.*（他的贡献被大大低估了。）
 
 ## 真题/语料关联
 

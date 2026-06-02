@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **glass fragments**：玻璃碎片
-  - *The floor was covered with glass fragments after the window broke.*
+  - *The floor was covered with glass fragments after the window broke.*（窗户破碎后，地板上布满了玻璃碎片。）
 - **a fragment of conversation**：对话片段
-  - *I overheard a fragment of conversation about the new policy.*
+  - *I overheard a fragment of conversation about the new policy.*（我无意中听到了关于新政策的对话片段。）
 - **pottery fragments**：陶器碎片
-  - *The archaeologist carefully collected the pottery fragments.*
+  - *The archaeologist carefully collected the pottery fragments.*（考古学家仔细收集了陶器碎片。）
 - **fragment into**：分裂成
-  - *The empire fragmented into several smaller kingdoms.*
+  - *The empire fragmented into several smaller kingdoms.*（帝国分裂成几个小王国。）
 - **in fragments**：成碎片地
-  - *The vase lay in fragments on the floor.*
+  - *The vase lay in fragments on the floor.*（花瓶碎裂在地板上。）
 
 ## 真题/语料关联
 

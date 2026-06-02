@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tone of voice**：语气
-  - *I could tell from her tone of voice that she was upset.*
+  - *I could tell from her tone of voice that she was upset.*（我从她的语气中能看出她很难过。）
 - **set the tone**：定调子
-  - *The opening speech set the tone for the conference.*
+  - *The opening speech set the tone for the conference.*（开幕词为会议定下了基调。）
 - **warm tone**：温暖的音色/语气
-  - *The piano has a warm tone.*
+  - *The piano has a warm tone.*（这架钢琴的音色温暖。）
 - **friendly tone**：友好的语气
-  - *He spoke in a friendly tone.*
+  - *He spoke in a friendly tone.*（他用友好的语气说话。）
 - **tone down**：降低；缓和
-  - *Please tone down your language.*
+  - *Please tone down your language.*（请缓和一下你的措辞。）
 
 ## 真题/语料关联
 

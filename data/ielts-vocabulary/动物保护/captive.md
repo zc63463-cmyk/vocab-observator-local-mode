@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hold captive**：囚禁，关押
-  - *The poachers held the animals captive in small cages.*
+  - *The poachers held the animals captive in small cages.*（偷猎者将动物关在小笼子里。）
 - **take captive**：俘虏，抓住
-  - *The soldiers were taken captive during the battle.*
+  - *The soldiers were taken captive during the battle.*（士兵们在战斗中被俘。）
 - **captive breeding**：圈养繁殖
-  - *Captive breeding programs have helped save some endangered species.*
+  - *Captive breeding programs have helped save some endangered species.*（圈养繁殖计划已帮助拯救了一些濒危物种。）
 - **captive audience**：被迫的听众
-  - *Passengers on the plane were a captive audience for the safety demonstration.*
+  - *Passengers on the plane were a captive audience for the safety demonstration.*（飞机上的乘客是安全演示的被动观众。）
 - **captive market**：垄断市场
-  - *The company has a captive market in remote areas with no competitors.*
+  - *The company has a captive market in remote areas with no competitors.*（该公司在没有竞争对手的偏远地区拥有垄断市场。）
 
 ## 真题/语料关联
 

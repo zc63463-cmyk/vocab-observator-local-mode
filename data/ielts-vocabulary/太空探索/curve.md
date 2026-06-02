@@ -71,15 +71,13 @@ review_count: 0
 ## 搭配与短语
 
 - **learning curve**：学习曲线
-  - *There's a steep learning curve when starting a new job.*
+  - *There's a steep learning curve when starting a new job.*（开始一份新工作时会有一个陡峭的学习曲线。）
 - **growth curve**：增长曲线
-  - *The company's growth curve has been upward for the past five years.*
+  - *The company's growth curve has been upward for the past five years.*（过去五年中，公司的增长曲线一直呈上升趋势。）
 - **curve ball**：曲线球；意外的事
-  - *Life threw him a curve ball when he lost his job.*
-- **learning curve**：学习曲线
-  - *The software has a steep learning curve for beginners.*
+  - *Life threw him a curve ball when he lost his job.*（失去工作让他的生活遇到了意想不到的困难。）
 - **curve of the Earth**：地球的曲率
-  - *From high altitude, you can see the curve of the Earth.*
+  - *From high altitude, you can see the curve of the Earth.*（从高空可以看到地球的曲率。）
 
 ## 真题/语料关联
 

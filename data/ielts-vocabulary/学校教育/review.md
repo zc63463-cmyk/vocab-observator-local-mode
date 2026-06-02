@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **review notes/materials**：复习笔记/材料
-  - *I need to review my notes before the exam.*
+  - *I need to review my notes before the exam.*（我需要在考试前复习笔记。）
 - **book/film review**：书评/影评
-  - *The book review in the newspaper was very positive.*
+  - *The book review in the newspaper was very positive.*（报纸上的书评非常正面。）
 - **under review**：在审查中
-  - *The application is currently under review.*
+  - *The application is currently under review.*（该申请目前正在审查中。）
 - **peer review**：同行评审
-  - *All research papers undergo peer review before publication.*
+  - *All research papers undergo peer review before publication.*（所有研究论文在发表前都要经过同行评审。）
 - **literature review**：文献综述
-  - *The literature review is an essential part of any research paper.*
+  - *The literature review is an essential part of any research paper.*（文献综述是任何研究论文的重要组成部分。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Chinese/Western culture**：中国/西方文化
-  - *Chinese culture has a history of over 5,000 years.*
+  - *Chinese culture has a history of over 5,000 years.*（中国文化有五千多年的历史。）
 - **cultural heritage**：文化遗产
-  - *We should preserve our cultural heritage for future generations.*
+  - *We should preserve our cultural heritage for future generations.*（我们应该为后代保护我们的文化遗产。）
 - **cultural differences**：文化差异
-  - *Understanding cultural differences is essential for international business.*
+  - *Understanding cultural differences is essential for international business.*（理解文化差异对国际商务至关重要。）
 - **cultural identity**：文化认同
-  - *Language plays a key role in shaping cultural identity.*
+  - *Language plays a key role in shaping cultural identity.*（语言在塑造文化认同中起着关键作用。）
 - **popular culture**：流行文化
-  - *Social media has had a huge impact on popular culture.*
+  - *Social media has had a huge impact on popular culture.*（社交媒体对流行文化产生了巨大影响。）
 
 ## 真题/语料关联
 

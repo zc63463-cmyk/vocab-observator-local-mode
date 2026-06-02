@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **space probe**：太空探测器
-  - *The space probe sent back stunning images of Jupiter's moons.*
+  - *The space probe sent back stunning images of Jupiter's moons.*（太空探测器传回了木星卫星的惊人图像。）
 - **Mars probe**：火星探测器
-  - *The Mars probe landed successfully and began collecting data.*
+  - *The Mars probe landed successfully and began collecting data.*（火星探测器成功着陆并开始收集数据。）
 - **probe into**：调查
-  - *The police launched a probe into the corruption allegations.*
+  - *The police launched a probe into the corruption allegations.*（警方对腐败指控展开了调查。）
 - **probe for**：探索；寻找
-  - *Scientists are probing for signs of life on other planets.*
+  - *Scientists are probing for signs of life on other planets.*（科学家正在寻找其他行星上存在生命的迹象。）
 - **deep space probe**：深空探测器
-  - *The deep space probe has traveled beyond the solar system.*
+  - *The deep space probe has traveled beyond the solar system.*（深空探测器已经飞越了太阳系之外。）
 
 ## 真题/语料关联
 

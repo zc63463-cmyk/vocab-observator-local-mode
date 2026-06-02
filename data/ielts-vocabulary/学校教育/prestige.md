@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a position of prestige**：有声望的职位
-  - *She holds a position of prestige in the company.*
+  - *She holds a position of prestige in the company.*（中文翻译）
 - **gain/win prestige**：获得声望
-  - *The university has gained international prestige.*
+  - *The university has gained international prestige.*（中文翻译）
 - **prestige brand**：高端品牌
-  - *This car is considered a prestige brand.*
+  - *This car is considered a prestige brand.*（中文翻译）
 - **prestige symbol**：地位象征
-  - *A luxury car is often seen as a prestige symbol.*
+  - *A luxury car is often seen as a prestige symbol.*（中文翻译）
 - **prestige of**：……的声望
-  - *The prestige of winning an Olympic medal is immense.*
+  - *The prestige of winning an Olympic medal is immense.*（中文翻译）
 
 ## 真题/语料关联
 

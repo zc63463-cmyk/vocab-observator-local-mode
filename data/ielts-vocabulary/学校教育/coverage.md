@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **media coverage**：媒体报道
-  - *The event received extensive media coverage.*
+  - *The event received extensive media coverage.*（该活动获得了广泛的媒体报道。）
 - **news coverage**：新闻报道
-  - *The news coverage of the election was comprehensive.*
+  - *The news coverage of the election was comprehensive.*（对这次选举的新闻报道是全面的。）
 - **extensive coverage**：广泛的报道/覆盖
-  - *The story received extensive coverage in the press.*
+  - *The story received extensive coverage in the press.*（这个故事在媒体上得到了广泛的报道。）
 - **insurance coverage**：保险范围
-  - *The policy provides coverage for medical expenses.*
+  - *The policy provides coverage for medical expenses.*（这份保单提供医疗费用保险。）
 - **health coverage**：医疗保险
-  - *Many people lack adequate health coverage.*
+  - *Many people lack adequate health coverage.*（许多人缺乏足够的医疗保险。）
 - **live coverage**：现场报道
-  - *The television provided live coverage of the event.*
+  - *The television provided live coverage of the event.*（电视台对这次活动进行了现场报道。）
 
 ## 真题/语料关联
 

@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **glide through the air**：在空中滑翔
-  - *The eagle glided through the air with effortless grace.*
+  - *The eagle glided through the air with effortless grace.*（雄鹰毫不费力地优雅滑翔在空中。）
 - **glide across the ice**：在冰上滑行
-  - *The figure skater glided across the ice like a dream.*
+  - *The figure skater glided across the ice like a dream.*（花样滑冰选手如梦一般滑过冰面。）
 - **glide path**：下滑道（航空着陆路径）
-  - *The pilot followed the glide path for a smooth landing.*
+  - *The pilot followed the glide path for a smooth landing.*（飞行员沿着下滑道平稳着陆。）
 - **glide through**：顺利通过
-  - *She glided through the exam without any difficulty.*
+  - *She glided through the exam without any difficulty.*（她毫无困难地顺利通过了考试。）
 - **hang gliding**：悬挂式滑翔
-  - *Hang gliding is a thrilling adventure sport.*
+  - *Hang gliding is a thrilling adventure sport.*（悬挂式滑翔是一项激动人心的冒险运动。）
 
 ## 真题/语料关联
 

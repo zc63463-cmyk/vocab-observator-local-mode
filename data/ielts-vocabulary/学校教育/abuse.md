@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **abuse power**：滥用权力
-  - *The politician was accused of abusing his power.*
+  - *The politician was accused of abusing his power.*（这位政治家被指控滥用权力。）
 - **drug abuse**：药物滥用
-  - *Drug abuse is a major public health concern.*
+  - *Drug abuse is a major public health concern.*（药物滥用是一个重大的公共健康问题。）
 - **child abuse**：虐待儿童
-  - *Child abuse can have long-lasting psychological effects.*
+  - *Child abuse can have long-lasting psychological effects.*（虐待儿童可能造成持久的心理影响。）
 - **verbal abuse**：言语虐待
-  - *Verbal abuse can be just as harmful as physical abuse.*
+  - *Verbal abuse can be just as harmful as physical abuse.*（言语虐待可能和身体虐待一样有害。）
 - **abuse of privilege**：滥用特权
-  - *The scandal revealed an abuse of privilege by senior officials.*
+  - *The scandal revealed an abuse of privilege by senior officials.*（这起丑闻揭露了高级官员滥用特权的问题。）
 
 ## 真题/语料关联
 

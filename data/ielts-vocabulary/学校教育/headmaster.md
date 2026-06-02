@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the headmaster's office**：校长办公室
-  - *The student was sent to the headmaster's office for misbehaving.*
+  - *The student was sent to the headmaster's office for misbehaving.*（这名学生因行为不端被叫到校长办公室。）
 - **meet with the headmaster**：与校长会面
-  - *Parents were invited to meet with the headmaster to discuss their children's progress.*
+  - *Parents were invited to meet with the headmaster to discuss their children's progress.*（家长受邀与校长会面讨论孩子的学习进展。）
 - **headmaster's decision**：校长的决定
-  - *The headmaster's decision to introduce uniforms was controversial.*
+  - *The headmaster's decision to introduce uniforms was controversial.*（校长引入校服的决定引起了争议。）
 - **deputy headmaster**：副校长
-  - *The deputy headmaster took charge when the headmaster was away.*
+  - *The deputy headmaster took charge when the headmaster was away.*（校长不在时由副校长负责。）
 - **head boy/girl**：（英国学校中的）男生/女生代表
-  - *Being elected head boy is a great honour in British schools.*
+  - *Being elected head boy is a great honour in British schools.*（被选为男生代表在英国学校是一种莫大的荣誉。）
 
 ## 真题/语料关联
 

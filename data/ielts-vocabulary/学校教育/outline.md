@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an outline of**：……的大纲/轮廓
-  - *The professor provided an outline of the course syllabus.*
+  - *The professor provided an outline of the course syllabus.*（中文翻译）
 - **in outline**：概括地，扼要地
-  - *The plan was presented in outline only.*
+  - *The plan was presented in outline only.*（中文翻译）
 - **outline the main points**：概述要点
-  - *The speaker outlined the main points of the argument.*
+  - *The speaker outlined the main points of the argument.*（中文翻译）
 - **detailed outline**：详细提纲
-  - *Before writing the essay, prepare a detailed outline.*
+  - *Before writing the essay, prepare a detailed outline.*（中文翻译）
 - **broad outline**：大致框架
-  - *The broad outline of the policy has been agreed upon.*
+  - *The broad outline of the policy has been agreed upon.*（中文翻译）
 
 ## 真题/语料关联
 

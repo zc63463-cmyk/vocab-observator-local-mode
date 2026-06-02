@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spring to one's feet**：一跃而起
-  - *She sprang to her feet when she heard the news.*
+  - *She sprang to her feet when she heard the news.*（她听到这个消息时一跃而起。）
 - **spring up**：突然出现；涌现
-  - *New businesses have been springing up all over the city.*
+  - *New businesses have been springing up all over the city.*（新企业如雨后春笋般在城市各处涌现。）
 - **hot spring**：温泉
-  - *Japan is famous for its natural hot springs.*
+  - *Japan is famous for its natural hot springs.*（日本以其天然温泉而闻名。）
 - **spring to mind**：突然想到
-  - *When I think of Paris, the Eiffel Tower springs to mind.*
+  - *When I think of Paris, the Eiffel Tower springs to mind.*（当我想起巴黎时，埃菲尔铁塔就会浮现在脑海中。）
 - **spring into action**：迅速行动
-  - *The rescue team sprang into action immediately.*
+  - *The rescue team sprang into action immediately.*（救援队立即行动起来。）
 
 ## 真题/语料关联
 

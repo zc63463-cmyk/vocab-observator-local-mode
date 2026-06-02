@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **derive from**：源自，来自
-  - *The word 'salary' derives from the Latin word for salt.*
+  - *The word 'salary' derives from the Latin word for salt.*（'薪水'这个词源自拉丁语中表示'盐'的词。）
 - **derive pleasure from**：从……中获得乐趣
-  - *She derives great pleasure from reading novels.*
+  - *She derives great pleasure from reading novels.*（她从阅读小说中获得极大的乐趣。）
 - **derive benefit from**：从……中获益
-  - *Students can derive benefit from attending extra classes.*
+  - *Students can derive benefit from attending extra classes.*（学生可以从参加额外课程中受益。）
 - **derive a formula**：推导出公式
-  - *The mathematician derived a new formula to solve the problem.*
+  - *The mathematician derived a new formula to solve the problem.*（这位数学家推导出了一个新的公式来解决这个问题。）
 
 ## 真题/语料关联
 

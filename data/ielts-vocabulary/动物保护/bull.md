@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bull market**：牛市（股市上涨）
-  - *The bull market has lasted for over a year.*
+  - *The bull market has lasted for over a year.*（牛市已经持续了一年多。）
 - **bull run**：牛市行情
-  - *The bull run in tech stocks has made many investors rich.*
+  - *The bull run in tech stocks has made many investors rich.*（科技股的牛市让许多投资者变得富有。）
 - **bull's eye**：靶心；关键
-  - *He hit the bull's eye with his comment.*
+  - *He hit the bull's eye with his comment.*（他的评论一针见血。）
 - **bull elephant**：公象
-  - *The bull elephant is much larger than the female.*
+  - *The bull elephant is much larger than the female.*（公象比母象大得多。）
 - **take the bull by the horns**：勇敢面对困难
-  - *She decided to take the bull by the horns and confront her boss.*
+  - *She decided to take the bull by the horns and confront her boss.*（她决定勇敢面对困难，与老板当面对质。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study phonetics**：学习语音学
-  - *She decided to study phonetics at university.*
+  - *She decided to study phonetics at university.*（她决定在大学学习语音学。）
 - **phonetic transcription**：语音转写
-  - *The dictionary uses phonetic transcription to show pronunciation.*
+  - *The dictionary uses phonetic transcription to show pronunciation.*（词典使用语音转写来显示发音。）
 - **articulatory phonetics**：发音语音学
-  - *Articulatory phonetics studies how speech sounds are produced.*
+  - *Articulatory phonetics studies how speech sounds are produced.*（发音语音学研究语音是如何产生的。）
 - **acoustic phonetics**：声学语音学
-  - *Acoustic phonetics analyzes the physical properties of speech sounds.*
+  - *Acoustic phonetics analyzes the physical properties of speech sounds.*（声学语音学分析语音的物理属性。）
 - **phonetics class**：语音学课程
-  - *The phonetics class helps students improve their pronunciation.*
+  - *The phonetics class helps students improve their pronunciation.*（语音学课程帮助学生改善发音。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the ... dynasty**：……王朝
-  - *The Tang dynasty is considered a golden age in Chinese history.*
+  - *The Tang dynasty is considered a golden age in Chinese history.*（唐朝被认为是中国历史上的黄金时代。）
 - **dynastic rule/succession**：王朝统治/继承
-  - *Dynastic succession was often a source of conflict.*
+  - *Dynastic succession was often a source of conflict.*（王朝继承往往是冲突的根源。）
 - **a political/media/business dynasty**：政治/媒体/商业世家
-  - *The Kennedy family is often described as a political dynasty.*
+  - *The Kennedy family is often described as a political dynasty.*（肯尼迪家族常被描述为一个政治世家。）
 - **found a dynasty**：建立王朝
-  - *He founded a dynasty that would last for centuries.*
+  - *He founded a dynasty that would last for centuries.*（他建立了一个持续了几个世纪的王朝。）
 - **the fall of a dynasty**：王朝覆灭
-  - *The fall of the dynasty led to a period of civil war.*
+  - *The fall of the dynasty led to a period of civil war.*（王朝的覆灭引发了一段内战时期。）
 
 ## 真题/语料关联
 

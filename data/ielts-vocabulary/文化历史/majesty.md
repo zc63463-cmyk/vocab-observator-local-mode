@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Your/Her/His Majesty**：陛下（对君主的尊称）
-  - *Your Majesty, the ambassadors are here to see you.*
+  - *Your Majesty, the ambassadors are here to see you.*（陛下，大使们在此觐见。）
 - **the majesty of ...**：……的壮丽
-  - *The majesty of the Grand Canyon took our breath away.*
+  - *The majesty of the Grand Canyon took our breath away.*（大峡谷的壮丽让我们屏息。）
 - **majestic** (adj.) — 雄伟的，壮丽的
-  - *The mountains looked majestic in the morning light.*
+  - *The mountains looked majestic in the morning light.*（山脉在晨光中显得雄伟壮丽。）
 - **with great majesty**：威严地
-  - *The king entered the hall with great majesty.*
+  - *The king entered the hall with great majesty.*（国王威严地走进了大厅。）
 - **the majesty of the law**：法律的威严
-  - *The court upheld the majesty of the law.*
+  - *The court upheld the majesty of the law.*（法院维护了法律的威严。）
 
 ## 真题/语料关联
 

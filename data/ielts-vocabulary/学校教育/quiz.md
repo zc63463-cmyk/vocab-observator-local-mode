@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take a quiz**：参加小测验
-  - *The students took a quick quiz at the beginning of class.*
+  - *The students took a quick quiz at the beginning of class.*（学生们在课堂开始时参加了快速小测验。）
 - **pop quiz**：突击测验
-  - *The teacher surprised us with a pop quiz.*
+  - *The teacher surprised us with a pop quiz.*（老师用突击测验给了我们一个惊喜。）
 - **quiz show**：问答节目
-  - *My favourite TV programme is a quiz show.*
+  - *My favourite TV programme is a quiz show.*（我最喜欢的电视节目是问答节目。）
 - **quiz somebody about something**：询问某人某事
-  - *The reporter quizzed the politician about the scandal.*
+  - *The reporter quizzed the politician about the scandal.*（记者就丑闻盘问了这位政治家。）
 - **quiz night**：知识竞赛之夜
-  - *The pub holds a quiz night every Thursday.*
+  - *The pub holds a quiz night every Thursday.*（这家酒吧每周四举办知识竞赛之夜。）
 
 ## 真题/语料关联
 

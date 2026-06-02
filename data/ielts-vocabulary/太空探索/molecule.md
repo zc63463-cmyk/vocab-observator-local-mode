@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **water molecule**：水分子
-  - *A water molecule consists of two hydrogen atoms and one oxygen atom.*
+  - *A water molecule consists of two hydrogen atoms and one oxygen atom.*（水分子由两个氢原子和一个氧原子组成。）
 - **molecular structure**：分子结构
-  - *The molecular structure of DNA was discovered in 1953.*
+  - *The molecular structure of DNA was discovered in 1953.*（DNA的分子结构于1953年被发现。）
 - **organic molecule**：有机分子
-  - *Organic molecules contain carbon and are essential for life.*
+  - *Organic molecules contain carbon and are essential for life.*（有机分子含有碳元素，对生命至关重要。）
 - **molecular biology**：分子生物学
-  - *Molecular biology studies the interactions between biological molecules.*
+  - *Molecular biology studies the interactions between biological molecules.*（分子生物学研究生物分子之间的相互作用。）
 - **not a molecule of**：没有一丝……（比喻）
-  - *There wasn't a molecule of truth in his excuse.*
+  - *There wasn't a molecule of truth in his excuse.*（他的借口中没有一丝真实的成分。）
 
 ## 真题/语料关联
 

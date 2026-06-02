@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **chemical compound**：化学化合物
-  - *Water is a chemical compound made of hydrogen and oxygen.*
+  - *Water is a chemical compound made of hydrogen and oxygen.*（水是由氢和氧组成的化合物。）
 - **organic compound**：有机化合物
-  - *Organic compounds contain carbon and are essential for life.*
+  - *Organic compounds contain carbon and are essential for life.*（有机化合物含有碳元素，对生命至关重要。）
 - **compound interest**：复利
-  - *Compound interest is calculated on the initial principal and accumulated interest.*
+  - *Compound interest is calculated on the initial principal and accumulated interest.*（复利是根据初始本金和累计利息计算的。）
 - **compound the problem**：使问题恶化
-  - *The drought compounded the problem of food shortages.*
+  - *The drought compounded the problem of food shortages.*（干旱加剧了粮食短缺的问题。）
 - **compound word**：复合词
-  - *'Butterfly' is a compound word made of 'butter' and 'fly'.*
+  - *'Butterfly' is a compound word made of 'butter' and 'fly'.*（'Butterfly'是由'butter'和'fly'组成的复合词。）
 
 ## 真题/语料关联
 

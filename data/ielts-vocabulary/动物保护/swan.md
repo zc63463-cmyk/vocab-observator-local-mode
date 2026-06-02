@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mute swan**：疣鼻天鹅（最常见的天鹅种类）
-  - *The mute swan is native to Europe and Asia.*
+  - *The mute swan is native to Europe and Asia.*（疣鼻天鹅原产于欧洲和亚洲。）
 - **black swan**：黑天鹅（比喻罕见事件）
-  - *The financial crisis was a black swan event that few predicted.*
+  - *The financial crisis was a black swan event that few predicted.*（这场金融危机是一个很少有人预测到的黑天鹅事件。）
 - **swan song**：天鹅之歌；最后的杰作
-  - *The concert was his swan song before retirement.*
+  - *The concert was his swan song before retirement.*（这场音乐会是他在退休前的告别演出。）
 - **swan around/about**：悠然自得地四处游荡
-  - *She spent the afternoon swanning around the city.*
+  - *She spent the afternoon swanning around the city.*（她整个下午都在城里闲逛。）
 - **swan dive**：天鹅式跳水（优美的跳水动作）
-  - *He performed a perfect swan dive from the high board.*
+  - *He performed a perfect swan dive from the high board.*（他从高台跳板上完成了一次完美的燕式跳水。）
 
 ## 真题/语料关联
 

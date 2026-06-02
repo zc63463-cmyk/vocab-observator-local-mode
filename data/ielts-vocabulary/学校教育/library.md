@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **public library**：公共图书馆
-  - *The public library offers free internet access and reading programs.*
+  - *The public library offers free internet access and reading programs.*（中文翻译）
 - **university library**：大学图书馆
-  - *The university library is open 24 hours during exam season.*
+  - *The university library is open 24 hours during exam season.*（中文翻译）
 - **library card**：借书证
-  - *You need a library card to borrow books.*
+  - *You need a library card to borrow books.*（中文翻译）
 - **library catalogue**：图书馆目录
-  - *The library catalogue is now available online.*
+  - *The library catalogue is now available online.*（中文翻译）
 - **digital/virtual library**：数字图书馆
-  - *Many resources are now accessible through digital libraries.*
+  - *Many resources are now accessible through digital libraries.*（中文翻译）
 
 ## 真题/语料关联
 

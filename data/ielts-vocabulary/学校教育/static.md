@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **static electricity**：静电
-  - *Static electricity can cause a shock when you touch a metal object.*
+  - *Static electricity can cause a shock when you touch a metal object.*（当你触摸金属物体时，静电可能会导致电击。）
 - **static position**：静止位置
-  - *The object remained in a static position.*
+  - *The object remained in a static position.*（该物体保持在静止位置。）
 - **static economy**：停滞的经济
-  - *The country's static economy has not grown for years.*
+  - *The country's static economy has not grown for years.*（该国停滞的经济多年来没有增长。）
 - **radio static**：收音机噪音
-  - *There was a lot of static on the radio during the storm.*
+  - *There was a lot of static on the radio during the storm.*（暴风雨期间收音机有很大的静电噪音。）
 - **static analysis**：静态分析
-  - *Static analysis is used to evaluate code without executing it.*
+  - *Static analysis is used to evaluate code without executing it.*（静态分析用于在不执行代码的情况下评估代码。）
 
 ## 真题/语料关联
 

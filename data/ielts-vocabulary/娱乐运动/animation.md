@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **computer animation**：电脑动画
-  - *The movie used cutting-edge computer animation.*
+  - *The movie used cutting-edge computer animation.*（这部电影使用了尖端的电脑动画技术。）
 - **3D animation**：3D动画
-  - *3D animation has become increasingly realistic.*
+  - *3D animation has become increasingly realistic.*（3D动画已经变得越来越逼真。）
 - **animated film**：动画电影
-  - *The animated film was nominated for an Oscar.*
+  - *The animated film was nominated for an Oscar.*（这部动画电影获得了奥斯卡提名。）
 - **animation studio**：动画工作室
-  - *The animation studio produced several hit movies.*
+  - *The animation studio produced several hit movies.*（这家动画工作室制作了几部热门电影。）
 - **with animation**：生动地，充满活力地
-  - *She spoke with animation about her travel experiences.*
+  - *She spoke with animation about her travel experiences.*（她生动地讲述着她的旅行经历。）
 
 ## 真题/语料关联
 

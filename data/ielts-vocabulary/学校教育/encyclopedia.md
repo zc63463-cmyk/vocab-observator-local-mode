@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **an encyclopedia of**：……的百科全书
-  - *The book is an encyclopedia of modern art.*
+  - *The book is an encyclopedia of modern art.*（这本书是一部现代艺术百科全书。）
 - **an encyclopedia entry**：百科全书条目
-  - *The encyclopedia entry on quantum physics was very detailed.*
+  - *The encyclopedia entry on quantum physics was very detailed.*（关于量子物理学的百科全书条目非常详细。）
 - **a walking encyclopedia**：活百科全书（比喻知识渊博的人）
-  - *He is a walking encyclopedia when it comes to history.*
+  - *He is a walking encyclopedia when it comes to history.*（在历史方面，他是一部活百科全书。）
 - **online encyclopedia**：在线百科全书
-  - *Wikipedia is the world's largest online encyclopedia.*
+  - *Wikipedia is the world's largest online encyclopedia.*（维基百科是世界上最大的在线百科全书。）
 - **encyclopedia set**：百科全书套装
-  - *The library has a complete encyclopedia set.*
+  - *The library has a complete encyclopedia set.*（图书馆有一套完整的百科全书。）
 - **encyclopedic knowledge**：百科全书式的知识
-  - *She has encyclopedic knowledge of classical music.*
+  - *She has encyclopedic knowledge of classical music.*（她对古典音乐有着百科全书般的知识。）
 
 ## 真题/语料关联
 

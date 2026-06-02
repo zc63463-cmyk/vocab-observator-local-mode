@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **on schedule**：按计划；准时
-  - *The project is on schedule and will be completed on time.*
+  - *The project is on schedule and will be completed on time.*（项目按计划进行，将按时完成。）
 - **behind schedule**：落后于计划
-  - *We're behind schedule due to unexpected delays.*
+  - *We're behind schedule due to unexpected delays.*（由于意外的延误，我们落后于计划。）
 - **ahead of schedule**：提前于计划
-  - *The construction was completed ahead of schedule.*
+  - *The construction was completed ahead of schedule.*（施工提前完成了。）
 - **according to schedule**：按照计划
-  - *Everything went according to schedule.*
+  - *Everything went according to schedule.*（一切按照计划进行。）
 - **tight schedule**：紧凑的日程
-  - *I have a tight schedule this week with back-to-back meetings.*
+  - *I have a tight schedule this week with back-to-back meetings.*（这周我的日程很紧，会议一个接一个。）
 
 ## 真题/语料关联
 

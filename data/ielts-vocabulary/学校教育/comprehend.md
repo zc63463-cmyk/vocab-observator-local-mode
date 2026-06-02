@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **comprehend something**：理解某事
-  - *The concept is difficult to comprehend.*
+  - *The concept is difficult to comprehend.*（这个概念很难理解。）
 - **fully comprehend**：完全理解
-  - *It took me a while to fully comprehend the implications.*
+  - *It took me a while to fully comprehend the implications.*（我花了一段时间才完全理解其中的含义。）
 - **comprehend the meaning/extent**：理解含义/程度
-  - *Few people comprehend the true extent of the problem.*
+  - *Few people comprehend the true extent of the problem.*（很少有人理解这个问题的真正严重程度。）
 - **comprehensible** (adj.)：可理解的
-  - *The explanation was clear and comprehensible.*
+  - *The explanation was clear and comprehensible.*（这个解释清楚易懂。）
 - **beyond comprehension**：难以理解
-  - *The scale of the disaster is beyond comprehension.*
+  - *The scale of the disaster is beyond comprehension.*（这场灾难的规模令人难以理解。）
 
 ## 真题/语料关联
 

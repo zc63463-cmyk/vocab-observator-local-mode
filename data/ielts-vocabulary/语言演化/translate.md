@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **translate from...to...**：从……翻译成……
-  - *She translated the book from French to English.*
+  - *She translated the book from French to English.*（她把这本书从法语翻译成英语。）
 - **translate into**：转化为
-  - *We need to translate our plans into action.*
+  - *We need to translate our plans into action.*（我们需要把计划转化为行动。）
 - **literally translate**：直译
-  - *If you literally translate the phrase, it doesn't make sense in English.*
+  - *If you literally translate the phrase, it doesn't make sense in English.*（如果你直译这个短语，它在英语中毫无意义。）
 - **freely translate**：意译
-  - *The translator freely translated the poem to capture its spirit.*
+  - *The translator freely translated the poem to capture its spirit.*（译者意译了这首诗以捕捉其精神。）
 - **lost in translation**：在翻译中丢失
-  - *Some nuances are inevitably lost in translation.*
+  - *Some nuances are inevitably lost in translation.*（一些细微差别在翻译中不可避免地丢失了。）
 
 ## 真题/语料关联
 

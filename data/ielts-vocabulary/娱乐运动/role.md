@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play a role**：扮演角色
-  - *She played a leading role in the movie.*
+  - *She played a leading role in the movie.*（她在电影中扮演了主角。）
 - **leading role**：主角
-  - *He was cast in the leading role.*
+  - *He was cast in the leading role.*（他被选定扮演主角。）
 - **key role**：关键作用
-  - *Education plays a key role in personal development.*
+  - *Education plays a key role in personal development.*（教育在个人发展中起着关键作用。）
 - **social role**：社会角色
-  - *People often conform to traditional social roles.*
+  - *People often conform to traditional social roles.*（人们常常遵从传统的社会角色。）
 - **role model**：榜样
-  - *Parents are the most important role models for children.*
+  - *Parents are the most important role models for children.*（父母是孩子最重要的榜样。）
 
 ## 真题/语料关联
 

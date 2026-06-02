@@ -73,19 +73,19 @@ review_count: 0
 ## 搭配与短语
 
 - **show respect**：表示尊重
-  - *We should show respect to our teachers.*
+  - *We should show respect to our teachers.*（我们应该向老师表示尊重。）
 - **mutual respect**：相互尊重
-  - *A good relationship is built on mutual respect.*
+  - *A good relationship is built on mutual respect.*（良好的关系建立在相互尊重的基础上。）
 - **in this respect**：在这方面
-  - *In this respect, the two approaches are quite similar.*
+  - *In this respect, the two approaches are quite similar.*（在这方面，两种方法非常相似。）
 - **with respect to**：关于，就……而言
-  - *With respect to your question, I believe...*
+  - *With respect to your question, I believe...*（关于你的问题，我认为……）
 - **respect the law**：遵守法律
-  - *All citizens should respect the law.*
+  - *All citizens should respect the law.*（所有公民都应当遵守法律。）
 - **earn/gain respect**：赢得尊重
-  - *She earned the respect of her colleagues through hard work.*
+  - *She earned the respect of her colleagues through hard work.*（她通过努力工作赢得了同事们的尊重。）
 - **self-respect**：自尊
-  - *It's important to maintain your self-respect.*
+  - *It's important to maintain your self-respect.*（保持自尊很重要。）
 
 ## 真题/语料关联
 

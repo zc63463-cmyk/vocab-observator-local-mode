@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **antonym of**：……的反义词
-  - *"Hot" is an antonym of "cold".*
+  - *"Hot" is an antonym of "cold".*（"Hot"是"cold"的反义词。）
 - **find an antonym**：找反义词
-  - *Can you find an antonym for "happy"?*
+  - *Can you find an antonym for "happy"?*（你能找到"happy"的反义词吗？）
 - **direct antonym**：直接反义词
-  - *"Alive" and "dead" are direct antonyms.*
+  - *"Alive" and "dead" are direct antonyms.*（"Alive"和"dead"是直接反义词。）
 - **gradable antonym**：等级反义词
-  - *"Hot" and "cold" are gradable antonyms because there are degrees in between.*
+  - *"Hot" and "cold" are gradable antonyms because there are degrees in between.*（"Hot"和"cold"是等级反义词，因为中间有程度差异。）
 - **complementary antonym**：互补反义词
-  - *"True" and "false" are complementary antonyms.*
+  - *"True" and "false" are complementary antonyms.*（"True"和"false"是互补反义词。）
 
 ## 真题/语料关联
 

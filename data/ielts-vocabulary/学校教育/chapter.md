@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the first chapter**：第一章
-  - *The first chapter introduces the main characters.*
+  - *The first chapter introduces the main characters.*（第一章介绍了主要人物。）
 - **open a new chapter**：开启新篇章
-  - *Graduation opens a new chapter in your life.*
+  - *Graduation opens a new chapter in your life.*（毕业开启了人生新篇章。）
 - **chapter and verse**：确切的依据
-  - *She cited chapter and verse to support her argument.*
+  - *She cited chapter and verse to support her argument.*（她引用了确切的依据来支持自己的论点。）
 - **a dark chapter**：黑暗的篇章
-  - *The war was a dark chapter in the country's history.*
+  - *The war was a dark chapter in the country's history.*（这场战争是该国历史上黑暗的一章。）
 - **a chapter of accidents**：一连串的不幸
-  - *The trip was a chapter of accidents from start to finish.*
+  - *The trip was a chapter of accidents from start to finish.*（这次旅行从头到尾都是一连串的意外。）
 
 ## 真题/语料关联
 

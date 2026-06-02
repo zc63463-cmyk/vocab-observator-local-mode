@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **draw a picture**：画一幅画
-  - *The child drew a picture of her family.*
+  - *The child drew a picture of her family.*（孩子画了一幅她家人的画。）
 - **draw attention**：引起注意
-  - *The loud noise drew everyone's attention.*
+  - *The loud noise drew everyone's attention.*（巨大的噪音引起了所有人的注意。）
 - **draw conclusions**：得出结论
-  - *We can draw conclusions from the data.*
+  - *We can draw conclusions from the data.*（我们可以从数据中得出结论。）
 - **draw the curtain**：拉窗帘
-  - *She drew the curtain to block the sunlight.*
+  - *She drew the curtain to block the sunlight.*（她拉上窗帘以遮挡阳光。）
 - **end in a draw**：以平局结束
-  - *The match ended in a draw.*
+  - *The match ended in a draw.*（比赛以平局结束。）
 
 ## 真题/语料关联
 

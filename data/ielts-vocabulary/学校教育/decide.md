@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **decide to do**：决定做
-  - *She decided to study abroad.*
+  - *She decided to study abroad.*（她决定出国留学。）
 - **decide on**：决定选择
-  - *We decided on the blue paint.*
+  - *We decided on the blue paint.*（我们决定选蓝色油漆。）
 - **decide against**：决定不做
-  - *He decided against accepting the job.*
+  - *He decided against accepting the job.*（他决定不接受这份工作。）
 - **decide the issue/matter**：解决争议
-  - *The court will decide the matter next week.*
+  - *The court will decide the matter next week.*（法院将在下周裁决此事。）
 - **decision** (n.)：决定
-  - *Making a decision can be difficult.*
+  - *Making a decision can be difficult.*（做决定有时很难。）
 
 ## 真题/语料关联
 

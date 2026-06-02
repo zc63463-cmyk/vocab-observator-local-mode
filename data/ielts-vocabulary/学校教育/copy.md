@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a copy of**：一份……
-  - *I need a copy of the report for my records.*
+  - *I need a copy of the report for my records.*（我需要一份报告副本作为记录。）
 - **make a copy**：制作副本
-  - *Could you make a copy of this document for me?*
+  - *Could you make a copy of this document for me?*（你能帮我复印一份这份文件吗？）
 - **copy and paste**：复制粘贴
-  - *You can copy and paste the text into a new file.*
+  - *You can copy and paste the text into a new file.*（你可以把文本复制粘贴到一个新文件中。）
 - **hard copy**：纸质副本
-  - *Please keep a hard copy of the contract.*
+  - *Please keep a hard copy of the contract.*（请保留一份合同的纸质副本。）
 - **carbon copy (cc)**：抄送（邮件）
-  - *I'll cc you on the email to the client.*
+  - *I'll cc you on the email to the client.*（我会在发给客户的邮件中抄送给你。）
 
 ## 真题/语料关联
 

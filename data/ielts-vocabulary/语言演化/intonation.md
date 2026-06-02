@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rising intonation**：升调
-  - *Questions in English usually have rising intonation.*
+  - *Questions in English usually have rising intonation.*（英语中的疑问句通常使用升调。）
 - **falling intonation**：降调
-  - *Statements in English typically have falling intonation.*
+  - *Statements in English typically have falling intonation.*（英语中的陈述句通常使用降调。）
 - **intonation pattern**：语调模式
-  - *Different languages have different intonation patterns.*
+  - *Different languages have different intonation patterns.*（不同的语言有不同的语调模式。）
 - **natural intonation**：自然的语调
-  - *She speaks with natural intonation and rhythm.*
+  - *She speaks with natural intonation and rhythm.*（她说话带有自然的语调和节奏。）
 - **intonation practice**：语调练习
-  - *Intonation practice is essential for improving speaking skills.*
+  - *Intonation practice is essential for improving speaking skills.*（语调练习对提高口语能力至关重要。）
 
 ## 真题/语料关联
 

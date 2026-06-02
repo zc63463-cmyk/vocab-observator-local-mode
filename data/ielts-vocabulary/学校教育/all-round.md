@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an all-round athlete**：全能运动员
-  - *She is an all-round athlete who excels in swimming, running, and gymnastics.*
+  - *She is an all-round athlete who excels in swimming, running, and gymnastics.*（她是一名在游泳、跑步和体操方面都很出色的全能运动员。）
 - **an all-round education**：全面的教育
-  - *An all-round education should include both academic and extracurricular activities.*
+  - *An all-round education should include both academic and extracurricular activities.*（全面的教育应包括学术和课外活动。）
 - **an all-round performer**：全能表演者
-  - *He is an all-round performer who can sing, dance, and act.*
+  - *He is an all-round performer who can sing, dance, and act.*（他是一名能唱会跳能演的全能表演者。）
 - **an all-round improvement**：全面的改进
-  - *The company has seen an all-round improvement in performance this year.*
+  - *The company has seen an all-round improvement in performance this year.*（公司今年的业绩有了全面改善。）
 - **all-round development**：全面发展
-  - *The school focuses on the all-round development of students.*
+  - *The school focuses on the all-round development of students.*（学校注重学生的全面发展。）
 
 ## 真题/语料关联
 

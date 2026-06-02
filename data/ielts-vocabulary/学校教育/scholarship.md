@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **win/earn a scholarship**：获得奖学金
-  - *She won a scholarship to study abroad.*
+  - *She won a scholarship to study abroad.*（她获得了出国留学的奖学金。）
 - **full/partial scholarship**：全额/部分奖学金
-  - *The university offered him a full scholarship.*
+  - *The university offered him a full scholarship.*（这所大学向他提供了全额奖学金。）
 - **apply for a scholarship**：申请奖学金
-  - *Many students apply for scholarships to help fund their education.*
+  - *Many students apply for scholarships to help fund their education.*（许多学生申请奖学金以帮助支付他们的教育费用。）
 - **academic scholarship**：学术奖学金
-  - *Academic scholarships are awarded based on academic merit.*
+  - *Academic scholarships are awarded based on academic merit.*（学术奖学金是根据学业成绩颁发的。）
 - **sports scholarship**：体育奖学金
-  - *He received a sports scholarship for his outstanding athletic performance.*
+  - *He received a sports scholarship for his outstanding athletic performance.*（他因出色的运动表现获得了体育奖学金。）
 
 ## 真题/语料关联
 

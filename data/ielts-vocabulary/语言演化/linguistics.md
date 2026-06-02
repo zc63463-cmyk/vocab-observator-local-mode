@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study linguistics**：学习语言学
-  - *She decided to study linguistics at university.*
+  - *She decided to study linguistics at university.*（她决定在大学学习语言学。）
 - **applied linguistics**：应用语言学
-  - *Applied linguistics focuses on practical language problems.*
+  - *Applied linguistics focuses on practical language problems.*（应用语言学关注实际的语言问题。）
 - **computational linguistics**：计算语言学
-  - *Computational linguistics combines computer science and language study.*
+  - *Computational linguistics combines computer science and language study.*（计算语言学结合了计算机科学和语言研究。）
 - **forensic linguistics**：法律语言学
-  - *Forensic linguistics can help solve crimes by analyzing language evidence.*
+  - *Forensic linguistics can help solve crimes by analyzing language evidence.*（法律语言学可以通过分析语言证据来帮助破案。）
 - **linguistics department**：语言学系
-  - *The linguistics department offers courses in phonetics and syntax.*
+  - *The linguistics department offers courses in phonetics and syntax.*（语言学系提供语音学和句法学课程。）
 
 ## 真题/语料关联
 

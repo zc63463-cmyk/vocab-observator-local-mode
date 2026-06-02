@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in profile**：从侧面看
-  - *She looks beautiful in profile.*
+  - *She looks beautiful in profile.*（中文翻译）
 - **a high profile**：高姿态，引人注目
-  - *The scandal gave the politician a high profile.*
+  - *The scandal gave the politician a high profile.*（中文翻译）
 - **a low profile**：低调，不引人注目
-  - *He decided to keep a low profile after the controversy.*
+  - *He decided to keep a low profile after the controversy.*（中文翻译）
 - **company profile**：公司简介
-  - *The company profile is available on our website.*
+  - *The company profile is available on our website.*（中文翻译）
 - **user profile**：用户档案
-  - *You can edit your user profile in the settings.*
+  - *You can edit your user profile in the settings.*（中文翻译）
 
 ## 真题/语料关联
 

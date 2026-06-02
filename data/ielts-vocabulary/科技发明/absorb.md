@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **absorb water/liquid**：吸收水分/液体
-  - *The sponge can absorb water quickly.*
+  - *The sponge can absorb water quickly.*（海绵可以快速吸收水分。）
 - **be absorbed in**：全神贯注于
-  - *She was completely absorbed in her book.*
+  - *She was completely absorbed in her book.*（她完全沉浸在书中。）
 - **absorb information/knowledge**：吸收信息/知识
-  - *Students need time to absorb the information before the exam.*
+  - *Students need time to absorb the information before the exam.*（学生需要时间在考试前吸收这些信息。）
 - **absorb costs/expenses**：承担费用
-  - *The company had to absorb the extra costs.*
+  - *The company had to absorb the extra costs.*（公司不得不承担额外费用。）
 - **absorb the impact**：承受冲击
-  - *The car's safety features helped absorb the impact of the collision.*
+  - *The car's safety features helped absorb the impact of the collision.*（汽车的安全装置帮助吸收了碰撞的冲击力。）
 
 ## 真题/语料关联
 

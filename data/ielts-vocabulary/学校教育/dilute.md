@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dilute the solution**：稀释溶液
-  - *You should dilute the solution with water before use.*
+  - *You should dilute the solution with water before use.*（使用前应用水稀释溶液。）
 - **dilute the impact**：削弱影响
-  - *The new policy may dilute the impact of the reforms.*
+  - *The new policy may dilute the impact of the reforms.*（新政策可能会削弱改革的影响。）
 - **dilute the color**：淡化颜色
-  - *Adding white paint will dilute the color.*
+  - *Adding white paint will dilute the color.*（加入白色油漆会淡化颜色。）
 - **dilute acid**：稀酸
-  - *Dilute acid is safer to handle than concentrated acid.*
+  - *Dilute acid is safer to handle than concentrated acid.*（稀酸比浓酸更安全。）
 - **dilute with water**：用水稀释
-  - *Dilute the juice with water to make it less sweet.*
+  - *Dilute the juice with water to make it less sweet.*（用水稀释果汁以减少甜度。）
 
 ## 真题/语料关联
 

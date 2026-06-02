@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **as a fresher**：作为大一新生
-  - *As a fresher, she found it hard to adjust to university life.*
+  - *As a fresher, she found it hard to adjust to university life.*（作为大一新生，她觉得很难适应大学生活。）
 - **fresher's week**：新生周
-  - *The university organizes various events during fresher's week.*
+  - *The university organizes various events during fresher's week.*（大学在新生周组织各种活动。）
 - **fresher's fair**：新生社团招新会
-  - *I signed up for three clubs at the fresher's fair.*
+  - *I signed up for three clubs at the fresher's fair.*（我在新生社团招新会上报名参加了三个社团。）
 - **fresher flu**：新生流感（新生因环境变化容易感冒的现象）
-  - *Almost everyone gets fresher's flu in the first few weeks.*
+  - *Almost everyone gets fresher's flu in the first few weeks.*（几乎每个人在头几周都会得新生流感。）
 
 ## 真题/语料关联
 

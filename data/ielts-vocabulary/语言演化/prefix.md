@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **negative prefix**：否定前缀
-  - *"Un-" is a common negative prefix in English, as in "unhappy".*
+  - *"Un-" is a common negative prefix in English, as in "unhappy".*（"Un-"是英语中常见的否定前缀，如在"unhappy"中。）
 - **prefix with**：以……为前缀
-  - *The word "preview" is prefixed with "pre-".*
+  - *The word "preview" is prefixed with "pre-".*（单词"preview"以"pre-"为前缀。）
 - **add a prefix**：加前缀
-  - *You can add the prefix "re-" to indicate repetition.*
+  - *You can add the prefix "re-" to indicate repetition.*（你可以添加前缀"re-"来表示重复。）
 - **prefix code**：前缀代码
-  - *The system uses a prefix code to identify different regions.*
+  - *The system uses a prefix code to identify different regions.*（该系统使用前缀代码来标识不同区域。）
 - **dial the prefix**：拨区号
-  - *You need to dial the prefix before the local number.*
+  - *You need to dial the prefix before the local number.*（你需要在本地号码之前拨区号。）
 
 ## 真题/语料关联
 

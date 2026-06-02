@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dot the i's**：点 i 上面的点（注意细节）
-  - *Don't forget to dot the i's and cross the t's.*
+  - *Don't forget to dot the i's and cross the t's.*（别忘了关注细节，做到一丝不苟。）
 - **polka dots**：圆点花纹
-  - *She wore a dress with polka dots.*
+  - *She wore a dress with polka dots.*（她穿了一件圆点花纹的连衣裙。）
 - **on the dot**：准时地
-  - *The meeting starts at 9 o'clock on the dot.*
+  - *The meeting starts at 9 o'clock on the dot.*（会议九点准时开始。）
 - **dot com**：网络公司
-  - *He works for a dot com in Silicon Valley.*
+  - *He works for a dot com in Silicon Valley.*（他在硅谷的一家网络公司工作。）
 - **dot the landscape**：点缀着风景
-  - *Small villages dot the countryside.*
+  - *Small villages dot the countryside.*（小村庄点缀着乡村。）
 
 ## 真题/语料关联
 

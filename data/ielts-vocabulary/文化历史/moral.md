@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **moral values**：道德价值观
-  - *Parents play a crucial role in teaching moral values to their children.*
+  - *Parents play a crucial role in teaching moral values to their children.*（父母在向孩子传授道德价值观方面起着至关重要的作用。）
 - **moral obligation**：道义上的义务
-  - *We have a moral obligation to help those in need.*
+  - *We have a moral obligation to help those in need.*（我们有道义上的义务帮助那些需要帮助的人。）
 - **moral support**：精神支持
-  - *She offered moral support to her friend during the difficult time.*
+  - *She offered moral support to her friend during the difficult time.*（她在朋友困难时期给予了精神支持。）
 - **the moral of the story**：故事的寓意
-  - *The moral of the story is that honesty is always the best policy.*
+  - *The moral of the story is that honesty is always the best policy.*（这个故事的寓意是诚实总是上策。）
 - **moral dilemma**：道德困境
-  - *The character faces a moral dilemma in the novel.*
+  - *The character faces a moral dilemma in the novel.*（小说中的角色面临着一个道德困境。）
 
 ## 真题/语料关联
 

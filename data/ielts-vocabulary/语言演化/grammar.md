@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **English grammar**：英语语法
-  - *English grammar can be challenging for non-native speakers.*
+  - *English grammar can be challenging for non-native speakers.*（英语语法对非母语者来说可能具有挑战性。）
 - **grammar rules**：语法规则
-  - *Learning grammar rules helps you construct correct sentences.*
+  - *Learning grammar rules helps you construct correct sentences.*（学习语法规则有助于你构建正确的句子。）
 - **grammar book**：语法书
-  - *She bought a grammar book to improve her writing.*
+  - *She bought a grammar book to improve her writing.*（她买了一本语法书来提高写作水平。）
 - **good/bad grammar**：语法好/差
-  - *Good grammar is essential for clear communication.*
+  - *Good grammar is essential for clear communication.*（良好的语法对于清晰的沟通至关重要。）
 - **grammar school**：文法学校（英国中学的一种）
-  - *He attended a grammar school in London.*
+  - *He attended a grammar school in London.*（他在伦敦上过一所文法学校。）
 
 ## 真题/语料关联
 

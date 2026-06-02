@@ -85,15 +85,15 @@ review_count: 0
 ## 搭配与短语
 
 - **count the number**：数数量
-  - *Please count the number of students in the class.*
+  - *Please count the number of students in the class.*（请清点班级里学生的人数。）
 - **every vote counts**：每一票都很重要
-  - *In a democracy, every vote counts.*
+  - *In a democracy, every vote counts.*（在民主制度中，每一票都很重要。）
 - **count on**：指望，依靠
-  - *You can always count on me for help.*
+  - *You can always count on me for help.*（你随时可以依靠我的帮助。）
 - **count me in**：算我一个
-  - *If you're going to the party, count me in.*
+  - *If you're going to the party, count me in.*（如果你们去派对，算我一个。）
 - **lose count**：数不清
-  - *There were so many people that I lost count.*
+  - *There were so many people that I lost count.*（人太多了，我数不清了。）
 
 ## 真题/语料关联
 

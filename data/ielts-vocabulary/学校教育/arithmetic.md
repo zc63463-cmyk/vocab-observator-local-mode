@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mental arithmetic**：心算
-  - *Children should practise mental arithmetic to improve their number sense.*
+  - *Children should practise mental arithmetic to improve their number sense.*（儿童应该练习心算以提高数感。）
 - **basic/simple arithmetic**：基础算术
-  - *The problem requires only simple arithmetic.*
+  - *The problem requires only simple arithmetic.*（这个问题只需要简单的算术。）
 - **arithmetic progression**：等差数列
-  - *In an arithmetic progression, each term differs by a constant amount.*
+  - *In an arithmetic progression, each term differs by a constant amount.*（在等差数列中，每一项相差一个常数。）
 - **arithmetic mean**：算术平均数
-  - *The arithmetic mean of 3, 5, and 7 is 5.*
+  - *The arithmetic mean of 3, 5, and 7 is 5.*（3、5、7的算术平均数是5。）
 - **do arithmetic**：做算术
-  - *I can do arithmetic in my head pretty quickly.*
+  - *I can do arithmetic in my head pretty quickly.*（我能很快地在脑子里做算术。）
 
 ## 真题/语料关联
 

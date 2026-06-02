@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **electronic component**：电子元件
-  - *The circuit board contains many electronic components.*
+  - *The circuit board contains many electronic components.*（电路板包含许多电子元件。）
 - **key component**：关键组成部分
-  - *Trust is a key component of any successful relationship.*
+  - *Trust is a key component of any successful relationship.*（信任是任何成功关系的关键组成部分。）
 - **component part**：组成部分
-  - *The engine is a component part of the car.*
+  - *The engine is a component part of the car.*（发动机是汽车的一个组成部分。）
 - **essential component**： essential component
-  - *Regular exercise is an essential component of a healthy lifestyle.*
+  - *Regular exercise is an essential component of a healthy lifestyle.*（经常锻炼是健康生活方式的重要组成部分。）
 - **component analysis**：成分分析
-  - *Component analysis is used to identify the main factors in a dataset.*
+  - *Component analysis is used to identify the main factors in a dataset.*（成分分析用于识别数据集中的主要因素。）
 
 ## 真题/语料关联
 

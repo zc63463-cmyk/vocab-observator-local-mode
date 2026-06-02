@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **publish a book**：出版一本书
-  - *She published her first novel last year.*
+  - *She published her first novel last year.*（她去年出版了她的第一部小说。）
 - **publish an article**：发表一篇文章
-  - *The researcher published an article in a leading journal.*
+  - *The researcher published an article in a leading journal.*（这位研究员在一家顶级期刊上发表了一篇文章。）
 - **publish the results**：公布结果
-  - *The government published the results of the survey.*
+  - *The government published the results of the survey.*（政府公布了调查结果。）
 - **publish online**：在网上发布
-  - *You can publish your blog online for free.*
+  - *You can publish your blog online for free.*（你可以在网上免费发布你的博客。）
 - **be published in**：发表在……
-  - *The study was published in The Lancet.*
+  - *The study was published in The Lancet.*（这项研究发表在《柳叶刀》上。）
 
 ## 真题/语料关联
 

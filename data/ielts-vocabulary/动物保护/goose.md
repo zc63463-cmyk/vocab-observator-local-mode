@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **wild goose**：野鹅，大雁
-  - *Wild geese migrate south in the winter.*
+  - *Wild geese migrate south in the winter.*（大雁在冬季向南迁徙。）
 - **wild goose chase**：徒劳的搜索，无果的努力
-  - *Looking for that book was a wild goose chase.*
+  - *Looking for that book was a wild goose chase.*（找那本书简直就是白费力气。）
 - **roast goose**：烤鹅
-  - *The traditional Christmas dinner features roast goose.*
+  - *The traditional Christmas dinner features roast goose.*（传统的圣诞晚餐以烤鹅为特色。）
 - **silly goose**：傻瓜（亲昵的称呼）
-  - *Don't be such a silly goose — everything will be fine.*
+  - *Don't be such a silly goose — everything will be fine.*（别这么犯傻了——一切都会好起来的。）
 - **cook someone's goose**：破坏某人的计划
-  - *The bad weather cooked our goose for the outdoor event.*
+  - *The bad weather cooked our goose for the outdoor event.*（恶劣的天气毁了我们户外活动的计划。）
 - **what's good for the goose is good for the gander**：适用于此也适用于彼（公平原则）
-  - *If I have to work late, so should you — what's good for the goose is good for the gander.*
+  - *If I have to work late, so should you — what's good for the goose is good for the gander.*（如果我必须加班，你也应该——应该一视同仁。）
 
 ## 真题/语料关联
 

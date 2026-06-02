@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **transform society**：改变社会
-  - *Education has the power to transform society.*
+  - *Education has the power to transform society.*（教育有能力改变社会。）
 - **digital transformation**：数字化转型
-  - *The company is undergoing digital transformation to improve efficiency.*
+  - *The company is undergoing digital transformation to improve efficiency.*（该公司正在进行数字化转型以提高效率。）
 - **transform one's life**：改变人生
-  - *The scholarship transformed her life, giving her access to better opportunities.*
+  - *The scholarship transformed her life, giving her access to better opportunities.*（奖学金改变了她的生活，让她获得了更好的机会。）
 - **transform into**：变成
-  - *The caterpillar transforms into a butterfly.*
+  - *The caterpillar transforms into a butterfly.*（毛毛虫变成了蝴蝶。）
 - **transform the way**：改变方式
-  - *Technology has transformed the way we communicate.*
+  - *Technology has transformed the way we communicate.*（技术改变了我们沟通的方式。）
 
 ## 真题/语料关联
 

@@ -79,15 +79,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sports facility**：体育设施
-  - *The city has invested in new sports facilities for the community.*
+  - *The city has invested in new sports facilities for the community.*（该城市为社区投资了新的体育设施。）
 - **research facility**：研究设施
-  - *The university has a state-of-the-art research facility.*
+  - *The university has a state-of-the-art research facility.*（这所大学拥有最先进的研究设施。）
 - **manufacturing facility**：生产设施
-  - *The company plans to build a new manufacturing facility.*
+  - *The company plans to build a new manufacturing facility.*（公司计划建造一个新的生产设施。）
 - **public facility**：公共设施
-  - *Public facilities like libraries and parks are essential for communities.*
+  - *Public facilities like libraries and parks are essential for communities.*（图书馆和公园等公共设施对社区至关重要。）
 - **facility management**：设施管理
-  - *Facility management ensures that buildings are well-maintained.*
+  - *Facility management ensures that buildings are well-maintained.*（设施管理确保建筑物得到良好维护。）
 
 ## 真题/语料关联
 

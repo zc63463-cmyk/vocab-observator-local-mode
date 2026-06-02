@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **field of vision**：视野
-  - *The accident happened in my peripheral vision.*
+  - *The accident happened in my peripheral vision.*（事故发生在我视野的边缘。）
 - **computer vision**：计算机视觉
-  - *Computer vision enables machines to interpret visual data.*
+  - *Computer vision enables machines to interpret visual data.*（计算机视觉使机器能够解读视觉数据。）
 - **vision for the future**：对未来的远见
-  - *The CEO has a clear vision for the company's future.*
+  - *The CEO has a clear vision for the company's future.*（首席执行官对公司未来有清晰的愿景。）
 - **vision statement**：愿景声明
-  - *The organization's vision statement outlines its long-term goals.*
+  - *The organization's vision statement outlines its long-term goals.*（该组织的愿景声明概述了其长期目标。）
 - **vision impairment**：视力障碍
-  - *Vision impairment affects millions of people worldwide.*
+  - *Vision impairment affects millions of people worldwide.*（视力障碍影响着全球数百万人。）
 
 ## 真题/语料关联
 

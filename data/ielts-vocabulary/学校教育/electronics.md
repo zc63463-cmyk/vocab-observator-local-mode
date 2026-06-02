@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study electronics**：学习电子学
-  - *He decided to study electronics at university.*
+  - *He decided to study electronics at university.*（他决定在大学学习电子学。）
 - **consumer electronics**：消费电子产品
-  - *The consumer electronics market is highly competitive.*
+  - *The consumer electronics market is highly competitive.*（消费电子产品市场竞争非常激烈。）
 - **electronics industry**：电子工业
-  - *The electronics industry is a major contributor to the economy.*
+  - *The electronics industry is a major contributor to the economy.*（电子工业是经济的重要贡献者。）
 - **electronic device**：电子设备
-  - *Electronic devices have become an integral part of modern life.*
+  - *Electronic devices have become an integral part of modern life.*（电子设备已成为现代生活不可或缺的一部分。）
 - **electronic** (adj.)：电子的
-  - *Electronic payments are becoming increasingly common.*
+  - *Electronic payments are becoming increasingly common.*（电子支付变得越来越普遍。）
 
 ## 真题/语料关联
 

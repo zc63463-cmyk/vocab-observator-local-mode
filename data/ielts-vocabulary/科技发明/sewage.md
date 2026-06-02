@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sewage treatment**：污水处理
-  - *The city built a new sewage treatment plant.*
+  - *The city built a new sewage treatment plant.*（这座城市新建了一座污水处理厂。）
 - **raw sewage**：未经处理的污水
-  - *Raw sewage was discharged into the river.*
+  - *Raw sewage was discharged into the river.*（未经处理的污水被排入了河里。）
 - **sewage system**：污水系统
-  - *The sewage system needs to be upgraded.*
+  - *The sewage system needs to be upgraded.*（污水系统需要升级。）
 - **sewage disposal**：污水处置
-  - *Proper sewage disposal is essential for public health.*
+  - *Proper sewage disposal is essential for public health.*（适当的污水处理对公共卫生至关重要。）
 - **sewage plant/works**：污水处理厂
-  - *The sewage plant processes thousands of gallons daily.*
+  - *The sewage plant processes thousands of gallons daily.*（污水处理厂每天处理数千加仑的污水。）
 
 ## 真题/语料关联
 

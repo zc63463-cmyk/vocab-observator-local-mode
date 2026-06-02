@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **foresee the future**：预见未来
-  - *It is difficult to foresee the future with certainty.*
+  - *It is difficult to foresee the future with certainty.*（很难确切地预见未来。）
 - **foresee problems/difficulties**：预见问题/困难
-  - *We did not foresee the problems that would arise.*
+  - *We did not foresee the problems that would arise.*（我们没有预见到会出现的问题。）
 - **foresee changes**：预见变化
-  - *The company did not foresee the changes in the market.*
+  - *The company did not foresee the changes in the market.*（公司没有预见到市场的变化。）
 - **foresee the consequences**：预见后果
-  - *He did not foresee the consequences of his actions.*
+  - *He did not foresee the consequences of his actions.*（他没有预见到自己行为的后果。）
 - **be foreseeable**：可预见的
-  - *The problems were foreseeable.*
+  - *The problems were foreseeable.*（这些问题是可以预见的。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **displace workers**：取代工人
-  - *Automation has displaced many factory workers.*
+  - *Automation has displaced many factory workers.*（自动化取代了许多工厂工人。）
 - **displaced people**：流离失所的人
-  - *The war created millions of displaced people.*
+  - *The war created millions of displaced people.*（战争造成了数百万流离失所的人。）
 - **displace water**：排水
-  - *The ship displaces a large amount of water.*
+  - *The ship displaces a large amount of water.*（这艘船排开了大量的水。）
 - **displace traditional methods**：取代传统方法
-  - *New technologies are displacing traditional methods of teaching.*
+  - *New technologies are displacing traditional methods of teaching.*（新技术正在取代传统的教学方法。）
 - **displaced person**：流离失所者
-  - *The UN provides aid to displaced persons in conflict zones.*
+  - *The UN provides aid to displaced persons in conflict zones.*（联合国向冲突地区的流离失所者提供援助。）
 
 ## 真题/语料关联
 

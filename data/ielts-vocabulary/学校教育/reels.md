@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **film reels**：电影胶片卷盘
-  - *The old film reels were carefully preserved in the archive.*
+  - *The old film reels were carefully preserved in the archive.*（旧电影胶片卷盘在档案中被小心保存。）
 - **fishing reels**：钓鱼线卷轴
-  - *He bought new fishing reels for his trip.*
+  - *He bought new fishing reels for his trip.*（他为他的旅行买了新的钓鱼线卷轴。）
 - **Scottish reels**：苏格兰里尔舞
-  - *The dancers performed traditional Scottish reels.*
+  - *The dancers performed traditional Scottish reels.*（舞者们表演了传统的苏格兰里尔舞。）
 - **Instagram Reels**：Instagram 短视频
-  - *She posts Instagram Reels to share her daily life.*
+  - *She posts Instagram Reels to share her daily life.*（她发布Instagram短视频来分享她的日常生活。）
 - **reel in**：收卷（钓鱼线）
-  - *He slowly reeled in the fish.*
+  - *He slowly reeled in the fish.*（他慢慢收线把鱼拉上来。）
 
 ## 真题/语料关联
 

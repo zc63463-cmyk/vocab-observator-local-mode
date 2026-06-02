@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take a test**：参加测试
-  - *The students took a math test yesterday.*
+  - *The students took a math test yesterday.*（学生们昨天参加了一次数学测试。）
 - **pass/fail a test**：通过/未通过测试
-  - *He failed the driving test twice before passing.*
+  - *He failed the driving test twice before passing.*（他在通过之前两次都没有通过驾驶考试。）
 - **test something out**：试验某物
-  - *We need to test out the new software before launching.*
+  - *We need to test out the new software before launching.*（在发布之前我们需要测试一下新软件。）
 - **put to the test**：使受考验
-  - *The new system was put to the test during the busy season.*
+  - *The new system was put to the test during the busy season.*（新系统在旺季经受了考验。）
 - **test the waters**：试探，摸底
-  - *She tested the waters by asking a few questions.*
+  - *She tested the waters by asking a few questions.*（她问了几个问题来试探情况。）
 
 ## 真题/语料关联
 

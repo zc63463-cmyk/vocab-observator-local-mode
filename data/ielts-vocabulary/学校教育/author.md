@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the author of**：……的作者
-  - *She is the author of several bestselling novels.*
+  - *She is the author of several bestselling novels.*（她是几本畅销小说的作者。）
 - **published author**：已出版作品的作家
-  - *He became a published author at the age of twenty.*
+  - *He became a published author at the age of twenty.*（他在20岁时成为了已出版作品的作家。）
 - **bestselling author**：畅销书作家
-  - *The bestselling author signed copies of her new book.*
+  - *The bestselling author signed copies of her new book.*（这位畅销书作家签售了她的新书。）
 - **author of the theory**：理论的创始人
-  - *Darwin is the author of the theory of evolution.*
+  - *Darwin is the author of the theory of evolution.*（达尔文是进化论的创始人。）
 - **author's rights**：著作权人的权利
-  - *The author's rights are protected by copyright law.*
+  - *The author's rights are protected by copyright law.*（作者的权利受版权法保护。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **on the platform**：在讲台上/站台上
-  - *The professor stood on the platform and began his lecture.*
+  - *The professor stood on the platform and began his lecture.*（中文翻译）
 - **train platform**：火车站台
-  - *The train will arrive at platform 3.*
+  - *The train will arrive at platform 3.*（中文翻译）
 - **digital / online platform**：数字/在线平台
-  - *The company launched a new online platform for remote learning.*
+  - *The company launched a new online platform for remote learning.*（中文翻译）
 - **platform shoes**：厚底鞋
-  - *Platform shoes were very popular in the 1970s.*
+  - *Platform shoes were very popular in the 1970s.*（中文翻译）
 - **political platform**：政治纲领
-  - *The candidate's platform focused on education reform.*
+  - *The candidate's platform focused on education reform.*（中文翻译）
 
 ## 真题/语料关联
 

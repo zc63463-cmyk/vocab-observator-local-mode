@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **university dorm**：大学宿舍
-  - *Most first-year students live in university dorms.*
+  - *Most first-year students live in university dorms.*（大多数一年级学生住在大学宿舍。）
 - **dorm room**：宿舍房间
-  - *She decorated her dorm room with posters and fairy lights.*
+  - *She decorated her dorm room with posters and fairy lights.*（她用海报和小彩灯装饰了宿舍房间。）
 - **dorm mate**：室友
-  - *My dorm mate and I have very different schedules.*
+  - *My dorm mate and I have very different schedules.*（我和室友的作息时间完全不同。）
 - **dorm life**：宿舍生活
-  - *Dorm life teaches students independence and cooperation.*
+  - *Dorm life teaches students independence and cooperation.*（宿舍生活教会学生独立与合作。）
 - **dormitory building**：宿舍楼
-  - *The new dormitory building has modern facilities.*
+  - *The new dormitory building has modern facilities.*（新的宿舍楼配有现代化设施。）
 
 ## 真题/语料关联
 

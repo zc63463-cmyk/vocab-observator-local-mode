@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **discern between**：辨别，区分
-  - *It's difficult to discern between fact and fiction in his story.*
+  - *It's difficult to discern between fact and fiction in his story.*（很难辨别他故事中的事实与虚构。）
 - **discern that...**：察觉到……
-  - *She discerned that something was wrong from his expression.*
+  - *She discerned that something was wrong from his expression.*（她从他的表情察觉到出了问题。）
 - **discern a pattern/trend**：看出规律/趋势
-  - *Researchers discerned a clear trend in the data.*
+  - *Researchers discerned a clear trend in the data.*（研究人员在数据中发现了一个明显的趋势。）
 - **discern the truth**：辨明真相
-  - *The jury had to discern the truth from conflicting testimony.*
+  - *The jury had to discern the truth from conflicting testimony.*（陪审团必须从矛盾的证词中辨明真相。）
 - **clearly/hardly discern**：清楚/几乎无法辨别
-  - *The outline of the building was barely discernible in the fog.*
+  - *The outline of the building was barely discernible in the fog.*（建筑物的轮廓在雾中几乎无法辨认。）
 
 ## 真题/语料关联
 

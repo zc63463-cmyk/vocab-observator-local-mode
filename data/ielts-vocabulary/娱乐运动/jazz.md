@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play jazz**：演奏爵士乐
-  - *He learned to play jazz on the saxophone.*
+  - *He learned to play jazz on the saxophone.*（他学会了用萨克斯演奏爵士乐。）
 - **jazz club**：爵士俱乐部
-  - *The jazz club in the city centre is very popular.*
+  - *The jazz club in the city centre is very popular.*（市中心的那家爵士俱乐部很受欢迎。）
 - **jazz festival**：爵士音乐节
-  - *The annual jazz festival attracts musicians from around the world.*
+  - *The annual jazz festival attracts musicians from around the world.*（一年一度的爵士音乐节吸引着世界各地的音乐家。）
 - **jazz musician**：爵士音乐家
-  - *She is a renowned jazz musician.*
+  - *She is a renowned jazz musician.*（她是一位著名的爵士音乐家。）
 - **jazz standard**：爵士标准曲
-  - *"Autumn Leaves" is a famous jazz standard.*
+  - *"Autumn Leaves" is a famous jazz standard.*（《秋叶》是一首著名的爵士标准曲。）
 
 ## 真题/语料关联
 

@@ -65,13 +65,13 @@ review_count: 0
 ## 搭配与短语
 
 - **deduce from**：从……推断
-  - *We can deduce from the evidence that he was present.*
+  - *We can deduce from the evidence that he was present.*（我们可以从证据推断他当时在场。）
 - **deduce that...**：推断……
-  - *The detective deduced that the crime was committed by someone familiar with the house.*
+  - *The detective deduced that the crime was committed by someone familiar with the house.*（侦探推断这起犯罪是由熟悉这所房子的人实施的。）
 - **logical deduction**：逻辑演绎
-  - *Through logical deduction, we arrived at the correct answer.*
+  - *Through logical deduction, we arrived at the correct answer.*（通过逻辑演绎，我们得出了正确答案。）
 - **deductive reasoning**：演绎推理
-  - *Deductive reasoning is a key skill in mathematics.*
+  - *Deductive reasoning is a key skill in mathematics.*（演绎推理是数学中的一项关键技能。）
 
 ## 真题/语料关联
 

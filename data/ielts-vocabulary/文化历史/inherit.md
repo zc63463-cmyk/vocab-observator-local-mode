@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inherit money/property/fortune**：继承财产
-  - *She inherited a large fortune from her grandfather.*
+  - *She inherited a large fortune from her grandfather.*（她从祖父那里继承了一大笔财产。）
 - **inherit the throne/title**：继承王位/头衔
-  - *The prince inherited the throne after his father's death.*
+  - *The prince inherited the throne after his father's death.*（王子在父亲去世后继承了王位。）
 - **inherit a trait/gene**：遗传特征/基因
-  - *Children often inherit physical traits from their parents.*
+  - *Children often inherit physical traits from their parents.*（孩子通常从父母那里遗传身体特征。）
 - **inherit a problem/mess**：接手问题/烂摊子
-  - *The new manager inherited a mess from the previous administration.*
+  - *The new manager inherited a mess from the previous administration.*（新经理从前任政府那里接手了一个烂摊子。）
 - **inherit from**：从……继承
-  - *He inherited his musical talent from his mother.*
+  - *He inherited his musical talent from his mother.*（他的音乐天赋遗传自他的母亲。）
 
 ## 真题/语料关联
 

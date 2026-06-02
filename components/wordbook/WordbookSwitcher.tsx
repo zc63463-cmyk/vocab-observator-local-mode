@@ -6,7 +6,7 @@ import { useWordbook } from "./WordbookContext";
 import { WordbookManagerModal } from "./WordbookManagerModal";
 
 export function WordbookSwitcher() {
-  const { activeWordbook, wordbooks, isLoading, setActiveWordbookId } = useWordbook();
+  const { activeWordbook, wordbooks, error, isLoading, setActiveWordbookId } = useWordbook();
   const [open, setOpen] = useState(false);
   const [managerOpen, setManagerOpen] = useState(false);
 
@@ -15,6 +15,15 @@ export function WordbookSwitcher() {
       <div className="hidden items-center gap-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-surface-glass)] px-3 py-1.5 text-sm text-[var(--color-ink-soft)] md:flex">
         <Loader2 className="h-3.5 w-3.5 animate-spin" />
         词本
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="hidden items-center gap-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-surface-glass)] px-3 py-1.5 text-sm text-[var(--color-accent-2)] md:flex" title={error}>
+        <BookMarked className="h-3.5 w-3.5" />
+        词本加载失败
       </div>
     );
   }

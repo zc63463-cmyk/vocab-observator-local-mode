@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **I appreciate it/your help**：我很感激
-  - *I really appreciate you coming to help me.*
+  - *I really appreciate you coming to help me.*（我真的很感激你来帮我。）
 - **appreciate the importance/significance of**：理解……的重要性
-  - *Students need to appreciate the significance of this discovery.*
+  - *Students need to appreciate the significance of this discovery.*（学生需要理解这一发现的重要性。）
 - **appreciate in value**：增值
-  - *The painting has appreciated in value over the years.*
+  - *The painting has appreciated in value over the years.*（这幅画多年来已经增值了。）
 - **fully appreciate**：充分理解
-  - *It's hard to fully appreciate how difficult this task is.*
+  - *It's hard to fully appreciate how difficult this task is.*（很难充分理解这项任务有多困难。）
 - **appreciate the difference**：理解区别
-  - *You need to appreciate the difference between these two concepts.*
+  - *You need to appreciate the difference between these two concepts.*（你需要理解这两个概念之间的区别。）
 
 ## 真题/语料关联
 

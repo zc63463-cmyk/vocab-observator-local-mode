@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Christian missionary**：基督教传教士
-  - *Christian missionaries established schools and hospitals in many African countries.*
+  - *Christian missionaries established schools and hospitals in many African countries.*（基督教传教士在许多非洲国家建立了学校和医院。）
 - **missionary work**：传教工作
-  - *She dedicated her life to missionary work in remote villages.*
+  - *She dedicated her life to missionary work in remote villages.*（她一生致力于在偏远村庄的传教工作。）
 - **missionary school**：教会学校
-  - *Many missionary schools in Asia provided education to poor children.*
+  - *Many missionary schools in Asia provided education to poor children.*（亚洲的许多教会学校为贫困儿童提供了教育。）
 - **missionary zeal**：传教般的热情
-  - *He pursued his goals with missionary zeal.*
+  - *He pursued his goals with missionary zeal.*（他以传教士般的热情追求自己的目标。）
 - **missionary position**：传教士式体位（性学用语）
-  - *The missionary position is the most common sexual position in Western culture.*
+  - *The missionary position is the most common sexual position in Western culture.*（传教士式体位是西方文化中最常见的性爱姿势。）
 - **overseas missionary**：海外传教士
-  - *The church sent overseas missionaries to spread the gospel.*
+  - *The church sent overseas missionaries to spread the gospel.*（教会派遣海外传教士传播福音。）
 
 ## 真题/语料关联
 

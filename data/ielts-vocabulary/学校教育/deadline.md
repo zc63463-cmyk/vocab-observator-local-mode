@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **meet the deadline**：按时完成
-  - *We must meet the deadline for the project submission.*
+  - *We must meet the deadline for the project submission.*（我们必须按时提交项目。）
 - **miss the deadline**：错过截止日期
-  - *If you miss the deadline, you will lose marks.*
+  - *If you miss the deadline, you will lose marks.*（如果你错过了截止日期，你会被扣分。）
 - **set a deadline**：设定截止日期
-  - *The professor has set a deadline for the research paper.*
+  - *The professor has set a deadline for the research paper.*（教授为研究论文设定了截止日期。）
 - **tight deadline**：紧迫的截止日期
-  - *We're working to a very tight deadline.*
+  - *We're working to a very tight deadline.*（我们的截止日期非常紧迫。）
 - **extend a deadline**：延长截止日期
-  - *The teacher agreed to extend the deadline by one week.*
+  - *The teacher agreed to extend the deadline by one week.*（老师同意将截止日期延长一周。）
 
 ## 真题/语料关联
 

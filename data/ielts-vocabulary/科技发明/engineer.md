@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **software/civil/mechanical engineer**：软件/土木/机械工程师
-  - *She works as a software engineer at a tech company.*
+  - *She works as a software engineer at a tech company.*（她在一家科技公司担任软件工程师。）
 - **engineer a solution**：设计解决方案
-  - *The team engineered an innovative solution to reduce emissions.*
+  - *The team engineered an innovative solution to reduce emissions.*（团队设计了一个创新的解决方案来减少排放。）
 - **engineer a meeting/encounter**：精心安排一次会面
-  - *She engineered a meeting with the CEO to pitch her idea.*
+  - *She engineered a meeting with the CEO to pitch her idea.*（她精心安排了一次与CEO的会面来推销她的想法。）
 - **genetic engineer**：基因工程师
-  - *Genetic engineers have developed disease-resistant crops.*
+  - *Genetic engineers have developed disease-resistant crops.*（基因工程师培育出了抗病害作物。）
 - **reverse engineer**：逆向工程
-  - *Competitors tried to reverse engineer the patented technology.*
+  - *Competitors tried to reverse engineer the patented technology.*（竞争对手试图对这项专利技术进行逆向工程。）
 
 ## 真题/语料关联
 

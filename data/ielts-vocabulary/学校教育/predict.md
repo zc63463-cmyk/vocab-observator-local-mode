@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **predict that...**：预测……
-  - *Experts predict that the population will reach 10 billion by 2050.*
+  - *Experts predict that the population will reach 10 billion by 2050.*（中文翻译）
 - **predict the future/outcome**：预测未来/结果
-  - *It's difficult to predict the outcome of the negotiations.*
+  - *It's difficult to predict the outcome of the negotiations.*（中文翻译）
 - **predict the weather**：预报天气
-  - *Meteorologists use satellite data to predict the weather.*
+  - *Meteorologists use satellite data to predict the weather.*（中文翻译）
 - **hard to predict**：难以预测
-  - *The long-term effects of the policy are hard to predict.*
+  - *The long-term effects of the policy are hard to predict.*（中文翻译）
 - **correctly/accurately predict**：准确预测
-  - *The model correctly predicted the election results.*
+  - *The model correctly predicted the election results.*（中文翻译）
 
 ## 真题/语料关联
 

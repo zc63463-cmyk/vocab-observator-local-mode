@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **eccentric behavior**：古怪的行为
-  - *His eccentric behavior made others uncomfortable.*
+  - *His eccentric behavior made others uncomfortable.*（他古怪的行为让其他人感到不舒服。）
 - **eccentric ideas**：古怪的想法
-  - *She is known for her eccentric ideas about art.*
+  - *She is known for her eccentric ideas about art.*（她以对艺术的古怪想法而闻名。）
 - **eccentric orbit**：偏心轨道
-  - *The comet has a highly eccentric orbit around the Sun.*
+  - *The comet has a highly eccentric orbit around the Sun.*（这颗彗星环绕太阳的轨道高度偏心。）
 - **a real eccentric**：一个真正古怪的人
-  - *The old man in the village was considered a real eccentric.*
+  - *The old man in the village was considered a real eccentric.*（村里的这位老人被认为是个真正的怪人。）
 - **eccentric wheel**：偏心轮
-  - *The machine uses an eccentric wheel to convert rotary motion.*
+  - *The machine uses an eccentric wheel to convert rotary motion.*（这台机器使用偏心轮来转换旋转运动。）
 
 ## 真题/语料关联
 

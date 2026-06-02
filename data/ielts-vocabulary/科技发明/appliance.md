@@ -77,15 +77,15 @@ review_count: 0
 ## 搭配与短语
 
 - **kitchen appliance**：厨房电器
-  - *Modern kitchen appliances make cooking much easier.*
+  - *Modern kitchen appliances make cooking much easier.*（现代厨房电器让烹饪变得更加轻松。）
 - **household appliance**：家用电器
-  - *The store sells a wide range of household appliances.*
+  - *The store sells a wide range of household appliances.*（这家商店销售各种各样的家用电器。）
 - **electrical appliance**：电器
-  - *Always unplug electrical appliances when not in use.*
+  - *Always unplug electrical appliances when not in use.*（不使用时务必拔掉电器的插头。）
 - **medical appliance**：医疗器具
-  - *The hospital uses advanced medical appliances for diagnosis.*
+  - *The hospital uses advanced medical appliances for diagnosis.*（医院使用先进的医疗设备进行诊断。）
 - **appliance store**：电器商店
-  - *We bought a new refrigerator from the appliance store.*
+  - *We bought a new refrigerator from the appliance store.*（我们从电器商店买了一台新冰箱。）
 
 ## 真题/语料关联
 

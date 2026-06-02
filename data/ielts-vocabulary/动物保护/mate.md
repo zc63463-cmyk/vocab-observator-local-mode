@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **find a mate**：找到配偶
-  - *Many animals have elaborate courtship rituals to find a mate.*
+  - *Many animals have elaborate courtship rituals to find a mate.*（许多动物有精心设计的求偶仪式来寻找配偶。）
 - **mating season**：交配季节
-  - *During the mating season, male birds display their colorful feathers.*
+  - *During the mating season, male birds display their colorful feathers.*（在交配季节，雄鸟展示它们色彩斑斓的羽毛。）
 - **mate for life**：终身配偶
-  - *Swans often mate for life.*
+  - *Swans often mate for life.*（天鹅通常终身配对。）
 - **workmate**：同事
-  - *He gets along well with his workmates.*
+  - *He gets along well with his workmates.*（他和同事们相处得很好。）
 - **classmate**：同学
-  - *She was my classmate in primary school.*
+  - *She was my classmate in primary school.*（她是我小学时的同班同学。）
 
 ## 真题/语料关联
 

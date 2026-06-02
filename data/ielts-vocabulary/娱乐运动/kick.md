@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **kick the ball**：踢球
-  - *He kicked the ball as hard as he could.*
+  - *He kicked the ball as hard as he could.*（他使劲全力踢了那球。）
 - **free kick**：任意球
-  - *The free kick sailed over the wall and into the net.*
+  - *The free kick sailed over the wall and into the net.*（任意球飞过人墙钻入网窝。）
 - **kick a goal**：踢进一球
-  - *She kicked the winning goal in the final minute.*
+  - *She kicked the winning goal in the final minute.*（她在最后一分钟踢进了制胜一球。）
 - **kick the habit**：戒除习惯
-  - *He finally managed to kick his smoking habit.*
+  - *He finally managed to kick his smoking habit.*（他终于成功戒掉了抽烟的习惯。）
 - **get a kick out of**：从……中获得快感
-  - *She gets a kick out of solving difficult puzzles.*
+  - *She gets a kick out of solving difficult puzzles.*（她从解难题中获得乐趣。）
 
 ## 真题/语料关联
 

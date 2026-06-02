@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **skin cancer**：皮肤癌
-  - *Excessive exposure to sunlight increases the risk of skin cancer.*
+  - *Excessive exposure to sunlight increases the risk of skin cancer.*（过度暴露于阳光下会增加患皮肤癌的风险。）
 - **skin deep**：肤浅的，表面的
-  - *Beauty is only skin deep; what matters is the person inside.*
+  - *Beauty is only skin deep; what matters is the person inside.*（美貌只是表面的；重要的是内在的这个人。）
 - **by the skin of one's teeth**：勉强，差一点就不行
-  - *He passed the exam by the skin of his teeth.*
+  - *He passed the exam by the skin of his teeth.*（他侥幸通过了考试。）
 - **thick-skinned**：脸皮厚的，不敏感的
-  - *You need to be thick-skinned to survive in the entertainment industry.*
+  - *You need to be thick-skinned to survive in the entertainment industry.*（在娱乐圈生存需要脸皮厚。）
 - **get under one's skin**：惹恼某人；深深吸引某人
-  - *Her constant criticism really gets under my skin.*
+  - *Her constant criticism really gets under my skin.*（她不断的批评真的让我很恼火。）
 
 ## 真题/语料关联
 

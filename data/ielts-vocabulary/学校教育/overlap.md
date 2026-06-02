@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **overlap with**：与……重叠
-  - *The tiles overlap with each other to prevent leaks.*
+  - *The tiles overlap with each other to prevent leaks.*（中文翻译）
 - **overlap between**：……之间的重叠
-  - *There is significant overlap between the two subjects.*
+  - *There is significant overlap between the two subjects.*（中文翻译）
 - **an overlap**：重叠部分
-  - *There is an overlap in their responsibilities.*
+  - *There is an overlap in their responsibilities.*（中文翻译）
 - **overlap in time**：时间上的重叠
-  - *The two events overlap in time.*
+  - *The two events overlap in time.*（中文翻译）
 - **partially/largely overlap**：部分/大部分重叠
-  - *The two circles partially overlap in the diagram.*
+  - *The two circles partially overlap in the diagram.*（中文翻译）
 
 ## 真题/语料关联
 

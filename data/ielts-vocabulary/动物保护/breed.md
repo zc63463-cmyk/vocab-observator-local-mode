@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a breed of dog**：一种狗的品种
-  - *The golden retriever is a popular breed of dog.*
+  - *The golden retriever is a popular breed of dog.*（金毛寻回犬是一种受欢迎的狗品种。）
 - **breed horses**：养马
-  - *He has been breeding horses for over twenty years.*
+  - *He has been breeding horses for over twenty years.*（他养马已经超过二十年了。）
 - **breeding season**：繁殖季节
-  - *Many birds migrate to warmer climates during the breeding season.*
+  - *Many birds migrate to warmer climates during the breeding season.*（许多鸟类在繁殖季节迁徙到气候更温暖的地方。）
 - **purebred**：纯种的
-  - *The purebred cat was very expensive.*
+  - *The purebred cat was very expensive.*（这只纯种猫非常昂贵。）
 - **crossbreed**：杂交
-  - *The farmer crossbreed two different types of cattle to improve the herd.*
+  - *The farmer crossbreed two different types of cattle to improve the herd.*（这位农夫杂交了两种不同类型的牛以改良牛群。）
 - **violence breeds violence**：暴力滋生暴力
-  - *The cycle of violence breeds more violence, making peace difficult to achieve.*
+  - *The cycle of violence breeds more violence, making peace difficult to achieve.*（暴力的循环滋生更多暴力，使和平难以实现。）
 
 ## 真题/语料关联
 

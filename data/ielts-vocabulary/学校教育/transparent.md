@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **transparent glass**：透明玻璃
-  - *The office has large transparent glass windows.*
+  - *The office has large transparent glass windows.*（办公室有大面积的透明玻璃窗。）
 - **transparent material**：透明材料
-  - *The packaging is made of transparent plastic.*
+  - *The packaging is made of transparent plastic.*（包装由透明塑料制成。）
 - **transparent lie**：明显的谎言
-  - *His excuse was a transparent lie that nobody believed.*
+  - *His excuse was a transparent lie that nobody believed.*（他的借口是个明显的谎言，没人相信。）
 - **transparent government**：透明的政府
-  - *A transparent government allows citizens to access public information.*
+  - *A transparent government allows citizens to access public information.*（透明的政府允许公民获取公共信息。）
 - **transparent process**：透明的过程
-  - *The hiring process should be transparent and fair.*
+  - *The hiring process should be transparent and fair.*（招聘过程应该是透明和公平的。）
 
 ## 真题/语料关联
 

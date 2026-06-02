@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stimulate interest**：激发兴趣
-  - *The teacher used interactive activities to stimulate student interest.*
+  - *The teacher used interactive activities to stimulate student interest.*（老师用互动活动来激发学生的兴趣。）
 - **stimulate growth**：促进增长
-  - *The government aims to stimulate economic growth.*
+  - *The government aims to stimulate economic growth.*（政府旨在刺激经济增长。）
 - **stimulate discussion**：引发讨论
-  - *The controversial article stimulated a lot of discussion.*
+  - *The controversial article stimulated a lot of discussion.*（那篇有争议的文章引发了很多讨论。）
 - **stimulate the economy**：刺激经济
-  - *Tax cuts are intended to stimulate the economy.*
+  - *Tax cuts are intended to stimulate the economy.*（减税旨在刺激经济。）
 - **stimulate creativity**：激发创造力
-  - *The workshop was designed to stimulate creativity among participants.*
+  - *The workshop was designed to stimulate creativity among participants.*（该工作坊旨在激发参与者的创造力。）
 
 ## 真题/语料关联
 

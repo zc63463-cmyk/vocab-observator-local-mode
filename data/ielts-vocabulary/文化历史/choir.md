@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **church choir**：教堂唱诗班
-  - *She has been a member of the church choir for over 20 years.*
+  - *She has been a member of the church choir for over 20 years.*（她成为教堂唱诗班的成员已经超过20年了。）
 - **cathedral choir**：大教堂唱诗班
-  - *The cathedral choir performed Handel's Messiah during the Christmas service.*
+  - *The cathedral choir performed Handel's Messiah during the Christmas service.*（大教堂唱诗班在圣诞礼拜中演唱了亨德尔的《弥赛亚》。）
 - **choir loft**：唱诗班阁楼（教堂中唱诗班所在的位置）
-  - *The choir loft is located above the main entrance of the church.*
+  - *The choir loft is located above the main entrance of the church.*（唱诗班阁楼位于教堂正门的上方。）
 - **choir school**：唱诗班学校（培养唱诗班男童的学校）
-  - *He attended a prestigious choir school in England.*
+  - *He attended a prestigious choir school in England.*（他就读于英格兰一所著名的唱诗班学校。）
 - **choirboy**：唱诗班男童
-  - *The choirboy had a beautiful soprano voice.*
+  - *The choirboy had a beautiful soprano voice.*（唱诗班男童有一副优美的女高音嗓音。）
 - **gospel choir**：福音唱诗班
-  - *The gospel choir sang with great enthusiasm and energy.*
+  - *The gospel choir sang with great enthusiasm and energy.*（福音唱诗班以极大的热情和活力演唱。）
 
 ## 真题/语料关联
 

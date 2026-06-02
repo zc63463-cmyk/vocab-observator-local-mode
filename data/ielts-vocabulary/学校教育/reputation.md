@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **have a reputation for**：以……闻名
-  - *The university has a reputation for academic excellence.*
+  - *The university has a reputation for academic excellence.*（这所大学以学术卓越而闻名。）
 - **earn/build a reputation**：赢得/建立声誉
-  - *She built a reputation as a reliable and innovative researcher.*
+  - *She built a reputation as a reliable and innovative researcher.*（她建立了可靠且创新的研究人员的声誉。）
 - **damage/ruin one's reputation**：损害/毁掉名声
-  - *The scandal severely damaged his reputation.*
+  - *The scandal severely damaged his reputation.*（丑闻严重损害了他的声誉。）
 - **live up to one's reputation**：名副其实
-  - *The restaurant lived up to its reputation for fine dining.*
+  - *The restaurant lived up to its reputation for fine dining.*（这家餐厅名副其实，提供优质餐饮。）
 - **of reputation**：有名望的
-  - *He is a scientist of international reputation.*
+  - *He is a scientist of international reputation.*（他是一位具有国际声誉的科学家。）
 
 ## 真题/语料关联
 

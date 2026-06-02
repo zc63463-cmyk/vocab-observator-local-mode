@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **excavate a site**：发掘遗址
-  - *The team spent three summers excavating the Bronze Age site.*
+  - *The team spent three summers excavating the Bronze Age site.*（团队花了三个夏天发掘这个青铜时代遗址。）
 - **excavate remains**：挖掘遗骸
-  - *Archaeologists excavated the remains of a Roman soldier.*
+  - *Archaeologists excavated the remains of a Roman soldier.*（考古学家挖掘出了一名罗马士兵的遗骸。）
 - **excavate a tomb**：发掘墓葬
-  - *The royal tomb was excavated in the 1920s by British archaeologists.*
+  - *The royal tomb was excavated in the 1920s by British archaeologists.*（这座皇家墓葬在20世纪20年代由英国考古学家发掘。）
 - **excavate a tunnel**：开凿隧道
-  - *Workers excavated a tunnel through the mountain for the new railway.*
+  - *Workers excavated a tunnel through the mountain for the new railway.*（工人们为了修建新铁路在山上开凿了一条隧道。）
 - **excavate pottery/artifacts**：挖掘陶器/文物
-  - *Several pieces of ancient pottery were excavated from the burial ground.*
+  - *Several pieces of ancient pottery were excavated from the burial ground.*（从墓地中挖掘出了几件古代陶器。）
 
 ## 真题/语料关联
 

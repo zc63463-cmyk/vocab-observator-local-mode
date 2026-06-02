@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **star formation**：恒星形成
-  - *Star formation occurs in dense clouds of gas and dust called nebulae.*
+  - *Star formation occurs in dense clouds of gas and dust called nebulae.*（恒星形成发生在称为星云的稠密气体和尘埃云中。）
 - **planet formation**：行星形成
-  - *Planet formation is a complex process that takes millions of years.*
+  - *Planet formation is a complex process that takes millions of years.*（行星形成是一个需要数百万年的复杂过程。）
 - **fly in formation**：编队飞行
-  - *The jets flew in perfect formation during the air show.*
+  - *The jets flew in perfect formation during the air show.*（喷气式飞机在航展中以完美的编队飞行。）
 - **rock formation**：岩层；岩石构造
-  - *The rock formation in this area dates back to the Jurassic period.*
+  - *The rock formation in this area dates back to the Jurassic period.*（这个地区的岩层可追溯到侏罗纪时期。）
 - **in formation**：成队形地
-  - *The soldiers marched in formation through the city streets.*
+  - *The soldiers marched in formation through the city streets.*（士兵们列队穿过城市街道。）
 
 ## 真题/语料关联
 

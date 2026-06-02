@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **desperate situation**：危急的情况
-  - *The refugees were in a desperate situation, with no food or water.*
+  - *The refugees were in a desperate situation, with no food or water.*（难民处于绝望的境地，没有食物和水。）
 - **desperate measures**：极端措施
-  - *Desperate times call for desperate measures.*
+  - *Desperate times call for desperate measures.*（非常时期需要非常手段。）
 - **desperate for**：极度渴望
-  - *She was desperate for a chance to prove herself.*
+  - *She was desperate for a chance to prove herself.*（她渴望得到一个证明自己的机会。）
 - **desperate attempt**：孤注一掷的尝试
-  - *The team made a desperate attempt to win the game in the final minutes.*
+  - *The team made a desperate attempt to win the game in the final minutes.*（球队在最后几分钟孤注一掷地试图赢得比赛。）
 - **desperately** (adv.)：绝望地；拼命地
-  - *He desperately tried to reach the shore before the tide came in.*
+  - *He desperately tried to reach the shore before the tide came in.*（他拼命试图在涨潮前到达岸边。）
 
 ## 真题/语料关联
 

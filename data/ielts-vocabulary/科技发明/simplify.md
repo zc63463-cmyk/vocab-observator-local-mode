@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **simplify the process**：简化流程
-  - *We need to simplify the process to save time.*
+  - *We need to simplify the process to save time.*（我们需要简化流程以节省时间。）
 - **simplify the instructions**：简化说明
-  - *Please simplify the instructions for beginners.*
+  - *Please simplify the instructions for beginners.*（请为初学者简化说明。）
 - **simplify the language**：简化语言
-  - *The teacher simplified the language so everyone could understand.*
+  - *The teacher simplified the language so everyone could understand.*（老师简化了语言，以便每个人都能理解。）
 - **simplify the design**：简化设计
-  - *Apple is known for simplifying product design.*
+  - *Apple is known for simplifying product design.*（苹果以简化产品设计而闻名。）
 - **simplify matters**：简化问题
-  - *Let me simplify matters by giving you the key points.*
+  - *Let me simplify matters by giving you the key points.*（让我给你关键点，把问题简化一下。）
 
 ## 真题/语料关联
 

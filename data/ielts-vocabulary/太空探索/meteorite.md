@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **meteorite crater**：陨石坑
-  - *The Chicxulub crater in Mexico was formed by a massive meteorite impact.*
+  - *The Chicxulub crater in Mexico was formed by a massive meteorite impact.*（墨西哥的希克苏鲁伯陨石坑是由大型陨石撞击形成的。）
 - **meteorite impact**：陨石撞击
-  - *The meteorite impact 66 million years ago caused mass extinction.*
+  - *The meteorite impact 66 million years ago caused mass extinction.*（六千六百万年前的陨石撞击导致了大规模灭绝。）
 - **iron meteorite**：陨铁
-  - *Iron meteorites are composed mainly of iron and nickel.*
+  - *Iron meteorites are composed mainly of iron and nickel.*（铁陨石主要由铁和镍组成。）
 - **meteorite shower**：陨石雨
-  - *A meteorite shower occurred over Russia in 2013, injuring hundreds.*
+  - *A meteorite shower occurred over Russia in 2013, injuring hundreds.*（2013年俄罗斯上空发生了陨石雨，造成数百人受伤。）
 - **meteorite sample**：陨石样本
-  - *Scientists analyze meteorite samples to understand the early solar system.*
+  - *Scientists analyze meteorite samples to understand the early solar system.*（科学家分析陨石样本以了解早期太阳系。）
 
 ## 真题/语料关联
 

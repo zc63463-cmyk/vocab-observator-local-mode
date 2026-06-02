@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **web browser**：网页浏览器
-  - *Google Chrome is the most popular web browser worldwide.*
+  - *Google Chrome is the most popular web browser worldwide.*（谷歌浏览器是全球最流行的网页浏览器。）
 - **browser window**：浏览器窗口
-  - *Open a new browser window to access the website.*
+  - *Open a new browser window to access the website.*（打开一个新的浏览器窗口来访问该网站。）
 - **browser history**：浏览历史
-  - *You can clear your browser history for privacy.*
+  - *You can clear your browser history for privacy.*（出于隐私考虑，你可以清除浏览器历史记录。）
 - **browser extension**：浏览器扩展
-  - *Browser extensions can enhance your browsing experience.*
+  - *Browser extensions can enhance your browsing experience.*（浏览器扩展可以提升你的浏览体验。）
 - **browser compatibility**：浏览器兼容性
-  - *The website has been tested for browser compatibility.*
+  - *The website has been tested for browser compatibility.*（该网站已经过浏览器兼容性测试。）
 
 ## 真题/语料关联
 

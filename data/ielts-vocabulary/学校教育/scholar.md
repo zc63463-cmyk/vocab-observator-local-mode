@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **distinguished scholar**：杰出学者
-  - *Professor Wang is a distinguished scholar in the field of linguistics.*
+  - *Professor Wang is a distinguished scholar in the field of linguistics.*（王教授是语言学领域的杰出学者。）
 - **Rhodes scholar**：罗德奖学金获得者
-  - *She was selected as a Rhodes scholar to study at Oxford University.*
+  - *She was selected as a Rhodes scholar to study at Oxford University.*（她被选为罗德奖学金获得者前往牛津大学学习。）
 - **visiting scholar**：访问学者
-  - *The university invited a visiting scholar from Harvard to give a lecture.*
+  - *The university invited a visiting scholar from Harvard to give a lecture.*（这所大学邀请了一位来自哈佛的访问学者来做讲座。）
 - **independent scholar**：独立学者
-  - *As an independent scholar, he published several influential papers without university affiliation.*
+  - *As an independent scholar, he published several influential papers without university affiliation.*（作为一名独立学者，他在没有大学附属关系的情况下发表了几篇有影响力的论文。）
 - **scholar's robe**：学者袍
-  - *The professor wore his scholar's robe at the graduation ceremony.*
+  - *The professor wore his scholar's robe at the graduation ceremony.*（教授在毕业典礼上穿上了他的学者袍。）
 
 ## 真题/语料关联
 

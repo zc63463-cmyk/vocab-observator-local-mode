@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **frog spawn**：青蛙卵
-  - *The pond was full of frog spawn in early spring.*
+  - *The pond was full of frog spawn in early spring.*（初春时节池塘里满是青蛙卵。）
 - **spawn in rivers**：在河里产卵
-  - *Salmon travel hundreds of miles to spawn in the rivers where they were born.*
+  - *Salmon travel hundreds of miles to spawn in the rivers where they were born.*（鲑鱼跋涉数百英里回到它们出生的河流产卵。）
 - **spawn new industries**：催生新产业
-  - *The internet has spawned entirely new industries.*
+  - *The internet has spawned entirely new industries.*（互联网催生了全新的行业。）
 - **spawn controversy**：引发争议
-  - *The politician's speech spawned widespread controversy.*
+  - *The politician's speech spawned widespread controversy.*（这位政客的演讲引发了广泛的争议。）
 - **spawn offspring**：繁殖后代
-  - *Most fish spawn by releasing eggs and sperm into the water.*
+  - *Most fish spawn by releasing eggs and sperm into the water.*（大多数鱼类通过将卵和精子释放到水中来繁殖。）
 
 ## 真题/语料关联
 

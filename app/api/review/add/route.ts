@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
     .maybeSingle();
 
   if (wordError) {
-    throw wordError;
+    return apiErrorResponse(wordError, "api/review/add", 404, "Word not found.");
   }
 
   if (!word) {

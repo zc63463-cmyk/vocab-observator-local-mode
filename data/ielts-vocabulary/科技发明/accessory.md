@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **phone/mobile accessories**：手机配件
-  - *The store sells a wide range of phone accessories including cases and chargers.*
+  - *The store sells a wide range of phone accessories including cases and chargers.*（这家商店出售各种各样的手机配件，包括手机壳和充电器。）
 - **fashion accessories**：时尚配饰
-  - *She complemented her outfit with elegant fashion accessories.*
+  - *She complemented her outfit with elegant fashion accessories.*（她用优雅的时尚配饰来搭配自己的着装。）
 - **accessory to**：……的附件；……的从犯
-  - *He was charged as an accessory to the robbery.*
+  - *He was charged as an accessory to the robbery.*（他被指控为抢劫案的从犯。）
 - **essential accessories**：必备配件
-  - *A good tripod is an essential accessory for landscape photography.*
+  - *A good tripod is an essential accessory for landscape photography.*（一个好的三脚架是风景摄影的必备配件。）
 - **matching accessories**：配套饰品
-  - *She chose matching accessories to go with her new dress.*
+  - *She chose matching accessories to go with her new dress.*（她选择了配套的饰品来搭配她的新裙子。）
 
 ## 真题/语料关联
 

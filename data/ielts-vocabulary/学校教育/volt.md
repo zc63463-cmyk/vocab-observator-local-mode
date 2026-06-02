@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **high voltage**：高电压
-  - *High voltage power lines can be dangerous.*
+  - *High voltage power lines can be dangerous.*（高压电线可能很危险。）
 - **low voltage**：低电压
-  - *The system operates on low voltage for safety.*
+  - *The system operates on low voltage for safety.*（为了安全起见，该系统以低电压运行。）
 - **12 volts**：12伏特
-  - *Car batteries typically provide 12 volts.*
+  - *Car batteries typically provide 12 volts.*（汽车电池通常提供12伏特电压。）
 - **voltage drop**：电压降
-  - *There was a significant voltage drop across the resistor.*
+  - *There was a significant voltage drop across the resistor.*（电阻器两端有显著的电压降。）
 - **volt meter**：电压表
-  - *Use a volt meter to measure the electrical potential.*
+  - *Use a volt meter to measure the electrical potential.*（使用电压表测量电势。）
 
 ## 真题/语料关联
 

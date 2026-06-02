@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **disseminate information**：传播信息
-  - *The organization aims to disseminate information about health and safety.*
+  - *The organization aims to disseminate information about health and safety.*（该组织旨在传播健康和安全信息。）
 - **disseminate knowledge**：传播知识
-  - *Universities play a key role in disseminating knowledge.*
+  - *Universities play a key role in disseminating knowledge.*（大学在传播知识方面发挥着关键作用。）
 - **disseminate ideas**：传播理念
-  - *The internet has made it easier to disseminate ideas.*
+  - *The internet has made it easier to disseminate ideas.*（互联网使传播理念变得更加容易。）
 - **disseminate widely**：广泛传播
-  - *The report was disseminated widely through social media.*
+  - *The report was disseminated widely through social media.*（该报告通过社交媒体被广泛传播。）
 - **be disseminated through**：通过……传播
-  - *The news was disseminated through various channels.*
+  - *The news was disseminated through various channels.*（消息通过各种渠道传播开来。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **handheld microphone**：手持麦克风
-  - *The singer performed with a handheld microphone.*
+  - *The singer performed with a handheld microphone.*（歌手手持麦克风表演。）
 - **studio microphone**：录音室麦克风
-  - *The studio microphone captures high-quality audio.*
+  - *The studio microphone captures high-quality audio.*（录音室麦克风捕捉高质量的音频。）
 - **wireless microphone**：无线麦克风
-  - *The presenter used a wireless microphone for mobility.*
+  - *The presenter used a wireless microphone for mobility.*（主持人使用无线麦克风以便自由移动。）
 - **microphone stand**：麦克风支架
-  - *The microphone stand holds the microphone in place.*
+  - *The microphone stand holds the microphone in place.*（麦克风支架将麦克风固定到位。）
 - **microphone input**：麦克风输入
-  - *The audio interface has multiple microphone inputs.*
+  - *The audio interface has multiple microphone inputs.*（音频接口有多个麦克风输入端口。）
 
 ## 真题/语料关联
 

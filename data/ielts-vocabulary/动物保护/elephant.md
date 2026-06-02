@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **African elephant**：非洲象
-  - *The African elephant is larger than its Asian cousin.*
+  - *The African elephant is larger than its Asian cousin.*（非洲象比它们的亚洲表亲体型更大。）
 - **Asian elephant**：亚洲象
-  - *The Asian elephant has smaller ears than the African elephant.*
+  - *The Asian elephant has smaller ears than the African elephant.*（亚洲象的耳朵比非洲象小。）
 - **elephant conservation**：大象保护
-  - *Elephant conservation efforts have helped reduce poaching in some areas.*
+  - *Elephant conservation efforts have helped reduce poaching in some areas.*（大象保护工作已帮助减少了某些地区的偷猎行为。）
 - **elephant in the room**：房间里的大象（显而易见但被忽视的问题）
-  - *The elephant in the room is that we can't afford to continue this project.*
+  - *The elephant in the room is that we can't afford to continue this project.*（房间里的大象是我们无法继续承担这个项目了。）
 - **an elephant never forgets**：大象从不忘事（谚语，比喻记忆力好）
-  - *She remembers everything—just like they say, an elephant never forgets.*
+  - *She remembers everything—just like they say, an elephant never forgets.*（她什么都记得——就像人们说的，大象永远不会忘记。）
 
 ## 真题/语料关联
 

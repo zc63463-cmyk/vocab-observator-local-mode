@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a symbol of**：...的象征
-  - *The dove is a symbol of peace in many cultures.*
+  - *The dove is a symbol of peace in many cultures.*（鸽子在许多文化中是和平的象征。）
 - **mathematical symbol**：数学符号
-  - *The plus sign is a common mathematical symbol.*
+  - *The plus sign is a common mathematical symbol.*（加号是一个常见的数学符号。）
 - **national symbol**：国家象征
-  - *The bald eagle is a national symbol of the United States.*
+  - *The bald eagle is a national symbol of the United States.*（白头鹰是美国的国家象征。）
 - **status symbol**：身份象征
-  - *A luxury car is often seen as a status symbol.*
+  - *A luxury car is often seen as a status symbol.*（豪华车常被视为身份的象征。）
 - **symbol table**：符号表
-  - *The compiler uses a symbol table to track variables.*
+  - *The compiler uses a symbol table to track variables.*（编译器使用符号表来跟踪变量。）
 
 ## 真题/语料关联
 

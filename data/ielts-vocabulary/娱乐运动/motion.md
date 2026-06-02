@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in motion**：在运动中
-  - *The wheels were set in motion.*
+  - *The wheels were set in motion.*（轮子开始转动了。）
 - **slow motion**：慢动作
-  - *The video was played in slow motion.*
+  - *The video was played in slow motion.*（视频以慢动作播放。）
 - **body motion**：身体动作
-  - *The dance requires graceful body motions.*
+  - *The dance requires graceful body motions.*（这种舞蹈需要优美的身体动作。）
 - **table a motion**：提出动议
-  - *The committee tabled a motion to change the rules.*
+  - *The committee tabled a motion to change the rules.*（委员会提出了一项修改规则的动议。）
 - **motion to someone**：向某人示意
-  - *She motioned to him to sit down.*
+  - *She motioned to him to sit down.*（她示意他坐下。）
 
 ## 真题/语料关联
 

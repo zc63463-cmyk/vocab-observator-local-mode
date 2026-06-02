@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **epic poetry/literature**：史诗文学
-  - *Epic poetry often tells the story of a hero's journey.*
+  - *Epic poetry often tells the story of a hero's journey.*（史诗文学通常讲述英雄旅程的故事。）
 - **an epic journey**：史诗般的旅程
-  - *The explorers embarked on an epic journey across the continent.*
+  - *The explorers embarked on an epic journey across the continent.*（探险家们踏上了一段横跨大陆的史诗般旅程。）
 - **an epic battle**：史诗般的战斗
-  - *The movie features an epic battle between good and evil.*
+  - *The movie features an epic battle between good and evil.*（电影中有一场善恶之间的史诗般战斗。）
 - **an epic achievement**：非凡的成就
-  - *Landing on the moon was an epic achievement for humanity.*
+  - *Landing on the moon was an epic achievement for humanity.*（登月是人类的一项非凡成就。）
 - **epic scale**：宏大的规模
-  - *The disaster was of epic proportions.*
+  - *The disaster was of epic proportions.*（这场灾难的规模是史诗级的。）
 
 ## 真题/语料关联
 

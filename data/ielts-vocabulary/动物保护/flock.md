@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a flock of birds**：一群鸟
-  - *A flock of birds flew overhead in a V-formation.*
+  - *A flock of birds flew overhead in a V-formation.*（一群鸟呈V字形从头顶飞过。）
 - **a flock of sheep**：一群羊
-  - *The shepherd led his flock of sheep to the pasture.*
+  - *The shepherd led his flock of sheep to the pasture.*（牧羊人带着他的羊群去了牧场。）
 - **flock together**：聚集在一起
   - *Birds of a feather flock together.*（物以类聚，人以群分）
 - **flock to**：蜂拥至
-  - *Tourists flock to the city every summer for the music festival.*
+  - *Tourists flock to the city every summer for the music festival.*（每年夏天游客涌向这座城市参加音乐节。）
 - **shepherd and his flock**：牧羊人和他的羊群
-  - *The shepherd watched over his flock as they grazed on the hillside.*
+  - *The shepherd watched over his flock as they grazed on the hillside.*（牧羊人看着他的羊群在山坡上吃草。）
 
 ## 真题/语料关联
 

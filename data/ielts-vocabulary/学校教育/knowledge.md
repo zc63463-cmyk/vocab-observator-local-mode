@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **acquire/gain knowledge**：获得知识
-  - *Students acquire knowledge through both formal education and practical experience.*
+  - *Students acquire knowledge through both formal education and practical experience.*（中文翻译）
 - **knowledge of**：对……的了解
-  - *A good knowledge of English is required for this position.*
+  - *A good knowledge of English is required for this position.*（中文翻译）
 - **common knowledge**：常识；众所周知的事
-  - *It's common knowledge that smoking is harmful to health.*
+  - *It's common knowledge that smoking is harmful to health.*（中文翻译）
 - **to my knowledge**：据我所知
-  - *To my knowledge, no one has complained about the new policy.*
+  - *To my knowledge, no one has complained about the new policy.*（中文翻译）
 - **knowledge-based**：基于知识的
-  - *We live in a knowledge-based economy where skills and information are valuable.*
+  - *We live in a knowledge-based economy where skills and information are valuable.*（中文翻译）
 
 ## 真题/语料关联
 

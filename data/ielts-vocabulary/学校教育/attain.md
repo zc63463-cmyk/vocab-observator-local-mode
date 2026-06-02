@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **attain a goal/objective**：达到目标
-  - *She worked hard to attain her goal of becoming a lawyer.*
+  - *She worked hard to attain her goal of becoming a lawyer.*（她努力工作以实现成为律师的目标。）
 - **attain a degree/qualification**：获得学位/资格
-  - *He attained his PhD at the age of 28.*
+  - *He attained his PhD at the age of 28.*（他在28岁时获得了博士学位。）
 - **attain a standard/level**：达到标准/水平
-  - *Students must attain a certain level of proficiency to graduate.*
+  - *Students must attain a certain level of proficiency to graduate.*（学生必须达到一定的熟练程度才能毕业。）
 - **attain success**：取得成功
-  - *Many entrepreneurs attain success after years of effort.*
+  - *Many entrepreneurs attain success after years of effort.*（许多企业家在多年努力之后取得成功。）
 - **attain maturity**：达到成熟
-  - *The technology has attained maturity and is ready for commercial use.*
+  - *The technology has attained maturity and is ready for commercial use.*（该技术已成熟，可以投入商业使用。）
 
 ## 真题/语料关联
 

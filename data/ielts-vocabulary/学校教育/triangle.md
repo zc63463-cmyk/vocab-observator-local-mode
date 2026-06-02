@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **equilateral triangle**：等边三角形
-  - *An equilateral triangle has three equal sides and three equal angles.*
+  - *An equilateral triangle has three equal sides and three equal angles.*（等边三角形有三条相等的边和三个相等的角。）
 - **right-angled triangle**：直角三角形
-  - *The Pythagorean theorem applies to right-angled triangles.*
+  - *The Pythagorean theorem applies to right-angled triangles.*（勾股定理适用于直角三角形。）
 - **love triangle**：三角恋
-  - *The movie is about a complicated love triangle.*
+  - *The movie is about a complicated love triangle.*（这部电影是关于一个复杂的三角恋故事。）
 - **triangle of forces**：力三角形
-  - *The triangle of forces is used in physics to analyze equilibrium.*
+  - *The triangle of forces is used in physics to analyze equilibrium.*（力三角形在物理学中用于分析平衡。）
 - **golden triangle**：金三角
-  - *The golden triangle is a region in Southeast Asia.*
+  - *The golden triangle is a region in Southeast Asia.*（金三角是东南亚的一个地区。）
 
 ## 真题/语料关联
 

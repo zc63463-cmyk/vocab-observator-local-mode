@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **facial expression**：面部表情
-  - *Her facial expression showed that she was not happy with the decision.*
+  - *Her facial expression showed that she was not happy with the decision.*（她的面部表情表明她对这个决定不满意。）
 - **freedom of expression**：表达自由
-  - *Freedom of expression is a fundamental human right.*
+  - *Freedom of expression is a fundamental human right.*（表达自由是一项基本人权。）
 - **beyond expression**：无法表达的
-  - *The beauty of the sunset was beyond expression.*
+  - *The beauty of the sunset was beyond expression.*（日落之美无法用语言表达。）
 - **find expression in**：在……中表现出来
-  - *Her anger found expression in a strongly worded letter.*
+  - *Her anger found expression in a strongly worded letter.*（她的愤怒在一封措辞强烈的信中表现出来。）
 - **everyday/common expression**：日常用语
-  - *"How are you?" is a common expression used in greetings.*
+  - *"How are you?" is a common expression used in greetings.*（"How are you?"是问候中常用的日常用语。）
 
 ## 真题/语料关联
 

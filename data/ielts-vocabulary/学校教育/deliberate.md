@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a deliberate act/choice**：故意的行为/选择
-  - *The damage was a deliberate act of vandalism.*
+  - *The damage was a deliberate act of vandalism.*（这次破坏是蓄意的破坏行为。）
 - **deliberately** (adv.)：故意地
-  - *She deliberately ignored his calls.*
+  - *She deliberately ignored his calls.*（她故意不接他的电话。）
 - **deliberate on/over**：仔细考虑
-  - *The jury deliberated for three days before reaching a verdict.*
+  - *The jury deliberated for three days before reaching a verdict.*（陪审团仔细商议了三天才做出裁决。）
 - **deliberate pace/movement**：从容不迫的步伐/动作
-  - *He walked at a deliberate pace, not rushing.*
+  - *He walked at a deliberate pace, not rushing.*（他以从容不迫的步伐走着，不慌不忙。）
 - **be deliberate about**：对……深思熟虑
-  - *She is very deliberate about her career choices.*
+  - *She is very deliberate about her career choices.*（她对职业选择非常深思熟虑。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **marine biologist**：海洋生物学家
-  - *The marine biologist discovered a new species of coral in the Great Barrier Reef.*
+  - *The marine biologist discovered a new species of coral in the Great Barrier Reef.*（这位海洋生物学家在大堡礁发现了一种新的珊瑚物种。）
 - **molecular biologist**：分子生物学家
-  - *Molecular biologists study the structure and function of proteins.*
+  - *Molecular biologists study the structure and function of proteins.*（分子生物学家研究蛋白质的结构和功能。）
 - **evolutionary biologist**：进化生物学家
-  - *Evolutionary biologists trace the development of species over millions of years.*
+  - *Evolutionary biologists trace the development of species over millions of years.*（进化生物学家追踪物种数百万年的发展历程。）
 - **field biologist**：野外生物学家（实地考察的生物学家）
-  - *Field biologists spend months in remote areas studying wildlife.*
+  - *Field biologists spend months in remote areas studying wildlife.*（野外生物学家花费数月时间在偏远地区研究野生动物。）
 - **research biologist**：研究型生物学家
-  - *As a research biologist, she published over fifty papers on genetics.*
+  - *As a research biologist, she published over fifty papers on genetics.*（作为一名研究生物学家，她发表了五十多篇遗传学论文。）
 
 ## 真题/语料关联
 

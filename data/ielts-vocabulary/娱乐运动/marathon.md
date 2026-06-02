@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **run a marathon**：跑马拉松
-  - *She trained for months to run her first marathon.*
+  - *She trained for months to run her first marathon.*（她训练了好几个月准备跑她的第一场马拉松。）
 - **marathon runner**：马拉松选手
-  - *The marathon runner crossed the finish line in just over three hours.*
+  - *The marathon runner crossed the finish line in just over three hours.*（这位马拉松选手以三个多小时的时间冲过终点线。）
 - **marathon training**：马拉松训练
-  - *Marathon training requires a lot of dedication and discipline.*
+  - *Marathon training requires a lot of dedication and discipline.*（马拉松训练需要很大的投入和自律。）
 - **charity marathon**：慈善马拉松
-  - *The charity marathon raised thousands of pounds for local hospitals.*
+  - *The charity marathon raised thousands of pounds for local hospitals.*（慈善马拉松为当地医院筹集了数千英镑。）
 - **marathon session**：马拉松式会议（长时间会议）
-  - *The marathon session lasted until midnight.*
+  - *The marathon session lasted until midnight.*（这场马拉松式会议一直持续到午夜。）
 
 ## 真题/语料关联
 

@@ -68,13 +68,13 @@ review_count: 0
 ## 搭配与短语
 
 - **sophomore year**：大二学年
-  - *She changed her major during her sophomore year.*
+  - *She changed her major during her sophomore year.*（她在大二那年换了专业。）
 - **sophomore slump**：大二低迷期（第二年表现下降的现象）
-  - *Many athletes experience a sophomore slump in their second professional season.*
+  - *Many athletes experience a sophomore slump in their second professional season.*（许多运动员在他们的第二个职业赛季会经历大二低迷期。）
 - **sophomore album**：第二张专辑
-  - *The band's sophomore album received mixed reviews from critics.*
+  - *The band's sophomore album received mixed reviews from critics.*（该乐队的第二张专辑获得了评论家的褒贬不一的评价。）
 - **sophomore effort**：第二次尝试
-  - *The director's sophomore effort was not as successful as his debut.*
+  - *The director's sophomore effort was not as successful as his debut.*（这位导演的第二次尝试不如他的首作成功。）
 
 ## 真题/语料关联
 

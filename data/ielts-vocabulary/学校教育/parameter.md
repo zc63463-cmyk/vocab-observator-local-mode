@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **set the parameters**：设定参数/界限
-  - *We need to set clear parameters for the project.*
+  - *We need to set clear parameters for the project.*（中文翻译）
 - **within the parameters**：在参数/界限范围内
-  - *The work must be done within the parameters of the budget.*
+  - *The work must be done within the parameters of the budget.*（中文翻译）
 - **key/main parameters**：关键/主要参数
-  - *Temperature and pressure are key parameters in the experiment.*
+  - *Temperature and pressure are key parameters in the experiment.*（中文翻译）
 - **outside the parameters**：超出范围
-  - *This falls outside the parameters of our study.*
+  - *This falls outside the parameters of our study.*（中文翻译）
 - **parameterize** (v.)：参数化
-  - *We can parameterize the model to fit different scenarios.*
+  - *We can parameterize the model to fit different scenarios.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Euclidean geometry**：欧几里得几何
-  - *Euclidean geometry is based on five fundamental postulates.*
+  - *Euclidean geometry is based on five fundamental postulates.*（欧几里得几何基于五个基本公设。）
 - **plane/solid geometry**：平面几何/立体几何
-  - *We studied solid geometry in our second year.*
+  - *We studied solid geometry in our second year.*（我们在二年级学习了立体几何。）
 - **geometry class**：几何课
-  - *Geometry was my favourite subject in high school.*
+  - *Geometry was my favourite subject in high school.*（几何是我高中时最喜欢的科目。）
 - **geometric shapes/patterns**：几何形状/图案
-  - *The carpet featured intricate geometric patterns.*
+  - *The carpet featured intricate geometric patterns.*（地毯上有复杂的几何图案。）
 - **the geometry of**：……的几何结构
-  - *The geometry of the bridge was designed to distribute weight evenly.*
+  - *The geometry of the bridge was designed to distribute weight evenly.*（这座桥的几何结构旨在均匀分布重量。）
 
 ## 真题/语料关联
 

@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a collection of poetry**：诗集
-  - *She published her first collection of poetry last year.*
+  - *She published her first collection of poetry last year.*（中文翻译）
 - **love poetry**：爱情诗
-  - *Shakespeare's love poetry is among the finest in the English language.*
+  - *Shakespeare's love poetry is among the finest in the English language.*（中文翻译）
 - **the art of poetry**：诗歌艺术
-  - *The course explores the art of poetry from ancient to modern times.*
+  - *The course explores the art of poetry from ancient to modern times.*（中文翻译）
 - **the poetry of motion**：运动的诗意
-  - *The dancer's movements had the poetry of motion.*
+  - *The dancer's movements had the poetry of motion.*（中文翻译）
 - **prose and poetry**：散文和诗歌
-  - *The exam tests both prose and poetry writing skills.*
+  - *The exam tests both prose and poetry writing skills.*（中文翻译）
 - **poetry reading**：诗歌朗诵会
-  - *The poet gave a reading of her work at the library.*
+  - *The poet gave a reading of her work at the library.*（中文翻译）
 
 ## 真题/语料关联
 

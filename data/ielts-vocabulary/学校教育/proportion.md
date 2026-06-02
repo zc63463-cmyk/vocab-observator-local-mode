@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **in proportion to**：与……成比例；相对于……
-  - *The head is drawn in proportion to the body.*
+  - *The head is drawn in proportion to the body.*（中文翻译）
 - **a large/small proportion of**：大部分/小部分
-  - *A large proportion of the budget is spent on salaries.*
+  - *A large proportion of the budget is spent on salaries.*（中文翻译）
 - **out of (all) proportion (to)**：不成比例地；不相称地
-  - *The punishment is out of all proportion to the crime.*
+  - *The punishment is out of all proportion to the crime.*（中文翻译）
 - **in proportion**：成比例地；相称地
-  - *The salary increase was in proportion to the rise in cost of living.*
+  - *The salary increase was in proportion to the rise in cost of living.*（中文翻译）
 - **keep things in proportion**：正确看待事物
-  - *We should keep things in proportion and not overreact.*
+  - *We should keep things in proportion and not overreact.*（中文翻译）
 - **of ... proportions**：……规模的
-  - *The disaster was of unprecedented proportions.*
+  - *The disaster was of unprecedented proportions.*（中文翻译）
 
 ## 真题/语料关联
 

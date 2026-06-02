@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **academic discipline**：学科
-  - *Psychology is a relatively new academic discipline.*
+  - *Psychology is a relatively new academic discipline.*（心理学是一门相对较新的学科。）
 - **self-discipline**：自制力
-  - *Success in any field requires a great deal of self-discipline.*
+  - *Success in any field requires a great deal of self-discipline.*（在任何领域取得成功都需要极强的自制力。）
 - **discipline problem**：纪律问题
-  - *The school has introduced new measures to address discipline problems.*
+  - *The school has introduced new measures to address discipline problems.*（学校推出了新措施来解决纪律问题。）
 - **maintain discipline**：维持纪律
-  - *Teachers must maintain discipline in the classroom.*
+  - *Teachers must maintain discipline in the classroom.*（教师必须维持课堂纪律。）
 - **a sense of discipline**：纪律意识
-  - *Military training helps develop a strong sense of discipline.*
+  - *Military training helps develop a strong sense of discipline.*（军事训练有助于培养强烈的纪律意识。）
 
 ## 真题/语料关联
 

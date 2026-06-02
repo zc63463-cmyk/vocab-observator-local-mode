@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **giant panda**：大熊猫
-  - *The giant panda is native to the mountainous regions of central China.*
+  - *The giant panda is native to the mountainous regions of central China.*（大熊猫原产于中国中部山区。）
 - **red panda**：小熊猫
-  - *The red panda is slightly larger than a domestic cat.*
+  - *The red panda is slightly larger than a domestic cat.*（小熊猫比家猫稍大一些。）
 - **panda conservation**：熊猫保护
-  - *Panda conservation efforts have helped increase the wild population.*
+  - *Panda conservation efforts have helped increase the wild population.*（熊猫保护工作已帮助增加了野生种群数量。）
 - **panda diplomacy**：熊猫外交
-  - *China's panda diplomacy has been used to strengthen diplomatic ties.*
+  - *China's panda diplomacy has been used to strengthen diplomatic ties.*（中国的熊猫外交被用于加强外交关系。）
 - **panda eyes**：熊猫眼（黑眼圈）
-  - *After staying up all night, I had terrible panda eyes.*
+  - *After staying up all night, I had terrible panda eyes.*（熬了一整夜后，我有了严重的熊猫眼。）
 
 ## 真题/语料关联
 

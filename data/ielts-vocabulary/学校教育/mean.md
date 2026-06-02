@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the mean (of)**：（……的）平均值
-  - *The mean of 3, 5, and 7 is 5.*
+  - *The mean of 3, 5, and 7 is 5.*（中文翻译）
 - **arithmetic mean**：算术平均数
-  - *The arithmetic mean is calculated by dividing the sum by the number of values.*
+  - *The arithmetic mean is calculated by dividing the sum by the number of values.*（中文翻译）
 - **what does ... mean?**：……是什么意思？
-  - *What does this word mean?*
+  - *What does this word mean?*（中文翻译）
 - **mean to do**：打算做
-  - *I didn't mean to hurt you.*
+  - *I didn't mean to hurt you.*（中文翻译）
 - **mean a lot to**：对……很重要
-  - *Your support means a lot to me.*
+  - *Your support means a lot to me.*（中文翻译）
 
 ## 真题/语料关联
 

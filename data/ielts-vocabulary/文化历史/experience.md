@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **work experience**：工作经验
-  - *The job requires at least three years of work experience.*
+  - *The job requires at least three years of work experience.*（这份工作需要至少三年的工作经验。）
 - **life experience**：生活经验
-  - *Traveling is a great way to gain life experience.*
+  - *Traveling is a great way to gain life experience.*（旅行是获得生活经验的好方法。）
 - **learning experience**：学习体验
-  - *The project was a valuable learning experience for the team.*
+  - *The project was a valuable learning experience for the team.*（这个项目对团队来说是一次宝贵的学习经历。）
 - **hands-on experience**：实践经验
-  - *Students gain hands-on experience through internships.*
+  - *Students gain hands-on experience through internships.*（学生通过实习获得实践经验。）
 - **from experience**：根据经验
-  - *From experience, I know that preparation is key to success.*
+  - *From experience, I know that preparation is key to success.*（根据经验，我知道准备是成功的关键。）
 
 ## 真题/语料关联
 

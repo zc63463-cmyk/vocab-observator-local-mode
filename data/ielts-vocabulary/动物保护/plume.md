@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a plume of smoke**：一缕烟
-  - *A plume of smoke rose from the chimney into the cold air.*
+  - *A plume of smoke rose from the chimney into the cold air.*（一缕烟从烟囱升起，飘入寒冷的空气中。）
 - **peacock plume**：孔雀羽毛
-  - *She tucked a peacock plume into her hat.*
+  - *She tucked a peacock plume into her hat.*（她把一根孔雀羽毛插在帽子上。）
 - **volcanic plume**：火山羽流
-  - *The volcanic plume spread ash across a wide area.*
+  - *The volcanic plume spread ash across a wide area.*（火山烟柱将火山灰散播到大片区域。）
 - **dust plume**：尘柱
-  - *The car raised a dust plume as it drove down the dirt road.*
+  - *The car raised a dust plume as it drove down the dirt road.*（汽车在土路上驶过时扬起了一团灰尘。）
 - **plumed helmet**：羽饰头盔
-  - *The knight wore a plumed helmet into battle.*
+  - *The knight wore a plumed helmet into battle.*（骑士戴着有羽饰的头盔上阵杀敌。）
 
 ## 真题/语料关联
 

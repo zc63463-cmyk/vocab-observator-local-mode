@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **vinyl disc**：黑胶唱片
-  - *He collects vinyl discs from the 1960s.*
+  - *He collects vinyl discs from the 1960s.*（他收集20世纪60年代的黑胶唱片。）
 - **compact disc**：光盘
-  - *The album was released on compact disc.*
+  - *The album was released on compact disc.*（这张专辑以光盘形式发行。）
 - **disc jockey**：唱片骑师（DJ）
-  - *The disc jockey played popular songs at the party.*
+  - *The disc jockey played popular songs at the party.*（唱片骑师在派对上播放流行歌曲。）
 - **disc player**：唱片播放器
-  - *The disc player can play both CDs and DVDs.*
+  - *The disc player can play both CDs and DVDs.*（这台播放器可以播放CD和DVD。）
 - **disc format**：唱片格式
-  - *The disc format has evolved over the decades.*
+  - *The disc format has evolved over the decades.*（唱片格式在几十年的发展演变。）
 
 ## 真题/语料关联
 

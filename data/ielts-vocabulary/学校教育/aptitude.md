@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a natural aptitude for**：……的天赋
-  - *She has a natural aptitude for mathematics.*
+  - *She has a natural aptitude for mathematics.*（她在数学方面有天赋。）
 - **aptitude test**：能力倾向测试
-  - *The company requires all applicants to take an aptitude test.*
+  - *The company requires all applicants to take an aptitude test.*（公司要求所有申请人参加能力倾向测试。）
 - **show an aptitude for**：表现出……的天赋
-  - *He showed an aptitude for music at a very young age.*
+  - *He showed an aptitude for music at a very young age.*（他很小的时候就表现出了音乐天赋。）
 - **academic aptitude**：学术能力
-  - *The scholarship is awarded based on academic aptitude.*
+  - *The scholarship is awarded based on academic aptitude.*（奖学金是根据学术能力颁发的。）
 - **mechanical aptitude**：机械方面的天赋
-  - *The job requires someone with mechanical aptitude.*
+  - *The job requires someone with mechanical aptitude.*（这份工作需要具备机械天赋的人。）
 
 ## 真题/语料关联
 

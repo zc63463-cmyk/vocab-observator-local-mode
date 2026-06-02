@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **keep a diary**：写日记
-  - *She has kept a diary since she was twelve.*
+  - *She has kept a diary since she was twelve.*（她从十二岁起就一直写日记。）
 - **write in a diary**：在日记中写
-  - *He wrote in his diary every night before bed.*
+  - *He wrote in his diary every night before bed.*（他每晚睡前都会写日记。）
 - **a travel diary**：旅行日记
-  - *She published her travel diary after returning from Asia.*
+  - *She published her travel diary after returning from Asia.*（她从亚洲回来后出版了旅行日记。）
 - **a personal diary**：个人日记
-  - *The police found his personal diary during the investigation.*
+  - *The police found his personal diary during the investigation.*（警方在调查中找到了他的个人日记。）
 - **a desk diary**：台式日程簿
-  - *She noted the meeting in her desk diary.*
+  - *She noted the meeting in her desk diary.*（她把会议记在了台式日程簿上。）
 - **diary entry**：日记条目
-  - *Her diary entry from that day revealed her inner turmoil.*
+  - *Her diary entry from that day revealed her inner turmoil.*（她那天的日记条目揭示了她内心的混乱。）
 
 ## 真题/语料关联
 

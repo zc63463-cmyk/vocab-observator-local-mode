@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **motivate sb to do sth**：激励某人做某事
-  - *Good teachers know how to motivate students to achieve their potential.*
+  - *Good teachers know how to motivate students to achieve their potential.*（中文翻译）
 - **be motivated by**：被……驱动
-  - *She was motivated by a desire to help others.*
+  - *She was motivated by a desire to help others.*（中文翻译）
 - **intrinsic/extrinsic motivation**：内在/外在动机
-  - *Intrinsic motivation tends to produce more lasting results than extrinsic rewards.*
+  - *Intrinsic motivation tends to produce more lasting results than extrinsic rewards.*（中文翻译）
 - **self-motivated**：自我激励的
-  - *Employers value self-motivated individuals who can work independently.*
+  - *Employers value self-motivated individuals who can work independently.*（中文翻译）
 - **highly motivated**：积极性高的
-  - *The team is highly motivated to meet the deadline.*
+  - *The team is highly motivated to meet the deadline.*（中文翻译）
 
 ## 真题/语料关联
 

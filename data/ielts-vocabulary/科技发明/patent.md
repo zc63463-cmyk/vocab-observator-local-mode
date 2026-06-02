@@ -75,15 +75,15 @@ review_count: 0
 ## 搭配与短语
 
 - **file/apply for a patent**：申请专利
-  - *The company filed a patent for its new battery technology.*
+  - *The company filed a patent for its new battery technology.*（该公司为其新型电池技术申请了专利。）
 - **grant/obtain a patent**：授予/获得专利
-  - *The inventor was granted a patent for the device.*
+  - *The inventor was granted a patent for the device.*（发明者获得了该设备的专利。）
 - **patent infringement**：专利侵权
-  - *The lawsuit alleged patent infringement by a competitor.*
+  - *The lawsuit alleged patent infringement by a competitor.*（该诉讼指控竞争对手侵犯专利。）
 - **patent holder/owner**：专利持有人
-  - *The patent holder has exclusive rights to manufacture the product.*
+  - *The patent holder has exclusive rights to manufacture the product.*（专利持有人拥有制造该产品的专有权利。）
 - **patent pending**：专利申请中（产品标注）
-  - *The product is marked "patent pending" while the application is being reviewed.*
+  - *The product is marked "patent pending" while the application is being reviewed.*（在申请审核期间，产品上标注"专利申请中"。）
 
 ## 真题/语料关联
 

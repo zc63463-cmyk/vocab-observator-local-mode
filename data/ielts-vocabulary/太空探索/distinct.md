@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a distinct difference**：明显的差异
-  - *There is a distinct difference between the two products.*
+  - *There is a distinct difference between the two products.*（这两种产品之间有明显的区别。）
 - **distinct from**：与……不同
-  - *The species is distinct from all others in the region.*
+  - *The species is distinct from all others in the region.*（这个物种与该地区所有其他物种都不同。）
 - **a distinct possibility**：确定的可能性
-  - *There is a distinct possibility of rain tomorrow.*
+  - *There is a distinct possibility of rain tomorrow.*（明天很有可能会下雨。）
 - **a distinct flavor**：独特的风味
-  - *The wine has a distinct flavor of blackberries.*
+  - *The wine has a distinct flavor of blackberries.*（这款酒有独特的黑莓风味。）
 - **distinct advantage**：明显的优势
-  - *Experience is a distinct advantage in this field.*
+  - *Experience is a distinct advantage in this field.*（经验在这个领域是一个明显的优势。）
 
 ## 真题/语料关联
 

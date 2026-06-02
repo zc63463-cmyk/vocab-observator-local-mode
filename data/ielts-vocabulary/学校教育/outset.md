@@ -65,13 +65,13 @@ review_count: 0
 ## 搭配与短语
 
 - **at the outset**：在开始时
-  - *At the outset, the project seemed impossible.*
+  - *At the outset, the project seemed impossible.*（中文翻译）
 - **from the outset**：从一开始
-  - *From the outset, it was clear that the plan would fail.*
+  - *From the outset, it was clear that the plan would fail.*（中文翻译）
 - **at the outset of**：在……的开始
-  - *At the outset of the meeting, the chairman outlined the agenda.*
+  - *At the outset of the meeting, the chairman outlined the agenda.*（中文翻译）
 - **from the very outset**：从最初开始（强调）
-  - *We knew from the very outset that this would be a challenge.*
+  - *We knew from the very outset that this would be a challenge.*（中文翻译）
 
 ## 真题/语料关联
 

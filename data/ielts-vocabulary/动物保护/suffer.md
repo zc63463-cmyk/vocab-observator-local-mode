@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **suffer from**：患……病，受……之苦
-  - *Many wildlife species suffer from habitat loss caused by deforestation.*
+  - *Many wildlife species suffer from habitat loss caused by deforestation.*（许多野生动物物种因森林砍伐导致的栖息地丧失而受苦。）
 - **suffer pain/loss/damage**：遭受痛苦/损失/损害
-  - *The ecosystem suffered severe damage after the oil spill.*
+  - *The ecosystem suffered severe damage after the oil spill.*（石油泄漏后生态系统遭受了严重破坏。）
 - **suffer hardship**：经历艰难困苦
-  - *Endangered animals suffer hardship when their natural habitats are destroyed.*
+  - *Endangered animals suffer hardship when their natural habitats are destroyed.*（当自然栖息地遭到破坏时，濒危动物会遭受苦难。）
 - **suffer in silence**：默默忍受
-  - *Many captive animals suffer in silence, showing no outward signs of distress.*
+  - *Many captive animals suffer in silence, showing no outward signs of distress.*（许多圈养动物默默承受痛苦，不表现出外在的痛苦迹象。）
 - **suffer the consequences**：承受后果
-  - *If we fail to protect biodiversity, future generations will suffer the consequences.*
+  - *If we fail to protect biodiversity, future generations will suffer the consequences.*（如果我们未能保护生物多样性，后代将承受后果。）
 
 ## 真题/语料关联
 

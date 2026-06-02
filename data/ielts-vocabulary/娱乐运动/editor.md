@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a book editor**：书籍编辑
-  - *The book editor suggested several changes to the manuscript.*
+  - *The book editor suggested several changes to the manuscript.*（书籍编辑对手稿提出了几处修改建议。）
 - **the editor of**：……的编辑/主编
-  - *She is the editor of a leading scientific journal.*
+  - *She is the editor of a leading scientific journal.*（她是一家顶级科学期刊的主编。）
 - **the editor-in-chief**：主编
-  - *The editor-in-chief makes the final decision on what to publish.*
+  - *The editor-in-chief makes the final decision on what to publish.*（主编对出版内容做出最终决定。）
 - **a film/video editor**：影视剪辑师
-  - *The film editor spent hours cutting and arranging the footage.*
+  - *The film editor spent hours cutting and arranging the footage.*（电影剪辑师花了数小时剪辑整理素材。）
 - **a text editor**：文本编辑器
-  - *I use a simple text editor for writing code.*
+  - *I use a simple text editor for writing code.*（我用一个简单的文本编辑器写代码。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **public debate**：公开辩论
-  - *The issue has sparked a fierce public debate.*
+  - *The issue has sparked a fierce public debate.*（这个问题引发了激烈的公开辩论。）
 - **debate an issue**：辩论一个问题
-  - *The parliament will debate the new tax proposal tomorrow.*
+  - *The parliament will debate the new tax proposal tomorrow.*（议会明天将辩论新的税收提案。）
 - **under debate**：在辩论中
-  - *The matter is still under debate.*
+  - *The matter is still under debate.*（这件事仍在辩论中。）
 - **beyond debate**：无可争辩
-  - *The importance of education is beyond debate.*
+  - *The importance of education is beyond debate.*（教育的重要性是无可争辩的。）
 - **debate whether/if**：考虑是否
-  - *She debated whether to accept the job offer.*
+  - *She debated whether to accept the job offer.*（她考虑是否接受这份工作邀请。）
 
 ## 真题/语料关联
 

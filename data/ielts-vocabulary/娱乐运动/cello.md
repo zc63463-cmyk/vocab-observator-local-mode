@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the cello**：拉大提琴
-  - *She learned to play the cello at a young age.*
+  - *She learned to play the cello at a young age.*（她从小就开始学习拉大提琴。）
 - **cello concerto**：大提琴协奏曲
-  - *Dvorak's cello concerto is one of his most famous works.*
+  - *Dvorak's cello concerto is one of his most famous works.*（德沃夏克的大提琴协奏曲是他最著名的作品之一。）
 - **cellist**：大提琴家
-  - *He is a world-renowned cellist.*
+  - *He is a world-renowned cellist.*（他是世界著名的大提琴家。）
 - **cello string**：大提琴弦
-  - *The cello string broke during the performance.*
+  - *The cello string broke during the performance.*（大提琴琴弦在表演中断了。）
 - **cello bow**：大提琴弓
-  - *She drew the cello bow across the strings.*
+  - *She drew the cello bow across the strings.*（她拉着大提琴弓划过琴弦。）
 
 ## 真题/语料关联
 

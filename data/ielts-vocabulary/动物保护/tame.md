@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tame animal**：驯化的动物
-  - *Dogs are the most common tame animals in the world.*
+  - *Dogs are the most common tame animals in the world.*（狗是世界上最常见的驯养动物。）
 - **tame a wild horse**：驯服野马
-  - *It takes patience and skill to tame a wild horse.*
+  - *It takes patience and skill to tame a wild horse.*（驯服野马需要耐心和技巧。）
 - **as tame as a cat**：像猫一样温顺
-  - *The once aggressive dog is now as tame as a cat.*
+  - *The once aggressive dog is now as tame as a cat.*（这只曾经凶猛的狗现在温顺得像猫一样。）
 - **tame the wilderness**：征服荒野
-  - *Early settlers worked hard to tame the wilderness and establish farms.*
+  - *Early settlers worked hard to tame the wilderness and establish farms.*（早期定居者努力开垦荒野并建立农场。）
 - **tame down**：使缓和，使温和
-  - *The director decided to tame down the violent scenes in the film.*
+  - *The director decided to tame down the violent scenes in the film.*（导演决定减弱影片中的暴力场景。）
 
 ## 真题/语料关联
 

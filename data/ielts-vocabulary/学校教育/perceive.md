@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **perceive something**：察觉某事
-  - *She perceived a slight change in his attitude.*
+  - *She perceived a slight change in his attitude.*（中文翻译）
 - **perceive that...**：察觉到……
-  - *The jury perceived that the witness was lying.*
+  - *The jury perceived that the witness was lying.*（中文翻译）
 - **perceive as**：视为，看作
-  - *The new policy is perceived as unfair by many workers.*
+  - *The new policy is perceived as unfair by many workers.*（中文翻译）
 - **be perceived to be**：被认为是
-  - *The company is perceived to be a leader in innovation.*
+  - *The company is perceived to be a leader in innovation.*（中文翻译）
 - **hardly/barely perceive**：几乎察觉不到
-  - *The difference is barely perceptible.*
+  - *The difference is barely perceptible.*（中文翻译）
 
 ## 真题/语料关联
 

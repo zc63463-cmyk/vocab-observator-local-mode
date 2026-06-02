@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **win an award**：获奖
-  - *The film won several awards at the festival.*
+  - *The film won several awards at the festival.*（这部电影在电影节上获得了几个奖项。）
 - **award ceremony**：颁奖典礼
-  - *The award ceremony will be held next week.*
+  - *The award ceremony will be held next week.*（颁奖典礼将在下周举行。）
 - **award someone something**：授予某人某物
-  - *The committee awarded her the prize.*
+  - *The committee awarded her the prize.*（委员会授予了她这个奖项。）
 - **academic award**：学术奖
-  - *She received an academic award for her research.*
+  - *She received an academic award for her research.*（她因研究获得了学术奖。）
 - **award-winning**：获奖的
-  - *He is an award-winning author.*
+  - *He is an award-winning author.*（他是一位获奖作家。）
 
 ## 真题/语料关联
 

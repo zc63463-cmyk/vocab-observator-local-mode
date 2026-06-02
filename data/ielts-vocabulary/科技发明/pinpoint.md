@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pinpoint the location/position**：精确定位
-  - *The satellite can pinpoint the location of any mobile phone.*
+  - *The satellite can pinpoint the location of any mobile phone.*（卫星可以精确定位任何手机的位置。）
 - **pinpoint the cause/reason**：准确找出原因
-  - *Researchers have pinpointed the cause of the disease.*
+  - *Researchers have pinpointed the cause of the disease.*（研究人员已经准确找出了这种疾病的原因。）
 - **pinpoint the problem**：精确识别问题
-  - *It took months to pinpoint the problem in the system.*
+  - *It took months to pinpoint the problem in the system.*（花了几个月才精确识别出系统中的问题。）
 - **pinpoint accuracy/precision**：针尖般的精确度
-  - *The missile can hit targets with pinpoint accuracy.*
+  - *The missile can hit targets with pinpoint accuracy.*（导弹可以以针尖般的精确度命中目标。）
 - **a pinpoint of light**：一个光点
-  - *In the darkness, we could see a pinpoint of light in the distance.*
+  - *In the darkness, we could see a pinpoint of light in the distance.*（在黑暗中，我们可以看到远处的一个光点。）
 
 ## 真题/语料关联
 

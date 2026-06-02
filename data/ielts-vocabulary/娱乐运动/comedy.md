@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **romantic comedy**：浪漫喜剧
-  - *The romantic comedy was a box office hit.*
+  - *The romantic comedy was a box office hit.*（这部浪漫喜剧是票房热门。）
 - **stand-up comedy**：单口喜剧
-  - *He performs stand-up comedy at local clubs.*
+  - *He performs stand-up comedy at local clubs.*（他在当地俱乐部表演单口喜剧。）
 - **comedy film**：喜剧电影
-  - *The comedy film had the audience laughing throughout.*
+  - *The comedy film had the audience laughing throughout.*（这部喜剧电影让观众从头笑到尾。）
 - **comedy show**：喜剧表演
-  - *The comedy show was hilarious.*
+  - *The comedy show was hilarious.*（这场喜剧表演非常搞笑。）
 - **comedy of errors**：错误喜剧（充满误会的滑稽情况）
-  - *The trip turned into a comedy of errors.*
+  - *The trip turned into a comedy of errors.*（这次旅行变成了一场错误喜剧。）
 
 ## 真题/语料关联
 

@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a fashion magazine**：时尚杂志
-  - *She reads a fashion magazine every month.*
+  - *She reads a fashion magazine every month.*（中文翻译）
 - **a weekly/monthly magazine**：周刊/月刊
-  - *The magazine is published weekly.*
+  - *The magazine is published weekly.*（中文翻译）
 - **magazine article**：杂志文章
-  - *He wrote an article for the magazine.*
+  - *He wrote an article for the magazine.*（中文翻译）
 - **magazine cover**：杂志封面
-  - *She appeared on the cover of the magazine.*
+  - *She appeared on the cover of the magazine.*（中文翻译）
 - **magazine rack**：杂志架
-  - *The waiting room had a magazine rack full of old issues.*
+  - *The waiting room had a magazine rack full of old issues.*（中文翻译）
 - **magazine subscription**：杂志订阅
-  - *I have a subscription to the magazine.*
+  - *I have a subscription to the magazine.*（中文翻译）
 
 ## 真题/语料关联
 

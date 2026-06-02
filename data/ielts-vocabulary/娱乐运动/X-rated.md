@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **X-rated film**：限制级电影
-  - *The X-rated film was only shown after midnight.*
+  - *The X-rated film was only shown after midnight.*（X级电影只在午夜后放映。）
 - **X-rated material**：限制级材料
-  - *The library does not allow access to X-rated material.*
+  - *The library does not allow access to X-rated material.*（图书馆不允许查阅成人材料。）
 - **X-rated content**：限制级内容
-  - *The website was blocked due to X-rated content.*
+  - *The website was blocked due to X-rated content.*（该网站因包含成人内容而被屏蔽。）
 - **X-rated language**：粗俗语言
-  - *He used X-rated language in front of the children.*
+  - *He used X-rated language in front of the children.*（他在孩子们面前说了粗俗的语言。）
 - **X-rated behavior**：不当行为
-  - *The politician's X-rated behavior caused a scandal.*
+  - *The politician's X-rated behavior caused a scandal.*（这位政治家的粗鄙行为引发了丑闻。）
 
 ## 真题/语料关联
 

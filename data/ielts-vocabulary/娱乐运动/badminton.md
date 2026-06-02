@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play badminton**：打羽毛球
-  - *I play badminton with my friends every weekend.*
+  - *I play badminton with my friends every weekend.*（我每个周末都和朋友打羽毛球。）
 - **badminton court**：羽毛球场
-  - *The badminton court is located in the sports center.*
+  - *The badminton court is located in the sports center.*（羽毛球场位于体育中心。）
 - **badminton match**：羽毛球比赛
-  - *The badminton match was very exciting.*
+  - *The badminton match was very exciting.*（这场羽毛球比赛非常精彩。）
 - **badminton racket**：羽毛球拍
-  - *She bought a new badminton racket.*
+  - *She bought a new badminton racket.*（她买了一个新的羽毛球拍。）
 - **badminton shuttlecock**：羽毛球
-  - *The badminton shuttlecock is made of feathers.*
+  - *The badminton shuttlecock is made of feathers.*（羽毛球是由羽毛制成的。）
 
 ## 真题/语料关联
 

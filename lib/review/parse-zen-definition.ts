@@ -29,7 +29,7 @@ export type InlineSegment =
   | { kind: "text"; content: string }
   | { kind: "code"; content: string }
   | { kind: "bold"; content: string }
-  | { kind: "highlight"; content: string };
+  | { kind: "highlight"; content: string; color?: string; id?: string };
 
 export interface ParagraphBlock {
   kind: "paragraph";

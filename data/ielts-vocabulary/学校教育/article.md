@@ -77,7 +77,7 @@ review_count: 0
 - **definite article**：定冠词（the）
   - *In English, 'the' is the definite article.*
 - **articles of association**：公司章程
-  - *The articles of association outline the company’s rules.*
+  - *The articles of association outline the company's rules.*（公司章程概述了公司的规则。）’s rules.*
 
 ## 真题/语料关联
 

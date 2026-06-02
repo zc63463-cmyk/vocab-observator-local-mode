@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **excrete waste**：排出废物
-  - *The kidneys excrete waste products from the blood.*
+  - *The kidneys excrete waste products from the blood.*（肾脏从血液中排出废物。）
 - **excrete urine**：排尿
-  - *Healthy adults excrete about 1.5 liters of urine daily.*
+  - *Healthy adults excrete about 1.5 liters of urine daily.*（健康的成年人每天排出约1.5升尿液。）
 - **excrete toxins**：排出毒素
-  - *The liver helps excrete toxins from the body.*
+  - *The liver helps excrete toxins from the body.*（肝脏帮助排出体内的毒素。）
 - **excrete salts**：排出盐分
-  - *Some marine animals excrete excess salts through specialized glands.*
+  - *Some marine animals excrete excess salts through specialized glands.*（一些海洋动物通过专门的腺体排出多余的盐分。）
 - **excrete hormones**：排出激素
-  - *After metabolism, the body excretes hormones through urine.*
+  - *After metabolism, the body excretes hormones through urine.*（代谢后，身体通过尿液排出激素。）
 
 ## 真题/语料关联
 

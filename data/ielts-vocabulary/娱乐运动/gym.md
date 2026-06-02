@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fitness gym**：健身房
-  - *I go to the fitness gym three times a week.*
+  - *I go to the fitness gym three times a week.*（我每周去三次健身房。）
 - **school gym**：学校体育馆
-  - *The school gym is used for basketball and volleyball.*
+  - *The school gym is used for basketball and volleyball.*（学校体育馆用于打篮球和排球。）
 - **gym class**：体育课
-  - *Students have gym class every Tuesday.*
+  - *Students have gym class every Tuesday.*（学生们每周二上体育课。）
 - **gym equipment**：健身器材
-  - *The gym has modern equipment for strength training.*
+  - *The gym has modern equipment for strength training.*（健身房有现代化的力量训练器材。）
 - **gym membership**：健身房会员资格
-  - *I renewed my gym membership for another year.*
+  - *I renewed my gym membership for another year.*（我续了一年的健身房会员。）
 
 ## 真题/语料关联
 

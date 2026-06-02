@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **well-known fact**：众所周知的事实
-  - *It is a well-known fact that exercise is good for health.*
+  - *It is a well-known fact that exercise is good for health.*（运动有益健康是众所周知的事实。）
 - **well-known athlete**：著名运动员
-  - *She is a well-known tennis player.*
+  - *She is a well-known tennis player.*（她是著名的网球选手。）
 - **well-known brand**：知名品牌
-  - *The store sells well-known brands at discounted prices.*
+  - *The store sells well-known brands at discounted prices.*（这家店以折扣价出售知名品牌。）
 - **well-known for**：因……而著名
-  - *The city is well-known for its historical sites.*
+  - *The city is well-known for its historical sites.*（这座城市以其历史遗迹而闻名。）
 - **well-known figure**：知名人物
-  - *He is a well-known figure in the business world.*
+  - *He is a well-known figure in the business world.*（他是商界的知名人物。）
 
 ## 真题/语料关联
 

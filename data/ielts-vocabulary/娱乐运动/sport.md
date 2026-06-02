@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play a sport**：进行体育运动
-  - *Children should play a sport to stay healthy.*
+  - *Children should play a sport to stay healthy.*（孩子们应该进行体育运动以保持健康。）
 - **team sport**：团队运动
-  - *Soccer is a popular team sport around the world.*
+  - *Soccer is a popular team sport around the world.*（足球是世界各地受欢迎的团队运动。）
 - **outdoor sport**：户外运动
-  - *Hiking and cycling are popular outdoor sports.*
+  - *Hiking and cycling are popular outdoor sports.*（徒步和骑自行车是受欢迎的户外运动。）
 - **good sport**：输得起的人
-  - *He's a good sport who always congratulates the winner.*
+  - *He's a good sport who always congratulates the winner.*（他是个输得起的人，总是祝贺获胜者。）
 - **sportsmanship**：体育精神
-  - *Good sportsmanship is more important than winning.*
+  - *Good sportsmanship is more important than winning.*（良好的体育精神比获胜更重要。）
 
 ## 真题/语料关联
 

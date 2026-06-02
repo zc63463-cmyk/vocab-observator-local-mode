@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **scientific/medical breakthrough**：科学/医学突破
-  - *The discovery of penicillin was a major medical breakthrough.*
+  - *The discovery of penicillin was a major medical breakthrough.*（青霉素的发现是一项重大的医学突破。）
 - **make a breakthrough**：取得突破
-  - *Researchers have made a breakthrough in renewable energy technology.*
+  - *Researchers have made a breakthrough in renewable energy technology.*（研究人员在可再生能源技术上取得了突破。）
 - **breakthrough in**：在……方面的突破
-  - *There has been a breakthrough in the treatment of cancer.*
+  - *There has been a breakthrough in the treatment of cancer.*（癌症治疗取得了突破。）
 - **breakthrough moment**：突破性时刻
-  - *The experiment was a breakthrough moment for the team.*
-- **groundbreaking breakthrough**：开创性突破
-  - *The groundbreaking breakthrough in quantum computing surprised the scientific community.*
+  - *The experiment was a breakthrough moment for the team.*（这个实验对团队来说是一个突破性时刻。）
+- **major/significant breakthrough**：重大突破
+  - *The significant breakthrough in quantum computing surprised the scientific community.*（量子计算领域的重大突破震惊了科学界。）
 
 ## 真题/语料关联
 

@@ -525,7 +525,7 @@ function matchesQuery(word: CachedPublicWordIndexRecord, query: string) {
     return true;
   }
 
-  return word.search_text.includes(query.normalize("NFKC").toLowerCase());
+  return word.search_text?.includes(query.normalize("NFKC").toLowerCase()) ?? false;
 }
 
 function isDue(dueAt: string | null | undefined) {
@@ -1569,7 +1569,13 @@ export async function getPublicWords(
       ? getOwnerProgressMap(options!.ownerUserId!, options!.ownerSupabase!, options?.wordbookId)
       : Promise.resolve(new Map<string, OwnerWordProgressSummary>());
 
-  if (isDefaultPublicWordFilters(normalizedFilters)) {
+  // When a specific (non-default) wordbook is selected we must scope the
+  // result set to words inside that wordbook. The fast-path cache functions
+  // return global rows, so we skip them and always use the fallback
+  // JS-filter path when wordbookId is set.
+  const hasWordbookScope = Boolean(options?.wordbookId);
+
+  if (!hasWordbookScope && isDefaultPublicWordFilters(normalizedFilters)) {
     const [defaultRows, filterOptions, total, ownerProgressMap] = await Promise.all([
       getCachedDefaultPublicWordRows(pagination.offset, pagination.limit),
       publicFilterOptionsPromise,
@@ -1591,7 +1597,7 @@ export async function getPublicWords(
     };
   }
 
-  if (canUseDatabaseFilteredPublicWordsPath(normalizedFilters)) {
+  if (!hasWordbookScope && canUseDatabaseFilteredPublicWordsPath(normalizedFilters)) {
     const [filteredPage, filterOptions, ownerProgressMap] = await Promise.all([
       getCachedFilteredPublicWordRows(
         normalizedFilters.semantic,
@@ -1655,7 +1661,22 @@ export async function getPublicWords(
 
   const safeWords = allWords ?? [];
 
+  let wordbookWordIdSet: Set<string> | null = null;
+  if (hasWordbookScope && isOwner && options?.ownerSupabase) {
+    const { data, error } = await options.ownerSupabase
+      .from("wordbook_items")
+      .select("word_id")
+      .eq("wordbook_id", options.wordbookId);
+    if (!error && data) {
+      wordbookWordIdSet = new Set(data.map((r) => r.word_id));
+    }
+  }
+
   const filtered = safeWords.filter((word) => {
+    if (wordbookWordIdSet && !wordbookWordIdSet.has(word.id)) {
+      return false;
+    }
+
     if (!matchesQuery(word, normalizedFilters.q)) {
       return false;
     }

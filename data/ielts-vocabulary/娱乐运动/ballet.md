@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **classical ballet**：古典芭蕾
-  - *Classical ballet requires years of rigorous training.*
+  - *Classical ballet requires years of rigorous training.*（古典芭蕾需要数年的严格训练。）
 - **ballet company**：芭蕾舞团
-  - *She joined a prestigious ballet company after graduation.*
+  - *She joined a prestigious ballet company after graduation.*（毕业后她加入了一个著名的芭蕾舞团。）
 - **ballet dancer**：芭蕾舞演员
-  - *The ballet dancer performed a flawless solo.*
+  - *The ballet dancer performed a flawless solo.*（芭蕾舞演员表演了一段完美的独舞。）
 - **ballet school**：芭蕾舞学校
-  - *He attended a ballet school from the age of five.*
+  - *He attended a ballet school from the age of five.*（他从五岁起就在芭蕾舞学校学习。）
 - **ballet performance**：芭蕾舞表演
-  - *The ballet performance was a visual spectacle.*
+  - *The ballet performance was a visual spectacle.*（这场芭蕾舞表演是一场视觉盛宴。）
 
 ## 真题/语料关联
 

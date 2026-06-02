@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **feed the baby**：喂婴儿
-  - *The mother needs to feed the baby every three hours.*
+  - *The mother needs to feed the baby every three hours.*（母亲需要每三小时喂一次宝宝。）
 - **feed on**：以……为食
-  - *Caterpillars feed on leaves.*
+  - *Caterpillars feed on leaves.*（毛虫以树叶为食。）
 - **feed into**：输入，注入
-  - *The river feeds into the lake.*
+  - *The river feeds into the lake.*（这条河流入湖泊。）
 - **feed back**：反馈
-  - *The results feed back into the system to improve performance.*
+  - *The results feed back into the system to improve performance.*（结果反馈回系统以改进性能。）
 - **be fed up with**：厌倦，受够了
-  - *I'm fed up with the constant noise.*
+  - *I'm fed up with the constant noise.*（我受够了持续不断的噪音。）
 - **chicken feed**：鸡饲料；微不足道的金额
-  - *The fine was chicken feed compared to their profits.*
+  - *The fine was chicken feed compared to their profits.*（与他们的利润相比，这笔罚款不过是九牛一毛。）
 
 ## 真题/语料关联
 

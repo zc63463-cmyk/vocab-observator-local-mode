@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a mathematical/musical/artistic genius**：数学/音乐/艺术天才
-  - *Mozart was a musical genius who composed from the age of five.*
+  - *Mozart was a musical genius who composed from the age of five.*（莫扎特是一位音乐天才，从五岁就开始作曲。）
 - **have a genius for**：有……的天赋
-  - *She has a genius for turning complex ideas into simple explanations.*
+  - *She has a genius for turning complex ideas into simple explanations.*（她有一种把复杂想法变成简单解释的天赋。）
 - **a stroke of genius**：天才之举
-  - *Hiring that consultant was a stroke of genius.*
+  - *Hiring that consultant was a stroke of genius.*（聘请那位顾问是天才之举。）
 - **child genius**：神童
-  - *The child genius entered university at the age of twelve.*
+  - *The child genius entered university at the age of twelve.*（这位神童十二岁就进入了大学。）
 - **evil genius**：邪恶天才（文学用语）
-  - *The villain in the story is an evil genius with a master plan.*
+  - *The villain in the story is an evil genius with a master plan.*（故事中的反派是一个有着邪恶计划的天才。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **qualify for**：有资格获得
-  - *She qualified for the scholarship after passing the exam.*
+  - *She qualified for the scholarship after passing the exam.*（中文翻译）
 - **qualify as**：取得……资格
-  - *He qualified as a lawyer last year.*
+  - *He qualified as a lawyer last year.*（中文翻译）
 - **qualified** (adj.)：有资格的，合格的
-  - *We need a qualified engineer for this project.*
+  - *We need a qualified engineer for this project.*（中文翻译）
 - **qualify a statement**：限定陈述
-  - *The professor qualified his statement by adding "in most cases."*
+  - *The professor qualified his statement by adding "in most cases."*（中文翻译）
 - **be qualified to do sth**：有资格做某事
-  - *Are you qualified to teach in this country?*
+  - *Are you qualified to teach in this country?*（中文翻译）
 
 ## 真题/语料关联
 

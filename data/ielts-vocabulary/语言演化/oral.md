@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **oral communication**：口头交流
-  - *Oral communication skills are essential in business.*
+  - *Oral communication skills are essential in business.*（口头交流技巧在商业中至关重要。）
 - **oral exam/test**：口试
-  - *The final assessment includes both written and oral exams.*
+  - *The final assessment includes both written and oral exams.*（最终评估包括笔试和口试。）
 - **oral tradition**：口头传统
-  - *Many indigenous cultures preserve their history through oral traditions.*
+  - *Many indigenous cultures preserve their history through oral traditions.*（许多土著文化通过口头传统保存其历史。）
 - **oral hygiene**：口腔卫生
-  - *Good oral hygiene prevents tooth decay.*
+  - *Good oral hygiene prevents tooth decay.*（良好的口腔卫生可以预防蛀牙。）
 
 ## 真题/语料关联
 

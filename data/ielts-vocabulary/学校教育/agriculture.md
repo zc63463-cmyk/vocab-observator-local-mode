@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study agriculture**：学习农业
-  - *He decided to study agriculture at university.*
+  - *He decided to study agriculture at university.*（他决定在大学学习农业。）
 - **modern agriculture**：现代农业
-  - *Modern agriculture relies heavily on technology.*
+  - *Modern agriculture relies heavily on technology.*（现代农业严重依赖技术。）
 - **sustainable agriculture**：可持续农业
-  - *Sustainable agriculture is essential for food security.*
+  - *Sustainable agriculture is essential for food security.*（可持续农业对粮食安全至关重要。）
 - **agricultural land**：农业用地
-  - *Agricultural land is being lost to urbanization.*
+  - *Agricultural land is being lost to urbanization.*（农业用地正因城市化而流失。）
 - **agricultural revolution**：农业革命
-  - *The agricultural revolution transformed human society.*
+  - *The agricultural revolution transformed human society.*（农业革命改变了人类社会。）
 
 ## 真题/语料关联
 

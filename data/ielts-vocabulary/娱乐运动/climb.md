@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **climb up**：爬上去
-  - *The cat climbed up the tree to escape the dog.*
+  - *The cat climbed up the tree to escape the dog.*（猫爬上树以躲避狗。）
 - **climb a mountain**：爬山
-  - *They climbed the mountain in two days.*
+  - *They climbed the mountain in two days.*（他们用了两天爬上了那座山。）
 - **rock climbing**：攀岩
-  - *Rock climbing requires strength and skill.*
+  - *Rock climbing requires strength and skill.*（攀岩需要力量和技巧。）
 - **climb the ladder**：爬升；晋升
-  - *She climbed the corporate ladder quickly.*
+  - *She climbed the corporate ladder quickly.*（她在职场上晋升得很快。）
 - **climb down**：爬下来；让步
-  - *He climbed down from the roof carefully.*
+  - *He climbed down from the roof carefully.*（他小心翼翼地爬上屋顶。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **training scheme**：培训计划
-  - *The government launched a new training scheme for young graduates.*
+  - *The government launched a new training scheme for young graduates.*（政府为年轻毕业生推出了一项新的培训计划。）
 - **scholarship scheme**：奖学金计划
-  - *The university offers a scholarship scheme for international students.*
+  - *The university offers a scholarship scheme for international students.*（这所大学为国际学生提供奖学金计划。）
 - **colour scheme**：配色方案
-  - *The classroom has a bright colour scheme that encourages creativity.*
+  - *The classroom has a bright colour scheme that encourages creativity.*（教室有明亮的配色方案，能激发创造力。）
 - **scheme of work**：教学计划（英式英语）
-  - *Teachers are required to prepare a detailed scheme of work for each term.*
+  - *Teachers are required to prepare a detailed scheme of work for each term.*（教师需要为每学期准备详细的教学计划。）
 - **a scheme to do something**：做某事的计划/阴谋
-  - *He devised a scheme to pass the exam without studying.*
+  - *He devised a scheme to pass the exam without studying.*（他想出了一个不学习就能通过考试的阴谋。）
 
 ## 真题/语料关联
 

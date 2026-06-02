@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **newborn calf**：新生牛犊
-  - *The newborn calf stood up within minutes of being born.*
+  - *The newborn calf stood up within minutes of being born.*（新生小牛在出生后几分钟内就站了起来。）
 - **elephant calf**：幼象
-  - *The elephant calf stayed close to its mother.*
+  - *The elephant calf stayed close to its mother.*（小象紧跟在母亲身边。）
 - **calf muscle**：小腿肌肉
-  - *He pulled his calf muscle while running.*
+  - *He pulled his calf muscle while running.*（他跑步时拉伤了小腿肌肉。）
 - **calf leather**：小牛皮
-  - *The bag is made of soft calf leather.*
+  - *The bag is made of soft calf leather.*（这个包是用柔软的小牛皮制成的。）
 - **calf love**：初恋（早恋）
-  - *It was just calf love, nothing serious.*
+  - *It was just calf love, nothing serious.*（那只是青涩的初恋，不是什么认真的感情。）
 
 ## 真题/语料关联
 

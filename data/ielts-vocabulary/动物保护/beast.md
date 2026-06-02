@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a wild beast**：野兽
-  - *The hunter tracked the wild beast through the jungle.*
+  - *The hunter tracked the wild beast through the jungle.*（猎人追踪着那只野兽穿过丛林。）
 - **beast of burden**：驮畜（牛、马等）
-  - *Donkeys and horses are commonly used as beasts of burden.*
+  - *Donkeys and horses are commonly used as beasts of burden.*（驴和马常被用作役畜。）
 - **beast of prey**：猛兽（捕食其他动物的野兽）
-  - *Lions and tigers are beasts of prey.*
+  - *Lions and tigers are beasts of prey.*（狮子和老虎是猛兽。）
 - **a beast of a problem**：棘手的问题（口语）
-  - *This math problem is a real beast.*
+  - *This math problem is a real beast.*（这道数学题真是个难啃的骨头。）
 - **beast mode**：全力以赴状态（口语）
-  - *She went into beast mode and finished the project in record time.*
+  - *She went into beast mode and finished the project in record time.*（她进入了猛兽模式，创纪录地完成了项目。）
 
 ## 真题/语料关联
 

@@ -41,6 +41,10 @@ export function ReviewQueue() {
       ? `/api/review/queue?wordbookId=${activeWordbook.id}`
       : "/api/review/queue";
     const response = await fetch(url);
+    const contentType = response.headers.get("content-type") ?? "";
+    if (!contentType.includes("application/json")) {
+      throw new Error(`Server returned non-JSON response (status ${response.status})`);
+    }
     const payload = (await response.json()) as QueueResponse & { error?: string };
     if (!response.ok) {
       throw new Error(payload.error ?? "加载复习队列失败");

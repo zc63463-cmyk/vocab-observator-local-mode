@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spoil a child**：宠坏孩子
-  - *Grandparents tend to spoil their grandchildren.*
+  - *Grandparents tend to spoil their grandchildren.*（祖父母往往会宠坏他们的孙辈。）
 - **spoil the fun**：破坏乐趣
-  - *Don't spoil the fun by complaining.*
+  - *Don't spoil the fun by complaining.*（不要通过抱怨来破坏乐趣。）
 - **spoil the mood**：破坏心情
-  - *The bad news spoiled the mood of the party.*
+  - *The bad news spoiled the mood of the party.*（那个坏消息破坏了聚会的气氛。）
 - **spoil oneself**：犒劳自己
-  - *She spoiled herself with a spa day.*
+  - *She spoiled herself with a spa day.*（她用水疗日犒劳了自己。）
 - **be spoiled for choice**：选择过多
-  - *We were spoiled for choice at the buffet.*
+  - *We were spoiled for choice at the buffet.*（面对自助餐我们选择多得不知挑啥好。）
 
 ## 真题/语料关联
 

@@ -83,15 +83,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compute the result**：计算结果
-  - *The software can compute the result in seconds.*
+  - *The software can compute the result in seconds.*（该软件可以在几秒钟内计算出结果。）
 - **compute the cost**：计算成本
-  - *We need to compute the total cost of the project.*
+  - *We need to compute the total cost of the project.*（我们需要计算项目的总成本。）
 - **compute data**：处理数据
-  - *The system is designed to compute large amounts of data.*
+  - *The system is designed to compute large amounts of data.*（该系统旨在处理大量数据。）
 - **compute the trajectory**：计算轨迹
-  - *Engineers must compute the trajectory of the spacecraft.*
+  - *Engineers must compute the trajectory of the spacecraft.*（工程师必须计算航天器的轨迹。）
 - **cloud computing**：云计算
-  - *Cloud computing allows users to compute and store data remotely.*
+  - *Cloud computing allows users to compute and store data remotely.*（云计算允许用户远程计算和存储数据。）
 
 ## 真题/语料关联
 

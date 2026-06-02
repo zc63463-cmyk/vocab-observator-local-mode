@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **minus sign**：减号（−）
-  - *The minus sign indicates subtraction.*
+  - *The minus sign indicates subtraction.*（中文翻译）
 - **ten minus three equals seven**：十减三等于七
-  - *In mathematics, ten minus three equals seven.*
+  - *In mathematics, ten minus three equals seven.*（中文翻译）
 - **minus point**：缺点，不利因素
-  - *The minus point of the car is its fuel consumption.*
+  - *The minus point of the car is its fuel consumption.*（中文翻译）
 - **a real minus**：真正的劣势
-  - *The lack of parking is a real minus for the shop.*
+  - *The lack of parking is a real minus for the shop.*（中文翻译）
 - **minus temperature**：零下温度
-  - *The temperature dropped to minus 20 degrees.*
+  - *The temperature dropped to minus 20 degrees.*（中文翻译）
 
 ## 真题/语料关联
 

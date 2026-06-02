@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **portrait painter**：肖像画家
-  - *The portrait painter captured her expression perfectly.*
+  - *The portrait painter captured her expression perfectly.*（肖像画家完美地捕捉了她的表情。）
 - **landscape painter**：风景画家
-  - *The landscape painter spent hours in the countryside.*
+  - *The landscape painter spent hours in the countryside.*（风景画家在乡村度过了数小时。）
 - **house painter**：油漆工
-  - *The house painter transformed the old building.*
+  - *The house painter transformed the old building.*（油漆工改造了这栋旧建筑。）
 - **abstract painter**：抽象画家
-  - *The abstract painter used bold colors and shapes.*
+  - *The abstract painter used bold colors and shapes.*（抽象画家使用了大胆的色彩和形状。）
 - **painter's tape**：画家胶带
-  - *Use painter's tape to protect the edges.*
+  - *Use painter's tape to protect the edges.*（使用画家胶带保护边缘。）
 
 ## 真题/语料关联
 

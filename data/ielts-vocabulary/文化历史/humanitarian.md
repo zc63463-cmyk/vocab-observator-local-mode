@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **humanitarian aid/assistance**：人道主义援助
-  - *The international community provided humanitarian aid to the earthquake victims.*
+  - *The international community provided humanitarian aid to the earthquake victims.*（国际社区向地震灾民提供了人道主义援助。）
 - **humanitarian crisis**：人道主义危机
-  - *The civil war has created a severe humanitarian crisis.*
+  - *The civil war has created a severe humanitarian crisis.*（内战已造成严重的人道主义危机。）
 - **humanitarian work**：人道主义工作
-  - *She has dedicated her life to humanitarian work in developing countries.*
+  - *She has dedicated her life to humanitarian work in developing countries.*（她毕生致力于发展中国家人道主义工作。）
 - **humanitarian organization**：人道主义组织
-  - *The Red Cross is one of the largest humanitarian organizations in the world.*
+  - *The Red Cross is one of the largest humanitarian organizations in the world.*（红十字会是世界上最大的人道主义组织之一。）
 - **humanitarian grounds/reasons**：人道主义理由
-  - *The refugees were granted asylum on humanitarian grounds.*
+  - *The refugees were granted asylum on humanitarian grounds.*（这些难民基于人道主义理由获得了庇护。）
 
 ## 真题/语料关联
 

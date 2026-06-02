@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in the domain of**：在……领域
-  - *She is an expert in the domain of artificial intelligence.*
+  - *She is an expert in the domain of artificial intelligence.*（她是人工智能领域的专家。）
 - **public domain**：公共领域；公有领域
-  - *The book is now in the public domain and can be freely downloaded.*
+  - *The book is now in the public domain and can be freely downloaded.*（这本书现已进入公共领域，可以免费下载。）
 - **domain name**：域名
-  - *The company registered a new domain name for its website.*
+  - *The company registered a new domain name for its website.*（公司为其网站注册了一个新的域名。）
 - **outside someone's domain**：超出某人的领域
-  - *This question is outside my domain of expertise.*
+  - *This question is outside my domain of expertise.*（这个问题超出了我的专业领域。）
 - **expand one's domain**：扩展某人的领域
-  - *The company has expanded its domain into new markets.*
+  - *The company has expanded its domain into new markets.*（公司已将其领域扩展到新的市场。）
 
 ## 真题/语料关联
 

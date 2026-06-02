@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **provide/give impetus for/to**：为……提供推动力
-  - *The new policy provided impetus for economic reform.*
+  - *The new policy provided impetus for economic reform.*（新政策为经济改革提供了推动力。）
 - **the impetus behind**：……背后的推动力
-  - *The impetus behind the project was the need for better infrastructure.*
+  - *The impetus behind the project was the need for better infrastructure.*（该项目背后的推动力是对更好基础设施的需求。）
 - **gain impetus**：获得势头
-  - *The movement gained impetus after the election.*
+  - *The movement gained impetus after the election.*（选举后这场运动获得了势头。）
 - **lose impetus**：失去势头
-  - *The reform process has lost impetus in recent years.*
+  - *The reform process has lost impetus in recent years.*（改革进程近年来失去了势头。）
 - **a powerful/strong impetus**：强大的推动力
-  - *The crisis acted as a powerful impetus for change.*
+  - *The crisis acted as a powerful impetus for change.*（危机成为了变革的强大推动力。）
 
 ## 真题/语料关联
 

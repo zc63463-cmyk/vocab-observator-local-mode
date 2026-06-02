@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **join the circus**：加入马戏团
-  - *As a child, he dreamed of joining the circus.*
+  - *As a child, he dreamed of joining the circus.*（他小时候梦想加入马戏团。）
 - **circus show**：马戏表演
-  - *The circus show featured acrobats and trained animals.*
+  - *The circus show featured acrobats and trained animals.*（马戏表演以杂技演员和训练有素的动物为特色。）
 - **circus tent**：马戏帐篷
-  - *The big top is the main tent of a circus.*
+  - *The big top is the main tent of a circus.*（大顶篷是马戏团的主帐篷。）
 - **media circus**：媒体狂热（混乱的媒体报道）
-  - *The celebrity trial became a media circus.*
+  - *The celebrity trial became a media circus.*（这位名人的审判变成了一场媒体狂热。）
 - **political circus**：政治闹剧
-  - *The election turned into a political circus.*
+  - *The election turned into a political circus.*（选举变成了一场政治闹剧。）
 
 ## 真题/语料关联
 

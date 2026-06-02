@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **describe as**：描述为，称为
-  - *The building is described as a masterpiece of modern architecture.*
+  - *The building is described as a masterpiece of modern architecture.*（这座建筑被描述为现代建筑的杰作。）
 - **describe in detail**：详细描述
-  - *She described the accident in detail.*
+  - *She described the accident in detail.*（她详细描述了事故经过。）
 - **describe the situation**：描述情况
-  - *The report describes the current situation in the region.*
+  - *The report describes the current situation in the region.*（报告描述了该地区的当前情况。）
 - **describe a circle**：画出一个圆
-  - *The planet describes an elliptical orbit around the sun.*
+  - *The planet describes an elliptical orbit around the sun.*（这颗行星围绕太阳画出椭圆轨道。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in the realm of**：在……领域
-  - *This discovery falls within the realm of quantum physics.*
+  - *This discovery falls within the realm of quantum physics.*（这个发现属于量子物理学领域。）
 - **the realm of possibilities**：可能性的范围
-  - *With modern technology, the realm of possibilities is endless.*
+  - *With modern technology, the realm of possibilities is endless.*（有了现代技术，可能性的范围是无限的。）
 - **the realm of imagination**：想象的领域
-  - *The story takes place in the realm of imagination.*
+  - *The story takes place in the realm of imagination.*（这个故事发生在想象的领域。）
 - **beyond the realm of**：超出……的范围
-  - *This question is beyond the realm of our current understanding.*
+  - *This question is beyond the realm of our current understanding.*（这个问题超出了我们目前理解的范围。）
 - **expand one's realm**：扩展某人的领域
-  - *The artist expanded her realm of influence through social media.*
+  - *The artist expanded her realm of influence through social media.*（这位艺术家通过社交媒体扩展了她的影响力领域。）
 
 ## 真题/语料关联
 

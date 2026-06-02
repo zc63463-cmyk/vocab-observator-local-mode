@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **acquire knowledge**：习得知识
-  - *Students acquire knowledge through both formal education and life experience.*
+  - *Students acquire knowledge through both formal education and life experience.*（学生通过正规教育和生活经历习得知识。）
 - **acquire a skill**：习得技能
-  - *It takes years to acquire advanced programming skills.*
+  - *It takes years to acquire advanced programming skills.*（掌握高级编程技能需要多年时间。）
 - **acquire a taste for**：逐渐喜欢上
-  - *She has acquired a taste for classical music.*
+  - *She has acquired a taste for classical music.*（她逐渐喜欢上了古典音乐。）
 - **acquire a habit**：养成习惯
-  - *Children often acquire habits by imitating their parents.*
+  - *Children often acquire habits by imitating their parents.*（儿童常常通过模仿父母来养成习惯。）
 - **acquire a company**：收购公司
-  - *The tech giant acquired a small startup for $50 million.*
+  - *The tech giant acquired a small startup for $50 million.*（这家科技巨头以5000万美元收购了一家小型初创公司。）
 
 ## 真题/语料关联
 

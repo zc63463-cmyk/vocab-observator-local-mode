@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rectangle shape**：长方形形状
-  - *The room is in a rectangle shape, measuring 5 meters by 3 meters.*
+  - *The room is in a rectangle shape, measuring 5 meters by 3 meters.*（房间呈长方形，长5米宽3米。）
 - **rectangle of light**：长方形光斑
-  - *A rectangle of light fell on the floor through the window.*
+  - *A rectangle of light fell on the floor through the window.*（一束长方形光线透过窗户落在地板上。）
 - **golden rectangle**：黄金矩形
-  - *The golden rectangle is considered aesthetically pleasing in art and architecture.*
+  - *The golden rectangle is considered aesthetically pleasing in art and architecture.*（黄金矩形在艺术和建筑中被认为具有美学吸引力。）
 - **rectangle area**：长方形面积
-  - *Calculate the rectangle area by multiplying length by width.*
+  - *Calculate the rectangle area by multiplying length by width.*（通过长乘以宽来计算长方形面积。）
 - **rectangle pattern**：长方形图案
-  - *The fabric features a rectangle pattern in alternating colors.*
+  - *The fabric features a rectangle pattern in alternating colors.*（这种织物采用交替颜色的长方形图案。）
 
 ## 真题/语料关联
 

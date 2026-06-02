@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **insect bite**：虫咬
-  - *The insect bite on her arm became red and swollen.*
+  - *The insect bite on her arm became red and swollen.*（她手臂上被虫咬的地方又红又肿。）
 - **insect repellent**：驱虫剂
-  - *Don't forget to apply insect repellent before hiking.*
+  - *Don't forget to apply insect repellent before hiking.*（徒步前别忘了涂驱虫剂。）
 - **insect species**：昆虫物种
-  - *Thousands of insect species remain undiscovered in tropical rainforests.*
+  - *Thousands of insect species remain undiscovered in tropical rainforests.*（热带雨林中有成千上万种昆虫尚未被发现。）
 - **beneficial insect**：益虫
-  - *Bees are beneficial insects that help pollinate crops.*
+  - *Bees are beneficial insects that help pollinate crops.*（蜜蜂是有益昆虫，有助于作物授粉。）
 - **insect trap**：捕虫器
-  - *The farmer set up insect traps to protect the harvest.*
+  - *The farmer set up insect traps to protect the harvest.*（农夫设置了捕虫器以保护收成。）
 
 ## 真题/语料关联
 

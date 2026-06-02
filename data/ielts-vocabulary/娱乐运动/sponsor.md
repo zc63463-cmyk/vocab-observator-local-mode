@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **corporate sponsor**：企业赞助商
-  - *The event attracted several corporate sponsors.*
+  - *The event attracted several corporate sponsors.*（该活动吸引了多家企业赞助商。）
 - **sponsor an event**：赞助活动
-  - *The company decided to sponsor the local sports event.*
+  - *The company decided to sponsor the local sports event.*（公司决定赞助当地的体育赛事。）
 - **title sponsor**：冠名赞助商
-  - *The bank is the title sponsor of the tournament.*
+  - *The bank is the title sponsor of the tournament.*（该银行是本次锦标赛的冠名赞助商。）
 - **sponsor a child**：资助儿童
-  - *Many people choose to sponsor children in developing countries.*
+  - *Many people choose to sponsor children in developing countries.*（许多人选择资助发展中国家的儿童。）
 - **sponsor a bill**：发起议案
-  - *The senator sponsored a bill to improve healthcare.*
+  - *The senator sponsored a bill to improve healthcare.*（这位参议员发起了一项改善医疗保健的议案。）
 
 ## 真题/语料关联
 

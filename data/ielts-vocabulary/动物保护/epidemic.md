@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **epidemic outbreak**：疫情爆发
-  - *The epidemic outbreak overwhelmed the local healthcare system.*
+  - *The epidemic outbreak overwhelmed the local healthcare system.*（疫情爆发使当地的医疗系统不堪重负。）
 - **epidemic of**：……的蔓延/泛滥
-  - *There is an epidemic of obesity in many developed countries.*
+  - *There is an epidemic of obesity in many developed countries.*（许多发达国家正面临肥胖症的流行。）
 - **reach epidemic proportions**：达到流行病级别的规模
-  - *The spread of misinformation on social media has reached epidemic proportions.*
+  - *The spread of misinformation on social media has reached epidemic proportions.*（社交媒体上错误信息的传播已经达到了流行病的程度。）
 - **contain/control an epidemic**：控制疫情
-  - *Swift government action helped contain the epidemic.*
+  - *Swift government action helped contain the epidemic.*（政府的迅速行动有助于控制疫情。）
 - **epidemic curve**：流行病曲线（描述疾病传播趋势的图表）
-  - *Epidemiologists use the epidemic curve to track the spread of disease.*
+  - *Epidemiologists use the epidemic curve to track the spread of disease.*（流行病学家使用流行曲线来追踪疾病的传播。）
 
 ## 真题/语料关联
 

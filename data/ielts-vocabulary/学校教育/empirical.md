@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **empirical evidence**：实证证据
-  - *The theory is supported by strong empirical evidence.*
+  - *The theory is supported by strong empirical evidence.*（该理论得到强有力的实证证据支持。）
 - **empirical research/study**：实证研究
-  - *Empirical research has shown that exercise improves mental health.*
+  - *Empirical research has shown that exercise improves mental health.*（实证研究表明运动有助于改善心理健康。）
 - **empirical method**：实证方法
-  - *Scientists rely on empirical methods to test their hypotheses.*
+  - *Scientists rely on empirical methods to test their hypotheses.*（科学家依靠实证方法来检验他们的假设。）
 - **empirical data**：实证数据
-  - *The study collected empirical data from over 1,000 participants.*
+  - *The study collected empirical data from over 1,000 participants.*（该研究收集了来自1000多名参与者的实证数据。）
 - **empirical findings**：实证发现
-  - *Recent empirical findings challenge the traditional view.*
+  - *Recent empirical findings challenge the traditional view.*（最近的实证发现对传统观点提出了挑战。）
 
 ## 真题/语料关联
 

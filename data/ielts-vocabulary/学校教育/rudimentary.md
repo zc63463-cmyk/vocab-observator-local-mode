@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rudimentary knowledge**：基本知识
-  - *He has only a rudimentary knowledge of French.*
+  - *He has only a rudimentary knowledge of French.*（他只有法语的基本知识。）
 - **rudimentary skills**：基本技能
-  - *The course teaches rudimentary computer skills.*
+  - *The course teaches rudimentary computer skills.*（这门课程教授基本的计算机技能。）
 - **rudimentary understanding**：初步理解
-  - *Students should have a rudimentary understanding of mathematics.*
+  - *Students should have a rudimentary understanding of mathematics.*（学生应对数学有初步的理解。）
 - **rudimentary system**：不完善的系统
-  - *The rudimentary system needs significant improvements.*
+  - *The rudimentary system needs significant improvements.*（这个不完善的系统需要重大改进。）
 - **rudimentary level**：初级水平
-  - *The language course is designed for rudimentary level students.*
+  - *The language course is designed for rudimentary level students.*（这门语言课程是为初级水平的学生设计的。）
 
 ## 真题/语料关联
 

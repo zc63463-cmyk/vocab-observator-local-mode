@@ -80,15 +80,15 @@ review_count: 0
 ## 搭配与短语
 
 - **picture frame**：画框，相框
-  - *She bought a beautiful picture frame for her painting.*
+  - *She bought a beautiful picture frame for her painting.*（她为她的画买了一个漂亮的画框。）
 - **door frame**：门框
-  - *The door frame was damaged during the storm.*
+  - *The door frame was damaged during the storm.*（门框在暴风雨中受损了。）
 - **frame of mind**：心态，心境
-  - *He was in a positive frame of mind before the exam.*
+  - *He was in a positive frame of mind before the exam.*（考试前他心态很积极。）
 - **time frame**：时间范围
-  - *The project should be completed within a two-year time frame.*
+  - *The project should be completed within a two-year time frame.*（该项目应在两年时间内完成。）
 - **frame a question**：措辞问题
-  - *The way you frame a question can influence the answer.*
+  - *The way you frame a question can influence the answer.*（你提问的方式会影响答案。）
 
 ## 真题/语料关联
 

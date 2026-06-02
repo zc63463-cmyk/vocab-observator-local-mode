@@ -66,15 +66,15 @@ review_count: 0
 ## 搭配与短语
 
 - **degree Fahrenheit**：华氏度
-  - *Water boils at 212 degrees Fahrenheit.*
+  - *Water boils at 212 degrees Fahrenheit.*（水在华氏212度沸腾。）
 - **Fahrenheit scale**：华氏温标
-  - *The Fahrenheit scale is commonly used in the United States.*
+  - *The Fahrenheit scale is commonly used in the United States.*（华氏温标在美国广泛使用。）
 - **Fahrenheit temperature**：华氏温度
-  - *The Fahrenheit temperature dropped below freezing last night.*
+  - *The Fahrenheit temperature dropped below freezing last night.*（昨晚华氏温度降到了冰点以下。）
 - **Fahrenheit thermometer**：华氏温度计
-  - *He used a Fahrenheit thermometer to measure the temperature.*
+  - *He used a Fahrenheit thermometer to measure the temperature.*（他用华氏温度计测量温度。）
 - **convert to/from Fahrenheit**：转换为/从华氏温度
-  - *To convert Celsius to Fahrenheit, multiply by 1.8 and add 32.*
+  - *To convert Celsius to Fahrenheit, multiply by 1.8 and add 32.*（要将摄氏度转换为华氏度，乘以1.8再加32。）
 
 ## 真题/语料关联
 

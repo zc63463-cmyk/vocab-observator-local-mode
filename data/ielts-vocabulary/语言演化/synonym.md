@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **synonym for**：……的同义词
-  - *"Happy" is a synonym for "joyful".*
+  - *"Happy" is a synonym for "joyful".*（"Happy"是"joyful"的同义词。）
 - **find a synonym**：找同义词
-  - *Can you find a synonym for "important"?*
+  - *Can you find a synonym for "important"?*（你能找到"important"的同义词吗？）
 - **synonym dictionary/thesaurus**：同义词词典
-  - *A thesaurus is a useful tool for finding synonyms.*
+  - *A thesaurus is a useful tool for finding synonyms.*（同义词词典是查找同义词的有用工具。）
 - **be synonymous with**：与……同义
-  - *The brand name has become synonymous with quality.*
+  - *The brand name has become synonymous with quality.*（这个品牌名已成为质量的代名词。）
 - **close/near synonym**：近义词
-  - *"Big" and "large" are close synonyms.*
+  - *"Big" and "large" are close synonyms.*（"Big"和"large"是近义词。）
 
 ## 真题/语料关联
 

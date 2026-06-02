@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **practical skills**：实用技能
-  - *The course focuses on developing practical skills for the workplace.*
+  - *The course focuses on developing practical skills for the workplace.*（中文翻译）
 - **practical training/experience**：实践培训/经验
-  - *Students need practical training in addition to theoretical knowledge.*
+  - *Students need practical training in addition to theoretical knowledge.*（中文翻译）
 - **practical application**：实际应用
-  - *The practical application of this theory is still limited.*
+  - *The practical application of this theory is still limited.*（中文翻译）
 - **for practical purposes**：实际上
-  - *For practical purposes, the two methods produce the same results.*
+  - *For practical purposes, the two methods produce the same results.*（中文翻译）
 - **practical solution**：切实可行的解决方案
-  - *We need to find a practical solution to this problem.*
+  - *We need to find a practical solution to this problem.*（中文翻译）
 
 ## 真题/语料关联
 

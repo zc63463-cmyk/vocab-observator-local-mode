@@ -4,7 +4,7 @@ import { useCallback, useDeferredValue, useMemo, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 
-type MatchMode = "contain" | "prefix" | "suffix";
+type MatchMode = "contain" | "prefix" | "suffix" | "morph-prefix" | "morph-suffix";
 
 interface FreeZenCandidate {
   id: string;
@@ -14,6 +14,8 @@ interface FreeZenCandidate {
   ipa: string | null;
   short_definition: string | null;
   metadata: unknown;
+  prefixes?: string[];
+  suffixes?: string[];
 }
 
 interface FreeZenWordPickerProps {
@@ -32,6 +34,13 @@ function getSemanticField(metadata: unknown): string | null {
   );
 }
 
+function cleanMorphNeedle(needle: string, mode: MatchMode): string {
+  let n = needle.trim().toLowerCase();
+  if (mode === "morph-prefix") n = n.replace(/-$/, "");
+  if (mode === "morph-suffix") n = n.replace(/^-/, "");
+  return n;
+}
+
 function matches(
   text: string,
   needle: string,
@@ -47,6 +56,15 @@ function matches(
     default:
       return t.includes(n);
   }
+}
+
+function matchesMorph(
+  parts: string[] | undefined,
+  needle: string,
+): boolean {
+  if (!parts || parts.length === 0) return false;
+  const n = needle.toLowerCase();
+  return parts.some((p) => p.toLowerCase().includes(n));
 }
 
 /**
@@ -102,6 +120,8 @@ const MODE_CONFIG: { id: MatchMode; label: string }[] = [
   { id: "contain", label: "包含" },
   { id: "prefix", label: "前缀" },
   { id: "suffix", label: "后缀" },
+  { id: "morph-prefix", label: "词缀前缀" },
+  { id: "morph-suffix", label: "词缀后缀" },
 ];
 
 /**
@@ -128,6 +148,15 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
   const visible = useMemo(() => {
     const n = needle.toLowerCase();
     if (n === "") return candidates.slice();
+
+    if (mode === "morph-prefix") {
+      const clean = cleanMorphNeedle(needle, "morph-prefix");
+      return candidates.filter((c) => matchesMorph(c.prefixes, clean));
+    }
+    if (mode === "morph-suffix") {
+      const clean = cleanMorphNeedle(needle, "morph-suffix");
+      return candidates.filter((c) => matchesMorph(c.suffixes, clean));
+    }
 
     return candidates.filter((c) => {
       return (
@@ -205,8 +234,8 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
   if (candidates.length === 0) {
     return (
       <EmptyState
-        title="暂无可用词条"
-        description="词库中还没有已发布的词条。"
+        title="复习队列为空"
+        description="当前词本的复习队列中没有任何词条。先去加入一些词吧！"
         action={
           <Button type="button" variant="secondary" size="sm" onClick={onExit}>
             返回复习页
@@ -216,7 +245,8 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
     );
   }
 
-  const showHighlight = needle.length > 0;
+  const isMorphMode = mode === "morph-prefix" || mode === "morph-suffix";
+  const showHighlight = needle.length > 0 && !isMorphMode;
   const isFiltered = needle.length > 0;
 
   return (
@@ -230,7 +260,7 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
           选择要复习的词条
         </h2>
         <p className="mt-1 text-sm text-[var(--color-ink-soft)]">
-          自由模式下，复习不会更新你的 FSRS 进度，也不会写入复习日志。纯粹练习。
+          从当前复习队列中选择词条进行自由练习。自由模式下，复习不会更新你的 FSRS 进度，也不会写入复习日志。纯粹练习。
         </p>
       </div>
 
@@ -247,7 +277,11 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
                 ? "输入前缀，如 ab…"
                 : mode === "suffix"
                   ? "输入后缀，如 tion…"
-                  : "输入关键词搜索…"
+                  : mode === "morph-prefix"
+                    ? "输入词缀前缀，如 re, in, con…"
+                    : mode === "morph-suffix"
+                      ? "输入词缀后缀，如 tion, al, ly…"
+                      : "输入关键词搜索…"
             }
             aria-label="搜索词"
             className="w-full rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] py-2 pl-4 pr-10 text-sm text-[var(--color-ink)] outline-none transition focus:border-[var(--color-accent)]"
@@ -290,25 +324,27 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
           ))}
         </div>
 
-        {/* A-Z quick index */}
-        <div className="flex flex-wrap gap-1">
-          {activeLetters.map((letter) => (
-            <button
-              key={letter}
-              type="button"
-              onClick={() => filterByLetter(letter)}
-              className={`flex h-7 w-7 items-center justify-center rounded-lg text-xs font-semibold transition ${
-                mode === "prefix" &&
-                needle.length === 1 &&
-                needle.toUpperCase() === letter
-                  ? "bg-[var(--color-accent)] text-white"
-                  : "bg-[var(--color-surface-muted)] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)] hover:text-[var(--color-ink)]"
-              }`}
-            >
-              {letter}
-            </button>
-          ))}
-        </div>
+        {/* A-Z quick index (only for text modes) */}
+        {mode !== "morph-prefix" && mode !== "morph-suffix" && (
+          <div className="flex flex-wrap gap-1">
+            {activeLetters.map((letter) => (
+              <button
+                key={letter}
+                type="button"
+                onClick={() => filterByLetter(letter)}
+                className={`flex h-7 w-7 items-center justify-center rounded-lg text-xs font-semibold transition ${
+                  mode === "prefix" &&
+                  needle.length === 1 &&
+                  needle.toUpperCase() === letter
+                    ? "bg-[var(--color-accent)] text-white"
+                    : "bg-[var(--color-surface-muted)] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)] hover:text-[var(--color-ink)]"
+                }`}
+              >
+                {letter}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Stats + actions */}
         <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-[var(--color-ink-soft)]">
@@ -385,6 +421,12 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
               )}
               {mode === "contain" && (
                 <>没有包含「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」的词条。</>
+              )}
+              {mode === "morph-prefix" && (
+                <>没有包含前缀词素「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」的词条。</>
+              )}
+              {mode === "morph-suffix" && (
+                <>没有包含后缀词素「<span className="font-semibold text-[var(--color-ink)]">{needle}</span>」的词条。</>
               )}
             </p>
             <button
@@ -474,11 +516,45 @@ export function FreeZenWordPicker({ candidates, onStart, onExit }: FreeZenWordPi
                           )}
                         </span>
                       )}
-                      {semanticField && (
-                        <span className="mt-1 inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
-                          {semanticField}
-                        </span>
-                      )}
+                      <span className="mt-1 flex flex-wrap gap-1">
+                        {semanticField && (
+                          <span className="inline-block rounded-full bg-[var(--color-surface-muted)] px-2 py-0.5 text-[10px] text-[var(--color-ink-soft)]">
+                            {semanticField}
+                          </span>
+                        )}
+                        {c.prefixes && c.prefixes.length > 0 &&
+                          c.prefixes.map((pfx) => {
+                            const isHit = mode === "morph-prefix" && needle.length > 0 && pfx.toLowerCase().includes(cleanMorphNeedle(needle, "morph-prefix"));
+                            return (
+                              <span
+                                key={`pre-${pfx}`}
+                                className={`inline-block rounded-full px-2 py-0.5 text-[10px] ${
+                                  isHit
+                                    ? "bg-[var(--color-accent)] text-white font-semibold"
+                                    : "bg-[var(--color-surface-muted)] text-[var(--color-ink-soft)]"
+                                }`}
+                              >
+                                {pfx}-
+                              </span>
+                            );
+                          })}
+                        {c.suffixes && c.suffixes.length > 0 &&
+                          c.suffixes.map((sfx) => {
+                            const isHit = mode === "morph-suffix" && needle.length > 0 && sfx.toLowerCase().includes(cleanMorphNeedle(needle, "morph-suffix"));
+                            return (
+                              <span
+                                key={`suf-${sfx}`}
+                                className={`inline-block rounded-full px-2 py-0.5 text-[10px] ${
+                                  isHit
+                                    ? "bg-[var(--color-accent)] text-white font-semibold"
+                                    : "bg-[var(--color-surface-muted)] text-[var(--color-ink-soft)]"
+                                }`}
+                              >
+                                -{sfx}
+                              </span>
+                            );
+                          })}
+                      </span>
                     </span>
                   </button>
                 </li>

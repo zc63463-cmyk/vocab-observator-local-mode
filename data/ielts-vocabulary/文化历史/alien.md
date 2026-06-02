@@ -70,17 +70,17 @@ review_count: 0
 ## 搭配与短语
 
 - **illegal alien**：非法移民（法律用语）
-  - *The government deported hundreds of illegal aliens last year.*
+  - *The government deported hundreds of illegal aliens last year.*（去年政府驱逐了数百名非法移民。）
 - **alien species**：外来物种
-  - *Invasive alien species can cause significant damage to local ecosystems.*
+  - *Invasive alien species can cause significant damage to local ecosystems.*（外来入侵物种可能对当地生态系统造成重大损害。）
 - **alien life form**：外星生命形式
-  - *Scientists are searching for evidence of alien life forms on Mars.*
+  - *Scientists are searching for evidence of alien life forms on Mars.*（科学家正在火星上寻找外星生命形式的证据。）
 - **alien invasion**：外星人入侵
-  - *The movie depicts an alien invasion of Earth.*
+  - *The movie depicts an alien invasion of Earth.*（这部电影描绘了外星人入侵地球的场景。）
 - **alien concept/idea**：陌生的概念
-  - *The idea of living without technology is completely alien to modern teenagers.*
+  - *The idea of living without technology is completely alien to modern teenagers.*（对现代青少年来说，没有科技的生活是完全陌生的概念。）
 - **feel alien (to someone)**：（对某人来说）感觉陌生
-  - *The culture felt completely alien to her.*
+  - *The culture felt completely alien to her.*（这种文化让她感到完全陌生。）
 
 ## 真题/语料关联
 

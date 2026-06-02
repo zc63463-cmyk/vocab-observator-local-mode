@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **independent variable**：自变量
-  - *The researcher manipulated the independent variable.*
+  - *The researcher manipulated the independent variable.*（研究人员操纵了自变量。）
 - **dependent variable**：因变量
-  - *The dependent variable is measured in the experiment.*
+  - *The dependent variable is measured in the experiment.*（因变量在实验中被测量。）
 - **key variable**：关键变量
-  - *Income is a key variable in the study.*
+  - *Income is a key variable in the study.*（收入是研究中的一个关键变量。）
 - **variable speed/temperature**：可变速度/温度
-  - *The drill has variable speed control.*
+  - *The drill has variable speed control.*（这台钻机有变速控制功能。）
 - **variable weather**：多变的天气
-  - *The weather here is very variable in spring.*
+  - *The weather here is very variable in spring.*（这里的春天天气非常多变。）
 
 ## 真题/语料关联
 

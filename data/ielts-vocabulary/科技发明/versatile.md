@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **versatile tool**：多功能工具
-  - *A good chef's knife is one of the most versatile tools in the kitchen.*
+  - *A good chef's knife is one of the most versatile tools in the kitchen.*（一把好的厨师刀是厨房里用途最广泛的工具之一。）
 - **versatile performer**：多才多艺的表演者
-  - *She is a versatile performer who can sing, dance, and act.*
+  - *She is a versatile performer who can sing, dance, and act.*（她是一位能唱、能跳、能演的多才多艺的表演者。）
 - **highly versatile**：用途非常广泛的
-  - *This software is highly versatile and can be adapted to various industries.*
+  - *This software is highly versatile and can be adapted to various industries.*（这款软件用途非常广泛，可以适用于各种行业。）
 - **versatile material**：用途广泛的材料
-  - *Bamboo is a remarkably versatile material used in construction and crafts.*
+  - *Bamboo is a remarkably versatile material used in construction and crafts.*（竹子是一种用途非常广泛的材料，用于建筑和手工艺。）
 - **versatile enough to**：足够多才/多功能以至于能
-  - *The system is versatile enough to handle both small and large-scale projects.*
+  - *The system is versatile enough to handle both small and large-scale projects.*（该系统足够多功能，可以处理小型和大型项目。）
 
 ## 真题/语料关联
 

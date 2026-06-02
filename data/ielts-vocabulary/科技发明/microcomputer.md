@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **personal microcomputer**：个人微型计算机
-  - *The personal microcomputer revolutionized home computing in the 1980s.*
+  - *The personal microcomputer revolutionized home computing in the 1980s.*（个人微型计算机在20世纪80年代彻底改变了家庭计算。）
 - **home microcomputer**：家用微型计算机
-  - *Home microcomputers became popular for gaming and education.*
+  - *Home microcomputers became popular for gaming and education.*（家用微型计算机在游戏和教育领域流行起来。）
 - **microcomputer system**：微型计算机系统
-  - *The microcomputer system controls the factory's production line.*
+  - *The microcomputer system controls the factory's production line.*（微型计算机系统控制着工厂的生产线。）
 - **microcomputer chip**：微型计算机芯片
-  - *The microcomputer chip integrates all essential computing functions.*
+  - *The microcomputer chip integrates all essential computing functions.*（微型计算机芯片集成了所有基本的计算功能。）
 - **microcomputer-based**：基于微型计算机的
-  - *The microcomputer-based system is cost-effective and reliable.*
+  - *The microcomputer-based system is cost-effective and reliable.*（基于微型计算机的系统性价比高且可靠。）
 
 ## 真题/语料关联
 

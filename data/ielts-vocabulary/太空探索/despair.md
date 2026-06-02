@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sink/fall into despair**：陷入绝望
-  - *After months of failed attempts, he sank into despair.*
+  - *After months of failed attempts, he sank into despair.*（经过数月的失败尝试，他陷入了绝望。）
 - **in despair**：绝望地
-  - *She cried out in despair when she heard the news.*
+  - *She cried out in despair when she heard the news.*（听到这个消息时，她绝望地哭喊起来。）
 - **cry of despair**：绝望的呼喊
-  - *The prisoners' cries of despair echoed through the camp.*
+  - *The prisoners' cries of despair echoed through the camp.*（囚犯们绝望的呼喊声在营地中回荡。）
 - **never despair**：永不绝望
-  - *The motto of the rescue team is: never despair.*
+  - *The motto of the rescue team is: never despair.*（救援队的座右铭是：永不绝望。）
 - **drive someone to despair**：使某人陷入绝望
-  - *The constant failures drove him to despair.*
+  - *The constant failures drove him to despair.*（不断的失败使他陷入绝望。）
 
 ## 真题/语料关联
 

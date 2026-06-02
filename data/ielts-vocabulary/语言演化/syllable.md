@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **stressed/unstressed syllable**：重读/非重读音节
-  - *In English, the stressed syllable is usually louder and longer.*
+  - *In English, the stressed syllable is usually louder and longer.*（在英语中，重读音节通常声音更大、持续时间更长。）
 - **vowel/consonant syllable**：元音/辅音音节
-  - *Every syllable must contain at least one vowel sound.*
+  - *Every syllable must contain at least one vowel sound.*（每个音节必须至少包含一个元音。）
 - **break into syllables**：分成音节
-  - *Let's break this word into syllables.*
+  - *Let's break this word into syllables.*（让我们把这个词分成音节。）
 - **not a syllable**：只言片语（否定）
-  - *She didn't say a syllable about the incident.*
+  - *She didn't say a syllable about the incident.*（她对这件事只字未提。）
 
 ## 真题/语料关联
 

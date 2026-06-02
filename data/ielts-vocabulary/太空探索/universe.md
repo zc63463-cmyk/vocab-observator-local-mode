@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the universe**：宇宙
-  - *The universe is estimated to be about 13.8 billion years old.*
+  - *The universe is estimated to be about 13.8 billion years old.*（宇宙估计约有138亿年历史。）
 - **observable universe**：可观测宇宙
-  - *The observable universe contains an estimated two trillion galaxies.*
+  - *The observable universe contains an estimated two trillion galaxies.*（可观测宇宙中估计包含两万亿个星系。）
 - **parallel universe**：平行宇宙
-  - *Some physicists theorize about the existence of parallel universes.*
+  - *Some physicists theorize about the existence of parallel universes.*（一些物理学家推测平行宇宙的存在。）
 - **expand the universe**：扩展宇宙（比喻义：扩大视野）
-  - *Traveling abroad can expand your universe of experience.*
+  - *Traveling abroad can expand your universe of experience.*（出国旅行可以扩展你的阅历世界。）
 - **universe of discourse**：论域（逻辑/数学术语）
-  - *In logic, the universe of discourse defines the set of entities being discussed.*
+  - *In logic, the universe of discourse defines the set of entities being discussed.*（在逻辑学中，论域定义了正在讨论的实体集合。）
 
 ## 真题/语料关联
 

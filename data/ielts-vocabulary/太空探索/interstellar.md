@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **interstellar space**：星际空间
-  - *Interstellar space is the region between star systems.*
+  - *Interstellar space is the region between star systems.*（星际空间是恒星系统之间的区域。）
 - **interstellar medium**：星际介质
-  - *The interstellar medium consists of gas and dust between stars.*
+  - *The interstellar medium consists of gas and dust between stars.*（星际介质由恒星之间的气体和尘埃组成。）
 - **interstellar travel**：星际旅行
-  - *Interstellar travel remains a dream due to the vast distances involved.*
+  - *Interstellar travel remains a dream due to the vast distances involved.*（由于涉及的距离极其遥远，星际旅行仍然是一个梦想。）
 - **interstellar probe**：星际探测器
-  - *Voyager 1 is now an interstellar probe, traveling beyond our solar system.*
+  - *Voyager 1 is now an interstellar probe, traveling beyond our solar system.*（旅行者1号现在是一个星际探测器，正在穿越太阳系之外。）
 - **interstellar dust**：星际尘埃
-  - *Interstellar dust can block our view of distant stars.*
+  - *Interstellar dust can block our view of distant stars.*（星际尘埃可能遮挡我们对遥远恒星的视线。）
 
 ## 真题/语料关联
 

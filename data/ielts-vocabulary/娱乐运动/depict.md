@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **depict a scene**：描绘场景
-  - *The painting depicts a beautiful countryside scene.*
+  - *The painting depicts a beautiful countryside scene.*（这幅画描绘了美丽的乡村景色。）
 - **depict a character**：刻画人物
-  - *The novel depicts the character's inner struggles.*
+  - *The novel depicts the character's inner struggles.*（这部小说刻画了角色的内心挣扎。）
 - **depict as**：描绘成
-  - *The media often depicts the city as dangerous.*
+  - *The media often depicts the city as dangerous.*（媒体经常把这座城市描绘成危险的。）
 - **depict in detail**：详细描绘
-  - *The report depicts the situation in detail.*
+  - *The report depicts the situation in detail.*（报告详细描绘了情况。）
 
 ## 真题/语料关联
 

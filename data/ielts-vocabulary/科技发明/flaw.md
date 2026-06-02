@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a flaw in**：……中的缺陷
-  - *There is a flaw in your reasoning.*
+  - *There is a flaw in your reasoning.*（你的推理中存在一个缺陷。）
 - **fatal flaw**：致命缺陷
-  - *The plan had a fatal flaw that led to its failure.*
+  - *The plan had a fatal flaw that led to its failure.*（该计划有一个导致其失败的致命缺陷。）
 - **design flaw**：设计缺陷
-  - *The car was recalled due to a design flaw.*
+  - *The car was recalled due to a design flaw.*（这辆车因设计缺陷被召回。）
 - **character flaw**：性格缺陷
-  - *His arrogance was his biggest character flaw.*
+  - *His arrogance was his biggest character flaw.*（傲慢是他最大的性格缺陷。）
 - **without flaw**：完美无缺
-  - *The diamond was without flaw.*
+  - *The diamond was without flaw.*（这颗钻石完美无瑕。）
 
 ## 真题/语料关联
 

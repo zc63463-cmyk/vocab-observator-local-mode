@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **roast lamb**：烤羊肉
-  - *We had roast lamb for dinner.*
+  - *We had roast lamb for dinner.*（我们晚餐吃了烤羊肉。）
 - **lamb chop**：羊排
-  - *The lamb chops were grilled to perfection.*
+  - *The lamb chops were grilled to perfection.*（羊排烤得恰到好处。）
 - **gentle as a lamb**：像羔羊一样温顺
-  - *She's as gentle as a lamb.*
+  - *She's as gentle as a lamb.*（她像羔羊一样温顺。）
 - **Lamb of God**：上帝的羔羊（耶稣）
-  - *Jesus is referred to as the Lamb of God.*
+  - *Jesus is referred to as the Lamb of God.*（耶稣被称为上帝的羔羊。）
 - **lamb to the slaughter**：任人宰割的羔羊
-  - *He went to the meeting like a lamb to the slaughter.*
+  - *He went to the meeting like a lamb to the slaughter.*（他像待宰的羔羊一样顺从地去参加了会议。）
 
 ## 真题/语料关联
 

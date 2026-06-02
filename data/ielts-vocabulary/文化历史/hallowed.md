@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hallowed ground**：圣地，神圣的土地
-  - *The cemetery is hallowed ground where soldiers are buried.*
+  - *The cemetery is hallowed ground where soldiers are buried.*（公墓是安葬士兵的圣地。）
 - **hallowed traditions**：备受尊崇的传统
-  - *The university preserves its hallowed traditions dating back centuries.*
+  - *The university preserves its hallowed traditions dating back centuries.*（这所大学保留了可追溯到几个世纪前的神圣传统。）
 - **hallowed halls**：神圣的殿堂（常指大学或重要机构）
-  - *She walked through the hallowed halls of Oxford University.*
+  - *She walked through the hallowed halls of Oxford University.*（她走过牛津大学神圣的殿堂。）
 - **hallowed name**：神圣的名字
-  - *The hallowed name of the founder is still remembered today.*
+  - *The hallowed name of the founder is still remembered today.*（创始人的神圣名字至今仍被铭记。）
 - **hallowed be thy name**：愿人都尊你的名为圣（主祷文）
-  - *In the Lord's Prayer, Christians say "hallowed be thy name."*
+  - *In the Lord's Prayer, Christians say "hallowed be thy name."*（在主祷文中，基督徒说"愿人都尊你的名为圣"。）
 
 ## 真题/语料关联
 

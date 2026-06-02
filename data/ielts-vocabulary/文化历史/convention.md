@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **social convention**：社会惯例
-  - *Social conventions dictate how we behave in public places.*
+  - *Social conventions dictate how we behave in public places.*（社会惯例决定了我们在公共场合的行为方式。）
 - **by convention**：按照惯例
-  - *By convention, the chairman opens the meeting.*
+  - *By convention, the chairman opens the meeting.*（按照惯例，由主席宣布会议开始。）
 - **international convention**：国际公约
-  - *The Geneva Convention sets standards for the treatment of prisoners of war.*
+  - *The Geneva Convention sets standards for the treatment of prisoners of war.*（《日内瓦公约》规定了战俘待遇的标准。）
 - **annual convention**：年会
-  - *The company holds its annual convention in a different city each year.*
+  - *The company holds its annual convention in a different city each year.*（公司每年在不同城市举办年会。）
 - **break with convention**：打破惯例
-  - *The artist decided to break with convention and create something entirely new.*
+  - *The artist decided to break with convention and create something entirely new.*（这位艺术家决定打破常规，创造全新的作品。）
 
 ## 真题/语料关联
 

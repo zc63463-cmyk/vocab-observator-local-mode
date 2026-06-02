@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sacred ground**：圣地
-  - *The battlefield is considered sacred ground by many veterans.*
+  - *The battlefield is considered sacred ground by many veterans.*（战场被许多退伍军人视为圣地。）
 - **sacred text**：神圣经典
-  - *The Bible, Quran, and Torah are sacred texts for their respective religions.*
+  - *The Bible, Quran, and Torah are sacred texts for their respective religions.*（圣经、古兰经和托拉分别是各自宗教的圣典。）
 - **sacred tradition**：神圣传统
-  - *The ceremony follows a sacred tradition that dates back centuries.*
+  - *The ceremony follows a sacred tradition that dates back centuries.*（仪式遵循着古老的神圣传统。）
 - **sacred promise**：庄严承诺
-  - *He made a sacred promise to protect his family.*
+  - *He made a sacred promise to protect his family.*（他做出了保护家人的神圣承诺。）
 - **hold sacred**：视为神圣
-  - *The tribe holds the mountain sacred and forbids anyone from climbing it.*
+  - *The tribe holds the mountain sacred and forbids anyone from climbing it.*（这个部落视这座山为神圣，禁止任何人攀登。）
 
 ## 真题/语料关联
 

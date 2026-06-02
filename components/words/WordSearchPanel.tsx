@@ -123,6 +123,9 @@ const MODE_CONFIG: { id: MatchMode; label: string }[] = [
   { id: "suffix", label: "后缀" },
 ];
 
+/** 考研词包含的词频子类（必备词、超纲词、基础词） */
+const GAOKAO_FREQS = ["必备词", "超纲词", "基础词"];
+
 /**
  * 词条库页面的「搜索浏览」面板。
  *
@@ -215,7 +218,11 @@ export function WordSearchPanel({
       }
       if (freqFilter) {
         const wf = getWordFreq(w.metadata);
-        if (wf !== freqFilter) return false;
+        if (freqFilter === "考研词") {
+          if (!wf || !GAOKAO_FREQS.includes(wf)) return false;
+        } else if (wf !== freqFilter) {
+          return false;
+        }
       }
       return true;
     });
@@ -442,6 +449,9 @@ export function WordSearchPanel({
               className="w-full appearance-none rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] py-2.5 pl-4 pr-10 text-sm text-[var(--color-ink)] outline-none transition focus:border-[var(--color-accent)]"
             >
               <option value="">全部词频</option>
+              {GAOKAO_FREQS.some((g) => freqOptions.includes(g)) && (
+                <option value="考研词">考研词</option>
+              )}
               {freqOptions.map((value) => (
                 <option key={value} value={value}>{value}</option>
               ))}

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mature animal**：成年动物
-  - *The mature animal was much larger than the young cub.*
+  - *The mature animal was much larger than the young cub.*（成年动物比幼崽大得多。）
 - **mature trees**：成年树木
-  - *The forest was filled with mature trees that had been growing for centuries.*
+  - *The forest was filled with mature trees that had been growing for centuries.*（森林里满是生长了几个世纪的参天大树。）
 - **mature attitude**：成熟的态度
-  - *She showed a mature attitude towards handling the difficult situation.*
+  - *She showed a mature attitude towards handling the difficult situation.*（她在处理困难局面时表现出了成熟的态度。）
 - **mature cheese**：成熟的奶酪
-  - *The mature cheese had a rich, complex flavor.*
+  - *The mature cheese had a rich, complex flavor.*（成熟的奶酪味道浓郁复杂。）
 - **mature into**：成长为
-  - *The young bird will mature into a beautiful eagle.*
+  - *The young bird will mature into a beautiful eagle.*（这只幼鸟将长成一只美丽的鹰。）
 
 ## 真题/语料关联
 

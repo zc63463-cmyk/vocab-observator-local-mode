@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **car accident**：车祸
-  - *She was injured in a car accident last week.*
+  - *She was injured in a car accident last week.*（她上周在一场车祸中受伤了。）
 - **by accident**：偶然地，意外地
-  - *I found the letter by accident while cleaning.*
+  - *I found the letter by accident while cleaning.*（我在打扫时偶然发现了那封信。）
 - **accident prone**：容易出事故的
-  - *He's accident prone and often trips over his own feet.*
+  - *He's accident prone and often trips over his own feet.*（他容易出事故，经常被自己的脚绊倒。）
 - **industrial accident**：工伤事故
-  - *The factory has strict safety measures to prevent industrial accidents.*
+  - *The factory has strict safety measures to prevent industrial accidents.*（工厂有严格的安全措施来防止工伤事故。）
 - **accident of birth**：出身的偶然性
-  - *Success shouldn't depend on the accident of birth.*
+  - *Success shouldn't depend on the accident of birth.*（成功不应该取决于出身的偶然性。）
 
 ## 真题/语料关联
 

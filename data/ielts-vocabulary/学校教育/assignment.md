@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **homework assignment**：家庭作业
-  - *The teacher gave us a homework assignment due next week.*
+  - *The teacher gave us a homework assignment due next week.*（老师给了我们一份下周要交的家庭作业。）
 - **complete/finish an assignment**：完成作业
-  - *I need to complete the assignment before the deadline.*
+  - *I need to complete the assignment before the deadline.*（我需要在截止日期前完成作业。）
 - **hand in/submit an assignment**：提交作业
-  - *Students must submit their assignments online.*
+  - *Students must submit their assignments online.*（学生必须在网上提交作业。）
 - **work assignment**：工作任务
-  - *He was given a new work assignment in the marketing department.*
+  - *He was given a new work assignment in the marketing department.*（他在市场部得到了一个新的工作任务。）
 - **on assignment**：执行任务
-  - *The journalist is on assignment in the Middle East.*
+  - *The journalist is on assignment in the Middle East.*（那位记者正在中东执行任务。）
 
 ## 真题/语料关联
 

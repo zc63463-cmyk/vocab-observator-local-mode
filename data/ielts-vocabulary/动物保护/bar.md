@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **behind bars**：在监狱里（被铁栏关着）
-  - *The criminal was sentenced to ten years behind bars.*
+  - *The criminal was sentenced to ten years behind bars.*（该罪犯被判处十年监禁。）
 - **bar none**：无例外地
-  - *She is the best teacher I've ever had, bar none.*
+  - *She is the best teacher I've ever had, bar none.*（她是我遇到过的最好的老师，无人能比。）
 - **bar someone from**：禁止某人做某事
-  - *He was barred from entering the country.*
+  - *He was barred from entering the country.*（他被禁止进入该国。）
 - **chocolate bar**：巧克力块
-  - *She grabbed a chocolate bar from the vending machine.*
+  - *She grabbed a chocolate bar from the vending machine.*（她从自动售货机里拿了一块巧克力棒。）
 - **snack bar**：小吃吧，零食柜台
-  - *The snack bar at the cinema sells popcorn and drinks.*
+  - *The snack bar at the cinema sells popcorn and drinks.*（电影院的零食吧出售爆米花和饮料。）
 - **set the bar (high/low)**：设定（高/低）标准
-  - *The new policy sets the bar very high for environmental compliance.*
+  - *The new policy sets the bar very high for environmental compliance.*（新政策为环境合规设定了很高的标准。）
 
 ## 真题/语料关联
 

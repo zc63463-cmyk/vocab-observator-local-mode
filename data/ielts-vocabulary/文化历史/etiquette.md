@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **social etiquette**：社交礼仪
-  - *Good social etiquette includes being punctual and listening when others speak.*
+  - *Good social etiquette includes being punctual and listening when others speak.*（良好的社交礼仪包括守时和倾听他人讲话。）
 - **business etiquette**：商务礼仪
-  - *Understanding business etiquette is essential when working with international clients.*
+  - *Understanding business etiquette is essential when working with international clients.*（了解商务礼仪在与国际客户合作时至关重要。）
 - **dining etiquette**：餐桌礼仪
-  - *In many Western countries, dining etiquette requires you to keep your hands visible on the table.*
+  - *In many Western countries, dining etiquette requires you to keep your hands visible on the table.*（在许多西方国家，餐桌礼仪要求你把手放在桌子上可见的位置。）
 - **netiquette**：网络礼仪
-  - *Netiquette dictates that you should avoid using all capital letters in emails, as it appears as though you are shouting.*
+  - *Netiquette dictates that you should avoid using all capital letters in emails, as it appears as though you are shouting.*（网络礼仪要求避免在电子邮件中全部使用大写字母，因为这看起来像是在喊叫。）
 - **breach of etiquette**：失礼
-  - *Using your phone during a formal dinner is considered a breach of etiquette.*
+  - *Using your phone during a formal dinner is considered a breach of etiquette.*（在正式晚宴上使用手机被认为是失礼行为。）
 
 ## 真题/语料关联
 

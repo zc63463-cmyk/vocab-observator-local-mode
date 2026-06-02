@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **rooster** (美式英语)：公鸡
-  - *The rooster crowed at dawn.*
+  - *The rooster crowed at dawn.*（公鸡在黎明时啼叫。）
 - **cock of the walk**：称王称霸的人
-  - *He acts like the cock of the walk in the office.*
+  - *He acts like the cock of the walk in the office.*（他在办公室里表现得像个老大。）
 - **cock one's ear**：竖起耳朵（仔细听）
-  - *The dog cocked its ear at the strange sound.*
+  - *The dog cocked its ear at the strange sound.*（狗听到奇怪的声音竖起了耳朵。）
 - **cock the gun**：扳起枪的击锤
-  - *The soldier cocked his gun and aimed at the target.*
+  - *The soldier cocked his gun and aimed at the target.*（士兵扳起枪的击锤，瞄准了目标。）
 - **cock and bull story**：无稽之谈，荒诞的故事
-  - *He told me some cock and bull story about losing his wallet.*
+  - *He told me some cock and bull story about losing his wallet.*（他给我编了个丢钱包的荒唐故事。）
 - **at full cock**：准备就绪
-  - *The team was at full cock, ready for the competition.*
+  - *The team was at full cock, ready for the competition.*（全队蓄势待发，准备迎接比赛。）
 
 ## 真题/语料关联
 

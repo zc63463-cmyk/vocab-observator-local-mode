@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a herd of cattle**：一群牛
-  - *The farmer has a herd of cattle on his ranch.*
+  - *The farmer has a herd of cattle on his ranch.*（农场主在他的牧场上有一群牛。）
 - **cattle ranch**：养牛场
-  - *The cattle ranch covers over 1000 acres.*
+  - *The cattle ranch covers over 1000 acres.*（这个养牛场占地超过1000英亩。）
 - **cattle farming**：养牛业
-  - *Cattle farming is a major industry in Argentina.*
+  - *Cattle farming is a major industry in Argentina.*（养牛业是阿根廷的主要产业。）
 - **cattle market**：牛市场；人才市场（俚语）
-  - *The cattle market was bustling with activity.*
+  - *The cattle market was bustling with activity.*（牲畜市场一片繁忙景象。）
 - **cattle prod**：牛刺（驱赶牛的工具）
-  - *The farmer used a cattle prod to move the cows.*
+  - *The farmer used a cattle prod to move the cows.*（农夫用赶牛棒驱赶牛群。）
 
 ## 真题/语料关联
 

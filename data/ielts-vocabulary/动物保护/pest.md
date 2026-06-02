@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **agricultural pest**：农业害虫
-  - *Farmers use various methods to control agricultural pests.*
+  - *Farmers use various methods to control agricultural pests.*（农民使用各种方法来控制农业害虫。）
 - **pest control**：害虫防治，病虫害控制
-  - *Regular pest control is essential in tropical regions.*
+  - *Regular pest control is essential in tropical regions.*（在热带地区定期进行虫害防治至关重要。）
 - **pesticide**：杀虫剂，农药
-  - *The use of pesticides has increased crop yields but raised environmental concerns.*
+  - *The use of pesticides has increased crop yields but raised environmental concerns.*（农药的使用提高了作物产量，但也引发了环境担忧。）
 - **be a pest**：是个烦人精
-  - *My little brother can be such a pest sometimes.*
+  - *My little brother can be such a pest sometimes.*（我的小弟弟有时候真是个烦人精。）
 - **pest management**：病虫害综合治理
-  - *Integrated pest management combines biological and chemical methods.*
+  - *Integrated pest management combines biological and chemical methods.*（综合虫害管理结合了生物和化学方法。）
 
 ## 真题/语料关联
 

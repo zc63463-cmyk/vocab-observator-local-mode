@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in my opinion**：在我看来
-  - *In my opinion, the best solution is to increase funding for education.*
+  - *In my opinion, the best solution is to increase funding for education.*（中文翻译）
 - **express an opinion**：表达意见
-  - *Students should be encouraged to express their opinions.*
+  - *Students should be encouraged to express their opinions.*（中文翻译）
 - **public opinion**：公众舆论
-  - *Public opinion has shifted in favor of renewable energy.*
+  - *Public opinion has shifted in favor of renewable energy.*（中文翻译）
 - **opinion poll**：民意调查
-  - *The opinion poll shows that most people support the policy.*
+  - *The opinion poll shows that most people support the policy.*（中文翻译）
 - **have a high/low opinion of**：对……评价高/低
-  - *She has a high opinion of her colleague's work.*
+  - *She has a high opinion of her colleague's work.*（中文翻译）
 
 ## 真题/语料关联
 

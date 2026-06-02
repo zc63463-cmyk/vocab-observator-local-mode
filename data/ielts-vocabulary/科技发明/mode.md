@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mode of transport**：交通方式
-  - *Public transport is a more sustainable mode of transport.*
+  - *Public transport is a more sustainable mode of transport.*（公共交通是一种更可持续的交通方式。）
 - **switch to mode**：切换到某种模式
-  - *The phone automatically switches to airplane mode during flights.*
+  - *The phone automatically switches to airplane mode during flights.*（手机在飞行期间会自动切换到飞行模式。）
 - **default mode**：默认模式
-  - *The software returns to its default mode after restarting.*
+  - *The software returns to its default mode after restarting.*（软件重启后会恢复到默认模式。）
 - **in mode**：处于某种模式
-  - *The device is in sleep mode to save battery.*
+  - *The device is in sleep mode to save battery.*（设备处于睡眠模式以节省电量。）
 - **mode of operation**：操作方式
-  - *The new mode of operation is more efficient.*
+  - *The new mode of operation is more efficient.*（新的操作方式更加高效。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in the background**：在背景中
-  - *There were mountains in the background of the photo.*
+  - *There were mountains in the background of the photo.*（照片的背景中有山脉。）
 - **educational background**：教育背景
-  - *Candidates must have a strong educational background.*
+  - *Candidates must have a strong educational background.*（候选人必须有良好的教育背景。）
 - **background information**：背景信息
-  - *The report provides background information on the issue.*
+  - *The report provides background information on the issue.*（报告提供了关于这个问题的背景信息。）
 - **background music**：背景音乐
-  - *The restaurant played soft background music.*
+  - *The restaurant played soft background music.*（餐厅播放了轻柔的背景音乐。）
 - **cultural background**：文化背景
-  - *Understanding cultural background is important for effective communication.*
+  - *Understanding cultural background is important for effective communication.*（了解文化背景对于有效沟通很重要。）
 
 ## 真题/语料关联
 

@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **diagnose something**：诊断某事
-  - *The doctor diagnosed the illness quickly.*
+  - *The doctor diagnosed the illness quickly.*（医生很快就诊断出了这种疾病。）
 - **diagnose with**：被诊断为
-  - *She was diagnosed with diabetes last year.*
+  - *She was diagnosed with diabetes last year.*（她去年被诊断出患有糖尿病。）
 - **diagnose the problem**：诊断问题
-  - *The mechanic diagnosed the problem with the engine.*
+  - *The mechanic diagnosed the problem with the engine.*（机械师诊断了发动机的问题。）
 - **correctly/accurately diagnose**：正确/准确诊断
-  - *The disease is often difficult to diagnose accurately.*
+  - *The disease is often difficult to diagnose accurately.*（这种疾病常常难以准确诊断。）
 - **diagnosis** (n.)：诊断
-  - *The diagnosis confirmed our worst fears.*
+  - *The diagnosis confirmed our worst fears.*（诊断结果证实了我们最坏的担心。）
 
 ## 真题/语料关联
 

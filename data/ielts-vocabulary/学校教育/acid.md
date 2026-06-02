@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sulfuric acid**：硫酸
-  - *Sulfuric acid is used in many industrial processes.*
+  - *Sulfuric acid is used in many industrial processes.*（硫酸用于许多工业流程。）
 - **citric acid**：柠檬酸
-  - *Citric acid gives lemons their sour taste.*
+  - *Citric acid gives lemons their sour taste.*（柠檬酸赋予柠檬酸味。）
 - **acid rain**：酸雨
-  - *Acid rain can damage buildings and harm vegetation.*
+  - *Acid rain can damage buildings and harm vegetation.*（酸雨会损坏建筑物并危害植被。）
 - **acid remark**：尖刻的评论
-  - *She made an acid remark about his appearance.*
+  - *She made an acid remark about his appearance.*（她对她的外表发表了尖刻的评论。）
 - **acid test**：严峻的考验
-  - *The acid test of the policy will be its long-term effects.*
+  - *The acid test of the policy will be its long-term effects.*（这项政策的严峻考验在于其长期效果。）
 
 ## 真题/语料关联
 

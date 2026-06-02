@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **learn a language**：学习一门语言
-  - *She wants to learn Japanese before her trip to Tokyo.*
+  - *She wants to learn Japanese before her trip to Tokyo.*（中文翻译）
 - **learn to do sth**：学会做某事
-  - *Children learn to walk at around one year old.*
+  - *Children learn to walk at around one year old.*（中文翻译）
 - **learn about**：了解；学习关于……
-  - *We learned about the history of ancient Rome in class.*
+  - *We learned about the history of ancient Rome in class.*（中文翻译）
 - **learn by heart**：背熟；记住
-  - *The teacher asked us to learn the poem by heart.*
+  - *The teacher asked us to learn the poem by heart.*（中文翻译）
 - **learn from mistakes**：从错误中吸取教训
-  - *It's important to learn from your mistakes and move forward.*
+  - *It's important to learn from your mistakes and move forward.*（中文翻译）
 
 ## 真题/语料关联
 

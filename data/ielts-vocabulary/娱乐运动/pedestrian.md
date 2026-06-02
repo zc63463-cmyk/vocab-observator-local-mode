@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pedestrian crossing**：人行横道
-  - *Always use the pedestrian crossing when crossing the road.*
+  - *Always use the pedestrian crossing when crossing the road.*（过马路时一定要走人行横道。）
 - **pedestrian zone**：步行区
-  - *The city center is a pedestrian zone where cars are not allowed.*
+  - *The city center is a pedestrian zone where cars are not allowed.*（市中心是步行区，禁止汽车通行。）
 - **pedestrian safety**：行人安全
-  - *Pedestrian safety is a major concern in urban areas.*
+  - *Pedestrian safety is a major concern in urban areas.*（行人安全是城市地区的主要关注点。）
 - **pedestrian traffic**：步行交通
-  - *The street has heavy pedestrian traffic during rush hour.*
+  - *The street has heavy pedestrian traffic during rush hour.*（高峰时段这条街的行人流量很大。）
 - **pedestrian prose**：平淡的散文（文学批评）
-  - *The critic described the novel as pedestrian prose with no literary merit.*
+  - *The critic described the novel as pedestrian prose with no literary merit.*（评论家称这部小说为平淡的散文，没有文学价值。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **patron of the arts**：艺术赞助人
-  - *She is a well-known patron of the arts in the city.*
+  - *She is a well-known patron of the arts in the city.*（她是该市著名的艺术赞助人。）
 - **patron saint**：守护神
-  - *Saint Sebastian is the patron saint of athletes.*
+  - *Saint Sebastian is the patron saint of athletes.*（圣塞巴斯蒂安是运动员的守护神。）
 - **regular patron**：常客
-  - *The restaurant offers discounts to regular patrons.*
+  - *The restaurant offers discounts to regular patrons.*（这家餐厅为常客提供折扣。）
 - **patron of the event**：活动赞助人
-  - *The wealthy businessman became the patron of the event.*
+  - *The wealthy businessman became the patron of the event.*（这位富商成了该活动的赞助人。）
 - **patronize a shop**：光顾某店
-  - *I always patronize local businesses.*
+  - *I always patronize local businesses.*（我总是光顾本地商家。）
 
 ## 真题/语料关联
 

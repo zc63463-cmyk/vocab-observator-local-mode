@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **drag along**：拖着走
-  - *She dragged her suitcase along the platform.*
+  - *She dragged her suitcase along the platform.*（她拖着行李箱沿着站台走。）
 - **drag into**：卷入；牵扯进
-  - *Don't drag me into your problems.*
+  - *Don't drag me into your problems.*（别把我卷进你的问题里。）
 - **drag down**：拖累；使沮丧
-  - *The bad news dragged everyone down.*
+  - *The bad news dragged everyone down.*（坏消息让每个人都情绪低落。）
 - **drag on**：拖延；持续太久
-  - *The meeting dragged on for hours.*
+  - *The meeting dragged on for hours.*（会议拖延了好几个小时。）
 - **what a drag**：真无聊（非正式）
-  - *What a drag! We have to work on Saturday.*
+  - *What a drag! We have to work on Saturday.*（真无聊！我们周六还得上班。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **camera lens**：相机镜头
-  - *The camera lens captures high-resolution images.*
+  - *The camera lens captures high-resolution images.*（相机镜头拍摄高分辨率图像。）
 - **zoom lens**：变焦镜头
-  - *A zoom lens allows you to adjust the focal length.*
+  - *A zoom lens allows you to adjust the focal length.*（变焦镜头允许你调整焦距。）
 - **contact lens**：隐形眼镜
-  - *She prefers wearing contact lenses to glasses.*
+  - *She prefers wearing contact lenses to glasses.*（她更喜欢戴隐形眼镜而不是框架眼镜。）
 - **through the lens of**：通过……的视角
-  - *We should examine the issue through the lens of social justice.*
+  - *We should examine the issue through the lens of social justice.*（我们应该通过社会公正的视角来审视这个问题。）
 - **lens flare**：镜头光晕
-  - *The photographer intentionally created a lens flare effect.*
+  - *The photographer intentionally created a lens flare effect.*（摄影师有意制造了镜头光晕效果。）
 
 ## 真题/语料关联
 

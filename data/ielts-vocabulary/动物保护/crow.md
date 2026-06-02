@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **carrion crow**：小嘴乌鸦
-  - *The carrion crow is common throughout Europe.*
+  - *The carrion crow is common throughout Europe.*（食腐乌鸦在整个欧洲都很常见。）
 - **as the crow flies**：直线距离，不绕弯路
-  - *The town is ten miles away as the crow flies.*
+  - *The town is ten miles away as the crow flies.*（直线距离来看，这个镇子有十英里远。）
 - **crow about**：夸耀，吹嘘
-  - *He's been crowing about his promotion all week.*
+  - *He's been crowing about his promotion all week.*（他整个星期都在得意洋洋地炫耀自己的升职。）
 - **eat crow**：被迫认错，丢脸
-  - *The politician had to eat crow after his prediction proved wrong.*
+  - *The politician had to eat crow after his prediction proved wrong.*（这位政客的预测被证明是错误后不得不认错。）
 - **crow's feet**：鱼尾纹（眼角的皱纹）
-  - *She noticed the first crow's feet around her eyes.*
+  - *She noticed the first crow's feet around her eyes.*（她注意到眼角出现了第一条鱼尾纹。）
 - **crow black**：乌黑的
-  - *Her hair was crow black and fell to her waist.*
+  - *Her hair was crow black and fell to her waist.*（她的头发乌黑如鸦羽，垂到腰际。）
 
 ## 真题/语料关联
 

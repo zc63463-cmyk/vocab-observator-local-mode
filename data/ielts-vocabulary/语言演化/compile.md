@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compile a report**：编写报告
-  - *The team spent weeks compiling a comprehensive report.*
+  - *The team spent weeks compiling a comprehensive report.*（团队花了数周时间编写一份全面的报告。）
 - **compile data/statistics**：汇编数据/统计
-  - *Researchers compiled data from over 200 studies.*
+  - *Researchers compiled data from over 200 studies.*（研究人员汇集了来自200多项研究的数据。）
 - **compile a dictionary**：编纂词典
-  - *It took ten years to compile the first edition of the dictionary.*
+  - *It took ten years to compile the first edition of the dictionary.*（编纂这部词典的第一版花了十年时间。）
 - **compile a program**：编译程序
-  - *The code failed to compile due to a syntax error.*
+  - *The code failed to compile due to a syntax error.*（由于语法错误，代码未能编译。）
 - **compile information**：汇总信息
-  - *She compiled information from various sources for her thesis.*
+  - *She compiled information from various sources for her thesis.*（她为论文汇集了来自各种来源的信息。）
 
 ## 真题/语料关联
 

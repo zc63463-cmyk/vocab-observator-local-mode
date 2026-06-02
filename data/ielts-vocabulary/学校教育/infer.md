@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **infer from**：从……推断
-  - *What can we infer from the data?*
+  - *What can we infer from the data?*（我们可以从这些数据中推断出什么？）
 - **infer that...**：推断……
-  - *From his silence, I inferred that he disagreed.*
+  - *From his silence, I inferred that he disagreed.*（从他的沉默我推断他不同意。）
 - **it can be inferred**：可以推断
-  - *It can be inferred that the experiment was successful.*
+  - *It can be inferred that the experiment was successful.*（可以推断实验是成功的。）
 - **make an inference**：进行推断
-  - *The reader can make inferences about the character's motives.*
+  - *The reader can make inferences about the character's motives.*（读者可以推断角色的动机。）
 - **reasonable inference**：合理的推断
-  - *Based on the evidence, this is a reasonable inference.*
+  - *Based on the evidence, this is a reasonable inference.*（根据证据，这是一个合理的推断。）
 
 ## 真题/语料关联
 

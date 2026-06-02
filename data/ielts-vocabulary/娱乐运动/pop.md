@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pop music**：流行音乐
-  - *Pop music is popular among teenagers.*
+  - *Pop music is popular among teenagers.*（流行音乐在青少年中很受欢迎。）
 - **pop star**：流行明星
-  - *She became a pop star at a young age.*
+  - *She became a pop star at a young age.*（她年纪轻轻就成了流行明星。）
 - **pop song**：流行歌曲
-  - *The pop song topped the charts for weeks.*
+  - *The pop song topped the charts for weeks.*（这首流行歌曲连续数周位居排行榜榜首。）
 - **pop culture**：流行文化
-  - *Pop culture influences fashion and language.*
+  - *Pop culture influences fashion and language.*（流行文化影响着时尚和语言。）
 - **pop art**：波普艺术
-  - *Andy Warhol is famous for his pop art.*
+  - *Andy Warhol is famous for his pop art.*（安迪·沃霍尔以他的波普艺术而闻名。）
 
 ## 真题/语料关联
 

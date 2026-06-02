@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **condense into**：凝结成；浓缩成
-  - *Steam condenses into water when it cools.*
+  - *Steam condenses into water when it cools.*（水蒸气冷却后会凝结成水。）
 - **condensed milk**：炼乳
-  - *She added condensed milk to her coffee.*
+  - *She added condensed milk to her coffee.*（她在咖啡里加了炼乳。）
 - **condense the report/text**：精简报告/文本
-  - *Please condense the report to two pages.*
+  - *Please condense the report to two pages.*（请将报告精简到两页。）
 - **condensation** (n.)：冷凝；凝结
-  - *Condensation formed on the cold window.*
+  - *Condensation formed on the cold window.*（冰冷的窗户上形成了冷凝水。）
 - **condensed matter**：凝聚态物质（物理学术语）
-  - *He researches condensed matter physics.*
+  - *He researches condensed matter physics.*（他研究凝聚态物理。）
 
 ## 真题/语料关联
 

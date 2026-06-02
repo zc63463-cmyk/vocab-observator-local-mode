@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the violin**：拉小提琴
-  - *She learned to play the violin at a young age.*
+  - *She learned to play the violin at a young age.*（她从小就开始学习拉小提琴。）
 - **violin concerto**：小提琴协奏曲
-  - *Beethoven's violin concerto is one of his most famous works.*
+  - *Beethoven's violin concerto is one of his most famous works.*（贝多芬的小提琴协奏曲是他最著名的作品之一。）
 - **violinist**：小提琴家
-  - *He is a world-renowned violinist.*
+  - *He is a world-renowned violinist.*（他是世界闻名的小提琴家。）
 - **violin string**：小提琴弦
-  - *The violin string broke during the performance.*
+  - *The violin string broke during the performance.*（小提琴琴弦在表演中断了。）
 - **violin bow**：小提琴弓
-  - *She drew the violin bow across the strings.*
+  - *She drew the violin bow across the strings.*（她用小提琴弓拉过琴弦。）
 
 ## 真题/语料关联
 

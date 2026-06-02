@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **classical music**：古典音乐
-  - *She enjoys listening to classical music.*
+  - *She enjoys listening to classical music.*（她喜欢听古典音乐。）
 - **classical civilization**：古典文明
-  - *The course covers classical civilization from Greece and Rome.*
+  - *The course covers classical civilization from Greece and Rome.*（这门课程涵盖希腊和罗马的古典文明。）
 - **classical guitar**：古典吉他
-  - *He plays classical guitar beautifully.*
+  - *He plays classical guitar beautifully.*（他的古典吉他弹得很美。）
 - **classical education**：古典教育
-  - *A classical education includes Latin and Greek.*
+  - *A classical education includes Latin and Greek.*（古典教育包括拉丁语和希腊语。）
 - **classical example**：经典例子
-  - *This is a classical example of the problem.*
+  - *This is a classical example of the problem.*（这是这个问题的一个经典例子。）
 
 ## 真题/语料关联
 

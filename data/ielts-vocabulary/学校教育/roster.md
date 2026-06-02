@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **class roster**：班级名册
-  - *The teacher checked the class roster before starting the lesson.*
+  - *The teacher checked the class roster before starting the lesson.*（老师在开始上课前检查了班级名册。）
 - **duty roster**：值勤表
-  - *The duty roster for next week has been posted on the notice board.*
+  - *The duty roster for next week has been posted on the notice board.*（下周的值勤表已经贴在公告栏上了。）
 - **team roster**：团队名册
-  - *The coach announced the team roster for the championship.*
+  - *The coach announced the team roster for the championship.*（教练宣布了参加锦标赛的团队名册。）
 - **on the roster**：在名单上
-  - *She is on the roster for the morning shift.*
+  - *She is on the roster for the morning shift.*（她在早班名单上。）
 - **roster of speakers**：演讲者名单
-  - *The conference has an impressive roster of speakers.*
+  - *The conference has an impressive roster of speakers.*（该会议拥有令人印象深刻的演讲者名单。）
 
 ## 真题/语料关联
 

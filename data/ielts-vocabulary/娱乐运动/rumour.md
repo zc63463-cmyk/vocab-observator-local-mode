@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spread rumours**：传播谣言
-  - *Someone has been spreading rumours about her.*
+  - *Someone has been spreading rumours about her.*（有人一直在散布关于她的谣言。）
 - **start a rumour**：散布谣言
-  - *He started a rumour that the company was going bankrupt.*
+  - *He started a rumour that the company was going bankrupt.*（他散布谣言说公司要破产了。）
 - **a malicious/vicious rumour**：恶意的谣言
-  - *The malicious rumour damaged his reputation.*
+  - *The malicious rumour damaged his reputation.*（恶意的谣言损害了他的声誉。）
 - **rumour has it that...**：据说……
-  - *Rumour has it that they are getting divorced.*
+  - *Rumour has it that they are getting divorced.*（据说他们要离婚了。）
 - **according to rumour**：据传闻
-  - *According to rumour, the company is planning layoffs.*
+  - *According to rumour, the company is planning layoffs.*（据传闻，该公司正在计划裁员。）
 
 ## 真题/语料关联
 

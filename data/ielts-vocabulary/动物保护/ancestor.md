@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **distant ancestor**：远祖
-  - *Scientists have traced the distant ancestor of all humans to Africa.*
+  - *Scientists have traced the distant ancestor of all humans to Africa.*（科学家将全人类的远祖追溯到非洲。）
 - **ancestor worship**：祖先崇拜
-  - *Ancestor worship is an important tradition in many Asian cultures.*
+  - *Ancestor worship is an important tradition in many Asian cultures.*（祖先崇拜是许多亚洲文化中的重要传统。）
 - **ancestral home**：祖居，故居
-  - *They returned to their ancestral home in the countryside.*
+  - *They returned to their ancestral home in the countryside.*（他们回到了乡下的祖屋。）
 - **the ancestor of**：……的前身
-  - *The abacus is considered the ancestor of the modern calculator.*
+  - *The abacus is considered the ancestor of the modern calculator.*（算盘被认为是现代计算器的前身。）
 - **common ancestor**：共同祖先
-  - *Humans and apes share a common ancestor.*
+  - *Humans and apes share a common ancestor.*（人类和猿类拥有共同的祖先。）
 
 ## 真题/语料关联
 

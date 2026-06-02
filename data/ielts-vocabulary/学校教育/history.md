@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study history**：学习历史
-  - *She decided to study history at university.*
+  - *She decided to study history at university.*（她决定在大学学习历史。）
 - **ancient history**：古代史
-  - *Ancient history covers the period from the invention of writing to the fall of the Roman Empire.*
+  - *Ancient history covers the period from the invention of writing to the fall of the Roman Empire.*（古代史涵盖了从文字发明到罗马帝国崩溃的时期。）
 - **modern history**：现代史
-  - *Modern history begins with the Renaissance.*
+  - *Modern history begins with the Renaissance.*（现代史始于文艺复兴。）
 - **the history of**：……的历史
-  - *The history of the city dates back to Roman times.*
+  - *The history of the city dates back to Roman times.*（这座城市的历史可以追溯到罗马时代。）
 - **make history**：创造历史
-  - *The scientist made history with her groundbreaking discovery.*
+  - *The scientist made history with her groundbreaking discovery.*（这位科学家以她开创性的发现创造了历史。）
 
 ## 真题/语料关联
 

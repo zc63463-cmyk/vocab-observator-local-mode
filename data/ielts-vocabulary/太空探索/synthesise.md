@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **synthesize a compound**：合成化合物
-  - *Scientists have synthesized a new compound that could be used in medicine.*
+  - *Scientists have synthesized a new compound that could be used in medicine.*（科学家合成了一种可用于医学的新化合物。）
 - **synthesize information**：综合信息
-  - *The report synthesizes information from multiple sources.*
+  - *The report synthesizes information from multiple sources.*（这份报告综合了多个来源的信息。）
 - **chemical synthesis**：化学合成
-  - *Chemical synthesis is used to produce pharmaceuticals and plastics.*
+  - *Chemical synthesis is used to produce pharmaceuticals and plastics.*（化学合成用于生产药品和塑料。）
 - **synthesize music**：合成音乐
-  - *Electronic musicians use synthesizers to create unique sounds.*
+  - *Electronic musicians use synthesizers to create unique sounds.*（电子音乐人使用合成器来创造独特的声音。）
 - **nucleosynthesis**：核合成
-  - *Nucleosynthesis in stars produces elements heavier than hydrogen and helium.*
+  - *Nucleosynthesis in stars produces elements heavier than hydrogen and helium.*（恒星中的核合成产生比氢和氦更重的元素。）
 
 ## 真题/语料关联
 

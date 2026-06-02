@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in theory**：在理论上
-  - *In theory, the plan should work, but practical implementation is challenging.*
+  - *In theory, the plan should work, but practical implementation is challenging.*（理论上，这个计划应该可行，但实际实施具有挑战性。）
 - **theory of**：……理论
-  - *Darwin's theory of evolution revolutionized biology.*
+  - *Darwin's theory of evolution revolutionized biology.*（达尔文的进化论彻底改变了生物学。）
 - **put theory into practice**：将理论付诸实践
-  - *The challenge lies in putting theory into practice.*
+  - *The challenge lies in putting theory into practice.*（挑战在于将理论付诸实践。）
 - **economic/political theory**：经济/政治理论
-  - *Keynesian economic theory advocates government intervention during recessions.*
+  - *Keynesian economic theory advocates government intervention during recessions.*（凯恩斯经济理论主张在经济衰退期间进行政府干预。）
 - **conspiracy theory**：阴谋论
-  - *The conspiracy theory was debunked by experts.*
+  - *The conspiracy theory was debunked by experts.*（这个阴谋论被专家揭穿了。）
 
 ## 真题/语料关联
 

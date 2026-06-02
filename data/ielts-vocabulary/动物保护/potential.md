@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **realize one's potential**：发挥潜力
-  - *Education helps young people realize their full potential.*
+  - *Education helps young people realize their full potential.*（教育帮助年轻人充分发挥他们的潜力。）
 - **potential for**：……的可能性
-  - *There is great potential for growth in the renewable energy sector.*
+  - *There is great potential for growth in the renewable energy sector.*（可再生能源行业有着巨大的增长潜力。）
 - **potential customer**：潜在客户
-  - *The company targets potential customers through social media ads.*
+  - *The company targets potential customers through social media ads.*（公司通过社交媒体广告瞄准潜在客户。）
 - **electric potential**：电势
-  - *The electric potential difference drives the flow of current.*
+  - *The electric potential difference drives the flow of current.*（电势差驱动电流的流动。）
 - **have the potential to**：有潜力/可能
-  - *This technology has the potential to revolutionize healthcare.*
+  - *This technology has the potential to revolutionize healthcare.*（这项技术有可能彻底改变医疗保健。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a chunk of ice**：一大块冰
-  - *A chunk of ice broke off the glacier and floated away.*
+  - *A chunk of ice broke off the glacier and floated away.*（一大块冰从冰川上断裂并漂走了。）
 - **a chunk of rock**：一大块岩石
-  - *The asteroid was a chunk of rock several kilometers in diameter.*
+  - *The asteroid was a chunk of rock several kilometers in diameter.*（这颗小行星是一块直径数公里的岩石。）
 - **a chunk of time**：相当长的时间
-  - *Learning a new language takes a chunk of time.*
+  - *Learning a new language takes a chunk of time.*（学习一门新语言需要相当多的时间。）
 - **data chunk**：数据块
-  - *The file is divided into data chunks for easier processing.*
+  - *The file is divided into data chunks for easier processing.*（文件被分成数据块以便于处理。）
 - **chunk down**：分成小块
-  - *The teacher chunked down the lesson into manageable parts.*
+  - *The teacher chunked down the lesson into manageable parts.*（老师将课程分成易于处理的小部分。）
 
 ## 真题/语料关联
 

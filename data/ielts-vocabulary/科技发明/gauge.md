@@ -85,15 +85,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pressure gauge**：压力表
-  - *The pressure gauge on the boiler indicates the steam pressure.*
+  - *The pressure gauge on the boiler indicates the steam pressure.*（锅炉上的压力表显示蒸汽压力。）
 - **fuel gauge**：油量表
-  - *The fuel gauge showed that the tank was almost empty.*
+  - *The fuel gauge showed that the tank was almost empty.*（油量表显示油箱几乎空了。）
 - **rain gauge**：雨量计
-  - *The rain gauge recorded 50 millimeters of rainfall overnight.*
+  - *The rain gauge recorded 50 millimeters of rainfall overnight.*（雨量计记录了一夜之间50毫米的降雨量。）
 - **gauge someone's reaction**：判断某人的反应
-  - *She tried to gauge his reaction before continuing her story.*
+  - *She tried to gauge his reaction before continuing her story.*（在继续讲她的故事之前，她试图判断他的反应。）
 - **gauge the situation**：评估形势
-  - *It's important to gauge the situation before making a decision.*
+  - *It's important to gauge the situation before making a decision.*（在做决定之前评估形势很重要。）
 
 ## 真题/语料关联
 

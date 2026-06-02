@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **TV programme**：电视节目
-  - *The TV programme was watched by millions of viewers.*
+  - *The TV programme was watched by millions of viewers.*（数百万观众观看了这个电视节目。）
 - **training programme**：培训计划
-  - *The company offers a comprehensive training programme for new employees.*
+  - *The company offers a comprehensive training programme for new employees.*（公司为新员工提供全面的培训计划。）
 - **computer programme**：计算机程序
-  - *He wrote a computer programme to automate the task.*
+  - *He wrote a computer programme to automate the task.*（他编写了一个计算机程序来自动化这项任务。）
 - **programme note**：节目单说明
-  - *The programme notes provided background information on the performers.*
+  - *The programme notes provided background information on the performers.*（节目单说明提供了表演者的背景信息。）
 - **be programmed to**：被设定为
-  - *The robot is programmed to perform specific tasks.*
+  - *The robot is programmed to perform specific tasks.*（机器人被设定为执行特定任务。）
 
 ## 真题/语料关联
 

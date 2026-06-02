@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compulsory education**：义务教育
-  - *In most countries, education is compulsory until the age of 16.*
+  - *In most countries, education is compulsory until the age of 16.*（在大多数国家，16岁之前的教育是强制性的。）
 - **compulsory subject**：必修科目
-  - *Mathematics is a compulsory subject in most schools.*
+  - *Mathematics is a compulsory subject in most schools.*（数学在大多数学校是必修科目。）
 - **compulsory attendance**：强制出席
-  - *The law requires compulsory attendance at school.*
+  - *The law requires compulsory attendance at school.*（法律要求强制上学。）
 - **compulsory purchase**：强制收购
-  - *The government used compulsory purchase orders to acquire the land.*
+  - *The government used compulsory purchase orders to acquire the land.*（政府使用强制收购令来征用土地。）
 - **make something compulsory**：使某事成为强制性的
-  - *The government has made wearing seatbelts compulsory.*
+  - *The government has made wearing seatbelts compulsory.*（政府强制要求系安全带。）
 
 ## 真题/语料关联
 

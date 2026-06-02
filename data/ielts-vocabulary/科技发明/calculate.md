@@ -79,15 +79,15 @@ review_count: 0
 ## 搭配与短语
 
 - **calculate the total**：计算总数
-  - *Please calculate the total cost of the items.*
-- **calculate the risk**：计算风险
-  - *Investors must carefully calculate the risk before investing.*
+  - *Please calculate the total cost of the items.*（请计算这些物品的总费用。）
+- **calculate the risk**：评估风险
+  - *Investors must carefully calculate the risk before investing.*（投资者在投资前必须仔细评估风险。）
 - **calculate the trajectory**：计算轨迹
-  - *Scientists calculated the trajectory of the asteroid.*
+  - *Scientists calculated the trajectory of the asteroid.*（科学家计算了小行星的运行轨迹。）
 - **be calculated to do something**：特意做某事
-  - *The speech was calculated to win over the audience.*
+  - *The speech was calculated to win over the audience.*（这场演讲是特意设计来赢得观众支持的。）
 - **calculate on**：指望，依靠
-  - *Don't calculate on getting a promotion without hard work.*
+  - *Don't calculate on getting a promotion without hard work.*（不要指望不努力工作就能升职。）
 
 ## 真题/语料关联
 

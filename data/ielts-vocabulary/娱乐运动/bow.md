@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bow to**：向……鞠躬；屈服于
-  - *The actor bowed to the audience after the performance.*
+  - *The actor bowed to the audience after the performance.*（演出结束后，演员向观众鞠躬。）
 - **take a bow**：鞠躬致谢
-  - *The singer took a bow as the audience applauded.*
+  - *The singer took a bow as the audience applauded.*（在观众的掌声中，歌手鞠躬致谢。）
 - **bow down**：鞠躬；屈服
-  - *They bowed down before the king.*
+  - *They bowed down before the king.*（他们在国王面前鞠躬。）
 - **bow out**：退出；辞职
-  - *The manager decided to bow out after 20 years.*
+  - *The manager decided to bow out after 20 years.*（经理决定在20年后辞职退出。）
 - **bow and arrow**：弓箭
-  - *The archer drew the bow and arrow.*
+  - *The archer drew the bow and arrow.*（弓箭手拉弓搭箭。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **visit a museum**：参观博物馆
-  - *We visited the British Museum during our trip to London.*
+  - *We visited the British Museum during our trip to London.*（我们在伦敦旅行期间参观了大英博物馆。）
 - **museum exhibition**：博物馆展览
-  - *The museum exhibition on ancient Egypt attracted over a million visitors.*
+  - *The museum exhibition on ancient Egypt attracted over a million visitors.*（关于古埃及的博物馆展览吸引了超过一百万的游客。）
 - **museum collection**：博物馆馆藏
-  - *The museum's collection includes over 10,000 artifacts from the Roman period.*
+  - *The museum's collection includes over 10,000 artifacts from the Roman period.*（博物馆的馆藏包括一万多件罗马时期的文物。）
 - **art museum**：美术馆
-  - *The art museum has an impressive collection of Impressionist paintings.*
+  - *The art museum has an impressive collection of Impressionist paintings.*（美术馆收藏了令人印象深刻的印象派画作。）
 - **natural history museum**：自然历史博物馆
-  - *Children love the dinosaur skeletons at the natural history museum.*
+  - *Children love the dinosaur skeletons at the natural history museum.*（孩子们喜欢自然历史博物馆的恐龙骨架。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **apex carnivore**：顶级食肉动物
-  - *The tiger is an apex carnivore in the Asian forest ecosystem.*
+  - *The tiger is an apex carnivore in the Asian forest ecosystem.*（老虎是亚洲森林生态系统中的顶级食肉动物。）
 - **carnivore species**：食肉动物物种
-  - *The study examined the hunting patterns of various carnivore species.*
+  - *The study examined the hunting patterns of various carnivore species.*（该研究考察了各种食肉动物的捕猎模式。）
 - **carnivore diet**：食肉饮食（人类模仿食肉动物的饮食方式）
-  - *The carnivore diet has gained popularity in recent years.*
+  - *The carnivore diet has gained popularity in recent years.*（食肉饮食近年来变得流行起来。）
 - **carnivore conservation**：食肉动物保护
-  - *Carnivore conservation is challenging due to conflicts with livestock farmers.*
+  - *Carnivore conservation is challenging due to conflicts with livestock farmers.*（由于与牲畜养殖户的冲突，食肉动物保护具有挑战性。）
 - **obligate carnivore**：专性食肉动物（必须吃肉才能生存）
-  - *Cats are obligate carnivores, requiring a diet rich in animal protein.*
+  - *Cats are obligate carnivores, requiring a diet rich in animal protein.*（猫是专性食肉动物，需要富含动物蛋白的饮食。）
 
 ## 真题/语料关联
 

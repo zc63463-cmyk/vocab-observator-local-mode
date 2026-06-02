@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go camping**：去露营
-  - *We went camping in the national park last summer.*
+  - *We went camping in the national park last summer.*（去年夏天我们去国家公园露营了。）
 - **summer camp**：夏令营
-  - *The children attended a summer camp in the mountains.*
+  - *The children attended a summer camp in the mountains.*（孩子们参加了山里的一个夏令营。）
 - **base camp**：大本营（登山等）
-  - *The climbers established a base camp at the foot of the mountain.*
+  - *The climbers established a base camp at the foot of the mountain.*（登山者在山脚下建立了一个大本营。）
 - **camp out**：露宿；暂时住在外面
-  - *We camped out in the backyard when we were kids.*
+  - *We camped out in the backyard when we were kids.*（我们小时候在后院露宿过。）
 - **camp site**：露营地
-  - *The camp site has excellent facilities including hot showers.*
+  - *The camp site has excellent facilities including hot showers.*（这个露营地有极好的设施，包括热水淋浴。）
 
 ## 真题/语料关联
 

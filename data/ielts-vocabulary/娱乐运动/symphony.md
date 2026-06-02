@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **symphony orchestra**：交响乐团
-  - *The symphony orchestra performed Beethoven's Ninth Symphony.*
+  - *The symphony orchestra performed Beethoven's Ninth Symphony.*（交响乐团演奏了贝多芬的第九交响曲。）
 - **symphony hall**：交响乐厅
-  - *The symphony hall is known for its superb acoustics.*
+  - *The symphony hall is known for its superb acoustics.*（交响音乐厅以其极佳的音响效果而闻名。）
 - **a symphony of**：……的交响（和谐组合）
-  - *The garden was a symphony of colors in autumn.*
+  - *The garden was a symphony of colors in autumn.*（秋天的花园呈现出一派色彩交响的美景。）
 - **symphony conductor**：交响乐指挥
-  - *The symphony conductor led the orchestra with great passion.*
+  - *The symphony conductor led the orchestra with great passion.*（交响乐指挥以极大的热情带领乐团。）
 - **compose a symphony**：创作交响乐
-  - *Mozart composed his first symphony at the age of eight.*
+  - *Mozart composed his first symphony at the age of eight.*（莫扎特八岁时创作了他的第一部交响曲。）
 
 ## 真题/语料关联
 

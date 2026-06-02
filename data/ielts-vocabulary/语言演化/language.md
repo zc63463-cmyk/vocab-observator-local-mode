@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **learn a language**：学习语言
-  - *Learning a new language opens up many career opportunities.*
+  - *Learning a new language opens up many career opportunities.*（学习一门新语言会开辟许多职业机会。）
 - **mother tongue / native language**：母语
-  - *English is not my mother tongue, but I use it every day.*
+  - *English is not my mother tongue, but I use it every day.*（英语不是我的母语，但我每天都使用它。）
 - **body language**：肢体语言
-  - *Body language can communicate emotions more effectively than words.*
+  - *Body language can communicate emotions more effectively than words.*（肢体语言比言语更能有效地传达情感。）
 - **sign language**：手语
-  - *Sign language uses hand gestures to communicate with deaf people.*
+  - *Sign language uses hand gestures to communicate with deaf people.*（手语使用手势与聋人交流。）
 - **language barrier**：语言障碍
-  - *Language barriers can make it difficult to communicate when traveling abroad.*
+  - *Language barriers can make it difficult to communicate when traveling abroad.*（在国外旅行时，语言障碍会使沟通变得困难。）
 
 ## 真题/语料关联
 

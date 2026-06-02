@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **opening scene**：开场场景
-  - *The opening scene of the movie was breathtaking.*
+  - *The opening scene of the movie was breathtaking.*（电影的开场场景令人叹为观止。）
 - **crime scene**：犯罪现场
-  - *The police sealed off the crime scene.*
+  - *The police sealed off the crime scene.*（警方封锁了犯罪现场。）
 - **behind the scenes**：幕后，在后台
-  - *A lot of work happens behind the scenes.*
+  - *A lot of work happens behind the scenes.*（很多工作是在幕后完成的。）
 - **make a scene**：大吵大闹
-  - *Please don't make a scene in public.*
+  - *Please don't make a scene in public.*（请不要在公共场合大吵大闹。）
 - **set the scene**：为……做准备，描述背景
-  - *The author set the scene with vivid descriptions.*
+  - *The author set the scene with vivid descriptions.*（作者用生动的描述铺垫了场景。）
 
 ## 真题/语料关联
 

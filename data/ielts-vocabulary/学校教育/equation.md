@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **solve an equation**：解方程
-  - *Can you solve this equation for x?*
+  - *Can you solve this equation for x?*（你能解出这个方程中的x吗？）
 - **quadratic equation**：二次方程
-  - *Quadratic equations can have two solutions.*
+  - *Quadratic equations can have two solutions.*（二次方程可能有两个解。）
 - **chemical equation**：化学方程式
-  - *Balance the chemical equation by adjusting coefficients.*
+  - *Balance the chemical equation by adjusting coefficients.*（通过调整系数配平化学方程式。）
 - **the equation of A with B**：将A等同于B
-  - *The equation of beauty with thinness is harmful.*
+  - *The equation of beauty with thinness is harmful.*（将美等同于瘦是有害的。）
 - **factor into the equation**：纳入考量
-  - *We need to factor cost into the equation.*
+  - *We need to factor cost into the equation.*（我们需要将成本因素纳入考量。）
 
 ## 真题/语料关联
 

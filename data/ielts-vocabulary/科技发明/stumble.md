@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stumble over/on**：被……绊倒
-  - *I stumbled over a rock and fell.*
+  - *I stumbled over a rock and fell.*（我被一块石头绊倒了。）
 - **stumble upon/across**：偶然发现
-  - *I stumbled upon an interesting article while browsing online.*
+  - *I stumbled upon an interesting article while browsing online.*（我在网上浏览时偶然发现了一篇有趣的文章。）
 - **stumble through**：磕磕绊绊地完成
-  - *He stumbled through his presentation.*
+  - *He stumbled through his presentation.*（他磕磕绊绊地完成了演示。）
 - **stumble over one's words**：说话结巴
-  - *She stumbled over her words during the interview.*
+  - *She stumbled over her words during the interview.*（她在采访中说话结巴了。）
 - **a stumble**：一次失误/挫折
-  - *The company recovered quickly from its stumble.*
+  - *The company recovered quickly from its stumble.*（公司很快从失误中恢复过来。）
 
 ## 真题/语料关联
 

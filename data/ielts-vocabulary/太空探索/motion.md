@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in motion**：在运动中
-  - *The machine is now in motion, so keep your hands away.*
+  - *The machine is now in motion, so keep your hands away.*（机器正在运转，请将手远离。）
 - **slow motion**：慢动作
-  - *The slow motion replay showed the exact moment of impact.*
+  - *The slow motion replay showed the exact moment of impact.*（慢动作回放显示了撞击的精确时刻。）
 - **propose a motion**：提出动议
-  - *The council member proposed a motion to increase funding for education.*
+  - *The council member proposed a motion to increase funding for education.*（市议员提出了一项增加教育经费的动议。）
 - **motion sensor**：运动传感器
-  - *The motion sensor turns on the lights when someone enters the room.*
+  - *The motion sensor turns on the lights when someone enters the room.*（运动传感器在有人进入房间时亮灯。）
 - **set in motion**：启动；使开始
-  - *The new policy set in motion a series of changes in the industry.*
+  - *The new policy set in motion a series of changes in the industry.*（新政策引发了行业的一系列变革。）
 
 ## 真题/语料关联
 

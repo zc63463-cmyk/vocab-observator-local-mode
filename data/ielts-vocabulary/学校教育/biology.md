@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study biology**：学习生物学
-  - *She decided to study biology at university.*
+  - *She decided to study biology at university.*（她决定在大学学习生物学。）
 - **molecular biology**：分子生物学
-  - *Molecular biology has revolutionized medicine.*
+  - *Molecular biology has revolutionized medicine.*（分子生物学彻底改变了医学。）
 - **cell biology**：细胞生物学
-  - *Cell biology examines the structure and function of cells.*
+  - *Cell biology examines the structure and function of cells.*（细胞生物学研究细胞的结构和功能。）
 - **human biology**：人体生物学
-  - *Human biology is a fascinating subject.*
+  - *Human biology is a fascinating subject.*（人体生物学是一门引人入胜的学科。）
 - **biological** (adj.)：生物的
-  - *The biological diversity of the rainforest is astounding.*
+  - *The biological diversity of the rainforest is astounding.*（雨林的生物多样性令人惊叹。）
 
 ## 真题/语料关联
 

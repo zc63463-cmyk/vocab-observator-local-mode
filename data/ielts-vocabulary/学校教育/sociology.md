@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study sociology**：学习社会学
-  - *She decided to study sociology at university.*
+  - *She decided to study sociology at university.*（她决定在大学学习社会学。）
 - **sociology of education**：教育社会学
-  - *The sociology of education examines how schools reproduce social inequalities.*
+  - *The sociology of education examines how schools reproduce social inequalities.*（教育社会学研究学校如何再现社会不平等。）
 - **sociological theory**：社会学理论
-  - *Marxist sociological theory focuses on class struggle.*
+  - *Marxist sociological theory focuses on class struggle.*（马克思主义社会学理论关注阶级斗争。）
 - **sociological perspective**：社会学视角
-  - *From a sociological perspective, crime is a social phenomenon.*
+  - *From a sociological perspective, crime is a social phenomenon.*（从社会学角度来看，犯罪是一种社会现象。）
 - **sociological imagination**：社会学想象力
-  - *C. Wright Mills coined the term 'sociological imagination'.*
+  - *C. Wright Mills coined the term 'sociological imagination'.*（C·赖特·米尔斯创造了"社会学想象力"这一术语。）
 
 ## 真题/语料关联
 

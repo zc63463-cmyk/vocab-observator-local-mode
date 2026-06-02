@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **thorough investigation/search**：彻底的调查/搜索
-  - *The police conducted a thorough investigation of the crime scene.*
+  - *The police conducted a thorough investigation of the crime scene.*（警方对犯罪现场进行了彻底的调查。）
 - **thorough analysis/review**：彻底的分析/审查
-  - *The report provides a thorough analysis of the data.*
+  - *The report provides a thorough analysis of the data.*（该报告提供了对数据的彻底分析。）
 - **thorough understanding**：彻底的理解
-  - *A thorough understanding of the subject is required.*
+  - *A thorough understanding of the subject is required.*（需要对这门学科有透彻的理解。）
 - **thoroughly** (adv.)：彻底地
-  - *The house was thoroughly cleaned.*
+  - *The house was thoroughly cleaned.*（房子被彻底打扫了。）
 - **thoroughness** (n.)：彻底性
-  - *The thoroughness of the research is impressive.*
+  - *The thoroughness of the research is impressive.*（这项研究的彻底性令人印象深刻。）
 
 ## 真题/语料关联
 

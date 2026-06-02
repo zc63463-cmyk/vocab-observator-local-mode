@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **muscle strain**：肌肉拉伤
-  - *He suffered a muscle strain during the game.*
+  - *He suffered a muscle strain during the game.*（他在比赛中肌肉拉伤了。）
 - **mental strain**：精神压力
-  - *The job involves a lot of mental strain.*
+  - *The job involves a lot of mental strain.*（这份工作需要承受很大的精神压力。）
 - **financial strain**：经济压力
-  - *The family is under financial strain after losing their job.*
+  - *The family is under financial strain after losing their job.*（失业后这个家庭面临着经济压力。）
 - **strain a muscle**：拉伤肌肉
-  - *Be careful not to strain your muscles when lifting heavy objects.*
+  - *Be careful not to strain your muscles when lifting heavy objects.*（提重物时注意不要拉伤肌肉。）
 - **strain your eyes**：使眼睛疲劳
-  - *Reading in dim light can strain your eyes.*
+  - *Reading in dim light can strain your eyes.*（在昏暗的光线下阅读会使眼睛疲劳。）
 
 ## 真题/语料关联
 

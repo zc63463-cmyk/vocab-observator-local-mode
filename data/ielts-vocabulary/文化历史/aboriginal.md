@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **aboriginal people/community**：土著民族/社区
-  - *The aboriginal communities have preserved their traditional way of life for thousands of years.*
+  - *The aboriginal communities have preserved their traditional way of life for thousands of years.*（土著社区数千年来一直保持着他们的传统生活方式。）
 - **Aboriginal Australians**：澳大利亚原住民
-  - *Aboriginal Australians have a rich cultural heritage dating back over 60,000 years.*
+  - *Aboriginal Australians have a rich cultural heritage dating back over 60,000 years.*（澳大利亚原住民拥有可追溯至六万多年前的丰富文化遗产。）
 - **aboriginal culture/art**：土著文化/艺术
-  - *Aboriginal art often features dreamtime stories and spiritual symbols.*
+  - *Aboriginal art often features dreamtime stories and spiritual symbols.*（土著艺术通常描绘梦幻时光的故事和精神符号。）
 - **aboriginal rights**：土著权利
-  - *The government recognized aboriginal rights to land ownership.*
+  - *The government recognized aboriginal rights to land ownership.*（政府承认了土著居民的土地所有权。）
 - **aboriginal language**：土著语言
-  - *Many aboriginal languages are at risk of extinction.*
+  - *Many aboriginal languages are at risk of extinction.*（许多土著语言正面临灭绝的危险。）
 
 ## 真题/语料关联
 

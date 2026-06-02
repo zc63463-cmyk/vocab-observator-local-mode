@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **latest version**：最新版本
-  - *Have you downloaded the latest version of the app?*
+  - *Have you downloaded the latest version of the app?*（你下载了这款应用的最新版本吗？）
 - **updated version**：更新版本
-  - *The updated version includes several bug fixes.*
+  - *The updated version includes several bug fixes.*（更新版本包括几个错误修复。）
 - **version of events**：事件的说法
-  - *The witness gave a very different version of events.*
+  - *The witness gave a very different version of events.*（目击者对事件给出了非常不同的说法。）
 - **original version**：原始版本
-  - *The original version of the novel was much longer.*
+  - *The original version of the novel was much longer.*（这部小说的原始版本要长得多。）
 - **English version**：英文版
-  - *I prefer the English version of the movie.*
+  - *I prefer the English version of the movie.*（我更喜欢这部电影的英文版。）
 
 ## 真题/语料关联
 

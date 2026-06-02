@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **write/complete a dissertation**：撰写/完成学位论文
-  - *She spent three years writing her doctoral dissertation.*
+  - *She spent three years writing her doctoral dissertation.*（她花了三年时间撰写博士论文。）
 - **dissertation defense**：论文答辩
-  - *He passed his dissertation defense with distinction.*
+  - *He passed his dissertation defense with distinction.*（他以优异成绩通过了论文答辩。）
 - **doctoral/PhD dissertation**：博士论文
-  - *The doctoral dissertation was later published as a book.*
+  - *The doctoral dissertation was later published as a book.*（这篇博士论文后来作为书籍出版。）
 - **dissertation committee**：论文指导委员会
-  - *The dissertation committee approved the final draft.*
+  - *The dissertation committee approved the final draft.*（论文指导委员会批准了最终稿。）
 - **dissertation topic/subject**：论文题目
-  - *Choosing the right dissertation topic is crucial.*
+  - *Choosing the right dissertation topic is crucial.*（选择合适的论文题目至关重要。）
 
 ## 真题/语料关联
 

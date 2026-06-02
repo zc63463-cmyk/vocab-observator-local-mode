@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **radio signal**：无线电信号
-  - *The radio signal was too weak to be received clearly.*
+  - *The radio signal was too weak to be received clearly.*（无线电信号太弱，无法清晰地接收。）
 - **satellite signal**：卫星信号
-  - *GPS receivers use satellite signals to determine location.*
+  - *GPS receivers use satellite signals to determine location.*（GPS接收器使用卫星信号来确定位置。）
 - **traffic signal**：交通信号
-  - *The traffic signal turned red, and all the cars stopped.*
+  - *The traffic signal turned red, and all the cars stopped.*（交通信号灯变红，所有车辆都停了下来。）
 - **signal for help**：求救信号
-  - *The stranded hikers sent a signal for help using a mirror.*
+  - *The stranded hikers sent a signal for help using a mirror.*（被困的徒步者用镜子发出了求救信号。）
 - **a signal victory**：显著的胜利
-  - *The election was a signal victory for the opposition party.*
+  - *The election was a signal victory for the opposition party.*（这次选举是反对党的一次重大胜利。）
 
 ## 真题/语料关联
 

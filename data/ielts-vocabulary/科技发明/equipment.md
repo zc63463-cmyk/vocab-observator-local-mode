@@ -79,15 +79,15 @@ review_count: 0
 ## 搭配与短语
 
 - **office equipment**：办公设备
-  - *The company provides all the necessary office equipment.*
+  - *The company provides all the necessary office equipment.*（公司提供所有必要的办公设备。）
 - **sports equipment**：体育器材
-  - *You need proper sports equipment for the training.*
+  - *You need proper sports equipment for the training.*（你需要合适的体育器材来进行训练。）
 - **medical equipment**：医疗设备
-  - *The hospital is equipped with the latest medical equipment.*
+  - *The hospital is equipped with the latest medical equipment.*（这家医院配备了最新的医疗设备。）
 - **laboratory equipment**：实验设备
-  - *Scientists use specialized laboratory equipment for experiments.*
+  - *Scientists use specialized laboratory equipment for experiments.*（科学家使用专门的实验设备进行研究。）
 - **equipment failure**：设备故障
-  - *The production line was halted due to equipment failure.*
+  - *The production line was halted due to equipment failure.*（由于设备故障，生产线停止了运行。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **notorious criminal**：臭名昭著的罪犯
-  - *The notorious criminal was finally captured by police.*
+  - *The notorious criminal was finally captured by police.*（中文翻译）
 - **notorious for**：以……而臭名昭著
-  - *The city is notorious for its heavy traffic.*
+  - *The city is notorious for its heavy traffic.*（中文翻译）
 - **notorious reputation**：臭名昭著的声誉
-  - *The restaurant has a notorious reputation for poor service.*
+  - *The restaurant has a notorious reputation for poor service.*（中文翻译）
 - **notorious scandal**：臭名昭著的丑闻
-  - *The political scandal became notorious nationwide.*
+  - *The political scandal became notorious nationwide.*（中文翻译）
 - **notorious case**：臭名昭著的案件
-  - *This is one of the most notorious fraud cases in history.*
+  - *This is one of the most notorious fraud cases in history.*（中文翻译）
 
 ## 真题/语料关联
 

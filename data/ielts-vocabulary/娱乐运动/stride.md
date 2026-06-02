@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take a stride**：迈一大步
-  - *She took a stride forward to reach the door.*
+  - *She took a stride forward to reach the door.*（她向前迈了一步去够门。）
 - **long stride**：大步幅
-  - *He walked with long strides to keep up with the group.*
+  - *He walked with long strides to keep up with the group.*（他大步走着以跟上队伍。）
 - **make strides**：取得进步
-  - *The company has made great strides in technology.*
+  - *The company has made great strides in technology.*（这家公司在技术方面取得了巨大进步。）
 - **stride across**：大步走过
-  - *He strode across the room to answer the phone.*
+  - *He strode across the room to answer the phone.*（他大步穿过房间去接电话。）
 - **in stride**：泰然自若地
-  - *She took the criticism in stride and continued her work.*
+  - *She took the criticism in stride and continued her work.*（她从容地接受了批评，继续工作。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **day excursion**：一日游
-  - *We took a day excursion to the nearby island.*
+  - *We took a day excursion to the nearby island.*（我们去附近的岛屿进行了一日游。）
 - **school excursion**：学校远足
-  - *The school organized an excursion to the museum.*
+  - *The school organized an excursion to the museum.*（学校组织了一次去博物馆的远足。）
 - **excursion train**：游览列车
-  - *The excursion train took us through the beautiful countryside.*
+  - *The excursion train took us through the beautiful countryside.*（游览列车带我们穿过了美丽的乡村。）
 - **go on an excursion**：去远足
-  - *We went on an excursion to the mountains last weekend.*
+  - *We went on an excursion to the mountains last weekend.*（上周末我们去山里远足了。）
 - **excursion into**：涉足；短暂进入
-  - *His excursion into politics was short-lived.*
+  - *His excursion into politics was short-lived.*（他对政治的涉足是短暂的。）
 
 ## 真题/语料关联
 

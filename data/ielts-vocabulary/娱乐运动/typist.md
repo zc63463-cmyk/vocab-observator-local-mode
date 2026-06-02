@@ -65,13 +65,13 @@ review_count: 0
 ## 搭配与短语
 
 - **a fast typist**：打字快的人
-  - *She is a fast typist and can type 100 words per minute.*
+  - *She is a fast typist and can type 100 words per minute.*（她打字很快，每分钟能打100个单词。）
 - **a skilled typist**：熟练的打字员
-  - *The company is looking for a skilled typist.*
+  - *The company is looking for a skilled typist.*（公司正在找一位熟练的打字员。）
 - **a professional typist**：专业打字员
-  - *She works as a professional typist in a law firm.*
+  - *She works as a professional typist in a law firm.*（她在一家律师事务所做专业打字员。）
 - **a data entry typist**：数据录入员
-  - *The data entry typist input the information into the system.*
+  - *The data entry typist input the information into the system.*（数据录入打字员将信息输入系统。）
 
 ## 真题/语料关联
 

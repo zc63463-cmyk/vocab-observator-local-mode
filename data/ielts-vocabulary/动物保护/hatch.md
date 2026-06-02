@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **hatch eggs**：孵蛋
-  - *The hen sits on the eggs to hatch them.*
+  - *The hen sits on the eggs to hatch them.*（母鸡伏在蛋上孵蛋。）
 - **hatch out**：孵出
-  - *The baby birds hatched out of their eggs.*
+  - *The baby birds hatched out of their eggs.*（小鸟从蛋中孵出来了。）
 - **hatch a plot**：策划阴谋
-  - *The prisoners hatched a plot to escape.*
+  - *The prisoners hatched a plot to escape.*（囚犯们策划了一个越狱阴谋。）
 - **hatch a plan**：制定计划
-  - *They hatched a plan to surprise their friend.*
+  - *They hatched a plan to surprise their friend.*（他们策划了一个计划，想给朋友一个惊喜。）
 - **escape hatch**：逃生舱口
-  - *The submarine has an escape hatch for emergencies.*
+  - *The submarine has an escape hatch for emergencies.*（潜艇有一个应急逃生舱口。）
 - **hatching**：孵化（过程）
-  - *The hatching process takes about 21 days for chickens.*
+  - *The hatching process takes about 21 days for chickens.*（鸡的孵化过程大约需要21天。）
 
 ## 真题/语料关联
 

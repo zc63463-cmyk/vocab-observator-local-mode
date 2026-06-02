@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **profound knowledge**：渊博的知识
-  - *She has a profound knowledge of ancient history.*
+  - *She has a profound knowledge of ancient history.*（中文翻译）
 - **profound impact/influence**：深远的影响
-  - *The discovery had a profound impact on scientific thinking.*
+  - *The discovery had a profound impact on scientific thinking.*（中文翻译）
 - **profound effect**：深刻的效果
-  - *The speech had a profound effect on the audience.*
+  - *The speech had a profound effect on the audience.*（中文翻译）
 - **profound understanding**：深刻的理解
-  - *The book shows a profound understanding of human nature.*
+  - *The book shows a profound understanding of human nature.*（中文翻译）
 - **profound change**：深刻的变化
-  - *The country has undergone profound changes in recent years.*
+  - *The country has undergone profound changes in recent years.*（中文翻译）
 
 ## 真题/语料关联
 

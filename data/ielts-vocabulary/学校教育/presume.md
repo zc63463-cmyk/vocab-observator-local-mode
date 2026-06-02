@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **presume that**：假定
-  - *I presume that you have read the instructions.*
+  - *I presume that you have read the instructions.*（中文翻译）
 - **I presume**：我想，我认为
-  - *You're Professor Smith, I presume?*
+  - *You're Professor Smith, I presume?*（中文翻译）
 - **presume to do something**：冒昧做某事
-  - *I wouldn't presume to tell you what to do.*
+  - *I wouldn't presume to tell you what to do.*（中文翻译）
 - **presumed innocent**：无罪推定
-  - *The accused is presumed innocent until proven guilty.*
+  - *The accused is presumed innocent until proven guilty.*（中文翻译）
 - **presumed dead**：推定死亡
-  - *The missing hiker was presumed dead after three months.*
+  - *The missing hiker was presumed dead after three months.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -66,15 +66,15 @@ review_count: 0
 ## 搭配与短语
 
 - **conduct/carry out research**：进行研究
-  - *The university conducts research in many fields.*
+  - *The university conducts research in many fields.*（这所大学在许多领域进行研究。）
 - **research into**：对……的研究
-  - *Research into cancer treatment is ongoing.*
+  - *Research into cancer treatment is ongoing.*（对癌症治疗的研究正在进行中。）
 - **research a topic**：研究一个主题
-  - *She spent months researching the topic.*
+  - *She spent months researching the topic.*（她花了几个月时间研究这个主题。）
 - **researcher** (n.)：研究者
-  - *The researcher published her findings.*
+  - *The researcher published her findings.*（研究人员发表了她的发现。）
 - **research-based** (adj.)：基于研究的
-  - *The course is research-based.*
+  - *The course is research-based.*（这门课程是基于研究的。）
 
 ## 真题/语料关联
 

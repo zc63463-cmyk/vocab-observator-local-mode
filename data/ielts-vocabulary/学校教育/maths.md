@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study/do maths**：学习数学
-  - *She's been studying maths at university for three years.*
+  - *She's been studying maths at university for three years.*（中文翻译）
 - **maths class**：数学课
-  - *I have maths class every Monday morning.*
+  - *I have maths class every Monday morning.*（中文翻译）
 - **do the maths**：算一算（常引申为"想想清楚"）
-  - *If you work 60 hours a week for minimum wage, do the maths—you can't afford rent.*
+  - *If you work 60 hours a week for minimum wage, do the maths—you can't afford rent.*（中文翻译）
 - **maths skills**：数学技能
-  - *Good maths skills are essential for engineering.*
+  - *Good maths skills are essential for engineering.*（中文翻译）
 - **pure/applied maths**：纯数学/应用数学
-  - *He specializes in applied maths, particularly statistics.*
+  - *He specializes in applied maths, particularly statistics.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cricket bat**：板球拍
-  - *He swung the cricket bat and hit the ball for six.*
+  - *He swung the cricket bat and hit the ball for six.*（他挥动板球拍，将球击出六分。）
 - **baseball bat**：棒球棒
-  - *The baseball bat was made of solid oak.*
+  - *The baseball bat was made of solid oak.*（这根棒球棒是用实心橡木制成的。）
 - **not bat an eyelid**：不动声色，毫不惊讶
-  - *When she heard the news, she didn't bat an eyelid.*
+  - *When she heard the news, she didn't bat an eyelid.*（她听到这个消息时面不改色。）
 - **bat the ball**：击球
-  - *She batted the ball straight to the boundary.*
+  - *She batted the ball straight to the boundary.*（她将球直接击到了边界线。）
 - **blind as a bat**：视力很差（习语）
-  - *Without my glasses, I'm blind as a bat.*
+  - *Without my glasses, I'm blind as a bat.*（不戴眼镜的话，我视力差得像蝙蝠一样。）
 
 ## 真题/语料关联
 

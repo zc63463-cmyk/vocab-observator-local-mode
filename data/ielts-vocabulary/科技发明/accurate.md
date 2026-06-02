@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **accurate information**：准确的信息
-  - *The report provides accurate information about the current situation.*
+  - *The report provides accurate information about the current situation.*（报告提供了关于当前形势的准确信息。）
 - **accurate measurement**：精确的测量
-  - *Accurate measurement is essential in scientific experiments.*
+  - *Accurate measurement is essential in scientific experiments.*（精确的测量在科学实验中至关重要。）
 - **accurate description**：准确的描述
-  - *The witness gave an accurate description of the suspect.*
+  - *The witness gave an accurate description of the suspect.*（目击者对嫌疑人给出了准确的描述。）
 - **accurate prediction**：准确的预测
-  - *The weather forecast made an accurate prediction about the storm.*
+  - *The weather forecast made an accurate prediction about the storm.*（天气预报对这场风暴做出了准确的预测。）
 - **100% accurate**：100%准确
-  - *No test is 100% accurate, but this one comes close.*
+  - *No test is 100% accurate, but this one comes close.*（没有测试是100%准确的，但这个已经非常接近了。）
 
 ## 真题/语料关联
 

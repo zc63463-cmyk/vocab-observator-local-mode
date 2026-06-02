@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **science laboratory**：科学实验室
-  - *Students conduct experiments in the science laboratory.*
+  - *Students conduct experiments in the science laboratory.*（中文翻译）
 - **chemistry laboratory**：化学实验室
-  - *The chemistry laboratory is equipped with fume hoods and safety showers.*
+  - *The chemistry laboratory is equipped with fume hoods and safety showers.*（中文翻译）
 - **medical laboratory**：医学化验室
-  - *Blood tests are performed in the medical laboratory.*
+  - *Blood tests are performed in the medical laboratory.*（中文翻译）
 - **language laboratory**：语言实验室
-  - *The language laboratory has individual listening booths.*
+  - *The language laboratory has individual listening booths.*（中文翻译）
 - **laboratory equipment**：实验室设备
-  - *Laboratory equipment must be properly maintained.*
+  - *Laboratory equipment must be properly maintained.*（中文翻译）
 
 ## 真题/语料关联
 

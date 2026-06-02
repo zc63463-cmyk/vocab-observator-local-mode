@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **gather together**：聚集在一起
-  - *The family gathered together for the holiday dinner.*
+  - *The family gathered together for the holiday dinner.*（一家人聚在一起吃节日晚餐。）
 - **gather information**：收集信息
-  - *The detective gathered information from various sources.*
+  - *The detective gathered information from various sources.*（侦探从各种来源收集信息。）
 - **gather speed/momentum**：加速；势头增强
-  - *The reform movement gathered momentum throughout the year.*
+  - *The reform movement gathered momentum throughout the year.*（改革运动在这一年中势头不断增强。）
 - **gather one's thoughts**：整理思绪
-  - *She paused to gather her thoughts before speaking.*
+  - *She paused to gather her thoughts before speaking.*（她停下来整理思绪，然后才开口说话。）
 - **I gather that**：我推断
-  - *I gather that you're not happy with the decision.*
+  - *I gather that you're not happy with the decision.*（我推测你对这个决定不满意。）
 - **gather dust**：积灰尘（被闲置）
-  - *The old guitar has been gathering dust in the attic for years.*
+  - *The old guitar has been gathering dust in the attic for years.*（那把旧吉他在阁楼里闲置多年，积满了灰尘。）
 
 ## 真题/语料关联
 

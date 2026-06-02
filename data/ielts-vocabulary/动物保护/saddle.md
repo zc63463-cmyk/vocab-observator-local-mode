@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **in the saddle**：在马背上；掌权，处于控制地位
-  - *She felt most comfortable in the saddle.*
+  - *She felt most comfortable in the saddle.*（她觉得坐在马鞍上最舒服。）
 - **saddle up**：给马装鞍；准备骑马
-  - *We saddled up and rode out at dawn.*
+  - *We saddled up and rode out at dawn.*（我们备好马鞍，在黎明时分出发了。）
 - **be saddled with**：被……拖累，背负着
-  - *The company is saddled with enormous debts.*
+  - *The company is saddled with enormous debts.*（这家公司背负着巨额债务。）
 - **saddle bag**：马鞍袋，挂包
-  - *He packed his lunch in the saddle bag.*
+  - *He packed his lunch in the saddle bag.*（他把午餐装在马鞍袋里。）
 
 ## 真题/语料关联
 

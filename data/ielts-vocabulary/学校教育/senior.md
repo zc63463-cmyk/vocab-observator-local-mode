@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **senior year**：大四学年
-  - *She was busy with her thesis during senior year.*
+  - *She was busy with her thesis during senior year.*（她在大学四年级忙于写论文。）
 - **senior high (school)**：高中（美式）
-  - *He transferred to a senior high school in the city center.*
+  - *He transferred to a senior high school in the city center.*（他转到了市中心的一所高中。）
 - **senior citizen**：老年人（委婉语）
-  - *Senior citizens can ride the bus for free.*
+  - *Senior citizens can ride the bus for free.*（老年人可以免费乘坐公交车。）
 - **senior management / senior engineer**：高级管理层/高级工程师
-  - *Senior management decided to restructure the department.*
+  - *Senior management decided to restructure the department.*（高级管理层决定重组该部门。）
 - **senior moment**：老年健忘瞬间（幽默说法）
-  - *I forgot where I parked — must be having a senior moment.*
+  - *I forgot where I parked — must be having a senior moment.*（我忘了把车停在哪里了——一定是老年健忘了。）
 
 ## 真题/语料关联
 

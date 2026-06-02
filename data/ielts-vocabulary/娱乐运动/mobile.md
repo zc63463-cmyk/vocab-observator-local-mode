@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mobile phone**：手机
-  - *Almost everyone has a mobile phone these days.*
+  - *Almost everyone has a mobile phone these days.*（如今几乎每个人都有手机。）
 - **mobile device**：移动设备
-  - *Mobile devices have changed the way we communicate.*
+  - *Mobile devices have changed the way we communicate.*（移动设备改变了我们的沟通方式。）
 - **mobile library**：流动图书馆
-  - *The mobile library visits rural areas every week.*
+  - *The mobile library visits rural areas every week.*（流动图书馆每周都会访问农村地区。）
 - **mobile workforce**：流动劳动力
-  - *The modern economy requires a mobile workforce.*
+  - *The modern economy requires a mobile workforce.*（现代经济需要流动劳动力。）
 - **social mobility**：社会流动性
-  - *Education can improve social mobility.*
+  - *Education can improve social mobility.*（教育可以改善社会流动性。）
 
 ## 真题/语料关联
 

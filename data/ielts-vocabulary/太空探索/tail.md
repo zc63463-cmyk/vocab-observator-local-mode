@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **comet tail**：彗星尾巴
-  - *A comet tail always points away from the Sun due to solar wind.*
+  - *A comet tail always points away from the Sun due to solar wind.*（由于太阳风的作用，彗星尾巴总是背向太阳。）
 - **dust tail**：尘埃尾巴
-  - *The dust tail of a comet is white and curved.*
+  - *The dust tail of a comet is white and curved.*（彗星的尘埃尾呈白色且弯曲。）
 - **ion tail**：离子尾巴
-  - *The ion tail is blue and points directly away from the Sun.*
+  - *The ion tail is blue and points directly away from the Sun.*（离子尾呈蓝色，直接指向远离太阳的方向。）
 - **tail wind**：顺风
-  - *The plane made good time with a strong tail wind.*
+  - *The plane made good time with a strong tail wind.*（飞机借助强劲的顺风飞得很快。）
 - **tail off**：逐渐减少
-  - *Sales tend to tail off after the holiday season.*
+  - *Sales tend to tail off after the holiday season.*（假期过后，销售额往往会逐渐下降。）
 
 ## 真题/语料关联
 

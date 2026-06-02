@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study accounting**：学习会计学
-  - *She decided to study accounting at university.*
+  - *She decided to study accounting at university.*（她决定在大学学习会计学。）
 - **accounting firm**：会计师事务所
-  - *He works for a big accounting firm.*
+  - *He works for a big accounting firm.*（他在一家大型会计师事务所工作。）
 - **financial accounting**：财务会计
-  - *Financial accounting focuses on reporting to external stakeholders.*
+  - *Financial accounting focuses on reporting to external stakeholders.*（财务会计侧重于向外部利益相关者报告。）
 - **management accounting**：管理会计
-  - *Management accounting provides information for internal decision-making.*
+  - *Management accounting provides information for internal decision-making.*（管理会计为内部决策提供信息。）
 - **accounting standards**：会计准则
-  - *Companies must follow international accounting standards.*
+  - *Companies must follow international accounting standards.*（公司必须遵守国际会计准则。）
 
 ## 真题/语料关联
 

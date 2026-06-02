@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **matriculation ceremony**：入学典礼
-  - *The matriculation ceremony will be held in the main hall next week.*
+  - *The matriculation ceremony will be held in the main hall next week.*（中文翻译）
 - **matriculation exam / matriculation certificate**：入学考试/入学证书
-  - *She passed the matriculation exam with distinction.*
+  - *She passed the matriculation exam with distinction.*（中文翻译）
 - **matriculation number**：学号
-  - *Your matriculation number is printed on your student ID card.*
+  - *Your matriculation number is printed on your student ID card.*（中文翻译）
 - **matriculation requirements**：入学要求
-  - *The university has strict matriculation requirements for international students.*
+  - *The university has strict matriculation requirements for international students.*（中文翻译）
 - **matriculation date**：注册入学日期
-  - *The matriculation date for new students is September 1st.*
+  - *The matriculation date for new students is September 1st.*（中文翻译）
 
 ## 真题/语料关联
 

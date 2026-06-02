@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **blend ingredients**：混合食材
-  - *Blend the ingredients until smooth.*
+  - *Blend the ingredients until smooth.*（将食材混合至顺滑。）
 - **blend cultures**：融合文化
-  - *The city is a place where different cultures blend together.*
+  - *The city is a place where different cultures blend together.*（这座城市是不同文化融合的地方。）
 - **blend colors**：混合颜色
-  - *The artist blended colors to create a beautiful sunset.*
+  - *The artist blended colors to create a beautiful sunset.*（艺术家混合颜色创造美丽的日落景象。）
 - **a blend of**：……的混合
-  - *The coffee is a blend of different beans.*
+  - *The coffee is a blend of different beans.*（这款咖啡是不同咖啡豆的混合。）
 - **perfect blend**：完美的混合
-  - *The restaurant offers a perfect blend of traditional and modern cuisine.*
+  - *The restaurant offers a perfect blend of traditional and modern cuisine.*（这家餐厅完美融合了传统和现代美食。）
 
 ## 真题/语料关联
 

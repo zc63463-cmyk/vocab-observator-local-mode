@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **preposition of place**：地点介词
-  - *"In", "on", and "at" are common prepositions of place.*
+  - *"In", "on", and "at" are common prepositions of place.*（"In"、"on"和"at"是常见的地点介词。）
 - **preposition of time**：时间介词
-  - *"In", "on", and "at" are also used as prepositions of time.*
+  - *"In", "on", and "at" are also used as prepositions of time.*（"In"、"on"和"at"也被用作时间介词。）
 - **prepositional phrase**：介词短语
-  - *The phrase "in the box" is a prepositional phrase.*
+  - *The phrase "in the box" is a prepositional phrase.*（短语"in the box"是一个介词短语。）
 - **dependent preposition**：依赖介词
-  - *Some verbs require a specific preposition, like "depend on".*
+  - *Some verbs require a specific preposition, like "depend on".*（有些动词需要特定的介词，比如"depend on"。）
 - **prepositional verb**：介词动词
-  - *"Look after" is a prepositional verb.*
+  - *"Look after" is a prepositional verb.*（"Look after"是一个介词动词。）
 
 ## 真题/语料关联
 

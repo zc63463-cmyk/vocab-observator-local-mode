@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **consistent with**：与……一致
-  - *The results are consistent with previous research findings.*
+  - *The results are consistent with previous research findings.*（这些结果与先前的研究发现一致。）
 - **consistent approach**：一贯的方法
-  - *The government needs a consistent approach to education reform.*
+  - *The government needs a consistent approach to education reform.*（政府需要采取一贯的方法来进行教育改革。）
 - **consistent performance**：稳定的表现
-  - *She has shown consistent performance throughout the season.*
+  - *She has shown consistent performance throughout the season.*（她在整个赛季中表现出稳定的状态。）
 - **internally consistent**：内部一致的（逻辑上不自相矛盾）
-  - *The theory must be internally consistent to be valid.*
+  - *The theory must be internally consistent to be valid.*（理论必须内部一致才能成立。）
 - **remain consistent**：保持一致
-  - *Prices have remained consistent over the past year.*
+  - *Prices have remained consistent over the past year.*（过去一年价格保持一致。）
 
 ## 真题/语料关联
 

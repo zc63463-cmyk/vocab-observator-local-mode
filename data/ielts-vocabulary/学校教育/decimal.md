@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **decimal point**：小数点
-  - *The decimal point separates the whole number from the fraction.*
+  - *The decimal point separates the whole number from the fraction.*（小数点把整数和小数部分分开。）
 - **decimal place**：小数位
-  - *Round the answer to two decimal places.*
+  - *Round the answer to two decimal places.*（把答案四舍五入到两位小数。）
 - **decimal system**：十进制系统
-  - *The decimal system is based on powers of ten.*
+  - *The decimal system is based on powers of ten.*（十进制系统基于10的幂。）
 - **decimal fraction**：十进制小数
-  - *0.5 is a decimal fraction.*
+  - *0.5 is a decimal fraction.*（0.5是一个十进制小数。）
 - **convert to decimal**：转换为十进制
-  - *Convert the binary number to decimal.*
+  - *Convert the binary number to decimal.*（把这个二进制数转换为十进制。）
 - **recurring decimal**：循环小数
-  - *1/3 is a recurring decimal (0.333...).*
+  - *1/3 is a recurring decimal (0.333...).*（三分之一是一个循环小数。）
 
 ## 真题/语料关联
 

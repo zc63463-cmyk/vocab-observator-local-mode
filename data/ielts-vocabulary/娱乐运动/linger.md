@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **linger in**：逗留在
-  - *She lingered in the library long after it closed.*
+  - *She lingered in the library long after it closed.*（图书馆关门后她还在里面逗留了很久。）
 - **linger around**：徘徊在
-  - *He lingered around the door, waiting for her to come out.*
+  - *He lingered around the door, waiting for her to come out.*（他在门口徘徊，等她出来。）
 - **linger on**：持续存在
-  - *The smell of cooking lingered on in the kitchen.*
+  - *The smell of cooking lingered on in the kitchen.*（烹饪的气味在厨房里久久不散。）
 - **linger over**：磨蹭；拖延
-  - *She lingered over her coffee, not wanting to go to work.*
+  - *She lingered over her coffee, not wanting to go to work.*（她磨磨蹭蹭地喝着咖啡，不想去上班。）
 - **linger in the mind**：留在记忆中
-  - *The beautiful melody lingered in my mind for days.*
+  - *The beautiful melody lingered in my mind for days.*（那段优美的旋律在我脑海中萦绕了好几天。）
 
 ## 真题/语料关联
 

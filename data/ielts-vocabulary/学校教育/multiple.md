@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **common multiple**：公倍数
-  - *12 is a common multiple of 3 and 4.*
+  - *12 is a common multiple of 3 and 4.*（中文翻译）
 - **lowest common multiple (LCM)**：最小公倍数
-  - *The LCM of 4 and 6 is 12.*
+  - *The LCM of 4 and 6 is 12.*（中文翻译）
 - **multiple choice**：多项选择
-  - *The test had multiple-choice questions.*
+  - *The test had multiple-choice questions.*（中文翻译）
 - **multiple times**：多次
-  - *I've told you multiple times.*
+  - *I've told you multiple times.*（中文翻译）
 - **multiple sclerosis**：多发性硬化症（医学）
-  - *Multiple sclerosis affects the nervous system.*
+  - *Multiple sclerosis affects the nervous system.*（中文翻译）
 
 ## 真题/语料关联
 

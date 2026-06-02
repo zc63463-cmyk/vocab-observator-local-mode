@@ -65,17 +65,17 @@ review_count: 0
 ## 搭配与短语
 
 - **the ratio of A to B**：A与B的比率
-  - *The ratio of boys to girls in the class is 3:2.*
+  - *The ratio of boys to girls in the class is 3:2.*（班上男生与女生的比例是3:2。）
 - **in the ratio of**：以……的比率
-  - *Mix the ingredients in the ratio of 2:1.*
+  - *Mix the ingredients in the ratio of 2:1.*（按2:1的比例混合原料。）
 - **a high/low ratio**：高/低比率
-  - *The school has a low student-to-teacher ratio.*
+  - *The school has a low student-to-teacher ratio.*（这所学校的师生比例很低。）
 - **ratio analysis**：比率分析
-  - *The company uses ratio analysis to assess financial health.*
+  - *The company uses ratio analysis to assess financial health.*（该公司使用比率分析来评估财务健康状况。）
 - **direct/inverse ratio**：正/反比
-  - *The two variables are in direct ratio.*
+  - *The two variables are in direct ratio.*（这两个变量成正比。）
 - **golden ratio**：黄金比例
-  - *The golden ratio is approximately 1.618.*
+  - *The golden ratio is approximately 1.618.*（黄金比例约为1.618。）
 
 ## 真题/语料关联
 

@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **differ from**：与……不同
-  - *The results differ from our expectations.*
+  - *The results differ from our expectations.*（结果与我们的预期不同。）
 - **differ in**：在……方面不同
-  - *The two products differ in quality.*
+  - *The two products differ in quality.*（这两种产品在质量上不同。）
 - **differ on/about**：在……上意见不同
-  - *The experts differ on the best approach.*
+  - *The experts differ on the best approach.*（专家们对最佳方法意见不一。）
 - **agree to differ**：同意保留不同意见
-  - *We agreed to differ on this issue.*
+  - *We agreed to differ on this issue.*（我们同意在这个问题上保留不同意见。）
 - **differ widely/greatly**：大不相同
-  - *Opinions differ widely on this topic.*
+  - *Opinions differ widely on this topic.*（在这个话题上意见分歧很大。）
 
 ## 真题/语料关联
 

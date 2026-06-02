@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **await someone's arrival**：等待某人的到来
-  - *We awaited the guest's arrival with great anticipation.*
+  - *We awaited the guest's arrival with great anticipation.*（我们满怀期待地等待客人的到来。）
 - **await the results**：等待结果
-  - *The students awaited the results of the exam.*
+  - *The students awaited the results of the exam.*（学生们等待着考试结果。）
 - **await the opportunity**：等待机会
-  - *He awaited the opportunity to prove himself.*
+  - *He awaited the opportunity to prove himself.*（他等待着证明自己的机会。）
 - **await the challenge**：迎接挑战
-  - *The team awaited the challenge with confidence.*
+  - *The team awaited the challenge with confidence.*（团队充满信心地迎接挑战。）
 - **eagerly/keenly await**：急切地等待
-  - *The fans eagerly awaited the concert.*
+  - *The fans eagerly awaited the concert.*（粉丝们急切地等待着演唱会。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **focus on**：专注于
-  - *We need to focus on the most important tasks first.*
+  - *We need to focus on the most important tasks first.*（我们需要首先专注于最重要的任务。）
 - **the focus of attention**：注意力的焦点
-  - *The new product became the focus of attention at the trade show.*
+  - *The new product became the focus of attention at the trade show.*（新产品成为了展会的关注焦点。）
 - **bring into focus**：使清晰；使关注
-  - *The crisis brought the issue of climate change into focus.*
+  - *The crisis brought the issue of climate change into focus.*（这场危机让气候变化问题成为焦点。）
 - **out of focus**：模糊的；不清晰的
-  - *The photo was out of focus and difficult to see.*
+  - *The photo was out of focus and difficult to see.*（照片失焦了，很难看清。）
 - **shift the focus**：转移焦点
-  - *The company decided to shift its focus to online sales.*
+  - *The company decided to shift its focus to online sales.*（公司决定将重心转向在线销售。）
 
 ## 真题/语料关联
 

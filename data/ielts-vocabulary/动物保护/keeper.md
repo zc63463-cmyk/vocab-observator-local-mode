@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **zoo keeper**：动物园饲养员
-  - *The zoo keeper feeds the pandas three times a day with fresh bamboo.*
+  - *The zoo keeper feeds the pandas three times a day with fresh bamboo.*（动物园管理员每天用新鲜竹子喂熊猫三次。）
 - **beekeeper**：养蜂人
-  - *The beekeeper harvests honey from the hives every autumn.*
+  - *The beekeeper harvests honey from the hives every autumn.*（养蜂人每年秋天从蜂箱中采收蜂蜜。）
 - **goalkeeper**：守门员
-  - *The goalkeeper made a spectacular save in the final minute of the match.*
+  - *The goalkeeper made a spectacular save in the final minute of the match.*（守门员在比赛最后一分钟做出了一次精彩的扑救。）
 - **gatekeeper**：看门人，守门人
-  - *The gatekeeper checked everyone's identification before allowing them to enter.*
+  - *The gatekeeper checked everyone's identification before allowing them to enter.*（门卫检查了每个人的身份证明后才允许进入。）
 - **shopkeeper**：店主
-  - *The local shopkeeper has been running the store for over thirty years.*
+  - *The local shopkeeper has been running the store for over thirty years.*（当地店主经营这家商店已经三十多年了。）
 
 ## 真题/语料关联
 

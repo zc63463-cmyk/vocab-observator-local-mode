@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the intellectual elite**：知识精英
-  - *The intellectual elite often shape public opinion through their writings.*
+  - *The intellectual elite often shape public opinion through their writings.*（知识精英经常通过他们的著作塑造公众舆论。）
 - **elite athletes**：精英运动员
-  - *Elite athletes train for hours every day to maintain their performance.*
+  - *Elite athletes train for hours every day to maintain their performance.*（精英运动员每天训练数小时以保持竞技状态。）
 - **elite universities**：精英大学
-  - *Harvard and Oxford are considered elite universities.*
+  - *Harvard and Oxford are considered elite universities.*（哈佛和牛津被认为是精英大学。）
 - **power elite**：权力精英
-  - *The power elite controls most of the country's resources.*
+  - *The power elite controls most of the country's resources.*（权力精英控制着国家的大部分资源。）
 - **elite troops**：精锐部队
-  - *The elite troops were deployed for the special mission.*
+  - *The elite troops were deployed for the special mission.*（精锐部队被部署执行这项特殊任务。）
 
 ## 真题/语料关联
 

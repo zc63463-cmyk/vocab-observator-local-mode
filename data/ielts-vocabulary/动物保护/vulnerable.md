@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **vulnerable species**：脆弱物种（IUCN红色名录分类）
-  - *The polar bear is classified as a vulnerable species due to climate change.*
+  - *The polar bear is classified as a vulnerable species due to climate change.*（由于气候变化，北极熊被列为易危物种。）
 - **vulnerable groups**：弱势群体
-  - *The government should protect vulnerable groups such as the elderly and children.*
+  - *The government should protect vulnerable groups such as the elderly and children.*（政府应保护老年人和儿童等弱势群体。）
 - **vulnerable to**：易受……影响的
-  - *Children are particularly vulnerable to the effects of pollution.*
+  - *Children are particularly vulnerable to the effects of pollution.*（儿童尤其容易受到污染的影响。）
 - **vulnerable point**：弱点
-  - *The castle's vulnerable point was the main gate.*
+  - *The castle's vulnerable point was the main gate.*（这座城堡的薄弱点是正门。）
 - **emotionally vulnerable**：情感脆弱的
-  - *After the breakup, she felt emotionally vulnerable and needed support.*
+  - *After the breakup, she felt emotionally vulnerable and needed support.*（分手后，她感到情感脆弱，需要支持。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **apex predator**：顶级捕食者
-  - *The tiger is an apex predator in the Asian forest ecosystem.*
+  - *The tiger is an apex predator in the Asian forest ecosystem.*（老虎是亚洲森林生态系统中的顶级捕食者。）
 - **predator-prey relationship**：捕食者-猎物关系
-  - *The predator-prey relationship is a fundamental ecological interaction.*
+  - *The predator-prey relationship is a fundamental ecological interaction.*（捕食者-猎物关系是一种基本的生态互动。）
 - **predatory behavior**：捕食行为
-  - *Predatory behavior in animals is driven by the need to obtain food.*
+  - *Predatory behavior in animals is driven by the need to obtain food.*（动物的捕食行为是由获取食物的需求驱动的。）
 - **sexual predator**：性掠夺者（法律术语）
-  - *The law aims to protect children from sexual predators.*
+  - *The law aims to protect children from sexual predators.*（该法律旨在保护儿童免受性侵犯者的侵害。）
 - **predator species**：捕食物种
-  - *The decline in predator species can lead to an overpopulation of prey animals.*
+  - *The decline in predator species can lead to an overpopulation of prey animals.*（捕食物种的减少会导致被捕食动物数量过剩。）
 
 ## 真题/语料关联
 

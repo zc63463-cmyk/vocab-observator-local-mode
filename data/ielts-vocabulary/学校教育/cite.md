@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cite a source**：引用来源
-  - *You must cite all sources used in your research.*
+  - *You must cite all sources used in your research.*（你必须引用研究中所用的所有来源。）
 - **cite an example**：举例
-  - *The professor cited several examples to illustrate the theory.*
+  - *The professor cited several examples to illustrate the theory.*（教授举了几个例子来说明这个理论。）
 - **cite evidence**：引证
-  - *The lawyer cited evidence to support her argument.*
+  - *The lawyer cited evidence to support her argument.*（律师引用证据来支持她的论点。）
 - **widely cited**：被广泛引用的
-  - *This is one of the most widely cited papers in the field.*
+  - *This is one of the most widely cited papers in the field.*（这是该领域被引用最广泛的论文之一。）
 - **cite someone for**：因……而表彰某人
-  - *The soldier was cited for his bravery in combat.*
+  - *The soldier was cited for his bravery in combat.*（这名士兵因在战斗中的英勇表现而受到表彰。）
 
 ## 真题/语料关联
 

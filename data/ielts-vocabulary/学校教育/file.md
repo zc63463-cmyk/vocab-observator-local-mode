@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **file cabinet**：文件柜
-  - *The documents are stored in the file cabinet.*
+  - *The documents are stored in the file cabinet.*（文件存放在文件柜中。）
 - **file a lawsuit**：提起诉讼
-  - *The company filed a lawsuit against its competitor.*
+  - *The company filed a lawsuit against its competitor.*（该公司对其竞争对手提起了诉讼。）
 - **file a complaint**：提出投诉
-  - *Customers can file a complaint with the customer service department.*
+  - *Customers can file a complaint with the customer service department.*（客户可以向客服部门投诉。）
 - **on file**：存档，记录在案
-  - *We have your application on file.*
+  - *We have your application on file.*（我们有你的申请存档。）
 - **file away**：归档
-  - *She filed the documents away for future reference.*
+  - *She filed the documents away for future reference.*（她把文件归档以备将来参考。）
 
 ## 真题/语料关联
 

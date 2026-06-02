@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play cricket**：打板球
-  - *Cricket is played in many Commonwealth countries.*
+  - *Cricket is played in many Commonwealth countries.*（许多英联邦国家都打板球。）
 - **cricket match**：板球比赛
-  - *The cricket match between England and Australia is called "The Ashes."*
+  - *The cricket match between England and Australia is called "The Ashes."*（英格兰和澳大利亚之间的板球比赛被称为"灰烬杯"。）
 - **cricket ground**：板球场
-  - *Lord's Cricket Ground in London is known as the "Home of Cricket."*
+  - *Lord's Cricket Ground in London is known as the "Home of Cricket."*（伦敦的罗德板球场被称为"板球之家"。）
 - **not cricket**：不公平的，不光明正大的（英式口语）
-  - *It's not cricket to cheat in an exam.*
+  - *It's not cricket to cheat in an exam.*（考试作弊是不光彩的。）
 - **cricket chirping**：蟋蟀鸣叫
-  - *The sound of crickets chirping filled the quiet summer night.*
+  - *The sound of crickets chirping filled the quiet summer night.*（蟋蟀的鸣叫声充满了宁静的夏夜。）
 
 ## 真题/语料关联
 

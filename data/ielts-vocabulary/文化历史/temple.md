@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Buddhist temple**：佛教寺庙
-  - *The Buddhist temple is a popular tourist attraction in the city.*
+  - *The Buddhist temple is a popular tourist attraction in the city.*（这座佛教寺庙是该市受欢迎的旅游景点。）
 - **Hindu temple**：印度教寺庙
-  - *The Hindu temple is decorated with intricate carvings and statues.*
+  - *The Hindu temple is decorated with intricate carvings and statues.*（印度教寺庙装饰着精美的雕刻和雕像。）
 - **Temple Mount**：圣殿山（耶路撒冷）
-  - *Temple Mount is a sacred site for Jews, Christians, and Muslims.*
+  - *Temple Mount is a sacred site for Jews, Christians, and Muslims.*（圣殿山对犹太人、基督徒和穆斯林来说都是一个神圣的地方。）
 - **temple fair**：庙会
-  - *The temple fair attracts thousands of visitors every year.*
+  - *The temple fair attracts thousands of visitors every year.*（庙会每年吸引成千上万的游客。）
 - **temple of knowledge**：知识的殿堂
-  - *The university is a temple of knowledge where students pursue learning.*
+  - *The university is a temple of knowledge where students pursue learning.*（大学是一座知识的殿堂，学生们在这里追求智慧。）
 - **temple area**：太阳穴区域
-  - *He felt a sharp pain in the temple area of his head.*
+  - *He felt a sharp pain in the temple area of his head.*（他感到太阳穴部位一阵剧痛。）
 
 ## 真题/语料关联
 

@@ -77,15 +77,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pitch the ball**：投球
-  - *The pitcher pitched the ball at 95 miles per hour.*
+  - *The pitcher pitched the ball at 95 miles per hour.*（投手以每小时95英里的速度投球。）
 - **football pitch**：足球场
-  - *The football pitch was waterlogged after the heavy rain.*
+  - *The football pitch was waterlogged after the heavy rain.*（大雨过后足球场积满了水。）
 - **pitch a tent**：搭帐篷
-  - *We pitched our tent by the river for the night.*
+  - *We pitched our tent by the river for the night.*（我们在河边搭帐篷过夜。）
 - **pitch an idea**：推销想法
-  - *She pitched her business idea to a group of investors.*
+  - *She pitched her business idea to a group of investors.*（她向一群投资者推销了她的商业想法。）
 - **sales pitch**：推销话术
-  - *His sales pitch was so convincing that I bought the product immediately.*
+  - *His sales pitch was so convincing that I bought the product immediately.*（他的推销话术非常有说服力，我立刻买了这个产品。）
 
 ## 真题/语料关联
 

@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **make a point**：提出观点
-  - *She made an interesting point about the role of technology.*
+  - *She made an interesting point about the role of technology.*（中文翻译）
 - **point of view**：观点，看法
-  - *From a historical point of view, the event was significant.*
+  - *From a historical point of view, the event was significant.*（中文翻译）
 - **the point is**：关键是
-  - *The point is that we need more data to support the claim.*
+  - *The point is that we need more data to support the claim.*（中文翻译）
 - **point out**：指出
-  - *The reviewer pointed out several errors in the paper.*
+  - *The reviewer pointed out several errors in the paper.*（中文翻译）
 - **turning point**：转折点
-  - *The discovery was a turning point in the field of medicine.*
+  - *The discovery was a turning point in the field of medicine.*（中文翻译）
 - **there's no point**：没有意义
-  - *There's no point in arguing about it anymore.*
+  - *There's no point in arguing about it anymore.*（中文翻译）
 
 ## 真题/语料关联
 

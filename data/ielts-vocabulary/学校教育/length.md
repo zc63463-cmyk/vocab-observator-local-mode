@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **the length of**：……的长度/时长
-  - *The length of the bridge is 500 metres.*
+  - *The length of the bridge is 500 metres.*（中文翻译）
 - **in length**：在长度上
-  - *The snake is about 2 metres in length.*
+  - *The snake is about 2 metres in length.*（中文翻译）
 - **at length**：最后；详细地
-  - *He discussed the issue at length.*
+  - *He discussed the issue at length.*（中文翻译）
 - **go to great lengths**：竭尽全力
-  - *She went to great lengths to protect her family.*
+  - *She went to great lengths to protect her family.*（中文翻译）
 - **a length of**：一段
-  - *He cut a length of wire to fix the fence.*
+  - *He cut a length of wire to fix the fence.*（中文翻译）
 - **full-length**：全长的；全身的
-  - *She has a full-length mirror in her bedroom.*
+  - *She has a full-length mirror in her bedroom.*（中文翻译）
 
 ## 真题/语料关联
 

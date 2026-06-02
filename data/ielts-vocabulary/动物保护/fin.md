@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dorsal fin**：背鳍
-  - *The shark's dorsal fin cut through the surface of the water.*
+  - *The shark's dorsal fin cut through the surface of the water.*（鲨鱼的背鳍划破了水面。）
 - **tail fin**：尾鳍
-  - *The fish uses its tail fin for propulsion.*
+  - *The fish uses its tail fin for propulsion.*（鱼用尾鳍推进。）
 - **shark fin**：鱼翅
-  - *Shark fin soup is a controversial delicacy due to overfishing.*
+  - *Shark fin soup is a controversial delicacy due to overfishing.*（鱼翅汤因过度捕捞而成为一种有争议的美味。）
 - **pectoral fin**：胸鳍
-  - *Pectoral fins help fish maintain balance and change direction.*
+  - *Pectoral fins help fish maintain balance and change direction.*（胸鳍帮助鱼类保持平衡和改变方向。）
 - **fin-shaped**：鳍状的
-  - *The fin-shaped design reduces air resistance.*
+  - *The fin-shaped design reduces air resistance.*（鳍形设计减少了空气阻力。）
 
 ## 真题/语料关联
 

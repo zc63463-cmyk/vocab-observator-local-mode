@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **scrutinise the evidence/contract**：审查证据/合同
-  - *The lawyer scrutinised the contract for any loopholes.*
+  - *The lawyer scrutinised the contract for any loopholes.*（律师仔细审查合同寻找漏洞。）
 - **scrutinise something closely/carefully**：仔细检查某物
-  - *The inspector scrutinised the building carefully for safety violations.*
+  - *The inspector scrutinised the building carefully for safety violations.*（检查员仔细检查建筑物是否有安全隐患。）
 - **under scrutiny**：受到审查
-  - *The government's actions are under public scrutiny.*
+  - *The government's actions are under public scrutiny.*（政府的行为受到公众的审查。）
 - **subject to scrutiny**：需经审查
-  - *All applications are subject to scrutiny by the committee.*
+  - *All applications are subject to scrutiny by the committee.*（所有申请都需经过委员会的审查。）
 - **intense/close scrutiny**：严格审查
-  - *The proposal underwent intense scrutiny before approval.*
+  - *The proposal underwent intense scrutiny before approval.*（该提案在批准前经历了严格的审查。）
 
 ## 真题/语料关联
 

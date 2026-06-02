@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **become an astronaut**：成为宇航员
-  - *Becoming an astronaut requires years of training and excellent physical fitness.*
+  - *Becoming an astronaut requires years of training and excellent physical fitness.*（成为宇航员需要经过多年训练和具备极佳的身体素质。）
 - **NASA astronaut**：NASA宇航员
-  - *NASA astronauts have traveled to the Moon and lived on the International Space Station.*
+  - *NASA astronauts have traveled to the Moon and lived on the International Space Station.*（NASA宇航员曾登上月球并在国际空间站生活。）
 - **astronaut training**：宇航员训练
-  - *Astronaut training includes physical conditioning, simulations, and survival skills.*
+  - *Astronaut training includes physical conditioning, simulations, and survival skills.*（宇航员训练包括体能训练、模拟训练和生存技能。）
 - **astronaut spacewalk**：宇航员太空行走
-  - *During a spacewalk, astronauts perform repairs and experiments outside the spacecraft.*
+  - *During a spacewalk, astronauts perform repairs and experiments outside the spacecraft.*（在太空行走期间，宇航员在航天器外进行维修和实验。）
 - **commercial astronaut**：商业宇航员
-  - *Commercial astronauts are now traveling to space through private companies like SpaceX.*
+  - *Commercial astronauts are now traveling to space through private companies like SpaceX.*（商业宇航员现在通过SpaceX等私营公司前往太空。）
 
 ## 真题/语料关联
 

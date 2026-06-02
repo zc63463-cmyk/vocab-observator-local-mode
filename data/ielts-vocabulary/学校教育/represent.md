@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **represent something**：代表某事
-  - *The dove represents peace in many cultures.*
+  - *The dove represents peace in many cultures.*（在许多文化中，鸽子代表和平。）
 - **represent someone**：代理某人
-  - *The lawyer represents the defendant in court.*
+  - *The lawyer represents the defendant in court.*（律师在法庭上代理被告。）
 - **represent something as**：将某事描绘为
-  - *The media represented the event as a disaster.*
+  - *The media represented the event as a disaster.*（媒体将该事件描绘成一场灾难。）
 - **represent a change/breakthrough**：意味着变化/突破
-  - *This discovery represents a major breakthrough in medicine.*
+  - *This discovery represents a major breakthrough in medicine.*（这一发现代表了医学领域的重大突破。）
 - **be represented**：被代表
-  - *All regions are represented in the parliament.*
+  - *All regions are represented in the parliament.*（所有地区在议会中都有代表。）
 
 ## 真题/语料关联
 

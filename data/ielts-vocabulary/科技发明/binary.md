@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **binary code**：二进制代码
-  - *Computers process information in binary code.*
+  - *Computers process information in binary code.*（计算机以二进制代码处理信息。）
 - **binary system**：二进制系统
-  - *The binary system uses only two digits: 0 and 1.*
+  - *The binary system uses only two digits: 0 and 1.*（二进制系统只使用两个数字：0和1。）
 - **binary number**：二进制数
-  - *The binary number 101 equals 5 in decimal.*
+  - *The binary number 101 equals 5 in decimal.*（二进制数101等于十进制数5。）
 - **binary choice**：二元选择
-  - *The decision presented a binary choice between two options.*
+  - *The decision presented a binary choice between two options.*（这个决定提出了两个选项之间的二元选择。）
 - **binary star**：双星
-  - *The binary star system consists of two stars orbiting each other.*
+  - *The binary star system consists of two stars orbiting each other.*（双星系统由两颗相互绕转的恒星组成。）
 
 ## 真题/语料关联
 

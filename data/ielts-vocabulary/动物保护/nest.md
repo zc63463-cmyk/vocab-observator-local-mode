@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bird's nest**：鸟巢
-  - *We found a bird's nest with three blue eggs in the garden.*
+  - *We found a bird's nest with three blue eggs in the garden.*（我们在花园里发现了一个鸟巢，里面有三颗蓝色的蛋。）
 - **empty nest**：空巢（子女离家后的家）
-  - *Many parents experience empty nest syndrome when their children leave home.*
+  - *Many parents experience empty nest syndrome when their children leave home.*（许多父母在孩子离家时会经历空巢综合征。）
 - **nest egg**：储备金，储蓄
-  - *They've built up a nice nest egg for retirement.*
+  - *They've built up a nice nest egg for retirement.*（他们为退休攒了一笔可观的储备金。）
 - **feather your nest**：营私，中饱私囊
-  - *The politician used public funds to feather his own nest.*
+  - *The politician used public funds to feather his own nest.*（这位政客用公共资金中饱私囊。）
 - **nest of tables**：一套嵌套桌
-  - *The nest of tables is practical for small apartments.*
+  - *The nest of tables is practical for small apartments.*（这套套桌对小户型公寓很实用。）
 
 ## 真题/语料关联
 

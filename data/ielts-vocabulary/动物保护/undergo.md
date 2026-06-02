@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **undergo changes**：经历变化
-  - *The city has undergone significant changes in the last decade.*
+  - *The city has undergone significant changes in the last decade.*（这座城市在过去十年中经历了重大变化。）
 - **undergo surgery**：接受手术
-  - *The patient will undergo surgery next week to remove the tumor.*
+  - *The patient will undergo surgery next week to remove the tumor.*（病人将于下周接受手术切除肿瘤。）
 - **undergo training**：接受培训
-  - *All new employees must undergo training before starting their jobs.*
+  - *All new employees must undergo training before starting their jobs.*（所有新员工在开始工作前必须接受培训。）
 - **undergo transformation**：经历转变
-  - *The caterpillar undergoes transformation to become a butterfly.*
+  - *The caterpillar undergoes transformation to become a butterfly.*（毛毛虫经历蜕变成为蝴蝶。）
 - **undergo examination**：接受检查
-  - *The building must undergo examination for safety after the earthquake.*
+  - *The building must undergo examination for safety after the earthquake.*（地震后该建筑必须接受安全检查。）
 
 ## 真题/语料关联
 

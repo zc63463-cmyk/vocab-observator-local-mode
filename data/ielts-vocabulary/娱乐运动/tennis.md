@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play tennis**：打网球
-  - *She plays tennis at the local club every Saturday morning.*
+  - *She plays tennis at the local club every Saturday morning.*（她每周六早上在当地的俱乐部打网球。）
 - **tennis court**：网球场
-  - *The hotel has two tennis courts available for guests.*
+  - *The hotel has two tennis courts available for guests.*（酒店有两个网球场供客人使用。）
 - **tennis match**：网球比赛
-  - *The tennis match lasted over four hours due to a tiebreak.*
+  - *The tennis match lasted over four hours due to a tiebreak.*（这场网球比赛因抢七局持续了四个多小时。）
 - **tennis racket**：网球拍
-  - *He bought a new tennis racket for the upcoming tournament.*
+  - *He bought a new tennis racket for the upcoming tournament.*（他为即将到来的比赛买了一个新网球拍。）
 - **table tennis**：乒乓球
-  - *Table tennis is extremely popular in China.*
+  - *Table tennis is extremely popular in China.*（乒乓球在中国极为流行。）
 
 ## 真题/语料关联
 

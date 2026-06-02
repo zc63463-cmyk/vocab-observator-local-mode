@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **noun phrase**：名词短语
-  - *The phrase "the big red ball" is a noun phrase.*
+  - *The phrase "the big red ball" is a noun phrase.*（短语"the big red ball"是一个名词短语。）
 - **set phrase**：固定短语
-  - *"Break a leg" is a set phrase meaning "good luck".*
+  - *"Break a leg" is a set phrase meaning "good luck".*（"Break a leg"是一个固定短语，意思是"祝你好运"。）
 - **coining a phrase**：创造新说法
-  - *The author is known for coining memorable phrases.*
+  - *The author is known for coining memorable phrases.*（这位作者以创造令人难忘的短语而闻名。）
 - **turn of phrase**：措辞方式
-  - *She has a distinctive turn of phrase that makes her writing unique.*
+  - *She has a distinctive turn of phrase that makes her writing unique.*（她独特的措辞方式使她的作品与众不同。）
 - **in sb's own words/phrases**：用自己的话
-  - *Try to explain the concept in your own phrases.*
+  - *Try to explain the concept in your own phrases.*（尝试用自己的话解释这个概念。）
 
 ## 真题/语料关联
 

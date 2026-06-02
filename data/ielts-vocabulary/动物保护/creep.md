@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **creep along**：沿着……爬行
-  - *The soldier crept along the trench to avoid enemy fire.*
+  - *The soldier crept along the trench to avoid enemy fire.*（士兵沿着战壕匍匐前进以躲避敌人火力。）
 - **creep into**：悄悄进入
-  - *Tiredness crept into her voice as the meeting dragged on.*
+  - *Tiredness crept into her voice as the meeting dragged on.*（随着会议的拖延，疲惫感渐渐渗入了她的声音。）
 - **creep up on**：悄悄接近
-  - *The deadline is creeping up on us—we need to hurry.*
+  - *The deadline is creeping up on us—we need to hurry.*（截止日期正悄然逼近——我们得抓紧了。）
 - **make your skin creep**：让人毛骨悚然
-  - *The creepy old house made my skin creep.*
+  - *The creepy old house made my skin creep.*（那座令人毛骨悚然的旧房子让我直起鸡皮疙瘩。）
 - **feature creep**：功能蔓延（软件开发术语）
-  - *The project suffered from feature creep, delaying the launch.*
+  - *The project suffered from feature creep, delaying the launch.*（该项目因功能不断增加而受到影响，推迟了发布。）
 
 ## 真题/语料关联
 

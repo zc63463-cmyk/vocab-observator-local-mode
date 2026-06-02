@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **shopping list**：购物清单
-  - *I made a shopping list before going to the supermarket.*
+  - *I made a shopping list before going to the supermarket.*（中文翻译）
 - **to-do list**：待办事项清单
-  - *I have a long to-do list for today.*
+  - *I have a long to-do list for today.*（中文翻译）
 - **guest list**：客人名单
-  - *The guest list for the wedding includes 200 people.*
+  - *The guest list for the wedding includes 200 people.*（中文翻译）
 - **waiting list**：等候名单
-  - *There's a long waiting list for the popular restaurant.*
+  - *There's a long waiting list for the popular restaurant.*（中文翻译）
 - **listed building**：受保护的建筑
-  - *The old church is a listed building.*
+  - *The old church is a listed building.*（中文翻译）
 
 ## 真题/语料关联
 

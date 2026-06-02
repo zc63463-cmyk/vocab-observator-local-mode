@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **vertebrate species**：脊椎动物物种
-  - *Over 69,000 vertebrate species have been described by scientists.*
+  - *Over 69,000 vertebrate species have been described by scientists.*（科学家已描述了超过69,000种脊椎动物。）
 - **aquatic vertebrate**：水生脊椎动物
-  - *Fish and whales are examples of aquatic vertebrates.*
+  - *Fish and whales are examples of aquatic vertebrates.*（鱼类和鲸鱼是水生脊椎动物的例子。）
 - **terrestrial vertebrate**：陆生脊椎动物
-  - *Terrestrial vertebrates include reptiles, birds, and mammals.*
+  - *Terrestrial vertebrates include reptiles, birds, and mammals.*（陆生脊椎动物包括爬行动物、鸟类和哺乳动物。）
 - **vertebrate diversity**：脊椎动物多样性
-  - *Tropical rainforests have the highest vertebrate diversity on Earth.*
+  - *Tropical rainforests have the highest vertebrate diversity on Earth.*（热带雨林拥有地球上最高的脊椎动物多样性。）
 - **vertebrate anatomy**：脊椎动物解剖学
-  - *Vertebrate anatomy courses cover the skeletal, muscular, and nervous systems.*
+  - *Vertebrate anatomy courses cover the skeletal, muscular, and nervous systems.*（脊椎动物解剖课程涵盖骨骼、肌肉和神经系统。）
 
 ## 真题/语料关联
 

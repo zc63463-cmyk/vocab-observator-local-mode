@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **marine mammal**：海洋哺乳动物
-  - *Whales and dolphins are among the most intelligent marine mammals.*
+  - *Whales and dolphins are among the most intelligent marine mammals.*（鲸鱼和海豚是最聪明的海洋哺乳动物之一。）
 - **endangered mammal**：濒危哺乳动物
-  - *The giant panda is one of the world's most endangered mammals.*
+  - *The giant panda is one of the world's most endangered mammals.*（大熊猫是世界上最濒危的哺乳动物之一。）
 - **mammal species**：哺乳动物物种
-  - *Over 6,400 mammal species have been identified worldwide.*
+  - *Over 6,400 mammal species have been identified worldwide.*（全球已鉴定出6400多种哺乳动物。）
 - **mammal population**：哺乳动物种群
-  - *The mammal population in the national park has increased significantly.*
+  - *The mammal population in the national park has increased significantly.*（该国家公园的哺乳动物数量已显著增长。）
 - **small/large mammal**：小型/大型哺乳动物
-  - *Small mammals like squirrels play an important role in forest ecosystems.*
+  - *Small mammals like squirrels play an important role in forest ecosystems.*（像松鼠这样的小型哺乳动物在森林生态系统中发挥着重要作用。）
 
 ## 真题/语料关联
 

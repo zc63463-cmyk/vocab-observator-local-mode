@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sharp claws**：锋利的爪子
-  - *The cat extended its sharp claws to climb the tree.*
+  - *The cat extended its sharp claws to climb the tree.*（猫伸出锋利的爪子爬树。）
 - **claw at sth**：抓挠某物
-  - *The trapped animal clawed at the cage door.*
+  - *The trapped animal clawed at the cage door.*（被困的动物用爪子抓笼门。）
 - **claw one's way**：艰难地攀爬/前进
-  - *She clawed her way to the top of the corporate ladder.*
+  - *She clawed her way to the top of the corporate ladder.*（她奋力攀爬到了公司高层。）
 - **get one's claws into**：紧紧抓住（口语）
-  - *The company got its claws into the emerging market.*
+  - *The company got its claws into the emerging market.*（这家公司牢牢抓住了新兴市场。）
 - **claw back**：逐步收回（损失、优势等）
-  - *The team clawed back a two-goal deficit in the second half.*
+  - *The team clawed back a two-goal deficit in the second half.*（球队在下半场奋力追回了两个球的差距。）
 
 ## 真题/语料关联
 

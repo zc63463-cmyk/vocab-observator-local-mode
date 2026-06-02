@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **blood cell**：血细胞
-  - *Red blood cells carry oxygen throughout the body.*
+  - *Red blood cells carry oxygen throughout the body.*（红细胞将氧气输送到全身。）
 - **prison cell**：牢房
-  - *The prisoner was kept in a small, dark cell.*
+  - *The prisoner was kept in a small, dark cell.*（囚犯被关在一个狭小黑暗的牢房里。）
 - **solar cell**：太阳能电池
-  - *Solar cells convert sunlight into electricity.*
+  - *Solar cells convert sunlight into electricity.*（太阳能电池将阳光转化为电能。）
 - **cell phone**：手机（蜂窝电话）
-  - *Cell phones have become an essential part of modern life.*
+  - *Cell phones have become an essential part of modern life.*（手机已成为现代生活中必不可少的一部分。）
 - **cell division**：细胞分裂
-  - *Cell division is essential for growth and repair in living organisms.*
+  - *Cell division is essential for growth and repair in living organisms.*（细胞分裂对生物体的生长和修复至关重要。）
 
 ## 真题/语料关联
 

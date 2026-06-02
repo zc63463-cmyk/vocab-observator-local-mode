@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a radio announcer**：广播播音员
-  - *The radio announcer read the news at noon.*
+  - *The radio announcer read the news at noon.*（广播播音员在中午播报了新闻。）
 - **a TV/television announcer**：电视播音员
-  - *The TV announcer introduced the next program.*
+  - *The TV announcer introduced the next program.*（电视播音员介绍了下一个节目。）
 - **a news announcer**：新闻播音员
-  - *The news announcer reported the breaking story.*
+  - *The news announcer reported the breaking story.*（新闻播音员报道了突发新闻。）
 - **a game show announcer**：节目主持人
-  - *The game show announcer announced the winner.*
+  - *The game show announcer announced the winner.*（节目主持人宣布了获胜者。）
 - **the announcer of**：……的宣告者
-  - *The announcer of the results was very excited.*
+  - *The announcer of the results was very excited.*（结果宣布者非常激动。）
 
 ## 真题/语料关联
 

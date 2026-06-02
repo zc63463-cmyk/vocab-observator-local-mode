@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **reach a consensus**：达成共识
-  - *After hours of discussion, the committee finally reached a consensus.*
+  - *After hours of discussion, the committee finally reached a consensus.*（经过数小时的讨论，委员会终于达成了共识。）
 - **build consensus**：建立共识
-  - *The leader's role is to build consensus among team members.*
+  - *The leader's role is to build consensus among team members.*（领导者的角色是在团队成员之间建立共识。）
 - **by consensus**：通过共识
-  - *The decision was made by consensus rather than by vote.*
+  - *The decision was made by consensus rather than by vote.*（这个决定是通过共识而非投票做出的。）
 - **public consensus**：公众共识
-  - *There is a growing public consensus on the need for climate action.*
+  - *There is a growing public consensus on the need for climate action.*（公众对气候行动必要性的共识正在增长。）
 - **consensus building**：共识建立
-  - *Consensus building requires patience and active listening.*
+  - *Consensus building requires patience and active listening.*（建立共识需要耐心和积极倾听。）
 
 ## 真题/语料关联
 

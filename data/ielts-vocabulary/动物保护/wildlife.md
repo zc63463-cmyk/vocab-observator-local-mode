@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **wildlife conservation**：野生动物保护
-  - *Wildlife conservation efforts have helped save many species from extinction.*
+  - *Wildlife conservation efforts have helped save many species from extinction.*（野生动物保护工作已帮助拯救了许多物种免于灭绝。）
 - **wildlife reserve**：野生动物保护区
-  - *The wildlife reserve is home to elephants, lions, and giraffes.*
+  - *The wildlife reserve is home to elephants, lions, and giraffes.*（这个野生动物保护区是大象、狮子和长颈鹿的家园。）
 - **wildlife habitat**：野生动物栖息地
-  - *Deforestation is destroying wildlife habitat around the world.*
+  - *Deforestation is destroying wildlife habitat around the world.*（森林砍伐正在摧毁世界各地的野生动物栖息地。）
 - **wildlife photographer**：野生动物摄影师
-  - *The wildlife photographer spent months in the jungle capturing rare images.*
+  - *The wildlife photographer spent months in the jungle capturing rare images.*（野生动物摄影师在丛林中待了数月拍摄稀有影像。）
 - **wildlife corridor**：野生动物走廊
-  - *Wildlife corridors allow animals to move safely between fragmented habitats.*
+  - *Wildlife corridors allow animals to move safely between fragmented habitats.*（野生动物走廊使动物能够在碎片化的栖息地之间安全移动。）
 
 ## 真题/语料关联
 

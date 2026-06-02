@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go on a cruise**：去乘船游览
-  - *We went on a cruise around the Mediterranean last summer.*
+  - *We went on a cruise around the Mediterranean last summer.*（去年夏天我们乘船游览了地中海。）
 - **cruise ship**：邮轮
-  - *The cruise ship can carry over 3,000 passengers.*
+  - *The cruise ship can carry over 3,000 passengers.*（这艘邮轮可以搭载3000多名乘客。）
 - **river cruise**：河上巡游
-  - *The river cruise offered stunning views of the city skyline.*
+  - *The river cruise offered stunning views of the city skyline.*（河上巡游展现了城市天际线的壮丽景色。）
 - **cruise control**：巡航控制（汽车功能）
-  - *Set the cruise control to maintain a constant speed on the highway.*
+  - *Set the cruise control to maintain a constant speed on the highway.*（设置巡航控制以在高速公路上保持恒定速度。）
 - **cruise through**：轻松通过
-  - *She cruised through the exam without any difficulty.*
+  - *She cruised through the exam without any difficulty.*（她毫无困难地轻松通过了考试。）
 
 ## 真题/语料关联
 

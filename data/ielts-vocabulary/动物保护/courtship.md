@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **courtship display**：求偶展示
-  - *The male peacock performs an elaborate courtship display.*
+  - *The male peacock performs an elaborate courtship display.*（雄孔雀进行精心编排的求偶展示。）
 - **courtship ritual**：求偶仪式
-  - *Many birds have complex courtship rituals.*
+  - *Many birds have complex courtship rituals.*（许多鸟类有复杂的求偶仪式。）
 - **courtship period**：追求期
-  - *The courtship period before marriage can last several years.*
+  - *The courtship period before marriage can last several years.*（婚前的恋爱期可以持续多年。）
 - **during courtship**：在求偶期间
-  - *During courtship, male birds often sing to attract females.*
+  - *During courtship, male birds often sing to attract females.*（求偶期间，雄鸟常通过鸣叫来吸引雌鸟。）
 - **political courtship**：政治讨好
-  - *The politician's courtship of voters was obvious.*
+  - *The politician's courtship of voters was obvious.*（这位政客对选民的讨好显而易见。）
 
 ## 真题/语料关联
 

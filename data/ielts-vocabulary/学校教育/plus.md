@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **plus sign**：加号（+）
-  - *The plus sign indicates addition.*
+  - *The plus sign indicates addition.*（中文翻译）
 - **two plus three equals five**：二加三等于五
-  - *In mathematics, two plus three equals five.*
+  - *In mathematics, two plus three equals five.*（中文翻译）
 - **plus point**：优点，好处
-  - *The hotel's plus point is its location.*
+  - *The hotel's plus point is its location.*（中文翻译）
 - **a real plus**：真正的优势
-  - *Having experience is a real plus when applying for jobs.*
+  - *Having experience is a real plus when applying for jobs.*（中文翻译）
 - **plus or minus**：加减；大约
-  - *The temperature will be 20 degrees, plus or minus 2.*
+  - *The temperature will be 20 degrees, plus or minus 2.*（中文翻译）
 
 ## 真题/语料关联
 

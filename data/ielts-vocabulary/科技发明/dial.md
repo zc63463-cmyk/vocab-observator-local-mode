@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dial a number**：拨号码
-  - *She dialed the number and waited for an answer.*
+  - *She dialed the number and waited for an answer.*（她拨了号码，等待有人接听。）
 - **dial tone**：拨号音
-  - *I picked up the phone and heard the dial tone.*
+  - *I picked up the phone and heard the dial tone.*（我拿起电话，听到了拨号音。）
 - **dial-up**：拨号上网
-  - *Dial-up internet connections were common in the 1990s.*
+  - *Dial-up internet connections were common in the 1990s.*（拨号上网在20世纪90年代很常见。）
 - **dial in**：拨入；调准
-  - *You need to dial in the correct frequency.*
+  - *You need to dial in the correct frequency.*（你需要调准正确的频率。）
 - **speed dial**：快速拨号
-  - *I have my family on speed dial for emergencies.*
+  - *I have my family on speed dial for emergencies.*（我把家人的号码设为快速拨号以应对紧急情况。）
 
 ## 真题/语料关联
 

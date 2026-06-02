@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **contingency plan**：应急计划，预案
-  - *The company has a contingency plan in case of a natural disaster.*
+  - *The company has a contingency plan in case of a natural disaster.*（公司制定了应对自然灾害的应急计划。）
 - **contingency fund**：应急基金
-  - *We need to set aside a contingency fund for unexpected expenses.*
+  - *We need to set aside a contingency fund for unexpected expenses.*（我们需要拨出一笔应急基金来应对意外开支。）
 - **in the event of contingency**：万一发生意外
-  - *In the event of contingency, please follow the emergency procedures.*
+  - *In the event of contingency, please follow the emergency procedures.*（万一发生意外，请遵循紧急程序。）
 - **contingency measures**：应急措施
-  - *The government implemented contingency measures to address the crisis.*
+  - *The government implemented contingency measures to address the crisis.*（政府实施了应急措施来应对危机。）
 - **plan for contingencies**：为意外情况做准备
-  - *Good managers always plan for contingencies.*
+  - *Good managers always plan for contingencies.*（优秀的管理者总是为意外情况做好准备。）
 
 ## 真题/语料关联
 

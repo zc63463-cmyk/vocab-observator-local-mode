@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **fairy tale**：童话故事
-  - *The children loved listening to fairy tales before bed.*
+  - *The children loved listening to fairy tales before bed.*（孩子们喜欢睡前听童话故事。）
 - **folk tale**：民间故事
-  - *This folk tale has been passed down for generations.*
+  - *This folk tale has been passed down for generations.*（这个民间故事已经代代相传。）
 - **a tale of adventure**：冒险故事
-  - *The book is a tale of adventure set in the Amazon rainforest.*
+  - *The book is a tale of adventure set in the Amazon rainforest.*（这本书是一个以亚马逊雨林为背景的冒险故事。）
 - **tell tales**：说谎；告密
-  - *Don't tell tales about your classmates.*
+  - *Don't tell tales about your classmates.*（不要告同学的状。）
 - **a tall tale**：夸张的故事；谎言
-  - *He told a tall tale about meeting a celebrity.*
+  - *He told a tall tale about meeting a celebrity.*（他讲了一个关于遇到名人的夸张故事。）
 - **tales of**：关于……的故事
-  - *She shared tales of her travels around the world.*
+  - *She shared tales of her travels around the world.*（她分享了周游世界的旅行故事。）
 
 ## 真题/语料关联
 

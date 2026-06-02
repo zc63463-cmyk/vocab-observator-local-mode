@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hedge fund**：对冲基金
-  - *The hedge fund manager made billions by betting against the housing market.*
+  - *The hedge fund manager made billions by betting against the housing market.*（这位对冲基金经理通过做空房市赚了数十亿。）
 - **hedge one's bets**：两面下注；留有余地
-  - *She hedged her bets by applying to several universities.*
+  - *She hedged her bets by applying to several universities.*（她通过申请多所大学来降低风险。）
 - **hedgerow**：树篱（一排密植的灌木）
-  - *The ancient hedgerows provide vital habitats for wildlife.*
+  - *The ancient hedgerows provide vital habitats for wildlife.*（古老的树篱为野生动物提供了重要的栖息地。）
 - **hedge against**：防范，对冲（风险）
-  - *Gold is often seen as a hedge against economic uncertainty.*
+  - *Gold is often seen as a hedge against economic uncertainty.*（黄金常被视为对冲经济不确定性的工具。）
 - **hedge trimmer**：树篱修剪器
-  - *He used a hedge trimmer to shape the topiary.*
+  - *He used a hedge trimmer to shape the topiary.*（他用绿篱修剪机修剪造型植物。）
 
 ## 真题/语料关联
 

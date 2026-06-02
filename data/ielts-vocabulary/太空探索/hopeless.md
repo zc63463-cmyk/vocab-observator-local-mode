@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hopeless situation**：无望的局势
-  - *The soldiers found themselves in a hopeless situation, surrounded by the enemy.*
+  - *The soldiers found themselves in a hopeless situation, surrounded by the enemy.*（士兵们发现自己陷入了绝境，被敌人包围。）
 - **feel hopeless**：感到绝望
-  - *After months of failed attempts, she felt hopeless.*
+  - *After months of failed attempts, she felt hopeless.*（经过数月的失败尝试，她感到绝望。）
 - **hopeless case**：不可救药的人/事
-  - *The doctor said it was a hopeless case, but the family never gave up.*
+  - *The doctor said it was a hopeless case, but the family never gave up.*（医生说这是一个无药可救的病例，但家人从未放弃。）
 - **hopeless at**：在……方面很糟糕
-  - *I'm hopeless at cooking—I always burn the food.*
+  - *I'm hopeless at cooking—I always burn the food.*（我在做饭方面一窍不通，总是把食物烧焦。）
 - **hopelessly** (adv.)：极其；绝望地
-  - *They were hopelessly lost in the wilderness.*
+  - *They were hopelessly lost in the wilderness.*（他们在荒野中完全迷路了。）
 
 ## 真题/语料关联
 

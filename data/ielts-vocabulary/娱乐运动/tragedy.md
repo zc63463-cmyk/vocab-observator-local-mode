@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Greek tragedy**：希腊悲剧
-  - *Greek tragedy often deals with themes of fate and justice.*
+  - *Greek tragedy often deals with themes of fate and justice.*（希腊悲剧常常涉及命运和正义的主题。）
 - **Shakespearean tragedy**：莎士比亚悲剧
-  - *Hamlet is one of Shakespeare's greatest tragedies.*
+  - *Hamlet is one of Shakespeare's greatest tragedies.*（《哈姆雷特》是莎士比亚最伟大的悲剧之一。）
 - **human tragedy**：人间悲剧
-  - *The war caused immense human tragedy.*
+  - *The war caused immense human tragedy.*（战争造成了巨大的人类悲剧。）
 - **national tragedy**：国家悲剧
-  - *The assassination was a national tragedy.*
+  - *The assassination was a national tragedy.*（这次暗杀是一场国家悲剧。）
 - **tragedy strikes**：悲剧发生
-  - *Tragedy struck when the earthquake hit the city.*
+  - *Tragedy struck when the earthquake hit the city.*（地震袭击该城市时，悲剧降临了。）
 
 ## 真题/语料关联
 

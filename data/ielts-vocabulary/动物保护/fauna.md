@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **local fauna**：本地动物群
-  - *The local fauna includes deer, foxes, and various bird species.*
+  - *The local fauna includes deer, foxes, and various bird species.*（当地动物群包括鹿、狐狸和各种鸟类。）
 - **native fauna**：本地原生动物群
-  - *The introduction of invasive species has threatened the native fauna.*
+  - *The introduction of invasive species has threatened the native fauna.*（入侵物种的引入威胁到了本土动物群。）
 - **marine fauna**：海洋动物群
-  - *The marine fauna of the Great Barrier Reef is incredibly diverse.*
+  - *The marine fauna of the Great Barrier Reef is incredibly diverse.*（大堡礁的海洋动物群极其多样化。）
 - **fauna and flora**：动物群和植物群
-  - *The national park is home to a rich variety of fauna and flora.*
+  - *The national park is home to a rich variety of fauna and flora.*（该国家公园拥有种类繁多的动植物。）
 - **fauna survey**：动物群调查
-  - *A fauna survey was conducted before the construction project began.*
+  - *A fauna survey was conducted before the construction project began.*（在建设项目开始前进行了一次动物群调查。）
 
 ## 真题/语料关联
 

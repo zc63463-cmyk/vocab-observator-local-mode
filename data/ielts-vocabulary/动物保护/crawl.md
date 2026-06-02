@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **learn to crawl**：学习爬行
-  - *Babies usually start to crawl between 6 and 10 months.*
+  - *Babies usually start to crawl between 6 and 10 months.*（婴儿通常在6到10个月大时开始爬行。）
 - **crawl with**：爬满，挤满
-  - *The picnic area was crawling with ants.*
+  - *The picnic area was crawling with ants.*（野餐区爬满了蚂蚁。）
 - **front crawl**：自由泳
-  - *She prefers the front crawl because it's the fastest stroke.*
+  - *She prefers the front crawl because it's the fastest stroke.*（她喜欢自由泳，因为这是最快的泳姿。）
 - **make your skin crawl**：让人起鸡皮疙瘩
-  - *The sight of the spiders made my skin crawl.*
+  - *The sight of the spiders made my skin crawl.*（看到那些蜘蛛让我起了一身鸡皮疙瘩。）
 - **at a crawl**：缓慢地
-  - *The line of cars moved at a crawl during rush hour.*
+  - *The line of cars moved at a crawl during rush hour.*（高峰时段车流缓慢移动。）
 
 ## 真题/语料关联
 

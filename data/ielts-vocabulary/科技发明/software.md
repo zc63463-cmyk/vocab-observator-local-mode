@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **software development**：软件开发
-  - *Software development requires both technical and creative skills.*
+  - *Software development requires both technical and creative skills.*（软件开发既需要技术能力也需要创造能力。）
 - **software engineer**：软件工程师
-  - *She works as a software engineer at a tech company.*
+  - *She works as a software engineer at a tech company.*（她在一家科技公司担任软件工程师。）
 - **software application**：软件应用
-  - *The software application simplifies complex calculations.*
+  - *The software application simplifies complex calculations.*（这个软件应用简化了复杂的计算。）
 - **software update**：软件更新
-  - *Regular software updates are important for security.*
+  - *Regular software updates are important for security.*（定期更新软件对安全性很重要。）
 - **open-source software**：开源软件
-  - *Open-source software allows users to modify and distribute the code.*
+  - *Open-source software allows users to modify and distribute the code.*（开源软件允许用户修改和分发代码。）
 
 ## 真题/语料关联
 

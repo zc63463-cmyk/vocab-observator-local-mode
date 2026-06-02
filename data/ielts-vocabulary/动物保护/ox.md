@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a pair of oxen**：一对阉牛
-  - *The farmer used a pair of oxen to plow the field.*
+  - *The farmer used a pair of oxen to plow the field.*（农夫用一对公牛犁地。）
 - **ox cart**：牛车
-  - *The ox cart was loaded with goods for the market.*
+  - *The ox cart was loaded with goods for the market.*（牛车上装满了要运往市场的货物。）
 - **ox-like**：像牛一样的
-  - *He has an ox-like strength.*
+  - *He has an ox-like strength.*（他有着牛一般的力气。）
 - **ox bow**：牛轭；U形弯道
-  - *The river formed an ox bow over time.*
+  - *The river formed an ox bow over time.*（那条河随时间推移形成了一个U形弯。）
 - **ox tongue**：牛舌（食物）
-  - *Ox tongue is a delicacy in some cultures.*
+  - *Ox tongue is a delicacy in some cultures.*（牛舌在某些文化中被视为美味佳肴。）
 
 ## 真题/语料关联
 

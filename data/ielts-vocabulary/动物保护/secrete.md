@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **secrete hormones**：分泌激素
-  - *The pituitary gland secretes hormones that regulate growth and metabolism.*
+  - *The pituitary gland secretes hormones that regulate growth and metabolism.*（脑垂体分泌调节生长和新陈代谢的激素。）
 - **secrete saliva**：分泌唾液
-  - *The mouth secretes saliva to aid in digestion.*
+  - *The mouth secretes saliva to aid in digestion.*（口腔分泌唾液以帮助消化。）
 - **secrete away**：藏匿，隐藏
-  - *She secreted the letters away in a hidden compartment.*
+  - *She secreted the letters away in a hidden compartment.*（她把信件藏在一个隐蔽的隔层里。）
 - **secrete mucus**：分泌黏液
-  - *The nasal passages secrete mucus to trap dust and bacteria.*
+  - *The nasal passages secrete mucus to trap dust and bacteria.*（鼻腔分泌黏液以捕获灰尘和细菌。）
 - **secrete toxins**：排出毒素
-  - *Some insects secrete toxins as a defense mechanism.*
+  - *Some insects secrete toxins as a defense mechanism.*（一些昆虫分泌毒素作为防御机制。）
 
 ## 真题/语料关联
 

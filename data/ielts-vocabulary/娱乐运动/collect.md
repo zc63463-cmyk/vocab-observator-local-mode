@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **collect stamps/coins/art**：收集邮票/硬币/艺术品
-  - *She has been collecting stamps since she was a child.*
+  - *She has been collecting stamps since she was a child.*（她从小就收集邮票。）
 - **collect data/information**：收集数据/信息
-  - *Researchers collected data from over 1000 participants.*
+  - *Researchers collected data from over 1000 participants.*（研究人员从1000多名参与者那里收集了数据。）
 - **collect oneself**：镇定自己，控制情绪
-  - *He took a deep breath to collect himself before the speech.*
+  - *He took a deep breath to collect himself before the speech.*（他在演讲前深吸一口气让自己镇定下来。）
 - **collect one's thoughts**：整理思绪
-  - *She needed a moment to collect her thoughts.*
+  - *She needed a moment to collect her thoughts.*（她需要一点时间来整理思绪。）
 - **collect on delivery**：货到付款
-  - *The package was sent collect on delivery.*
+  - *The package was sent collect on delivery.*（这个包裹是按货到付款方式寄送的。）
 
 ## 真题/语料关联
 

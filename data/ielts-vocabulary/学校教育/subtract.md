@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **subtract A from B**：从B中减去A
-  - *If you subtract 5 from 10, you get 5.*
+  - *If you subtract 5 from 10, you get 5.*（如果你从10中减去5，得到5。）
 - **subtract the cost/amount**：扣除成本/金额
-  - *Subtract the cost of materials from the total revenue.*
+  - *Subtract the cost of materials from the total revenue.*（从总收入中扣除材料成本。）
 - **subtraction sign**：减号
-  - *The subtraction sign is represented by a minus symbol.*
+  - *The subtraction sign is represented by a minus symbol.*（减号由一条短横线表示。）
 - **mental subtraction**：心算减法
-  - *Children should practise mental subtraction.*
+  - *Children should practise mental subtraction.*（孩子们应该练习心算减法。）
 - **subtract from**：从……中减去；降低
-  - *The bad weather subtracted from our enjoyment of the trip.*
+  - *The bad weather subtracted from our enjoyment of the trip.*（坏天气降低了我们旅途的乐趣。）
 
 ## 真题/语料关联
 

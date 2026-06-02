@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **business trip**：出差
-  - *He's away on a business trip to Shanghai.*
+  - *He's away on a business trip to Shanghai.*（他出差去上海了。）
 - **day trip**：一日游
-  - *We took a day trip to the seaside.*
+  - *We took a day trip to the seaside.*（我们去海边一日游了。）
 - **road trip**：公路旅行
-  - *They went on a road trip across the country.*
+  - *They went on a road trip across the country.*（他们进行了一次穿越全国的公路旅行。）
 - **trip over**：被……绊倒
-  - *She tripped over the rug and fell.*
+  - *She tripped over the rug and fell.*（她被地毯绊倒了。）
 - **round trip**：往返旅行
-  - *The round trip from London to Paris takes about six hours.*
+  - *The round trip from London to Paris takes about six hours.*（从伦敦到巴黎的往返行程大约需要六小时。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **assume that**：假定
-  - *We assume that all participants will arrive on time.*
+  - *We assume that all participants will arrive on time.*（我们假定所有参与者都会准时到达。）
 - **assume responsibility**：承担责任
-  - *She assumed responsibility for the project's failure.*
+  - *She assumed responsibility for the project's failure.*（她承担了项目失败的责任。）
 - **assume control**：接管
-  - *The new manager will assume control next month.*
+  - *The new manager will assume control next month.*（新经理将在下个月接管管理权。）
 - **assume a role**：承担角色
-  - *He assumed the role of team leader.*
+  - *He assumed the role of team leader.*（他承担了团队领导者的角色。）
 - **it is assumed that**：人们假定
-  - *It is assumed that the data is accurate.*
+  - *It is assumed that the data is accurate.*（人们假定这些数据是准确的。）
 
 ## 真题/语料关联
 

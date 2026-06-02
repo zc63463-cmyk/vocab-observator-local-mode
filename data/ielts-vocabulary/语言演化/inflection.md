@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **verb inflection**：动词屈折
-  - *English has relatively simple verb inflection compared to Latin.*
+  - *English has relatively simple verb inflection compared to Latin.*（与拉丁语相比，英语的动词屈折变化相对简单。）
 - **noun inflection**：名词屈折
-  - *German has complex noun inflection with multiple cases.*
+  - *German has complex noun inflection with multiple cases.*（德语有复杂的名词屈折变化，包含多个格。）
 - **inflectional ending**：屈折词尾
-  - *The -ed ending is a common inflectional ending for past tense.*
+  - *The -ed ending is a common inflectional ending for past tense.*（-ed词尾是过去时常见的屈折词尾。）
 - **inflected language**：屈折语言
-  - *Latin is a highly inflected language.*
+  - *Latin is a highly inflected language.*（拉丁语是一种高度屈折的语言。）
 - **voice inflection**：语调变化
-  - *Good speakers use voice inflection to keep their audience engaged.*
+  - *Good speakers use voice inflection to keep their audience engaged.*（优秀的演讲者使用语调变化来保持听众的注意力。）
 
 ## 真题/语料关联
 

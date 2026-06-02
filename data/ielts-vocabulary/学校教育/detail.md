@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in detail**：详细地
-  - *The professor explained the theory in detail.*
+  - *The professor explained the theory in detail.*（教授详细地解释了这一理论。）
 - **the details of**：……的细节
-  - *The details of the plan are still being discussed.*
+  - *The details of the plan are still being discussed.*（计划的细节仍在讨论中。）
 - **go into detail**：详细说明
-  - *I don't want to go into detail about the meeting.*
+  - *I don't want to go into detail about the meeting.*（我不想详细说明会议的情况。）
 - **detailed** (adj.)：详细的
-  - *The report provides a detailed analysis.*
+  - *The report provides a detailed analysis.*（报告提供了详细的分析。）
 - **pay attention to detail**：注意细节
-  - *Success in this job requires paying attention to detail.*
+  - *Success in this job requires paying attention to detail.*（做这份工作成功需要注重细节。）
 
 ## 真题/语料关联
 

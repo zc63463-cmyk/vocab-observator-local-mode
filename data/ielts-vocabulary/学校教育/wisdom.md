@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **words of wisdom**：智慧之言
-  - *My grandfather always shared words of wisdom with me.*
+  - *My grandfather always shared words of wisdom with me.*（我的祖父总是与我分享智慧之言。）
 - **conventional wisdom**：传统观点；普遍看法
-  - *Conventional wisdom suggests that exercise improves mental health.*
+  - *Conventional wisdom suggests that exercise improves mental health.*（普遍认为运动能改善心理健康。）
 - **the wisdom of doing something**：做某事的明智性
-  - *Many questioned the wisdom of investing in such a risky project.*
+  - *Many questioned the wisdom of investing in such a risky project.*（许多人质疑投资如此高风险项目的明智性。）
 - **the wisdom of Solomon**：所罗门的智慧（极度睿智）
-  - *The judge showed the wisdom of Solomon in resolving the dispute.*
+  - *The judge showed the wisdom of Solomon in resolving the dispute.*（法官在解决纠纷时展现了所罗门般的智慧。）
 - **pearl of wisdom**：智慧珍珠（睿智的言论）
-  - *She offered a pearl of wisdom that changed my perspective.*
+  - *She offered a pearl of wisdom that changed my perspective.*（她说了一句智慧的箴言，改变了我的看法。）
 
 ## 真题/语料关联
 

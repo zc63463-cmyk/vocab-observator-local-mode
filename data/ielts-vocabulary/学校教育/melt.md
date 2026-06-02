@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ice melts**：冰融化
-  - *The ice melts quickly in the summer heat.*
+  - *The ice melts quickly in the summer heat.*（中文翻译）
 - **melt in your mouth**：入口即化
-  - *The chocolate cake was so delicious it melted in my mouth.*
+  - *The chocolate cake was so delicious it melted in my mouth.*（中文翻译）
 - **melt her heart**：使她心软
-  - *The little puppy's eyes melted her heart.*
+  - *The little puppy's eyes melted her heart.*（中文翻译）
 - **melt away**：逐渐消失
-  - *Her fears melted away as she gained confidence.*
+  - *Her fears melted away as she gained confidence.*（中文翻译）
 - **melting pot**：大熔炉（比喻多元文化融合的地方）
-  - *New York City is often described as a melting pot of cultures.*
+  - *New York City is often described as a melting pot of cultures.*（中文翻译）
 
 ## 真题/语料关联
 

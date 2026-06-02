@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **teaching assistant (TA)**：助教
-  - *The teaching assistant helps the professor grade assignments and lead discussion sessions.*
+  - *The teaching assistant helps the professor grade assignments and lead discussion sessions.*（助教帮助教授批改作业并带领讨论课。）
 - **personal assistant (PA)**：个人助理
-  - *She works as a personal assistant to the CEO of the company.*
+  - *She works as a personal assistant to the CEO of the company.*（她担任公司首席执行官的个人助理。）
 - **assistant professor**：助理教授（大学初级教授职位）
-  - *He was appointed as an assistant professor of economics at Harvard.*
+  - *He was appointed as an assistant professor of economics at Harvard.*（他被任命为哈佛大学经济学助理教授。）
 - **assistant manager**：副经理
-  - *The assistant manager is in charge when the manager is away.*
+  - *The assistant manager is in charge when the manager is away.*（经理不在时，副经理负责管理。）
 - **research assistant**：研究助理
-  - *The research assistant collected data for the experiment.*
+  - *The research assistant collected data for the experiment.*（研究助理为实验收集了数据。）
 
 ## 真题/语料关联
 

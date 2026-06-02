@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **prove that...**：证明……
-  - *The evidence proves that he was innocent.*
+  - *The evidence proves that he was innocent.*（中文翻译）
 - **prove to be**：证明是
-  - *The task proved to be more difficult than expected.*
+  - *The task proved to be more difficult than expected.*（中文翻译）
 - **prove a point**：证明观点
-  - *She was determined to prove her point.*
+  - *She was determined to prove her point.*（中文翻译）
 - **prove oneself**：证明自己
-  - *He had to prove himself in the new job.*
+  - *He had to prove himself in the new job.*（中文翻译）
 - **proof** (n.)：证据
-  - *There is no proof that the claim is true.*
+  - *There is no proof that the claim is true.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a rough sketch**：草图
-  - *The architect made a rough sketch of the building design.*
+  - *The architect made a rough sketch of the building design.*（建筑师画了一幅建筑设计草图。）
 - **sketch out**：概述，草拟
-  - *The manager sketched out the plan for the new project.*
+  - *The manager sketched out the plan for the new project.*（经理概述了新项目的计划。）
 - **sketch pad**：素描本
-  - *She always carries a sketch pad when she travels.*
+  - *She always carries a sketch pad when she travels.*（她旅行时总是随身携带素描本。）
 - **pencil sketch**：铅笔素描
-  - *The pencil sketch captured the subject's expression perfectly.*
+  - *The pencil sketch captured the subject's expression perfectly.*（这幅铅笔素描完美地捕捉到了对象的表情。）
 - **comedy sketch**：喜剧小品
-  - *The comedy sketch had the audience laughing non-stop.*
+  - *The comedy sketch had the audience laughing non-stop.*（这个喜剧小品让观众笑个不停。）
 
 ## 真题/语料关联
 

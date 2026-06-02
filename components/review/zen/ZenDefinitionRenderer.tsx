@@ -5,6 +5,8 @@ import {
   type DefinitionBlock,
   type InlineSegment,
 } from "@/lib/review/parse-zen-definition";
+import { applyHighlightsToBlocks } from "@/lib/review/highlights";
+import type { WordHighlight } from "@/lib/review/types";
 
 /**
  * Visual renderer for `word.definition_md` on the Zen review flashcard.
@@ -20,8 +22,19 @@ import {
  *      than the surrounding body text — identified either from authored
  *      backticks OR the parser's whitelist heuristic for bare markers.
  */
-export function ZenDefinitionRenderer({ markdown }: { markdown: string }) {
+export function ZenDefinitionRenderer({
+  markdown,
+  highlights,
+  onDeleteHighlight,
+}: {
+  markdown: string;
+  highlights?: WordHighlight[];
+  onDeleteHighlight?: (id: string) => void;
+}) {
   const blocks = parseZenDefinition(markdown);
+  const renderedBlocks = highlights?.length
+    ? applyHighlightsToBlocks(blocks, highlights)
+    : blocks;
 
   if (blocks.length === 0) {
     return (
@@ -33,18 +46,24 @@ export function ZenDefinitionRenderer({ markdown }: { markdown: string }) {
 
   return (
     <div className="space-y-3">
-      {blocks.map((block, idx) => (
-        <BlockRenderer key={idx} block={block} />
+      {renderedBlocks.map((block, idx) => (
+        <BlockRenderer key={idx} block={block} onDeleteHighlight={onDeleteHighlight} />
       ))}
     </div>
   );
 }
 
-function BlockRenderer({ block }: { block: DefinitionBlock }) {
+function BlockRenderer({
+  block,
+  onDeleteHighlight,
+}: {
+  block: DefinitionBlock;
+  onDeleteHighlight?: (id: string) => void;
+}) {
   if (block.kind === "paragraph") {
     return (
       <p className="text-base leading-7 text-[var(--color-ink)]">
-        <InlineSegments segments={block.segments} />
+        <InlineSegments segments={block.segments} onDeleteHighlight={onDeleteHighlight} />
       </p>
     );
   }
@@ -66,7 +85,7 @@ function BlockRenderer({ block }: { block: DefinitionBlock }) {
             </span>
           ) : null}
           <span className="text-sm leading-6 text-[var(--color-ink)]">
-            <InlineSegments segments={row.segments} />
+            <InlineSegments segments={row.segments} onDeleteHighlight={onDeleteHighlight} />
           </span>
         </div>
       ))}
@@ -74,19 +93,25 @@ function BlockRenderer({ block }: { block: DefinitionBlock }) {
   );
 }
 
-function InlineSegments({ segments }: { segments: InlineSegment[] }) {
+function InlineSegments({
+  segments,
+  onDeleteHighlight,
+}: {
+  segments: InlineSegment[];
+  onDeleteHighlight?: (id: string) => void;
+}) {
   return (
     <>
       {segments.map((segment, i) => {
         switch (segment.kind) {
           case "text":
-            return <span key={i}>{segment.content}</span>;
+            return <span key={`t-${i}-${segment.content.slice(0, 12)}`}>{segment.content}</span>;
           case "code":
             // `text-xs` is deliberate: the user asked for grammar chips
             // to read visibly smaller than the surrounding prose.
             return (
               <code
-                key={i}
+                key={`c-${i}-${segment.content.slice(0, 12)}`}
                 className="mx-0.5 inline-block rounded border border-[var(--color-border)] bg-[var(--color-surface)] px-1.5 py-0.5 font-mono text-xs leading-none text-[var(--color-ink-soft)]"
               >
                 {segment.content}
@@ -94,19 +119,61 @@ function InlineSegments({ segments }: { segments: InlineSegment[] }) {
             );
           case "bold":
             return (
-              <strong key={i} className="font-semibold text-[var(--color-ink)]">
+              <strong key={`b-${i}-${segment.content.slice(0, 12)}`} className="font-semibold text-[var(--color-ink)]">
                 {segment.content}
               </strong>
             );
-          case "highlight":
+          case "highlight": {
+            const isUserHighlight = !!segment.color;
+            const isBold = segment.color === "bold";
+            const highlightId = segment.id;
+
+            if (isBold && highlightId) {
+              return (
+                <strong
+                  key={`hl-${highlightId}-${segment.content.slice(0, 12)}`}
+                  className="cursor-pointer font-semibold text-[var(--color-ink)] transition hover:opacity-80"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDeleteHighlight?.(highlightId);
+                  }}
+                  title="点击取消加粗"
+                >
+                  {segment.content}
+                </strong>
+              );
+            }
+
             return (
               <mark
-                key={i}
-                className="rounded bg-[var(--color-accent-subtle,rgba(200,160,80,0.18))] px-1 text-[var(--color-ink)]"
+                key={`hl-${highlightId ?? i}-${segment.content.slice(0, 12)}`}
+                className={
+                  isUserHighlight
+                    ? "highlight-pen cursor-pointer rounded px-0.5 transition hover:brightness-110"
+                    : "rounded bg-[var(--color-accent-subtle,rgba(200,160,80,0.18))] px-1 text-[var(--color-ink)]"
+                }
+                style={
+                  isUserHighlight
+                    ? {
+                        backgroundColor: `${segment.color}33`,
+                        borderBottom: `2.5px solid ${segment.color}`,
+                      }
+                    : undefined
+                }
+                onClick={
+                  isUserHighlight && onDeleteHighlight && highlightId
+                    ? (e) => {
+                        e.stopPropagation();
+                        onDeleteHighlight(highlightId);
+                      }
+                    : undefined
+                }
+                title={isUserHighlight ? "点击取消标亮" : undefined}
               >
                 {segment.content}
               </mark>
             );
+          }
           default: {
             const _exhaustive: never = segment;
             return _exhaustive;

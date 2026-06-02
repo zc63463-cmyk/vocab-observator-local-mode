@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rub your eyes**：揉眼睛
-  - *She rubbed her eyes tiredly after working all night.*
+  - *She rubbed her eyes tiredly after working all night.*（工作了一整夜后她疲倦地揉着眼睛。）
 - **rub shoulders with**：与……交往
-  - *At the conference, you can rub shoulders with industry leaders.*
+  - *At the conference, you can rub shoulders with industry leaders.*（在会上，你可以与行业领袖接触交流。）
 - **rub it in**：反复提起令人不快的事
-  - *I know I made a mistake—don't rub it in.*
+  - *I know I made a mistake—don't rub it in.*（我知道我犯了错——别老提了。）
 - **rub off on**：影响，感染
-  - *Her positive attitude rubs off on everyone around her.*
+  - *Her positive attitude rubs off on everyone around her.*（她积极的态度感染着周围的每个人。）
 - **there's the rub**：问题就在这里（源自莎士比亚）
-  - *We could finish early, but there's the rub—we need approval first.*
+  - *We could finish early, but there's the rub—we need approval first.*（我们可以提早完成，但难就难在——我们需要先得到批准。）
 
 ## 真题/语料关联
 

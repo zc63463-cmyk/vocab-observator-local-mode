@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **master's degree**：硕士学位
-  - *She is pursuing a master's degree in business administration.*
+  - *She is pursuing a master's degree in business administration.*（中文翻译）
 - **master of arts (MA)**：文学硕士
-  - *He completed his Master of Arts in English Literature.*
+  - *He completed his Master of Arts in English Literature.*（中文翻译）
 - **master of science (MSc)**：理学硕士
-  - *A Master of Science is often required for research positions.*
+  - *A Master of Science is often required for research positions.*（中文翻译）
 - **master a skill/language**：掌握技能/语言
-  - *It takes years to master a foreign language.*
+  - *It takes years to master a foreign language.*（中文翻译）
 - **masterpiece**：杰作
-  - *The painting is considered a masterpiece of Renaissance art.*
+  - *The painting is considered a masterpiece of Renaissance art.*（中文翻译）
 
 ## 真题/语料关联
 

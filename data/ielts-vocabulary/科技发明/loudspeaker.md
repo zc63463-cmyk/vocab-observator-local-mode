@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **public loudspeaker**：公共扬声器
-  - *The announcement was made over the public loudspeaker.*
+  - *The announcement was made over the public loudspeaker.*（通知是通过公共扬声器播报的。）
 - **loudspeaker system**：扬声器系统
-  - *The concert hall has a state-of-the-art loudspeaker system.*
+  - *The concert hall has a state-of-the-art loudspeaker system.*（音乐厅配备了最先进的扬声器系统。）
 - **loudspeaker announcement**：广播通知
-  - *The loudspeaker announcement informed passengers of the delay.*
+  - *The loudspeaker announcement informed passengers of the delay.*（广播通知告知乘客延误的消息。）
 - **loudspeaker cabinet**：音箱
-  - *The loudspeaker cabinet is designed for optimal sound quality.*
+  - *The loudspeaker cabinet is designed for optimal sound quality.*（音箱专为最佳音质而设计。）
 - **wireless loudspeaker**：无线扬声器
-  - *Wireless loudspeakers offer convenience and flexibility.*
+  - *Wireless loudspeakers offer convenience and flexibility.*（无线扬声器提供了便利性和灵活性。）
 
 ## 真题/语料关联
 

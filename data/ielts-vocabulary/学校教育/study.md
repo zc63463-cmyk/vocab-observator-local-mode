@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study for an exam**：为考试而学习
-  - *She spent the whole weekend studying for her final exams.*
+  - *She spent the whole weekend studying for her final exams.*（她花了整个周末为期末考试学习。）
 - **study abroad**：出国留学
-  - *He decided to study abroad in Australia for a year.*
+  - *He decided to study abroad in Australia for a year.*（他决定去澳大利亚留学一年。）
 - **study medicine/law**：攻读医学/法律
-  - *She chose to study medicine at university.*
+  - *She chose to study medicine at university.*（她选择在大学攻读医学。）
 - **a study of**：对……的研究
-  - *The study of human behavior is fascinating.*
+  - *The study of human behavior is fascinating.*（对人类行为的研究令人着迷。）
 - **conduct a study**：进行一项研究
-  - *Researchers conducted a study on the effects of sleep deprivation.*
+  - *Researchers conducted a study on the effects of sleep deprivation.*（研究人员进行了一项关于睡眠剥夺影响的研究。）
 
 ## 真题/语料关联
 

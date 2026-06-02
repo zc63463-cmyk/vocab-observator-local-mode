@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **produce offspring**：生育后代
-  - *Most animals produce offspring in the spring.*
+  - *Most animals produce offspring in the spring.*（大多数动物在春天繁殖后代。）
 - **raise offspring**：抚养后代
-  - *Both parents help raise the offspring in many bird species.*
+  - *Both parents help raise the offspring in many bird species.*（许多鸟类中父母双方共同抚养后代。）
 - **surviving offspring**：存活的后代
-  - *The number of surviving offspring is an important measure of fitness.*
+  - *The number of surviving offspring is an important measure of fitness.*（存活后代的数量是适应度的重要衡量标准。）
 - **offspring of**：……的后代/产物
-  - *The new policy is the offspring of years of research.*
+  - *The new policy is the offspring of years of research.*（这项新政策是多年研究的成果。）
 - **healthy offspring**：健康的后代
-  - *The goal of conservation breeding is to produce healthy offspring.*
+  - *The goal of conservation breeding is to produce healthy offspring.*（保护性繁殖的目标是产生健康的下一代。）
 
 ## 真题/语料关联
 

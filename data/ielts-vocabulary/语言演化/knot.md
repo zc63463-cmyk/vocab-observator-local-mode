@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tie a knot**：打结
-  - *He tied a knot in the rope to secure the boat.*
+  - *He tied a knot in the rope to secure the boat.*（他在绳子上打了个结来固定船只。）
 - **untie a knot**：解结
-  - *She carefully untied the knot in the necklace chain.*
+  - *She carefully untied the knot in the necklace chain.*（她小心地解开了项链上的结。）
 - **a knot in my stomach**：胃里打结（紧张）
-  - *I felt a knot in my stomach before the exam.*
+  - *I felt a knot in my stomach before the exam.*（考试前我感到胃里紧张得打结。）
 - **the knot of the problem**：问题的症结
-  - *The knot of the problem is lack of funding.*
+  - *The knot of the problem is lack of funding.*（问题的症结在于缺乏资金。）
 - **at a rate of knots**：飞快地
-  - *The project is progressing at a rate of knots.*
+  - *The project is progressing at a rate of knots.*（这个项目进展神速。）
 
 ## 真题/语料关联
 

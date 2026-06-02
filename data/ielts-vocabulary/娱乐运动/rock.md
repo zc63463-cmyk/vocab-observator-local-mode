@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rock music**：摇滚音乐
-  - *Rock music has been popular for decades.*
+  - *Rock music has been popular for decades.*（摇滚音乐已经流行了几十年。）
 - **rock band**：摇滚乐队
-  - *The rock band released their new album last month.*
+  - *The rock band released their new album last month.*（这支摇滚乐队上个月发布了他们的新专辑。）
 - **rock concert**：摇滚音乐会
-  - *The rock concert attracted thousands of fans.*
+  - *The rock concert attracted thousands of fans.*（摇滚音乐会吸引了成千上万的粉丝。）
 - **rock star**：摇滚明星
-  - *He dreamed of becoming a rock star.*
+  - *He dreamed of becoming a rock star.*（他梦想成为一名摇滚明星。）
 - **rock and roll**：摇滚乐（早期形式）
-  - *Rock and roll emerged in the 1950s.*
+  - *Rock and roll emerged in the 1950s.*（摇滚乐兴起于20世纪50年代。）
 
 ## 真题/语料关联
 

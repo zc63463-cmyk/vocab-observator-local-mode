@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **political propaganda**：政治宣传
-  - *The government used political propaganda to gain support.*
+  - *The government used political propaganda to gain support.*（政府利用政治宣传来获取支持。）
 - **government/state propaganda**：政府/国家宣传
-  - *The state propaganda portrayed the country in a positive light.*
+  - *The state propaganda portrayed the country in a positive light.*（国家宣传将国家描绘成正面形象。）
 - **anti-government propaganda**：反政府宣传
-  - *The opposition spread anti-government propaganda.*
+  - *The opposition spread anti-government propaganda.*（反对派散布了反政府宣传。）
 - **war propaganda**：战争宣传
-  - *War propaganda was used to boost morale.*
+  - *War propaganda was used to boost morale.*（战争宣传被用来提振士气。）
 - **propaganda machine**：宣传机器
-  - *The party's propaganda machine was in full swing.*
+  - *The party's propaganda machine was in full swing.*（该党的宣传机器正在全力运转。）
 
 ## 真题/语料关联
 

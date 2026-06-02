@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **assess the situation**：评估形势
-  - *The first step is to assess the situation before making any decisions.*
+  - *The first step is to assess the situation before making any decisions.*（第一步是在做决定之前评估形势。）
 - **assess the impact**：评估影响
-  - *The study assesses the impact of pollution on marine life.*
+  - *The study assesses the impact of pollution on marine life.*（这项研究评估了污染对海洋生物的影响。）
 - **assess risk**：评估风险
-  - *Banks must carefully assess risk before approving loans.*
+  - *Banks must carefully assess risk before approving loans.*（银行在批准贷款前必须仔细评估风险。）
 - **assess student performance**：评估学生表现
-  - *Teachers use various methods to assess student performance.*
+  - *Teachers use various methods to assess student performance.*（教师使用各种方法来评估学生的表现。）
 - **assess damages**：核定损失
-  - *The insurance company sent an agent to assess the damages.*
+  - *The insurance company sent an agent to assess the damages.*（保险公司派了代理人来核定损失。）
 - **assess the feasibility**：评估可行性
-   - *The committee will assess the feasibility of the proposed plan.*
+   - *The committee will assess the feasibility of the proposed plan.*（委员会将评估提议方案的可行性。）
 
 ## 真题/语料关联
 

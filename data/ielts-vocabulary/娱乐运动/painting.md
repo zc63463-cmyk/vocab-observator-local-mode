@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **oil painting**：油画
-  - *The gallery has a collection of oil paintings from the 19th century.*
+  - *The gallery has a collection of oil paintings from the 19th century.*（画廊收藏了一批19世纪的油画。）
 - **watercolor painting**：水彩画
-  - *She prefers watercolor painting to oil painting.*
+  - *She prefers watercolor painting to oil painting.*（与油画相比，她更喜欢水彩画。）
 - **painting and decorating**：油漆和装饰
-  - *The house needs some painting and decorating.*
+  - *The house needs some painting and decorating.*（这房子需要一些油漆和装饰。）
 - **painting of**：……的绘画
-  - *The museum has a famous painting of the Mona Lisa.*
+  - *The museum has a famous painting of the Mona Lisa.*（博物馆有一幅著名的蒙娜丽莎画像。）
 - **learn painting**：学习绘画
-  - *She is learning painting at art school.*
+  - *She is learning painting at art school.*（她正在艺术学校学习绘画。）
 
 ## 真题/语料关联
 

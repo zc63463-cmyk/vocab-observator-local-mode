@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **imply that...**：暗示……
-  - *Are you implying that I'm lying?*
+  - *Are you implying that I'm lying?*（你在暗示我在撒谎吗？）
 - **imply something**：暗示某事
-  - *His silence implied agreement.*
+  - *His silence implied agreement.*（他的沉默暗示着同意。）
 - **what does this imply?**：这意味着什么？
-  - *The data shows a correlation, but what does this imply?*
+  - *The data shows a correlation, but what does this imply?*（数据显示了相关性，但这意味着什么呢？）
 - **strongly imply**：强烈暗示
-  - *The evidence strongly implies a connection between the two events.*
+  - *The evidence strongly implies a connection between the two events.*（证据强烈暗示这两件事之间存在联系。）
 - **be implied**：被暗示
-  - *The meaning is implied rather than stated directly.*
+  - *The meaning is implied rather than stated directly.*（意思是暗示出来的，而不是直接陈述的。）
 
 ## 真题/语料关联
 

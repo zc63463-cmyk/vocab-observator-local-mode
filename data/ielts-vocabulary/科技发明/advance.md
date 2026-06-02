@@ -75,15 +75,15 @@ review_count: 0
 ## 搭配与短语
 
 - **technological/scientific advance**：科技/科学进步
-  - *Technological advances have transformed the way we communicate.*
+  - *Technological advances have transformed the way we communicate.*（科技进步改变了我们的沟通方式。）
 - **advance in**：在……方面的进步
-  - *There have been significant advances in medical research.*
+  - *There have been significant advances in medical research.*（医学研究取得了重大进展。）
 - **in advance**：提前，预先
-  - *Please book your tickets in advance.*
+  - *Please book your tickets in advance.*（请提前预订车票。）
 - **advance payment/deposit**：预付款
-  - *The hotel requires an advance deposit to confirm the reservation.*
+  - *The hotel requires an advance deposit to confirm the reservation.*（酒店需要预付定金来确认预订。）
 - **make advances (to sb)**：向某人示好/求爱
-  - *He made unwanted advances towards his colleague.*
+  - *He made unwanted advances towards his colleague.*（他向同事做出了不受欢迎的示好行为。）
 
 ## 真题/语料关联
 

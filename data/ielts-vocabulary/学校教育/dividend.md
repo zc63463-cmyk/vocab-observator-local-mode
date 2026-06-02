@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pay dividends**：产生回报
-  - *All that extra work will pay dividends in the long run.*
+  - *All that extra work will pay dividends in the long run.*（所有这些额外的工作从长远来看都会产生回报。）
 - **dividend yield**：股息收益率
-  - *The stock has a dividend yield of 3.5%.*
+  - *The stock has a dividend yield of 3.5%.*（该股票的股息收益率为3.5%。）
 - **declare/pay a dividend**：宣布/支付股息
-  - *The company declared a dividend of 50p per share.*
+  - *The company declared a dividend of 50p per share.*（该公司宣布每股派息50便士。）
 - **reap the dividends**：收获回报
-  - *She reaped the dividends of years of hard work.*
+  - *She reaped the dividends of years of hard work.*（她收获了自己多年努力的回报。）
 - **interim/final dividend**：中期/末期股息
-  - *Shareholders approved an increased final dividend.*
+  - *Shareholders approved an increased final dividend.*（股东批准了增加末期股息。）
 
 ## 真题/语料关联
 

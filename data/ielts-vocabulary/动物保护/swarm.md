@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a swarm of bees**：一群蜜蜂
-  - *A swarm of bees settled on the branch of the tree.*
+  - *A swarm of bees settled on the branch of the tree.*（一群蜜蜂落在了树枝上。）
 - **a swarm of locusts**：一群蝗虫
-  - *A swarm of locusts destroyed the crops in a matter of hours.*
+  - *A swarm of locusts destroyed the crops in a matter of hours.*（一群蝗虫在几小时内就毁掉了庄稼。）
 - **a swarm of tourists**：一群游客
-  - *A swarm of tourists descended on the small village every summer.*
+  - *A swarm of tourists descended on the small village every summer.*（每年夏天成群的游客涌入这个小村庄。）
 - **swarm into**：蜂拥进入
-  - *Fans swarmed into the stadium for the concert.*
+  - *Fans swarmed into the stadium for the concert.*（歌迷们涌入体育场观看演唱会。）
 - **swarm with**：挤满
-  - *The beach was swarming with people on the holiday weekend.*
+  - *The beach was swarming with people on the holiday weekend.*（假日周末海滩上人山人海。）
 
 ## 真题/语料关联
 

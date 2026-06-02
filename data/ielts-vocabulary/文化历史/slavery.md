@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **abolish slavery**：废除奴隶制
-  - *The United States abolished slavery in 1865.*
+  - *The United States abolished slavery in 1865.*（美国于1865年废除了奴隶制。）
 - **the slave trade**：奴隶贸易
-  - *The transatlantic slave trade had a profound impact on African societies.*
+  - *The transatlantic slave trade had a profound impact on African societies.*（跨大西洋奴隶贸易对非洲社会产生了深远影响。）
 - **reduce to slavery**：沦为奴隶
-  - *Prisoners of war were often reduced to slavery in ancient times.*
+  - *Prisoners of war were often reduced to slavery in ancient times.*（战俘在古代常常被沦为奴隶。）
 - **modern slavery**：现代奴隶制
-  - *Human trafficking is a form of modern slavery.*
+  - *Human trafficking is a form of modern slavery.*（人口贩卖是现代奴隶制的一种形式。）
 - **slavery to something**：被某物束缚
-  - *His slavery to work left him with no time for his family.*
+  - *His slavery to work left him with no time for his family.*（他对工作的沉迷使他没有任何时间陪伴家人。）
 
 ## 真题/语料关联
 

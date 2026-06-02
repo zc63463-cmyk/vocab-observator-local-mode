@@ -12,7 +12,7 @@ export async function getOrCreateReviewSession(
   supabase: OwnerSupabaseClient,
   userId: string,
   wordbookId: string,
-) {
+): Promise<{ session: { cards_seen: number; id: string; started_at: string } | null; error: { message: string } | null }> {
   const todayIso = startOfTodayIso();
   const { data: existingSession, error } = await supabase
     .from("sessions")
@@ -26,14 +26,17 @@ export async function getOrCreateReviewSession(
     .maybeSingle();
 
   if (error) {
-    throw error;
+    return { session: null, error };
   }
 
   if (existingSession && existingSession.started_at >= todayIso) {
     return {
-      cards_seen: existingSession.cards_seen,
-      id: existingSession.id,
-      started_at: existingSession.started_at,
+      session: {
+        cards_seen: existingSession.cards_seen,
+        id: existingSession.id,
+        started_at: existingSession.started_at,
+      },
+      error: null,
     };
   }
 
@@ -44,7 +47,7 @@ export async function getOrCreateReviewSession(
       .eq("id", existingSession.id);
 
     if (endError) {
-      throw endError;
+      return { session: null, error: endError };
     }
   }
 
@@ -59,10 +62,10 @@ export async function getOrCreateReviewSession(
     .single();
 
   if (createError) {
-    throw createError;
+    return { session: null, error: createError };
   }
 
-  return session;
+  return { session, error: null };
 }
 
 export async function getActiveReviewSession(

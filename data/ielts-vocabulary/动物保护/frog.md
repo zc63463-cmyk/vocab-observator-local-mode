@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a green frog**：一只绿青蛙
-  - *A green frog sat on the lily pad, waiting for insects.*
+  - *A green frog sat on the lily pad, waiting for insects.*（一只绿青蛙坐在睡莲叶上，等着昆虫飞来。）
 - **have a frog in one's throat**：嗓子哑了，说话困难
-  - *I had a frog in my throat after the long speech.*
+  - *I had a frog in my throat after the long speech.*（长时间演讲后我的嗓子沙哑了。）
 - **frog spawn**：蛙卵
-  - *The pond was full of frog spawn in early spring.*
+  - *The pond was full of frog spawn in early spring.*（初春时节池塘里满是青蛙卵。）
 - **frog march**：蛙式押送（两人架着某人走）
-  - *The police frog-marched the suspect out of the building.*
+  - *The police frog-marched the suspect out of the building.*（警察将嫌疑人反拧双臂押出大楼。）
 - **frog in a well**：井底之蛙（源自东方文化）
-  - *Don't be a frog in a well—explore the world beyond your comfort zone.*
+  - *Don't be a frog in a well—explore the world beyond your comfort zone.*（不要做井底之蛙——去探索舒适区以外的世界。）
 
 ## 真题/语料关联
 

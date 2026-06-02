@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take/do a course**：修读课程
-  - *She decided to take a course in digital marketing.*
+  - *She decided to take a course in digital marketing.*（她决定修读一门数字营销课程。）
 - **online course**：在线课程
-  - *Online courses have become increasingly popular in recent years.*
+  - *Online courses have become increasingly popular in recent years.*（在线课程近年来变得越来越受欢迎。）
 - **in the course of**：在……过程中
-  - *In the course of the investigation, new evidence emerged.*
+  - *In the course of the investigation, new evidence emerged.*（在调查过程中，新的证据出现了。）
 - **main course**：主菜
-  - *For the main course, I'd like the grilled salmon.*
+  - *For the main course, I'd like the grilled salmon.*（主菜我要烤三文鱼。）
 - **change course**：改变方向
-  - *The company had to change course due to market conditions.*
+  - *The company had to change course due to market conditions.*（由于市场状况，公司不得不改变方向。）
 
 ## 真题/语料关联
 

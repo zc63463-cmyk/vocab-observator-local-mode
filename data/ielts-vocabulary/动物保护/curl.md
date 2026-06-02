@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **curl up**：蜷缩，蜷伏
-  - *She curled up on the sofa with a good book.*
+  - *She curled up on the sofa with a good book.*（她蜷缩在沙发上读一本好书。）
 - **a curl of smoke**：一缕烟
-  - *A curl of smoke rose from the tip of the candle.*
+  - *A curl of smoke rose from the tip of the candle.*（一缕烟从蜡烛顶端袅袅升起。）
 - **curl one's lip**：撇嘴（表示轻蔑）
-  - *He curled his lip in disgust at the sight.*
+  - *He curled his lip in disgust at the sight.*（他看到这一幕厌恶地撇了撇嘴。）
 - **make someone's hair curl**：使某人毛骨悚然
-  - *The horror movie will make your hair curl.*
+  - *The horror movie will make your hair curl.*（这部恐怖电影会让你毛骨悚然。）
 - **curl someone's toes**：使某人极度不适或兴奋
-  - *The cold water curled my toes.*
+  - *The cold water curled my toes.*（冷水冻得我的脚趾蜷曲。）
 
 ## 真题/语料关联
 

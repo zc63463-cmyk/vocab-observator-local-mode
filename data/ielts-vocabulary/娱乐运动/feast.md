@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a royal feast**：皇家盛宴
-  - *The king hosted a royal feast for all the nobles.*
+  - *The king hosted a royal feast for all the nobles.*（国王为所有贵族举办了一场皇家盛宴。）
 - **a feast for the eyes**：视觉盛宴
-  - *The fireworks display was a feast for the eyes.*
+  - *The fireworks display was a feast for the eyes.*（烟花表演是一场视觉盛宴。）
 - **feast on**：尽情享用
-  - *The children feasted on ice cream and cake.*
+  - *The children feasted on ice cream and cake.*（孩子们尽情享用了冰淇淋和蛋糕。）
 - **feast day**：节日（宗教）
-  - *Christmas is an important feast day for Christians.*
+  - *Christmas is an important feast day for Christians.*（圣诞节对基督徒来说是重要的节日。）
 - **feast or famine**：要么盛宴要么饥荒（大起大落）
-  - *Freelance work is often feast or famine.*
+  - *Freelance work is often feast or famine.*（自由职业常常是饱一顿饥一顿。）
 
 ## 真题/语料关联
 

@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **obscure text/reference**：晦涩的文本/引用
-  - *The book contains many obscure references to classical literature.*
+  - *The book contains many obscure references to classical literature.*（中文翻译）
 - **obscure meaning**：模糊的含义
-  - *The poem's obscure meaning has puzzled scholars for centuries.*
+  - *The poem's obscure meaning has puzzled scholars for centuries.*（中文翻译）
 - **obscure artist/writer**：不知名的艺术家/作家
-  - *He was an obscure artist until his work was discovered by a gallery.*
+  - *He was an obscure artist until his work was discovered by a gallery.*（中文翻译）
 - **obscure the truth**：掩盖真相
-  - *The government tried to obscure the truth about the accident.*
+  - *The government tried to obscure the truth about the accident.*（中文翻译）
 - **obscure the meaning**：使含义模糊
-  - *The complex language obscures the meaning of the text.*
+  - *The complex language obscures the meaning of the text.*（中文翻译）
 - **remain obscure**：保持不知名
-  - *The origin of the tradition remains obscure.*
+  - *The origin of the tradition remains obscure.*（中文翻译）
 
 ## 真题/语料关联
 

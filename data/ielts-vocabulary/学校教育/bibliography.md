@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a list of bibliography**：参考文献列表
-  - *The bibliography should include all sources cited in the paper.*
+  - *The bibliography should include all sources cited in the paper.*（参考文献应包含论文中引用的所有来源。）
 - **a bibliography of**：……的文献目录
-  - *The library published a bibliography of modern poetry.*
+  - *The library published a bibliography of modern poetry.*（图书馆出版了一本现代诗歌的文献目录。）
 - **critical bibliography**：批判性书志
-  - *The scholar specialized in critical bibliography.*
+  - *The scholar specialized in critical bibliography.*（这位学者专攻批判性书志学。）
 - **annotated bibliography**：注释书目
-  - *The assignment required an annotated bibliography.*
+  - *The assignment required an annotated bibliography.*（这项作业要求提交注释书目。）
 - **bibliography entry**：参考文献条目
-  - *Each bibliography entry must follow the correct format.*
+  - *Each bibliography entry must follow the correct format.*（每条参考文献条目必须遵循正确的格式。）
 - **bibliography format**：参考文献格式
-  - *The bibliography format varies between APA and MLA styles.*
+  - *The bibliography format varies between APA and MLA styles.*（参考文献格式因APA和MLA风格而异。）
 
 ## 真题/语料关联
 

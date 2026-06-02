@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **revise a document/plan**：修改文件/计划
-  - *The committee revised the proposal before submission.*
+  - *The committee revised the proposal before submission.*（委员会在提交前修改了提案。）
 - **revise for an exam**：复习考试（英式英语）
-  - *She's been revising for her finals all week.*
+  - *She's been revising for her finals all week.*（她整个星期都在为期末考试复习。）
 - **revise one's opinion**：改变观点
-  - *He revised his opinion after hearing the new evidence.*
+  - *He revised his opinion after hearing the new evidence.*（在听到新证据后，他改变了自己的观点。）
 - **upward/downward revision**：向上/向下修正
-  - *The company made an upward revision of its profit forecast.*
+  - *The company made an upward revision of its profit forecast.*（该公司上调了其利润预测。）
 - **revised edition**：修订版
-  - *The revised edition of the textbook includes new chapters.*
+  - *The revised edition of the textbook includes new chapters.*（该教科书的修订版包含了新的章节。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **force of gravity**：重力
-  - *The force of gravity keeps us on the ground.*
+  - *The force of gravity keeps us on the ground.*（重力使我们保持在地面上。）
 - **the gravity of the situation**：情况的严重性
-  - *The gravity of the situation became apparent after the earthquake.*
+  - *The gravity of the situation became apparent after the earthquake.*（地震后情况的严重性变得明显。）
 - **with gravity**：庄重地
-  - *The judge spoke with gravity about the seriousness of the crime.*
+  - *The judge spoke with gravity about the seriousness of the crime.*（法官庄重地谈到犯罪的严重性。）
 - **gravitational pull**：引力
-  - *The Moon's gravitational pull causes the tides.*
+  - *The Moon's gravitational pull causes the tides.*（月球的引力引起潮汐。）
 - **center of gravity**：重心
-  - *The gymnast maintained perfect balance by controlling her center of gravity.*
+  - *The gymnast maintained perfect balance by controlling her center of gravity.*（体操运动员通过控制重心保持了完美的平衡。）
 
 ## 真题/语料关联
 

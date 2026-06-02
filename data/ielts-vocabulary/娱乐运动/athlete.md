@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **professional athlete**：职业运动员
-  - *He has been a professional athlete for over ten years.*
+  - *He has been a professional athlete for over ten years.*（他做职业运动员已经超过十年了。）
 - **elite athlete**：精英运动员
-  - *Elite athletes often have strict training schedules.*
+  - *Elite athletes often have strict training schedules.*（精英运动员通常有严格的训练计划。）
 - **Olympic athlete**：奥运选手
-  - *She dreamed of becoming an Olympic athlete since childhood.*
+  - *She dreamed of becoming an Olympic athlete since childhood.*（她从小就梦想成为一名奥运选手。）
 - **track and field athlete**：田径运动员
-  - *The track and field athlete broke the world record.*
+  - *The track and field athlete broke the world record.*（这位田径运动员打破了世界纪录。）
 - **athletic ability**：运动能力
-  - *Good athletic ability is essential for success in sports.*
+  - *Good athletic ability is essential for success in sports.*（良好的运动能力是在体育中取得成功的关键。）
 
 ## 真题/语料关联
 

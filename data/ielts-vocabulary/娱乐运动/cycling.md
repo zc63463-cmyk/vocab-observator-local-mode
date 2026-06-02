@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go cycling**：去骑车
-  - *We went cycling in the countryside last Sunday.*
+  - *We went cycling in the countryside last Sunday.*（上周日我们去乡下骑车了。）
 - **cycling lane/path**：自行车道
-  - *The city has built more cycling lanes to encourage green transport.*
+  - *The city has built more cycling lanes to encourage green transport.*（城市修建了更多自行车道以鼓励绿色交通。）
 - **cycling trip**：骑行旅行
-  - *They planned a cycling trip across Europe.*
+  - *They planned a cycling trip across Europe.*（他们计划了一次穿越欧洲的骑行旅行。）
 - **cycling helmet**：骑行头盔
-  - *Always wear a cycling helmet for safety.*
+  - *Always wear a cycling helmet for safety.*（为了安全，始终佩戴骑行头盔。）
 - **mountain cycling**：山地骑行
-  - *Mountain cycling is a thrilling outdoor activity.*
+  - *Mountain cycling is a thrilling outdoor activity.*（山地骑行是一项激动人心的户外活动。）
 
 ## 真题/语料关联
 

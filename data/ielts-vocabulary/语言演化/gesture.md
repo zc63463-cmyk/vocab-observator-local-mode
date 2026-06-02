@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hand gesture**：手势
-  - *He made a rude hand gesture at the driver.*
+  - *He made a rude hand gesture at the driver.*（他对司机做了一个粗鲁的手势。）
 - **a gesture of**：...的表示
-  - *She sent flowers as a gesture of gratitude.*
+  - *She sent flowers as a gesture of gratitude.*（她送花作为感激的表示。）
 - **gesture towards**：朝...做手势
-  - *He gestured towards the empty chair, inviting me to sit.*
+  - *He gestured towards the empty chair, inviting me to sit.*（他朝空椅子做了个手势，请我坐下。）
 - **friendly gesture**：友好的表示
-  - *Offering to help was a friendly gesture.*
+  - *Offering to help was a friendly gesture.*（主动提供帮助是友好的表示。）
 - **empty gesture**：空洞的姿态
-  - *Critics dismissed the apology as an empty gesture.*
+  - *Critics dismissed the apology as an empty gesture.*（批评者认为道歉是空洞的姿态。）
 
 ## 真题/语料关联
 

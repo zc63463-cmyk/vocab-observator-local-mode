@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **barn owl**：仓鸮（最常见的猫头鹰种类）
-  - *The barn owl hunts mice in open fields at night.*
+  - *The barn owl hunts mice in open fields at night.*（仓鸮夜间在开阔田野中捕食老鼠。）
 - **night owl**：夜猫子，习惯熬夜的人
-  - *I'm a night owl — I do my best work after midnight.*
+  - *I'm a night owl — I do my best work after midnight.*（我是个夜猫子——我在午夜后工作效率最高。）
 - **wise as an owl**：像猫头鹰一样智慧
-  - *The old professor was wise as an owl, always offering insightful advice.*
+  - *The old professor was wise as an owl, always offering insightful advice.*（那位老教授像猫头鹰一样睿智，总能提出富有洞察力的建议。）
 - **owl-eyed**：猫头鹰眼的，形容眼睛大而圆
-  - *The child stared at the gift with owl-eyed wonder.*
+  - *The child stared at the gift with owl-eyed wonder.*（孩子睁圆了眼睛好奇地盯着礼物。）
 
 ## 真题/语料关联
 

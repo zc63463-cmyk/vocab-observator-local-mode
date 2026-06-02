@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spread one's wings**：展翅高飞（尝试新事物）
-  - *Going to university is a chance to spread your wings.*
+  - *Going to university is a chance to spread your wings.*（上大学是一个展翅高飞的机会。）
 - **on the wing**：在飞行中
-  - *We watched the eagles on the wing above the valley.*
+  - *We watched the eagles on the wing above the valley.*（我们看着鹰在山谷上空飞翔。）
 - **under the wing of**：在……的庇护下
-  - *The young singer worked under the wing of a famous producer.*
+  - *The young singer worked under the wing of a famous producer.*（这位年轻歌手在一位著名制作人的庇护下工作。）
 - **wing span**：翼展
-  - *The albatross has the largest wingspan of any living bird.*
+  - *The albatross has the largest wingspan of any living bird.*（信天翁的翼展是所有现存鸟类中最大的。）
 - **take wing**：起飞；腾飞
-  - *The company's profits took wing after the new product launch.*
+  - *The company's profits took wing after the new product launch.*（新产品发布后公司的利润飙升。）
 
 ## 真题/语料关联
 

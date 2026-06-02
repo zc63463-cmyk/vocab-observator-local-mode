@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a popular pastime**：流行的消遣
-  - *Reading is a popular pastime for many people.*
+  - *Reading is a popular pastime for many people.*（阅读是许多人喜欢的消遣方式。）
 - **a favourite pastime**：最喜欢的消遣
-  - *Watching movies is my favourite pastime.*
+  - *Watching movies is my favourite pastime.*（看电影是我最喜欢的消遣。）
 - **a leisure pastime**：休闲活动
-  - *Gardening is a relaxing leisure pastime.*
+  - *Gardening is a relaxing leisure pastime.*（园艺是一种放松的休闲活动。）
 - **a national pastime**：全民消遣
-  - *Baseball is often called America's national pastime.*
+  - *Baseball is often called America's national pastime.*（棒球常被称为美国的全民消遣。）
 - **a weekend pastime**：周末消遣
-  - *Fishing is a common weekend pastime.*
+  - *Fishing is a common weekend pastime.*（钓鱼是常见的周末消遣。）
 
 ## 真题/语料关联
 

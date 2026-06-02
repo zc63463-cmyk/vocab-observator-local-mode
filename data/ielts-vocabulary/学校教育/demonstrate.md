@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **demonstrate that...**：证明……
-  - *The study demonstrates that exercise improves health.*
+  - *The study demonstrates that exercise improves health.*（这项研究证明锻炼可以改善健康。）
 - **demonstrate how**：演示如何
-  - *The teacher demonstrated how to solve the problem.*
+  - *The teacher demonstrated how to solve the problem.*（老师演示了如何解决这个问题。）
 - **demonstrate the ability**：展示能力
-  - *The candidate demonstrated excellent communication skills.*
+  - *The candidate demonstrated excellent communication skills.*（这位候选人展示了出色的沟通能力。）
 - **demonstrate against**：示威反对
-  - *Thousands demonstrated against the new law.*
+  - *Thousands demonstrated against the new law.*（数千人示威反对这项新法律。）
 - **demonstration** (n.)：演示；示威
-  - *The product demonstration was impressive.*
+  - *The product demonstration was impressive.*（这次产品演示令人印象深刻。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **on campus**：在校园里
-  - *All first-year students are required to live on campus.*
+  - *All first-year students are required to live on campus.*（所有一年级学生必须住在校园内。）
 - **campus life**：校园生活
-  - *Campus life offers many opportunities for personal growth.*
+  - *Campus life offers many opportunities for personal growth.*（校园生活为个人成长提供了许多机会。）
 - **main/south campus**：主校区/南校区
-  - *The new library is located on the south campus.*
+  - *The new library is located on the south campus.*（新图书馆位于南校区。）
 - **campus recruitment**：校园招聘
-  - *Many companies conduct campus recruitment at top universities.*
+  - *Many companies conduct campus recruitment at top universities.*（许多公司在顶尖大学进行校园招聘。）
 - **off campus**：校外
-  - *Some students prefer to live off campus for more independence.*
+  - *Some students prefer to live off campus for more independence.*（一些学生更喜欢住在校外以获得更多独立。）
 
 ## 真题/语料关联
 

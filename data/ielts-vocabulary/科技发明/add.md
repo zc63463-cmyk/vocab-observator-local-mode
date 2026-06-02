@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **add to**：增加；增添
-  - *The new furniture adds to the beauty of the room.*
+  - *The new furniture adds to the beauty of the room.*（新家具增添了房间的美感。）
 - **add up**：加起来；说得通
-  - *The numbers don't add up — something is wrong.*
+  - *The numbers don't add up — something is wrong.*（数字对不上——肯定有问题。）
 - **add that**：补充说
-  - *He added that the meeting would be postponed until next week.*
+  - *He added that the meeting would be postponed until next week.*（他补充说会议将推迟到下周。）
 - **add value**：增加价值
-  - *Renovating the kitchen will add value to your home.*
+  - *Renovating the kitchen will add value to your home.*（翻新厨房会为你的房子增值。）
 - **add insult to injury**：雪上加霜
-  - *To add insult to injury, it started raining after we missed the last bus.*
+  - *To add insult to injury, it started raining after we missed the last bus.*（雪上加霜的是，我们错过最后一班公车后开始下雨了。）
 - **add fuel to the fire**：火上浇油
-  - *His angry response only added fuel to the fire.*
+  - *His angry response only added fuel to the fire.*（他愤怒的回应只会火上浇油。）
 
 ## 真题/语料关联
 

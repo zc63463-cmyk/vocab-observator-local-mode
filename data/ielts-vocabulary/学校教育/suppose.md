@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **suppose that**：假设
-  - *Suppose that we had unlimited resources. What would you do?*
+  - *Suppose that we had unlimited resources. What would you do?*（假设我们拥有无限的资源。你会怎么做？）
 - **I suppose**：我想，我认为
-  - *I suppose you're right about that.*
+  - *I suppose you're right about that.*（我想你在这件事上是对的。）
 - **be supposed to**：应该，理应
-  - *You're supposed to submit the report by Friday.*
+  - *You're supposed to submit the report by Friday.*（你应该在星期五之前提交报告。）
 - **let's suppose**：让我们假设
-  - *Let's suppose the experiment fails. What's our backup plan?*
+  - *Let's suppose the experiment fails. What's our backup plan?*（让我们假设实验失败了。我们的备用计划是什么？）
 - **suppose for argument's sake**：为了论证起见假设
-  - *Suppose for argument's sake that the theory is correct.*
+  - *Suppose for argument's sake that the theory is correct.*（为了论证起见，假设该理论是正确的。）
 
 ## 真题/语料关联
 

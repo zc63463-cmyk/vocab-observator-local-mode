@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the lord of the manor**：庄园领主
-  - *The lord of the manor lived in the grand house on the hill.*
+  - *The lord of the manor lived in the grand house on the hill.*（庄园领主住在山上的大宅里。）
 - **the Lord**：上帝，主
-  - *The Lord is my shepherd.*
+  - *The Lord is my shepherd.*（耶和华是我的牧者。）
 - **Lord Byron/Lord Nelson**：勋爵拜伦/勋爵纳尔逊
-  - *Lord Byron was a famous Romantic poet.*
+  - *Lord Byron was a famous Romantic poet.*（拜伦勋爵是一位著名的浪漫主义诗人。）
 - **My Lord**：大人（对法官、主教等的尊称）
-  - *My Lord, the jury has reached a verdict.*
+  - *My Lord, the jury has reached a verdict.*（大人，陪审团已经达成裁决。）
 - **the lord of the rings**：指环王
-  - *The lord of the rings sought to conquer Middle-earth.*
+  - *The lord of the rings sought to conquer Middle-earth.*（指环王企图征服中土世界。）
 
 ## 真题/语料关联
 

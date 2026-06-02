@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **adapt to**：适应
-  - *It took her a while to adapt to the new job.*
+  - *It took her a while to adapt to the new job.*（她花了一段时间来适应新工作。）
 - **adapt from**：改编自
-  - *The film was adapted from a best-selling novel.*
+  - *The film was adapted from a best-selling novel.*（这部电影改编自一本畅销小说。）
 - **adapt for**：为……改编
-  - *The book was adapted for young readers.*
+  - *The book was adapted for young readers.*（这本书被改编为适合年轻读者阅读。）
 - **adapt to change**：适应变化
-  - *Businesses must learn to adapt to change quickly.*
+  - *Businesses must learn to adapt to change quickly.*（企业必须学会快速适应变化。）
 - **well-adapted**：适应良好的
-  - *The animals are well-adapted to the harsh climate.*
+  - *The animals are well-adapted to the harsh climate.*（这些动物很好地适应了恶劣的气候。）
 
 ## 真题/语料关联
 

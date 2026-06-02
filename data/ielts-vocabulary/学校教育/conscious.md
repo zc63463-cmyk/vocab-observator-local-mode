@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **be conscious**：有意识的，清醒的
-  - *The patient was conscious throughout the operation.*
+  - *The patient was conscious throughout the operation.*（病人在整个手术过程中是清醒的。）
 - **be conscious of**：意识到
-  - *She was conscious of being watched.*
+  - *She was conscious of being watched.*（她意识到有人在看她。）
 - **a conscious effort/decision**：刻意的努力/决定
-  - *He made a conscious effort to speak more slowly.*
+  - *He made a conscious effort to speak more slowly.*（他刻意放慢了语速。）
 - **conscious of the fact that...**：意识到……的事实
-  - *They were conscious of the fact that time was running out.*
+  - *They were conscious of the fact that time was running out.*（他们意识到时间快不够了。）
 - **environmentally/socially conscious**：有环保/社会意识的
-  - *The company promotes environmentally conscious products.*
+  - *The company promotes environmentally conscious products.*（公司推广环保意识强的产品。）
 
 ## 真题/语料关联
 

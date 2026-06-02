@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in print**：已出版的；仍在销售的
-  - *The book is still in print after 20 years.*
+  - *The book is still in print after 20 years.*（中文翻译）
 - **out of print**：绝版的
-  - *Unfortunately, that dictionary is out of print.*
+  - *Unfortunately, that dictionary is out of print.*（中文翻译）
 - **print out**：打印出来
-  - *Please print out the confirmation email.*
+  - *Please print out the confirmation email.*（中文翻译）
 - **fine print**：小字条款（常含隐藏条款之意）
-  - *Always read the fine print before signing a contract.*
+  - *Always read the fine print before signing a contract.*（中文翻译）
 - **print media**：印刷媒体
-  - *Print media has declined with the rise of digital news.*
+  - *Print media has declined with the rise of digital news.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fall victim to**：成为……的受害者
-  - *Many endangered species have fallen victim to habitat destruction.*
+  - *Many endangered species have fallen victim to habitat destruction.*（许多濒危物种已成为栖息地破坏的受害者。）
 - **crime victim**：犯罪受害者
-  - *The organization provides support for crime victims and their families.*
+  - *The organization provides support for crime victims and their families.*（该组织为犯罪受害者及其家人提供支持。）
 - **victim of abuse**：虐待受害者
-  - *The shelter offers protection for victims of domestic abuse.*
+  - *The shelter offers protection for victims of domestic abuse.*（庇护所为家庭暴力受害者提供保护。）
 - **victim mentality**：受害者心态
-  - *Some people develop a victim mentality after repeated negative experiences.*
+  - *Some people develop a victim mentality after repeated negative experiences.*（一些人在反复经历负面经历后会产生受害者心态。）
 - **play the victim**：扮演受害者
-  - *He tends to play the victim to avoid taking responsibility for his actions.*
+  - *He tends to play the victim to avoid taking responsibility for his actions.*（他倾向于扮演受害者以避免为自己的行为承担责任。）
 
 ## 真题/语料关联
 

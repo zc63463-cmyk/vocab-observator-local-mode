@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **private tutor**：私人教师/家教
-  - *Her parents hired a private tutor to help her prepare for the exam.*
+  - *Her parents hired a private tutor to help her prepare for the exam.*（她的父母请了一位私人家教帮她准备考试。）
 - **university tutor**：大学导师
-  - *Each student is assigned a university tutor who provides academic guidance.*
+  - *Each student is assigned a university tutor who provides academic guidance.*（每个学生都会分配一名提供学术指导的大学导师。）
 - **personal tutor**：个人导师
-  - *Your personal tutor will meet with you once a week to discuss your progress.*
+  - *Your personal tutor will meet with you once a week to discuss your progress.*（你的个人导师将每周与你见面讨论你的进展。）
 - **tutor a student in**：在某科目上辅导学生
-  - *He tutors students in mathematics and physics.*
+  - *He tutors students in mathematics and physics.*（他辅导学生数学和物理。）
 - **online tutor**：在线导师
-  - *Online tutors have become increasingly popular since the pandemic.*
+  - *Online tutors have become increasingly popular since the pandemic.*（自疫情以来，在线导师变得越来越受欢迎。）
 
 ## 真题/语料关联
 

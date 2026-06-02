@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cataclysmic event**：灾难性事件
-  - *The asteroid impact was a cataclysmic event that changed life on Earth.*
+  - *The asteroid impact was a cataclysmic event that changed life on Earth.*（小行星撞击是一场改变了地球生命的灾难性事件。）
 - **cataclysmic change**：剧变
-  - *The invention of the internet brought cataclysmic changes to society.*
+  - *The invention of the internet brought cataclysmic changes to society.*（互联网的发明给社会带来了剧变。）
 - **cataclysmic impact**：毁灭性撞击
-  - *The cataclysmic impact of the asteroid wiped out the dinosaurs.*
+  - *The cataclysmic impact of the asteroid wiped out the dinosaurs.*（小行星的毁灭性撞击使恐龙灭绝。）
 - **cataclysmic consequences**：灾难性后果
-  - *A nuclear war would have cataclysmic consequences for the entire planet.*
+  - *A nuclear war would have cataclysmic consequences for the entire planet.*（核战争将对整个地球造成灾难性后果。）
 - **cataclysmic shift**：剧变
-  - *The Industrial Revolution was a cataclysmic shift in human history.*
+  - *The Industrial Revolution was a cataclysmic shift in human history.*（工业革命是人类历史上的一次剧变。）
 
 ## 真题/语料关联
 

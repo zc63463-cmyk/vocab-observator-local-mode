@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **under the microscope**：在显微镜下；被仔细审视
-  - *The cells were examined under the microscope.*
+  - *The cells were examined under the microscope.*（细胞在显微镜下被检查。）
 - **put something under the microscope**：仔细审查某事
-  - *The media put the politician's expenses under the microscope.*
+  - *The media put the politician's expenses under the microscope.*（媒体仔细审查了那位政客的开支。）
 - **electron microscope**：电子显微镜
-  - *The electron microscope can magnify objects up to two million times.*
+  - *The electron microscope can magnify objects up to two million times.*（电子显微镜能将物体放大到两百万倍。）
 - **look through the microscope**：透过显微镜观察
-  - *The students looked through the microscope to observe the bacteria.*
+  - *The students looked through the microscope to observe the bacteria.*（学生们透过显微镜观察细菌。）
 - **microscope slide**：显微镜载玻片
-  - *The sample was placed on a microscope slide for examination.*
+  - *The sample was placed on a microscope slide for examination.*（样品被放置在显微镜载玻片上以供检查。）
 
 ## 真题/语料关联
 

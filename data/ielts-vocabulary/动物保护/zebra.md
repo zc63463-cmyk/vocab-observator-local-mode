@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **zebra crossing**：斑马线（人行横道）
-  - *Always use the zebra crossing when crossing the street.*
+  - *Always use the zebra crossing when crossing the street.*（过马路时一定要走斑马线。）
 - **zebra pattern**：斑马纹图案
-  - *The dress has a zebra pattern.*
+  - *The dress has a zebra pattern.*（这条裙子有斑马纹图案。）
 - **zebra stripes**：斑马条纹
-  - *The zebra stripes help the animal camouflage in the grass.*
+  - *The zebra stripes help the animal camouflage in the grass.*（斑马的条纹帮助它在草丛中伪装。）
 - **zebra fish**：斑马鱼
-  - *Zebra fish are often used in scientific research.*
+  - *Zebra fish are often used in scientific research.*（斑马鱼常被用于科学研究。）
 - **zebra mussel**：斑马贻贝
-  - *Zebra mussels are an invasive species in many waterways.*
+  - *Zebra mussels are an invasive species in many waterways.*（斑马贻贝是许多水域中的入侵物种。）
 
 ## 真题/语料关联
 

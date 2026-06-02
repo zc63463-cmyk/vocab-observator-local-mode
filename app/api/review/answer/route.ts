@@ -37,7 +37,13 @@ export async function POST(request: NextRequest) {
     .single();
 
   if (progressError) {
-    return apiErrorResponse(progressError, "api/review/answer");
+    const isNotFound = (progressError as { code?: string }).code === "PGRST116";
+    return apiErrorResponse(
+      progressError,
+      "api/review/answer",
+      isNotFound ? 404 : 500,
+      isNotFound ? "Progress not found." : undefined,
+    );
   }
 
   // Supabase returns a flat row with a nested join — define the shape we actually selected
@@ -171,7 +177,13 @@ export async function POST(request: NextRequest) {
     return apiErrorResponse(logError, "api/review/answer");
   }
 
-  await incrementSessionCardsSeen(supabase, parsed.data.sessionId);
+  try {
+    await incrementSessionCardsSeen(supabase, parsed.data.sessionId);
+  } catch (sessionErr) {
+    // Session counter is non-critical; the user's rating has already been
+    // persisted. Log but don't fail the request.
+    console.warn("[review/answer] failed to increment session cards_seen:", sessionErr);
+  }
 
   return NextResponse.json({
     ok: true,

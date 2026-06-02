@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **watch a movie**：看电影
-  - *We decided to watch a movie at home.*
+  - *We decided to watch a movie at home.*（我们决定在家看电影。）
 - **movie theater**：电影院
-  - *The movie theater was packed for the premiere.*
+  - *The movie theater was packed for the premiere.*（电影院在首映式上座无虚席。）
 - **movie star**：电影明星
-  - *She became a movie star after her first film.*
+  - *She became a movie star after her first film.*（她在第一部电影后就成为了电影明星。）
 - **movie industry**：电影产业
-  - *The movie industry is a major part of the economy.*
+  - *The movie industry is a major part of the economy.*（电影产业是经济的重要组成部分。）
 - **go to the movies**：去看电影
-  - *Let's go to the movies this weekend.*
+  - *Let's go to the movies this weekend.*（这周末我们去看电影吧。）
 
 ## 真题/语料关联
 

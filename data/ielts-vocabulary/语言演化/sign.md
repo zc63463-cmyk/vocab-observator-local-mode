@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **road sign**：路标
-  - *The road sign indicates that there is a sharp bend ahead.*
+  - *The road sign indicates that there is a sharp bend ahead.*（路标显示前方有一个急弯。）
 - **sign of**：...的迹象
-  - *There are no signs of improvement in his condition.*
+  - *There are no signs of improvement in his condition.*（他的状况没有改善的迹象。）
 - **sign language**：手语
-  - *She learned sign language to communicate with her deaf colleague.*
+  - *She learned sign language to communicate with her deaf colleague.*（她学习了手语以便与失聪的同事交流。）
 - **sign a contract**：签合同
-  - *Both parties need to sign the contract before it becomes valid.*
+  - *Both parties need to sign the contract before it becomes valid.*（双方都需要签署合同才能生效。）
 - **sign up for**：报名参加
-  - *I decided to sign up for the cooking class.*
+  - *I decided to sign up for the cooking class.*（我决定报名参加烹饪课。）
 
 ## 真题/语料关联
 

@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a work of fiction**：一部虚构作品
-  - *The novel is a work of fiction, not a biography.*
+  - *The novel is a work of fiction, not a biography.*（这部小说是虚构作品，不是传记。）
 - **science fiction**：科幻小说
-  - *Isaac Asimov is a master of science fiction.*
+  - *Isaac Asimov is a master of science fiction.*（艾萨克·阿西莫夫是科幻小说大师。）
 - **historical fiction**：历史小说
-  - *The book is a piece of historical fiction set in ancient Rome.*
+  - *The book is a piece of historical fiction set in ancient Rome.*（这本书是一部以古罗马为背景的历史小说。）
 - **crime fiction**：犯罪小说
-  - *She enjoys reading crime fiction in her spare time.*
+  - *She enjoys reading crime fiction in her spare time.*（她闲暇时喜欢读犯罪小说。）
 - **pure fiction**：纯属虚构
-  - *The story he told was pure fiction.*
+  - *The story he told was pure fiction.*（他讲的故事纯属虚构。）
 - **legal fiction**：法律拟制
-  - *The concept of a corporation as a person is a legal fiction.*
+  - *The concept of a corporation as a person is a legal fiction.*（将公司视为"人"的概念是一种法律拟制。）
 
 ## 真题/语料关联
 

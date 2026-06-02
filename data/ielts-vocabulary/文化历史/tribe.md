@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **indigenous tribe**：土著部落
-  - *The indigenous tribe has lived in the region for thousands of years.*
+  - *The indigenous tribe has lived in the region for thousands of years.*（这个土著部落已经在该地区生活了数千年。）
 - **tribal society**：部落社会
-  - *Tribal societies often have strong kinship ties and communal land ownership.*
+  - *Tribal societies often have strong kinship ties and communal land ownership.*（部落社会通常有着强烈的亲属关系和土地公有制。）
 - **tribal customs**：部落习俗
-  - *The tribe's customs and traditions are passed down through oral history.*
+  - *The tribe's customs and traditions are passed down through oral history.*（部落的习俗和传统通过口述历史代代相传。）
 - **a tribe of**：一群
-  - *A tribe of children gathered around the storyteller.*
+  - *A tribe of children gathered around the storyteller.*（一群孩子围在讲故事的人身边。）
 - **tribal warfare**：部落战争
-  - *Tribal warfare was common in the region before the arrival of colonial powers.*
+  - *Tribal warfare was common in the region before the arrival of colonial powers.*（在殖民势力到来之前，部落战争在该地区很常见。）
 
 ## 真题/语料关联
 

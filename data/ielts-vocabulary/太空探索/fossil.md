@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dinosaur fossil**：恐龙化石
-  - *The dinosaur fossil was discovered in a remote area of Montana.*
+  - *The dinosaur fossil was discovered in a remote area of Montana.*（这块恐龙化石是在蒙大拿州的一个偏远地区发现的。）
 - **fossil record**：化石记录
-  - *The fossil record shows that life on Earth has evolved over billions of years.*
+  - *The fossil record shows that life on Earth has evolved over billions of years.*（化石记录显示地球上的生命已经演化了几十亿年。）
 - **fossil fuel**：化石燃料
-  - *Fossil fuels like coal, oil, and natural gas are non-renewable resources.*
+  - *Fossil fuels like coal, oil, and natural gas are non-renewable resources.*（煤炭、石油和天然气等化石燃料是不可再生资源。）
 - **fossil evidence**：化石证据
-  - *Fossil evidence supports the theory of evolution by natural selection.*
+  - *Fossil evidence supports the theory of evolution by natural selection.*（化石证据支持自然选择进化论。）
 - **living fossil**：活化石（存活至今的古老物种）
-  - *The coelacanth is often called a living fossil because it has changed little over millions of years.*
+  - *The coelacanth is often called a living fossil because it has changed little over millions of years.*（腔棘鱼常被称为活化石，因为它数百万年来变化甚微。）
 
 ## 真题/语料关联
 

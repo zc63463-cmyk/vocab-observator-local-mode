@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cultural heritage**：文化遗产
-  - *The Great Wall is an important part of China's cultural heritage.*
+  - *The Great Wall is an important part of China's cultural heritage.*（长城是中国文化遗产的重要组成部分。）
 - **world heritage**：世界遗产
-  - *The site was designated as a World Heritage Site by UNESCO.*
+  - *The site was designated as a World Heritage Site by UNESCO.*（该遗址被联合国教科文组织列为世界遗产。）
 - **heritage site**：遗产地
-  - *The ancient city is a protected heritage site.*
+  - *The ancient city is a protected heritage site.*（这座古城是一个受保护的遗产地。）
 - **national heritage**：国家遗产
-  - *The national heritage includes both tangible and intangible cultural assets.*
+  - *The national heritage includes both tangible and intangible cultural assets.*（国家遗产包括有形和无形资产。）
 - **heritage language**：传承语言（移民后代学习的祖先语言）
-  - *Many immigrant children learn their heritage language at home.*
+  - *Many immigrant children learn their heritage language at home.*（许多移民孩子在家里学习他们的传承语言。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ivory trade**：象牙贸易
-  - *The international ivory trade has been banned since 1989.*
+  - *The international ivory trade has been banned since 1989.*（自1989年起国际象牙贸易已被禁止。）
 - **ivory tower**：象牙塔（脱离现实的环境）
-  - *Academics are often accused of living in ivory towers.*
+  - *Academics are often accused of living in ivory towers.*（学者们常被指责生活在象牙塔中。）
 - **ivory coast**：象牙海岸（西非国家）
-  - *Ivory Coast is a major producer of cocoa.*
+  - *Ivory Coast is a major producer of cocoa.*（科特迪瓦是可可的主要生产国。）
 - **ivory white**：乳白色
-  - *She wore an ivory white wedding dress.*
+  - *She wore an ivory white wedding dress.*（她穿了一件象牙白的婚纱。）
 - **tusk ivory**：象牙材质
-  - *The museum has a collection of tusk ivory carvings.*
+  - *The museum has a collection of tusk ivory carvings.*（博物馆收藏了一批象牙雕刻品。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **operate a machine**：操作机器
-  - *Workers need training to operate the heavy machinery.*
+  - *Workers need training to operate the heavy machinery.*（工人需要培训才能操作重型机械。）
 - **operate on**：给……动手术
-  - *The surgeon operated on the patient for three hours.*
+  - *The surgeon operated on the patient for three hours.*（外科医生给病人做了三个小时的手术。）
 - **operate a business**：经营企业
-  - *She operates a successful bakery in the city center.*
+  - *She operates a successful bakery in the city center.*（她在市中心经营着一家成功的面包店。）
 - **operate on the principle**：基于……原则运作
-  - *The system operates on the principle of mutual benefit.*
+  - *The system operates on the principle of mutual benefit.*（该系统基于互利原则运作。）
 - **operate within**：在……范围内运作
-  - *All businesses must operate within the law.*
+  - *All businesses must operate within the law.*（所有企业都必须在法律范围内运作。）
 
 ## 真题/语料关联
 

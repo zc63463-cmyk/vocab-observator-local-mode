@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study engineering**：学习工程学
-  - *He decided to study engineering at university.*
+  - *He decided to study engineering at university.*（他决定在大学学习工程学。）
 - **civil engineering**：土木工程
-  - *Civil engineering involves the design of bridges and buildings.*
+  - *Civil engineering involves the design of bridges and buildings.*（土木工程涉及桥梁和建筑物的设计。）
 - **mechanical engineering**：机械工程
-  - *Mechanical engineering is one of the broadest engineering disciplines.*
+  - *Mechanical engineering is one of the broadest engineering disciplines.*（机械工程是最广泛的工程学科之一。）
 - **engineering degree**：工程学位
-  - *She earned an engineering degree from MIT.*
+  - *She earned an engineering degree from MIT.*（她在麻省理工学院获得了工程学位。）
 - **engineering solutions**：工程解决方案
-  - *The team developed innovative engineering solutions.*
+  - *The team developed innovative engineering solutions.*（团队开发了创新的工程解决方案。）
 
 ## 真题/语料关联
 

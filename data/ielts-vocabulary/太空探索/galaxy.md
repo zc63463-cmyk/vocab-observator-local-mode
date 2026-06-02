@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spiral galaxy**：螺旋星系
-  - *The Milky Way is a barred spiral galaxy with four major arms.*
+  - *The Milky Way is a barred spiral galaxy with four major arms.*（银河系是一个有四个主旋臂的棒旋星系。）
 - **dwarf galaxy**：矮星系
-  - *Dwarf galaxies are the most common type of galaxy in the universe.*
+  - *Dwarf galaxies are the most common type of galaxy in the universe.*（矮星系是宇宙中最常见的星系类型。）
 - **galaxy cluster**：星系团
-  - *Galaxy clusters contain hundreds or thousands of galaxies bound by gravity.*
+  - *Galaxy clusters contain hundreds or thousands of galaxies bound by gravity.*（星系团包含由引力束缚在一起的数百或数千个星系。）
 - **a galaxy of stars/talent**：一群明星/人才
-  - *The event attracted a galaxy of talent from around the world.*
+  - *The event attracted a galaxy of talent from around the world.*（该活动吸引了来自世界各地的一群人才。）
 - **the Milky Way galaxy**：银河系
-  - *Earth is located in the Orion Arm of the Milky Way galaxy.*
+  - *Earth is located in the Orion Arm of the Milky Way galaxy.*（地球位于银河系的猎户臂中。）
 
 ## 真题/语料关联
 

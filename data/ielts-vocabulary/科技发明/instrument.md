@@ -84,15 +84,15 @@ review_count: 0
 ## 搭配与短语
 
 - **scientific instrument**：科学仪器
-  - *The laboratory is equipped with advanced scientific instruments.*
+  - *The laboratory is equipped with advanced scientific instruments.*（实验室配备了先进的科学仪器。）
 - **surgical instrument**：外科器械
-  - *Surgeons must sterilize all surgical instruments before use.*
+  - *Surgeons must sterilize all surgical instruments before use.*（外科医生在使用前必须对所有手术器械进行消毒。）
 - **musical instrument**：乐器
-  - *She can play several musical instruments, including piano and guitar.*
+  - *She can play several musical instruments, including piano and guitar.*（她会演奏好几种乐器，包括钢琴和吉他。）
 - **precision instrument**：精密仪器
-  - *Watchmakers use precision instruments to assemble tiny components.*
+  - *Watchmakers use precision instruments to assemble tiny components.*（钟表匠使用精密仪器来组装微小的零件。）
 - **instrument of change**：变革工具
-  - *Education is seen as an instrument of social change.*
+  - *Education is seen as an instrument of social change.*（教育被视为社会变革的工具。）
 
 ## 真题/语料关联
 

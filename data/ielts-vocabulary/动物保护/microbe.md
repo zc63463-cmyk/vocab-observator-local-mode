@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **gut microbes**：肠道微生物
-  - *Gut microbes play a vital role in digestion and immune function.*
+  - *Gut microbes play a vital role in digestion and immune function.*（肠道微生物在消化和免疫功能中起着至关重要的作用。）
 - **soil microbes**：土壤微生物
-  - *Soil microbes decompose organic matter and recycle nutrients.*
+  - *Soil microbes decompose organic matter and recycle nutrients.*（土壤微生物分解有机物并循环利用养分。）
 - **beneficial microbes**：有益微生物
-  - *Fermented foods are rich in beneficial microbes.*
+  - *Fermented foods are rich in beneficial microbes.*（发酵食品富含有益的微生物。）
 - **microbe diversity**：微生物多样性
-  - *Microbe diversity in the ocean is far greater than scientists initially thought.*
+  - *Microbe diversity in the ocean is far greater than scientists initially thought.*（海洋中的微生物多样性远超科学家最初的想象。）
 - **microbe-based**：基于微生物的
-  - *Microbe-based technologies are being developed to clean up oil spills.*
+  - *Microbe-based technologies are being developed to clean up oil spills.*（微生物技术正在被开发用于清理石油泄漏。）
 - **harmful microbes**：有害微生物
-  - *Washing your hands regularly helps prevent the spread of harmful microbes.*
+  - *Washing your hands regularly helps prevent the spread of harmful microbes.*（定期洗手有助于防止有害微生物的传播。）
 
 ## 真题/语料关联
 

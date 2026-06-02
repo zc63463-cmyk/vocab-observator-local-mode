@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **linear algebra**：线性代数
-  - *Linear algebra is essential for computer graphics and machine learning.*
+  - *Linear algebra is essential for computer graphics and machine learning.*（线性代数对计算机图形学和机器学习至关重要。）
 - **abstract algebra**：抽象代数
-  - *Abstract algebra studies algebraic structures such as groups and rings.*
+  - *Abstract algebra studies algebraic structures such as groups and rings.*（抽象代数研究群、环等代数结构。）
 - **elementary/basic algebra**：基础代数
-  - *Students learn elementary algebra before moving on to calculus.*
+  - *Students learn elementary algebra before moving on to calculus.*（学生在学习微积分之前先学习基础代数。）
 - **algebraic expression/equation**：代数表达式/方程
-  - *Simplify the algebraic expression by combining like terms.*
+  - *Simplify the algebraic expression by combining like terms.*（通过合并同类项来化简代数表达式。）
 - **Boolean algebra**：布尔代数
-  - *Boolean algebra is the foundation of digital circuit design.*
+  - *Boolean algebra is the foundation of digital circuit design.*（布尔代数是数字电路设计的基础。）
 
 ## 真题/语料关联
 

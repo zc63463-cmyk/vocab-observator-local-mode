@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **graduate from**：从……毕业
-  - *She graduated from Harvard University last year.*
+  - *She graduated from Harvard University last year.*（她去年从哈佛大学毕业。）
 - **graduate school**：研究生院
-  - *He plans to attend graduate school after completing his bachelor's degree.*
+  - *He plans to attend graduate school after completing his bachelor's degree.*（他计划完成学士学位后进入研究生院。）
 - **graduate student**：研究生
-  - *Graduate students often work as research assistants.*
+  - *Graduate students often work as research assistants.*（研究生通常担任研究助理。）
 - **college/university graduate**：大学毕业生
-  - *The job is open to college graduates with less than two years of experience.*
+  - *The job is open to college graduates with less than two years of experience.*（该职位面向工作经验不足两年的大学毕业生。）
 - **graduate into**：逐渐转变为
-  - *The small business has graduated into a major corporation.*
+  - *The small business has graduated into a major corporation.*（这家小企业已逐渐发展成一家大公司。）
 
 ## 真题/语料关联
 

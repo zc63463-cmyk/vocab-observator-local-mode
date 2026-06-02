@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **brilliant idea**：绝妙的主意
-  - *She came up with a brilliant idea to solve the problem.*
+  - *She came up with a brilliant idea to solve the problem.*（她想出了一个绝妙的主意来解决这个问题。）
 - **brilliant career**：辉煌的职业生涯
-  - *He had a brilliant career in medicine.*
+  - *He had a brilliant career in medicine.*（他在医学领域拥有辉煌的职业生涯。）
 - **brilliant sunshine**：灿烂的阳光
-  - *We woke up to brilliant sunshine.*
+  - *We woke up to brilliant sunshine.*（我们醒来时阳光灿烂。）
 - **brilliant performance**：出色的表现
-  - *The pianist gave a brilliant performance.*
+  - *The pianist gave a brilliant performance.*（钢琴家进行了一场精彩的表演。）
 - **absolutely brilliant**：绝对出色的
-  - *The film was absolutely brilliant.*
+  - *The film was absolutely brilliant.*（这部电影绝对精彩。）
 
 ## 真题/语料关联
 

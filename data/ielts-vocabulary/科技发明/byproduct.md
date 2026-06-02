@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a byproduct of**：……的副产品/附带结果
-  - *Air pollution is a byproduct of industrialization.*
+  - *Air pollution is a byproduct of industrialization.*（空气污染是工业化的副产品。）
 - **chemical/industrial byproduct**：化学/工业副产品
-  - *The factory recycles its industrial byproducts to reduce waste.*
+  - *The factory recycles its industrial byproducts to reduce waste.*（工厂回收工业副产品以减少浪费。）
 - **natural byproduct**：自然副产品
-  - *Compost is a natural byproduct of organic decomposition.*
+  - *Compost is a natural byproduct of organic decomposition.*（堆肥是有机分解的自然副产品。）
 - **inevitable byproduct**：不可避免的副产品
-  - *Some stress is an inevitable byproduct of a demanding job.*
+  - *Some stress is an inevitable byproduct of a demanding job.*（一些压力是高要求工作不可避免的副产品。）
 - **useful byproduct**：有用的副产品
-  - *Glycerin is a useful byproduct of soap manufacturing.*
+  - *Glycerin is a useful byproduct of soap manufacturing.*（甘油是肥皂制造过程中的一种有用的副产品。）
 
 ## 真题/语料关联
 

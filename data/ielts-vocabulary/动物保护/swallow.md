@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **barn swallow**：家燕（最常见的燕子种类）
-  - *The barn swallow builds its nest under the eaves of buildings.*
+  - *The barn swallow builds its nest under the eaves of buildings.*（家燕在建筑物的屋檐下筑巢。）
 - **swallow food/water**：吞咽食物/水
-  - *She found it painful to swallow after the surgery.*
+  - *She found it painful to swallow after the surgery.*（手术后她发现吞咽很痛。）
 - **swallow one's pride**：忍辱负重，放下架子
-  - *He had to swallow his pride and ask for help.*
+  - *He had to swallow his pride and ask for help.*（他不得不放下自尊去寻求帮助。）
 - **swallow a story**：轻信一个故事
-  - *I don't swallow that story for a moment.*
+  - *I don't swallow that story for a moment.*（我一点也不相信那个说法。）
 - **one swallow does not make a summer**：一燕不成夏（不可凭偶然现象下结论）
-  - *Just because you passed one test doesn't mean you'll pass them all — one swallow does not make a summer.*
+  - *Just because you passed one test doesn't mean you'll pass them all — one swallow does not make a summer.*（通过一次考试并不意味着你次次都能通过——一燕不成夏。）
 
 ## 真题/语料关联
 

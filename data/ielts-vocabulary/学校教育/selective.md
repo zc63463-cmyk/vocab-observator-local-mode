@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **selective process**：选择性过程
-  - *The admission process is highly selective.*
+  - *The admission process is highly selective.*（录取过程是高度选择性的。）
 - **selective school**：精英学校
-  - *Selective schools often have high academic standards.*
+  - *Selective schools often have high academic standards.*（精英学校通常有很高的学术标准。）
 - **selective memory**：选择性记忆
-  - *He seems to have a selective memory about past events.*
+  - *He seems to have a selective memory about past events.*（他似乎对过去的事情有选择性记忆。）
 - **selective attention**：选择性注意
-  - *Selective attention allows us to focus on important information.*
+  - *Selective attention allows us to focus on important information.*（选择性注意使我们能够专注于重要信息。）
 - **be selective about**：对……挑剔
-  - *She is very selective about what she eats.*
+  - *She is very selective about what she eats.*（她对她吃的东西非常挑剔。）
 
 ## 真题/语料关联
 

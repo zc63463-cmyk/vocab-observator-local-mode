@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **eagle's beak**：鹰的喙
-  - *The eagle's beak is curved and sharp, perfect for tearing meat.*
+  - *The eagle's beak is curved and sharp, perfect for tearing meat.*（鹰的喙弯曲而锋利，非常适合撕扯肉食。）
 - **beak-shaped**：喙状的
-  - *The beak-shaped prow of the ship cut through the waves.*
+  - *The beak-shaped prow of the ship cut through the waves.*（船喙状的船头破浪前行。）
 - **under one's beak**：在某人眼皮底下（口语）
-  - *The thief stole the wallet right under my beak.*
+  - *The thief stole the wallet right under my beak.*（小偷就在我眼皮底下偷走了钱包。）
 - **horny beak**：角质喙
-  - *The parrot uses its horny beak to crack open nuts.*
+  - *The parrot uses its horny beak to crack open nuts.*（鹦鹉用其角质喙敲开坚果。）
 - **beak trimming**：断喙（畜牧业中剪短禽类喙部的做法）
-  - *Beak trimming is a controversial practice in poultry farming.*
+  - *Beak trimming is a controversial practice in poultry farming.*（断喙在家禽养殖中是一项有争议的做法。）
 
 ## 真题/语料关联
 

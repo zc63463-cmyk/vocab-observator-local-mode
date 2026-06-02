@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **outdoor sports**：户外运动
-  - *Hiking and cycling are popular outdoor sports.*
+  - *Hiking and cycling are popular outdoor sports.*（徒步和骑自行车是受欢迎的户外运动。）
 - **outdoor activities**：户外活动
-  - *The camp offers various outdoor activities for children.*
+  - *The camp offers various outdoor activities for children.*（营地提供各种适合儿童的户外活动。）
 - **outdoor pool**：室外游泳池
-  - *The resort has a beautiful outdoor pool.*
+  - *The resort has a beautiful outdoor pool.*（度假村有一个漂亮的室外游泳池。）
 - **outdoor concert**：露天音乐会
-  - *The outdoor concert was cancelled due to rain.*
+  - *The outdoor concert was cancelled due to rain.*（露天音乐会因雨取消了。）
 - **outdoor furniture**：户外家具
-  - *We bought new outdoor furniture for the patio.*
+  - *We bought new outdoor furniture for the patio.*（我们为露台买了新的户外家具。）
 
 ## 真题/语料关联
 

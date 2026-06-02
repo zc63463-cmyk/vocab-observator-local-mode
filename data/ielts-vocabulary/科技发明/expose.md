@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **expose corruption/fraud**：揭露腐败/欺诈
-  - *The journalist exposed corruption within the police force.*
+  - *The journalist exposed corruption within the police force.*（记者揭露了警察队伍内部的腐败。）
 - **expose someone to something**：使某人接触某物
-  - *The program exposes students to different cultures and ideas.*
+  - *The program exposes students to different cultures and ideas.*（该项目让学生接触不同的文化和思想。）
 - **be exposed to**：暴露于；接触
-  - *Children should be exposed to a variety of educational experiences.*
+  - *Children should be exposed to a variety of educational experiences.*（孩子应该接触各种教育体验。）
 - **expose a secret**：揭露秘密
-  - *The investigation exposed a secret that had been hidden for years.*
+  - *The investigation exposed a secret that had been hidden for years.*（调查揭露了一个隐藏多年的秘密。）
 - **expose to risk/danger**：使面临风险/危险
-  - *Workers were exposed to dangerous chemicals without proper protection.*
+  - *Workers were exposed to dangerous chemicals without proper protection.*（工人在没有适当防护的情况下暴露于危险化学品中。）
 
 ## 真题/语料关联
 

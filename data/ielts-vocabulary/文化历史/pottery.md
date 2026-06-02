@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ancient pottery**：古代陶器
-  - *The museum has a large collection of ancient Greek pottery.*
+  - *The museum has a large collection of ancient Greek pottery.*（博物馆收藏了大量古希腊陶器。）
 - **pottery shards/fragments**：陶片
-  - *Archaeologists found pottery shards at the excavation site.*
+  - *Archaeologists found pottery shards at the excavation site.*（考古学家在发掘现场发现了陶器碎片。）
 - **pottery making**：陶器制作
-  - *Pottery making is one of the oldest human crafts.*
+  - *Pottery making is one of the oldest human crafts.*（陶器制作是人类最古老的工艺之一。）
 - **pottery class/workshop**：陶艺课/陶艺工作坊
-  - *She signed up for a pottery class to learn how to make bowls.*
+  - *She signed up for a pottery class to learn how to make bowls.*（她报名参加了一个陶艺课来学习如何制作碗。）
 - **handmade pottery**：手工陶器
-  - *The market sells beautiful handmade pottery from local artisans.*
+  - *The market sells beautiful handmade pottery from local artisans.*（市场出售来自当地工匠的精美手工陶器。）
 
 ## 真题/语料关联
 

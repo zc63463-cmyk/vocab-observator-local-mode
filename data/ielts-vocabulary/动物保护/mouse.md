@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **field mouse**：田鼠
-  - *The field mouse is common in rural areas.*
+  - *The field mouse is common in rural areas.*（田鼠在农村地区很常见。）
 - **computer mouse**：计算机鼠标
-  - *The wireless mouse is more convenient than the wired one.*
+  - *The wireless mouse is more convenient than the wired one.*（无线鼠标比有线鼠标更方便。）
 - **as quiet as a mouse**：像老鼠一样安静
-  - *The children were as quiet as a mouse while their mother was sleeping.*
+  - *The children were as quiet as a mouse while their mother was sleeping.*（妈妈睡觉时孩子们安静得像老鼠一样。）
 - **mouse trap**：捕鼠器
-  - *He set a mouse trap in the kitchen.*
+  - *He set a mouse trap in the kitchen.*（他在厨房放了一个捕鼠器。）
 - **mouse around**：悄悄地四处走动
-  - *She moused around the house, not wanting to wake anyone.*
+  - *She moused around the house, not wanting to wake anyone.*（她在房子里轻手轻脚地走动，不想吵醒任何人。）
 - **Mickey Mouse**：米老鼠（卡通形象）
-  - *Mickey Mouse is one of the most recognizable cartoon characters in the world.*
+  - *Mickey Mouse is one of the most recognizable cartoon characters in the world.*（米老鼠是世界上最知名的卡通角色之一。）
 
 ## 真题/语料关联
 

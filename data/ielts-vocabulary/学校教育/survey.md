@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **conduct/carry out a survey**：进行调查
-  - *The company conducted a survey of customer satisfaction.*
+  - *The company conducted a survey of customer satisfaction.*（该公司进行了一项客户满意度调查。）
 - **survey the population**：调查人口
-  - *The researchers surveyed 1,000 people.*
+  - *The researchers surveyed 1,000 people.*（研究人员调查了1000人。）
 - **a survey of**：……的概览
-  - *The book provides a survey of modern art.*
+  - *The book provides a survey of modern art.*（这本书提供了现代艺术的概览。）
 - **land survey**：土地测量
-  - *A land survey is required before building.*
+  - *A land survey is required before building.*（建房前需要进行土地测量。）
 - **surveyor** (n.)：测量员
-  - *The surveyor measured the boundaries of the property.*
+  - *The surveyor measured the boundaries of the property.*（测量员测量了该物业的边界。）
 
 ## 真题/语料关联
 

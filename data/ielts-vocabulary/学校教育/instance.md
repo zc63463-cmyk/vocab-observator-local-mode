@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **for instance**：例如
-  - *Some birds, for instance eagles, have excellent eyesight.*
+  - *Some birds, for instance eagles, have excellent eyesight.*（有些鸟，例如鹰，拥有极好的视力。）
 - **an instance of**：……的实例
-  - *This is an instance of the problem we discussed.*
+  - *This is an instance of the problem we discussed.*（这是我们讨论过的问题的一个实例。）
 - **in this instance**：在这种情况下
-  - *In this instance, the doctor's advice was crucial.*
+  - *In this instance, the doctor's advice was crucial.*（在这种情况下，医生的建议至关重要。）
 - **in the first instance**：首先
-  - *In the first instance, you should contact customer service.*
+  - *In the first instance, you should contact customer service.*（首先，你应该联系客服。）
 - **a typical/clear instance**：典型的/清楚的实例
-  - *This is a clear instance of corruption.*
+  - *This is a clear instance of corruption.*（这是一个明显的腐败案例。）
 
 ## 真题/语料关联
 

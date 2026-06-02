@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hop on one foot**：单脚跳
-  - *The children were hopping on one foot in the playground.*
+  - *The children were hopping on one foot in the playground.*（孩子们在操场上单脚跳来跳去。）
 - **hop on/off**：快速上/下（交通工具）
-  - *Hop on the bus — it's about to leave!*
+  - *Hop on the bus — it's about to leave!*（快上公交车——马上就要开了！）
 - **hop over to**：快速去一趟
-  - *I'll just hop over to the shop and be back in five minutes.*
+  - *I'll just hop over to the shop and be back in five minutes.*（我跑去一趟商店，五分钟就回来。）
 - **a short hop**：短途飞行
-  - *It's just a short hop from London to Paris.*
+  - *It's just a short hop from London to Paris.*（从伦敦到巴黎只是短途飞行。）
 - **catch someone on the hop**：使某人措手不及
-  - *The early meeting caught everyone on the hop.*
+  - *The early meeting caught everyone on the hop.*（提前的会议让大家措手不及。）
 
 ## 真题/语料关联
 

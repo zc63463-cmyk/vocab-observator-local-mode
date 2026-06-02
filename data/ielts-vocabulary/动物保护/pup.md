@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **seal pup**：海豹幼崽
-  - *The seal pup was lying on the beach alone.*
+  - *The seal pup was lying on the beach alone.*（海豹幼崽独自躺在海滩上。）
 - **wolf pup**：狼幼崽
-  - *The wolf pups played together in the den.*
+  - *The wolf pups played together in the den.*（狼崽们在洞穴里一起玩耍。）
 - **puppy love**：早恋
-  - *It was just puppy love, nothing serious.*
+  - *It was just puppy love, nothing serious.*（那只是青涩的初恋，没什么大不了的。）
 - **pup tent**：小帐篷
-  - *They set up a pup tent for the camping trip.*
+  - *They set up a pup tent for the camping trip.*（他们为露营之行搭了一个小帐篷。）
 - **pup stage**：幼年阶段
-  - *The dog is still in its pup stage.*
+  - *The dog is still in its pup stage.*（这只狗还处在幼犬阶段。）
 
 ## 真题/语料关联
 

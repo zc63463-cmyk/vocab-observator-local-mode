@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **amuse the children**：逗乐孩子们
-  - *The clown amused the children with his tricks.*
+  - *The clown amused the children with his tricks.*（小丑用他的把戏逗乐了孩子们。）
 - **amuse oneself**：自娱自乐
-  - *She amused herself by reading a book.*
+  - *She amused herself by reading a book.*（她通过读书来自娱自乐。）
 - **keep someone amused**：使某人保持娱乐
-  - *The toys kept the children amused for hours.*
+  - *The toys kept the children amused for hours.*（这些玩具让孩子们开心了好几个小时。）
 - **be amused by**：被……逗乐
-  - *The audience was amused by the comedian's jokes.*
+  - *The audience was amused by the comedian's jokes.*（观众被喜剧演员的笑话逗乐了。）
 - **find something amusing**：觉得某事有趣
-  - *I found the story very amusing.*
+  - *I found the story very amusing.*（我觉得这个故事非常有趣。）
 
 ## 真题/语料关联
 

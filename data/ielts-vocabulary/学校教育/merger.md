@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **corporate merger**：企业合并
-  - *The corporate merger created the largest company in the industry.*
+  - *The corporate merger created the largest company in the industry.*（中文翻译）
 - **merger and acquisition (M&A)**：并购
-  - *She works in mergers and acquisitions at an investment bank.*
+  - *She works in mergers and acquisitions at an investment bank.*（中文翻译）
 - **hostile merger**：恶意兼并
-  - *The board rejected the hostile merger attempt.*
+  - *The board rejected the hostile merger attempt.*（中文翻译）
 - **merger of equals**：平等合并
-  - *The deal was described as a merger of equals.*
+  - *The deal was described as a merger of equals.*（中文翻译）
 - **complete a merger**：完成合并
-  - *The two airlines completed their merger last year.*
+  - *The two airlines completed their merger last year.*（中文翻译）
 
 ## 真题/语料关联
 

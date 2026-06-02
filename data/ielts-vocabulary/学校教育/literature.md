@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **English literature**：英国文学
-  - *She studied English literature at university.*
+  - *She studied English literature at university.*（中文翻译）
 - **scientific literature**：科学文献
-  - *The researcher reviewed the scientific literature on the topic.*
+  - *The researcher reviewed the scientific literature on the topic.*（中文翻译）
 - **literature review**：文献综述
-  - *The literature review is an important part of a research paper.*
+  - *The literature review is an important part of a research paper.*（中文翻译）
 - **promotional literature**：宣传资料
-  - *The company distributes promotional literature at trade shows.*
+  - *The company distributes promotional literature at trade shows.*（中文翻译）
 - **literary works**：文学作品
-  - *His literary works have been translated into many languages.*
+  - *His literary works have been translated into many languages.*（中文翻译）
 
 ## 真题/语料关联
 

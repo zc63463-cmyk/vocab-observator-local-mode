@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **imitate someone**：模仿某人
-  - *The child imitated his father's walk.*
+  - *The child imitated his father's walk.*（孩子模仿了父亲走路的样子。）
 - **imitate nature**：模仿自然
-  - *Artists often imitate nature in their paintings.*
+  - *Artists often imitate nature in their paintings.*（艺术家常在画作中模仿自然。）
 - **imitate an accent**：模仿口音
-  - *He can imitate various accents perfectly.*
+  - *He can imitate various accents perfectly.*（他能完美地模仿各种口音。）
 - **imitate sounds**：模拟声音
-  - *The parrot can imitate human speech.*
+  - *The parrot can imitate human speech.*（这只鹦鹉能模仿人说话。）
 - **imitate the style of**：模仿……的风格
-  - *The architect imitated the style of ancient Greek temples.*
+  - *The architect imitated the style of ancient Greek temples.*（建筑师模仿了古希腊神庙的风格。）
 
 ## 真题/语料关联
 

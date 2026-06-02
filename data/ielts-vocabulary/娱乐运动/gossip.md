@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **celebrity gossip**：名人八卦
-  - *The magazine is full of celebrity gossip.*
+  - *The magazine is full of celebrity gossip.*（这本杂志充斥着名人八卦。）
 - **office gossip**：办公室八卦
-  - *Office gossip can be harmful to morale.*
+  - *Office gossip can be harmful to morale.*（办公室八卦可能对士气有害。）
 - **spread gossip**：传播八卦
-  - *She loves to spread gossip about her neighbours.*
+  - *She loves to spread gossip about her neighbours.*（她喜欢传播关于邻居的八卦。）
 - **malicious gossip**：恶意的流言蜚语
-  - *The malicious gossip damaged her reputation.*
+  - *The malicious gossip damaged her reputation.*（恶意的流言蜚语损害了她的声誉。）
 - **gossip about**：说……的闲话
-  - *They were gossiping about their colleagues.*
+  - *They were gossiping about their colleagues.*（他们在说同事的闲话。）
 
 ## 真题/语料关联
 

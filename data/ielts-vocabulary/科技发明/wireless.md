@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **wireless connection**：无线连接
-  - *The wireless connection is fast and reliable.*
+  - *The wireless connection is fast and reliable.*（无线连接又快又可靠。）
 - **wireless network**：无线网络
-  - *The office has a secure wireless network.*
+  - *The office has a secure wireless network.*（办公室有一个安全的无线网络。）
 - **wireless device**：无线设备
-  - *Wireless devices offer greater mobility.*
+  - *Wireless devices offer greater mobility.*（无线设备提供了更大的移动性。）
 - **wireless technology**：无线技术
-  - *Wireless technology has revolutionized communication.*
+  - *Wireless technology has revolutionized communication.*（无线技术彻底改变了通信方式。）
 - **wireless charging**：无线充电
-  - *Wireless charging eliminates the need for cables.*
+  - *Wireless charging eliminates the need for cables.*（无线充电消除了对数据线的需求。）
 
 ## 真题/语料关联
 

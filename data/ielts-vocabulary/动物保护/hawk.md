@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **red-tailed hawk**：红尾鹰（北美常见猛禽）
-  - *The red-tailed hawk is often seen soaring over open fields.*
+  - *The red-tailed hawk is often seen soaring over open fields.*（红尾鵟经常在开阔田野上空翱翔。）
 - **political hawk**：鹰派政客
-  - *He is known as a political hawk who supports increased military spending.*
+  - *He is known as a political hawk who supports increased military spending.*（他以支持增加军费的政治鹰派而闻名。）
 - **hawks and doves**：鹰派与鸽派
-  - *The debate between hawks and doves continues over foreign policy.*
+  - *The debate between hawks and doves continues over foreign policy.*（鹰派和鸽派在外交政策上的辩论仍在继续。）
 - **hawkish** (adj.)：鹰派的，强硬的
-  - *The senator took a hawkish stance on national security.*
+  - *The senator took a hawkish stance on national security.*（参议员在国家安全的议题上采取了鹰派立场。）
 - **hawk over**：严密监视
-  - *The teacher hawked over the students during the exam.*
+  - *The teacher hawked over the students during the exam.*（监考老师在考试期间如鹰般监视着学生。）
 
 ## 真题/语料关联
 

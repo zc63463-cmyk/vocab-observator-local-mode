@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **diverse range/variety**：多样的范围/种类
-  - *The university attracts students from a diverse range of backgrounds.*
+  - *The university attracts students from a diverse range of backgrounds.*（这所大学吸引了来自各种背景的学生。）
 - **diverse cultures/backgrounds**：多元文化/背景
-  - *The city is known for its diverse cultures.*
+  - *The city is known for its diverse cultures.*（这座城市以其多元文化而闻名。）
 - **culturally/ethnically diverse**：文化/民族多样的
-  - *London is one of the most culturally diverse cities in the world.*
+  - *London is one of the most culturally diverse cities in the world.*（伦敦是世界上文化最多元的城市之一。）
 - **diverse opinions/viewpoints**：多样的观点
-  - *The discussion included diverse opinions.*
+  - *The discussion included diverse opinions.*（讨论中包含了多样化的观点。）
 - **diversity** (n.)：多样性
-  - *Biodiversity is essential for a healthy ecosystem.*
+  - *Biodiversity is essential for a healthy ecosystem.*（生物多样性对健康的生态系统至关重要。）
 
 ## 真题/语料关联
 

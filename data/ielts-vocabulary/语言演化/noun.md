@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **common noun**：普通名词
-  - *"Book" is a common noun, while "London" is a proper noun.*
+  - *"Book" is a common noun, while "London" is a proper noun.*（"Book"是普通名词，而"London"是专有名词。）
 - **proper noun**：专有名词
-  - *Proper nouns are always capitalized in English.*
+  - *Proper nouns are always capitalized in English.*（专有名词在英语中总是大写。）
 - **countable noun**：可数名词
-  - *"Apple" is a countable noun, so you can say "one apple" or "two apples".*
+  - *"Apple" is a countable noun, so you can say "one apple" or "two apples".*（"Apple"是可数名词，所以可以说"one apple"或"two apples"。）
 - **uncountable noun**：不可数名词
-  - *"Water" is an uncountable noun, so you cannot say "two waters".*
+  - *"Water" is an uncountable noun, so you cannot say "two waters".*（"Water"是不可数名词，所以不能说"two waters"。）
 - **noun phrase**：名词短语
-  - *The phrase "the big red ball" is a noun phrase.*
+  - *The phrase "the big red ball" is a noun phrase.*（短语"the big red ball"是一个名词短语。）
 
 ## 真题/语料关联
 

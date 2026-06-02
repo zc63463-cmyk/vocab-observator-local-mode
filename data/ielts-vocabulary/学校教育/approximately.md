@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **approximately equal to**：约等于
-  - *The result is approximately equal to 3.14.*
+  - *The result is approximately equal to 3.14.*（结果约等于3.14。）
 - **approximately 100/1000**：大约100/1000
-  - *There were approximately 500 people at the event.*
+  - *There were approximately 500 people at the event.*（活动大约有500人参加。）
 - **approximately speaking**：大约来说
-  - *Approximately speaking, the journey takes two hours.*
+  - *Approximately speaking, the journey takes two hours.*（大致来说，这段旅程需要两个小时。）
 - **more or less approximately**：大致差不多
-  - *The estimates are more or less approximately correct.*
+  - *The estimates are more or less approximately correct.*（这些估计大致上是正确的。）
 - **approximately correct/accurate**：大致正确的
-  - *The calculation was approximately correct.*
+  - *The calculation was approximately correct.*（这个计算大致正确。）
 
 ## 真题/语料关联
 

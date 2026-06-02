@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **slay the dragon**：杀死龙；克服困难
-  - *The hero had to slay the dragon to save the princess.*
+  - *The hero had to slay the dragon to save the princess.*（英雄必须杀死巨龙才能拯救公主。）
 - **dragon boat**：龙舟
-  - *The dragon boat festival is celebrated in many Asian countries.*
+  - *The dragon boat festival is celebrated in many Asian countries.*（龙舟节在许多亚洲国家都有庆祝活动。）
 - **dragon lady**：凶悍的女人
-  - *She's known as the dragon lady of the office.*
+  - *She's known as the dragon lady of the office.*（她在办公室里被称为母夜叉。）
 - **dragon fruit**：火龙果
-  - *Dragon fruit is a tropical fruit with a unique appearance.*
+  - *Dragon fruit is a tropical fruit with a unique appearance.*（火龙果是一种外形独特的热带水果。）
 - **chase the dragon**：吸食海洛因（俚语）
-  - *Chasing the dragon is a dangerous form of drug use.*
+  - *Chasing the dragon is a dangerous form of drug use.*（追龙是一种危险的吸毒方式。）
 
 ## 真题/语料关联
 

@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **throw a ball**：扔球
-  - *The child threw the ball to his father.*
+  - *The child threw the ball to his father.*（孩子把球扔给了父亲。）
 - **throw light on**：阐明，说明
-  - *The new evidence threw light on the mystery.*
+  - *The new evidence threw light on the mystery.*（新证据为这个谜团提供了线索。）
 - **throw a party**：举办派对
-  - *She threw a surprise party for her friend's birthday.*
+  - *She threw a surprise party for her friend's birthday.*（她为朋友的生日举办了一个惊喜派对。）
 - **throw into question**：使受到质疑
-  - *The scandal threw his credibility into question.*
+  - *The scandal threw his credibility into question.*（丑闻使他的可信度受到质疑。）
 - **a stone's throw**：一箭之遥，很近的距离
-  - *The hotel is just a stone's throw from the beach.*
+  - *The hotel is just a stone's throw from the beach.*（酒店离海滩只有一步之遥。）
 
 ## 真题/语料关联
 

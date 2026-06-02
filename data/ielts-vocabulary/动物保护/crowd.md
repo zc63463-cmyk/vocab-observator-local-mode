@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a crowd of people**：一群人
-  - *A crowd of people gathered in the square to protest.*
+  - *A crowd of people gathered in the square to protest.*（一大群人聚集在广场上抗议。）
 - **the crowd**：群众，大众
-  - *He prefers to stand out from the crowd rather than follow the trend.*
+  - *He prefers to stand out from the crowd rather than follow the trend.*（他喜欢与众不同，而不是随大流。）
 - **crowd around**：围拢
-  - *Fans crowded around the stage to get a better view.*
+  - *Fans crowded around the stage to get a better view.*（粉丝们挤在舞台周围想看得更清楚。）
 - **crowd into**：挤进
-  - *People crowded into the elevator despite it being full.*
+  - *People crowded into the elevator despite it being full.*（尽管电梯已经满了，人们还是挤了进去。）
 - **crowd out**：挤出，排挤
-  - *Large corporations are crowding out small businesses.*
+  - *Large corporations are crowding out small businesses.*（大公司正在排挤小企业。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **root word**：词根词
-  - *Understanding the root word helps you guess the meaning of related words.*
+  - *Understanding the root word helps you guess the meaning of related words.*（理解词根有助于你猜测相关词的含义。）
 - **Latin/Greek root**：拉丁/希腊词根
-  - *Many English words have Latin roots.*
+  - *Many English words have Latin roots.*（许多英语单词有拉丁词根。）
 - **root cause**：根本原因
-  - *We need to address the root cause of the problem, not just the symptoms.*
+  - *We need to address the root cause of the problem, not just the symptoms.*（我们需要解决问题的根本原因，而不仅仅是表面症状。）
 - **take root**：扎根，生根
-  - *The new policy has taken root and is now widely accepted.*
+  - *The new policy has taken root and is now widely accepted.*（新政策已经扎根，现在已被广泛接受。）
 - **get to the root of**：追根究底
-  - *The investigation aims to get to the root of the issue.*
+  - *The investigation aims to get to the root of the issue.*（调查旨在追根究底地解决问题。）
 
 ## 真题/语料关联
 

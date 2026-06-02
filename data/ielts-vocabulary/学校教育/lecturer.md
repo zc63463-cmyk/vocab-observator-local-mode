@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **university lecturer**：大学讲师
-  - *She has been a university lecturer in computer science for five years.*
+  - *She has been a university lecturer in computer science for five years.*（中文翻译）
 - **senior lecturer**：高级讲师（英式学术职位）
-  - *He was promoted to senior lecturer after publishing several research papers.*
+  - *He was promoted to senior lecturer after publishing several research papers.*（中文翻译）
 - **guest lecturer**：客座讲师/特邀演讲者
-  - *The department invited a guest lecturer from MIT to give a talk on artificial intelligence.*
+  - *The department invited a guest lecturer from MIT to give a talk on artificial intelligence.*（中文翻译）
 - **give a lecture**：做讲座
-  - *Professor Smith will give a lecture on modern art this afternoon.*
+  - *Professor Smith will give a lecture on modern art this afternoon.*（中文翻译）
 - **lecturer in English/History**：英语/历史讲师
-  - *The university is hiring a lecturer in English literature.*
+  - *The university is hiring a lecturer in English literature.*（中文翻译）
 
 ## 真题/语料关联
 

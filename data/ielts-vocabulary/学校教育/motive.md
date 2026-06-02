@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **have a motive for**：有……的动机
-  - *The police could not find a motive for the crime.*
+  - *The police could not find a motive for the crime.*（中文翻译）
 - **the motive behind**：……背后的动机
-  - *What was the motive behind his decision?*
+  - *What was the motive behind his decision?*（中文翻译）
 - **ulterior motive**：隐秘的动机
-  - *I suspect he has an ulterior motive for helping us.*
+  - *I suspect he has an ulterior motive for helping us.*（中文翻译）
 - **pure motive**：纯粹的动机
-  - *Her motive for volunteering was purely altruistic.*
+  - *Her motive for volunteering was purely altruistic.*（中文翻译）
 - **motive force**：推动力
-  - *Profit is the motive force of capitalism.*
+  - *Profit is the motive force of capitalism.*（中文翻译）
 
 ## 真题/语料关联
 

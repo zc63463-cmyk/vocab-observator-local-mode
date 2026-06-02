@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **driver's license**：驾照
-  - *You need a valid driver's license to rent a car.*
+  - *You need a valid driver's license to rent a car.*（中文翻译）
 - **business license**：营业执照
-  - *The restaurant must display its business license.*
+  - *The restaurant must display its business license.*（中文翻译）
 - **be licensed to**：被许可做……
-  - *The pharmacy is licensed to sell prescription drugs.*
+  - *The pharmacy is licensed to sell prescription drugs.*（中文翻译）
 - **software license**：软件许可
-  - *Read the software license agreement before installing.*
+  - *Read the software license agreement before installing.*（中文翻译）
 - **poetic/artistic license**：诗/艺术自由
-  - *The filmmaker used artistic license to change the historical facts.*
+  - *The filmmaker used artistic license to change the historical facts.*（中文翻译）
 
 ## 真题/语料关联
 

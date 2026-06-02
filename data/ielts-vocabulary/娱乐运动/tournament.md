@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tennis tournament**：网球锦标赛
-  - *She won the tennis tournament last year.*
+  - *She won the tennis tournament last year.*（她去年赢得了网球锦标赛。）
 - **golf tournament**：高尔夫锦标赛
-  - *The golf tournament attracts players from around the world.*
+  - *The golf tournament attracts players from around the world.*（高尔夫锦标赛吸引了来自世界各地的选手。）
 - **elimination tournament**：淘汰赛
-  - *The elimination tournament format creates exciting matches.*
+  - *The elimination tournament format creates exciting matches.*（淘汰赛制创造了激动人心的比赛。）
 - **host a tournament**：举办锦标赛
-  - *The city will host an international tournament next month.*
+  - *The city will host an international tournament next month.*（该城市下月将举办一场国际锦标赛。）
 - **enter a tournament**：参加锦标赛
-  - *He decided to enter the chess tournament.*
+  - *He decided to enter the chess tournament.*（他决定参加国际象棋锦标赛。）
 
 ## 真题/语料关联
 

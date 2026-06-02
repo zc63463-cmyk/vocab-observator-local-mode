@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **high quality**：高质量
-  - *The school provides high quality education.*
+  - *The school provides high quality education.*（中文翻译）
 - **low quality**：低质量
-  - *The product was of low quality and broke easily.*
+  - *The product was of low quality and broke easily.*（中文翻译）
 - **quality of life**：生活质量
-  - *Access to healthcare improves quality of life.*
+  - *Access to healthcare improves quality of life.*（中文翻译）
 - **quality control**：质量控制
-  - *Quality control ensures products meet standards.*
+  - *Quality control ensures products meet standards.*（中文翻译）
 - **quality time**：珍贵时光
-  - *Parents should spend quality time with their children.*
+  - *Parents should spend quality time with their children.*（中文翻译）
 
 ## 真题/语料关联
 

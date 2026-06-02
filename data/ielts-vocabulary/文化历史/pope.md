@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **the Pope**：教皇（特指现任天主教教皇）
-  - *The Pope addressed the crowd from the balcony of St. Peter's Basilica.*
+  - *The Pope addressed the crowd from the balcony of St. Peter's Basilica.*（教皇从圣彼得大教堂的阳台上向人群讲话。）
 - **Pope Francis**：教皇方济各（现任教皇）
-  - *Pope Francis has emphasized the importance of compassion and mercy.*
+  - *Pope Francis has emphasized the importance of compassion and mercy.*（教皇方济各强调了同情心和慈悲心的重要性。）
 - **papal authority**：教皇权威
-  - *The papal authority was challenged during the Reformation.*
+  - *The papal authority was challenged during the Reformation.*（教皇权威在宗教改革期间受到了挑战。）
 - **papal visit**：教皇访问
-  - *The papal visit drew millions of faithful followers.*
+  - *The papal visit drew millions of faithful followers.*（教皇的访问吸引了数百万忠实信徒。）
 - **papal decree**：教皇法令
-  - *The papal decree changed the course of European history.*
+  - *The papal decree changed the course of European history.*（教皇的敕令改变了欧洲历史的进程。）
 - **pope mobile**：教皇专用车辆（防弹车）
-  - *The Pope waved to the crowd from the pope mobile.*
+  - *The Pope waved to the crowd from the pope mobile.*（教皇从教皇座车上向人群挥手。）
 
 ## 真题/语料关联
 

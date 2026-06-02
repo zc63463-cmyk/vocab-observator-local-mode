@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **orientation week / orientation day**：迎新周/迎新日
-  - *The university holds an orientation week before classes begin.*
+  - *The university holds an orientation week before classes begin.*（中文翻译）
 - **orientation program**：新生入学指导项目
-  - *All new employees must complete the orientation program.*
+  - *All new employees must complete the orientation program.*（中文翻译）
 - **sexual orientation**：性取向
-  - *Discrimination based on sexual orientation is illegal in many countries.*
+  - *Discrimination based on sexual orientation is illegal in many countries.*（中文翻译）
 - **political orientation**：政治倾向
-  - *His political orientation shifted after the economic crisis.*
+  - *His political orientation shifted after the economic crisis.*（中文翻译）
 - **orientation towards**：倾向于……
-  - *The company has a strong orientation towards innovation.*
+  - *The company has a strong orientation towards innovation.*（中文翻译）
 
 ## 真题/语料关联
 

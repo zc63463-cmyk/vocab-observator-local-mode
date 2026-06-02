@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **solve a problem**：解决问题
-  - *Critical thinking is essential for solving complex problems.*
+  - *Critical thinking is essential for solving complex problems.*（中文翻译）
 - **have a problem with**：在……方面有困难
-  - *Many students have a problem with time management.*
+  - *Many students have a problem with time management.*（中文翻译）
 - **pose/present a problem**：造成问题
-  - *The lack of funding poses a serious problem for research.*
+  - *The lack of funding poses a serious problem for research.*（中文翻译）
 - **no problem**：没问题（口语）
-  - *—Can you finish this by Friday? —No problem.*
+  - *—Can you finish this by Friday? —No problem.*（中文翻译）
 - **problem-solving**（adj.）：解决问题的
-  - *Problem-solving skills are highly valued by employers.*
+  - *Problem-solving skills are highly valued by employers.*（中文翻译）
 
 ## 真题/语料关联
 

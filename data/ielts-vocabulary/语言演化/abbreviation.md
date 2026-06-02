@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **abbreviation for**：……的缩写
-  - *"UN" is an abbreviation for "United Nations".*
+  - *"UN" is an abbreviation for "United Nations".*（"UN"是"United Nations"的缩写。）
 - **an abbreviation of**：……的缩写形式
-  - *"Dr." is an abbreviation of "Doctor".*
+  - *"Dr." is an abbreviation of "Doctor".*（"Dr."是"Doctor"的缩写形式。）
 - **common abbreviation**：常见缩写
-  - *There are many common abbreviations used in everyday English.*
+  - *There are many common abbreviations used in everyday English.*（日常英语中使用许多常见缩写。）
 - **texting abbreviation**：短信缩写
-  - *Young people often use texting abbreviations like "LOL" and "BRB".*
+  - *Young people often use texting abbreviations like "LOL" and "BRB".*（年轻人经常使用像"LOL"和"BRB"这样的短信缩写。）
 - **abbreviation stands for**：缩写代表
-  - *The abbreviation "UNESCO" stands for "United Nations Educational, Scientific and Cultural Organization".*
+  - *The abbreviation "UNESCO" stands for "United Nations Educational, Scientific and Cultural Organization".*（缩写"UNESCO"代表联合国教育、科学及文化组织。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **nocturnal animals**：夜行动物
-  - *Owls and bats are well-known nocturnal animals that hunt at night.*
+  - *Owls and bats are well-known nocturnal animals that hunt at night.*（猫头鹰和蝙蝠是众所周知的夜间活动的动物。）
 - **nocturnal activities**：夜间活动
-  - *The city comes alive with nocturnal activities after dark.*
+  - *The city comes alive with nocturnal activities after dark.*（天黑后城市因夜间活动而变得热闹起来。）
 - **nocturnal species**：夜行性物种
-  - *Many nocturnal species have enhanced night vision.*
+  - *Many nocturnal species have enhanced night vision.*（许多夜行性物种拥有增强的夜视能力。）
 - **nocturnal worker**：夜班工人
-  - *Nocturnal workers often struggle with sleep disorders.*
+  - *Nocturnal workers often struggle with sleep disorders.*（夜间工作者常受睡眠障碍困扰。）
 - **nocturnal lifestyle**：夜间生活方式
-  - *Some people prefer a nocturnal lifestyle, working and socializing at night.*
+  - *Some people prefer a nocturnal lifestyle, working and socializing at night.*（有些人更喜欢夜间生活方式，在夜晚工作和社交。）
 
 ## 真题/语料关联
 

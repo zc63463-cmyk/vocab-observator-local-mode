@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **computer screen**：计算机屏幕
-  - *She stared at the computer screen for hours.*
+  - *She stared at the computer screen for hours.*（她盯着电脑屏幕看了几个小时。）
 - **touchscreen**：触摸屏
-  - *The smartphone has a responsive touchscreen.*
+  - *The smartphone has a responsive touchscreen.*（这款智能手机有响应灵敏的触摸屏。）
 - **screen time**：屏幕时间
-  - *Excessive screen time can affect sleep quality.*
+  - *Excessive screen time can affect sleep quality.*（过多的屏幕时间会影响睡眠质量。）
 - **on screen**：在屏幕上
-  - *The actor looked different on screen than in real life.*
+  - *The actor looked different on screen than in real life.*（这位演员在屏幕上看起来和现实中不一样。）
 - **screen for**：筛查
-  - *Doctors recommend screening for certain diseases regularly.*
+  - *Doctors recommend screening for certain diseases regularly.*（医生建议定期筛查某些疾病。）
 
 ## 真题/语料关联
 

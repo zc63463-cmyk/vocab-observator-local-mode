@@ -2,13 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import type { ReviewQueueItem } from "@/lib/review/types";
-import type { ParsedExample } from "@/lib/sync/parseMarkdown";
-
-function extractPreviewExamples(raw: unknown): ParsedExample[] | null {
-  const arr = Array.isArray(raw) ? (raw as ParsedExample[]) : null;
-  if (!arr || arr.length === 0) return null;
-  return arr.slice(0, 2);
-}
+import { extractPreviewExamples } from "@/lib/review/examples";
 
 export async function GET(request: NextRequest) {
   const ownerSession = await requireOwnerApiSession();

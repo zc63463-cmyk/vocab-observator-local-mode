@@ -181,6 +181,16 @@ function zenReducer(state: ZenState, action: ZenAction): ZenState {
       };
     }
 
+    case "END_SESSION":
+      return {
+        ...state,
+        phase: "done",
+        items: [],
+        item: null,
+        pending: false,
+        lastRating: null,
+      };
+
     default:
       return state;
   }
@@ -339,6 +349,9 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
 
         if (nextItems.length > 0) {
           dispatch({ type: "NEXT_CARD", item: nextItems[0] });
+        } else if (mode === "free") {
+          // Free mode: the selected word list is finite; end session when exhausted
+          dispatch({ type: "END_SESSION" });
         } else {
           // Need to fetch more
           try {
@@ -347,11 +360,11 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
             setItems(data.items);
             setSession(data.session);
             setStats(data.stats);
-            dispatch({ 
-              type: "REFRESH_QUEUE", 
-              items: data.items, 
-              session: data.session, 
-              stats: data.stats 
+            dispatch({
+              type: "REFRESH_QUEUE",
+              items: data.items,
+              session: data.session,
+              stats: data.stats,
             });
           } catch (err) {
             if (!mountedRef.current) return;
@@ -375,7 +388,7 @@ export function ZenReviewProvider({ children, mode, wordIds }: ZenProviderProps)
         }
       }
     },
-    [state.item, state.items, state.pending, session, animationLock, uiState.isUndoing, submitRating, updateStatsAfterRemoval, fetchQueue, setItems, setSession, setStats, addToast, mountedRef]
+    [state.item, state.items, state.pending, session, animationLock, uiState.isUndoing, submitRating, updateStatsAfterRemoval, fetchQueue, setItems, setSession, setStats, addToast, mountedRef, mode]
   );
 
   // Exit action

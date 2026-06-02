@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **audio cassette**：音频磁带
-  - *I recorded my favorite songs on an audio cassette.*
+  - *I recorded my favorite songs on an audio cassette.*（我把我最喜欢的歌曲录在了一盘磁带上。）
 - **cassette tape**：卡式磁带
-  - *The cassette tape was the primary music format before CDs.*
+  - *The cassette tape was the primary music format before CDs.*（在CD出现之前，卡式磁带是主要的音乐格式。）
 - **cassette player**：磁带播放机
-  - *The old cassette player still works perfectly.*
+  - *The old cassette player still works perfectly.*（那台老式磁带播放机仍然运转良好。）
 - **video cassette**：录像带
-  - *The video cassette contains footage of the family vacation.*
+  - *The video cassette contains footage of the family vacation.*（这盘录像带包含家庭度假的影像。）
 - **cassette recorder**：磁带录音机
-  - *The cassette recorder was used for recording interviews.*
+  - *The cassette recorder was used for recording interviews.*（磁带录音机被用来录制采访。）
 
 ## 真题/语料关联
 

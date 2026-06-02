@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ride a horse**：骑马
-  - *She learned to ride a horse when she was six years old.*
+  - *She learned to ride a horse when she was six years old.*（她六岁时学会了骑马。）
 - **wild horse**：野马
-  - *Wild horses roam freely across the American West.*
+  - *Wild horses roam freely across the American West.*（野马在美国西部自由自在地游荡。）
 - **horse racing**：赛马
-  - *Horse racing is a popular sport in many countries.*
+  - *Horse racing is a popular sport in many countries.*（赛马在许多国家是一项受欢迎的运动。）
 - **horsepower**：马力
-  - *The car has a 300-horsepower engine.*
+  - *The car has a 300-horsepower engine.*（这辆车有一个300马力的发动机。）
 - **horse around**：胡闹，闹着玩（口语）
-  - *The children were horsing around in the backyard.*
+  - *The children were horsing around in the backyard.*（孩子们在后院胡闹。）
 
 ## 真题/语料关联
 

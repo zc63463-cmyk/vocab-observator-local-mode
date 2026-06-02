@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **local flora**：本地植物群
-  - *The local flora includes oak trees, wildflowers, and various ferns.*
+  - *The local flora includes oak trees, wildflowers, and various ferns.*（当地植物群包括橡树、野花和各种蕨类植物。）
 - **native flora**：本地原生植物群
-  - *The introduction of exotic plants has threatened the native flora.*
+  - *The introduction of exotic plants has threatened the native flora.*（外来植物的引入威胁到了本土植物群。）
 - **fauna and flora**：动物群和植物群
-  - *The national park is home to a rich variety of fauna and flora.*
+  - *The national park is home to a rich variety of fauna and flora.*（该国家公园拥有种类繁多的动植物。）
 - **gut flora**：肠道菌群
-  - *A healthy gut flora is essential for proper digestion and immune function.*
+  - *A healthy gut flora is essential for proper digestion and immune function.*（健康的肠道菌群对正常的消化和免疫功能至关重要。）
 - **flora survey**：植物群调查
-  - *A flora survey was conducted to assess the botanical diversity of the area.*
+  - *A flora survey was conducted to assess the botanical diversity of the area.*（进行了一次植物群调查以评估该地区的植物多样性。）
 
 ## 真题/语料关联
 

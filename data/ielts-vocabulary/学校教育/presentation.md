@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **give/make a presentation**：做演示
-  - *She gave an excellent presentation on climate change.*
+  - *She gave an excellent presentation on climate change.*（中文翻译）
 - **presentation skills**：演示技巧
-  - *Good presentation skills are essential for business success.*
+  - *Good presentation skills are essential for business success.*（中文翻译）
 - **visual presentation**：视觉展示
-  - *The visual presentation of the data made it easier to understand.*
+  - *The visual presentation of the data made it easier to understand.*（中文翻译）
 - **presentation ceremony**：颁奖仪式
-  - *The presentation ceremony was held in the main hall.*
+  - *The presentation ceremony was held in the main hall.*（中文翻译）
 - **at presentation**：在展示时
-  - *The food was delicious at presentation.*
+  - *The food was delicious at presentation.*（中文翻译）
 
 ## 真题/语料关联
 

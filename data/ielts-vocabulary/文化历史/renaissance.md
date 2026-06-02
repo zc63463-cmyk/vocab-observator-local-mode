@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the Renaissance**：文艺复兴
-  - *The Renaissance began in Italy and spread throughout Europe.*
+  - *The Renaissance began in Italy and spread throughout Europe.*（文艺复兴始于意大利并传播到整个欧洲。）
 - **Renaissance art/architecture**：文艺复兴艺术/建筑
-  - *Renaissance art is characterized by its realism and attention to human anatomy.*
+  - *Renaissance art is characterized by its realism and attention to human anatomy.*（文艺复兴艺术以其现实主义和人体解剖学的关注为特点。）
 - **a renaissance of interest**：兴趣的复兴
-  - *There has been a renaissance of interest in traditional crafts in recent years.*
+  - *There has been a renaissance of interest in traditional crafts in recent years.*（近年来，人们对传统手工艺重新产生了兴趣。）
 - **a cultural renaissance**：文化复兴
-  - *The city experienced a cultural renaissance after years of decline.*
+  - *The city experienced a cultural renaissance after years of decline.*（这座城市经历了一场文化复兴。）
 - **Renaissance man/woman**：文艺复兴式人物（多才多艺的人）
-  - *Leonardo da Vinci is often described as the ultimate Renaissance man.*
+  - *Leonardo da Vinci is often described as the ultimate Renaissance man.*（达芬奇经常被认为是典型的文艺复兴人。）
 
 ## 真题/语料关联
 

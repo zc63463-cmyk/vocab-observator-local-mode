@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **school/class timetable**：课程表
-  - *The school timetable shows that we have math on Monday mornings.*
+  - *The school timetable shows that we have math on Monday mornings.*（课程表显示我们周一上午有数学课。）
 - **train/bus timetable**：火车/汽车时刻表
-  - *I checked the train timetable to see when the next one leaves.*
+  - *I checked the train timetable to see when the next one leaves.*（我查看了火车时刻表，看下一班什么时候发车。）
 - **according to the timetable**：按照时间表
-  - *The project should be completed according to the timetable.*
+  - *The project should be completed according to the timetable.*（项目应按照时间表完成。）
 - **tight timetable**：紧凑的时间表
-  - *We're working to a very tight timetable.*
+  - *We're working to a very tight timetable.*（我们正按照非常紧凑的时间表工作。）
 - **timetable change**：时间表变更
-  - *There have been some timetable changes this semester.*
+  - *There have been some timetable changes this semester.*（这学期有一些时间表上的变动。）
 
 ## 真题/语料关联
 

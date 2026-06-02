@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **black magic**：黑魔法
-  - *Legends say the witch used black magic to curse the village.*
+  - *Legends say the witch used black magic to curse the village.*（传说女巫用黑魔法诅咒了村庄。）
 - **magic show**：魔术表演
-  - *The children were amazed by the magic show.*
+  - *The children were amazed by the magic show.*（孩子们对魔术表演感到惊叹不已。）
 - **magic wand**：魔杖
-  - *The magician waved his magic wand and the rabbit disappeared.*
+  - *The magician waved his magic wand and the rabbit disappeared.*（魔术师挥了挥魔杖，兔子就消失了。）
 - **magic moment**：神奇时刻
-  - *The sunset created a magic moment for everyone on the beach.*
+  - *The sunset created a magic moment for everyone on the beach.*（日落为海滩上的每个人创造了神奇的时刻。）
 - **work like magic**：效果神奇
-  - *The new medicine worked like magic on my headache.*
+  - *The new medicine worked like magic on my headache.*（这种新药对我的头痛效果神奇。）
 
 ## 真题/语料关联
 

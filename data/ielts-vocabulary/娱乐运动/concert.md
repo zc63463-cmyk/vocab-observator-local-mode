@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rock concert**：摇滚音乐会
-  - *The rock concert attracted thousands of fans.*
+  - *The rock concert attracted thousands of fans.*（这场摇滚音乐会吸引了成千上万的粉丝。）
 - **classical concert**：古典音乐会
-  - *We attended a classical concert at the symphony hall.*
+  - *We attended a classical concert at the symphony hall.*（我们在交响乐厅参加了一场古典音乐会。）
 - **in concert**：一致，协调
-  - *The teams worked in concert to complete the project.*
+  - *The teams worked in concert to complete the project.*（团队协调合作完成了项目。）
 - **concert hall**：音乐厅
-  - *The concert hall has excellent acoustics.*
+  - *The concert hall has excellent acoustics.*（这个音乐厅的音响效果极好。）
 - **concert tour**：巡回演唱会
-  - *The band announced a world concert tour.*
+  - *The band announced a world concert tour.*（乐队宣布了世界巡回演唱会。）
 
 ## 真题/语料关联
 

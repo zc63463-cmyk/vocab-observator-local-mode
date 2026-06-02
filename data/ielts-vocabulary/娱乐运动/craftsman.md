@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **skilled craftsman**：熟练工匠
-  - *The skilled craftsman repaired the antique furniture.*
+  - *The skilled craftsman repaired the antique furniture.*（熟练的工匠修复了古董家具。）
 - **master craftsman**：大师级工匠
-  - *He is a master craftsman in traditional pottery.*
+  - *He is a master craftsman in traditional pottery.*（他是传统陶艺的大师级工匠。）
 - **traditional craftsman**：传统手艺人
-  - *Traditional craftsmen are keeping ancient skills alive.*
+  - *Traditional craftsmen are keeping ancient skills alive.*（传统手艺人正在传承古老的技艺。）
 - **craftsman workshop**：工匠作坊
-  - *The craftsman workshop produces handmade goods.*
+  - *The craftsman workshop produces handmade goods.*（这家工匠作坊生产手工制品。）
 - **craftsman spirit**：工匠精神
-  - *The craftsman spirit emphasizes quality and attention to detail.*
+  - *The craftsman spirit emphasizes quality and attention to detail.*（工匠精神强调质量和细节关注。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **natural habitat**：自然栖息地
-  - *The best place to see wild animals is in their natural habitat.*
+  - *The best place to see wild animals is in their natural habitat.*（观赏野生动物的最佳地点是它们的自然栖息地。）
 - **habitat loss**：栖息地丧失
-  - *Habitat loss is the primary threat to biodiversity worldwide.*
+  - *Habitat loss is the primary threat to biodiversity worldwide.*（栖息地丧失是全球生物多样性面临的主要威胁。）
 - **habitat destruction**：栖息地破坏
-  - *Habitat destruction caused by deforestation is devastating wildlife populations.*
+  - *Habitat destruction caused by deforestation is devastating wildlife populations.*（森林砍伐造成的栖息地破坏正在毁灭野生动物种群。）
 - **habitat conservation**：栖息地保护
-  - *Habitat conservation efforts have helped protect endangered species.*
+  - *Habitat conservation efforts have helped protect endangered species.*（栖息地保护工作有助于保护濒危物种。）
 - **habitat fragmentation**：栖息地碎片化
-  - *Habitat fragmentation isolates animal populations and reduces genetic diversity.*
+  - *Habitat fragmentation isolates animal populations and reduces genetic diversity.*（栖息地碎片化使动物种群孤立并降低了遗传多样性。）
 
 ## 真题/语料关联
 

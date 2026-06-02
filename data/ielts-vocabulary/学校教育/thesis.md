@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **PhD/master's thesis**：博士/硕士论文
-  - *She completed her PhD thesis on renewable energy.*
+  - *She completed her PhD thesis on renewable energy.*（她完成了关于可再生能源的博士论文。）
 - **thesis statement**：论点陈述（论文中的核心主张）
-  - *A strong thesis statement is essential for a good essay.*
+  - *A strong thesis statement is essential for a good essay.*（有力的论点陈述对于一篇好文章至关重要。）
 - **submit a thesis**：提交论文
-  - *The deadline for submitting the thesis is next month.*
+  - *The deadline for submitting the thesis is next month.*（提交论文的截止日期是下个月。）
 - **defend a thesis**：答辩
-  - *He successfully defended his thesis in front of the examination committee.*
+  - *He successfully defended his thesis in front of the examination committee.*（他成功地在考试委员会面前进行了论文答辩。）
 - **central/main thesis**：核心论点
-  - *The central thesis of the book is that technology is reshaping society.*
+  - *The central thesis of the book is that technology is reshaping society.*（这本书的核心论点是技术正在重塑社会。）
 
 ## 真题/语料关联
 

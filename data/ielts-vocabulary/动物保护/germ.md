@@ -65,17 +65,17 @@ review_count: 0
 ## 搭配与短语
 
 - **germ warfare**：细菌战
-  - *The treaty banned the use of germ warfare in international conflicts.*
+  - *The treaty banned the use of germ warfare in international conflicts.*（该条约禁止在国际冲突中使用细菌战。）
 - **germ of an idea**：想法的萌芽
-  - *The germ of an idea came to her while she was walking in the park.*
+  - *The germ of an idea came to her while she was walking in the park.*（她在公园散步时萌生了一个想法的雏形。）
 - **wheat germ**：小麦胚芽
-  - *Wheat germ is rich in vitamins and minerals.*
+  - *Wheat germ is rich in vitamins and minerals.*（小麦胚芽富含维生素和矿物质。）
 - **germ-free**：无菌的
-  - *The laboratory animals were raised in a germ-free environment.*
+  - *The laboratory animals were raised in a germ-free environment.*（实验动物在无菌环境中饲养。）
 - **germ cell**：生殖细胞
-  - *Germ cells are responsible for passing genetic information to the next generation.*
+  - *Germ cells are responsible for passing genetic information to the next generation.*（生殖细胞负责将遗传信息传递给下一代。）
 - **germ theory**：细菌理论（疾病由微生物引起的理论）
-  - *The germ theory of disease revolutionized medicine in the 19th century.*
+  - *The germ theory of disease revolutionized medicine in the 19th century.*（疾病病菌理论在19世纪彻底改变了医学。）
 
 ## 真题/语料关联
 

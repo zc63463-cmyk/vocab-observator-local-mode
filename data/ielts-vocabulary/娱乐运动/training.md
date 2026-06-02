@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sports training**：体育训练
-  - *The athlete undergoes rigorous sports training every day.*
+  - *The athlete undergoes rigorous sports training every day.*（这位运动员每天接受严格的运动训练。）
 - **physical training**：体能训练
-  - *Physical training is essential for military personnel.*
+  - *Physical training is essential for military personnel.*（体能训练对军事人员至关重要。）
 - **strength training**：力量训练
-  - *Strength training can help build muscle and improve fitness.*
+  - *Strength training can help build muscle and improve fitness.*（力量训练有助于增强肌肉和改善体质。）
 - **professional training**：职业培训
-  - *The company provides professional training for new employees.*
+  - *The company provides professional training for new employees.*（公司为新员工提供专业培训。）
 - **on-the-job training**：在职培训
-  - *New staff receive on-the-job training for the first month.*
+  - *New staff receive on-the-job training for the first month.*（新员工第一个月接受在职培训。）
 
 ## 真题/语料关联
 

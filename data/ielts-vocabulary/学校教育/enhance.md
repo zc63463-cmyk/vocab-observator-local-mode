@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **enhance the quality of**：提高……的质量
-  - *The new software will enhance the quality of our work.*
+  - *The new software will enhance the quality of our work.*（新软件将提高我们的工作质量。）
 - **enhance the experience**：改善体验
-  - *The hotel aims to enhance the guest experience.*
+  - *The hotel aims to enhance the guest experience.*（酒店致力于提升宾客体验。）
 - **enhance the effect**：增强效果
-  - *The music enhances the emotional effect of the film.*
+  - *The music enhances the emotional effect of the film.*（音乐增强了电影的情感效果。）
 - **enhance the reputation**：提升声誉
-  - *Winning the award enhanced her reputation as a researcher.*
+  - *Winning the award enhanced her reputation as a researcher.*（获奖提升了她的研究员声誉。）
 - **significantly enhance**：显著增强
-  - *The new policy will significantly enhance productivity.*
+  - *The new policy will significantly enhance productivity.*（新政策将显著提高生产力。）
 
 ## 真题/语料关联
 

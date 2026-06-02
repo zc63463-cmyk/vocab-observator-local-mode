@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **school principal**：中小学校长
-  - *The school principal announced new policies for the upcoming term.*
+  - *The school principal announced new policies for the upcoming term.*（中文翻译）
 - **principal's office**：校长办公室
-  - *He was called to the principal's office for breaking the rules.*
+  - *He was called to the principal's office for breaking the rules.*（中文翻译）
 - **the principal reason**：主要原因
-  - *The principal reason for the reform was to improve student outcomes.*
+  - *The principal reason for the reform was to improve student outcomes.*（中文翻译）
 - **principal and interest**：本金和利息
-  - *The loan requires monthly payments of principal and interest.*
+  - *The loan requires monthly payments of principal and interest.*（中文翻译）
 - **principal investigator**：首席研究员（学术）
-  - *Dr. Smith is the principal investigator of the research project.*
+  - *Dr. Smith is the principal investigator of the research project.*（中文翻译）
 
 ## 真题/语料关联
 

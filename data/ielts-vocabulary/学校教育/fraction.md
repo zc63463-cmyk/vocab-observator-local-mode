@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a fraction of**：一小部分
-  - *The new system costs a fraction of the original price.*
+  - *The new system costs a fraction of the original price.*（新系统的成本只有原价的一小部分。）
 - **common fraction**：普通分数（如1/2、3/4）
-  - *1/2 is a common fraction.*
+  - *1/2 is a common fraction.*（1/2是普通分数。）
 - **decimal fraction**：小数（如0.5、0.75）
-  - *0.75 is a decimal fraction.*
+  - *0.75 is a decimal fraction.*（0.75是一个小数。）
 - **proper/improper fraction**：真分数/假分数
-  - *3/4 is a proper fraction; 5/3 is an improper fraction.*
+  - *3/4 is a proper fraction; 5/3 is an improper fraction.*（3/4是真分数；5/3是假分数。）
 - **a fraction of a second**：一瞬间
-  - *The accident happened in a fraction of a second.*
+  - *The accident happened in a fraction of a second.*（事故发生在瞬间。）
 - **not by a fraction**：一点也不
-  - *His opinion hasn't changed by a fraction.*
+  - *His opinion hasn't changed by a fraction.*（他的意见一点也没有改变。）
 
 ## 真题/语料关联
 

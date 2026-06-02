@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **social commentary**：社会评论
-  - *The novel is a powerful social commentary on inequality.*
+  - *The novel is a powerful social commentary on inequality.*（这部小说是对不平等的有力社会评论。）
 - **live commentary**：现场解说
-  - *The football match was broadcast with live commentary.*
+  - *The football match was broadcast with live commentary.*（足球比赛配有现场解说进行转播。）
 - **political commentary**：政治评论
-  - *He is known for his sharp political commentary.*
+  - *He is known for his sharp political commentary.*（他以尖锐的政治评论而闻名。）
 - **running commentary**：连续评述
-  - *She gave a running commentary on the events as they unfolded.*
+  - *She gave a running commentary on the events as they unfolded.*（她对事件的发展进行了连续评述。）
 - **a commentary on**：对……的评论
-  - *The film is a commentary on the dangers of technology.*
+  - *The film is a commentary on the dangers of technology.*（这部电影是对技术危险性的评论。）
 
 ## 真题/语料关联
 

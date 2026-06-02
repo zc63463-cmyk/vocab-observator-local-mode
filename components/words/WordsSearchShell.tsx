@@ -153,10 +153,13 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
   const { addToast: _addToast } = useToast();
   const { activeWordbook } = useWordbook();
   const activeWordbookId = activeWordbook?.id ?? null;
+  // The default (Global) wordbook has no items; scoping to it would yield
+  // zero results. Only pass a non-default wordbookId so the API can filter.
+  const effectiveWordbookId = activeWordbook?.is_default ? null : activeWordbookId;
 
   const buildInitialApiHref = useCallback(
-    (filters: WordFilters) => buildWordsApiHref(filters, { limit: initialPageLimit }, activeWordbookId),
-    [initialPageLimit, activeWordbookId],
+    (filters: WordFilters) => buildWordsApiHref(filters, { limit: initialPageLimit }, effectiveWordbookId),
+    [initialPageLimit, effectiveWordbookId],
   );
 
   const {
@@ -259,7 +262,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
     const response = await fetch(
       buildWordsApiHref(displayResult.filters, {
         limit: Math.max(displayResult.words.length, initialPageLimit),
-      }, activeWordbookId),
+      }, effectiveWordbookId),
       {
         credentials: "same-origin",
       },
@@ -275,7 +278,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       result: payload,
       sourceResult: result,
     });
-  }, [displayResult.filters, displayResult.words.length, initialPageLimit, result, activeWordbookId]);
+  }, [displayResult.filters, displayResult.words.length, initialPageLimit, result, effectiveWordbookId]);
 
   const onQueryChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => setFilter("q", event.target.value),
@@ -327,7 +330,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
       buildWordsApiHref(displayResult.filters, {
         limit: displayResult.pageInfo.limit,
         offset: nextOffset,
-      }, activeWordbookId),
+      }, effectiveWordbookId),
       {
         credentials: "same-origin",
         signal: controller.signal,
@@ -381,7 +384,7 @@ export function WordsSearchShell({ initialResult }: { initialResult: PublicWords
           loadMoreControllerRef.current = null;
         }
       });
-  }, [displayResult, isLoadingMore, isUpdating, resultKey, activeWordbookId]);
+  }, [displayResult, isLoadingMore, isUpdating, resultKey, effectiveWordbookId]);
 
   const combinedFetchError = fetchError ?? loadMoreError;
   const isBusy = isUpdating || isLoadingMore;

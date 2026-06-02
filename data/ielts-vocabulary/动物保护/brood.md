@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a brood of chicks**：一窝小鸡
-  - *The hen led her brood of chicks across the yard.*
+  - *The hen led her brood of chicks across the yard.*（母鸡领着她的一窝小鸡穿过院子。）
 - **brood over/on sth**：对……忧思忡忡
-  - *He sat alone, brooding over his recent failure.*
+  - *He sat alone, brooding over his recent failure.*（他独自坐着，沉思着最近的失败。）
 - **brood in silence**：沉默地沉思
-  - *She brooded in silence for hours after receiving the bad news.*
+  - *She brooded in silence for hours after receiving the bad news.*（收到坏消息后，她沉默地沉思了好几个小时。）
 - **brood mare**：种母马（用于繁殖的母马）
-  - *The farmer purchased a brood mare to expand his herd.*
+  - *The farmer purchased a brood mare to expand his herd.*（农夫购买了一匹繁殖母马以扩大他的马群。）
 - **brood over one's misfortune**：为不幸而闷闷不乐
-  - *Instead of brooding over your misfortune, take action to change it.*
+  - *Instead of brooding over your misfortune, take action to change it.*（与其沉浸在不幸中，不如采取行动去改变它。）
 
 ## 真题/语料关联
 

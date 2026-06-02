@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **achieve a goal/target**：实现目标
-  - *She achieved her goal of becoming a doctor.*
+  - *She achieved her goal of becoming a doctor.*（她实现了成为医生的目标。）
 - **achieve success**：取得成功
-  - *Hard work is the key to achieving success.*
+  - *Hard work is the key to achieving success.*（努力工作是取得成功的关键。）
 - **achieve results**：取得成果
-  - *The team achieved impressive results.*
+  - *The team achieved impressive results.*（团队取得了令人瞩目的成果。）
 - **achievable** (adj.)：可实现的
-  - *The targets are achievable with effort.*
+  - *The targets are achievable with effort.*（这些目标通过努力是可以实现的。）
 - **achievement** (n.)：成就
-  - *Winning the award was a great achievement.*
+  - *Winning the award was a great achievement.*（获得这个奖项是一项巨大的成就。）
 
 ## 真题/语料关联
 

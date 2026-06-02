@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **red squirrel**：红松鼠（欧洲原生松鼠）
-  - *The red squirrel is endangered in the UK due to competition from the grey squirrel.*
+  - *The red squirrel is endangered in the UK due to competition from the grey squirrel.*（由于灰松鼠的竞争，红松鼠在英国濒临灭绝。）
 - **grey squirrel**：灰松鼠（北美入侵物种）
-  - *The grey squirrel has largely replaced the red squirrel in Britain.*
+  - *The grey squirrel has largely replaced the red squirrel in Britain.*（灰松鼠在英国已基本取代了红松鼠。）
 - **flying squirrel**：飞鼠（能滑翔的松鼠）
-  - *The flying squirrel can glide up to 50 meters between trees.*
+  - *The flying squirrel can glide up to 50 meters between trees.*（飞鼠可以在树木间滑翔长达50米。）
 - **squirrel away**：储藏，囤积
-  - *She squirreled away enough money for a down payment on a house.*
+  - *She squirreled away enough money for a down payment on a house.*（她攒够了支付房子首付的钱。）
 - **squirrel cage**：松鼠笼（比喻单调重复的生活）
-  - *He felt trapped in the squirrel cage of his daily routine.*
+  - *He felt trapped in the squirrel cage of his daily routine.*（他感觉被困在日常生活的琐碎循环中。）
 - **squirrel around**：忙碌地四处活动
-  - *The children were squirreling around the yard, collecting acorns.*
+  - *The children were squirreling around the yard, collecting acorns.*（孩子们在院子里到处忙活，收集橡果。）
 
 ## 真题/语料关联
 

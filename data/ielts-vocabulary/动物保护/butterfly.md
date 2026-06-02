@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **monarch butterfly**：帝王蝶（黑脉金斑蝶）
-  - *Monarch butterflies migrate thousands of miles each year.*
+  - *Monarch butterflies migrate thousands of miles each year.*（帝王蝶每年迁徙数千英里。）
 - **butterfly effect**：蝴蝶效应（混沌理论）
-  - *The butterfly effect suggests that small changes can lead to large-scale consequences.*
+  - *The butterfly effect suggests that small changes can lead to large-scale consequences.*（蝴蝶效应表明微小的变化可以导致大规模的后果。）
 - **butterflies in one's stomach**：紧张不安，忐忑
-  - *I always get butterflies in my stomach before public speaking.*
+  - *I always get butterflies in my stomach before public speaking.*（公开演讲前我总是感到紧张不安。）
 - **social butterfly**：社交蝴蝶（善于交际的人）
-  - *She's a real social butterfly who knows everyone at the party.*
+  - *She's a real social butterfly who knows everyone at the party.*（她真是个社交达人，派对上每个人都认识。）
 - **butterfly stroke**：蝶泳
-  - *The butterfly stroke is the most physically demanding swimming technique.*
+  - *The butterfly stroke is the most physically demanding swimming technique.*（蝶泳是对体能要求最高的游泳技术。）
 
 ## 真题/语料关联
 

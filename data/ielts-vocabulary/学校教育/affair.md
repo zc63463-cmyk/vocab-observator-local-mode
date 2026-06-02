@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **public affairs**：公共事务
-  - *The department handles all public affairs and community relations.*
+  - *The department handles all public affairs and community relations.*（这个部门处理所有公共事务和社区关系。）
 - **foreign affairs**：外交事务
-  - *The minister of foreign affairs met with the ambassador.*
+  - *The minister of foreign affairs met with the ambassador.*（外交部长会见了大使。）
 - **current affairs**：时事
-  - *It's important to stay informed about current affairs.*
+  - *It's important to stay informed about current affairs.*（了解时事很重要。）
 - **have an affair**：有婚外情
-  - *He was accused of having an affair with a colleague.*
+  - *He was accused of having an affair with a colleague.*（他被指控与一名同事有婚外情。）
 - **love affair**：风流韵事
-  - *Their love affair was the talk of the town.*
+  - *Their love affair was the talk of the town.*（他们的风流韵事成了全镇的话题。）
 - **internal affairs**：内部事务
-  - *The police department's internal affairs division investigates misconduct.*
+  - *The police department's internal affairs division investigates misconduct.*（警察局的内部事务部门调查不当行为。）
 
 ## 真题/语料关联
 

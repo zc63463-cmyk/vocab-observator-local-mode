@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **reveal information/details**：透露信息/细节
-  - *The report revealed important details about the incident.*
+  - *The report revealed important details about the incident.*（报告透露了该事件的重要细节。）
 - **reveal the truth**：揭露真相
-  - *The investigation revealed the truth behind the scandal.*
+  - *The investigation revealed the truth behind the scandal.*（调查揭露了丑闻背后的真相。）
 - **reveal a secret**：揭露秘密
-  - *He refused to reveal the secret to anyone.*
+  - *He refused to reveal the secret to anyone.*（他拒绝向任何人透露这个秘密。）
 - **reveal a hidden pattern**：揭示隐藏的模式
-  - *The data analysis revealed a hidden pattern in consumer behavior.*
+  - *The data analysis revealed a hidden pattern in consumer behavior.*（数据分析揭示了消费者行为中隐藏的模式。）
 - **it is revealed that**：据透露
-  - *It was revealed that the company had been falsifying its accounts.*
+  - *It was revealed that the company had been falsifying its accounts.*（据透露，该公司一直在伪造账目。）
 
 ## 真题/语料关联
 

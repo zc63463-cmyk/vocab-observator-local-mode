@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **stage performance**：舞台表演
-  - *Her stage performance was absolutely captivating.*
+  - *Her stage performance was absolutely captivating.*（她的舞台表演非常迷人。）
 - **live performance**：现场表演
-  - *The band gave a live performance at the music festival.*
+  - *The band gave a live performance at the music festival.*（乐队在音乐节上进行了现场表演。）
 - **work performance**：工作表现
-  - *Your work performance will be reviewed every six months.*
+  - *Your work performance will be reviewed every six months.*（你的工作表现将每六个月接受一次评估。）
 - **high performance**：高性能
-  - *The car is designed for high performance on the racetrack.*
+  - *The car is designed for high performance on the racetrack.*（这款车专为赛道上的高性能而设计。）
 - **academic performance**：学业表现
-  - *Good study habits can improve your academic performance.*
+  - *Good study habits can improve your academic performance.*（良好的学习习惯可以提高你的学业表现。）
 
 ## 真题/语料关联
 

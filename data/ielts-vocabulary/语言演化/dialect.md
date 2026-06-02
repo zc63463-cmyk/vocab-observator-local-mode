@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **regional dialect**：地域方言
-  - *There are many regional dialects in China.*
+  - *There are many regional dialects in China.*（中国有很多地域方言。）
 - **local dialect**：当地方言
-  - *She speaks the local dialect fluently.*
+  - *She speaks the local dialect fluently.*（她能流利地说当地方言。）
 - **dialect words**：方言词汇
-  - *The book lists dialect words from different parts of England.*
+  - *The book lists dialect words from different parts of England.*（这本书列出了来自英格兰不同地区的方言词汇。）
 - **dialect speaker**：方言使用者
-  - *Dialect speakers often code-switch between dialect and standard language.*
+  - *Dialect speakers often code-switch between dialect and standard language.*（方言使用者经常在方言和标准语之间进行语码转换。）
 - **dialect preservation**：方言保护
-  - *Dialect preservation is important for cultural diversity.*
+  - *Dialect preservation is important for cultural diversity.*（方言保护对文化多样性很重要。）
 
 ## 真题/语料关联
 

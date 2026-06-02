@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **alternate between A and B**：在A和B之间交替
-  - *The weather alternates between sunshine and rain throughout the week.*
+  - *The weather alternates between sunshine and rain throughout the week.*（这一周的天气在晴天和雨天之间交替变换。）
 - **on alternate days**：每隔一天
-  - *The doctor recommended taking the medication on alternate days.*
+  - *The doctor recommended taking the medication on alternate days.*（医生建议隔天服药。）
 - **alternate route**：替代路线
-  - *We took an alternate route to avoid the traffic jam.*
+  - *We took an alternate route to avoid the traffic jam.*（我们走了另一条路线以避开交通堵塞。）
 - **alternate plan**：备用计划
-  - *It's always good to have an alternate plan in case of emergencies.*
+  - *It's always good to have an alternate plan in case of emergencies.*（有备用计划以防万一总是好的。）
 - **alternate reality**：平行现实
-  - *The movie explores the concept of alternate realities.*
+  - *The movie explores the concept of alternate realities.*（这部电影探讨了平行现实的概念。）
 
 ## 真题/语料关联
 

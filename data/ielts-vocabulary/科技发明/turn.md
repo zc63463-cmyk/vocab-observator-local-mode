@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **turn the key**：转动钥匙
-  - *She turned the key and opened the door.*
+  - *She turned the key and opened the door.*（她转动钥匙打开了门。）
 - **turn left/right**：左转/右转
-  - *Turn left at the next intersection.*
+  - *Turn left at the next intersection.*（在下一个路口左转。）
 - **turn into**：变成
-  - *The caterpillar turned into a butterfly.*
+  - *The caterpillar turned into a butterfly.*（毛毛虫变成了蝴蝶。）
 - **take turns**：轮流
-  - *The children took turns riding the bicycle.*
+  - *The children took turns riding the bicycle.*（孩子们轮流骑自行车。）
 - **turn of events**：事态变化
-  - *The unexpected turn of events surprised everyone.*
+  - *The unexpected turn of events surprised everyone.*（事态的意外变化让所有人感到惊讶。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a film/movie critic**：电影评论家
-  - *The film critic gave the movie a rave review.*
+  - *The film critic gave the movie a rave review.*（电影评论家对这部电影给予了高度评价。）
 - **a literary critic**：文学评论家
-  - *The literary critic analyzed the themes of the novel.*
+  - *The literary critic analyzed the themes of the novel.*（文学评论家分析了这部小说的主题。）
 - **a music/art critic**：音乐/艺术评论家
-  - *The music critic praised the composer's latest symphony.*
+  - *The music critic praised the composer's latest symphony.*（音乐评论家称赞了作曲家最新的交响曲。）
 - **a harsh/sharp critic**：严厉的批评者
-  - *He is a harsh critic of the government's economic policies.*
+  - *He is a harsh critic of the government's economic policies.*（他是政府经济政策的严厉批评者。）
 - **critics of**：……的批评者
-  - *Critics of the plan argue that it is too expensive.*
+  - *Critics of the plan argue that it is too expensive.*（该计划的批评者认为它过于昂贵。）
 
 ## 真题/语料关联
 

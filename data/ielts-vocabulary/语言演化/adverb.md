@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **adverb of manner**：方式副词
-  - *"Quickly" and "slowly" are adverbs of manner.*
+  - *"Quickly" and "slowly" are adverbs of manner.*（"Quickly"和"slowly"是方式副词。）
 - **adverb of time**：时间副词
-  - *"Yesterday" and "soon" are adverbs of time.*
+  - *"Yesterday" and "soon" are adverbs of time.*（"Yesterday"和"soon"是时间副词。）
 - **adverb of place**：地点副词
-  - *"Here" and "there" are adverbs of place.*
+  - *"Here" and "there" are adverbs of place.*（"Here"和"there"是地点副词。）
 - **adverb of degree**：程度副词
-  - *"Very" and "extremely" are adverbs of degree.*
+  - *"Very" and "extremely" are adverbs of degree.*（"Very"和"extremely"是程度副词。）
 - **adverb phrase**：副词短语
-  - *The phrase "very quickly" is an adverb phrase.*
+  - *The phrase "very quickly" is an adverb phrase.*（短语"very quickly"是一个副词短语。）
 
 ## 真题/语料关联
 

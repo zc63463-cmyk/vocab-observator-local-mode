@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **excellent work**：优秀的工作
-  - *She did excellent work on the research project.*
+  - *She did excellent work on the research project.*（她在研究项目中表现出色。）
 - **excellent performance**：出色的表现
-  - *The team gave an excellent performance in the championship.*
+  - *The team gave an excellent performance in the championship.*（队伍在锦标赛中表现出色。）
 - **excellent quality**：优质
-  - *The product is known for its excellent quality.*
+  - *The product is known for its excellent quality.*（该产品以其优良品质而闻名。）
 - **excellent at**：擅长于
-  - *He is excellent at problem-solving.*
+  - *He is excellent at problem-solving.*（他非常擅长解决问题。）
 - **Excellent!**：太好了！（口语）
-  - *"I got the job." "Excellent!"*
+  - *"I got the job." "Excellent!"*（"我得到那份工作了。""太棒了！"）
 
 ## 真题/语料关联
 

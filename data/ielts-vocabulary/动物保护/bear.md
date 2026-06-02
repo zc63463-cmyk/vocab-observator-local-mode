@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **polar bear**：北极熊
-  - *Polar bears are threatened by climate change.*
+  - *Polar bears are threatened by climate change.*（北极熊正受到气候变化的威胁。）
 - **bear market**：熊市（股市下跌）
-  - *Investors are worried about the bear market.*
+  - *Investors are worried about the bear market.*（投资者对熊市感到担忧。）
 - **bear the burden**：承担重担
-  - *She had to bear the burden of caring for her family.*
+  - *She had to bear the burden of caring for her family.*（她不得不承担照顾家庭的重担。）
 - **bear in mind**：记住
-  - *Bear in mind that the deadline is next week.*
+  - *Bear in mind that the deadline is next week.*（记住截止日期是下周。）
 - **bear fruit**：结出果实；取得成果
-  - *His hard work finally bore fruit.*
+  - *His hard work finally bore fruit.*（他的辛勤努力终于结出了硕果。）
 
 ## 真题/语料关联
 

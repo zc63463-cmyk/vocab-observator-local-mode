@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **have a discussion**：进行讨论
-  - *We need to have a discussion about the project timeline.*
+  - *We need to have a discussion about the project timeline.*（我们需要讨论一下项目时间表。）
 - **group discussion**：小组讨论
-  - *The interview includes a group discussion on current affairs.*
+  - *The interview includes a group discussion on current affairs.*（面试包括一个关于时事的小组讨论。）
 - **a heated/lively discussion**：激烈的讨论
-  - *There was a heated discussion about climate change policies.*
+  - *There was a heated discussion about climate change policies.*（关于气候变化政策有一场激烈的讨论。）
 - **under discussion**：在讨论中
-  - *The proposal is still under discussion.*
+  - *The proposal is still under discussion.*（该提案仍在讨论中。）
 - **come up for discussion**：被提上讨论日程
-  - *The issue will come up for discussion at the next meeting.*
+  - *The issue will come up for discussion at the next meeting.*（这个问题将在下次会议上讨论。）
 
 ## 真题/语料关联
 

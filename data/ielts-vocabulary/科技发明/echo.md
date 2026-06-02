@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an echo of**：……的回声/反映
-  - *The policy is an echo of previous reforms.*
+  - *The policy is an echo of previous reforms.*（这项政策反映了之前的改革。）
 - **echo through**：回荡在……
-  - *The sound echoed through the empty hall.*
+  - *The sound echoed through the empty hall.*（声音在空旷的大厅里回荡。）
 - **echo chamber**：回音室（指只接触相似观点的环境）
-  - *Social media can create echo chambers where people only hear opinions they agree with.*
+  - *Social media can create echo chambers where people only hear opinions they agree with.*（社交媒体可能制造回音室，人们只听到自己同意的观点。）
 - **echo back**：回声；附和
-  - *The mountains echoed back our shouts.*
+  - *The mountains echoed back our shouts.*（群山回响着我们的呼喊。）
 - **without echo**：没有回声
-  - *The recording studio is designed to be without echo.*
+  - *The recording studio is designed to be without echo.*（录音室的设计使其没有回声。）
 
 ## 真题/语料关联
 

@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **paraphrase a passage**：改述一段文字
-  - *Students are asked to paraphrase the passage in their own words.*
+  - *Students are asked to paraphrase the passage in their own words.*（学生被要求用自己的话改述这段文字。）
 - **paraphrase the text**：释义文本
-  - *She paraphrased the text to make it easier to understand.*
+  - *She paraphrased the text to make it easier to understand.*（她改述了文本使其更容易理解。）
 - **in other words / to paraphrase**：换句话说
-  - *To paraphrase, the study found that exercise improves mental health.*
+  - *To paraphrase, the study found that exercise improves mental health.*（换而言之，研究发现运动能改善心理健康。）
 - **a paraphrase of**：……的改述
-  - *This is a paraphrase of Shakespeare's original lines.*
+  - *This is a paraphrase of Shakespeare's original lines.*（这是对莎士比亚原文的改述。）
 - **paraphrase rather than quote**：改述而非引用
-  - *In academic writing, it is often better to paraphrase rather than quote directly.*
+  - *In academic writing, it is often better to paraphrase rather than quote directly.*（在学术写作中，改述通常比直接引用更好。）
 
 ## 真题/语料关联
 

@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bristle with anger**：怒发冲冠
-  - *He bristled with anger when he heard the accusation.*
+  - *He bristled with anger when he heard the accusation.*（听到指控时他怒发冲冠。）
 - **bristle at sth**：对……感到愤怒
-  - *She bristled at the suggestion that she was incompetent.*
+  - *She bristled at the suggestion that she was incompetent.*（她听到说自己无能的暗示时勃然大怒。）
 - **bristle with difficulties**：困难重重
-  - *The project bristled with difficulties from the very beginning.*
+  - *The project bristled with difficulties from the very beginning.*（这个项目从一开始就困难重重。）
 - **set up someone's bristles**：激怒某人
-  - *His arrogant tone set up everyone's bristles.*
+  - *His arrogant tone set up everyone's bristles.*（他傲慢的语气激怒了所有人。）
 - **bristle up**：竖起毛发；发怒
-  - *The dog bristled up when the stranger approached.*
+  - *The dog bristled up when the stranger approached.*（陌生人走近时，那只狗竖起了毛。）
 
 ## 真题/语料关联
 

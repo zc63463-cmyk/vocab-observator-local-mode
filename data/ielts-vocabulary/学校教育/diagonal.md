@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **diagonal line**：对角线
-  - *Draw a diagonal line from the top left corner to the bottom right corner.*
+  - *Draw a diagonal line from the top left corner to the bottom right corner.*（从左上角到右下角画一条对角线。）
 - **at a diagonal**：成对角线地
-  - *The painting was hung at a diagonal to create a dynamic effect.*
+  - *The painting was hung at a diagonal to create a dynamic effect.*（这幅画被斜着挂起来以营造动感效果。）
 - **diagonal stripe**：斜纹
-  - *The fabric has a diagonal stripe pattern.*
+  - *The fabric has a diagonal stripe pattern.*（这种面料有斜条纹图案。）
 - **diagonal cut**：斜切
-  - *Make a diagonal cut to increase the surface area.*
+  - *Make a diagonal cut to increase the surface area.*（斜切以增加表面积。）
 - **diagonal matrix**：对角矩阵
-  - *A diagonal matrix has non-zero elements only on its main diagonal.*
+  - *A diagonal matrix has non-zero elements only on its main diagonal.*（对角矩阵只有主对角线上的元素非零。）
 
 ## 真题/语料关联
 

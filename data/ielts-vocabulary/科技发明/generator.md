@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **electric generator**：发电机
-  - *The hospital has a backup electric generator in case of power cuts.*
+  - *The hospital has a backup electric generator in case of power cuts.*（医院备有一台备用发电机，以防停电。）
 - **diesel generator**：柴油发电机
-  - *Diesel generators are commonly used in areas without reliable electricity.*
+  - *Diesel generators are commonly used in areas without reliable electricity.*（柴油发电机常用于电力供应不稳定的地区。）
 - **gas generator**：气体发生器
-  - *The gas generator produces hydrogen for fuel cells.*
+  - *The gas generator produces hydrogen for fuel cells.*（气体发生器为燃料电池产生氢气。）
 - **steam generator**：蒸汽发生器
-  - *The steam generator powers the turbine in the power plant.*
+  - *The steam generator powers the turbine in the power plant.*（蒸汽发生器为发电厂的涡轮机提供动力。）
 - **number generator**：数字生成器
-  - *The lottery uses a random number generator to select winners.*
+  - *The lottery uses a random number generator to select winners.*（彩票使用随机数字生成器来选择中奖者。）
 
 ## 真题/语料关联
 

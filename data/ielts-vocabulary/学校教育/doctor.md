@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **see a doctor**：看医生
-  - *You should see a doctor about that cough.*
+  - *You should see a doctor about that cough.*（你应该去看医生，看看那个咳嗽。）
 - **family doctor**：家庭医生
-  - *My family doctor has known me since childhood.*
+  - *My family doctor has known me since childhood.*（我的家庭医生从小就认识我。）
 - **Doctor of Philosophy (PhD)**：哲学博士
-  - *She earned her Doctor of Philosophy from Oxford University.*
+  - *She earned her Doctor of Philosophy from Oxford University.*（她在牛津大学获得了哲学博士学位。）
 - **doctoral thesis/dissertation**：博士论文
-  - *He spent three years writing his doctoral thesis.*
+  - *He spent three years writing his doctoral thesis.*（他花了三年时间写博士论文。）
 - **doctor the evidence**：篡改证据
-  - *The suspect was accused of doctoring the evidence.*
+  - *The suspect was accused of doctoring the evidence.*（嫌疑人被指控篡改证据。）
 
 ## 真题/语料关联
 

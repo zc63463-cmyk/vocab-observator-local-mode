@@ -1,21 +1,148 @@
 "use client";
 
 import { type ReactNode } from "react";
+import type { WordHighlight } from "@/lib/review/types";
+
+type SplitSegment =
+  | { kind: "text"; content: string }
+  | { kind: "highlight"; content: string; color: string; id: string };
 
 /**
- * Parse `**bold**` markers into `<strong>` elements.
+ * Split a plain-text string by highlight snippets.
  */
-function parseBold(text: string): ReactNode[] {
+function splitByHighlights(
+  text: string,
+  highlights: WordHighlight[],
+): SplitSegment[] {
+  const relevant = highlights.filter((h) => text.includes(h.text_snippet));
+  if (relevant.length === 0) {
+    return [{ kind: "text", content: text }];
+  }
+
+  const segments: SplitSegment[] = [];
+  let remaining = text;
+
+  while (remaining.length > 0) {
+    let bestIdx = -1;
+    let bestLen = 0;
+    let bestHl: (typeof relevant)[number] | null = null;
+
+    for (const hl of relevant) {
+      const idx = remaining.indexOf(hl.text_snippet);
+      if (idx !== -1 && (bestIdx === -1 || idx < bestIdx)) {
+        bestIdx = idx;
+        bestLen = hl.text_snippet.length;
+        bestHl = hl;
+      }
+    }
+
+    if (bestIdx === -1 || !bestHl) {
+      segments.push({ kind: "text", content: remaining });
+      break;
+    }
+
+    if (bestIdx > 0) {
+      segments.push({ kind: "text", content: remaining.slice(0, bestIdx) });
+    }
+    segments.push({
+      kind: "highlight",
+      content: bestHl.text_snippet,
+      color: bestHl.color,
+      id: bestHl.id,
+    });
+    remaining = remaining.slice(bestIdx + bestLen);
+  }
+
+  return segments;
+}
+
+function renderSegments(
+  segments: SplitSegment[],
+  keyPrefix: string,
+  onDeleteHighlight?: (id: string) => void,
+): ReactNode[] {
+  return segments.map((seg, i) =>
+    seg.kind === "highlight" ? (
+      seg.color === "bold" ? (
+        <strong
+          key={`hl-${keyPrefix}-${seg.id}-${i}`}
+          className="cursor-pointer font-semibold text-[var(--color-ink)] transition hover:opacity-80"
+          onClick={(e) => {
+            e.stopPropagation();
+            onDeleteHighlight?.(seg.id);
+          }}
+          title="点击取消加粗"
+        >
+          {seg.content}
+        </strong>
+      ) : (
+        <mark
+          key={`hl-${keyPrefix}-${seg.id}-${i}`}
+          className="cursor-pointer rounded-sm transition hover:opacity-80"
+          style={{
+            backgroundColor: `${seg.color}33`,
+            borderBottom: `2.5px solid ${seg.color}`,
+          }}
+          onClick={(e) => {
+            e.stopPropagation();
+            onDeleteHighlight?.(seg.id);
+          }}
+          title="点击取消标亮"
+        >
+          {seg.content}
+        </mark>
+      )
+    ) : (
+      <span key={`t-${keyPrefix}-${i}`}>{seg.content}</span>
+    ),
+  );
+}
+
+/**
+ * Apply highlights without breaking bold markers.
+ *
+ * Strategy: split text by `**bold**` regions first, then apply
+ * highlights inside each region independently. This prevents a
+ * highlight snippet from "stealing" text out of a bold span and
+ * leaving orphaned `**` markers.
+ */
+function applyHighlights(
+  text: string,
+  highlights: WordHighlight[],
+  onDeleteHighlight?: (id: string) => void,
+): ReactNode[] {
+  // Split into bold regions and plain-text regions
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
-  return parts.map((part, i) => {
+
+  return parts.flatMap((part, partIdx) => {
     if (part.startsWith("**") && part.endsWith("**")) {
+      // Bold region: strip **, highlight inside, wrap in <strong>
+      const inner = part.slice(2, -2);
+      const segments = splitByHighlights(inner, highlights);
+      if (segments.length === 1 && segments[0].kind === "text") {
+        // No highlights inside this bold region
+        return (
+          <strong
+            key={`b-${partIdx}`}
+            className="font-semibold text-[var(--color-ink)]"
+          >
+            {inner}
+          </strong>
+        );
+      }
       return (
-        <strong key={i} className="font-semibold text-[var(--color-ink)]">
-          {part.slice(2, -2)}
+        <strong
+          key={`b-${partIdx}`}
+          className="font-semibold text-[var(--color-ink)]"
+        >
+          {renderSegments(segments, `b${partIdx}`, onDeleteHighlight)}
         </strong>
       );
     }
-    return <span key={i}>{part}</span>;
+
+    // Plain-text region: apply highlights directly
+    const segments = splitByHighlights(part, highlights);
+    return renderSegments(segments, `p${partIdx}`, onDeleteHighlight);
   });
 }
 
@@ -39,7 +166,15 @@ const INDENT_REM = 0.75;
  *   - Paragraphs, bold `**text**`, unordered lists `-`, ordered lists `1.`,
  *     checkboxes `- [x]`.
  */
-export function ZenChainRenderer({ text }: { text: string }) {
+export function ZenChainRenderer({
+  text,
+  highlights = [],
+  onDeleteHighlight,
+}: {
+  text: string;
+  highlights?: WordHighlight[];
+  onDeleteHighlight?: (id: string) => void;
+}) {
   const lines = text.split("\n");
   const blocks: ReactNode[] = [];
 
@@ -100,7 +235,7 @@ export function ZenChainRenderer({ text }: { text: string }) {
                   {item.checked ? "☑" : "☐"}
                 </span>
               )}
-              {parseBold(item.content)}
+              {applyHighlights(item.content, highlights, onDeleteHighlight)}
             </li>
           );
         })}
@@ -156,7 +291,7 @@ export function ZenChainRenderer({ text }: { text: string }) {
           key={blocks.length}
           className="text-sm leading-7 text-[var(--color-ink)]"
         >
-          {parseBold(trimmed)}
+          {applyHighlights(trimmed, highlights, onDeleteHighlight)}
         </p>,
       );
     }

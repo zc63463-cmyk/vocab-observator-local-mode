@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inspire sb to do sth**：激励某人做某事
-  - *Her speech inspired the audience to take action.*
+  - *Her speech inspired the audience to take action.*（她的演讲激励听众采取行动。）
 - **inspire creativity**：激发创造力
-  - *The workshop aims to inspire creativity in young artists.*
+  - *The workshop aims to inspire creativity in young artists.*（该工作坊旨在激发年轻艺术家的创造力。）
 - **inspire confidence**：唤起信心
-  - *The leader's calm demeanour inspired confidence in the team.*
+  - *The leader's calm demeanour inspired confidence in the team.*（领导者冷静的举止唤起了团队的信心。）
 - **inspire fear/respect**：引起恐惧/尊敬
-  - *The dictator's harsh policies inspired fear among the people.*
+  - *The dictator's harsh policies inspired fear among the people.*（独裁者的严厉政策引起了人民的恐惧。）
 - **be inspired by**：受到……的启发
-  - *The painting was inspired by the artist's travels in Asia.*
+  - *The painting was inspired by the artist's travels in Asia.*（这幅画的灵感来自艺术家在亚洲的旅行。）
 
 ## 真题/语料关联
 

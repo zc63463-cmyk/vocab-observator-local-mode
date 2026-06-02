@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a capable leader**：能干的领导者
-  - *The company needs a capable leader to navigate through this crisis.*
+  - *The company needs a capable leader to navigate through this crisis.*（公司需要一位能干的领导者来渡过这场危机。）
 - **capable of doing**：有能力做某事
-  - *She is capable of handling multiple tasks at once.*
+  - *She is capable of handling multiple tasks at once.*（她有能力同时处理多项任务。）
 - **highly capable**：能力很强的
-  - *He is a highly capable engineer with years of experience.*
+  - *He is a highly capable engineer with years of experience.*（他是一位经验丰富、能力很强的工程师。）
 - **capable of improvement**：有改进的潜力
-  - *The system is old but capable of improvement with the right upgrades.*
+  - *The system is old but capable of improvement with the right upgrades.*（这个系统虽旧，但通过适当的升级是有改进潜力的。）
 - **capable hands**：能干的人手中
-  - *The project is in capable hands – don't worry.*
+  - *The project is in capable hands – don't worry.*（这个项目在能干的人手中——别担心。）
 
 ## 真题/语料关联
 

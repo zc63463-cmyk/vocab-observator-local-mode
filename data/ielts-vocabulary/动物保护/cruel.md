@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cruel dictator**：残忍的独裁者
-  - *The cruel dictator oppressed his people for decades.*
+  - *The cruel dictator oppressed his people for decades.*（这位残暴的独裁者压迫他的人民长达数十年。）
 - **cruel punishment**：残忍的惩罚
-  - *The prisoners were subjected to cruel punishment.*
+  - *The prisoners were subjected to cruel punishment.*（囚犯遭受了残酷的惩罚。）
 - **cruel twist of fate**：命运的残酷转折
-  - *It was a cruel twist of fate that brought them together.*
+  - *It was a cruel twist of fate that brought them together.*（命运的残酷转折将他们聚在了一起。）
 - **cruel remarks**：无情的评论
-  - *Her cruel remarks hurt his feelings deeply.*
+  - *Her cruel remarks hurt his feelings deeply.*（她残忍的言语深深伤害了他的感情。）
 - **cruel and unusual punishment**：残忍和不寻常的惩罚（法律术语）
-  - *The court ruled that the death penalty constituted cruel and unusual punishment.*
+  - *The court ruled that the death penalty constituted cruel and unusual punishment.*（法院裁定死刑构成了残忍且不寻常的惩罚。）
 
 ## 真题/语料关联
 

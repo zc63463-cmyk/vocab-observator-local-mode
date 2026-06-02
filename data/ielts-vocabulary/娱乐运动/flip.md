@@ -74,15 +74,15 @@ flip 是拟声词，模仿快速翻转或弹击时发出的短促声音。与 fl
 ## 搭配与短语
 
 - **flip through**：翻阅，浏览
-  - *She flipped through the magazine while waiting.*
+  - *She flipped through the magazine while waiting.*（她等待时翻阅了杂志。）
 - **flip a coin**：抛硬币（做决定）
-  - *Let's flip a coin to decide who goes first.*
+  - *Let's flip a coin to decide who goes first.*（我们抛硬币决定谁先来吧。）
 - **flip out**：情绪失控，抓狂
-  - *He completely flipped out when he saw the mess.*
+  - *He completely flipped out when he saw the mess.*（他看到一片狼藉时完全抓狂了。）
 - **flip side**：反面；另一面
-  - *The flip side of success is often a lot of hard work.*
+  - *The flip side of success is often a lot of hard work.*（成功的另一面通常是大量的辛勤工作。）
 - **back flip**：后空翻
-  - *The gymnast performed a perfect back flip.*
+  - *The gymnast performed a perfect back flip.*（体操运动员完成了一个完美的后空翻。）
 
 ## 真题/语料关联
 

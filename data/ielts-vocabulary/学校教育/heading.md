@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **under the heading of**：在……的标题下
-  - *The information is listed under the heading of "Contact Us".*
+  - *The information is listed under the heading of "Contact Us".*（信息列在"联系我们"的标题下。）
 - **section heading**：章节标题
-  - *Each section heading should clearly indicate the content that follows.*
+  - *Each section heading should clearly indicate the content that follows.*（每个章节标题都应清楚标明后续内容。）
 - **main heading**：主标题
-  - *The main heading of the article was bold and eye-catching.*
+  - *The main heading of the article was bold and eye-catching.*（文章的主标题粗体醒目。）
 - **heading level**：标题级别（文档格式）
-  - *Use heading levels to organize your document structure.*
+  - *Use heading levels to organize your document structure.*（使用标题级别来组织文档结构。）
 - **page heading**：页眉标题
-  - *The page heading includes the chapter title and page number.*
+  - *The page heading includes the chapter title and page number.*（页眉标题包括章标题和页码。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study logic**：学习逻辑学
-  - *She decided to study logic at university.*
+  - *She decided to study logic at university.*（中文翻译）
 - **formal logic**：形式逻辑
-  - *Formal logic uses symbols to represent arguments.*
+  - *Formal logic uses symbols to represent arguments.*（中文翻译）
 - **the logic of**：……的逻辑
-  - *I don't understand the logic of his decision.*
+  - *I don't understand the logic of his decision.*（中文翻译）
 - **logical** (adj.)：逻辑的
-  - *The argument is logically sound.*
+  - *The argument is logically sound.*（中文翻译）
 - **logical conclusion**：逻辑结论
-  - *If we follow this logic to its logical conclusion, we must change our approach.*
+  - *If we follow this logic to its logical conclusion, we must change our approach.*（中文翻译）
 
 ## 真题/语料关联
 

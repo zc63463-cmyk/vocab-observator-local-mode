@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **belong to**：属于
-  - *This book belongs to me.*
+  - *This book belongs to me.*（这本书属于我。）
 - **belong in**：适合放在（某处）
-  - *These documents belong in the filing cabinet.*
+  - *These documents belong in the filing cabinet.*（这些文件应该放在文件柜里。）
 - **belong to a group/club**：是某个团体的成员
-  - *She belongs to a local book club.*
+  - *She belongs to a local book club.*（她是一个本地读书俱乐部的成员。）
 - **sense of belonging**：归属感
-  - *A strong sense of belonging can improve employee morale.*
+  - *A strong sense of belonging can improve employee morale.*（强烈的归属感可以提高员工士气。）
 - **belong together**：应该在一起
-  - *These two items belong together — don't separate them.*
+  - *These two items belong together — don't separate them.*（这两个物品应该放在一起——不要把它们分开。）
 - **feel like I belong**：感到自己属于（某处）
-  - *It took a while, but I finally feel like I belong at this school.*
+  - *It took a while, but I finally feel like I belong at this school.*（花了一些时间，但我终于感到自己属于这所学校了。）
 
 ## 真题/语料关联
 

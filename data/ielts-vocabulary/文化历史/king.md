@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the King of ...**：……的国王
-  - *The King of Spain attended the ceremony.*
+  - *The King of Spain attended the ceremony.*（西班牙国王出席了仪式。）
 - **king-size/king-sized**：特大号的
-  - *We ordered a king-size bed for the master bedroom.*
+  - *We ordered a king-size bed for the master bedroom.*（我们为主卧室订了一张特大号床。）
 - **the king of ...**：……之王
-  - *Elvis Presley is often called the king of rock and roll.*
+  - *Elvis Presley is often called the king of rock and roll.*（埃尔维斯·普雷斯利常被称为摇滚之王。）
 - **king and queen**：国王和王后
-  - *The king and queen waved to the crowds.*
+  - *The king and queen waved to the crowds.*（国王和王后向人群挥手致意。）
 - **kingdom** (n.) — 王国
-  - *The United Kingdom includes England, Scotland, Wales, and Northern Ireland.*
+  - *The United Kingdom includes England, Scotland, Wales, and Northern Ireland.*（联合王国包括英格兰、苏格兰、威尔士和北爱尔兰。）
 
 ## 真题/语料关联
 

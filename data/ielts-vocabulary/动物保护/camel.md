@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dromedary camel**：单峰骆驼
-  - *The dromedary camel has one hump and is found in the Middle East and North Africa.*
+  - *The dromedary camel has one hump and is found in the Middle East and North Africa.*（单峰骆驼有一个驼峰，分布于中东和北非。）
 - **camel train**：骆驼商队
-  - *The camel train carried silk and spices along the ancient Silk Road.*
+  - *The camel train carried silk and spices along the ancient Silk Road.*（骆驼商队沿着古老的丝绸之路运送丝绸和香料。）
 - **camel hair**：驼毛
-  - *Camel hair is used to make warm coats and blankets.*
+  - *Camel hair is used to make warm coats and blankets.*（驼毛用来制作保暖的外套和毯子。）
 - **the straw that broke the camel's back**：压垮骆驼的最后一根稻草
-  - *The final insult was the straw that broke the camel's back.*
+  - *The final insult was the straw that broke the camel's back.*（最后的侮辱是压垮骆驼的最后一根稻草。）
 - **camel color**：驼色
-  - *She wore a beautiful camel-colored coat.*
+  - *She wore a beautiful camel-colored coat.*（她穿了一件漂亮的驼色外套。）
 
 ## 真题/语料关联
 

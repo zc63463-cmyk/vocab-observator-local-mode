@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **mimic someone's voice**：模仿某人的声音
-  - *The comedian could mimic famous politicians' voices perfectly.*
+  - *The comedian could mimic famous politicians' voices perfectly.*（这位喜剧演员能完美模仿著名政治家的声音。）
 - **mimic nature**：模拟自然
-  - *The design mimics nature to create more efficient systems.*
+  - *The design mimics nature to create more efficient systems.*（该设计模仿自然以创造更高效的系统。）
 - **mimic behavior**：模仿行为
-  - *Children often mimic the behavior of their parents.*
+  - *Children often mimic the behavior of their parents.*（孩子经常模仿父母的行为。）
 - **a talented mimic**：有天赋的模仿者
-  - *She is a talented mimic who can impersonate anyone.*
+  - *She is a talented mimic who can impersonate anyone.*（她是个有天赋的模仿者，能模仿任何人。）
 - **mimicry in nature**：自然界中的拟态
-  - *Mimicry in nature is a survival strategy used by many species.*
+  - *Mimicry in nature is a survival strategy used by many species.*（自然界中的拟态是许多物种使用的生存策略。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the drums**：打鼓
-  - *He learned to play the drums in the school band.*
+  - *He learned to play the drums in the school band.*（他在学校乐队学会了打鼓。）
 - **drum kit**：架子鼓
-  - *The drummer set up his drum kit on stage.*
+  - *The drummer set up his drum kit on stage.*（鼓手在舞台上组装了他的架子鼓。）
 - **drummer**：鼓手
-  - *She is a talented drummer who plays in a rock band.*
+  - *She is a talented drummer who plays in a rock band.*（她是一位在摇滚乐队演奏的有才华的鼓手。）
 - **drum beat**：鼓点
-  - *The drum beat was strong and steady.*
+  - *The drum beat was strong and steady.*（鼓点强劲而稳定。）
 - **drum solo**：鼓独奏
-  - *The drum solo was the highlight of the concert.*
+  - *The drum solo was the highlight of the concert.*（鼓独奏是音乐会的亮点。）
 
 ## 真题/语料关联
 

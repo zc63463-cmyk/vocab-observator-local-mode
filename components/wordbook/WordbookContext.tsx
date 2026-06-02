@@ -20,6 +20,7 @@ export interface WordbookItem {
 interface WordbookContextValue {
   activeWordbook: WordbookItem | null;
   wordbooks: WordbookItem[];
+  error: string | null;
   isLoading: boolean;
   setActiveWordbookId: (id: string) => void;
   refreshWordbooks: () => Promise<void>;
@@ -41,10 +42,16 @@ export function WordbookProvider({ children }: { children: React.ReactNode }) {
   const [wordbooks, setWordbooks] = useState<WordbookItem[]>([]);
   const [activeWordbookId, setActiveWordbookIdState] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   const fetchWordbooks = useCallback(async () => {
     try {
+      setError(null);
       const res = await fetch("/api/wordbooks");
+      const contentType = res.headers.get("content-type") ?? "";
+      if (!contentType.includes("application/json")) {
+        throw new Error(`Server returned non-JSON response (status ${res.status})`);
+      }
       if (!res.ok) throw new Error("Failed to fetch wordbooks");
       const data = await res.json();
       const list: WordbookItem[] = data.wordbooks ?? [];
@@ -61,7 +68,9 @@ export function WordbookProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem(STORAGE_KEY, defaultWb.id);
       }
     } catch (err) {
+      const message = err instanceof Error ? err.message : "Failed to fetch wordbooks";
       console.error("[WordbookProvider] fetch error:", err);
+      setError(message);
     } finally {
       setIsLoading(false);
     }
@@ -90,6 +99,7 @@ export function WordbookProvider({ children }: { children: React.ReactNode }) {
       value={{
         activeWordbook,
         wordbooks,
+        error,
         isLoading,
         setActiveWordbookId,
         refreshWordbooks: fetchWordbooks,

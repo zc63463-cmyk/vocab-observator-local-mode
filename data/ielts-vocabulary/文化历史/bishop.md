@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Catholic bishop**：天主教主教
-  - *The Catholic bishop presided over the confirmation ceremony.*
+  - *The Catholic bishop presided over the confirmation ceremony.*（天主教主教主持了坚信礼仪式。）
 - **bishopric**：主教职位，主教辖区
-  - *He was appointed to the bishopric of London.*
+  - *He was appointed to the bishopric of London.*（他被任命为伦敦主教。）
 - **episcopal**：主教的，主教制的
-  - *The Episcopal Church follows a hierarchical structure.*
+  - *The Episcopal Church follows a hierarchical structure.*（圣公会遵循等级制度。）
 - **bishop's palace**：主教府邸
-  - *The bishop's palace is a historic landmark in the city.*
+  - *The bishop's palace is a historic landmark in the city.*（主教府邸是该市的历史地标。）
 - **consecrate a bishop**：祝圣主教
-  - *The new bishop was consecrated in a solemn ceremony.*
+  - *The new bishop was consecrated in a solemn ceremony.*（新主教在庄严的仪式中被祝圣。）
 - **chess bishop**：（国际象棋中的）象
-  - *She moved her bishop to threaten the opponent's queen.*
+  - *She moved her bishop to threaten the opponent's queen.*（她移动她的象来威胁对手的王后。）
 
 ## 真题/语料关联
 

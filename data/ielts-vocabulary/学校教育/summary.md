@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a summary of**：……的总结
-  - *Please provide a summary of the main findings.*
+  - *Please provide a summary of the main findings.*（请提供主要发现的总结。）
 - **in summary**：总之
-  - *In summary, the evidence supports the hypothesis.*
+  - *In summary, the evidence supports the hypothesis.*（总之，证据支持该假设。）
 - **executive summary**：执行摘要（商业报告前的概述）
-  - *The executive summary highlights the key recommendations.*
+  - *The executive summary highlights the key recommendations.*（执行摘要突出了关键建议。）
 - **brief summary**：简要总结
-  - *The teacher gave a brief summary of the lesson.*
+  - *The teacher gave a brief summary of the lesson.*（老师对这堂课做了一个简要总结。）
 - **summary of findings**：研究结果总结
-  - *The summary of findings is presented at the end of the report.*
+  - *The summary of findings is presented at the end of the report.*（研究结果总结呈现在报告的末尾。）
 
 ## 真题/语料关联
 

@@ -74,17 +74,17 @@ review_count: 0
 ## 搭配与短语
 
 - **stand in a queue**：排队等候
-  - *We had to stand in a queue for over an hour.*
+  - *We had to stand in a queue for over an hour.*（我们不得不排队一个多小时。）
 - **queue up**：排队
-  - *People queued up to buy tickets for the concert.*
+  - *People queued up to buy tickets for the concert.*（人们排队购买音乐会门票。）
 - **queue for**：排队等候某物
-  - *Students queued for lunch in the cafeteria.*
+  - *Students queued for lunch in the cafeteria.*（学生们在食堂排队吃午餐。）
 - **jump the queue**：插队
-  - *It's rude to jump the queue.*
+  - *It's rude to jump the queue.*（插队是不礼貌的。）
 - **long queue**：长队
-  - *There was a long queue at the checkout counter.*
+  - *There was a long queue at the checkout counter.*（收银台前排着长队。）
 - **queue jumper**：插队者
-  - *The queue jumper was told to go to the back.*
+  - *The queue jumper was told to go to the back.*（插队者被告知到后面去。）
 
 ## 真题/语料关联
 

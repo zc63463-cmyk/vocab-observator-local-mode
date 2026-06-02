@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **symphony orchestra**：交响乐团
-  - *The symphony orchestra performed a stunning concert.*
+  - *The symphony orchestra performed a stunning concert.*（交响乐团演奏了一场精彩的音乐会。）
 - **philharmonic orchestra**：爱乐乐团
-  - *The Berlin Philharmonic Orchestra is world-renowned.*
+  - *The Berlin Philharmonic Orchestra is world-renowned.*（柏林爱乐乐团举世闻名。）
 - **orchestra pit**：乐池
-  - *The musicians played in the orchestra pit below the stage.*
+  - *The musicians played in the orchestra pit below the stage.*（音乐家在舞台下方的乐池中演奏。）
 - **orchestra seats**：正厅前排座位
-  - *We had orchestra seats for the ballet performance.*
+  - *We had orchestra seats for the ballet performance.*（我们有芭蕾表演的正厅前排座位。）
 - **orchestra conductor**：乐队指挥
-  - *The orchestra conductor led the ensemble with precision.*
+  - *The orchestra conductor led the ensemble with precision.*（乐队指挥精准地带领着合奏团。）
 
 ## 真题/语料关联
 

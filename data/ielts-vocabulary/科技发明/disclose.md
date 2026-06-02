@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **disclose information**：披露信息
-  - *The company is required to disclose information about its environmental impact.*
+  - *The company is required to disclose information about its environmental impact.*（公司需要披露关于其环境影响的信息。）
 - **disclose details**：透露细节
-  - *The police refused to disclose details of the investigation.*
+  - *The police refused to disclose details of the investigation.*（警方拒绝透露调查的细节。）
 - **disclose financial records**：披露财务记录
-  - *Public companies must disclose their financial records quarterly.*
+  - *Public companies must disclose their financial records quarterly.*（上市公司必须每季度披露财务记录。）
 - **disclose the identity**：透露身份
-  - *The witness asked not to have his identity disclosed.*
+  - *The witness asked not to have his identity disclosed.*（证人要求不公开他的身份。）
 - **fail to disclose**：未能披露
-  - *The firm failed to disclose a conflict of interest.*
+  - *The firm failed to disclose a conflict of interest.*（该公司未能披露利益冲突。）
 
 ## 真题/语料关联
 

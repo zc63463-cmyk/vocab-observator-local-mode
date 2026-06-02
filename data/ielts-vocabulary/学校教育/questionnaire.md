@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fill in/complete a questionnaire**：填写问卷
-  - *Participants were asked to fill in a questionnaire.*
+  - *Participants were asked to fill in a questionnaire.*（参与者被要求填写一份问卷。）
 - **design a questionnaire**：设计问卷
-  - *The researcher designed a detailed questionnaire.*
+  - *The researcher designed a detailed questionnaire.*（研究人员设计了一份详细的问卷。）
 - **distribute a questionnaire**：分发问卷
-  - *The questionnaires were distributed to 500 people.*
+  - *The questionnaires were distributed to 500 people.*（问卷被分发给500人。）
 - **online questionnaire**：在线问卷
-  - *The survey was conducted using an online questionnaire.*
+  - *The survey was conducted using an online questionnaire.*（该调查是通过在线问卷进行的。）
 - **questionnaire-based** (adj.)：基于问卷的
-  - *The study used a questionnaire-based approach.*
+  - *The study used a questionnaire-based approach.*（该研究采用了基于问卷的方法。）
 
 ## 真题/语料关联
 

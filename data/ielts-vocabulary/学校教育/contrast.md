@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **contrast with**：与……形成对比
-  - *The poverty of the area contrasts sharply with the wealth of the city.*
+  - *The poverty of the area contrasts sharply with the wealth of the city.*（这个地区的贫困与城市的富裕形成了鲜明对比。）
 - **in contrast to**：与……形成对比
-  - *In contrast to his brother, he is very outgoing.*
+  - *In contrast to his brother, he is very outgoing.*（与他的兄弟相比，他非常外向。）
 - **by contrast**：相比之下
-  - *The north is cold; the south, by contrast, is warm.*
+  - *The north is cold; the south, by contrast, is warm.*（北方寒冷；相比之下，南方温暖。）
 - **a sharp/stark contrast**：鲜明对比
-  - *There is a stark contrast between the two policies.*
+  - *There is a stark contrast between the two policies.*（这两项政策之间存在鲜明对比。）
 - **contrast A and B**：对比A和B
-  - *The essay contrasts rural and urban lifestyles.*
+  - *The essay contrasts rural and urban lifestyles.*（这篇文章对比了乡村和城市的生活方式。）
 
 ## 真题/语料关联
 

@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ozone layer**：臭氧层
-  - *The ozone layer protects us from harmful ultraviolet radiation.*
+  - *The ozone layer protects us from harmful ultraviolet radiation.*（中文翻译）
 - **ozone depletion**：臭氧层消耗
-  - *Ozone depletion is caused by chemicals like CFCs.*
+  - *Ozone depletion is caused by chemicals like CFCs.*（中文翻译）
 - **ozone hole**：臭氧空洞
-  - *The ozone hole over Antarctica has been growing in recent years.*
+  - *The ozone hole over Antarctica has been growing in recent years.*（中文翻译）
 - **ozone-friendly**：对臭氧层无害的
-  - *Many products are now marketed as ozone-friendly.*
+  - *Many products are now marketed as ozone-friendly.*（中文翻译）
 - **ground-level ozone**：地面臭氧
-  - *Ground-level ozone can cause respiratory problems.*
+  - *Ground-level ozone can cause respiratory problems.*（中文翻译）
 
 ## 真题/语料关联
 

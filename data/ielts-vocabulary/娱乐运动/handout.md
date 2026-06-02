@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a classroom/lecture handout**：课堂讲义
-  - *The teacher distributed a handout with the key points of the lesson.*
+  - *The teacher distributed a handout with the key points of the lesson.*（老师分发了一份包含课程要点的讲义。）
 - **a promotional handout**：宣传传单
-  - *The company printed thousands of promotional handouts for the event.*
+  - *The company printed thousands of promotional handouts for the event.*（公司为这次活动印刷了数千份宣传传单。）
 - **a charity handout**：慈善施舍物
-  - *The homeless people received food handouts from the charity.*
+  - *The homeless people received food handouts from the charity.*（无家可归者从慈善机构收到了食物施舍。）
 - **a government/welfare handout**：政府拨款/福利
-  - *Some people criticize government handouts as creating dependency.*
+  - *Some people criticize government handouts as creating dependency.*（有人批评政府福利会造成依赖。）
 - **distribute/give out handouts**：分发材料
-  - *The volunteers distributed handouts to the crowd.*
+  - *The volunteers distributed handouts to the crowd.*（志愿者向人群分发材料。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **convert into**：转换成
-  - *The factory was converted into luxury apartments.*
+  - *The factory was converted into luxury apartments.*（这家工厂被改造成了豪华公寓。）
 - **convert to**：转变为；皈依
-  - *He converted to Buddhism after traveling in Asia.*
+  - *He converted to Buddhism after traveling in Asia.*（在亚洲旅行后他皈依了佛教。）
 - **convert currency**：兑换货币
-  - *You can convert currency at any bank.*
+  - *You can convert currency at any bank.*（你可以在任何银行兑换货币。）
 - **convert data**：转换数据
-  - *The software converts data into a readable format.*
+  - *The software converts data into a readable format.*（该软件将数据转换为可读格式。）
 - **energy conversion**：能量转换
-  - *Solar panels facilitate energy conversion from sunlight to electricity.*
+  - *Solar panels facilitate energy conversion from sunlight to electricity.*（太阳能板促进从阳光到电能的能量转换。）
 
 ## 真题/语料关联
 

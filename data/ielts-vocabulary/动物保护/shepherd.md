@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **shepherd's crook**：牧羊杖
-  - *The shepherd leaned on his crook as he watched the flock graze.*
+  - *The shepherd leaned on his crook as he watched the flock graze.*（牧羊人倚着他的曲柄杖看着羊群吃草。）
 - **shepherd the flock**：牧放羊群
-  - *He spent his days shepherding the flock across the highland pastures.*
+  - *He spent his days shepherding the flock across the highland pastures.*（他终日赶着羊群穿越高地牧场。）
 - **shepherd someone through**：护送某人通过
-  - *The teacher shepherded the students through the difficult exam period.*
+  - *The teacher shepherded the students through the difficult exam period.*（老师引导学生度过了艰难的考试期。）
 - **the Good Shepherd**：好牧人（宗教典故）
-  - *In Christian tradition, Jesus is often referred to as the Good Shepherd.*
+  - *In Christian tradition, Jesus is often referred to as the Good Shepherd.*（在基督教传统中，耶稣常被称为好牧人。）
 - **shepherd dog**：牧羊犬
-  - *The shepherd dog helped round up the sheep at the end of the day.*
+  - *The shepherd dog helped round up the sheep at the end of the day.*（牧羊犬在一天结束时帮忙把羊集中起来。）
 
 ## 真题/语料关联
 

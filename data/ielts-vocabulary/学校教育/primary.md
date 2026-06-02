@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **primary school**：小学
-  - *Children in the UK start primary school at the age of five.*
+  - *Children in the UK start primary school at the age of five.*（中文翻译）
 - **primary education**：初等教育
-  - *Access to primary education has improved significantly in developing countries.*
+  - *Access to primary education has improved significantly in developing countries.*（中文翻译）
 - **primary concern**：首要关切
-  - *Safety is our primary concern when designing playground equipment.*
+  - *Safety is our primary concern when designing playground equipment.*（中文翻译）
 - **primary source**：原始资料、一手资料
-  - *Historians rely on primary sources such as letters and diaries.*
+  - *Historians rely on primary sources such as letters and diaries.*（中文翻译）
 - **primary goal**：首要目标
-  - *The primary goal of the policy is to reduce unemployment.*
+  - *The primary goal of the policy is to reduce unemployment.*（中文翻译）
 
 ## 真题/语料关联
 

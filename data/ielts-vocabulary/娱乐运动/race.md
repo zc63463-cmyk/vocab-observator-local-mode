@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **running race**：赛跑
-  - *She won the 100-meter running race at the school sports day.*
+  - *She won the 100-meter running race at the school sports day.*（她在学校运动会上赢得了100米赛跑。）
 - **horse race**：赛马
-  - *The horse race attracted thousands of spectators.*
+  - *The horse race attracted thousands of spectators.*（赛马吸引了数千名观众。）
 - **race against**：与……赛跑
-  - *He raced against the clock to finish the project.*
+  - *He raced against the clock to finish the project.*（他争分夺秒地完成项目。）
 - **arms race**：军备竞赛
-  - *The arms race between the two countries intensified during the Cold War.*
+  - *The arms race between the two countries intensified during the Cold War.*（冷战期间两国之间的军备竞赛加剧了。）
 - **rat race**：激烈的竞争（非正式）
-  - *He quit his job to escape the rat race of city life.*
+  - *He quit his job to escape the rat race of city life.*（他辞去工作以逃离城市生活的激烈竞争。）
 
 ## 真题/语料关联
 

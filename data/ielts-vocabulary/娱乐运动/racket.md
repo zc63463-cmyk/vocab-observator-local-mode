@@ -71,13 +71,13 @@ review_count: 0
 ## 搭配与短语
 
 - **tennis racket**：网球拍
-  - *She bought a new tennis racket for the tournament.*
+  - *She bought a new tennis racket for the tournament.*（她为比赛买了一个新网球拍。）
 - **badminton racket**：羽毛球拍
-  - *The badminton racket weighs only about 80 grams.*
+  - *The badminton racket weighs only about 80 grams.*（羽毛球拍只有大约80克重。）
 - **make a racket**：制造噪音，吵闹
-  - *The kids were making a racket upstairs.*
+  - *The kids were making a racket upstairs.*（孩子们在楼上吵吵闹闹。）
 - **drugs/protection racket**：毒品交易/保护费诈骗
-  - *The police busted a major drugs racket in the city center.*
+  - *The police busted a major drugs racket in the city center.*（警方在市中心捣毁了一个大型毒品交易团伙。）
 
 ## 真题/语料关联
 

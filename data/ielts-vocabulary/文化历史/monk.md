@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Buddhist monk**：佛教僧侣
-  - *The Buddhist monk meditated for hours in the temple.*
+  - *The Buddhist monk meditated for hours in the temple.*（佛教僧侣在寺庙里冥想了好几个小时。）
 - **Benedictine monk**：本笃会修道士
-  - *The Benedictine monks follow the Rule of St. Benedict.*
+  - *The Benedictine monks follow the Rule of St. Benedict.*（本笃会修士遵循圣本笃会规。）
 - **monastery**：修道院
-  - *The monks lived in a remote monastery in the mountains.*
+  - *The monks lived in a remote monastery in the mountains.*（僧侣们住在山中一座偏远的修道院里。）
 - **monastic life**：修道生活
-  - *He chose to leave the world and embrace monastic life.*
+  - *He chose to leave the world and embrace monastic life.*（他选择离开世俗，拥抱修道生活。）
 - **monk's robe**：僧袍
-  - *The monk wore a simple brown robe.*
+  - *The monk wore a simple brown robe.*（僧侣穿着一件简单的棕色僧袍。）
 - **monk-like**：像僧侣一样的
-  - *He lived a monk-like existence, focused on study and meditation.*
+  - *He lived a monk-like existence, focused on study and meditation.*（他过着像僧侣一样的生活，专注于学习和冥想。）
 
 ## 真题/语料关联
 

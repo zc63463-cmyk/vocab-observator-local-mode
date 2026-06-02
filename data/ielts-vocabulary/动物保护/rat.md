@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **brown rat**：褐鼠（最常见的大鼠种类）
-  - *The brown rat is found on every continent except Antarctica.*
+  - *The brown rat is found on every continent except Antarctica.*（褐家鼠遍布除南极洲以外的每个大陆。）
 - **lab rat**：实验鼠；被当作实验对象的人
-  - *Students shouldn't be treated as lab rats for educational experiments.*
+  - *Students shouldn't be treated as lab rats for educational experiments.*（学生不应该被当作教育实验的试验品。）
 - **rat on someone**：背叛某人，告密
-  - *He ratted on his friends to avoid punishment.*
+  - *He ratted on his friends to avoid punishment.*（他出卖了朋友以逃避惩罚。）
 - **smell a rat**：察觉到不对劲
-  - *I smelled a rat when he didn't show up for the meeting.*
+  - *I smelled a rat when he didn't show up for the meeting.*（他没来开会时我就觉得不对劲。）
 - **rat race**：激烈的竞争（尤指职场）
-  - *He left the corporate rat race to pursue a simpler life.*
+  - *He left the corporate rat race to pursue a simpler life.*（他离开了激烈的职场竞争去追求更简单的生活。）
 - **like a rat leaving a sinking ship**：像逃离沉船的老鼠（比喻在危难时逃离）
-  - *Investors fled like rats leaving a sinking ship when the stock market crashed.*
+  - *Investors fled like rats leaving a sinking ship when the stock market crashed.*（股市崩盘时投资者像逃离沉船的老鼠一样纷纷撤离。）
 
 ## 真题/语料关联
 

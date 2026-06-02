@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **house sparrow**：家麻雀（最常见的麻雀种类）
-  - *The house sparrow is one of the most widespread birds in the world.*
+  - *The house sparrow is one of the most widespread birds in the world.*（家麻雀是世界上分布最广的鸟类之一。）
 - **tree sparrow**：树麻雀
-  - *The tree sparrow prefers rural areas over cities.*
+  - *The tree sparrow prefers rural areas over cities.*（树麻雀相比城市更喜欢农村地区。）
 - **little sparrow**：小麻雀（昵称）
-  - *Edith Piaf was known as "the little sparrow" in France.*
+  - *Edith Piaf was known as "the little sparrow" in France.*（伊迪丝·琵雅芙在法国被称为'小麻雀'。）
 - **sparrow-sized**：麻雀大小的
-  - *The sparrow-sized bird fit comfortably in my palm.*
+  - *The sparrow-sized bird fit comfortably in my palm.*（这只麻雀大小的鸟正好能舒适地待在我的手掌心里。）
 
 ## 真题/语料关联
 

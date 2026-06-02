@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sphere of influence**：势力范围
-  - *The country expanded its sphere of influence in the region.*
+  - *The country expanded its sphere of influence in the region.*（该国扩大了在该地区的势力范围。）
 - **sphere of activity**：活动范围
-  - *Each department has its own sphere of activity.*
+  - *Each department has its own sphere of activity.*（每个部门都有自己的活动范围。）
 - **celestial sphere**：天球
-  - *The celestial sphere is an imaginary sphere surrounding the Earth.*
+  - *The celestial sphere is an imaginary sphere surrounding the Earth.*（天球是一个环绕地球的假想球体。）
 - **public sphere**：公共领域
-  - *The public sphere is where citizens discuss issues of common concern.*
+  - *The public sphere is where citizens discuss issues of common concern.*（公共领域是公民讨论共同关心的问题的地方。）
 - **sphere of knowledge**：知识领域
-  - *Philosophy and science are different spheres of knowledge.*
+  - *Philosophy and science are different spheres of knowledge.*（哲学和科学是不同的知识领域。）
 
 ## 真题/语料关联
 

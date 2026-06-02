@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **extract from**：从……中摘录
-  - *The following extract is taken from Chapter 3 of the book.*
+  - *The following extract is taken from Chapter 3 of the book.*（以下摘录取自本书第三章。）
 - **extract information**：提取信息
-  - *The researchers extracted data from over 1000 records.*
+  - *The researchers extracted data from over 1000 records.*（研究人员从1000多条记录中提取了数据。）
 - **extract a tooth**：拔牙
-  - *The dentist had to extract the damaged tooth.*
+  - *The dentist had to extract the damaged tooth.*（牙医不得不拔掉那颗受损的牙齿。）
 - **plant/herbal extract**：植物/草本提取物
-  - *The cream contains aloe vera extract.*
+  - *The cream contains aloe vera extract.*（这款面霜含有芦荟提取物。）
 - **key extract**：关键摘录
-  - *The teacher read a key extract from the poem to the class.*
+  - *The teacher read a key extract from the poem to the class.*（老师向全班朗读了这首诗的关键摘录。）
 
 ## 真题/语料关联
 

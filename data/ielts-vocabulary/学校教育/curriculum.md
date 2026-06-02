@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **national curriculum**：国家课程
-  - *The national curriculum sets standards for all schools in the country.*
+  - *The national curriculum sets standards for all schools in the country.*（国家课程为全国所有学校设定了标准。）
 - **school curriculum**：学校课程
-  - *The school curriculum includes both academic and practical subjects.*
+  - *The school curriculum includes both academic and practical subjects.*（学校课程包括学术科目和实用科目。）
 - **core curriculum**：核心课程
-  - *Mathematics and science are part of the core curriculum.*
+  - *Mathematics and science are part of the core curriculum.*（数学和科学是核心课程的一部分。）
 - **curriculum design/development**：课程设计/开发
-  - *Curriculum design is a complex process that involves many stakeholders.*
+  - *Curriculum design is a complex process that involves many stakeholders.*（课程设计是一个涉及许多利益相关者的复杂过程。）
 - **hidden curriculum**：隐性课程
-  - *The hidden curriculum includes the values and norms students learn outside of formal lessons.*
+  - *The hidden curriculum includes the values and norms students learn outside of formal lessons.*（隐性课程包括学生在正式课堂之外学到的价值观和规范。）
 
 ## 真题/语料关联
 

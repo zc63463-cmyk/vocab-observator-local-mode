@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **brute force**：蛮力；暴力手段
-  - *The police used brute force to break up the protest.*
+  - *The police used brute force to break up the protest.*（警方使用暴力驱散了抗议活动。）
 - **brute strength**：蛮力
-  - *He used brute strength to lift the heavy box.*
+  - *He used brute strength to lift the heavy box.*（他用蛮力举起了沉重的箱子。）
 - **brute fact**：纯粹的事实（不加修饰的事实）
-  - *The brute fact is that the company is losing money.*
+  - *The brute fact is that the company is losing money.*（残酷的事实是公司正在亏损。）
 - **brute reality**：残酷的现实
-  - *The brute reality of climate change is becoming increasingly apparent.*
+  - *The brute reality of climate change is becoming increasingly apparent.*（气候变化的残酷现实正变得越来越明显。）
 - **a brute of a man**：粗野的男人
-  - *He was a brute of a man, always using violence to solve problems.*
+  - *He was a brute of a man, always using violence to solve problems.*（他是个粗暴的人，总是用暴力解决问题。）
 
 ## 真题/语料关联
 

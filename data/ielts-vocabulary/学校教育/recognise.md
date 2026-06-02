@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **recognise someone/something**：认出某人/某物
-  - *I recognised her voice immediately on the phone.*
+  - *I recognised her voice immediately on the phone.*（我在电话里立刻认出了她的声音。）
 - **recognise as**：承认为，视为
-  - *The painting is recognised as a masterpiece.*
+  - *The painting is recognised as a masterpiece.*（这幅画被公认为杰作。）
 - **recognise that...**：意识到……
-  - *The government recognised that reforms were needed.*
+  - *The government recognised that reforms were needed.*（政府认识到需要进行改革。）
 - **be widely recognised**：被广泛认可
-  - *His contribution to science is widely recognised.*
+  - *His contribution to science is widely recognised.*（他对科学的贡献得到广泛认可。）
 - **recognise the importance of**：认识到……的重要性
-  - *Companies are recognising the importance of sustainability.*
+  - *Companies are recognising the importance of sustainability.*（企业正在认识到可持续性的重要性。）
 
 ## 真题/语料关联
 

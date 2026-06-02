@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **local inhabitants**：当地居民
-  - *The local inhabitants have adapted to the harsh climate over generations.*
+  - *The local inhabitants have adapted to the harsh climate over generations.*（当地居民经过几代人已经适应了严酷的气候。）
 - **inhabitants of the city/country**：城市/国家的居民
-  - *The inhabitants of the city celebrated the festival with great enthusiasm.*
+  - *The inhabitants of the city celebrated the festival with great enthusiasm.*（这座城市的居民以极大的热情庆祝了这个节日。）
 - **native inhabitants**：本地居民，原住民
-  - *The native inhabitants of the island have their own unique language.*
+  - *The native inhabitants of the island have their own unique language.*（该岛的原住民有他们自己独特的语言。）
 - **original inhabitants**：原始居民
-  - *The original inhabitants were displaced by settlers.*
+  - *The original inhabitants were displaced by settlers.*（原始居民被定居者驱逐。）
 - **human inhabitants**：人类居民
-  - *The area is now uninhabitable for human inhabitants.*
+  - *The area is now uninhabitable for human inhabitants.*（这个地区现在已经不适合人类居住。）
 
 ## 真题/语料关联
 

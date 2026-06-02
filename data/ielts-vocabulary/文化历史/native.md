@@ -72,17 +72,17 @@ review_count: 0
 ## 搭配与短语
 
 - **native speaker**：母语使用者
-  - *She is a native speaker of Mandarin.*
+  - *She is a native speaker of Mandarin.*（她是普通话母语者。）
 - **native language/tongue**：母语
-  - *English is not my native language.*
+  - *English is not my native language.*（英语不是我的母语。）
 - **native country/land**：祖国，故乡
-  - *He returned to his native country after ten years abroad.*
+  - *He returned to his native country after ten years abroad.*（他在国外十年后回到了祖国。）
 - **native species**：本地物种
-  - *The conservation program aims to protect native species.*
+  - *The conservation program aims to protect native species.*（保护计划旨在保护本地物种。）
 - **a native of**：某地人
-  - *She is a native of New York.*
+  - *She is a native of New York.*（她是纽约本地人。）
 - **go native**：入乡随俗（有时含负面意味）
-  - *After living in Japan for years, he completely went native.*
+  - *After living in Japan for years, he completely went native.*（在日本生活了多年之后，他完全融入了当地的生活方式。）
 
 ## 真题/语料关联
 

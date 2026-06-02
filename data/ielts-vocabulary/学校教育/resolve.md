@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **resolve a problem/issue**：解决问题
-  - *The two sides resolved their differences through negotiation.*
+  - *The two sides resolved their differences through negotiation.*（双方通过谈判解决了分歧。）
 - **resolve to do**：决心做
-  - *She resolved to work harder.*
+  - *She resolved to work harder.*（她决心更加努力地工作。）
 - **resolve into**：分解为
-  - *The compound resolves into simpler substances.*
+  - *The compound resolves into simpler substances.*（这种化合物分解为更简单的物质。）
 - **firm/strong resolve**：坚定的决心
-  - *He showed firm resolve in the face of adversity.*
+  - *He showed firm resolve in the face of adversity.*（面对逆境，他表现出坚定的决心。）
 - **resolution** (n.) — 决心；解决
-  - *The resolution of the conflict took many years.*
+  - *The resolution of the conflict took many years.*（冲突的解决花了很多年时间。）
 
 ## 真题/语料关联
 

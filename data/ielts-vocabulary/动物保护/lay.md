@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **lay eggs**：产卵
-  - *The hen lays an egg every morning.*
+  - *The hen lays an egg every morning.*（母鸡每天早上下一个蛋。）
 - **lay the table**：摆桌子
-  - *Please lay the table for dinner.*
+  - *Please lay the table for dinner.*（请摆好餐桌准备吃晚饭。）
 - **lay down**：放下；规定
-  - *Lay down your weapons and surrender.*
+  - *Lay down your weapons and surrender.*（放下武器投降。）
 - **lay off**：解雇
-  - *The company laid off 100 workers.*
+  - *The company laid off 100 workers.*（公司解雇了100名工人。）
 - **lay out**：布置；阐述
-  - *The architect laid out the plans for the new building.*
+  - *The architect laid out the plans for the new building.*（建筑师展示了新建筑的规划图。）
 - **lay into**：猛烈抨击
-  - *The critic laid into the author's new book.*
+  - *The critic laid into the author's new book.*（批评家严厉抨击了作者的新书。）
 
 ## 真题/语料关联
 

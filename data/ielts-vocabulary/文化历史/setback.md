@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **suffer a setback**：遭受挫折
-  - *The project suffered a major setback due to funding issues.*
+  - *The project suffered a major setback due to funding issues.*（该项目因资金问题遭受了重大挫折。）
 - **a major setback**：重大挫折
-  - *The loss of the contract was a major setback for the company.*
+  - *The loss of the contract was a major setback for the company.*（失去合同对公司来说是一个重大挫折。）
 - **a temporary setback**：暂时的挫折
-  - *View the failure as a temporary setback, not a permanent defeat.*
+  - *View the failure as a temporary setback, not a permanent defeat.*（把这个失败视为暂时挫折，而不是永久性的失败。）
 - **setback in**：在……方面的挫折
-  - *There have been setbacks in the peace negotiations.*
+  - *There have been setbacks in the peace negotiations.*（和平谈判遭遇了挫折。）
 - **overcome a setback**：克服挫折
-  - *She managed to overcome the setback and continue her studies.*
+  - *She managed to overcome the setback and continue her studies.*（她设法克服了挫折并继续她的学业。）
 
 ## 真题/语料关联
 

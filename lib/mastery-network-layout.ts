@@ -249,6 +249,8 @@ const RELATION_PRIORITY: Record<string, number> = {
   近义: 0,
   反义: 1,
   词根: 2,
+  同前缀: 3,
+  同后缀: 4,
 };
 
 function edgeScore(

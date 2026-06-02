@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fall/autumn semester**：秋季学期
-  - *The fall semester usually begins in September.*
+  - *The fall semester usually begins in September.*（秋季学期通常在九月份开始。）
 - **spring semester**：春季学期
-  - *Registration for the spring semester starts in November.*
+  - *Registration for the spring semester starts in November.*（春季学期的注册在十一月开始。）
 - **this semester**：本学期
-  - *I'm taking five courses this semester.*
+  - *I'm taking five courses this semester.*（我这学期选了五门课。）
 - **last semester**：上学期
-  - *I got straight A's last semester.*
+  - *I got straight A's last semester.*（我上学期得了全A。）
 - **semester system**：学期制
-  - *Most American universities use the semester system.*
+  - *Most American universities use the semester system.*（大多数美国大学采用学期制。）
 
 ## 真题/语料关联
 

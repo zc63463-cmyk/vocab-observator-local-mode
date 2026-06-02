@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study philosophy**：学习哲学
-  - *She decided to study philosophy at university.*
+  - *She decided to study philosophy at university.*（中文翻译）
 - **philosophy of life**：人生哲学
-  - *His philosophy of life is to live in the moment.*
+  - *His philosophy of life is to live in the moment.*（中文翻译）
 - **moral philosophy**：道德哲学
-  - *Moral philosophy examines questions of right and wrong.*
+  - *Moral philosophy examines questions of right and wrong.*（中文翻译）
 - **political philosophy**：政治哲学
-  - *Political philosophy explores concepts like justice and freedom.*
+  - *Political philosophy explores concepts like justice and freedom.*（中文翻译）
 - **philosophical** (adj.)：哲学的
-  - *The debate raised important philosophical questions.*
+  - *The debate raised important philosophical questions.*（中文翻译）
 
 ## 真题/语料关联
 

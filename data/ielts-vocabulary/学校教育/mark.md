@@ -76,17 +76,17 @@ review_count: 0
 ## 搭配与短语
 
 - **get a high/low mark**：得高分/低分
-  - *She got a high mark in the final exam.*
+  - *She got a high mark in the final exam.*（中文翻译）
 - **full marks**：满分
-  - *He got full marks in the mathematics test.*
+  - *He got full marks in the mathematics test.*（中文翻译）
 - **mark an essay/paper**：批改论文
-  - *The professor spent the weekend marking essays.*
+  - *The professor spent the weekend marking essays.*（中文翻译）
 - **make a mark**：做记号
-  - *Make a mark next to the correct answer.*
+  - *Make a mark next to the correct answer.*（中文翻译）
 - **mark of respect**：尊重的表示
-  - *A minute's silence is a mark of respect.*
+  - *A minute's silence is a mark of respect.*（中文翻译）
 - **hit/miss the mark**：达到/未达目标
-  - *His speech really hit the mark with the audience.*
+  - *His speech really hit the mark with the audience.*（中文翻译）
 
 ## 真题/语料关联
 

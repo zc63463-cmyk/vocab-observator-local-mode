@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **select from**：从……中选择
-  - *You can select from a wide range of colors.*
+  - *You can select from a wide range of colors.*（你可以从多种颜色中选择。）
 - **select carefully**：仔细挑选
-  - *She selected her words carefully before speaking.*
+  - *She selected her words carefully before speaking.*（她在说话前仔细斟酌了措辞。）
 - **select committee**：特别委员会
-  - *A select committee was formed to investigate the issue.*
+  - *A select committee was formed to investigate the issue.*（成立了一个特别委员会来调查这个问题。）
 - **select few**：少数精选的人
-  - *The event was only open to a select few.*
+  - *The event was only open to a select few.*（这个活动只对少数精选人士开放。）
 - **natural selection**：自然选择
-  - *Darwin's theory of natural selection explains evolution.*
+  - *Darwin's theory of natural selection explains evolution.*（达尔文的自然选择理论解释了进化。）
 
 ## 真题/语料关联
 

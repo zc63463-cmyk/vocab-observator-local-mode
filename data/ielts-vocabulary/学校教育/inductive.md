@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inductive reasoning**：归纳推理
-  - *Inductive reasoning moves from specific observations to general conclusions.*
+  - *Inductive reasoning moves from specific observations to general conclusions.*（归纳推理从具体观察得出一般结论。）
 - **inductive approach/method**：归纳法
-  - *The researcher used an inductive approach to analyze the data.*
+  - *The researcher used an inductive approach to analyze the data.*（研究人员使用归纳法分析数据。）
 - **inductive logic**：归纳逻辑
-  - *Inductive logic is common in scientific research.*
+  - *Inductive logic is common in scientific research.*（归纳逻辑在科学研究中很常见。）
 - **induction** (n.)：归纳法
-  - *Mathematical induction is a powerful proof technique.*
+  - *Mathematical induction is a powerful proof technique.*（数学归纳法是一种强大的证明技巧。）
 - **inductively** (adv.)：归纳地
-  - *The theory was developed inductively from the data.*
+  - *The theory was developed inductively from the data.*（该理论是从数据中归纳发展而来的。）
 
 ## 真题/语料关联
 

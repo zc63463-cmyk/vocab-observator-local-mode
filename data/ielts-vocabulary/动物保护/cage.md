@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bird cage**：鸟笼
-  - *The canary sang beautifully in its gilded cage.*
+  - *The canary sang beautifully in its gilded cage.*（金丝雀在它镀金的笼子里美妙地歌唱。）
 - **cage in**：关在笼中；限制自由
-  - *The animals were caged in small enclosures.*
+  - *The animals were caged in small enclosures.*（动物们被关在小围栏里。）
 - **rattle someone's cage**：激怒某人
-  - *The politician's speech really rattled the opposition's cage.*
+  - *The politician's speech really rattled the opposition's cage.*（这位政客的演讲真的惹恼了反对派。）
 - **cage fighting**：笼中格斗（综合格斗）
-  - *Cage fighting has become increasingly popular worldwide.*
+  - *Cage fighting has become increasingly popular worldwide.*（笼斗在世界范围内变得越来越流行。）
 - **gilded cage**：镀金笼子（舒适但无自由的环境）
-  - *She lived in a gilded cage—luxurious but trapped.*
+  - *She lived in a gilded cage—luxurious but trapped.*（她住在镀金的笼子里——奢华却身陷囹圄。）
 
 ## 真题/语料关联
 

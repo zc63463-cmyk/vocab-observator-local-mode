@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **track down**：追踪到，追捕到
-  - *The police managed to track down the suspect after a long investigation.*
+  - *The police managed to track down the suspect after a long investigation.*（经过长时间的侦查，警方成功追踪到了嫌疑人。）
 - **keep track of**：记录，跟踪
-  - *It's important to keep track of your expenses when traveling.*
+  - *It's important to keep track of your expenses when traveling.*（旅行时记录开销很重要。）
 - **lose track of**：失去联系，忘记
-  - *I lost track of time while reading the book.*
+  - *I lost track of time while reading the book.*（我读这本书时忘记了时间。）
 - **on track**：在正轨上
-  - *The project is on track to be completed by the deadline.*
+  - *The project is on track to be completed by the deadline.*（项目正按计划进行，能在截止日期前完成。）
 - **off track**：偏离正轨
-  - *The discussion went off track and we didn't reach a conclusion.*
+  - *The discussion went off track and we didn't reach a conclusion.*（讨论偏离了主题，我们没有得出结论。）
 
 ## 真题/语料关联
 

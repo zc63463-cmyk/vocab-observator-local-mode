@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **conclude that...**：得出结论……
-  - *The study concluded that exercise improves mental health.*
+  - *The study concluded that exercise improves mental health.*（研究得出结论，锻炼可以改善心理健康。）
 - **conclude from**：从……得出结论
-  - *What can we conclude from the evidence?*
+  - *What can we conclude from the evidence?*（我们能从这些证据中得出什么结论？）
 - **conclude the meeting/speech**：结束会议/演讲
-  - *The chairman concluded the meeting at 5 PM.*
+  - *The chairman concluded the meeting at 5 PM.*（主席在下午5点结束了会议。）
 - **conclude an agreement**：达成协议
-  - *The two countries concluded a trade agreement.*
+  - *The two countries concluded a trade agreement.*（两国达成了一项贸易协议。）
 - **in conclusion**：总之
-  - *In conclusion, I believe we should take immediate action.*
+  - *In conclusion, I believe we should take immediate action.*（总之，我认为我们应该立即采取行动。）
 
 ## 真题/语料关联
 

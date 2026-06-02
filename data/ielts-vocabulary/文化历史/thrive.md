@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **thrive in**：在……环境中茁壮成长
-  - *Some plants thrive in shady conditions.*
+  - *Some plants thrive in shady conditions.*（有些植物在阴凉条件下生长旺盛。）
 - **thrive on**：以……为乐，在……中蓬勃发展
-  - *She thrives on challenges and hard work.*
+  - *She thrives on challenges and hard work.*（她喜欢挑战和努力工作的感觉。）
 - **business thrives**：生意兴隆
-  - *The restaurant's business thrived during the summer season.*
+  - *The restaurant's business thrived during the summer season.*（这家餐厅在夏季生意兴隆。）
 - **thrive and prosper**：繁荣昌盛
-  - *The community worked together to help the town thrive and prosper.*
+  - *The community worked together to help the town thrive and prosper.*（社区共同努力帮助城镇繁荣发展。）
 - **fail to thrive**：未能茁壮成长
-  - *The patient was diagnosed with failure to thrive syndrome.*
+  - *The patient was diagnosed with failure to thrive syndrome.*（这个病人被诊断出发育不良综合征。）
 
 ## 真题/语料关联
 

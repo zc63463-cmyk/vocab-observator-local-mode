@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a series of**：一系列
-  - *The company has launched a series of new products.*
+  - *The company has launched a series of new products.*（该公司推出了一系列新产品。）
 - **a book series**：丛书
-  - *The Harry Potter series has sold millions of copies worldwide.*
+  - *The Harry Potter series has sold millions of copies worldwide.*（《哈利·波特》系列在全球售出了数百万册。）
 - **a TV series**：电视连续剧
-  - *The TV series was adapted from a bestselling novel.*
+  - *The TV series was adapted from a bestselling novel.*（这部电视剧改编自一部畅销小说。）
 - **a series of events**：一系列事件
-  - *A series of events led to the company's bankruptcy.*
+  - *A series of events led to the company's bankruptcy.*（一系列事件导致了公司的破产。）
 - **in series**：连续地，串联地
-  - *The batteries are connected in series.*
+  - *The batteries are connected in series.*（电池是串联连接的。）
 
 ## 真题/语料关联
 

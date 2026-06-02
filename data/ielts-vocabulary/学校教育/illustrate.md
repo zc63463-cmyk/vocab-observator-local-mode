@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **illustrate the point**：说明这一点
-  - *Let me give an example to illustrate the point.*
+  - *Let me give an example to illustrate the point.*（让我举个例子来说明这一点。）
 - **illustrate how/that**：说明如何/证明
-  - *The case illustrates how important communication is.*
+  - *The case illustrates how important communication is.*（这个案例说明了沟通是多么重要。）
 - **illustrate a book**：为书加插图
-  - *The artist was commissioned to illustrate the children's book.*
+  - *The artist was commissioned to illustrate the children's book.*（这位艺术家受委托为这本儿童书画插图。）
 - **illustrated** (adj.)：有插图的
-  - *The illustrated edition is more popular.*
+  - *The illustrated edition is more popular.*（插图版更受欢迎。）
 - **illustration** (n.) — 插图；说明
-  - *The illustration on the cover is very attractive.*
+  - *The illustration on the cover is very attractive.*（封面上的插图非常吸引人。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **basic/fundamental principle**：基本原则
-  - *The course covers the basic principles of economics.*
+  - *The course covers the basic principles of economics.*（中文翻译）
 - **in principle**：原则上
-  - *The plan was approved in principle, but details need to be worked out.*
+  - *The plan was approved in principle, but details need to be worked out.*（中文翻译）
 - **on principle**：根据原则
-  - *She refused on principle to accept the bribe.*
+  - *She refused on principle to accept the bribe.*（中文翻译）
 - **a man/woman of principle**：有原则的人
-  - *He is known as a man of principle who always stands by his beliefs.*
+  - *He is known as a man of principle who always stands by his beliefs.*（中文翻译）
 - **guiding principle**：指导原则
-  - *Honesty is the guiding principle of our organization.*
+  - *Honesty is the guiding principle of our organization.*（中文翻译）
 
 ## 真题/语料关联
 

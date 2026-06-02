@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study politics**：学习政治学
-  - *She decided to study politics at university.*
+  - *She decided to study politics at university.*（中文翻译）
 - **party politics**：政党政治
-  - *The decision was influenced by party politics.*
+  - *The decision was influenced by party politics.*（中文翻译）
 - **international politics**：国际政治
-  - *International politics is a complex field of study.*
+  - *International politics is a complex field of study.*（中文翻译）
 - **office politics**：办公室权术
-  - *He's good at navigating office politics.*
+  - *He's good at navigating office politics.*（中文翻译）
 - **play politics**：玩弄政治手腕
-  - *The manager was accused of playing politics.*
+  - *The manager was accused of playing politics.*（中文翻译）
 
 ## 真题/语料关联
 

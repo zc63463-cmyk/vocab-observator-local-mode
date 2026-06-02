@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **basal metabolism**：基础代谢（维持生命所需的最低能量消耗）
-  - *Your basal metabolism accounts for about 60-75% of your daily calorie expenditure.*
+  - *Your basal metabolism accounts for about 60-75% of your daily calorie expenditure.*（你的基础代谢约占每日热量消耗的60-75%。）
 - **fast/slow metabolism**：快/慢代谢
-  - *People with a fast metabolism tend to burn calories more quickly.*
+  - *People with a fast metabolism tend to burn calories more quickly.*（新陈代谢快的人往往燃烧热量更快。）
 - **metabolic rate**：代谢率
-  - *Exercise can increase your metabolic rate for hours after a workout.*
+  - *Exercise can increase your metabolic rate for hours after a workout.*（运动后数小时内，你的代谢率都会保持较高水平。）
 - **metabolic disorder**：代谢紊乱
-  - *Diabetes is a common metabolic disorder that affects how the body processes sugar.*
+  - *Diabetes is a common metabolic disorder that affects how the body processes sugar.*（糖尿病是一种常见的代谢紊乱，影响身体处理糖分的方式。）
 - **metabolic pathway**：代谢途径
-  - *The citric acid cycle is a key metabolic pathway in cellular respiration.*
+  - *The citric acid cycle is a key metabolic pathway in cellular respiration.*（柠檬酸循环是细胞呼吸中的关键代谢途径。）
 - **drug metabolism**：药物代谢
-  - *The liver is the primary organ responsible for drug metabolism.*
+  - *The liver is the primary organ responsible for drug metabolism.*（肝脏是负责药物代谢的主要器官。）
 
 ## 真题/语料关联
 

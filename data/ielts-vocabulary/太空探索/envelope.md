@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sealed envelope**：密封的信封
-  - *The letter was placed in a sealed envelope and mailed.*
+  - *The letter was placed in a sealed envelope and mailed.*（信被放入密封的信封中寄出。）
 - **atmospheric envelope**：大气层
-  - *The Earth's atmospheric envelope protects us from harmful solar radiation.*
+  - *The Earth's atmospheric envelope protects us from harmful solar radiation.*（地球的大气层保护我们免受有害太阳辐射。）
 - **push the envelope**：挑战极限
-  - *The company is always pushing the envelope of innovation.*
+  - *The company is always pushing the envelope of innovation.*（这家公司不断突破创新的极限。）
 - **envelope curve**：包络线
-  - *The envelope curve connects the peaks of the wave pattern.*
+  - *The envelope curve connects the peaks of the wave pattern.*（包络线连接波形图的各个峰值。）
 - **within the envelope of**：在……的范围内
-  - *The project must stay within the envelope of the allocated budget.*
+  - *The project must stay within the envelope of the allocated budget.*（项目必须保持在分配预算的范围之内。）
 
 ## 真题/语料关联
 

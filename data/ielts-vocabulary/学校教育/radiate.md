@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **radiate heat**：辐射热量
-  - *The fireplace radiates heat throughout the room.*
+  - *The fireplace radiates heat throughout the room.*（壁炉向整个房间辐射热量。）
 - **radiate light**：辐射光线
-  - *The sun radiates light and energy to the Earth.*
+  - *The sun radiates light and energy to the Earth.*（太阳向地球辐射光和能量。）
 - **radiate confidence**：散发自信
-  - *She radiates confidence in every interview.*
+  - *She radiates confidence in every interview.*（她在每次面试中都散发着自信。）
 - **radiate from**：从……辐射出
-  - *Pain radiated from his back down his leg.*
+  - *Pain radiated from his back down his leg.*（疼痛从他的背部向下辐射到腿部。）
 - **radiate outwards**：向外辐射
-  - *The streets radiate outwards from the central square.*
+  - *The streets radiate outwards from the central square.*（街道从中央广场向外辐射延伸。）
 
 ## 真题/语料关联
 

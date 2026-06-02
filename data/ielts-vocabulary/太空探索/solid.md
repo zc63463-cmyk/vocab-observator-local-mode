@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **solid matter**：固体物质
-  - *Solid matter is composed of tightly packed particles.*
+  - *Solid matter is composed of tightly packed particles.*（固体物质由紧密排列的粒子组成。）
 - **solid state**：固态
-  - *Water changes from liquid to solid state when it freezes.*
+  - *Water changes from liquid to solid state when it freezes.*（水结冰时会从液态变为固态。）
 - **solid foundation**：坚实的基础
-  - *A solid foundation in mathematics is essential for engineering.*
+  - *A solid foundation in mathematics is essential for engineering.*（扎实的数学基础对工程学至关重要。）
 - **solid evidence**：可靠的证据
-  - *The prosecution presented solid evidence against the defendant.*
+  - *The prosecution presented solid evidence against the defendant.*（检方提出了针对被告的可靠证据。）
 - **solid gold**：纯金
-  - *The ring is made of solid gold, not gold-plated.*
+  - *The ring is made of solid gold, not gold-plated.*（这枚戒指是纯金制成的，不是镀金的。）
 
 ## 真题/语料关联
 

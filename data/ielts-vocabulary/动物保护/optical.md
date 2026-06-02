@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **optical illusion**：视觉错觉
-  - *The drawing creates an optical illusion that tricks the eye.*
+  - *The drawing creates an optical illusion that tricks the eye.*（这幅画制造了一种迷惑眼睛的视错觉。）
 - **optical fiber**：光纤
-  - *Optical fiber technology enables high-speed internet connections.*
+  - *Optical fiber technology enables high-speed internet connections.*（光纤技术实现了高速互联网连接。）
 - **optical instruments**：光学仪器
-  - *Microscopes and telescopes are common optical instruments.*
+  - *Microscopes and telescopes are common optical instruments.*（显微镜和望远镜是常见的光学仪器。）
 - **optical lens**：光学透镜
-  - *The camera uses high-quality optical lenses for sharp images.*
+  - *The camera uses high-quality optical lenses for sharp images.*（这款相机使用高质量的光学镜头拍摄清晰图像。）
 - **optical disc**：光盘
-  - *CDs and DVDs are types of optical discs that store data.*
+  - *CDs and DVDs are types of optical discs that store data.*（CD和DVD是存储数据的光盘类型。）
 
 ## 真题/语料关联
 

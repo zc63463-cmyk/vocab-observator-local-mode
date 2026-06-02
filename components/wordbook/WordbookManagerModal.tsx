@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { X, Plus, Trash2, BookMarked, Loader2, Pencil, Check, XIcon } from "lucide-react";
+import { X, Plus, Trash2, BookMarked, Loader2, Pencil, Check, XIcon, BookOpen } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useWordbook } from "./WordbookContext";
+import { useToast } from "@/components/ui/Toast";
 
 export function WordbookManagerModal({
   open,
@@ -21,6 +22,8 @@ export function WordbookManagerModal({
   const [editName, setEditName] = useState("");
   const [editDescription, setEditDescription] = useState("");
   const [isRenaming, setIsRenaming] = useState(false);
+  const [joiningId, setJoiningId] = useState<string | null>(null);
+  const { addToast } = useToast();
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -109,6 +112,37 @@ export function WordbookManagerModal({
       }
     } finally {
       setIsRenaming(false);
+    }
+  };
+
+  const handleJoinAll = async (id: string, name: string) => {
+    const wb = wordbooks.find((w) => w.id === id);
+    const remaining = (wb?.word_count ?? 0) - (wb?.progress_count ?? 0);
+    if (remaining <= 0) {
+      addToast("该词本所有词条已在复习队列中", "info");
+      return;
+    }
+    if (!confirm(`确定要将「${name}」中 ${remaining} 个未加入复习的词条全部加入复习队列吗？`)) {
+      return;
+    }
+    setJoiningId(id);
+    try {
+      const res = await fetch(`/api/wordbooks/${id}/join`, { method: "POST" });
+      const payload = await res.json();
+      if (!res.ok) {
+        throw new Error(payload.error ?? "加入失败");
+      }
+      addToast(
+        payload.addedCount > 0
+          ? `已将 ${payload.addedCount} 个词条加入复习${payload.alreadyTrackedCount ? `（${payload.alreadyTrackedCount} 个已在复习中）` : ""}`
+          : "所有词条已在复习队列中",
+        "success",
+      );
+      await refreshWordbooks();
+    } catch (err) {
+      addToast(err instanceof Error ? err.message : "加入失败", "error");
+    } finally {
+      setJoiningId(null);
     }
   };
 
@@ -244,6 +278,20 @@ export function WordbookManagerModal({
                         </>
                       ) : (
                         <>
+                          {wb.word_count > wb.progress_count && (
+                            <button
+                              onClick={() => handleJoinAll(wb.id, wb.name)}
+                              disabled={joiningId === wb.id}
+                              className="rounded p-1.5 text-[var(--color-accent)] transition-colors hover:bg-[var(--color-surface-muted)] disabled:opacity-50"
+                              title="全部加入复习"
+                            >
+                              {joiningId === wb.id ? (
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                              ) : (
+                                <BookOpen className="h-3.5 w-3.5" />
+                              )}
+                            </button>
+                          )}
                           <button
                             onClick={() => startEdit(wb)}
                             className="rounded p-1.5 text-[var(--color-ink-soft)] transition-colors hover:bg-[var(--color-surface-muted)] hover:text-[var(--color-ink)]"

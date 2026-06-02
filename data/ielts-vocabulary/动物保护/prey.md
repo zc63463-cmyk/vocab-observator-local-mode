@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fall prey to**：成为……的猎物，受……的伤害
-  - *Small animals often fall prey to larger predators.*
+  - *Small animals often fall prey to larger predators.*（小动物常常成为大型捕食者的猎物。）
 - **easy prey**：容易捕获的猎物，容易受骗的人
-  - *Scammers often target elderly people as easy prey.*
+  - *Scammers often target elderly people as easy prey.*（诈骗者常把老年人当作容易下手的目标。）
 - **prey on**：捕食，掠夺
-  - *The eagle preys on small mammals and birds.*
+  - *The eagle preys on small mammals and birds.*（鹰捕食小型哺乳动物和鸟类。）
 - **prey on one's mind**：困扰某人
-  - *The thought of the exam preyed on her mind all night.*
+  - *The thought of the exam preyed on her mind all night.*（考试的想法整夜折磨着她的心。）
 - **natural prey**：天然猎物
-  - *Deer are the natural prey of wolves in this region.*
+  - *Deer are the natural prey of wolves in this region.*（在该地区，鹿是狼的天然猎物。）
 
 ## 真题/语料关联
 

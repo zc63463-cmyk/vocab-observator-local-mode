@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **red kangaroo**：红袋鼠
-  - *The red kangaroo is the largest living marsupial.*
+  - *The red kangaroo is the largest living marsupial.*（红大袋鼠是现存最大的有袋动物。）
 - **kangaroo pouch**：袋鼠育儿袋
-  - *The joey stays in its mother's kangaroo pouch for several months.*
+  - *The joey stays in its mother's kangaroo pouch for several months.*（小袋鼠在母亲的育儿袋里待好几个月。）
 - **kangaroo court**：袋鼠法庭（非正规法庭）
-  - *The prisoners were tried in a kangaroo court with no legal representation.*
+  - *The prisoners were tried in a kangaroo court with no legal representation.*（囚犯们在没有法律代表的情况下在非法法庭受审。）
 - **kangaroo care**：袋鼠式护理（早产儿护理方法）
-  - *Kangaroo care involves skin-to-skin contact between parent and newborn.*
+  - *Kangaroo care involves skin-to-skin contact between parent and newborn.*（袋鼠式护理涉及父母与新生儿之间的肌肤接触。）
 - **kangaroo hop**：袋鼠跳
-  - *The children played a game of kangaroo hop in the park.*
+  - *The children played a game of kangaroo hop in the park.*（孩子们在公园里玩袋鼠跳游戏。）
 
 ## 真题/语料关联
 

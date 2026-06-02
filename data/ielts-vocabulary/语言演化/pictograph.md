@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ancient pictographs**：古代象形文字
-  - *Archaeologists discovered ancient pictographs on the cave walls.*
+  - *Archaeologists discovered ancient pictographs on the cave walls.*（考古学家在洞穴壁上发现了古代象形文字。）
 - **cave pictographs**：洞穴壁画文字
-  - *The cave pictographs depict hunting scenes from thousands of years ago.*
+  - *The cave pictographs depict hunting scenes from thousands of years ago.*（洞穴壁画描绘了数千年前的狩猎场景。）
 - **pictograph writing**：象形文字书写
-  - *Pictograph writing was one of the earliest forms of written communication.*
+  - *Pictograph writing was one of the earliest forms of written communication.*（象形文字书写是最早的文字交流形式之一。）
 - **pictograph chart**：象形图
-  - *The teacher used a pictograph chart to show the survey results.*
+  - *The teacher used a pictograph chart to show the survey results.*（老师用象形图来展示调查结果。）
 - **pictograph symbols**：象形符号
-  - *The pictograph symbols were carved into the stone tablet.*
+  - *The pictograph symbols were carved into the stone tablet.*（象形符号被刻在石碑上。）
 
 ## 真题/语料关联
 

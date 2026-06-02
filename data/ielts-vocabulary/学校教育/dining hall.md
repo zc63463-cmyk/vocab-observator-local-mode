@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **school dining hall**：学校食堂
-  - *Students have lunch in the school dining hall.*
+  - *Students have lunch in the school dining hall.*（学生们在学校食堂吃午餐。）
 - **university dining hall**：大学食堂
-  - *The university dining hall offers a variety of meals.*
+  - *The university dining hall offers a variety of meals.*（大学食堂提供多种餐食。）
 - **college dining hall**：学院餐厅
-  - *The college dining hall is known for its excellent food.*
+  - *The college dining hall is known for its excellent food.*（学院餐厅以其美味食物而闻名。）
 - **dining hall meal**：食堂餐食
-  - *Dining hall meals are included in the accommodation fee.*
+  - *Dining hall meals are included in the accommodation fee.*（食堂餐食包含在住宿费中。）
 - **main dining hall**：主餐厅
-  - *The main dining hall can seat over 500 students.*
+  - *The main dining hall can seat over 500 students.*（主餐厅可容纳500多名学生。）
 
 ## 真题/语料关联
 

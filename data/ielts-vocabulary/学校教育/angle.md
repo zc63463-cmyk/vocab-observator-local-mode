@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **right angle**：直角
-  - *The two walls meet at a right angle.*
+  - *The two walls meet at a right angle.*（两面墙以直角相交。）
 - **at an angle**：成角度地
-  - *The painting was hanging at a slight angle.*
+  - *The painting was hanging at a slight angle.*（那幅画挂得有些倾斜。）
 - **from a different angle**：从不同角度
-  - *Let's look at the problem from a different angle.*
+  - *Let's look at the problem from a different angle.*（让我们从不同的角度来看这个问题。）
 - **angle of attack**：攻角（航空术语）
-  - *The angle of attack affects the lift of the aircraft.*
+  - *The angle of attack affects the lift of the aircraft.*（攻角影响飞机的升力。）
 - **camera angle**：摄像角度
-  - *The director chose a low camera angle to make the character look powerful.*
+  - *The director chose a low camera angle to make the character look powerful.*（导演选择了低角度拍摄，让角色看起来有力量感。）
 
 ## 真题/语料关联
 

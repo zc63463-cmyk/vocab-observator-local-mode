@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **favorite subject**：最喜欢的学科
-  - *Mathematics is my favorite subject at school.*
+  - *Mathematics is my favorite subject at school.*（数学是我在学校最喜欢的学科。）
 - **the subject of**：……的主题
-  - *The subject of the meeting is budget planning.*
+  - *The subject of the meeting is budget planning.*（会议的主题是预算规划。）
 - **subject to**：受……支配；取决于
-  - *The plan is subject to approval by the committee.*
+  - *The plan is subject to approval by the committee.*（该计划须经委员会批准。）
 - **change the subject**：转换话题
-  - *Let's change the subject; this is getting uncomfortable.*
+  - *Let's change the subject; this is getting uncomfortable.*（我们换个话题吧；这变得令人不舒服了。）
 - **on the subject of**：关于……
-  - *She wrote a book on the subject of climate change.*
+  - *She wrote a book on the subject of climate change.*（她写了一本关于气候变化主题的书。）
 
 ## 真题/语料关联
 

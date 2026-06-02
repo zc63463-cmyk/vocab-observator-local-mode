@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **crossword puzzle**：填字游戏
-  - *She enjoys doing crossword puzzles in the morning.*
+  - *She enjoys doing crossword puzzles in the morning.*（中文翻译）
 - **jigsaw puzzle**：拼图游戏
-  - *The children were working on a jigsaw puzzle together.*
+  - *The children were working on a jigsaw puzzle together.*（中文翻译）
 - **solve a puzzle**：解开谜题
-  - *It took scientists years to solve the puzzle of DNA.*
+  - *It took scientists years to solve the puzzle of DNA.*（中文翻译）
 - **puzzle over**：苦思冥想
-  - *She puzzled over the math problem for hours.*
+  - *She puzzled over the math problem for hours.*（中文翻译）
 - **puzzle out**：努力思考以求理解
-  - *He tried to puzzle out the meaning of the poem.*
+  - *He tried to puzzle out the meaning of the poem.*（中文翻译）
 - **be a puzzle to**：令人困惑
-  - *His behavior is a puzzle to everyone.*
+  - *His behavior is a puzzle to everyone.*（中文翻译）
 
 ## 真题/语料关联
 

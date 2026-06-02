@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **estimate the cost**：估算成本
-  - *We need to estimate the cost of the renovation before starting the project.*
+  - *We need to estimate the cost of the renovation before starting the project.*（在开始项目之前，我们需要估算翻新成本。）
 - **a rough estimate**：粗略估计
-  - *Can you give me a rough estimate of how long it will take?*
+  - *Can you give me a rough estimate of how long it will take?*（你能给我一个大概需要多长时间的大致估计吗？）
 - **estimate at**：估计为（某个数值）
-  - *The damage is estimated at two million dollars.*
+  - *The damage is estimated at two million dollars.*（损失估计为两百万美元。）
 - **by some estimates**：据某些估计
-  - *By some estimates, the population will double within fifty years.*
+  - *By some estimates, the population will double within fifty years.*（据某些估计，人口将在五十年内翻倍。）
 - **get an estimate**：获取报价
-  - *You should get an estimate from at least three contractors.*
+  - *You should get an estimate from at least three contractors.*（你应该至少从三个承包商那里获取报价。）
 - **conservative estimate**：保守估计
-  - *A conservative estimate suggests the project will take six months.*
+  - *A conservative estimate suggests the project will take six months.*（保守估计显示该项目需要六个月。）
 
 ## 真题/语料关联
 

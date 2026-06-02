@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inquire about**：询问
-  - *She inquired about the price of the house.*
+  - *She inquired about the price of the house.*（她询问了房子的价格。）
 - **inquire whether/if**：询问是否
-  - *He inquired whether the position was still available.*
+  - *He inquired whether the position was still available.*（他询问那个职位是否还在招聘。）
 - **inquire into**：调查
-  - *The committee will inquire into the matter.*
+  - *The committee will inquire into the matter.*（委员会将调查此事。）
 - **inquiry** (n.)：询问；调查
-  - *The police conducted an inquiry into the accident.*
+  - *The police conducted an inquiry into the accident.*（警方对事故进行了调查。）
 - **inquirer** (n.)：询问者
-  - *The inquirer was satisfied with the answer.*
+  - *The inquirer was satisfied with the answer.*（询问者对答复感到满意。）
 
 ## 真题/语料关联
 

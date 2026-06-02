@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **impact crater**：撞击坑
-  - *The Barringer Crater in Arizona is a well-preserved impact crater.*
+  - *The Barringer Crater in Arizona is a well-preserved impact crater.*（亚利桑那州的巴林杰陨石坑是一个保存完好的撞击坑。）
 - **volcanic crater**：火山口
-  - *The volcanic crater filled with water, forming a beautiful crater lake.*
+  - *The volcanic crater filled with water, forming a beautiful crater lake.*（火山口充满了水，形成了一个美丽的火山口湖。）
 - **crater lake**：火山口湖
-  - *Crater Lake in Oregon was formed inside a collapsed volcanic crater.*
+  - *Crater Lake in Oregon was formed inside a collapsed volcanic crater.*（俄勒冈州的火山口湖是在一个坍塌的火山口内形成的。）
 - **lunar crater**：月球陨石坑
-  - *The lunar craters are named after famous scientists and mathematicians.*
+  - *The lunar craters are named after famous scientists and mathematicians.*（月球上的环形山以著名科学家和数学家的名字命名。）
 - **cratered surface**：坑坑洼洼的表面
-  - *The cratered surface of Mercury shows its violent history of impacts.*
+  - *The cratered surface of Mercury shows its violent history of impacts.*（水星布满陨石坑的表面显示了其剧烈的撞击历史。）
 
 ## 真题/语料关联
 

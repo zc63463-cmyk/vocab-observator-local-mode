@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **confirm that...**：确认……
-  - *The tests confirmed that the patient was healthy.*
+  - *The tests confirmed that the patient was healthy.*（检查证实病人是健康的。）
 - **It has been confirmed**：已经确认
-  - *It has been confirmed that the meeting will take place tomorrow.*
+  - *It has been confirmed that the meeting will take place tomorrow.*（已经确认会议将于明天举行。）
 - **confirm an appointment**：确认预约
-  - *Please call to confirm your appointment.*
+  - *Please call to confirm your appointment.*（请打电话确认你的预约。）
 - **confirmed** (adj.)：确认的
-  - *He is a confirmed bachelor.*
+  - *He is a confirmed bachelor.*（他是个坚定的单身汉。）
 - **confirmation** (n.)：确认
-  - *We are waiting for confirmation of the booking.*
+  - *We are waiting for confirmation of the booking.*（我们在等待预订的确认。）
 
 ## 真题/语料关联
 

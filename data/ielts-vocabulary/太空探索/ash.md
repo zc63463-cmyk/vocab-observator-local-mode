@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **volcanic ash**：火山灰
-  - *Volcanic ash can disrupt air travel and damage aircraft engines.*
+  - *Volcanic ash can disrupt air travel and damage aircraft engines.*（火山灰会干扰航空旅行并损坏飞机发动机。）
 - **rise from the ashes**：从灰烬中重生
-  - *The city rose from the ashes after the devastating earthquake.*
+  - *The city rose from the ashes after the devastating earthquake.*（这座城市在毁灭性地震后从废墟中重建起来。）
 - **reduced to ashes**：化为灰烬
-  - *The forest fire reduced the entire area to ashes.*
+  - *The forest fire reduced the entire area to ashes.*（森林大火将整个区域化为灰烬。）
 - **ash cloud**：火山灰云
-  - *The ash cloud from the eruption spread across Europe, grounding flights.*
+  - *The ash cloud from the eruption spread across Europe, grounding flights.*（火山喷发的火山灰云扩散到欧洲各地，导致航班停飞。）
 - **ash gray/blonde**：灰白色/灰金色
-  - *She dyed her hair ash blonde to match her fair complexion.*
+  - *She dyed her hair ash blonde to match her fair complexion.*（她把头发染成灰金色来搭配她白皙的肤色。）
 
 ## 真题/语料关联
 

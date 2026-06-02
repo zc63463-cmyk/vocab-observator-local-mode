@@ -67,11 +67,11 @@ review_count: 0
 ## 搭配与短语
 
 - **make an utterance**：发表言论
-  - *The politician made a controversial utterance during the debate.*
+  - *The politician made a controversial utterance during the debate.*（这位政治家在辩论中发表了有争议的言论。）
 - **public utterance**：公开言论
-  - *Public utterances should be carefully considered.*
+  - *Public utterances should be carefully considered.*（公开言论应该经过深思熟虑。）
 - **the utterance of**：……的表达/发声
-  - *The utterance of these words brought tears to her eyes.*
+  - *The utterance of these words brought tears to her eyes.*（说出这些话让她热泪盈眶。）
 
 ## 真题/语料关联
 

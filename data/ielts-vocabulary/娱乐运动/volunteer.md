@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **volunteer work**：志愿者工作
-  - *She does volunteer work at the local shelter.*
+  - *She does volunteer work at the local shelter.*（她在当地收容所做志愿工作。）
 - **volunteer to help**：自愿帮忙
-  - *Several students volunteered to help with the event.*
+  - *Several students volunteered to help with the event.*（几名学生自愿帮忙组织活动。）
 - **volunteer at a hospital**：在医院做志愿者
-  - *He volunteers at the hospital every weekend.*
+  - *He volunteers at the hospital every weekend.*（他每个周末都在医院做志愿者。）
 - **volunteer army**：志愿军
-  - *The country relies on a volunteer army rather than conscription.*
+  - *The country relies on a volunteer army rather than conscription.*（这个国家依靠志愿军而非征兵制。）
 - **volunteer for the task**：主动承担任务
-  - *She volunteered for the difficult task.*
+  - *She volunteered for the difficult task.*（她自愿承担了这项艰巨的任务。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **technical expertise**：技术专长
-  - *The job requires considerable technical expertise in software development.*
+  - *The job requires considerable technical expertise in software development.*（该职位需要相当多的软件开发技术专长。）
 - **professional expertise**：专业能力
-  - *Her professional expertise in finance is widely recognized.*
+  - *Her professional expertise in finance is widely recognized.*（她在金融方面的专业能力得到了广泛认可。）
 - **area of expertise**：专业领域
-  - *Please consult someone in your area of expertise for advice.*
+  - *Please consult someone in your area of expertise for advice.*（请咨询你专业领域内的人士寻求建议。）
 - **expertise in**：在……方面的专长
-  - *He has developed expertise in renewable energy technologies.*
+  - *He has developed expertise in renewable energy technologies.*（他在可再生能源技术方面发展了专长。）
 - **lack expertise**：缺乏专长
-  - *The team lacks expertise in marketing and branding.*
+  - *The team lacks expertise in marketing and branding.*（团队缺乏市场营销和品牌方面的专业知识。）
 
 ## 真题/语料关联
 

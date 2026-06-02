@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study geography**：学习地理学
-  - *She decided to study geography at university.*
+  - *She decided to study geography at university.*（她决定在大学学习地理学。）
 - **physical geography**：自然地理学
-  - *Physical geography examines landforms, climate, and ecosystems.*
+  - *Physical geography examines landforms, climate, and ecosystems.*（自然地理学研究地貌、气候和生态系统。）
 - **human geography**：人文地理学
-  - *Human geography studies how people interact with their environment.*
+  - *Human geography studies how people interact with their environment.*（人文地理学研究人们如何与环境互动。）
 - **the geography of**：……的地理
-  - *The geography of the island is mostly mountainous.*
+  - *The geography of the island is mostly mountainous.*（该岛的地理特征以山地为主。）
 - **geographical** (adj.)：地理的
-  - *Geographical factors influence economic development.*
+  - *Geographical factors influence economic development.*（地理因素影响经济发展。）
 
 ## 真题/语料关联
 

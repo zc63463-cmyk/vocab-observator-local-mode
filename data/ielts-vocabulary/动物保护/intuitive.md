@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **intuitive understanding**：直觉性的理解
-  - *She has an intuitive understanding of human nature.*
+  - *She has an intuitive understanding of human nature.*（她对人性有着直觉般的理解。）
 - **intuitive interface**：直观的界面
-  - *The app has a very intuitive interface that users love.*
+  - *The app has a very intuitive interface that users love.*（这款应用有非常直观的界面，用户很喜欢。）
 - **intuitive design**：直观的设计
-  - *Good software should have an intuitive design that requires no manual.*
+  - *Good software should have an intuitive design that requires no manual.*（好的软件应该具有不需要说明书的直观设计。）
 - **intuitive person**：有直觉力的人
-  - *As an intuitive person, she often knows what others are thinking.*
+  - *As an intuitive person, she often knows what others are thinking.*（作为一个直觉敏锐的人，她常能知道别人在想什么。）
 - **intuitive leap**：直觉跳跃，顿悟
-  - *Scientific discoveries often begin with an intuitive leap.*
+  - *Scientific discoveries often begin with an intuitive leap.*（科学发现往往始于直觉的飞跃。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cricket match**：板球比赛
-  - *The cricket match between England and Australia is called the Ashes.*
+  - *The cricket match between England and Australia is called the Ashes.*（英格兰和澳大利亚之间的板球比赛被称为灰烬杯。）
 - **play cricket**：打板球
-  - *Cricket is played with a bat and ball on a large oval field.*
+  - *Cricket is played with a bat and ball on a large oval field.*（板球用球板和球在大型椭圆形场地上进行。）
 - **not cricket**：不公平，不光明正大
-  - *Refusing to pay your debts is simply not cricket.*
+  - *Refusing to pay your debts is simply not cricket.*（拒绝偿还债务是不公平的。）
 - **cricket chirp**：蟋蟀鸣叫
-  - *The sound of cricket chirps filled the summer evening.*
+  - *The sound of cricket chirps filled the summer evening.*（蟋蟀的鸣叫声充满了夏夜。）
 - **cricket bat**：板球球棒
-  - *He swung the cricket bat and hit the ball for six runs.*
+  - *He swung the cricket bat and hit the ball for six runs.*（他挥动板球棒击球，得了六分。）
 
 ## 真题/语料关联
 

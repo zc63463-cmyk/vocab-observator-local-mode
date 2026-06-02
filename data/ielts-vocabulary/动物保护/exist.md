@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **exist in**：存在于……中
-  - *Many rare species exist in the tropical rainforests of South America.*
+  - *Many rare species exist in the tropical rainforests of South America.*（许多稀有物种存在于南美洲的热带雨林中。）
 - **exist on**：靠……维持生存
-  - *The endangered animals exist on a very limited diet due to habitat loss.*
+  - *The endangered animals exist on a very limited diet due to habitat loss.*（由于栖息地丧失，濒危动物仅靠非常有限的食物存活。）
 - **come into existence**：开始存在，诞生
-  - *The national park came into existence in 1972 to protect the local wildlife.*
+  - *The national park came into existence in 1972 to protect the local wildlife.*（该国家公园于1972年成立以保护当地野生动物。）
 - **cease to exist**：不复存在
-  - *If deforestation continues, many species will cease to exist within decades.*
+  - *If deforestation continues, many species will cease to exist within decades.*（如果森林砍伐持续下去，许多物种将在几十年内不复存在。）
 - **in existence**：现存的
-  - *The giant panda is one of the oldest species in existence.*
+  - *The giant panda is one of the oldest species in existence.*（大熊猫是现存最古老的物种之一。）
 
 ## 真题/语料关联
 

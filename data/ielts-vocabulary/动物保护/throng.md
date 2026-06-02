@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **a throng of people**：一大群人
-  - *A throng of people gathered in the square to watch the fireworks.*
+  - *A throng of people gathered in the square to watch the fireworks.*（一大群人聚集在广场上看烟花。）
 - **throng the streets**：挤满街道
-  - *People thronged the streets during the carnival.*
+  - *People thronged the streets during the carnival.*（狂欢节期间人们挤满了街道。）
 - **throng to**：蜂拥至
-  - *Tourists thronged to the museum to see the new exhibition.*
+  - *Tourists thronged to the museum to see the new exhibition.*（游客涌向博物馆参观新展览。）
 - **a throng of fans**：一大群粉丝
-  - *A throng of fans waited outside the stadium for the band.*
+  - *A throng of fans waited outside the stadium for the band.*（一群粉丝在体育场外等候乐队的到来。）
 
 ## 真题/语料关联
 

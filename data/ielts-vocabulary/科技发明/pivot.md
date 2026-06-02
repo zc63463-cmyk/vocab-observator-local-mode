@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pivot on/around**：围绕……旋转；取决于
-  - *The whole argument pivots on a single assumption.*
+  - *The whole argument pivots on a single assumption.*（整个论证取决于一个假设。）
 - **pivot to**：转向，调整到
-  - *The company decided to pivot to a new business model.*
+  - *The company decided to pivot to a new business model.*（公司决定转向一种新的商业模式。）
 - **pivot point**：转折点，关键点
-  - *This was a pivot point in the country's history.*
+  - *This was a pivot point in the country's history.*（这是该国历史上的一个转折点。）
 - **central pivot**：核心，中心
-  - *Education is the central pivot of the reform.*
+  - *Education is the central pivot of the reform.*（教育是改革的核心。）
 - **pivot table**：数据透视表（Excel术语）
-  - *Create a pivot table to analyze the sales data.*
+  - *Create a pivot table to analyze the sales data.*（创建一个数据透视表来分析销售数据。）
 
 ## 真题/语料关联
 

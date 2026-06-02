@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **plunge into**：跳入；突然陷入
-  - *She plunged into the cold water without hesitation.*
+  - *She plunged into the cold water without hesitation.*（她毫不犹豫地跳入了冷水中。）
 - **take the plunge**：冒险尝试；果断行动
-  - *After years of hesitation, she finally took the plunge and started her own business.*
+  - *After years of hesitation, she finally took the plunge and started her own business.*（犹豫多年后，她终于鼓起勇气创业了。）
 - **prices plunged**：价格暴跌
-  - *Oil prices plunged following the announcement of new sanctions.*
+  - *Oil prices plunged following the announcement of new sanctions.*（新制裁宣布后油价暴跌。）
 - **plunge into darkness**：陷入黑暗
-  - *The city was plunged into darkness after the power station was destroyed.*
+  - *The city was plunged into darkness after the power station was destroyed.*（电站被摧毁后，城市陷入了黑暗。）
 - **plunge ahead**：不顾一切地前进
-  - *Despite the risks, they decided to plunge ahead with the plan.*
+  - *Despite the risks, they decided to plunge ahead with the plan.*（尽管有风险，他们还是决定不顾一切地推进这个计划。）
 
 ## 真题/语料关联
 

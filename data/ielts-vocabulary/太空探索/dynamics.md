@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fluid dynamics**：流体动力学
-  - *Fluid dynamics is used to design aircraft wings and predict weather patterns.*
+  - *Fluid dynamics is used to design aircraft wings and predict weather patterns.*（流体动力学用于设计飞机机翼和预测天气模式。）
 - **orbital dynamics**：轨道动力学
-  - *Orbital dynamics determines how spacecraft travel between planets.*
+  - *Orbital dynamics determines how spacecraft travel between planets.*（轨道动力学决定了航天器如何在行星之间飞行。）
 - **market dynamics**：市场动态
-  - *Understanding market dynamics is essential for successful investing.*
+  - *Understanding market dynamics is essential for successful investing.*（了解市场动态对成功投资至关重要。）
 - **group dynamics**：群体动态
-  - *The therapist studied the group dynamics to improve team communication.*
+  - *The therapist studied the group dynamics to improve team communication.*（治疗师研究了群体动态以改善团队沟通。）
 - **dynamic system**：动态系统
-  - *A dynamic system changes over time in response to internal and external forces.*
+  - *A dynamic system changes over time in response to internal and external forces.*（动态系统会随着时间因内外部力的作用而变化。）
 
 ## 真题/语料关联
 

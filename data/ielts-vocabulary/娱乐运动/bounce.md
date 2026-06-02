@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bounce the ball**：拍球
-  - *The basketball player bounced the ball before taking the free throw.*
+  - *The basketball player bounced the ball before taking the free throw.*（篮球运动员在罚球前拍了拍球。）
 - **bounce back**：恢复，反弹
-  - *She bounced back from the setback and became even stronger.*
+  - *She bounced back from the setback and became even stronger.*（她从挫折中恢复过来，变得更强大了。）
 - **bounce off**：从……弹开
-  - *The ball bounced off the wall and hit me.*
+  - *The ball bounced off the wall and hit me.*（球从墙上弹开，击中了我。）
 - **bounce up and down**：蹦蹦跳跳
-  - *The children were bouncing up and down on the trampoline.*
+  - *The children were bouncing up and down on the trampoline.*（孩子们在蹦床上蹦蹦跳跳。）
 - **full of bounce**：充满活力
-  - *The puppy was full of bounce, running around the garden.*
+  - *The puppy was full of bounce, running around the garden.*（小狗充满活力，在花园里跑来跑去。）
 
 ## 真题/语料关联
 

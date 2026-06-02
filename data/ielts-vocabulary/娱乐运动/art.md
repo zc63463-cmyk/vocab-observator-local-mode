@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fine art**：美术；精致的艺术
-  - *She studied fine art at the Royal Academy.*
+  - *She studied fine art at the Royal Academy.*（她在皇家艺术学院学习美术。）
 - **modern art**：现代艺术
-  - *The museum has an impressive collection of modern art.*
+  - *The museum has an impressive collection of modern art.*（这家博物馆收藏了令人印象深刻的现代艺术作品。）
 - **work of art**：艺术作品
-  - *The painting is a true work of art.*
+  - *The painting is a true work of art.*（这幅画是真正的艺术作品。）
 - **art gallery**：美术馆
-  - *We visited the art gallery to see the new exhibition.*
+  - *We visited the art gallery to see the new exhibition.*（我们去美术馆看了新的展览。）
 - **the art of**：……的艺术
-  - *Cooking is both a science and an art.*
+  - *Cooking is both a science and an art.*（烹饪既是一门科学也是一门艺术。）
 
 ## 真题/语料关联
 

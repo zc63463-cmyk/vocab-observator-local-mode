@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **distilled water**：蒸馏水
-  - *The laboratory uses only distilled water for experiments.*
+  - *The laboratory uses only distilled water for experiments.*（实验室只使用蒸馏水进行实验。）
 - **distil whisky/spirits**：蒸馏威士忌/烈酒
-  - *The distillery has been distilling whisky for over 200 years.*
+  - *The distillery has been distilling whisky for over 200 years.*（这家酿酒厂蒸馏威士忌已有200多年历史。）
 - **distil the essence**：提炼精华
-  - *The book distils the essence of modern management theory.*
+  - *The book distils the essence of modern management theory.*（这本书提炼了现代管理理论的精华。）
 - **distil into**：浓缩成
-  - *His years of experience were distilled into a few key principles.*
+  - *His years of experience were distilled into a few key principles.*（他多年的经验被浓缩成了几个关键原则。）
 - **distil from**：从……中提炼
-  - *The oil is distilled from plant materials.*
+  - *The oil is distilled from plant materials.*（这种油是从植物材料中提炼出来的。）
 
 ## 真题/语料关联
 

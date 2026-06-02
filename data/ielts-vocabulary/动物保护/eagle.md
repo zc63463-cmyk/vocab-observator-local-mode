@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bald eagle**：白头鹰（美国国鸟）
-  - *The bald eagle is a symbol of the United States.*
+  - *The bald eagle is a symbol of the United States.*（白头鹰是美国的象征。）
 - **golden eagle**：金鹰
-  - *The golden eagle is one of the largest birds of prey in Europe.*
+  - *The golden eagle is one of the largest birds of prey in Europe.*（金雕是欧洲最大的猛禽之一。）
 - **eagle eye**：鹰眼（敏锐的观察力）
-  - *The teacher has an eagle eye for detail.*
+  - *The teacher has an eagle eye for detail.*（这位老师对细节有着鹰一般的洞察力。）
 - **eagle scout**：鹰级童子军（最高级别）
-  - *He achieved the rank of Eagle Scout in the Boy Scouts.*
+  - *He achieved the rank of Eagle Scout in the Boy Scouts.*（他在童子军中获得了鹰级童子军军衔。）
 - **score an eagle**：打出老鹰球（高尔夫术语）
-  - *She scored an eagle on the par-5 hole.*
+  - *She scored an eagle on the par-5 hole.*（她在五杆洞打出了老鹰球。）
 
 ## 真题/语料关联
 

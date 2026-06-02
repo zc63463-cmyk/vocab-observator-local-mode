@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sports competition**：体育比赛
-  - *The school organized a sports competition for all students.*
+  - *The school organized a sports competition for all students.*（学校为所有学生组织了一场体育比赛。）
 - **fierce/stiff competition**：激烈的竞争
-  - *The company faces fierce competition from overseas rivals.*
+  - *The company faces fierce competition from overseas rivals.*（公司面临来自海外对手的激烈竞争。）
 - **in competition with**：与……竞争
-  - *Our products are in competition with those from major brands.*
+  - *Our products are in competition with those from major brands.*（我们的产品与主要品牌的产品形成竞争。）
 - **competition law**：竞争法
-  - *Competition law is designed to prevent monopolies.*
+  - *Competition law is designed to prevent monopolies.*（竞争法旨在防止垄断。）
 - **competitive advantage**：竞争优势
-  - *Innovation gives the company a competitive advantage.*
+  - *Innovation gives the company a competitive advantage.*（创新给公司带来了竞争优势。）
 
 ## 真题/语料关联
 

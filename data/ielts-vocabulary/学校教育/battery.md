@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **car battery**：汽车电池
-  - *My car battery died because I left the lights on all night.*
+  - *My car battery died because I left the lights on all night.*（我的汽车电池没电了，因为我一整晚都没关灯。）
 - **rechargeable battery**：可充电电池
-  - *Rechargeable batteries are more environmentally friendly than disposable ones.*
+  - *Rechargeable batteries are more environmentally friendly than disposable ones.*（可充电电池比一次性电池更环保。）
 - **a battery of questions**：一连串的问题
-  - *The reporter fired a battery of questions at the politician.*
+  - *The reporter fired a battery of questions at the politician.*（记者向那位政治家连珠炮似地提出了一连串问题。）
 - **assault and battery**：殴打（法律术语）
-  - *He was charged with assault and battery after the bar fight.*
+  - *He was charged with assault and battery after the bar fight.*（酒吧斗殴后，他被指控犯有殴打罪。）
 - **battery farming**：密集饲养
-  - *Battery farming has been criticized for its treatment of animals.*
+  - *Battery farming has been criticized for its treatment of animals.*（密集饲养因对待动物的方式而受到批评。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **on stage**：在舞台上
-  - *The actor felt nervous when he stepped on stage.*
+  - *The actor felt nervous when he stepped on stage.*（演员走上舞台时感到紧张。）
 - **go through a stage**：经历一个阶段
-  - *Children go through a stage of asking "why" about everything.*
+  - *Children go through a stage of asking "why" about everything.*（孩子们会经历一个对一切都问"为什么"的阶段。）
 - **stage a play**：上演一出戏剧
-  - *The school decided to stage a play for the annual concert.*
+  - *The school decided to stage a play for the annual concert.*（学校决定为年度音乐会上演一出戏剧。）
 - **set the stage for**：为……做好准备
-  - *The negotiations set the stage for a peace agreement.*
+  - *The negotiations set the stage for a peace agreement.*（谈判为和平协议奠定了基础。）
 - **centre stage**：中心位置，重要地位
-  - *Education has taken centre stage in the government's policy.*
+  - *Education has taken centre stage in the government's policy.*（教育已成为政府政策的核心。）
 
 ## 真题/语料关联
 

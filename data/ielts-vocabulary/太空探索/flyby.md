@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Jupiter flyby**：木星飞掠
-  - *The Jupiter flyby revealed detailed images of the planet's atmosphere.*
+  - *The Jupiter flyby revealed detailed images of the planet's atmosphere.*（木星飞越探测揭示了这颗行星大气层的详细图像。）
 - **Mars flyby**：火星飞掠
-  - *The Mars flyby mission collected valuable data about the planet's surface.*
+  - *The Mars flyby mission collected valuable data about the planet's surface.*（火星飞越任务收集了关于火星表面的宝贵数据。）
 - **asteroid flyby**：小行星飞掠
-  - *The asteroid flyby showed that the space rock was much larger than expected.*
+  - *The asteroid flyby showed that the space rock was much larger than expected.*（小行星飞越探测显示这颗太空岩石比预期大得多。）
 - **low-altitude flyby**：低空飞越
-  - *The military conducted a low-altitude flyby over the city during the parade.*
+  - *The military conducted a low-altitude flyby over the city during the parade.*（军方在阅兵期间在城市上空进行了低空飞越。）
 - **flyby mission**：飞掠任务
-  - *A flyby mission is cheaper than an orbital mission but provides less data.*
+  - *A flyby mission is cheaper than an orbital mission but provides less data.*（飞越任务比轨道任务成本更低，但提供的数据也更少。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **football stadium**：足球场
-  - *The football stadium can hold 80,000 spectators.*
+  - *The football stadium can hold 80,000 spectators.*（这个足球场可容纳8万名观众。）
 - **Olympic stadium**：奥林匹克体育场
-  - *The Olympic stadium was built for the 2008 Games.*
+  - *The Olympic stadium was built for the 2008 Games.*（这座奥林匹克体育场是为2008年奥运会建造的。）
 - **sports stadium**：体育场
-  - *The city has a new sports stadium for various events.*
+  - *The city has a new sports stadium for various events.*（这座城市有一个新的体育场，可举办各种活动。）
 - **stadium capacity**：体育场容量
-  - *The stadium capacity was increased for the final match.*
+  - *The stadium capacity was increased for the final match.*（体育场的容量为决赛增加了。）
 - **stadium atmosphere**：体育场氛围
-  - *The stadium atmosphere was electric during the game.*
+  - *The stadium atmosphere was electric during the game.*（比赛期间体育场的气氛非常热烈。）
 
 ## 真题/语料关联
 

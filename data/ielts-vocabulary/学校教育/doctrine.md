@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **religious doctrine**：宗教教义
-  - *The church strictly adheres to its traditional doctrines.*
+  - *The church strictly adheres to its traditional doctrines.*（教会严格遵守其传统教义。）
 - **political doctrine**：政治理论
-  - *The president outlined a new foreign policy doctrine.*
+  - *The president outlined a new foreign policy doctrine.*（总统概述了一项新的外交政策原则。）
 - **legal doctrine**：法律原则
-  - *The legal doctrine of precedent is fundamental to common law systems.*
+  - *The legal doctrine of precedent is fundamental to common law systems.*（先例法律原则是普通法系的基础。）
 - **economic doctrine**：经济理论
-  - *Keynesian economics became the dominant economic doctrine in the post-war era.*
+  - *Keynesian economics became the dominant economic doctrine in the post-war era.*（凯恩斯经济学成为战后时期主导的经济理论。）
 - **under the doctrine of**：根据……的原则
-  - *Under the doctrine of separation of powers, the judiciary is independent.*
+  - *Under the doctrine of separation of powers, the judiciary is independent.*（根据三权分立原则，司法机构是独立的。）
 
 ## 真题/语料关联
 

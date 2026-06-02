@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **expand/build one's vocabulary**：扩大词汇量
-  - *Reading is an effective way to expand your vocabulary.*
+  - *Reading is an effective way to expand your vocabulary.*（阅读是扩大词汇量的有效方法。）
 - **rich/extensive vocabulary**：丰富的词汇量
-  - *She has an impressive vocabulary for her age.*
+  - *She has an impressive vocabulary for her age.*（以她的年龄来说，她的词汇量令人印象深刻。）
 - **technical/specialized vocabulary**：专业词汇
-  - *Each field has its own technical vocabulary.*
+  - *Each field has its own technical vocabulary.*（每个领域都有其专业词汇。）
 - **active/passive vocabulary**：积极/消极词汇
-  - *Your passive vocabulary is usually larger than your active vocabulary.*
+  - *Your passive vocabulary is usually larger than your active vocabulary.*（你的被动词汇量通常比主动词汇量大。）
 
 ## 真题/语料关联
 

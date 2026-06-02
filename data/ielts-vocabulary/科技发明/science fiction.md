@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **science fiction novel**：科幻小说
-  - *Isaac Asimov is a famous science fiction novel writer.*
+  - *He enjoys reading science fiction novels by Isaac Asimov.*（他喜欢阅读艾萨克·阿西莫夫的科幻小说。）
 - **science fiction film**：科幻电影
-  - *Science fiction films often explore themes of space travel and artificial intelligence.*
+  - *Science fiction films often explore themes of space travel and artificial intelligence.*（科幻电影经常探索太空旅行和人工智能等主题。）
 - **science fiction genre**：科幻题材
-  - *The science fiction genre has evolved significantly over the decades.*
+  - *The science fiction genre has evolved significantly over the decades.*（科幻题材在几十年间发生了显著演变。）
 - **sci-fi**：科幻（简称）
-  - *I enjoy reading sci-fi books about time travel.*
+  - *I enjoy reading sci-fi books about time travel.*（我喜欢阅读关于时间旅行的科幻书籍。）
 - **science fiction writer**：科幻作家
-  - *H.G. Wells is considered one of the founders of science fiction writing.*
+  - *H.G. Wells is considered one of the founders of science fiction writing.*（H.G.威尔斯被认为是科幻写作的奠基人之一。）
 
 ## 真题/语料关联
 

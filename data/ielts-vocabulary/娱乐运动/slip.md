@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **slip on the ice**：在冰上滑倒
-  - *She slipped on the ice and hurt her wrist.*
+  - *She slipped on the ice and hurt her wrist.*（她在冰上滑倒，伤到了手腕。）
 - **slip of the tongue**：口误
-  - *Calling the teacher "Mom" was an embarrassing slip of the tongue.*
+  - *Calling the teacher "Mom" was an embarrassing slip of the tongue.*（把老师叫成"妈妈"是一次尴尬的口误。）
 - **slip away**：悄悄离开；溜走
-  - *He slipped away from the party without saying goodbye.*
+  - *He slipped away from the party without saying goodbye.*（他没说再见就悄悄离开了派对。）
 - **let slip**：无意中说出；错过
-  - *She let slip that she was planning to resign.*
+  - *She let slip that she was planning to resign.*（她无意中透露了她计划辞职。）
 - **slip one's mind**：被遗忘
-  - *I'm sorry I forgot — it completely slipped my mind.*
+  - *I'm sorry I forgot — it completely slipped my mind.*（对不起我忘了——我完全忘记了。）
 
 ## 真题/语料关联
 

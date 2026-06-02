@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **enrol in**：注册参加（课程、学校等）
-  - *She enrolled in a master's program at Oxford.*
+  - *She enrolled in a master's program at Oxford.*（她注册了牛津大学的硕士课程。）
 - **enrol for**：报名参加（考试、活动等）
-  - *He enrolled for the driving test next month.*
+  - *He enrolled for the driving test next month.*（他报名参加了下个月的驾驶考试。）
 - **enrol students / enrol applicants**：招收学生/录取申请者
-  - *The university enrolls over 5,000 students each year.*
+  - *The university enrolls over 5,000 students each year.*（这所大学每年招收5000多名学生。）
 - **enrol in the army**：参军入伍
-  - *He enrolled in the army right after high school.*
+  - *He enrolled in the army right after high school.*（他高中毕业后就参军了。）
 - **self-enrol**：自主注册
-  - *Students can self-enrol through the online portal.*
+  - *Students can self-enrol through the online portal.*（学生可以通过在线门户自主注册。）
 
 ## 真题/语料关联
 

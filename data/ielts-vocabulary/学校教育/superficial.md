@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **superficial analysis**：肤浅的分析
-  - *The report contains only a superficial analysis of the problem.*
+  - *The report contains only a superficial analysis of the problem.*（该报告只包含对问题的肤浅分析。）
 - **superficial knowledge**：肤浅的知识
-  - *He has only a superficial knowledge of the subject.*
+  - *He has only a superficial knowledge of the subject.*（他对这个学科只有肤浅的了解。）
 - **superficial understanding**：表面的理解
-  - *The book provides a superficial understanding of the topic.*
+  - *The book provides a superficial understanding of the topic.*（这本书提供了对该话题的表面理解。）
 - **superficial resemblance**：表面的相似
-  - *The two ideas have only a superficial resemblance.*
+  - *The two ideas have only a superficial resemblance.*（这两个想法只有表面的相似性。）
 - **superficial wound**：表皮伤
-  - *The doctor said it was only a superficial wound.*
+  - *The doctor said it was only a superficial wound.*（医生说那只是表皮伤。）
 
 ## 真题/语料关联
 

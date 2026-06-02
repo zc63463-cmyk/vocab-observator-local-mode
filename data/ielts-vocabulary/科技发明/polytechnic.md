@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **attend/go to a polytechnic**：上理工学院
-  - *He attended a polytechnic to study mechanical engineering.*
+  - *He attended a polytechnic to study mechanical engineering.*（他上了一所理工学院学习机械工程。）
 - **polytechnic university/institute**：理工大学
-  - *The polytechnic institute offers degrees in applied sciences.*
+  - *The polytechnic institute offers degrees in applied sciences.*（这所理工学院提供应用科学学位。）
 - **polytechnic education**：理工教育
-  - *Polytechnic education emphasizes practical skills over theoretical knowledge.*
+  - *Polytechnic education emphasizes practical skills over theoretical knowledge.*（理工教育更强调实践技能而非理论知识。）
 - **polytechnic graduate**：理工学院毕业生
-  - *Polytechnic graduates are highly sought after by employers.*
+  - *Polytechnic graduates are highly sought after by employers.*（理工学院毕业生很受雇主欢迎。）
 
 ## 真题/语料关联
 

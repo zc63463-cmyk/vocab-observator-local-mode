@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **polar expedition**：极地探险
-  - *The polar expedition reached the North Pole after weeks of travel.*
+  - *The polar expedition reached the North Pole after weeks of travel.*（极地探险队经过数周行程后到达了北极点。）
 - **mountain expedition**：登山探险
-  - *The mountain expedition to Everest Base Camp takes about two weeks.*
+  - *The mountain expedition to Everest Base Camp takes about two weeks.*（前往珠峰大本营的山地探险大约需要两周时间。）
 - **scientific expedition**：科学考察
-  - *The scientific expedition to the Amazon discovered several new species.*
+  - *The scientific expedition to the Amazon discovered several new species.*（前往亚马逊的科学考察队发现了几个新物种。）
 - **join an expedition**：加入探险队
-  - *She joined the expedition as the team's medical officer.*
+  - *She joined the expedition as the team's medical officer.*（她作为团队的医疗官加入了这次探险。）
 - **with expedition**：迅速地（较旧用法）
-  - *The task was completed with great expedition.*
+  - *The task was completed with great expedition.*（这项任务以极快的速度完成了。）
 
 ## 真题/语料关联
 

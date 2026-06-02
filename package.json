@@ -14,7 +14,12 @@
     "db:down": "docker compose down",
     "db:setup": "tsx scripts/setup-db.ts",
     "db:reset": "docker compose down -v && docker compose up -d && node -e \"setTimeout(()=>process.exit(0),3000)\" && npm run db:setup",
-    "sync:vault": "tsx scripts/sync-vault.ts"
+    "sync:vault": "tsx scripts/sync-vault.ts",
+    "backup": "tsx scripts/backup-db.ts",
+    "backup:list": "tsx scripts/backup-db.ts list",
+    "backup:restore": "tsx scripts/backup-db.ts restore",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@open-spaced-repetition/binding": "^0.3.0",
@@ -51,6 +56,7 @@
     "@vitest/coverage-v8": "^4.1.5",
     "eslint": "^9",
     "eslint-config-next": "^16.2.6",
+    "prettier": "^3.8.3",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5",

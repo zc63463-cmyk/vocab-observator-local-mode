@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **illuminate the issue/problem**：阐明问题
-  - *The study helps to illuminate the complex relationship between diet and health.*
+  - *The study helps to illuminate the complex relationship between diet and health.*（这项研究有助于阐明饮食与健康之间的复杂关系。）
 - **illuminate the room**：照亮房间
-  - *Candles illuminated the room with a warm glow.*
+  - *Candles illuminated the room with a warm glow.*（蜡烛用温暖的光芒照亮了房间。）
 - **illuminated manuscript**：泥金装饰手稿
-  - *The illuminated manuscript is displayed in the museum's medieval collection.*
+  - *The illuminated manuscript is displayed in the museum's medieval collection.*（这本泥金装饰手稿在博物馆的中世纪藏品中展出。）
 - **shed light on / illuminate**：阐明，揭示
-  - *New evidence has illuminated the causes of the crisis.*
+  - *New evidence has illuminated the causes of the crisis.*（新证据阐明了危机的起因。）
 - **brilliantly illuminated**：被精彩地阐明
-  - *The author has brilliantly illuminated a little-known chapter of history.*
+  - *The author has brilliantly illuminated a little-known chapter of history.*（作者精彩地阐明了一段鲜为人知的历史篇章。）
 
 ## 真题/语料关联
 

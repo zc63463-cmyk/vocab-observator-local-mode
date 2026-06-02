@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **raise a query**：提出疑问
-  - *She raised a query about the accuracy of the data.*
+  - *She raised a query about the accuracy of the data.*（中文翻译）
 - **a query about**：关于……的疑问
-  - *I have a query about the booking.*
+  - *I have a query about the booking.*（中文翻译）
 - **query something**：询问某事
-  - *He queried the decision.*
+  - *He queried the decision.*（中文翻译）
 - **query whether**：质疑是否
-  - *She queried whether the results were accurate.*
+  - *She queried whether the results were accurate.*（中文翻译）
 - **database query**：数据库查询
-  - *The system processes thousands of queries per second.*
+  - *The system processes thousands of queries per second.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study psychology**：学习心理学
-  - *She decided to study psychology at university.*
+  - *She decided to study psychology at university.*（中文翻译）
 - **clinical psychology**：临床心理学
-  - *Clinical psychology focuses on treating mental health disorders.*
+  - *Clinical psychology focuses on treating mental health disorders.*（中文翻译）
 - **social psychology**：社会心理学
-  - *Social psychology examines how people influence each other.*
+  - *Social psychology examines how people influence each other.*（中文翻译）
 - **psychology of**：……的心理
-  - *The psychology of fear is a fascinating topic.*
+  - *The psychology of fear is a fascinating topic.*（中文翻译）
 - **psychological** (adj.)：心理的
-  - *The psychological effects of trauma can be long-lasting.*
+  - *The psychological effects of trauma can be long-lasting.*（中文翻译）
 
 ## 真题/语料关联
 

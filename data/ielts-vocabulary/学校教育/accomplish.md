@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **accomplish a task/goal**：完成任务/目标
-  - *She accomplished her goal of graduating with honors.*
+  - *She accomplished her goal of graduating with honors.*（她实现了以优异成绩毕业的目标。）
 - **accomplish a mission**：完成使命
-  - *The team accomplished the mission ahead of schedule.*
+  - *The team accomplished the mission ahead of schedule.*（团队提前完成了任务。）
 - **accomplish great things**：成就大事
-  - *With determination, anyone can accomplish great things.*
+  - *With determination, anyone can accomplish great things.*（只要有决心，任何人都能成就大事。）
 - **accomplish one's aim**：达成目的
-  - *He accomplished his aim of becoming a doctor.*
+  - *He accomplished his aim of becoming a doctor.*（他实现了成为医生的目标。）
 - **accomplish the impossible**：完成不可能的事
-  - *They accomplished what many thought was impossible.*
+  - *They accomplished what many thought was impossible.*（他们完成了许多人认为不可能做到的事。）
 
 ## 真题/语料关联
 

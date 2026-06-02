@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **drainage system**：排水系统
-  - *The city invested millions in upgrading its drainage system.*
+  - *The city invested millions in upgrading its drainage system.*（该城市投资数百万升级排水系统。）
 - **poor/good drainage**：排水不良/良好
-  - *Plants need soil with good drainage to prevent root rot.*
+  - *Plants need soil with good drainage to prevent root rot.*（植物需要排水良好的土壤以防止根腐病。）
 - **drainage basin**：流域，排水盆地
-  - *The Amazon drainage basin covers a vast area of South America.*
+  - *The Amazon drainage basin covers a vast area of South America.*（亚马逊流域覆盖了南美洲的广大地区。）
 - **drainage pipe/channel**：排水管/排水渠
-  - *Blocked drainage pipes can cause flooding.*
+  - *Blocked drainage pipes can cause flooding.*（堵塞的排水管可能导致洪水。）
 - **surface drainage**：地表排水
-  - *Surface drainage is important for preventing waterlogging.*
+  - *Surface drainage is important for preventing waterlogging.*（地表排水对防止涝灾很重要。）
 
 ## 真题/语料关联
 

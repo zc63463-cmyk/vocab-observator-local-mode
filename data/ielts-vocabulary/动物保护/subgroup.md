@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a subgroup of**：……的一个子群
-  - *A subgroup of patients showed improvement with the new treatment.*
+  - *A subgroup of patients showed improvement with the new treatment.*（一组患者在接受新治疗后有所改善。）
 - **within a subgroup**：在一个子群内部
-  - *There were differences within each subgroup.*
+  - *There were differences within each subgroup.*（每个亚组内部存在差异。）
 - **divide into subgroups**：分成子群
-  - *The participants were divided into subgroups for the discussion.*
+  - *The participants were divided into subgroups for the discussion.*（参与者被分成小组进行讨论。）
 - **subgroup analysis**：亚组分析（统计学）
-  - *The subgroup analysis revealed interesting patterns.*
+  - *The subgroup analysis revealed interesting patterns.*（亚组分析揭示了有趣的模式。）
 - **ethnic subgroup**：族裔亚群
-  - *The country has many ethnic subgroups with distinct cultures.*
+  - *The country has many ethnic subgroups with distinct cultures.*（这个国家有许多具有独特文化的族群。）
 
 ## 真题/语料关联
 

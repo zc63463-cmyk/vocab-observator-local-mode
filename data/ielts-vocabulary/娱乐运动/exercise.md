@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **physical exercise**：体育锻炼
-  - *Regular physical exercise is important for good health.*
+  - *Regular physical exercise is important for good health.*（规律的体育锻炼对保持健康很重要。）
 - **exercise regularly**：定期锻炼
-  - *She exercises regularly to stay fit.*
+  - *She exercises regularly to stay fit.*（她定期锻炼以保持健康。）
 - **do exercise**：做锻炼
-  - *I do exercise every morning before work.*
+  - *I do exercise every morning before work.*（我每天早上上班前做锻炼。）
 - **exercise your right**：行使你的权利
-  - *You have the right to exercise your vote.*
+  - *You have the right to exercise your vote.*（你有权利行使你的投票权。）
 - **breathing exercise**：呼吸练习
-  - *Yoga includes breathing exercises for relaxation.*
+  - *Yoga includes breathing exercises for relaxation.*（瑜伽包括用于放松的呼吸练习。）
 
 ## 真题/语料关联
 

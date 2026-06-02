@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **controversial issue**：有争议的议题
-  - *Immigration is a controversial issue in many countries.*
+  - *Immigration is a controversial issue in many countries.*（移民在许多国家都是一个有争议的议题。）
 - **controversial decision**：有争议的决定
-  - *The judge made a controversial decision that angered many people.*
+  - *The judge made a controversial decision that angered many people.*（法官做出了一个激怒了许多人的有争议的决定。）
 - **controversial topic**：有争议的话题
-  - *Abortion remains a controversial topic in society.*
+  - *Abortion remains a controversial topic in society.*（堕胎仍然是社会上的一个有争议的话题。）
 - **controversial figure**：有争议的人物
-  - *The politician is a controversial figure in national politics.*
+  - *The politician is a controversial figure in national politics.*（这位政治家是国家政坛上的一位有争议的人物。）
 - **controversial view**：有争议的观点
-  - *She expressed a controversial view on education reform.*
+  - *She expressed a controversial view on education reform.*（她表达了一个关于教育改革的有争议的观点。）
 - **highly controversial**：极具争议的
-  - *The new law is highly controversial and has sparked protests.*
+  - *The new law is highly controversial and has sparked protests.*（这项新法律极具争议，引发了抗议活动。）
 
 ## 真题/语料关联
 

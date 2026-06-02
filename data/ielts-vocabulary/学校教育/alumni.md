@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **alumni association**：校友会
-  - *The alumni association organized a reunion dinner for the class of 2010.*
+  - *The alumni association organized a reunion dinner for the class of 2010.*（校友会为2010届毕业生组织了一次 reunion 晚宴。）
 - **alumni network**：校友网络
-  - *A strong alumni network can help graduates find job opportunities.*
+  - *A strong alumni network can help graduates find job opportunities.*（强大的校友网络可以帮助毕业生找到工作机会。）
 - **alumni donation**：校友捐赠
-  - *The university raised millions through alumni donations.*
+  - *The university raised millions through alumni donations.*（大学通过校友捐赠筹集了数百万资金。）
 - **alumni event / alumni reunion**：校友活动/校友聚会
-  - *We attended the annual alumni reunion last weekend.*
+  - *We attended the annual alumni reunion last weekend.*（我们上周末参加了年度校友聚会。）
 - **distinguished alumni**：杰出校友
-  - *The university honored its distinguished alumni at the ceremony.*
+  - *The university honored its distinguished alumni at the ceremony.*（大学在典礼上表彰了杰出校友。）
 
 ## 真题/语料关联
 

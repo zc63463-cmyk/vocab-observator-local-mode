@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a rough draft**：草稿
-  - *I've written a rough draft of my essay.*
+  - *I've written a rough draft of my essay.*（我已经写好了文章的草稿。）
 - **first draft**：初稿
-  - *The first draft is always the hardest to write.*
+  - *The first draft is always the hardest to write.*（初稿总是最难写的。）
 - **draft a document**：起草文件
-  - *The lawyer drafted the contract overnight.*
+  - *The lawyer drafted the contract overnight.*（律师一夜之间起草了合同。）
 - **on draft**：（啤酒）散装的
-  - *We have several beers on draft.*
+  - *We have several beers on draft.*（我们有几种散装啤酒。）
 - **draft beer**：生啤
-  - *I'd like a pint of draft beer, please.*
+  - *I'd like a pint of draft beer, please.*（请给我来一品脱生啤。）
 
 ## 真题/语料关联
 

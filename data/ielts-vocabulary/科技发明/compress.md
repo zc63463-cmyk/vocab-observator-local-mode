@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **compressed air**：压缩空气
-  - *The factory uses compressed air to power its tools.*
+  - *The factory uses compressed air to power its tools.*（工厂使用压缩空气来驱动工具。）
 - **compress the data/file**：压缩数据/文件
-  - *You need to compress the file before sending it by email.*
+  - *You need to compress the file before sending it by email.*（在通过电子邮件发送文件之前，你需要压缩它。）
 - **compress the schedule**：压缩时间表
-  - *We need to compress the schedule to meet the deadline.*
+  - *We need to compress the schedule to meet the deadline.*（我们需要压缩时间表以赶上截止日期。）
 - **cold/hot compress**：冷敷/热敷
-  - *Apply a cold compress to reduce the swelling.*
+  - *Apply a cold compress to reduce the swelling.*（用冷敷来消肿。）
 - **compress into**：压缩成
-  - *The entire report was compressed into a single page.*
+  - *The entire report was compressed into a single page.*（整份报告被压缩成了一页。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **practice yoga**：练习瑜伽
-  - *She practices yoga every morning to stay calm.*
+  - *She practices yoga every morning to stay calm.*（她每天早上练习瑜伽以保持平静。）
 - **yoga class**：瑜伽课
-  - *I signed up for a yoga class at the local gym.*
+  - *I signed up for a yoga class at the local gym.*（我在当地健身房报名了一个瑜伽班。）
 - **yoga mat**：瑜伽垫
-  - *Don't forget to bring your yoga mat to class.*
+  - *Don't forget to bring your yoga mat to class.*（别忘了带瑜伽垫来上课。）
 - **yoga pose**：瑜伽姿势
-  - *The yoga pose requires flexibility and balance.*
+  - *The yoga pose requires flexibility and balance.*（这个瑜伽体式需要柔韧性和平衡力。）
 - **yoga philosophy**：瑜伽哲学
-  - *Yoga philosophy emphasizes the connection between mind and body.*
+  - *Yoga philosophy emphasizes the connection between mind and body.*（瑜伽哲学强调身心之间的联系。）
 
 ## 真题/语料关联
 

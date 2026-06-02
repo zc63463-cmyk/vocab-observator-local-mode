@@ -87,15 +87,15 @@ review_count: 0
 ## 搭配与短语
 
 - **measure the temperature**：测量温度
-  - *Use a thermometer to measure the temperature of the water.*
+  - *Use a thermometer to measure the temperature of the water.*（使用温度计测量水温。）
 - **safety measure**：安全措施
-  - *The company has implemented new safety measures to protect workers.*
+  - *The company has implemented new safety measures to protect workers.*（公司实施了新的安全措施来保护工人。）
 - **preventive measure**：预防措施
-  - *Vaccination is an effective preventive measure against diseases.*
+  - *Vaccination is an effective preventive measure against diseases.*（接种疫苗是预防疾病的有效措施。）
 - **take measures**：采取措施
-  - *The government must take measures to reduce pollution.*
+  - *The government must take measures to reduce pollution.*（政府必须采取措施减少污染。）
 - **in some measure**：在一定程度上
-  - *The project was in some measure successful.*
+  - *The project was in some measure successful.*（这个项目在某种程度上是成功的。）
 
 ## 真题/语料关联
 

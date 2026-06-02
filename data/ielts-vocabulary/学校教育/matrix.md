@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **matrix multiplication**：矩阵乘法
-  - *Matrix multiplication is a fundamental operation in linear algebra.*
+  - *Matrix multiplication is a fundamental operation in linear algebra.*（中文翻译）
 - **extracellular matrix**：细胞外基质
-  - *The extracellular matrix provides structural support to cells.*
+  - *The extracellular matrix provides structural support to cells.*（中文翻译）
 - **decision matrix**：决策矩阵
-  - *A decision matrix helps to evaluate different options systematically.*
+  - *A decision matrix helps to evaluate different options systematically.*（中文翻译）
 - **the matrix of society**：社会的母体
-  - *Language is often described as the matrix of society.*
+  - *Language is often described as the matrix of society.*（中文翻译）
 - **in the matrix**：在矩阵中
-  - *The data is organized in a matrix format.*
+  - *The data is organized in a matrix format.*（中文翻译）
 
 ## 真题/语料关联
 

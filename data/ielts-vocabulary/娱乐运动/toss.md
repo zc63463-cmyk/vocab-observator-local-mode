@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **toss a coin**：抛硬币（做决定）
-  - *Let's toss a coin to settle the argument.*
+  - *Let's toss a coin to settle the argument.*（我们抛硬币解决争论吧。）
 - **toss and turn**：辗转反侧
-  - *I tossed and turned all night, unable to fall asleep.*
+  - *I tossed and turned all night, unable to fall asleep.*（我整夜辗转反侧，无法入睡。）
 - **toss a salad**：拌沙拉
-  - *Toss the salad with olive oil and lemon juice.*
+  - *Toss the salad with olive oil and lemon juice.*（用橄榄油和柠檬汁拌沙拉。）
 - **toss aside**：丢在一旁；不予理会
-  - *She tossed aside her concerns and went ahead with the plan.*
+  - *She tossed aside her concerns and went ahead with the plan.*（她抛开顾虑，继续执行计划。）
 - **win the toss**：赢得抛硬币（获得先选权）
-  - *England won the toss and elected to bat first.*
+  - *England won the toss and elected to bat first.*（英格兰队赢得了掷币选择权，决定先击球。）
 
 ## 真题/语料关联
 

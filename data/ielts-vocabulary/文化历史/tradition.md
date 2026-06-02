@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cultural tradition**：文化传统
-  - *We should respect and preserve our cultural traditions.*
+  - *We should respect and preserve our cultural traditions.*（我们应该尊重和保护我们的文化传统。）
 - **by tradition**：按照传统
-  - *By tradition, the festival is celebrated on the first day of the lunar year.*
+  - *By tradition, the festival is celebrated on the first day of the lunar year.*（按照传统，这个节日在农历新年的第一天庆祝。）
 - **traditional values**：传统价值观
-  - *Some people believe that traditional values are being eroded by modern life.*
+  - *Some people believe that traditional values are being eroded by modern life.*（有些人认为传统价值观正被现代生活侵蚀。）
 - **a long tradition**：悠久的传统
-  - *The university has a long tradition of academic excellence.*
+  - *The university has a long tradition of academic excellence.*（这所大学有着学术卓越的悠久传统。）
 - **break with tradition**：打破传统
-  - *The company decided to break with tradition and launch a new product line.*
+  - *The company decided to break with tradition and launch a new product line.*（公司决定打破传统，推出新产品线。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ice cube**：冰块
-  - *She added a few ice cubes to her drink.*
+  - *She added a few ice cubes to her drink.*（她往饮料里加了几块冰块。）
 - **sugar cube**：方糖
-  - *He dropped a sugar cube into his coffee.*
+  - *He dropped a sugar cube into his coffee.*（他往咖啡里放了一块方糖。）
 - **cube root**：立方根
-  - *The cube root of 27 is 3.*
+  - *The cube root of 27 is 3.*（27的立方根是3。）
 - **Rubik's cube**：魔方
-  - *Solving a Rubik's cube requires logical thinking and patience.*
+  - *Solving a Rubik's cube requires logical thinking and patience.*（解魔方需要逻辑思维和耐心。）
 - **cube the number**：求立方
-  - *If you cube 2, you get 8.*
+  - *If you cube 2, you get 8.*（如果你求2的立方，你会得到8。）
 
 ## 真题/语料关联
 

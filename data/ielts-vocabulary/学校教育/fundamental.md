@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fundamental principles**：基本原则
-  - *The fundamental principles of democracy must be protected.*
+  - *The fundamental principles of democracy must be protected.*（民主的基本原则必须得到保护。）
 - **fundamental rights**：基本权利
-  - *Freedom of speech is a fundamental right in many countries.*
+  - *Freedom of speech is a fundamental right in many countries.*（言论自由在许多国家是一项基本权利。）
 - **fundamental difference**：根本差异
-  - *There is a fundamental difference between the two theories.*
+  - *There is a fundamental difference between the two theories.*（这两种理论之间存在根本性差异。）
 - **fundamental change**：根本性变化
-  - *The company needs fundamental change to survive.*
+  - *The company needs fundamental change to survive.*（公司需要根本性变革才能生存。）
 - **fundamental to**：对……至关重要
-  - *Trust is fundamental to any healthy relationship.*
+  - *Trust is fundamental to any healthy relationship.*（信任对任何健康的关系都至关重要。）
 
 ## 真题/语料关联
 

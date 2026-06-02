@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **liquid water**：液态水
-  - *The discovery of liquid water on Mars has implications for the possibility of life.*
+  - *The discovery of liquid water on Mars has implications for the possibility of life.*（火星上液态水的发现对存在生命的可能性具有重要意义。）
 - **liquid state**：液态
-  - *Water is in a liquid state at room temperature.*
+  - *Water is in a liquid state at room temperature.*（水在室温下处于液态。）
 - **liquid assets**：流动资产
-  - *The company needs to maintain sufficient liquid assets to cover short-term debts.*
+  - *The company needs to maintain sufficient liquid assets to cover short-term debts.*（公司需要保持足够的流动资产来偿还短期债务。）
 - **liquid fuel**：液体燃料
-  - *Liquid fuel rockets are more powerful than solid fuel rockets.*
+  - *Liquid fuel rockets are more powerful than solid fuel rockets.*（液体燃料火箭比固体燃料火箭更强大。）
 - **liquid crystal**：液晶
-  - *Liquid crystal displays (LCDs) are used in most modern screens.*
+  - *Liquid crystal displays (LCDs) are used in most modern screens.（液晶显示器（LCD）用于大多数现代屏幕。）*
 
 ## 真题/语料关联
 

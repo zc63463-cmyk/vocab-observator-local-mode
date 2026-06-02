@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **slide on the ice**：在冰上滑行
-  - *The children loved to slide on the frozen lake.*
+  - *The children loved to slide on the frozen lake.*（孩子们喜欢在结冰的湖面上滑行。）
 - **slide into base**：滑垒（棒球）
-  - *The runner slid into home plate just in time.*
+  - *The runner slid into home plate just in time.*（跑垒员及时滑进了本垒。）
 - **let slide**：放任不管
-  - *Don't let your homework slide until the last minute.*
+  - *Don't let your homework slide until the last minute.*（不要把你的作业拖到最后一分钟。）
 - **slide into**：不知不觉陷入
-  - *The country slid into a deep economic crisis.*
+  - *The country slid into a deep economic crisis.*（这个国家陷入了严重的经济危机。）
 - **slide show**：幻灯片展示
-  - *She prepared an impressive slide show for her presentation.*
+  - *She prepared an impressive slide show for her presentation.*（她为演讲准备了一场令人印象深刻的幻灯片展示。）
 
 ## 真题/语料关联
 

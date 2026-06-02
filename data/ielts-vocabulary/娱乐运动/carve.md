@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **carve a statue**：雕刻雕像
-  - *The artist carved a beautiful statue from marble.*
+  - *The artist carved a beautiful statue from marble.*（艺术家用大理石雕刻了一尊美丽的雕像。）
 - **carve out**：开辟，开拓
-  - *She carved out a successful career in finance.*
+  - *She carved out a successful career in finance.*（她在金融领域开拓了一番成功的事业。）
 - **carve up**：分割，瓜分
-  - *The company was carved up into smaller parts.*
+  - *The company was carved up into smaller parts.*（公司被分割成了几个较小的部分。）
 - **carve one's name**：刻下名字
-  - *They carved their names on the tree.*
+  - *They carved their names on the tree.*（他们把名字刻在了树上。）
 - **carve in stone**：固定不变
-  - *The rules are not carved in stone; they can be changed.*
+  - *The rules are not carved in stone; they can be changed.*（这些规则不是一成不变的；它们可以更改。）
 
 ## 真题/语料关联
 

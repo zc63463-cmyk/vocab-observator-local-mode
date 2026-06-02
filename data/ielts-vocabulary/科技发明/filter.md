@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **water filter**：水过滤器
-  - *The water filter removes impurities from tap water.*
+  - *The water filter removes impurities from tap water.*（水过滤器去除自来水中的杂质。）
 - **air filter**：空气过滤器
-  - *Replace the air filter in your air conditioner regularly.*
+  - *Replace the air filter in your air conditioner regularly.*（定期更换空调中的空气过滤器。）
 - **spam filter**：垃圾邮件过滤器
-  - *The spam filter blocked the suspicious email.*
+  - *The spam filter blocked the suspicious email.*（垃圾邮件过滤器拦截了可疑邮件。）
 - **filter out**：过滤掉
-  - *The software filters out inappropriate content.*
+  - *The software filters out inappropriate content.*（该软件过滤掉不适当的内容。）
 - **filter through**：渗透，慢慢传开
-  - *The news filtered through to the public slowly.*
+  - *The news filtered through to the public slowly.*（消息慢慢传到了公众那里。）
 
 ## 真题/语料关联
 

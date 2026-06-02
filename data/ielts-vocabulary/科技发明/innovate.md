@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **innovate in**：在……方面创新
-  - *Companies must constantly innovate in order to stay competitive.*
+  - *Companies must constantly innovate in order to stay competitive.*（公司必须不断创新以保持竞争力。）
 - **continue to innovate**：持续创新
-  - *The tech giant continues to innovate with cutting-edge products.*
+  - *The tech giant continues to innovate with cutting-edge products.*（这家科技巨头继续以尖端产品进行创新。）
 - **innovate new solutions/products**：创新解决方案/产品
-  - *The team innovated new solutions to address climate change.*
+  - *The team innovated new solutions to address climate change.*（团队创新了新的解决方案来应对气候变化。）
 - **drive innovation**：推动创新
-  - *Competition drives innovation in the marketplace.*
+  - *Competition drives innovation in the marketplace.*（竞争推动了市场中的创新。）
 - **culture of innovation**：创新文化
-  - *A culture of innovation is essential for long-term success.*
+  - *A culture of innovation is essential for long-term success.*（创新文化对长期成功至关重要。）
 
 ## 真题/语料关联
 

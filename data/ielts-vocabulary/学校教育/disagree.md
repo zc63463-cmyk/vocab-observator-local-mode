@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **disagree with**：不同意
-  - *I disagree with your assessment of the situation.*
+  - *I disagree with your assessment of the situation.*（我不同意你对情况的评估。）
 - **disagree about/on**：在……上意见不同
-  - *The experts disagree on the best approach.*
+  - *The experts disagree on the best approach.*（专家们对最佳方法意见不一。）
 - **strongly disagree**：强烈不同意
-  - *She strongly disagreed with the decision.*
+  - *She strongly disagreed with the decision.*（她强烈反对这个决定。）
 - **agree to disagree**：同意保留不同意见
-  - *We decided to agree to disagree.*
+  - *We decided to agree to disagree.*（我们决定求同存异。）
 - **disagreement** (n.)：分歧
-  - *There is disagreement among the researchers.*
+  - *There is disagreement among the researchers.*（研究人员之间存在分歧。）
 
 ## 真题/语料关联
 

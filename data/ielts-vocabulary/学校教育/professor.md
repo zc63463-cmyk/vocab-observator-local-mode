@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **Professor + 姓名**：教授（头衔）
-  - *Professor Zhang will give a lecture on climate change.*
+  - *Professor Zhang will give a lecture on climate change.*（中文翻译）
 - **associate/assistant professor**：副教授/助理教授
-  - *She was promoted to associate professor last year.*
+  - *She was promoted to associate professor last year.*（中文翻译）
 - **visiting professor**：客座教授
-  - *He served as a visiting professor at Harvard.*
+  - *He served as a visiting professor at Harvard.*（中文翻译）
 - **professor emeritus**：荣誉退休教授
-  - *The professor emeritus still comes to campus every week.*
+  - *The professor emeritus still comes to campus every week.*（中文翻译）
 - **professor of**：……教授
-  - *He is a professor of economics at the university.*
+  - *He is a professor of economics at the university.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **library catalogue**：图书馆目录
-  - *You can search the library catalogue online.*
+  - *You can search the library catalogue online.*（你可以在线搜索图书馆目录。）
 - **mail-order catalogue**：邮购目录
-  - *The company sends out a mail-order catalogue every season.*
+  - *The company sends out a mail-order catalogue every season.*（公司每个季度都发送邮购目录。）
 - **product catalogue**：产品目录
-  - *The product catalogue includes detailed specifications.*
+  - *The product catalogue includes detailed specifications.*（产品目录包含详细的规格说明。）
 - **catalogue raisonné**：作品全集目录
-  - *The catalogue raisonné lists all of the artist's works.*
+  - *The catalogue raisonné lists all of the artist's works.*（作品全集目录列出了这位艺术家的所有作品。）
 - **catalogue of disasters**：一连串的灾难
-  - *The project was a catalogue of disasters from start to finish.*
+  - *The project was a catalogue of disasters from start to finish.*（这个项目从头到尾都是一连串的灾难。）
 
 ## 真题/语料关联
 

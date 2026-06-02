@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ferment grapes**：发酵葡萄
-  - *Winemakers ferment grapes to produce wine.*
+  - *Winemakers ferment grapes to produce wine.*（酿酒师发酵葡萄来酿造葡萄酒。）
 - **in ferment**：在发酵中；在骚动中
-  - *The country was in political ferment after the election.*
+  - *The country was in political ferment after the election.*（选举后该国处于政治动荡之中。）
 - **political ferment**：政治骚动
-  - *The revolution created a period of political ferment.*
+  - *The revolution created a period of political ferment.*（革命创造了一段政治动荡时期。）
 - **ferment unrest**：引起骚动
-  - *The new law fermented unrest among the workers.*
+  - *The new law fermented unrest among the workers.*（新法律在工人中引起了骚动。）
 - **ferment plans**：酝酿计划
-  - *They were fermenting plans for a surprise party.*
+  - *They were fermenting plans for a surprise party.*（他们正在酝酿惊喜派对的计划。）
 
 ## 真题/语料关联
 

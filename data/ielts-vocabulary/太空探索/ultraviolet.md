@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ultraviolet radiation**：紫外线辐射
-  - *Ultraviolet radiation from the Sun can cause skin damage.*
+  - *Ultraviolet radiation from the Sun can cause skin damage.*（太阳的紫外线辐射会导致皮肤损伤。）
 - **UV protection**：紫外线防护
-  - *Sunglasses provide UV protection for your eyes.*
+  - *Sunglasses provide UV protection for your eyes.*（太阳镜为您的眼睛提供紫外线防护。）
 - **ultraviolet light**：紫外线
-  - *Ultraviolet light is invisible to the human eye.*
+  - *Ultraviolet light is invisible to the human eye.*（紫外线是人眼看不见的。）
 - **UV index**：紫外线指数
-  - *The UV index is high today, so wear sunscreen.*
+  - *The UV index is high today, so wear sunscreen.*（今天的紫外线指数很高，请涂抹防晒霜。）
 - **ultraviolet lamp**：紫外线灯
-  - *Ultraviolet lamps are used in tanning salons.*
+  - *Ultraviolet lamps are used in tanning salons.*（紫外线灯用于日光浴沙龙。）
 
 ## 真题/语料关联
 

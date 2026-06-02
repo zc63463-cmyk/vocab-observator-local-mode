@@ -76,15 +76,15 @@ jump 是拟声词，模仿双脚离地时的短促爆发声。与 bump（碰撞�
 ## 搭配与短语
 
 - **jump high/far**：跳得高/远
-  - *The athlete jumped over 2 meters in the high jump.*
+  - *The athlete jumped over 2 meters in the high jump.*（这位运动员跳高跳过了两米。）
 - **jump over**：跳过
-  - *The horse jumped over the fence effortlessly.*
+  - *The horse jumped over the fence effortlessly.*（那匹马轻松地跳过了栅栏。）
 - **jump to conclusions**：仓促下结论
-  - *Don't jump to conclusions before you hear the full story.*
+  - *Don't jump to conclusions before you hear the full story.*（在听完完整的故事之前别急着下结论。）
 - **jump the queue**：插队（英式）
-  - *It's rude to jump the queue.*
+  - *It's rude to jump the queue.*（插队是不礼貌的。）
 - **get a jump on**：抢先一步
-  - *We need to get a jump on our competitors.*
+  - *We need to get a jump on our competitors.*（我们需要抢先竞争对手一步。）
 
 ## 真题/语料关联
 

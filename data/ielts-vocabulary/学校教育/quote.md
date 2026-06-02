@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **quote from**：引用自
-  - *She quoted from the article to support her point.*
+  - *She quoted from the article to support her point.*（她引用文章中的内容来支持她的观点。）
 - **direct quote**：直接引用
-  - *Use direct quotes sparingly in academic writing.*
+  - *Use direct quotes sparingly in academic writing.*（在学术写作中谨慎使用直接引用。）
 - **quote a price**：报价
-  - *The contractor quoted a price of $5000 for the repairs.*
+  - *The contractor quoted a price of $5000 for the repairs.*（承包商对维修报价5000美元。）
 - **quote unquote**：所谓的（口语中表示引号）
-  - *He's a quote unquote expert in the field.*
+  - *He's a quote unquote expert in the field.*（他是一名所谓的该领域专家。）
 - **out of context quote**：断章取义的引用
-  - *The journalist was accused of using out of context quotes.*
+  - *The journalist was accused of using out of context quotes.*（该记者被指控使用断章取义的引用。）
 
 ## 真题/语料关联
 

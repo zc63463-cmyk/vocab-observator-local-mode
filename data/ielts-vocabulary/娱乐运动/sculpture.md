@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **marble sculpture**：大理石雕塑
-  - *The museum has a famous marble sculpture from ancient Greece.*
+  - *The museum has a famous marble sculpture from ancient Greece.*（博物馆有一座著名的古希腊大理石雕塑。）
 - **bronze sculpture**：青铜雕塑
-  - *The park features a bronze sculpture of the city's founder.*
+  - *The park features a bronze sculpture of the city's founder.*（公园里有一座城市创始人的青铜雕塑。）
 - **sculpture garden**：雕塑花园
-  - *The sculpture garden is open to the public.*
+  - *The sculpture garden is open to the public.*（雕塑花园对公众开放。）
 - **sculpture of**：……的雕塑
-  - *There is a sculpture of a horse in the square.*
+  - *There is a sculpture of a horse in the square.*（广场上有一座马的雕塑。）
 - **contemporary sculpture**：当代雕塑
-  - *The exhibition showcases contemporary sculpture.*
+  - *The exhibition showcases contemporary sculpture.*（展览展示了当代雕塑。）
 
 ## 真题/语料关联
 

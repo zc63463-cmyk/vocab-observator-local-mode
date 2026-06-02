@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **friction between**：……之间的摩擦
-  - *There is a lot of friction between the two departments.*
+  - *There is a lot of friction between the two departments.*（两个部门之间有很多摩擦。）
 - **reduce friction**：减少摩擦
-  - *Lubricants are used to reduce friction between moving parts.*
+  - *Lubricants are used to reduce friction between moving parts.*（润滑剂用于减少运动部件之间的摩擦。）
 - **cause friction**：引起摩擦
-  - *The new policy caused friction among employees.*
+  - *The new policy caused friction among employees.*（新政策在员工中引起了摩擦。）
 - **political friction**：政治摩擦
-  - *Political friction between the two countries has increased.*
+  - *Political friction between the two countries has increased.*（两国之间的政治摩擦加剧了。）
 - **trade friction**：贸易摩擦
-  - *Trade friction can lead to economic instability.*
+  - *Trade friction can lead to economic instability.*（贸易摩擦可能导致经济不稳定。）
 
 ## 真题/语料关联
 

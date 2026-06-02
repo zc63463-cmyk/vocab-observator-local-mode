@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **permit sb to do sth**：允许某人做某事
-  - *The rules do not permit employees to work from home.*
+  - *The rules do not permit employees to work from home.*（中文翻译）
 - **work permit**：工作许可证
-  - *Foreign workers need a valid work permit.*
+  - *Foreign workers need a valid work permit.*（中文翻译）
 - **weather/time permitting**：如果天气/时间允许
-  - *We'll have a picnic, weather permitting.*
+  - *We'll have a picnic, weather permitting.*（中文翻译）
 - **parking permit**：停车许可证
-  - *You need a parking permit to park on campus.*
+  - *You need a parking permit to park on campus.*（中文翻译）
 - **permit of**：容许（正式用法）
-  - *The situation permits of no delay.*
+  - *The situation permits of no delay.*（中文翻译）
 
 ## 真题/语料关联
 

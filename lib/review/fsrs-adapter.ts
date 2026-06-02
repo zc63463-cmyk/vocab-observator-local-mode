@@ -107,9 +107,24 @@ function toCard(payload?: StoredSchedulerCard | null): Card {
     return createEmptyCard();
   }
 
+  // Defensive: if the stored payload is malformed (e.g. missing state),
+  // fall back to an empty card rather than letting ts-fsrs throw at runtime.
+  if (
+    typeof payload.state !== "number" ||
+    !Number.isFinite(payload.difficulty) ||
+    !Number.isFinite(payload.stability)
+  ) {
+    return createEmptyCard();
+  }
+
+  const dueDate = new Date(payload.due);
+  if (Number.isNaN(dueDate.getTime())) {
+    return createEmptyCard();
+  }
+
   return {
     difficulty: payload.difficulty,
-    due: new Date(payload.due),
+    due: dueDate,
     elapsed_days: payload.elapsed_days,
     lapses: payload.lapses,
     learning_steps: payload.learning_steps,

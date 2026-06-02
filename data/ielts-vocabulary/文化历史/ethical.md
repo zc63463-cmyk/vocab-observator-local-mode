@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ethical principles**：道德原则
-  - *The company's ethical principles guide its business decisions.*
+  - *The company's ethical principles guide its business decisions.*（公司的道德原则指导其商业决策。）
 - **ethical behavior**：合乎道德的行为
-  - *Ethical behavior is expected of all employees.*
+  - *Ethical behavior is expected of all employees.*（所有员工都应遵守道德行为规范。）
 - **ethical standards**：道德标准
-  - *The profession has strict ethical standards that practitioners must follow.*
+  - *The profession has strict ethical standards that practitioners must follow.*（该行业有严格的道德标准，从业者必须遵守。）
 - **ethical dilemma**：道德困境
-  - *Doctors often face ethical dilemmas when treating patients.*
+  - *Doctors often face ethical dilemmas when treating patients.*（医生在治疗病人时经常面临道德困境。）
 - **ethical issues**：伦理问题
-  - *The use of artificial intelligence raises many ethical issues.*
+  - *The use of artificial intelligence raises many ethical issues.*（人工智能的使用引发了许多伦理问题。）
 
 ## 真题/语料关联
 

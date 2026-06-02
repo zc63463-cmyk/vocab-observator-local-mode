@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **a biography of**：……的传记
-  - *She wrote a biography of the famous scientist.*
+  - *She wrote a biography of the famous scientist.*（她写了一本关于这位著名科学家的传记。）
 - **biographical film**：传记片
-  - *The biographical film won several awards.*
+  - *The biographical film won several awards.*（这部传记片获得了多个奖项。）
 - **biographical information**：传记信息
-  - *The biographical information was included in the appendix.*
+  - *The biographical information was included in the appendix.*（传记信息包含在附录中。）
 - **authorized biography**：授权传记
-  - *The authorized biography was published after his death.*
+  - *The authorized biography was published after his death.*（授权传记在他去世后出版。）
 - **biography section**：传记区域
-  - *The biography section of the library is on the second floor.*
+  - *The biography section of the library is on the second floor.*（图书馆的传记区域在二楼。）
 - **life biography**：生平传记
-  - *The life biography of the artist spans over 80 years.*
+  - *The life biography of the artist spans over 80 years.*（这位艺术家的生平传记跨越了80多年。）
 
 ## 真题/语料关联
 

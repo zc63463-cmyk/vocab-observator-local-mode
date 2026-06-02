@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **collect data**：收集数据
-  - *Researchers collect data through surveys and experiments.*
+  - *Researchers collect data through surveys and experiments.*（研究人员通过调查和实验收集数据。）
 - **analyze data**：分析数据
-  - *Students learn how to analyze data using statistical software.*
+  - *Students learn how to analyze data using statistical software.*（学生学习如何使用统计软件分析数据。）
 - **data analysis**：数据分析
-  - *Data analysis is a crucial skill in modern research.*
+  - *Data analysis is a crucial skill in modern research.*（数据分析是现代研究中的一项关键技能。）
 - **data set**：数据集
-  - *The data set includes information from 1000 participants.*
+  - *The data set includes information from 1000 participants.*（这个数据集包含来自1000名参与者的信息。）
 - **data collection**：数据收集
-  - *Data collection methods vary depending on the research question.*
+  - *Data collection methods vary depending on the research question.*（数据收集方法因研究问题而异。）
 
 ## 真题/语料关联
 

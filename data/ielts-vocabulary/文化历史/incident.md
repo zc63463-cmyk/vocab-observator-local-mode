@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a minor incident**：小事件
-  - *The police described it as a minor incident.*
+  - *The police described it as a minor incident.*（警方将其描述为一起小事件。）
 - **a violent incident**：暴力事件
-  - *The protest turned into a violent incident.*
+  - *The protest turned into a violent incident.*（抗议演变成了一起暴力事件。）
 - **security incident**：安全事件
-  - *The company reported a security incident involving customer data.*
+  - *The company reported a security incident involving customer data.*（公司报告了一起涉及客户数据的安全事件。）
 - **diplomatic incident**：外交事件
-  - *The arrest of the diplomat caused a diplomatic incident.*
+  - *The arrest of the diplomat caused a diplomatic incident.*（这名外交官的被捕引发了一起外交事件。）
 - **incident report**：事件报告
-  - *The manager filed an incident report after the accident.*
+  - *The manager filed an incident report after the accident.*（事故发生后，经理提交了一份事件报告。）
 
 ## 真题/语料关联
 

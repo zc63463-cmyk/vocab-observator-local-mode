@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bend down**：弯腰
-  - *She bent down to pick up the coin.*
+  - *She bent down to pick up the coin.*（她弯腰捡起硬币。）
 - **bend over**：俯身
-  - *He bent over to tie his shoelaces.*
+  - *He bent over to tie his shoelaces.*（他俯身系鞋带。）
 - **sharp bend**：急转弯
-  - *The car went off the road at a sharp bend.*
+  - *The car went off the road at a sharp bend.*（汽车在一个急转弯处冲出了道路。）
 - **bend the rules**：通融；放宽规定
-  - *The teacher bent the rules to let him retake the test.*
+  - *The teacher bent the rules to let him retake the test.*（老师放宽规定让他重考了。）
 - **bend to pressure**：屈服于压力
-  - *The government bent to public pressure and changed the policy.*
+  - *The government bent to public pressure and changed the policy.*（政府屈服于公众压力，改变了政策。）
 
 ## 真题/语料关联
 

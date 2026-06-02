@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **deem (that)...**：认为……
-  - *The court deemed that the evidence was insufficient.*
+  - *The court deemed that the evidence was insufficient.*（法庭认为证据不足。）
 - **be deemed to be**：被认为是
-  - *The building was deemed to be unsafe.*
+  - *The building was deemed to be unsafe.*（这座建筑被认为是不安全的。）
 - **deem appropriate/necessary**：认为适当/必要
-  - *The committee deemed it necessary to delay the project.*
+  - *The committee deemed it necessary to delay the project.*（委员会认为有必要推迟项目。）
 - **deem fit**：认为合适
-  - *The manager will take whatever action she deems fit.*
+  - *The manager will take whatever action she deems fit.*（经理将采取她认为合适的任何行动。）
 - **be widely deemed**：被广泛认为
-  - *The policy is widely deemed a failure.*
+  - *The policy is widely deemed a failure.*（这项政策被广泛认为是失败的。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **block diagram**：方框图
-  - *The block diagram shows the main components of the system.*
+  - *The block diagram shows the main components of the system.*（方框图展示了系统的主要组成部分。）
 - **Venn diagram**：韦恩图
-  - *Use a Venn diagram to illustrate the relationship between the two sets.*
+  - *Use a Venn diagram to illustrate the relationship between the two sets.*（用韦恩图来说明两个集合之间的关系。）
 - **circuit diagram**：电路图
-  - *The circuit diagram shows how the components are connected.*
+  - *The circuit diagram shows how the components are connected.*（电路图展示了各元件是如何连接的。）
 - **flow diagram**：流程图
-  - *A flow diagram helps to visualize the decision-making process.*
+  - *A flow diagram helps to visualize the decision-making process.*（流程图有助于将决策过程可视化。）
 - **draw a diagram**：画图解
-  - *Please draw a diagram to explain the process.*
+  - *Please draw a diagram to explain the process.*（请画一个图解来说明这个过程。）
 
 ## 真题/语料关联
 

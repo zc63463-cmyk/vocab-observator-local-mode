@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **book index**：书末索引
-  - *The book index makes it easy to find specific topics.*
+  - *The book index makes it easy to find specific topics.*（书末索引使查找特定主题变得容易。）
 - **stock index**：股票指数
-  - *The stock index rose by 2% yesterday.*
+  - *The stock index rose by 2% yesterday.*（昨天股票指数上涨了2%。）
 - **consumer price index (CPI)**：消费者物价指数
-  - *The CPI is a key measure of inflation.*
+  - *The CPI is a key measure of inflation.*（消费者物价指数是衡量通货膨胀的关键指标。）
 - **index finger**：食指
-  - *She pointed at the map with her index finger.*
+  - *She pointed at the map with her index finger.*（她用食指指着地图。）
 - **cost of living index**：生活成本指数
-  - *The cost of living index has increased significantly.*
+  - *The cost of living index has increased significantly.*（生活成本指数显著上升。）
 
 ## 真题/语料关联
 

@@ -73,13 +73,13 @@ review_count: 0
 ## 搭配与短语
 
 - **coed school**：男女同校的学校
-  - *Most schools in the UK are coed.*
+  - *Most schools in the UK are coed.*（英国的大多数学校都是男女同校的。）
 - **coed dormitory / coed dorm**：男女混合宿舍
-  - *Some universities offer coed dormitory options.*
+  - *Some universities offer coed dormitory options.*（一些大学提供男女混合宿舍选项。）
 - **coed sports**：男女共同参与的体育运动
-  - *The school introduced coed sports teams to promote inclusivity.*
+  - *The school introduced coed sports teams to promote inclusivity.*（学校引入了男女混合运动队以促进包容性。）
 - **coed education**：男女同校教育
-  - *Coed education has become the norm in most Western countries.*
+  - *Coed education has become the norm in most Western countries.*（男女同校教育在大多数西方国家已成为常态。）
 
 ## 真题/语料关联
 

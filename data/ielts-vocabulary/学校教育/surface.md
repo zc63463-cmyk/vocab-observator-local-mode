@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **on the surface**：表面上
-  - *On the surface, the plan seems perfect.*
+  - *On the surface, the plan seems perfect.*（表面上看，这个计划似乎很完美。）
 - **surface level**：表面层次
-  - *The discussion remained at the surface level.*
+  - *The discussion remained at the surface level.*（讨论停留在表面层次。）
 - **come to the surface**：浮现
-  - *The truth eventually came to the surface.*
+  - *The truth eventually came to the surface.*（真相最终浮出了水面。）
 - **scratch the surface**：浅尝辄止
-  - *We've only scratched the surface of this problem.*
+  - *We've only scratched the surface of this problem.*（我们只是触及了这个问题表面。）
 - **surface area**：表面积
-  - *Calculate the surface area of the cube.*
+  - *Calculate the surface area of the cube.*（计算立方体的表面积。）
 
 ## 真题/语料关联
 

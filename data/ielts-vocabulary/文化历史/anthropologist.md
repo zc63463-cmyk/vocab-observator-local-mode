@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **cultural anthropologist**：文化人类学家
-  - *Cultural anthropologists study the customs and beliefs of different societies.*
+  - *Cultural anthropologists study the customs and beliefs of different societies.*（文化人类学家研究不同社会的习俗和信仰。）
 - **social anthropologist**：社会人类学家
-  - *The social anthropologist spent two years living with the indigenous tribe.*
+  - *The social anthropologist spent two years living with the indigenous tribe.*（这位社会人类学家与土著部落一起生活了两年。）
 - **forensic anthropologist**：法医人类学家
-  - *Forensic anthropologists help identify human remains in criminal investigations.*
+  - *Forensic anthropologists help identify human remains in criminal investigations.*（法医人类学家在刑事调查中帮助识别人类遗骸。）
 - **anthropologist's fieldwork**：人类学家的田野调查
-  - *Ethnographic fieldwork is a key method used by anthropologists.*
+  - *Ethnographic fieldwork is a key method used by anthropologists.*（民族志田野调查是人类学家使用的一种关键方法。）
 - **anthropological research/study**：人类学研究
-  - *The anthropological study revealed surprising similarities between distant cultures.*
+  - *The anthropological study revealed surprising similarities between distant cultures.*（这项人类学研究揭示了相距遥远的文化之间惊人的相似之处。）
 
 ## 真题/语料关联
 

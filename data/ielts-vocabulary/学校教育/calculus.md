@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **differential calculus**：微分学
-  - *Differential calculus deals with rates of change.*
+  - *Differential calculus deals with rates of change.*（微分学研究变化率。）
 - **integral calculus**：积分学
-  - *Integral calculus is concerned with accumulation and area.*
+  - *Integral calculus is concerned with accumulation and area.*（积分学研究累积和面积。）
 - **calculus class/course**：微积分课程
-  - *I struggled with calculus in my first year of university.*
+  - *I struggled with calculus in my first year of university.*（我在大学第一年学习微积分时很吃力。）
 - **learn/study calculus**：学习微积分
-  - *Engineering students must learn calculus.*
+  - *Engineering students must learn calculus.*（工科学生必须学习微积分。）
 - **calculus of variations**：变分法
-  - *The calculus of variations has applications in physics and economics.*
+  - *The calculus of variations has applications in physics and economics.*（变分法在物理学和经济学中有应用。）
 
 ## 真题/语料关联
 

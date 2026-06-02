@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **write an abstract**：写摘要
-  - *The abstract should summarize the key findings in 150 words.*
+  - *The abstract should summarize the key findings in 150 words.*（摘要应该用150字总结主要发现。）
 - **abstract concept**：抽象概念
-  - *Love and justice are abstract concepts that are difficult to define.*
+  - *Love and justice are abstract concepts that are difficult to define.*（爱和正义是难以定义的抽象概念。）
 - **in the abstract**：抽象地，理论上
-  - *The idea works well in the abstract, but it's hard to implement.*
+  - *The idea works well in the abstract, but it's hard to implement.*（这个想法在理论上行得通，但很难实施。）
 - **abstract art**：抽象艺术
-  - *The museum has a large collection of abstract art.*
+  - *The museum has a large collection of abstract art.*（这家博物馆收藏了大量抽象艺术作品。）
 - **abstract thinking**：抽象思维
-  - *Children develop abstract thinking skills as they grow older.*
+  - *Children develop abstract thinking skills as they grow older.*（儿童随着年龄增长会发展出抽象思维能力。）
 
 ## 真题/语料关联
 

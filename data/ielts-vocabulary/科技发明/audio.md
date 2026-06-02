@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **audio signal**：音频信号
-  - *The audio signal is transmitted through the cable.*
+  - *The audio signal is transmitted through the cable.*（音频信号通过电缆传输。）
 - **audio file**：音频文件
-  - *The audio file contains the recorded interview.*
+  - *The audio file contains the recorded interview.*（音频文件包含录制的采访内容。）
 - **audio equipment**：音频设备
-  - *The studio has professional audio equipment.*
+  - *The studio has professional audio equipment.*（这间工作室拥有专业的音频设备。）
 - **audio recording**：音频录制
-  - *The audio recording captured the entire concert.*
+  - *The audio recording captured the entire concert.*（音频录制捕捉到了整场音乐会。）
 - **audio quality**：音频质量
-  - *The audio quality of the podcast is excellent.*
+  - *The audio quality of the podcast is excellent.*（这个播客的音频质量非常好。）
 
 ## 真题/语料关联
 

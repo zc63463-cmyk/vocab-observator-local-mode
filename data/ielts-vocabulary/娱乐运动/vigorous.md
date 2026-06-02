@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **vigorous exercise**：有力的锻炼
-  - *Vigorous exercise is good for cardiovascular health.*
+  - *Vigorous exercise is good for cardiovascular health.*（剧烈运动对心血管健康有益。）
 - **vigorous activity**：有力的活动
-  - *The children engaged in vigorous activity all afternoon.*
+  - *The children engaged in vigorous activity all afternoon.*（孩子们整个下午都在进行剧烈活动。）
 - **vigorous movement**：有力的动作
-  - *The martial arts expert made vigorous movements.*
+  - *The martial arts expert made vigorous movements.*（武术专家的动作刚劲有力。）
 - **vigorous person**：精力旺盛的人
-  - *He is a vigorous person who loves outdoor activities.*
+  - *He is a vigorous person who loves outdoor activities.*（他精力充沛，热爱户外活动。）
 - **vigorous action**：果断的行动
-  - *The government took vigorous action to address the problem.*
+  - *The government took vigorous action to address the problem.*（政府采取了有力行动来解决这个问题。）
 
 ## 真题/语料关联
 

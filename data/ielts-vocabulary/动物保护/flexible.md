@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **flexible schedule**：灵活的日程
-  - *Many companies now offer flexible schedules to help employees balance work and life.*
+  - *Many companies now offer flexible schedules to help employees balance work and life.*（许多公司现在提供弹性工作时间以帮助员工平衡工作与生活。）
 - **flexible working hours**：弹性工作时间
-  - *Flexible working hours can increase employee satisfaction and productivity.*
+  - *Flexible working hours can increase employee satisfaction and productivity.*（弹性工作时间可以提高员工满意度和生产力。）
 - **flexible approach**：灵活的方法
-  - *A flexible approach to problem-solving often yields better results.*
+  - *A flexible approach to problem-solving often yields better results.*（灵活的问题解决方法往往会产生更好的结果。）
 - **flexible material**：柔性材料
-  - *The flexible material can be bent without breaking.*
+  - *The flexible material can be bent without breaking.*（这种柔性材料可以弯曲而不断裂。）
 - **flexible thinking**：灵活思维
-  - *Flexible thinking is essential for adapting to new challenges.*
+  - *Flexible thinking is essential for adapting to new challenges.*（灵活的思维对于适应新挑战至关重要。）
 
 ## 真题/语料关联
 

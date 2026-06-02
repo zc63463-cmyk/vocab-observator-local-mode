@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the width of**：……的宽度
-  - *The width of the door is about one metre.*
+  - *The width of the door is about one metre.*（门的宽度大约一米。）
 - **in width**：在宽度上
-  - *The room is 5 metres in width.*
+  - *The room is 5 metres in width.*（这个房间宽5米。）
 - **measure the width**：测量宽度
-  - *Please measure the width of the window before buying curtains.*
+  - *Please measure the width of the window before buying curtains.*（请在买窗帘之前测量窗户的宽度。）
 - **width and length**：宽度和长度
-  - *The width and length of the field determine its area.*
+  - *The width and length of the field determine its area.*（田地的宽度和长度决定了它的面积。）
 - **standard width**：标准宽度
-  - *The standard width of a highway lane is 3.7 metres.*
+  - *The standard width of a highway lane is 3.7 metres.*（高速公路车道的标准宽度是3.7米。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a spectacular sight**：壮观的景象
-  - *The Northern Lights are a spectacular sight that draws tourists from around the world.*
+  - *The Northern Lights are a spectacular sight that draws tourists from around the world.*（北极光是吸引世界各地游客的壮丽景观。）
 - **make a spectacle of oneself**：出丑，丢脸
-  - *He made a spectacle of himself by dancing on the table at the party.*
+  - *He made a spectacle of himself by dancing on the table at the party.*（他在派对上在桌子上跳舞，出尽了洋相。）
 - **rose-tinted spectacles**：玫瑰色眼镜（乐观的看法）
-  - *She sees the world through rose-tinted spectacles, always finding the positive.*
+  - *She sees the world through rose-tinted spectacles, always finding the positive.*（她以乐观的眼光看待世界，总是看到积极的一面。）
 - **a public spectacle**：公开的表演/事件
-  - *The trial became a public spectacle, with crowds gathering outside the courthouse.*
+  - *The trial became a public spectacle, with crowds gathering outside the courthouse.*（这场审判成了一场公开闹剧，人群聚集在法院外。）
 - **spectacle frame**：眼镜框
-  - *She chose a stylish spectacle frame that suited her face shape.*
+  - *She chose a stylish spectacle frame that suited her face shape.*（她选择了一副适合她脸型的时尚眼镜框。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **ice cream cone**：冰淇淋蛋卷
-  - *The child licked the ice cream cone happily.*
+  - *The child licked the ice cream cone happily.*（孩子开心地舔着冰淇淋蛋卷。）
 - **traffic cone**：交通锥
-  - *Traffic cones were placed around the construction site.*
+  - *Traffic cones were placed around the construction site.*（交通锥被放置在建筑工地周围。）
 - **pine cone**：松果
-  - *We collected pine cones in the forest for the craft project.*
+  - *We collected pine cones in the forest for the craft project.*（我们在森林里收集松果用于手工艺项目。）
 - **cone of light**：光锥
-  - *The flashlight emitted a narrow cone of light.*
+  - *The flashlight emitted a narrow cone of light.*（手电筒发出一束狭窄的光锥。）
 - **cone cell**：视锥细胞
-  - *Cone cells in the retina are responsible for color vision.*
+  - *Cone cells in the retina are responsible for color vision.*（视网膜中的视锥细胞负责彩色视觉。）
 
 ## 真题/语料关联
 

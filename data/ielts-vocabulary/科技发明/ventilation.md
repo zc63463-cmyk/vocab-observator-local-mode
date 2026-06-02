@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **natural ventilation**：自然通风
-  - *The building relies on natural ventilation rather than air conditioning.*
+  - *The building relies on natural ventilation rather than air conditioning.*（这座建筑依靠自然通风而非空调。）
 - **ventilation system**：通风系统
-  - *The ventilation system circulates fresh air throughout the building.*
+  - *The ventilation system circulates fresh air throughout the building.*（通风系统使新鲜空气在整个建筑内循环。）
 - **mechanical ventilation**：机械通风
-  - *Hospitals use mechanical ventilation for patients with respiratory problems.*
+  - *Hospitals use mechanical ventilation for patients with respiratory problems.*（医院为有呼吸问题的患者使用机械通风。）
 - **ventilation shaft**：通风井
-  - *The ventilation shaft brings fresh air into the underground tunnel.*
+  - *The ventilation shaft brings fresh air into the underground tunnel.*（通风井将新鲜空气送入地下隧道。）
 - **cross ventilation**：穿堂风，对流通风
-  - *Cross ventilation is achieved by opening windows on opposite sides.*
+  - *Cross ventilation is achieved by opening windows on opposite sides.*（打开对侧的窗户可以实现对流通风。）
 
 ## 真题/语料关联
 

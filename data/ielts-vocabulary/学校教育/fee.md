@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **tuition fee**：学费
-  - *Tuition fees have increased significantly in recent years.*
+  - *Tuition fees have increased significantly in recent years.*（近年来学费大幅上涨。）
 - **entrance/admission fee**：入场费
-  - *The entrance fee to the museum is $15.*
+  - *The entrance fee to the museum is $15.*（博物馆的门票是15美元。）
 - **service fee**：服务费
-  - *A service fee is added to the bill.*
+  - *A service fee is added to the bill.*（账单上加收了服务费。）
 - **legal/professional fee**：律师/专业服务费
-  - *Legal fees can be very expensive.*
+  - *Legal fees can be very expensive.*（律师费可能非常昂贵。）
 - **pay a fee**：支付费用
-  - *You need to pay a fee to register for the course.*
+  - *You need to pay a fee to register for the course.*（你需要支付费用才能注册课程。）
 
 ## 真题/语料关联
 

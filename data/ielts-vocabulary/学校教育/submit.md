@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **submit an application/assignment**：提交申请/作业
-  - *Students must submit their assignments by Friday.*
+  - *Students must submit their assignments by Friday.*（学生必须在星期五之前提交作业。）
 - **submit to authority/pressure**：服从权威/屈服于压力
-  - *He refused to submit to the bully's demands.*
+  - *He refused to submit to the bully's demands.*（他拒绝屈服于恶霸的要求。）
 - **submit a claim/appeal**：提交索赔/上诉
-  - *The lawyer submitted an appeal to the higher court.*
+  - *The lawyer submitted an appeal to the higher court.*（律师向上级法院提交了上诉。）
 - **submit oneself to**：使自己服从于
-  - *She submitted herself to the strict training regimen.*
+  - *She submitted herself to the strict training regimen.*（她让自己严格遵守严格的训练计划。）
 - **submit that...**：主张/认为（正式用法）
-  - *I submit that the defendant is innocent.*
+  - *I submit that the defendant is innocent.*（本人认为被告是无辜的。）
 
 ## 真题/语料关联
 

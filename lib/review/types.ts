@@ -72,3 +72,18 @@ export interface SchedulerUpdate {
   stability: number;
   state: ReviewState;
 }
+
+export interface WordHighlight {
+  id: string;
+  source_field: string;
+  text_snippet: string;
+  color: string;
+  created_at: string;
+}
+
+export interface WordAnnotation {
+  id: string;
+  word_id: string;
+  content: string;
+  updated_at: string;
+}

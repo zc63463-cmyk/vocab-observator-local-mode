@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take vitamins**：服用维生素
-  - *The doctor recommended that she take vitamins daily to boost her immune system.*
+  - *The doctor recommended that she take vitamins daily to boost her immune system.*（医生建议她每天服用维生素以增强免疫系统。）
 - **vitamin deficiency**：维生素缺乏
-  - *Vitamin deficiency can lead to serious health problems like scurvy.*
+  - *Vitamin deficiency can lead to serious health problems like scurvy.*（维生素缺乏可导致坏血病等严重健康问题。）
 - **vitamin-rich**：富含维生素的
-  - *Oranges and spinach are vitamin-rich foods that support overall health.*
+  - *Oranges and spinach are vitamin-rich foods that support overall health.*（橙子和菠菜是富含维生素的食物，有益于整体健康。）
 - **vitamin supplements**：维生素补充剂
-  - *Many people take vitamin supplements during the winter months.*
+  - *Many people take vitamin supplements during the winter months.*（许多人在冬季服用维生素补充剂。）
 - **fat-soluble/water-soluble vitamins**：脂溶性/水溶性维生素
-  - *Vitamin D is a fat-soluble vitamin that helps the body absorb calcium.*
+  - *Vitamin D is a fat-soluble vitamin that helps the body absorb calcium.*（维生素D是一种脂溶性维生素，帮助身体吸收钙。）
 
 ## 真题/语料关联
 

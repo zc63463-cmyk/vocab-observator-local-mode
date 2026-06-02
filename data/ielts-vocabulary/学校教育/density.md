@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **population density**：人口密度
-  - *The population density in urban areas is much higher than in rural areas.*
+  - *The population density in urban areas is much higher than in rural areas.*（城市地区的人口密度比农村地区高得多。）
 - **traffic density**：交通密度
-  - *High traffic density often leads to congestion during rush hours.*
+  - *High traffic density often leads to congestion during rush hours.*（高交通密度常常导致高峰时段的拥堵。）
 - **bone density**：骨密度
-  - *Regular exercise can help maintain bone density as you age.*
+  - *Regular exercise can help maintain bone density as you age.*（经常锻炼有助于随着年龄增长保持骨密度。）
 - **density of population**：人口密度
-  - *The density of population varies significantly across different regions.*
+  - *The density of population varies significantly across different regions.*（不同地区的人口密度差异很大。）
 - **high/low density**：高/低密度
-  - *High-density housing is common in major cities.*
+  - *High-density housing is common in major cities.*（高密度住宅在大城市很常见。）
 
 ## 真题/语料关联
 

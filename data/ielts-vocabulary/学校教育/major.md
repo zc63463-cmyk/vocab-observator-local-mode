@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **English major**：英语专业学生
-  - *She is an English major at the university.*
+  - *She is an English major at the university.*（中文翻译）
 - **major in**：主修
-  - *He decided to major in computer science.*
+  - *He decided to major in computer science.*（中文翻译）
 - **a major problem**：大问题
-  - *Climate change is a major problem facing humanity.*
+  - *Climate change is a major problem facing humanity.*（中文翻译）
 - **play a major role**：起重要作用
-  - *Technology plays a major role in modern education.*
+  - *Technology plays a major role in modern education.*（中文翻译）
 - **major breakthrough**：重大突破
-  - *Scientists have made a major breakthrough in cancer research.*
+  - *Scientists have made a major breakthrough in cancer research.*（中文翻译）
 
 ## 真题/语料关联
 

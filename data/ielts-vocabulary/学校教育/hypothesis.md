@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **test a hypothesis**：检验假设
-  - *The experiment was designed to test the hypothesis.*
+  - *The experiment was designed to test the hypothesis.*（该实验旨在检验这个假设。）
 - **formulate a hypothesis**：提出假设
-  - *Researchers formulated a hypothesis based on initial observations.*
+  - *Researchers formulated a hypothesis based on initial observations.*（研究人员根据初步观察提出了一个假设。）
 - **a plausible hypothesis**：合理的假设
-  - *The scientist proposed a plausible hypothesis to explain the phenomenon.*
+  - *The scientist proposed a plausible hypothesis to explain the phenomenon.*（科学家提出了一个合理的假设来解释该现象。）
 - **null hypothesis**：零假设（统计学）
-  - *The null hypothesis states that there is no significant difference.*
+  - *The null hypothesis states that there is no significant difference.*（零假设表明没有显著差异。）
 - **working hypothesis**：工作假设（暂时性的）
-  - *We need a working hypothesis to guide our research.*
+  - *We need a working hypothesis to guide our research.*（我们需要一个工作假设来指导研究。）
 
 ## 真题/语料关联
 

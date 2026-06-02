@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **decipher a code**：破译密码
-  - *It took months to decipher the enemy's code.*
+  - *It took months to decipher the enemy's code.*（破译敌人的密码花了几个月时间。）
 - **decipher handwriting**：辨认字迹
-  - *I could barely decipher his handwriting on the prescription.*
+  - *I could barely decipher his handwriting on the prescription.*（我几乎无法辨认他在处方上的字迹。）
 - **decipher the meaning**：理解含义
-  - *Scholars have struggled to decipher the meaning of this ancient text.*
+  - *Scholars have struggled to decipher the meaning of this ancient text.*（学者们一直在努力解读这段古代文本的含义。）
 - **decipher hieroglyphs**：破译象形文字
-  - *The Rosetta Stone helped scholars decipher Egyptian hieroglyphs.*
+  - *The Rosetta Stone helped scholars decipher Egyptian hieroglyphs.*（罗塞塔石碑帮助学者破译了埃及象形文字。）
 - **hard to decipher**：难以辨认/理解
-  - *The instructions were written in tiny print and hard to decipher.*
+  - *The instructions were written in tiny print and hard to decipher.*（说明书写得很小，难以辨认。）
 
 ## 真题/语料关联
 

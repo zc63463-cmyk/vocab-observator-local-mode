@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { requireOwnerApiSession, jsonError } from "@/lib/request-auth";
+import { requireOwnerApiSession } from "@/lib/request-auth";
+import { apiErrorResponse } from "@/lib/api-error";
 import { getOrCreateDefaultWordbook } from "@/lib/wordbook";
 
 interface DayStat {
@@ -41,7 +42,7 @@ export async function GET(request: NextRequest) {
     .limit(5000);
 
   if (error) {
-    return jsonError("Failed to fetch review stats", 500);
+    return apiErrorResponse(error, "api/review/stats");
   }
 
   const rows = logs ?? [];

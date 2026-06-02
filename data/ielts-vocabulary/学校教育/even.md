@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **even number**：偶数
-  - *2, 4, 6, and 8 are even numbers.*
+  - *2, 4, 6, and 8 are even numbers.*（2、4、6、8是偶数。）
 - **even if/though**：即使
-  - *Even if it rains, we'll still go.*
+  - *Even if it rains, we'll still go.*（即使下雨，我们仍然会去。）
 - **even better/worse**：甚至更好/更糟
-  - *The sequel was even better than the original.*
+  - *The sequel was even better than the original.*（续集比原版更好。）
 - **even out**：使平坦；使均衡
-  - *The road surface needs to even out.*
+  - *The road surface needs to even out.*（路面需要弄平。）
 - **break even**：收支平衡
-  - *The company just broke even last year.*
+  - *The company just broke even last year.*（该公司去年刚刚实现收支平衡。）
 
 ## 真题/语料关联
 

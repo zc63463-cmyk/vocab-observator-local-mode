@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **go into hibernation**：进入冬眠
-  - *Bears go into hibernation in late autumn to conserve energy.*
+  - *Bears go into hibernation in late autumn to conserve energy.*（熊在深秋进入冬眠以保存能量。）
 - **during hibernation**：在冬眠期间
-  - *During hibernation, the animal's heart rate drops dramatically.*
+  - *During hibernation, the animal's heart rate drops dramatically.*（冬眠期间，动物的心率急剧下降。）
 - **hibernation period**：冬眠期
-  - *The hibernation period can last from a few weeks to several months.*
+  - *The hibernation period can last from a few weeks to several months.*（冬眠期可持续几周到几个月。）
 - **hibernation site**：冬眠地点
-  - *The bear chose a cave as its hibernation site.*
+  - *The bear chose a cave as its hibernation site.*（熊选择了一个洞穴作为冬眠地点。）
 - **come out of hibernation**：结束冬眠
-  - *The animals come out of hibernation in spring when the weather warms up.*
+  - *The animals come out of hibernation in spring when the weather warms up.*（动物在春天天气变暖时结束冬眠出来活动。）
 
 ## 真题/语料关联
 

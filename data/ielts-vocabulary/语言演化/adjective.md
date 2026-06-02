@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **descriptive adjective**：描述性形容词
-  - *"Beautiful" and "intelligent" are descriptive adjectives.*
+  - *"Beautiful" and "intelligent" are descriptive adjectives.*（"Beautiful"和"intelligent"是描述性形容词。）
 - **comparative adjective**：比较级形容词
-  - *"Bigger" is the comparative form of "big".*
+  - *"Bigger" is the comparative form of "big".*（"Bigger"是"big"的比较级形式。）
 - **superlative adjective**：最高级形容词
-  - *"Biggest" is the superlative form of "big".*
+  - *"Biggest" is the superlative form of "big".*（"Biggest"是"big"的最高级形式。）
 - **adjective phrase**：形容词短语
-  - *The phrase "very beautiful" is an adjective phrase.*
+  - *The phrase "very beautiful" is an adjective phrase.*（短语"very beautiful"是一个形容词短语。）
 - **predicate adjective**：表语形容词
-  - *In "The sky is blue", "blue" is a predicate adjective.*
+  - *In "The sky is blue", "blue" is a predicate adjective.*（在"The sky is blue"中，"blue"是表语形容词。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in the field of**：在……领域
-  - *She has made significant contributions in the field of genetics.*
+  - *She has made significant contributions in the field of genetics.*（她在遗传学领域做出了重大贡献。）
 - **field of study**：研究领域
-  - *His field of study is marine biology.*
+  - *His field of study is marine biology.*（他的研究领域是海洋生物学。）
 - **field research**：实地研究
-  - *The team conducted field research in the Amazon rainforest.*
+  - *The team conducted field research in the Amazon rainforest.*（该团队在亚马逊雨林中进行了实地研究。）
 - **field questions**：回答问题
-  - *The spokesperson fielded questions from the press.*
+  - *The spokesperson fielded questions from the press.*（发言人回答了媒体的提问。）
 - **take the field**：上场；参战
-  - *The team took the field with confidence.*
+  - *The team took the field with confidence.*（队伍自信地走上赛场。）
 
 ## 真题/语料关联
 

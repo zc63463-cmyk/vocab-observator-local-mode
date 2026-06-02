@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **water pump**：水泵
-  - *The water pump supplies fresh water to the village.*
+  - *The water pump supplies fresh water to the village.*（水泵为村庄提供淡水。）
 - **bicycle pump**：自行车打气筒
-  - *I need a bicycle pump to inflate my tires.*
+  - *I need a bicycle pump to inflate my tires.*（我需要一个自行车打气筒给轮胎充气。）
 - **pump water**：抽水
-  - *The system pumps water from the well to the tank.*
+  - *The system pumps water from the well to the tank.*（系统将水从水井抽到水箱。）
 - **pump money into**：向……注入资金
-  - *The government pumped money into the economy.*
+  - *The government pumped money into the economy.*（政府向经济注入了资金。）
 - **pump up**：给……打气；激励
-  - *He pumped up the basketball before the game.*
+  - *He pumped up the basketball before the game.*（他在赛前给篮球充了气。）
 
 ## 真题/语料关联
 

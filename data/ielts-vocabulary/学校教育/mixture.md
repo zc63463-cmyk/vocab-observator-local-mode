@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **chemical mixture**：化学混合物
-  - *The chemical mixture reacted violently when heated.*
+  - *The chemical mixture reacted violently when heated.*（中文翻译）
 - **a mixture of**：……的混合
-  - *The drink is a mixture of fruit juices.*
+  - *The drink is a mixture of fruit juices.*（中文翻译）
 - **a mixture of emotions**：复杂的情感
-  - *She felt a mixture of excitement and nervousness.*
+  - *She felt a mixture of excitement and nervousness.*（中文翻译）
 - **cough mixture**：止咳药水
-  - *The doctor prescribed a cough mixture for his cold.*
+  - *The doctor prescribed a cough mixture for his cold.*（中文翻译）
 - **in a mixture**：在混合物中
-  - *The ingredients were combined in a mixture.*
+  - *The ingredients were combined in a mixture.*（中文翻译）
 
 ## 真题/语料关联
 

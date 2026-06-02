@@ -72,13 +72,13 @@ review_count: 0
 ## 搭配与短语
 
 - **plosive consonant**：爆破辅音
-  - *The sounds /p/, /b/, /t/, /d/ are plosive consonants.*
+  - *The sounds /p/, /b/, /t/, /d/ are plosive consonants.*（/p/、/b/、/t/、/d/是爆破辅音。）
 - **consonant cluster**：辅音连缀
-  - *The word "strength" contains a consonant cluster at the beginning.*
+  - *The word "strength" contains a consonant cluster at the beginning.*（单词"strength"在开头包含一个辅音连缀。）
 - **consonant letter**：辅音字母
-  - *There are 21 consonant letters in the English alphabet.*
+  - *There are 21 consonant letters in the English alphabet.*（英语字母表中有21个辅音字母。）
 - **consonant with**：与……一致的
-  - *His actions were not consonant with his words.*
+  - *His actions were not consonant with his words.*（他的言行不一致。）
 
 ## 真题/语料关联
 

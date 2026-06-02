@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **indoor swimming pool**：室内游泳池
-  - *The hotel has an indoor swimming pool for guests.*
+  - *The hotel has an indoor swimming pool for guests.*（酒店为客人设有室内游泳池。）
 - **indoor sports**：室内运动
-  - *Badminton and basketball are popular indoor sports.*
+  - *Badminton and basketball are popular indoor sports.*（羽毛球和篮球是受欢迎的室内运动。）
 - **indoor activities**：室内活动
-  - *On rainy days, we prefer indoor activities like reading.*
+  - *On rainy days, we prefer indoor activities like reading.*（下雨天我们更喜欢读书之类的室内活动。）
 - **indoor arena**：室内竞技场
-  - *The concert was held in an indoor arena.*
+  - *The concert was held in an indoor arena.*（音乐会在一个室内竞技场举行。）
 - **indoor plants**：室内植物
-  - *She keeps several indoor plants in her apartment.*
+  - *She keeps several indoor plants in her apartment.*（她在公寓里养了几盆室内植物。）
 
 ## 真题/语料关联
 

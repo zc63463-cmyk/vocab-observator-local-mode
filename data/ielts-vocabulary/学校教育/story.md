@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **tell a story**：讲故事
-  - *She told the children a bedtime story.*
+  - *She told the children a bedtime story.*（她给孩子们讲了一个睡前故事。）
 - **short story**：短篇小说
-  - *He published a collection of short stories.*
+  - *He published a collection of short stories.*（他出版了一部短篇小说集。）
 - **love story**：爱情故事
-  - *The film is a classic love story.*
+  - *The film is a classic love story.*（这部电影是一个经典的爱情故事。）
 - **a news story**：新闻报道
-  - *The journalist wrote a story about the election.*
+  - *The journalist wrote a story about the election.*（记者写了一篇关于选举的新闻报道。）
 - **the story goes**：据说，传闻
-  - *The story goes that the house is haunted.*
+  - *The story goes that the house is haunted.*（据说这栋房子闹鬼。）
 - **a cover story**：封面故事；托词
-  - *The magazine's cover story was about climate change.*
+  - *The magazine's cover story was about climate change.*（该杂志的封面故事是关于气候变化的。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **high frequency**：高频
-  - *High-frequency sound waves are used in ultrasound imaging.*
+  - *High-frequency sound waves are used in ultrasound imaging.*（高频声波用于超声波成像。）
 - **low frequency**：低频
-  - *Low-frequency sounds can travel long distances.*
+  - *Low-frequency sounds can travel long distances.*（低频声音可以传播很远的距离。）
 - **with increasing frequency**：越来越频繁地
-  - *Extreme weather events are occurring with increasing frequency.*
+  - *Extreme weather events are occurring with increasing frequency.*（极端天气事件正越来越频繁地发生。）
 - **radio frequency**：无线电频率
-  - *Radio frequency identification (RFID) is used for tracking objects.*
+  - *Radio frequency identification (RFID) is used for tracking objects.（射频识别（RFID）用于追踪物体。）*
 - **frequency distribution**：频率分布
-  - *The frequency distribution shows how often each value occurs in the data.*
+  - *The frequency distribution shows how often each value occurs in the data.*（频率分布显示每个数值在数据中出现的频率。）
 
 ## 真题/语料关联
 

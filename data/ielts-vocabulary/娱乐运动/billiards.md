@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play billiards**：打台球
-  - *He enjoys playing billiards with his friends.*
+  - *He enjoys playing billiards with his friends.*（他喜欢和朋友打台球。）
 - **billiard table**：台球桌
-  - *The billiard table is covered with green felt.*
+  - *The billiard table is covered with green felt.*（台球桌上铺着绿色的绒布。）
 - **billiard ball**：台球
-  - *The billiard ball rolled into the pocket.*
+  - *The billiard ball rolled into the pocket.*（台球滚进了球袋。）
 - **billiard room**：台球室
-  - *The hotel has a billiard room for guests.*
+  - *The hotel has a billiard room for guests.*（这家酒店为客人设有台球室。）
 - **billiard cue**：台球杆
-  - *He bought a new billiard cue.*
+  - *He bought a new billiard cue.*（他买了一根新的台球杆。）
 
 ## 真题/语料关联
 

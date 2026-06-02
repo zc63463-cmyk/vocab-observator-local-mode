@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study astronomy**：学习天文学
-  - *She decided to study astronomy at university after seeing a meteor shower.*
+  - *She decided to study astronomy at university after seeing a meteor shower.*（在看到流星雨后，她决定在大学学习天文学。）
 - **observational astronomy**：观测天文学
-  - *Observational astronomy relies on telescopes to collect data from space.*
+  - *Observational astronomy relies on telescopes to collect data from space.*（观测天文学依靠望远镜从太空中收集数据。）
 - **amateur astronomy**：业余天文学
-  - *Amateur astronomy has contributed to the discovery of comets and asteroids.*
+  - *Amateur astronomy has contributed to the discovery of comets and asteroids.*（业余天文学为彗星和小行星的发现做出了贡献。）
 - **astronomy club**：天文俱乐部
-  - *The school's astronomy club organizes stargazing events every month.*
+  - *The school's astronomy club organizes stargazing events every month.*（学校的天文俱乐部每月组织观星活动。）
 - **radio astronomy**：射电天文学
-  - *Radio astronomy uses radio waves to study celestial objects.*
+  - *Radio astronomy uses radio waves to study celestial objects.*（射电天文学使用无线电波研究天体。）
 
 ## 真题/语料关联
 

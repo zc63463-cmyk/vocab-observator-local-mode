@@ -15,46 +15,40 @@ export async function POST(request: NextRequest) {
   }
 
   const supabase = ownerSession.supabase!;
+  const userId = ownerSession.user!.id;
 
-  // Increment skip_count so skip behaviour is persisted server-side.
-  // The client still re-orders the local queue; this just ensures
-  // analytics and future server-side queue builds know the card was
-  // skipped rather than simply absent from the queue.
-  const { error } = await supabase
+  // Read-modify-write: fetch current skip_count, increment, update.
+  // The original Supabase `rpc("increment")` approach is not supported by
+  // the local pg shim, so we use explicit RMW here. skip_count is
+  // non-critical (analytics-only), so the tiny race window is acceptable.
+  const { data: row, error: readError } = await supabase
+    .from("user_word_progress")
+    .select("skip_count")
+    .eq("id", parsed.data.progressId)
+    .eq("user_id", userId)
+    .single();
+
+  if (readError) {
+    const isNotFound = (readError as { code?: string }).code === "PGRST116";
+    return apiErrorResponse(
+      readError,
+      "api/review/skip",
+      isNotFound ? 404 : 500,
+      isNotFound ? "Progress not found." : undefined,
+    );
+  }
+
+  const { error: updateError } = await supabase
     .from("user_word_progress")
     .update({
-      skip_count: supabase.rpc("increment", { row_id: parsed.data.progressId, amount: 1 }),
+      skip_count: (row?.skip_count ?? 0) + 1,
       updated_at: new Date().toISOString(),
     })
     .eq("id", parsed.data.progressId)
-    .eq("user_id", ownerSession.user!.id);
+    .eq("user_id", userId);
 
-  // Fallback: if the RPC doesn't exist in local mode, do a raw SQL
-  // increment via the PostgREST `.select()` workaround or simply
-  // read-modify-write. For simplicity we use read-modify-write here
-  // because the local pg client doesn't support the Supabase RPC shape.
-  if (error && error.message?.includes("increment")) {
-    const { data: row } = await supabase
-      .from("user_word_progress")
-      .select("skip_count")
-      .eq("id", parsed.data.progressId)
-      .eq("user_id", ownerSession.user!.id)
-      .single();
-
-    const { error: updateError } = await supabase
-      .from("user_word_progress")
-      .update({
-        skip_count: (row?.skip_count ?? 0) + 1,
-        updated_at: new Date().toISOString(),
-      })
-      .eq("id", parsed.data.progressId)
-      .eq("user_id", ownerSession.user!.id);
-
-    if (updateError) {
-      return apiErrorResponse(updateError, "api/review/skip");
-    }
-  } else if (error) {
-    return apiErrorResponse(error, "api/review/skip");
+  if (updateError) {
+    return apiErrorResponse(updateError, "api/review/skip");
   }
 
   return NextResponse.json({

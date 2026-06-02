@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **positive ion**：阳离子
-  - *A positive ion has lost one or more electrons.*
+  - *A positive ion has lost one or more electrons.*（正离子失去了一个或多个电子。）
 - **negative ion**：阴离子
-  - *A negative ion has gained one or more electrons.*
+  - *A negative ion has gained one or more electrons.*（负离子获得了一个或多个电子。）
 - **ion exchange**：离子交换
-  - *Ion exchange is used in water purification systems.*
+  - *Ion exchange is used in water purification systems.*（离子交换用于水净化系统。）
 - **ionizing radiation**：电离辐射
-  - *Ionizing radiation can damage DNA and cause cancer.*
+  - *Ionizing radiation can damage DNA and cause cancer.*（电离辐射会损害DNA并导致癌症。）
 - **ionosphere**：电离层
-  - *The ionosphere reflects radio waves, enabling long-distance communication.*
+  - *The ionosphere reflects radio waves, enabling long-distance communication.*（电离层反射无线电波，使远距离通信成为可能。）
 
 ## 真题/语料关联
 

@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **skim through/over**：快速浏览
-  - *She skimmed through the report to find the key points.*
+  - *She skimmed through the report to find the key points.*（她快速浏览了报告以找到关键点。）
 - **skim the surface**：掠过表面（未深入）
-  - *The lecture only skimmed the surface of the topic.*
+  - *The lecture only skimmed the surface of the topic.*（这个讲座只触及了该话题的表面。）
 - **skim off**：撇去；捞取
-  - *Skim off the fat from the soup before serving.*
+  - *Skim off the fat from the soup before serving.*（上菜前撇去汤上的浮油。）
 - **skim reading**：略读技巧
-  - *Skim reading is useful for getting the gist of a long article.*
+  - *Skim reading is useful for getting the gist of a long article.*（略读有助于掌握长篇文章的主旨。）
 - **stone skimming**：打水漂
-  - *The children enjoyed stone skimming at the lake.*
+  - *The children enjoyed stone skimming at the lake.*（孩子们在湖边喜欢打水漂。）
 
 ## 真题/语料关联
 

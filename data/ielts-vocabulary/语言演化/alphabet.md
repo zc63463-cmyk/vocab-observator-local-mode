@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the English alphabet**：英语字母表
-  - *The English alphabet has 26 letters.*
+  - *The English alphabet has 26 letters.*（英语字母表有26个字母。）
 - **alphabetic order**：字母顺序
-  - *The names are listed in alphabetical order.*
+  - *The names are listed in alphabetical order.*（这些名字按字母顺序排列。）
 - **alphabet soup**：字母汤（也指令人困惑的缩写）
-  - *All the acronyms look like alphabet soup.*
+  - *All the acronyms look like alphabet soup.*（所有这些缩写看起来像字母汤一样混乱。）
 - **learn the alphabet**：学习字母表
-  - *Children learn the alphabet before they start reading.*
+  - *Children learn the alphabet before they start reading.*（孩子们在开始阅读之前先学习字母表。）
 - **phonetic alphabet**：音标字母表
-  - *Pilots use the phonetic alphabet to communicate clearly.*
+  - *Pilots use the phonetic alphabet to communicate clearly.*（飞行员使用音标字母表进行清晰沟通。）
 
 ## 真题/语料关联
 

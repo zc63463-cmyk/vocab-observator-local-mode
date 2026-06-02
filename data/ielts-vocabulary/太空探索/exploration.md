@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **space exploration**：太空探索
-  - *Space exploration has led to many technological innovations.*
+  - *Space exploration has led to many technological innovations.*（太空探索带来了许多技术创新。）
 - **oil exploration**：石油勘探
-  - *Oil exploration in the Arctic is controversial due to environmental concerns.*
+  - *Oil exploration in the Arctic is controversial due to environmental concerns.*（由于环境问题，北极的石油勘探存在争议。）
 - **an exploration of**：对……的探索/研究
-  - *The book is an exploration of the relationship between science and religion.*
+  - *The book is an exploration of the relationship between science and religion.*（这本书探讨了科学与宗教之间的关系。）
 - **exploratory research**：探索性研究
-  - *The initial phase of the project involves exploratory research.*
+  - *The initial phase of the project involves exploratory research.*（项目的初始阶段涉及探索性研究。）
 - **exploration mission**：探索任务
-  - *The exploration mission to Mars is expected to launch next year.*
+  - *The exploration mission to Mars is expected to launch next year.*（前往火星的探测任务预计明年发射。）
 
 ## 真题/语料关联
 

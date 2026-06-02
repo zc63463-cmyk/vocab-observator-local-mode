@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **an advertising leaflet**：广告传单
-  - *The company distributed thousands of advertising leaflets.*
+  - *The company distributed thousands of advertising leaflets.*（公司分发了数千份广告传单。）
 - **a promotional leaflet**：宣传传单
-  - *The promotional leaflet highlighted the benefits of the new product.*
+  - *The promotional leaflet highlighted the benefits of the new product.*（宣传传单重点介绍了新产品的好处。）
 - **an information leaflet**：信息手册
-  - *The tourist information office provides free leaflets about local attractions.*
+  - *The tourist information office provides free leaflets about local attractions.*（旅游信息中心免费提供当地景点的信息手册。）
 - **a travel leaflet**：旅游手册
-  - *I picked up a travel leaflet at the hotel reception.*
+  - *I picked up a travel leaflet at the hotel reception.*（我在酒店前台拿了一本旅游手册。）
 - **distribute/hand out leaflets**：分发传单
-  - *Volunteers were handing out leaflets in the street.*
+  - *Volunteers were handing out leaflets in the street.*（志愿者们在街上分发传单。）
 
 ## 真题/语料关联
 

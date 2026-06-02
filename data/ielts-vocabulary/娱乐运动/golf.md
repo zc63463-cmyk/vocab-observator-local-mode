@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play golf**：打高尔夫
-  - *He likes to play golf on weekends.*
+  - *He likes to play golf on weekends.*（他喜欢在周末打高尔夫。）
 - **golf course**：高尔夫球场
-  - *The golf course is beautifully designed.*
+  - *The golf course is beautifully designed.*（这个高尔夫球场设计得很漂亮。）
 - **golf tournament**：高尔夫锦标赛
-  - *The golf tournament attracts players from around the world.*
+  - *The golf tournament attracts players from around the world.*（这场高尔夫锦标赛吸引了来自世界各地的选手。）
 - **golf club**：高尔夫俱乐部；高尔夫球杆
-  - *He joined a local golf club.*
+  - *He joined a local golf club.*（他加入了一家当地的高尔夫俱乐部。）
 - **golf swing**：高尔夫挥杆
-  - *A good golf swing requires practice and technique.*
+  - *A good golf swing requires practice and technique.*（好的高尔夫挥杆需要练习和技巧。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **dean of the faculty**：学院院长
-  - *The dean of the faculty approved the new curriculum.*
+  - *The dean of the faculty approved the new curriculum.*（学院院长批准了新课程。）
 - **dean of students**：教务长（负责学生事务）
-  - *The dean of students is responsible for student welfare and discipline.*
+  - *The dean of students is responsible for student welfare and discipline.*（教务长负责学生福利和纪律。）
 - **dean's list**：院长名单（优秀学生名册）
-  - *She made the dean's list for her outstanding academic performance.*
+  - *She made the dean's list for her outstanding academic performance.*（她因出色的学业成绩登上了院长名单。）
 - **the dean of**：某领域的资深人士
-  - *He is widely regarded as the dean of modern economics.*
+  - *He is widely regarded as the dean of modern economics.*（他被广泛认为是现代经济学界的泰斗。）
 - **associate dean**：副院长
-  - *The associate dean oversees the research programmes.*
+  - *The associate dean oversees the research programmes.*（副院长负责监督研究项目。）
 
 ## 真题/语料关联
 

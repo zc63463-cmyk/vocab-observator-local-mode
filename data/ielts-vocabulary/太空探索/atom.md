@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hydrogen atom**：氢原子
-  - *The hydrogen atom is the simplest atom, with just one proton and one electron.*
+  - *The hydrogen atom is the simplest atom, with just one proton and one electron.*（氢原子是最简单的原子，只有一个质子和一个电子。）
 - **atomic structure**：原子结构
-  - *The atomic structure determines the chemical properties of an element.*
+  - *The atomic structure determines the chemical properties of an element.*（原子结构决定了一种元素的化学性质。）
 - **atom bomb**：原子弹
-  - *The atom bomb was first used in warfare in 1945.*
+  - *The atom bomb was first used in warfare in 1945.*（原子弹于1945年首次在战争中使用。）
 - **atomic energy**：原子能
-  - *Atomic energy is released during nuclear fission and fusion.*
+  - *Atomic energy is released during nuclear fission and fusion.*（原子能在核裂变和核聚变过程中释放。）
 - **not an atom of**：没有一丝……
-  - *There wasn't an atom of evidence to support his claim.*
+  - *There wasn't an atom of evidence to support his claim.*（没有一丝证据支持他的说法。）
 
 ## 真题/语料关联
 

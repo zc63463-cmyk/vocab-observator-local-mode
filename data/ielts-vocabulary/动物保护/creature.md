@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **living creature**：活的生物
-  - *All living creatures deserve respect and humane treatment.*
+  - *All living creatures deserve respect and humane treatment.*（所有生物都应得到尊重和人道对待。）
 - **sea creature**：海洋生物
-  - *The ocean is home to millions of fascinating sea creatures.*
+  - *The ocean is home to millions of fascinating sea creatures.*（海洋是数百万迷人海洋生物的家园。）
 - **mythical creature**：神话生物
-  - *Dragons and unicorns are examples of mythical creatures.*
+  - *Dragons and unicorns are examples of mythical creatures.*（龙和独角兽是神话生物的例子。）
 - **creature of habit**：墨守成规的人
-  - *He's a creature of habit—he always has coffee at 8 a.m.*
+  - *He's a creature of habit—he always has coffee at 8 a.m.*（他是个习惯一成不变的人——他总是早上8点喝咖啡。）
 - **creature comfort**：物质享受
-  - *The hotel provides all the creature comforts you could wish for.*
+  - *The hotel provides all the creature comforts you could wish for.*（这家酒店提供你所期望的一切舒适享受。）
 
 ## 真题/语料关联
 

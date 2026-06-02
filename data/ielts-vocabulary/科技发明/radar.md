@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **radar system**：雷达系统
-  - *The airport's radar system can detect aircraft within 200 miles.*
+  - *The airport's radar system can detect aircraft within 200 miles.*（机场的雷达系统可以探测到200英里内的飞机。）
 - **on the radar**：在关注范围内
-  - *The issue has been on the government's radar for months.*
+  - *The issue has been on the government's radar for months.*（这个问题几个月来一直在政府的关注范围内。）
 - **under the radar**：不被注意地
-  - *The company has been growing under the radar.*
+  - *The company has been growing under the radar.*（这家公司一直在不引人注意地发展。）
 - **radar detection**：雷达探测
-  - *Radar detection is used for speed enforcement on highways.*
+  - *Radar detection is used for speed enforcement on highways.*（雷达探测用于高速公路上的测速执法。）
 - **Doppler radar**：多普勒雷达
-  - *Doppler radar measures the velocity of precipitation.*
+  - *Doppler radar measures the velocity of precipitation.*（多普勒雷达测量降水的速度。）
 
 ## 真题/语料关联
 

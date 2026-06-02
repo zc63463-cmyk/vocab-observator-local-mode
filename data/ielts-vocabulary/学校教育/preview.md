@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sneak preview**：抢先看，内部预映
-  - *The studio gave us a sneak preview of the new film.*
+  - *The studio gave us a sneak preview of the new film.*（中文翻译）
 - **preview of**：……的预览/预告
-  - *This is just a preview of what's to come.*
+  - *This is just a preview of what's to come.*（中文翻译）
 - **preview the material/chapter**：预习材料/章节
-  - *It's helpful to preview the chapter before the lecture.*
+  - *It's helpful to preview the chapter before the lecture.*（中文翻译）
 - **in preview**：在预映中
-  - *The exhibition is currently in preview.*
+  - *The exhibition is currently in preview.*（中文翻译）
 - **preview copy/screening**：预映拷贝/预映场
-  - *The critics attended a preview screening.*
+  - *The critics attended a preview screening.*（中文翻译）
 
 ## 真题/语料关联
 

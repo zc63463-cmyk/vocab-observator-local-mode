@@ -73,15 +73,15 @@ review_count: 0
 ## 搭配与短语
 
 - **bee sting**：蜜蜂蛰伤
-  - *The bee sting caused a red, swollen area on her arm.*
+  - *The bee sting caused a red, swollen area on her arm.*（蜜蜂蜇伤使她的手臂上出现了一块红肿的区域。）
 - **sting operation**：诱捕行动
-  - *The police conducted a sting operation to catch the drug dealers.*
+  - *The police conducted a sting operation to catch the drug dealers.*（警方实施了一次卧底行动抓捕毒贩。）
 - **sting like a bee**：像蜜蜂一样蛰人（形容出拳有力）
-  - *Muhammad Ali said he could "float like a butterfly, sting like a bee."*
+  - *Muhammad Ali said he could "float like a butterfly, sting like a bee."*（穆罕默德·阿里说他能'像蝴蝶一样飞舞，像蜜蜂一样蜇人。'）
 - **sting in the tail**：结局的意外转折（尤指不愉快的）
-  - *The deal seemed good, but there was a sting in the tail.*
+  - *The deal seemed good, but there was a sting in the tail.*（这笔交易看起来不错，但结尾处有令人不快的意外。）
 - **stinging nettle**：荨麻（会蛰人的植物）
-  - *Be careful of the stinging nettles in the garden.*
+  - *Be careful of the stinging nettles in the garden.*（小心花园里蜇人的荨麻。）
 
 ## 真题/语料关联
 

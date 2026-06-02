@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **fur coat**：毛皮大衣
-  - *She wore an elegant fur coat to the opera.*
+  - *She wore an elegant fur coat to the opera.*（她穿着一件优雅的皮草大衣去听歌剧。）
 - **fur trade**：毛皮贸易
-  - *The fur trade played a major role in the colonial economy of North America.*
+  - *The fur trade played a major role in the colonial economy of North America.*（皮毛贸易在北美的殖民经济中发挥了重要作用。）
 - **make someone's fur stand on end**：使某人毛骨悚然
-  - *The ghost story made my fur stand on end.*
+  - *The ghost story made my fur stand on end.*（这个鬼故事吓得我毛骨悚然。）
 - **fur and feather**：鸟兽（总称）
-  - *The forest is home to all kinds of fur and feather.*
+  - *The forest is home to all kinds of fur and feather.*（森林是各种飞禽走兽的家园。）
 - **fur baby**：宠物（网络用语）
-  - *She treats her cat like a fur baby.*
+  - *She treats her cat like a fur baby.*（她把她的猫当成毛孩子一样对待。）
 
 ## 真题/语料关联
 

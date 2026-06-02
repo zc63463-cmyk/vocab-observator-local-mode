@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **alter the plan**：修改计划
-  - *We need to alter the plan due to bad weather.*
+  - *We need to alter the plan due to bad weather.*（由于天气不好，我们需要修改计划。）
 - **alter clothes**：修改衣服
-  - *She took the dress to the tailor to have it altered.*
+  - *She took the dress to the tailor to have it altered.*（她把裙子拿到裁缝那里去修改。）
 - **alter the records**：修改记录
-  - *It is illegal to alter official records.*
+  - *It is illegal to alter official records.*（篡改官方记录是违法的。）
 - **alter over time**：随时间变化
-  - *Climate patterns have altered significantly over the past century.*
+  - *Climate patterns have altered significantly over the past century.*（过去一个世纪里，气候模式发生了显著变化。）
 - **alter course**：改变方向
-  - *The ship altered course to avoid the storm.*
+  - *The ship altered course to avoid the storm.*（轮船改变了航向以避开风暴。）
 
 ## 真题/语料关联
 

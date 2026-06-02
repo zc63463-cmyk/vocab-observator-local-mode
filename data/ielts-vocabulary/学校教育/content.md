@@ -78,15 +78,15 @@ review_count: 0
 ## 搭配与短语
 
 - **table of contents**：目录
-  - *The table of contents lists all the chapters in the book.*
+  - *The table of contents lists all the chapters in the book.*（目录列出了书中所有的章节。）
 - **content analysis**：内容分析
-  - *The researchers conducted a content analysis of the media coverage.*
+  - *The researchers conducted a content analysis of the media coverage.*（研究人员对媒体报道进行了内容分析。）
 - **sugar content**：含糖量
-  - *The sugar content in this drink is very high.*
+  - *The sugar content in this drink is very high.*（这种饮料的含糖量非常高。）
 - **digital content**：数字内容
-  - *The company specializes in creating digital content.*
+  - *The company specializes in creating digital content.*（这家公司专门制作数字内容。）
 - **be content with**：满足于
-  - *She was content with her simple life.*
+  - *She was content with her simple life.*（她满足于自己简单的生活。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **subsistence farming**：自给自足的农业（仅够维持生存的耕作）
-  - *Many communities in developing countries still rely on subsistence farming.*
+  - *Many communities in developing countries still rely on subsistence farming.*（发展中国家的许多社区仍然依赖自给农业。）
 - **subsistence level**：最低生活水平
-  - *The drought forced many families to live at subsistence level.*
+  - *The drought forced many families to live at subsistence level.*（干旱迫使许多家庭生活在仅能维持生存的水平。）
 - **means of subsistence**：生计，谋生手段
-  - *The destruction of forests threatens the means of subsistence for indigenous peoples.*
+  - *The destruction of forests threatens the means of subsistence for indigenous peoples.*（森林的破坏威胁着土著人民的生计来源。）
 - **bare subsistence**：勉强糊口
-  - *The refugees received only enough food for bare subsistence.*
+  - *The refugees received only enough food for bare subsistence.*（难民只得到了仅够勉强维持生存的食物。）
 - **subsistence wage**：仅够维持生活的工资
-  - *Workers in some regions are paid a subsistence wage with no prospect of savings.*
+  - *Workers in some regions are paid a subsistence wage with no prospect of savings.*（一些地区的工人只拿到勉强维生的工资，没有储蓄的希望。）
 
 ## 真题/语料关联
 

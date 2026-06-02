@@ -70,17 +70,17 @@ review_count: 0
 ## 搭配与短语
 
 - **antique shop/store**：古董店
-  - *She found a beautiful mirror at an antique shop.*
+  - *She found a beautiful mirror at an antique shop.*（她在一家古董店找到了一面漂亮的镜子。）
 - **antique furniture**：古董家具
-  - *The house was filled with antique furniture from the 18th century.*
+  - *The house was filled with antique furniture from the 18th century.*（房子里摆满了18世纪的古董家具。）
 - **antique collection**：古董收藏
-  - *He has an impressive antique collection.*
+  - *He has an impressive antique collection.*（他有一个令人印象深刻的古董收藏。）
 - **valuable antiques**：珍贵的古董
-  - *The auction house sold several valuable antiques.*
+  - *The auction house sold several valuable antiques.*（拍卖行售出了几件珍贵的古董。）
 - **antique market**：古董市场
-  - *The antique market is held every Sunday in the town square.*
+  - *The antique market is held every Sunday in the town square.*（古董市场每周日在镇广场举行。）
 - **antique dealer**：古董商
-  - *The antique dealer appraised the vase at £5,000.*
+  - *The antique dealer appraised the vase at £5,000.*（古董商估价这个花瓶为5000英镑。）
 
 ## 真题/语料关联
 

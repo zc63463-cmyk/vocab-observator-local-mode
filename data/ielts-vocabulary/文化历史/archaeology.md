@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study archaeology**：学习考古学
-  - *She decided to study archaeology at university because she was fascinated by ancient civilizations.*
+  - *She decided to study archaeology at university because she was fascinated by ancient civilizations.*（她决定在大学学习考古学，因为她对古代文明着迷。）
 - **archaeological excavation**：考古发掘
-  - *The archaeological excavation revealed a Roman villa buried beneath the field.*
+  - *The archaeological excavation revealed a Roman villa buried beneath the field.*（考古发掘揭示了埋藏在田野下的罗马别墅。）
 - **archaeological discovery**：考古发现
-  - *This archaeological discovery has changed our understanding of prehistoric Britain.*
+  - *This archaeological discovery has changed our understanding of prehistoric Britain.*（这一考古发现改变了我们对史前英国的理解。）
 - **archaeological evidence**：考古证据
-  - *Archaeological evidence suggests that humans lived in this area over 10,000 years ago.*
+  - *Archaeological evidence suggests that humans lived in this area over 10,000 years ago.*（考古证据表明人类在一万多年前就居住在这个地区。）
 - **field archaeology**：田野考古
-  - *Field archaeology requires both physical stamina and meticulous attention to detail.*
+  - *Field archaeology requires both physical stamina and meticulous attention to detail.*（田野考古既需要体力，也需要对细节的 meticulous 关注。）
 
 ## 真题/语料关联
 

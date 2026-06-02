@@ -67,17 +67,17 @@ review_count: 0
 ## 搭配与短语
 
 - **exotic plants/flowers**：外来植物/花卉
-  - *The garden is filled with exotic plants from tropical regions.*
+  - *The garden is filled with exotic plants from tropical regions.*（花园里种满了来自热带地区的外来植物。）
 - **exotic cuisine/food**：异国美食
-  - *She loves trying exotic cuisines from around the world.*
+  - *She loves trying exotic cuisines from around the world.*（她喜欢尝试来自世界各地的异国美食。）
 - **exotic destination/location**：异国目的地
-  - *Bali is an exotic destination for many European tourists.*
+  - *Bali is an exotic destination for many European tourists.*（巴厘岛对许多欧洲游客来说是一个充满异域风情的旅游目的地。）
 - **exotic animals/wildlife**：外来动物/野生动物
-  - *The zoo has a collection of exotic animals from Africa and Asia.*
+  - *The zoo has a collection of exotic animals from Africa and Asia.*（动物园收藏了来自非洲和亚洲的外来动物。）
 - **exotic culture**：异域文化
-  - *Travellers are often fascinated by exotic cultures.*
+  - *Travellers are often fascinated by exotic cultures.*（旅行者经常被异域文化所吸引。）
 - **exotic beauty**：异域之美
-  - *The actress was known for her exotic beauty.*
+  - *The actress was known for her exotic beauty.*（这位女演员以其异域之美而闻名。）
 
 ## 真题/语料关联
 

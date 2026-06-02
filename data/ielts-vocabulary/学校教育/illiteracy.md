@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **combat/fight illiteracy**：与文盲作斗争
-  - *The government has launched a campaign to combat illiteracy.*
+  - *The government has launched a campaign to combat illiteracy.*（政府发起了一场扫盲运动。）
 - **eradicate illiteracy**：消除文盲
-  - *The goal is to eradicate illiteracy within a decade.*
+  - *The goal is to eradicate illiteracy within a decade.*（目标是在十年内消除文盲。）
 - **functional illiteracy**：功能性文盲
-  - *Many adults suffer from functional illiteracy and struggle with everyday tasks.*
+  - *Many adults suffer from functional illiteracy and struggle with everyday tasks.*（许多成年人患有功能性文盲，在日常事务中挣扎。）
 - **scientific illiteracy**：科学无知
-  - *Scientific illiteracy can lead to poor decision-making about health.*
+  - *Scientific illiteracy can lead to poor decision-making about health.*（科学无知可能导致错误的健康决策。）
 - **illiteracy rate**：文盲率
-  - *The illiteracy rate has dropped significantly in recent years.*
+  - *The illiteracy rate has dropped significantly in recent years.*（近年来文盲率显著下降。）
 - **suffer from illiteracy**：受文盲之苦
-  - *Millions of people worldwide still suffer from illiteracy.*
+  - *Millions of people worldwide still suffer from illiteracy.*（全世界仍有数百万人深受文盲之苦。）
 
 ## 真题/语料关联
 

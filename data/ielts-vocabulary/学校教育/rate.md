@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **at a rate of**：以……的速度/比率
-  - *The population is growing at a rate of 2% per year.*
+  - *The population is growing at a rate of 2% per year.*（人口以每年2%的速度增长。）
 - **interest rate**：利率
-  - *The central bank raised interest rates by 0.5%.*
+  - *The central bank raised interest rates by 0.5%.*（中央银行将利率提高了0.5%。）
 - **exchange rate**：汇率
-  - *The exchange rate between the dollar and the euro has fluctuated.*
+  - *The exchange rate between the dollar and the euro has fluctuated.*（美元和欧元之间的汇率已经波动。）
 - **at an alarming/rapid rate**：以惊人的/快速的速度
-  - *Deforestation is occurring at an alarming rate.*
+  - *Deforestation is occurring at an alarming rate.*（森林砍伐正在以惊人的速度发生。）
 - **rate of return**：回报率
-  - *The investment offers a high rate of return.*
+  - *The investment offers a high rate of return.*（这项投资提供了高回报率。）
 - **rate highly**：高度评价
-  - *This restaurant is rated highly by critics.*
+  - *This restaurant is rated highly by critics.*（这家餐厅受到评论家的高度评价。）
 
 ## 真题/语料关联
 

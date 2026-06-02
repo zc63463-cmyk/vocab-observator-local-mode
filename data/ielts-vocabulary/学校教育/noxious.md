@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **noxious fumes**：有害烟雾
-  - *The factory emitted noxious fumes that polluted the air.*
+  - *The factory emitted noxious fumes that polluted the air.*（中文翻译）
 - **noxious chemicals**：有毒化学品
-  - *Noxious chemicals were dumped into the river.*
+  - *Noxious chemicals were dumped into the river.*（中文翻译）
 - **noxious substances**：有害物质
-  - *The law regulates the disposal of noxious substances.*
+  - *The law regulates the disposal of noxious substances.*（中文翻译）
 - **noxious smell**：难闻的气味
-  - *A noxious smell came from the garbage dump.*
+  - *A noxious smell came from the garbage dump.*（中文翻译）
 - **noxious weeds**：有害杂草
-  - *The government is trying to control noxious weeds in the region.*
+  - *The government is trying to control noxious weeds in the region.*（中文翻译）
 
 ## 真题/语料关联
 

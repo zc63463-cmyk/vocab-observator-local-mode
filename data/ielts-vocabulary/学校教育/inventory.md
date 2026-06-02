@@ -74,15 +74,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inventory list**：库存清单
-  - *The inventory list shows all the items in stock.*
+  - *The inventory list shows all the items in stock.*（库存清单显示所有库存物品。）
 - **hold inventory**：持有库存
-  - *The company tries to minimize the inventory it holds.*
+  - *The company tries to minimize the inventory it holds.*（公司尽量将持有的库存降至最低。）
 - **take inventory**：盘点
-  - *The store takes inventory at the end of each month.*
+  - *The store takes inventory at the end of each month.*（这家商店每月底进行盘点。）
 - **inventory management**：库存管理
-  - *Effective inventory management reduces costs.*
+  - *Effective inventory management reduces costs.*（有效的库存管理可以降低成本。）
 - **inventory turnover**：库存周转率
-  - *A high inventory turnover indicates efficient operations.*
+  - *A high inventory turnover indicates efficient operations.*（高库存周转率表明运营效率高。）
 
 ## 真题/语料关联
 

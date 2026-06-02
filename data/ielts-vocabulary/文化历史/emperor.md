@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the Roman/Chinese/Japanese emperor**：罗马/中国/日本皇帝
-  - *The Roman emperor had absolute power over the empire.*
+  - *The Roman emperor had absolute power over the empire.*（罗马皇帝对帝国拥有绝对权力。）
 - **emperor and empress**：皇帝和皇后
-  - *The emperor and empress greeted the foreign diplomats.*
+  - *The emperor and empress greeted the foreign diplomats.*（皇帝和皇后迎接了外国外交官。）
 - **emperor penguin**：帝企鹅
-  - *The emperor penguin is the largest species of penguin.*
+  - *The emperor penguin is the largest species of penguin.*（帝企鹅是最大的企鹅物种。）
 - **the emperor's new clothes**：皇帝的新衣（比喻自欺欺人）
-  - *The situation reminded me of the emperor's new clothes.*
+  - *The situation reminded me of the emperor's new clothes.*（这种情况让我想起了皇帝的新衣。）
 - **crowned emperor**：加冕为皇帝
-  - *He was crowned emperor in a grand ceremony.*
+  - *He was crowned emperor in a grand ceremony.*（他在盛大的仪式上加冕为皇帝。）
 
 ## 真题/语料关联
 

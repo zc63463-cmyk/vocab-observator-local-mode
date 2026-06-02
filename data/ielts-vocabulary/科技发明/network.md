@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **computer network**：计算机网络
-  - *The company has a secure computer network for internal communication.*
+  - *The company has a secure computer network for internal communication.*（公司拥有一个安全的计算机网络用于内部通信。）
 - **social network**：社交网络
-  - *Social networks have changed how people interact and share information.*
+  - *Social networks have changed how people interact and share information.*（社交网络改变了人们互动和分享信息的方式。）
 - **network connection**：网络连接
-  - *The network connection is unstable in this area.*
+  - *The network connection is unstable in this area.*（这个区域的网络连接不稳定。）
 - **network with**：与……建立联系
-  - *Professionals often network with others at industry events.*
+  - *Professionals often network with others at industry events.*（专业人士经常在行业活动中与他人建立联系。）
 - **on the network**：在网络上
-  - *The file is shared on the network for all employees to access.*
+  - *The file is shared on the network for all employees to access.*（文件在网络上共享，供所有员工访问。）
 
 ## 真题/语料关联
 

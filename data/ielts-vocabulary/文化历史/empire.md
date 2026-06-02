@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **the Roman Empire**：罗马帝国
-  - *The Roman Empire was one of the largest empires in history.*
+  - *The Roman Empire was one of the largest empires in history.*（罗马帝国是历史上最大的帝国之一。）
 - **British Empire**：大英帝国
-  - *The British Empire once controlled territories on every continent.*
+  - *The British Empire once controlled territories on every continent.*（大英帝国曾经控制着各大洲的领土。）
 - **business empire**：商业帝国
-  - *He built a business empire from scratch.*
+  - *He built a business empire from scratch.*（他白手起家建立了一个商业帝国。）
 - **empire building**：帝国扩张（贬义，指权力扩张）
-  - *His empire-building tactics were criticized by competitors.*
+  - *His empire-building tactics were criticized by competitors.*（他的帝国扩张策略受到了竞争对手的批评。）
 - **empire state**：帝国州（美国纽约州的别称）
-  - *New York is known as the Empire State.*
+  - *New York is known as the Empire State.*（纽约被称为帝国州。）
 - **empire-style**：帝国风格（法国拿破仑时期的装饰风格）
-  - *The room was decorated in an empire-style with gold accents.*
+  - *The room was decorated in an empire-style with gold accents.*（房间以帝国风格装饰，配有金色装饰。）
 
 ## 真题/语料关联
 

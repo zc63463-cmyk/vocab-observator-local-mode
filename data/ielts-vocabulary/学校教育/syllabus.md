@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **course syllabus**：课程大纲
-  - *The course syllabus is available on the university website.*
+  - *The course syllabus is available on the university website.*（课程大纲可在大学网站上获取。）
 - **exam syllabus**：考试大纲
-  - *Make sure you cover all topics in the exam syllabus.*
+  - *Make sure you cover all topics in the exam syllabus.*（确保你覆盖了考试大纲中的所有主题。）
 - **follow the syllabus**：遵循教学大纲
-  - *Teachers are expected to follow the national syllabus.*
+  - *Teachers are expected to follow the national syllabus.*（老师应遵循国家教学大纲。）
 - **syllabus design**：教学大纲设计
-  - *Syllabus design is an important aspect of curriculum development.*
+  - *Syllabus design is an important aspect of curriculum development.*（教学大纲设计是课程开发的一个重要方面。）
 - **syllabus coverage**：教学大纲覆盖范围
-  - *The teacher ensured complete syllabus coverage before the exam.*
+  - *The teacher ensured complete syllabus coverage before the exam.*（老师确保在考试前完全覆盖了教学大纲内容。）
 
 ## 真题/语料关联
 

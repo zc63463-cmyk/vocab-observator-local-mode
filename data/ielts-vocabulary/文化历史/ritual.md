@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **religious ritual**：宗教仪式
-  - *The tribe performs a religious ritual at the start of each planting season.*
+  - *The tribe performs a religious ritual at the start of each planting season.*（部落每年种植季节开始时举行宗教仪式。）
 - **ritual dance**：仪式舞蹈
-  - *The ritual dance was performed to honour the spirits of the ancestors.*
+  - *The ritual dance was performed to honour the spirits of the ancestors.*（仪式舞蹈是为了纪念祖先的灵魂而表演的。）
 - **morning ritual**：晨间惯例
-  - *My morning ritual includes a cup of coffee and 15 minutes of reading.*
+  - *My morning ritual includes a cup of coffee and 15 minutes of reading.*（我早上的例行公事包括一杯咖啡和15分钟的阅读。）
 - **ritual cleansing**：仪式净化
-  - *Ritual cleansing is an important part of many religious traditions.*
+  - *Ritual cleansing is an important part of many religious traditions.*（仪式性沐浴是许多宗教传统中的重要部分。）
 - **initiation ritual**：成年礼/入会仪式
-  - *The initiation ritual marks the transition from boyhood to manhood in many cultures.*
+  - *The initiation ritual marks the transition from boyhood to manhood in many cultures.*（在许多文化中，成人仪式标志着从男孩到男人的转变。）
 
 ## 真题/语料关联
 

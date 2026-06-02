@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **plagiarise someone's work**：抄袭某人的作品
-  - *The student was caught plagiarising his classmate's essay.*
+  - *The student was caught plagiarising his classmate's essay.*（中文翻译）
 - **plagiarise from**：从……抄袭
-  - *She plagiarised from several online sources without citation.*
+  - *She plagiarised from several online sources without citation.*（中文翻译）
 - **commit plagiarism**：犯抄袭罪
-  - *Committing plagiarism can result in expulsion from university.*
+  - *Committing plagiarism can result in expulsion from university.*（中文翻译）
 - **accused of plagiarism**：被指控抄袭
-  - *The author was accused of plagiarism by the original writer.*
+  - *The author was accused of plagiarism by the original writer.*（中文翻译）
 - **plagiarism detection software**：抄袭检测软件
-  - *Universities use plagiarism detection software to check student submissions.*
+  - *Universities use plagiarism detection software to check student submissions.*（中文翻译）
 
 ## 真题/语料关联
 

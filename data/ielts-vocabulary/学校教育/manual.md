@@ -76,15 +76,15 @@ review_count: 0
 ## 搭配与短语
 
 - **user manual**：用户手册
-  - *Please read the user manual before operating the machine.*
+  - *Please read the user manual before operating the machine.*（中文翻译）
 - **instruction manual**：说明书
-  - *The instruction manual provides step-by-step guidance.*
+  - *The instruction manual provides step-by-step guidance.*（中文翻译）
 - **training manual**：培训手册
-  - *The training manual covers all the essential skills.*
+  - *The training manual covers all the essential skills.*（中文翻译）
 - **manual labor**：体力劳动
-  - *Manual labor is physically demanding but essential.*
+  - *Manual labor is physically demanding but essential.*（中文翻译）
 - **manual transmission**：手动变速箱
-  - *Some drivers prefer manual transmission for better control.*
+  - *Some drivers prefer manual transmission for better control.*（中文翻译）
 
 ## 真题/语料关联
 

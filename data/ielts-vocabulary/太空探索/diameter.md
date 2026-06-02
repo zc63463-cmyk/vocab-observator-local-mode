@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **in diameter**：直径为
-  - *The Moon is about 3,474 km in diameter.*
+  - *The Moon is about 3,474 km in diameter.*（月球的直径约为3,474公里。）
 - **diameter of a circle**：圆的直径
-  - *The diameter of a circle is twice the radius.*
+  - *The diameter of a circle is twice the radius.*（圆的直径是半径的两倍。）
 - **internal/external diameter**：内径/外径
-  - *The pipe has an internal diameter of 5 cm.*
+  - *The pipe has an internal diameter of 5 cm.*（这根管子的内径为5厘米。）
 - **diameter measurement**：直径测量
-  - *Accurate diameter measurement is essential in engineering.*
+  - *Accurate diameter measurement is essential in engineering.*（精确的直径测量在工程中至关重要。）
 - **large/small diameter**：大/小直径
-  - *Telescopes with larger diameters can collect more light.*
+  - *Telescopes with larger diameters can collect more light.*（直径更大的望远镜可以收集更多的光线。）
 
 ## 真题/语料关联
 

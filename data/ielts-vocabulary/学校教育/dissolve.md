@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sugar dissolves**：糖溶解
-  - *Sugar dissolves quickly in hot water.*
+  - *Sugar dissolves quickly in hot water.*（糖在热水中溶解得很快。）
 - **dissolve parliament**：解散议会
-  - *The king decided to dissolve parliament and call new elections.*
+  - *The king decided to dissolve parliament and call new elections.*（国王决定解散议会并举行新的选举。）
 - **dissolve tension**：消除紧张
-  - *A joke can help dissolve tension in a difficult situation.*
+  - *A joke can help dissolve tension in a difficult situation.*（在困难情况下，笑话有助于消除紧张气氛。）
 - **dissolve into tears**：忍不住哭起来
-  - *She dissolved into tears when she heard the sad news.*
+  - *She dissolved into tears when she heard the sad news.*（听到这个悲伤的消息，她忍不住哭了起来。）
 - **dissolve into laughter**：忍不住笑起来
-  - *The audience dissolved into laughter at the comedian's jokes.*
+  - *The audience dissolved into laughter at the comedian's jokes.*（观众被喜剧演员的笑话逗得哈哈大笑。）
 
 ## 真题/语料关联
 

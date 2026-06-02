@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **initial phase**：初始阶段
-  - *The project is in its initial phase.*
+  - *The project is in its initial phase.*（项目处于初始阶段。）
 - **final phase**：最后阶段
-  - *We are now in the final phase of testing.*
+  - *We are now in the final phase of testing.*（我们现在处于测试的最后阶段。）
 - **phase in**：逐步引入
-  - *The new system will be phased in over the next year.*
+  - *The new system will be phased in over the next year.*（新系统将在未来一年内逐步引入。）
 - **phase out**：逐步淘汰
-  - *The company plans to phase out the old technology.*
+  - *The company plans to phase out the old technology.*（公司计划逐步淘汰旧技术。）
 - **in phase**：同相的，协调的
-  - *The two signals are in phase with each other.*
+  - *The two signals are in phase with each other.*（这两个信号彼此同相。）
 
 ## 真题/语料关联
 

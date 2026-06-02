@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sea turtle**：海龟
-  - *Sea turtles travel thousands of miles to return to their birthplace to lay eggs.*
+  - *Sea turtles travel thousands of miles to return to their birthplace to lay eggs.*（海龟跋涉数千英里回到它们的出生地产卵。）
 - **turtle shell**：龟壳
-  - *The turtle shell is actually a modified ribcage.*
+  - *The turtle shell is actually a modified ribcage.*（龟壳实际上是经过改造的肋骨笼。）
 - **turtle dove**：斑鸠（不是龟！）
-  - *The turtle dove is a symbol of love in many cultures.*
+  - *The turtle dove is a symbol of love in many cultures.*（斑鸠在许多文化中是爱情的象征。）
 - **turn turtle**：翻转，倾覆
-  - *The boat turned turtle in the storm.*
+  - *The boat turned turtle in the storm.*（船在风暴中倾覆了。）
 - **turtle neck**：高领毛衣
-  - *She wore a turtle neck to keep warm in winter.*
+  - *She wore a turtle neck to keep warm in winter.*（她穿着高领毛衣御寒。）
 
 ## 真题/语料关联
 

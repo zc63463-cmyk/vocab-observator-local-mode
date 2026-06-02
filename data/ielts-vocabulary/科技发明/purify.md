@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **purify water**：净化水
-  - *The filter is designed to purify water for drinking.*
+  - *The filter is designed to purify water for drinking.*（这个过滤器旨在净化水以供饮用。）
 - **purify the air**：净化空气
-  - *Houseplants can help purify the air in your home.*
+  - *Houseplants can help purify the air in your home.*（室内植物可以帮助净化家中的空气。）
 - **purified water**：纯净水
-  - *Always use purified water in the experiment.*
+  - *Always use purified water in the experiment.*（实验中务必使用纯净水。）
 - **purify the soul/mind**：净化心灵
-  - *Meditation can help purify the mind and reduce stress.*
+  - *Meditation can help purify the mind and reduce stress.*（冥想可以帮助净化心灵、减轻压力。）
 - **air purifier**：空气净化器
-  - *The air purifier removes allergens from the room.*
+  - *The air purifier removes allergens from the room.*（空气净化器去除房间里的过敏原。）
 
 ## 真题/语料关联
 

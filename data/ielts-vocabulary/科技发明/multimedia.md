@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **multimedia presentation**：多媒体演示
-  - *The teacher used a multimedia presentation to engage the students.*
+  - *The teacher used a multimedia presentation to engage the students.*（老师使用多媒体演示来吸引学生的注意力。）
 - **multimedia content**：多媒体内容
-  - *The website offers rich multimedia content including videos and interactive graphics.*
+  - *The website offers rich multimedia content including videos and interactive graphics.*（这个网站提供丰富的多媒体内容，包括视频和互动图形。）
 - **multimedia player**：多媒体播放器
-  - *VLC is a popular multimedia player that supports various formats.*
+  - *VLC is a popular multimedia player that supports various formats.*（VLC是一款支持多种格式的流行多媒体播放器。）
 - **multimedia application**：多媒体应用
-  - *The multimedia application allows users to edit photos, videos, and audio.*
+  - *The multimedia application allows users to edit photos, videos, and audio.*（这个多媒体应用允许用户编辑照片、视频和音频。）
 - **multimedia learning**：多媒体学习
-  - *Research shows that multimedia learning can improve retention and understanding.*
+  - *Research shows that multimedia learning can improve retention and understanding.*（研究表明，多媒体学习可以提高记忆力和理解力。）
 
 ## 真题/语料关联
 

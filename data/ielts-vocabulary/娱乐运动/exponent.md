@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **an exponent of**：……的倡导者
-  - *She is a leading exponent of sustainable development.*
+  - *She is a leading exponent of sustainable development.*（她是可持续发展的主要倡导者。）
 - **a leading/chief exponent**：主要倡导者
-  - *He is considered the leading exponent of this teaching method.*
+  - *He is considered the leading exponent of this teaching method.*（他被认为是这种教学方法的代表人物。）
 - **a prominent exponent**：杰出的倡导者
-  - *The artist is a prominent exponent of abstract expressionism.*
+  - *The artist is a prominent exponent of abstract expressionism.*（这位艺术家是抽象表现主义的杰出代表。）
 - **raise to the power of an exponent**：乘方
-  - *In mathematics, you raise a number to the power of an exponent.*
+  - *In mathematics, you raise a number to the power of an exponent.*（在数学中，你将一个数进行乘方运算。）
 
 ## 真题/语料关联
 

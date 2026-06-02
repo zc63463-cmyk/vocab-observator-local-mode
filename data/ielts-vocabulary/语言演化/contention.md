@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a point of contention**：争论点
-  - *The allocation of resources remains a major point of contention.*
+  - *The allocation of resources remains a major point of contention.*（资源分配仍然是一个主要的争论点。）
 - **bone of contention**：争端的原因
-  - *The inheritance became a bone of contention between the siblings.*
+  - *The inheritance became a bone of contention between the siblings.*（遗产成了兄弟姐妹之间争端的原因。）
 - **main/central contention**：主要论点
-  - *His main contention is that the policy is ineffective.*
+  - *His main contention is that the policy is ineffective.*（他的主要论点是这样的政策是无效的。）
 - **in contention**：在竞争中
-  - *The team is still in contention for the championship.*
+  - *The team is still in contention for the championship.*（该队仍在争夺冠军。）
 - **heated/bitter contention**：激烈争论
-  - *The proposal caused heated contention among the committee members.*
+  - *The proposal caused heated contention among the committee members.*（该提案在委员会成员中引起了激烈争论。）
 
 ## 真题/语料关联
 

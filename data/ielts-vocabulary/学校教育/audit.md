@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **financial audit**：财务审计
-  - *The company undergoes an annual financial audit.*
+  - *The company undergoes an annual financial audit.*（公司每年接受一次财务审计。）
 - **audit report**：审计报告
-  - *The audit report revealed several irregularities.*
+  - *The audit report revealed several irregularities.*（审计报告揭示了几处违规情况。）
 - **audit the accounts**：审计账目
-  - *External auditors were hired to audit the accounts.*
+  - *External auditors were hired to audit the accounts.*（聘请了外部审计师来审计账目。）
 - **audit a course**：旁听课程
-  - *She decided to audit a philosophy course.*
+  - *She decided to audit a philosophy course.*（她决定旁听一门哲学课程。）
 - **audit trail**：审计线索
-  - *The system maintains a complete audit trail of all transactions.*
+  - *The system maintains a complete audit trail of all transactions.*（该系统维护所有交易的完整审计线索。）
 
 ## 真题/语料关联
 

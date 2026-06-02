@@ -69,15 +69,15 @@ soccer 源自 **association football**（联合足球）的缩略。19世纪英�
 ## 搭配与短语
 
 - **play soccer**：踢足球
-  - *He plays soccer every weekend with his friends.*
+  - *He plays soccer every weekend with his friends.*（他每个周末都和朋友们踢足球。）
 - **soccer match/game**：足球比赛
-  - *The soccer match ended in a 2-2 draw.*
+  - *The soccer match ended in a 2-2 draw.*（足球比赛以2比2平局结束。）
 - **soccer field/pitch**：足球场
-  - *The soccer field was muddy after the rain.*
+  - *The soccer field was muddy after the rain.*（雨后足球场泥泞不堪。）
 - **soccer league**：足球联赛
-  - *The English Premier League is the most-watched soccer league in the world.*
+  - *The English Premier League is the most-watched soccer league in the world.*（英格兰超级联赛是世界上观看人数最多的足球联赛。）
 - **soccer fan**：足球迷
-  - *Millions of soccer fans tuned in to watch the World Cup final.*
+  - *Millions of soccer fans tuned in to watch the World Cup final.*（数百万足球迷收看世界杯决赛。）
 
 ## 真题/语料关联
 

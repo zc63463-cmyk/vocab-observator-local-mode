@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **walking pace**：步行速度
-  - *We continued at a steady walking pace through the countryside.*
+  - *We continued at a steady walking pace through the countryside.*（我们以稳定的步行速度穿过乡村。）
 - **keep pace with**：跟上……的步伐
-  - *Technology is advancing so fast that it's hard to keep pace with.*
+  - *Technology is advancing so fast that it's hard to keep pace with.*（技术发展如此之快，很难跟上它的步伐。）
 - **at a fast/slow pace**：以快/慢的速度
-  - *The economy is growing at a fast pace.*
+  - *The economy is growing at a fast pace.*（经济正在快速增长。）
 - **pace yourself**：控制自己的节奏
-  - *You need to pace yourself during the marathon to avoid exhaustion.*
+  - *You need to pace yourself during the marathon to avoid exhaustion.*（你需要在马拉松中控制节奏，以免筋疲力尽。）
 - **set the pace**：定步速；起带头作用
-  - *The leading runner set a fast pace from the start.*
+  - *The leading runner set a fast pace from the start.*（领先的选手从一开始就设定了很快的步速。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **get good/high grades**：取得好成绩
-  - *She always gets good grades in mathematics.*
+  - *She always gets good grades in mathematics.*（她在数学上总是取得好成绩。）
 - **grade papers/assignments**：批改试卷/作业
-  - *The professor spent the weekend grading papers.*
+  - *The professor spent the weekend grading papers.*（教授整个周末都在批改试卷。）
 - **top grade**：最高等级
-  - *This beef is top grade, perfect for grilling.*
+  - *This beef is top grade, perfect for grilling.*（这块牛肉是顶级品质，非常适合烧烤。）
 - **make the grade**：达到标准
-  - *Only the best candidates will make the grade.*
+  - *Only the best candidates will make the grade.*（只有最优秀的候选人才能达到标准。）
 - **grade point average (GPA)**：平均绩点
-  - *A high GPA is important for graduate school applications.*
+  - *A high GPA is important for graduate school applications.*（高绩点对研究生院申请很重要。）
 
 ## 真题/语料关联
 

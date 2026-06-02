@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **lion cub**：幼狮
-  - *The lion cub played with its siblings.*
+  - *The lion cub played with its siblings.*（狮子幼崽和它的兄弟姐妹们玩耍。）
 - **bear cub**：幼熊
-  - *The bear cub followed its mother closely.*
+  - *The bear cub followed its mother closely.*（熊崽紧跟在母亲后面。）
 - **cub scout**：幼童军
-  - *He joined the cub scouts when he was eight years old.*
+  - *He joined the cub scouts when he was eight years old.*（他八岁时加入了幼童军。）
 - **cub reporter**：初出茅庐的记者
-  - *The cub reporter was eager to prove herself.*
+  - *The cub reporter was eager to prove herself.*（这位初出茅庐的记者急于证明自己。）
 - **cub hole**：幼兽洞穴
-  - *The mother fox kept her cubs safe in the cub hole.*
+  - *The mother fox kept her cubs safe in the cub hole.*（狐狸妈妈把幼崽安全地藏在洞穴里。）
 
 ## 真题/语料关联
 

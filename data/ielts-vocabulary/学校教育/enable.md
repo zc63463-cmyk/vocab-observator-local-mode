@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **enable sb to do sth**：使某人能够做某事
-  - *The scholarship enabled her to attend university.*
+  - *The scholarship enabled her to attend university.*（奖学金使她能够上大学。）
 - **enable the use of**：允许使用
-  - *The new system enables the use of digital signatures.*
+  - *The new system enables the use of digital signatures.*（新系统允许使用数字签名。）
 - **enable access**：允许访问
-  - *The password enables access to the database.*
+  - *The password enables access to the database.*（密码用于访问数据库。）
 - **enable communication**：使沟通成为可能
-  - *Technology enables communication across great distances.*
+  - *Technology enables communication across great distances.*（技术使远距离沟通成为可能。）
 - **enable the development of**：促进……的发展
-  - *Funding enables the development of new technologies.*
+  - *Funding enables the development of new technologies.*（资金支持促进了新技术的发展。）
 
 ## 真题/语料关联
 

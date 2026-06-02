@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **speak with eloquence**：雄辩地说
-  - *She spoke with great eloquence about the need for social reform.*
+  - *She spoke with great eloquence about the need for social reform.*（她以极大的雄辩力讲述了社会改革的必要性。）
 - **natural eloquence**：天生的口才
-  - *He has a natural eloquence that captivates his audience.*
+  - *He has a natural eloquence that captivates his audience.*（他有一种天生的口才，能吸引听众。）
 - **the eloquence of**：……的感染力
-  - *The eloquence of her paintings moved everyone who saw them.*
+  - *The eloquence of her paintings moved everyone who saw them.*（她画作的感染力打动了每一个看到它们的人。）
 - **art of eloquence**：雄辩术
-  - *The art of eloquence was highly valued in ancient Greece.*
+  - *The art of eloquence was highly valued in ancient Greece.*（雄辩术在古希腊受到高度重视。）
 - **eloquent speaker**：雄辩的演说家
-  - *Martin Luther King Jr. was one of the most eloquent speakers of the 20th century.*
+  - *Martin Luther King Jr. was one of the most eloquent speakers of the 20th century.*（马丁·路德·金是20世纪最雄辩的演说家之一。）
 
 ## 真题/语料关联
 

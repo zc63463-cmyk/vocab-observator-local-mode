@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **brainstorm ideas**：头脑风暴想法
-  - *Let's brainstorm ideas for the marketing campaign.*
+  - *Let's brainstorm ideas for the marketing campaign.*（让我们为营销活动集思广益。）
 - **brainstorming session**：头脑风暴会议
-  - *The team held a brainstorming session to solve the problem.*
+  - *The team held a brainstorming session to solve the problem.*（团队举行了一次头脑风暴会议来解决问题。）
 - **brainstorm a solution**：快速想出解决方案
-  - *We need to brainstorm a solution before the deadline.*
+  - *We need to brainstorm a solution before the deadline.*（我们需要在截止日期前快速想出解决方案。）
 - **have a brainstorm**：进行头脑风暴
-  - *The creative team had a brainstorm and came up with several innovative concepts.*
+  - *The creative team had a brainstorm and came up with several innovative concepts.*（创意团队进行了一次头脑风暴，提出了几个创新概念。）
 - **brainstorm with someone**：与某人一起头脑风暴
-  - *I brainstormed with my colleagues to develop the proposal.*
+  - *I brainstormed with my colleagues to develop the proposal.*（我与同事们一起集思广益来制定提案。）
 
 ## 真题/语料关联
 

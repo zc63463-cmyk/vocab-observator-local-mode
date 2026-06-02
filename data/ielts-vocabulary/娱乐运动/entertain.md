@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **entertain the audience**：娱乐观众
-  - *The comedian entertained the audience with his jokes.*
+  - *The comedian entertained the audience with his jokes.*（喜剧演员用他的笑话娱乐了观众。）
 - **entertain guests**：招待客人
-  - *They entertained their guests with a delicious meal.*
+  - *They entertained their guests with a delicious meal.*（他们用美味的饭菜招待客人。）
 - **entertain the idea**：考虑某个想法
-  - *She entertained the idea of changing careers.*
+  - *She entertained the idea of changing careers.*（她考虑过换工作的想法。）
 - **entertain hopes**：怀有希望
-  - *He still entertains hopes of winning the competition.*
+  - *He still entertains hopes of winning the competition.*（他仍然怀有赢得比赛的希望。）
 - **entertaining** (adj.) — 有趣的
-  - *The movie was very entertaining.*
+  - *The movie was very entertaining.*（这部电影非常有趣。）
 
 ## 真题/语料关联
 

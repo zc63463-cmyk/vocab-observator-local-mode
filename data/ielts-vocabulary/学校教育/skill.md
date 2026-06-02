@@ -67,19 +67,19 @@ review_count: 0
 ## 搭配与短语
 
 - **communication skills**：沟通技巧
-  - *Good communication skills are essential in the workplace.*
+  - *Good communication skills are essential in the workplace.*（良好的沟通技巧在工作场所至关重要。）
 - **learn/acquire a skill**：学习/获得技能
-  - *It's important to acquire new skills throughout your career.*
+  - *It's important to acquire new skills throughout your career.*（在整个职业生涯中学习新技能很重要。）
 - **practical skills**：实用技能
-  - *The course focuses on developing practical skills.*
+  - *The course focuses on developing practical skills.*（该课程侧重于培养实用技能。）
 - **with great skill**：以高超的技巧
-  - *The surgeon performed the operation with great skill.*
+  - *The surgeon performed the operation with great skill.*（外科医生以高超的技艺进行了手术。）
 - **skill set**：技能组合
-  - *A diverse skill set makes you more employable.*
+  - *A diverse skill set makes you more employable.*（多样化的技能组合让你更容易就业。）
 - **soft skills**：软技能
-  - *Soft skills like teamwork are highly valued by employers.*
+  - *Soft skills like teamwork are highly valued by employers.*（团队合作等软技能受到雇主的高度重视。）
 - **hard skills**：硬技能
-  - *Hard skills include technical abilities like programming.*
+  - *Hard skills include technical abilities like programming.*（硬技能包括编程等技术能力。）
 
 ## 真题/语料关联
 

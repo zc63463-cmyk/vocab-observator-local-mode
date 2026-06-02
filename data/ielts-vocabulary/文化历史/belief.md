@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **strong belief**：坚定的信念
-  - *She has a strong belief that education can change lives.*
+  - *She has a strong belief that education can change lives.*（她坚信教育可以改变人生。）
 - **religious belief**：宗教信仰
-  - *The country protects the freedom of religious belief.*
+  - *The country protects the freedom of religious belief.*（这个国家保护宗教信仰自由。）
 - **popular belief**：普遍看法
-  - *Contrary to popular belief, goldfish have much longer memories than people think.*
+  - *Contrary to popular belief, goldfish have much longer memories than people think.*（与普遍看法相反，金鱼的记忆力比人们想象的要长得多。）
 - **belief in**：对……的信念/信任
-  - *His belief in the team's ability never wavered, even during difficult times.*
+  - *His belief in the team's ability never wavered, even during difficult times.*（他对团队能力的信念从未动摇过，即使在困难时期也是如此。）
 - **beyond belief**：难以置信
-  - *The magician's tricks were amazing beyond belief.*
+  - *The magician's tricks were amazing beyond belief.*（魔术师的技巧令人难以置信。）
 
 ## 真题/语料关联
 

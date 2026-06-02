@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **play the guitar**：弹吉他
-  - *She learned to play the guitar at a young age.*
+  - *She learned to play the guitar at a young age.*（她从小就学会了弹吉他。）
 - **acoustic guitar**：原声吉他
-  - *He played an acoustic guitar at the campfire.*
+  - *He played an acoustic guitar at the campfire.*（他在篝火旁弹了一把原声吉他。）
 - **electric guitar**：电吉他
-  - *The rock band's electric guitar solo was amazing.*
+  - *The rock band's electric guitar solo was amazing.*（摇滚乐队的电吉他独奏太棒了。）
 - **guitarist**：吉他手
-  - *He is a talented guitarist who plays in a band.*
+  - *He is a talented guitarist who plays in a band.*（他是一位在乐队演奏的有才华的吉他手。）
 - **guitar string**：吉他弦
-  - *The guitar string broke during the performance.*
+  - *The guitar string broke during the performance.*（吉他弦在表演中断了。）
 
 ## 真题/语料关联
 

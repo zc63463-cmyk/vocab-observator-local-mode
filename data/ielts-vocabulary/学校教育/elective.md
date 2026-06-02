@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **elective course**：选修课
-  - *I'm taking an elective course in art history.*
+  - *I'm taking an elective course in art history.*（我正在修一门艺术史选修课。）
 - **take an elective**：选修一门课
-  - *Students can take up to two electives per semester.*
+  - *Students can take up to two electives per semester.*（学生每学期最多可选修两门课。）
 - **elective subject**：选修科目
-  - *Music is offered as an elective subject.*
+  - *Music is offered as an elective subject.*（音乐被列为选修科目。）
 - **elective surgery**：选择性手术
-  - *The patient chose to have elective surgery.*
+  - *The patient chose to have elective surgery.*（患者选择了接受选择性手术。）
 - **elective office**：选举产生的职位
-  - *He ran for elective office in the local government.*
+  - *He ran for elective office in the local government.*（他竞选了地方政府的民选职位。）
 
 ## 真题/语料关联
 

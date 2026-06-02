@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **devour food**：狼吞虎咽地吃
-  - *The children devoured their dinner after playing outside all day.*
+  - *The children devoured their dinner after playing outside all day.*（在外面玩了一整天后，孩子们狼吞虎咽地吃完了晚饭。）
 - **devour books**：如饥似渴地读书
-  - *She devours at least three books a week.*
+  - *She devours at least three books a week.*（她每周至少如饥似渴地读三本书。）
 - **devour the news**：急切地看新闻
-  - *During the election, people devoured every piece of news they could find.*
+  - *During the election, people devoured every piece of news they could find.*（选举期间，人们贪婪地阅读他们能找到的每一条新闻。）
 - **flames devoured**：火焰吞噬
-  - *Flames devoured the old warehouse within minutes.*
+  - *Flames devoured the old warehouse within minutes.*（火焰在几分钟内吞噬了旧仓库。）
 - **devoured by jealousy**：被嫉妒吞噬
-  - *He was devoured by jealousy when he saw her with someone else.*
+  - *He was devoured by jealousy when he saw her with someone else.*（看到她和别人在一起时，他被嫉妒吞噬了。）
 
 ## 真题/语料关联
 

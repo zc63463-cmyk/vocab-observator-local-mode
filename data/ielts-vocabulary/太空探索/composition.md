@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **chemical composition**：化学成分
-  - *The chemical composition of the atmosphere has changed significantly over time.*
+  - *The chemical composition of the atmosphere has changed significantly over time.*（大气的化学成分随时间发生了显著变化。）
 - **mineral composition**：矿物组成
-  - *The mineral composition of the rock suggests it was formed under high pressure.*
+  - *The mineral composition of the rock suggests it was formed under high pressure.*（这块岩石的矿物成分表明它是在高压下形成的。）
 - **musical composition**：音乐作品
-  - *Beethoven's Ninth Symphony is one of the greatest musical compositions ever written.*
+  - *Beethoven's Ninth Symphony is one of the greatest musical compositions ever written.*（贝多芬第九交响曲是有史以来最伟大的音乐作品之一。）
 - **artistic composition**：艺术构图
-  - *The painting's artistic composition draws the viewer's eye to the center.*
+  - *The painting's artistic composition draws the viewer's eye to the center.*（这幅画的艺术构图将观者的视线引向中心。）
 - **composition of**：……的组成
-  - *The composition of the Moon's surface differs from that of the Earth.*
+  - *The composition of the Moon's surface differs from that of the Earth.*（月球表面的成分与地球不同。）
 
 ## 真题/语料关联
 

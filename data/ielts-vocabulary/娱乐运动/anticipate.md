@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **anticipate problems**：预料问题
-  - *We did not anticipate the problems that would arise.*
+  - *We did not anticipate the problems that would arise.*（我们没有预料到会出现的问题。）
 - **anticipate changes**：预料变化
-  - *The company needs to anticipate changes in the market.*
+  - *The company needs to anticipate changes in the market.*（公司需要预料市场的变化。）
 - **anticipate success**：期待成功
-  - *We anticipate success in our new venture.*
+  - *We anticipate success in our new venture.*（我们期待新事业的成功。）
 - **anticipate the needs of**：预判……的需求
-  - *Good customer service anticipates the needs of clients.*
+  - *Good customer service anticipates the needs of clients.*（优质的客户服务会预判客户的需求。）
 - **highly anticipated**：备受期待的
-  - *The highly anticipated film was released last week.*
+  - *The highly anticipated film was released last week.*（这部备受期待的电影上周上映了。）
 
 ## 真题/语料关联
 

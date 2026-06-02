@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **the trunk of a tree**：树干
-  - *The trunk of the old oak tree was over two meters in diameter.*
+  - *The trunk of the old oak tree was over two meters in diameter.*（这棵老橡树的树干直径超过两米。）
 - **an elephant's trunk**：象鼻
-  - *The elephant used its trunk to pick up food from the ground.*
+  - *The elephant used its trunk to pick up food from the ground.*（大象用鼻子从地上捡起食物。）
 - **swimming trunk**：游泳裤
-  - *He packed his swimming trunk for the beach vacation.*
+  - *He packed his swimming trunk for the beach vacation.*（他把泳裤装好准备去海滩度假。）
 - **trunk road**：主干道
-  - *The trunk road connects the two major cities.*
+  - *The trunk road connects the two major cities.*（这条干道连接两座主要城市。）
 - **car trunk**：汽车后备箱
-  - *Put the luggage in the car trunk.*
+  - *Put the luggage in the car trunk.*（把行李放在汽车后备箱里。）
 
 ## 真题/语料关联
 

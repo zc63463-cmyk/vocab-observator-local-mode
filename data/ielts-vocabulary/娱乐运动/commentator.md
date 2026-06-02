@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a political commentator**：政治评论员
-  - *The political commentator analyzed the election results on television.*
+  - *The political commentator analyzed the election results on television.*（政治评论员在电视上分析了选举结果。）
 - **a sports commentator**：体育解说员
-  - *The sports commentator described the goal in a very exciting way.*
+  - *The sports commentator described the goal in a very exciting way.*（体育解说员以非常激动人心的方式描述了那个进球。）
 - **a social commentator**：社会评论员
-  - *The social commentator discussed the impact of technology on society.*
+  - *The social commentator discussed the impact of technology on society.*（社会评论员讨论了技术对社会的影响。）
 - **a news/current affairs commentator**：新闻/时事评论员
-  - *The news commentator provided insightful analysis of the crisis.*
+  - *The news commentator provided insightful analysis of the crisis.*（新闻评论员对危机进行了富有洞察力的分析。）
 - **a radio/TV commentator**：广播/电视评论员
-  - *She works as a radio commentator for the BBC.*
+  - *She works as a radio commentator for the BBC.*（她是BBC的广播评论员。）
 
 ## 真题/语料关联
 

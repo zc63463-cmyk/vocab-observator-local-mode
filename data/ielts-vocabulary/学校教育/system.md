@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **education system**：教育系统
-  - *The education system in this country is highly competitive.*
+  - *The education system in this country is highly competitive.*（这个国家的教育系统竞争非常激烈。）
 - **political system**：政治制度
-  - *The political system determines how the country is governed.*
+  - *The political system determines how the country is governed.*（政治制度决定了国家如何治理。）
 - **operating system**：操作系统
-  - *My computer runs on the Windows operating system.*
+  - *My computer runs on the Windows operating system.*（我的电脑运行Windows操作系统。）
 - **nervous system**：神经系统
-  - *The nervous system controls all bodily functions.*
+  - *The nervous system controls all bodily functions.*（神经系统控制所有身体功能。）
 - **according to the system**：按照系统
-  - *The data is processed according to the system.*
+  - *The data is processed according to the system.*（数据按照系统进行处理。）
 
 ## 真题/语料关联
 

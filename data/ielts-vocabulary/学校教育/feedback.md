@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **give/provide feedback**：给予反馈
-  - *The teacher gave detailed feedback on my essay.*
+  - *The teacher gave detailed feedback on my essay.*（老师对我的文章给出了详细的反馈。）
 - **receive/get feedback**：收到反馈
-  - *We encourage students to get feedback from their peers.*
+  - *We encourage students to get feedback from their peers.*（我们鼓励学生从同学那里获得反馈。）
 - **constructive feedback**：建设性反馈
-  - *Constructive feedback helps students improve their work.*
+  - *Constructive feedback helps students improve their work.*（建设性反馈有助于学生改进他们的作业。）
 - **feedback loop**：反馈回路
-  - *A good feedback loop ensures continuous improvement.*
+  - *A good feedback loop ensures continuous improvement.*（良好的反馈回路确保持续改进。）
 - **feedback form**：反馈表
-  - *Please fill in the feedback form after the course.*
+  - *Please fill in the feedback form after the course.*（课程结束后请填写反馈表。）
 
 ## 真题/语料关联
 

@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a trusted mentor**：值得信赖的导师
-  - *She has been a trusted mentor to me throughout my career.*
+  - *She has been a trusted mentor to me throughout my career.*（中文翻译）
 - **mentor a junior colleague**：指导初级同事
-  - *Senior staff are encouraged to mentor junior colleagues.*
+  - *Senior staff are encouraged to mentor junior colleagues.*（中文翻译）
 - **mentor-mentee relationship**：导师与学员的关系
-  - *A good mentor-mentee relationship is built on mutual respect and trust.*
+  - *A good mentor-mentee relationship is built on mutual respect and trust.*（中文翻译）
 - **become a mentor to**：成为某人的导师
-  - *He became a mentor to many young researchers in the lab.*
+  - *He became a mentor to many young researchers in the lab.*（中文翻译）
 - **peer mentor**：同伴导师
-  - *The university has a peer mentor programme for first-year students.*
+  - *The university has a peer mentor programme for first-year students.*（中文翻译）
 
 ## 真题/语料关联
 

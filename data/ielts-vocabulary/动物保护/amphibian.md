@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **amphibian species**：两栖动物物种
-  - *Over 8,000 amphibian species have been described by scientists.*
+  - *Over 8,000 amphibian species have been described by scientists.*（科学家已经描述了8000多种两栖动物。）
 - **amphibian decline**：两栖动物数量下降
-  - *Global amphibian decline is linked to habitat loss, pollution, and disease.*
+  - *Global amphibian decline is linked to habitat loss, pollution, and disease.*（全球两栖动物数量下降与栖息地丧失、污染和疾病有关。）
 - **amphibian conservation**：两栖动物保护
-  - *Amphibian conservation programs focus on protecting wetlands and breeding sites.*
+  - *Amphibian conservation programs focus on protecting wetlands and breeding sites.*（两栖动物保护项目侧重于保护湿地和繁殖地。）
 - **amphibious vehicle**：两栖车辆
-  - *The military uses amphibious vehicles that can travel on both land and water.*
+  - *The military uses amphibious vehicles that can travel on both land and water.*（军方使用既能在陆地又能在水中行驶的两栖车辆。）
 - **amphibious assault**：两栖攻击
-  - *The amphibious assault involved troops landing on the beach from the sea.*
+  - *The amphibious assault involved troops landing on the beach from the sea.*（两栖攻击部队从海上登陆海滩。）
 
 ## 真题/语料关联
 

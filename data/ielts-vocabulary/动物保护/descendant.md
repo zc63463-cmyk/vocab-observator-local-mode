@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **direct descendant**：直系后代
-  - *She is a direct descendant of the royal family.*
+  - *She is a direct descendant of the royal family.*（她是王室家族的直接后裔。）
 - **descendant of**：……的后代
-  - *The modern dog is a descendant of the wolf.*
+  - *The modern dog is a descendant of the wolf.*（现代狗是狼的后代。）
 - **lineal descendant**：直系后裔（法律用语）
-  - *The estate was passed to the lineal descendant.*
+  - *The estate was passed to the lineal descendant.*（该遗产传给了直系后裔。）
 - **living descendant**：在世的后代
-  - *The museum invited the living descendants of the artist to the exhibition.*
+  - *The museum invited the living descendants of the artist to the exhibition.*（博物馆邀请了这位艺术家的在世后代参加展览。）
 - **descendant language**：派生语言
-  - *Spanish is a descendant language of Latin.*
+  - *Spanish is a descendant language of Latin.*（西班牙语是拉丁语的后继语言。）
 
 ## 真题/语料关联
 

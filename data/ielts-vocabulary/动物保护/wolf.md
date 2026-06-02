@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **a pack of wolves**：一群狼
-  - *The pack of wolves hunted together.*
+  - *The pack of wolves hunted together.*（狼群一起捕猎。）
 - **wolf down**：狼吞虎咽地吃
-  - *He wolfed down his lunch in five minutes.*
+  - *He wolfed down his lunch in five minutes.*（他五分钟就把午餐狼吞虎咽地吃完了。）
 - **wolf in sheep's clothing**：披着羊皮的狼
-  - *He seems friendly, but he's a wolf in sheep's clothing.*
+  - *He seems friendly, but he's a wolf in sheep's clothing.*（他看起来友好，但其实是披着羊皮的狼。）
 - **lone wolf**：独来独往的人
-  - *He's a lone wolf who prefers to work alone.*
+  - *He's a lone wolf who prefers to work alone.*（他是个喜欢独自工作的独行侠。）
 - **wolf whistle**：挑逗的口哨声
-  - *She ignored the wolf whistles from the construction workers.*
+  - *She ignored the wolf whistles from the construction workers.*（她无视了建筑工人挑逗的口哨声。）
 
 ## 真题/语料关联
 

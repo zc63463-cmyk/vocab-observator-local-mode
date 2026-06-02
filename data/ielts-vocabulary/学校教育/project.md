@@ -72,15 +72,15 @@ review_count: 0
 ## 搭配与短语
 
 - **research project**：研究项目
-  - *The research project was funded by the government.*
+  - *The research project was funded by the government.*（中文翻译）
 - **project management**：项目管理
-  - *Good project management is essential for meeting deadlines.*
+  - *Good project management is essential for meeting deadlines.*（中文翻译）
 - **project a film/image**：放映电影/投射影像
-  - *The teacher projected the presentation onto the screen.*
+  - *The teacher projected the presentation onto the screen.*（中文翻译）
 - **project future growth**：预测未来增长
-  - *Analysts project a 5% increase in sales next quarter.*
+  - *Analysts project a 5% increase in sales next quarter.*（中文翻译）
 - **capstone project**：毕业设计/综合项目
-  - *The capstone project requires students to apply everything they've learned.*
+  - *The capstone project requires students to apply everything they've learned.*（中文翻译）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **rocket propulsion**：火箭推进
-  - *Rocket propulsion is based on Newton's third law of motion.*
+  - *Rocket propulsion is based on Newton's third law of motion.*（火箭推进基于牛顿第三运动定律。）
 - **jet propulsion**：喷气推进
-  - *Jet propulsion allows aircraft to fly at supersonic speeds.*
+  - *Jet propulsion allows aircraft to fly at supersonic speeds.*（喷气推进使飞机能够以超音速飞行。）
 - **propulsion system**：推进系统
-  - *The spacecraft's propulsion system uses liquid hydrogen and oxygen.*
+  - *The spacecraft's propulsion system uses liquid hydrogen and oxygen.*（航天器的推进系统使用液氢和液氧。）
 - **ion propulsion**：离子推进
-  - *Ion propulsion is more efficient than chemical propulsion for long-distance space travel.*
+  - *Ion propulsion is more efficient than chemical propulsion for long-distance space travel.*（对于远距离太空旅行，离子推进比化学推进更高效。）
 - **propulsive force**：推进力
-  - *The propulsive force of the engine determines the spacecraft's acceleration.*
+  - *The propulsive force of the engine determines the spacecraft's acceleration.*（发动机的推进力决定了航天器的加速度。）
 
 ## 真题/语料关联
 

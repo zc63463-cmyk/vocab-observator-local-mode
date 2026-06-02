@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **inspect something for something**：检查某物是否有某问题
-  - *The mechanic inspected the car for any signs of damage.*
+  - *The mechanic inspected the car for any signs of damage.*（机械师检查了汽车是否有损坏迹象。）
 - **inspect the premises**：检查房屋/场所
-  - *Health inspectors regularly inspect the premises of restaurants.*
+  - *Health inspectors regularly inspect the premises of restaurants.*（卫生检查员定期检查餐厅场所。）
 - **thorough inspection**：彻底检查
-  - *The building failed to pass a thorough inspection.*
+  - *The building failed to pass a thorough inspection.*（该建筑未能通过彻底检查。）
 - **on inspection**：经检查
-  - *On closer inspection, the painting turned out to be a forgery.*
+  - *On closer inspection, the painting turned out to be a forgery.*（经过更仔细的检查，这幅画原来是赝品。）
 - **inspection report**：检查报告
-  - *The inspector submitted a detailed inspection report.*
+  - *The inspector submitted a detailed inspection report.*（检查员提交了一份详细的检查报告。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **study mechanics**：学习力学
-  - *He decided to study mechanics at university.*
+  - *He decided to study mechanics at university.*（中文翻译）
 - **quantum mechanics**：量子力学
-  - *Quantum mechanics is one of the most challenging subjects in physics.*
+  - *Quantum mechanics is one of the most challenging subjects in physics.*（中文翻译）
 - **car mechanics**：汽车机械学
-  - *He took a course in car mechanics.*
+  - *He took a course in car mechanics.*（中文翻译）
 - **the mechanics of**：……的技巧/方法
-  - *Understanding the mechanics of good writing takes practice.*
+  - *Understanding the mechanics of good writing takes practice.*（中文翻译）
 - **mechanical** (adj.)：机械的
-  - *The mechanical parts of the machine need regular maintenance.*
+  - *The mechanical parts of the machine need regular maintenance.*（中文翻译）
 
 ## 真题/语料关联
 

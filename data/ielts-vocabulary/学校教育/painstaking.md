@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **painstaking research**：细致的研究
-  - *The discovery was the result of painstaking research.*
+  - *The discovery was the result of painstaking research.*（中文翻译）
 - **painstaking process**：辛苦的过程
-  - *Restoring the painting was a painstaking process.*
+  - *Restoring the painting was a painstaking process.*（中文翻译）
 - **painstaking effort**：精心的努力
-  - *The team put in painstaking effort to complete the project.*
+  - *The team put in painstaking effort to complete the project.*（中文翻译）
 - **painstaking care**：细致的关怀
-  - *The garden was maintained with painstaking care.*
+  - *The garden was maintained with painstaking care.*（中文翻译）
 - **painstaking attention to detail**：对细节的细致关注
-  - *Her work shows painstaking attention to detail.*
+  - *Her work shows painstaking attention to detail.*（中文翻译）
 
 ## 真题/语料关联
 

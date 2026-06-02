@@ -69,13 +69,13 @@ review_count: 0
 ## 搭配与短语
 
 - **verbal communication**：言语交流
-  - *Verbal communication accounts for only a small part of human interaction.*
+  - *Verbal communication accounts for only a small part of human interaction.*（言语交流只占人类互动的一小部分。）
 - **verbal agreement**：口头协议
-  - *The verbal agreement was later put into writing.*
+  - *The verbal agreement was later put into writing.*（口头协议后来被写成书面形式。）
 - **non-verbal**：非言语的
-  - *Non-verbal cues, such as body language, are also important in communication.*
+  - *Non-verbal cues, such as body language, are also important in communication.*（非言语线索，如肢体语言，在沟通中也很重要。）
 - **verbal abuse**：言语虐待
-  - *Verbal abuse can be as harmful as physical violence.*
+  - *Verbal abuse can be as harmful as physical violence.*（言语虐待可能与身体暴力一样有害。）
 
 ## 真题/语料关联
 

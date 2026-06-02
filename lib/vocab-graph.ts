@@ -7,13 +7,17 @@ export type VocabGraphNodeType =
   | "root"
   | "synonym"
   | "antonym"
-  | "related";
+  | "related"
+  | "prefix"
+  | "suffix";
 
 export type VocabGraphRelation =
   | "root-family"
   | "synonym"
   | "antonym"
-  | "related";
+  | "related"
+  | "prefix-family"
+  | "suffix-family";
 
 export type VocabGraphNode = {
   id: string;
@@ -63,28 +67,35 @@ type RelationCandidate = {
 const NODE_TYPE_WEIGHT: Record<VocabGraphNodeType, number> = {
   antonym: 4,
   current: 9,
+  prefix: 5,
   related: 3,
   root: 6,
+  suffix: 5,
   synonym: 4,
 };
 
 const NODE_TYPE_PRIORITY: Record<VocabGraphNodeType, number> = {
   antonym: 50,
   current: 100,
+  prefix: 60,
   related: 40,
   root: 70,
+  suffix: 60,
   synonym: 50,
 };
 
 // Relation priority for edge deduplication: higher = preferred when multiple relations exist for same source-target
 const RELATION_PRIORITY: Record<VocabGraphRelation, number> = {
   "root-family": 70,
+  "prefix-family": 65,
+  "suffix-family": 65,
   synonym: 60,
   antonym: 50,
   related: 30,
 };
 
 const ROOT_FIELD_KEYS = [
+  "word_root",
   "roots",
   "root",
   "rootFamily",
@@ -185,6 +196,7 @@ function normalizeLabelList(value: unknown): string[] {
 
   if (isRecord(value)) {
     const nested = firstText(
+      typeof value.text === "string" ? value.text : null,
       typeof value.word === "string" ? value.word : null,
       typeof value.slug === "string" ? value.slug : null,
       typeof value.label === "string" ? value.label : null,
@@ -238,8 +250,32 @@ function getAntonymLabels(entry: VocabGraphEntry) {
   ]);
 }
 
+function getMorphologyPartLabels(entry: VocabGraphEntry, kind: "root" | "prefix" | "suffix"): string[] {
+  const metadata = entry.metadata;
+  if (!isRecord(metadata)) return [];
+  const morphology = metadata.morphology;
+  if (!isRecord(morphology)) return [];
+  const parts = morphology.parts;
+  if (!Array.isArray(parts)) return [];
+  return parts
+    .filter((p): p is Record<string, unknown> => isRecord(p) && p.kind === kind)
+    .map((p) => (typeof p.text === "string" ? p.text : null))
+    .filter((t): t is string => Boolean(t));
+}
+
 function getRootLabels(entry: VocabGraphEntry) {
-  return uniqueLabels(getMetadataLabels(entry, ROOT_FIELD_KEYS));
+  return uniqueLabels([
+    ...getMetadataLabels(entry, ROOT_FIELD_KEYS),
+    ...getMorphologyPartLabels(entry, "root"),
+  ]);
+}
+
+function getPrefixLabels(entry: VocabGraphEntry) {
+  return uniqueLabels(getMorphologyPartLabels(entry, "prefix"));
+}
+
+function getSuffixLabels(entry: VocabGraphEntry) {
+  return uniqueLabels(getMorphologyPartLabels(entry, "suffix"));
 }
 
 export function extractWikiLinks(
@@ -446,30 +482,76 @@ export function buildLocalVocabGraph(
   const edges = new Map<string, VocabGraphEdge>();
   const lookup = createEntryLookup(allEntries);
   const currentRootLabels = getRootLabels(entry);
+  const currentPrefixLabels = getPrefixLabels(entry);
+  const currentSuffixLabels = getSuffixLabels(entry);
 
   const candidates: RelationCandidate[] = [
     ...createCandidate(currentRootLabels, "root-family", "root"),
     ...createCandidate(getSynonymLabels(entry), "synonym", "synonym"),
     ...createCandidate(getAntonymLabels(entry), "antonym", "antonym"),
     ...createCandidate(getWikiLinkLabels(entry, centerId), "related", "related"),
+    ...createCandidate(currentPrefixLabels, "prefix-family", "prefix"),
+    ...createCandidate(currentSuffixLabels, "suffix-family", "suffix"),
   ];
+
+  // Pre-build morphology indexes so we avoid the O(N×M) scan.
+  // Each index maps a normalized label → list of entries that carry it.
+  const rootIndex = new Map<string, VocabGraphEntry[]>();
+  const prefixIndex = new Map<string, VocabGraphEntry[]>();
+  const suffixIndex = new Map<string, VocabGraphEntry[]>();
 
   for (const relatedEntry of allEntries) {
     const relatedId = getEntryId(relatedEntry);
-    if (relatedId === centerId) {
-      continue;
-    }
+    if (relatedId === centerId) continue;
 
-    if (hasSharedLabel(currentRootLabels, getRootLabels(relatedEntry))) {
-      candidates.push({
-        label: getEntryLabel(relatedEntry),
-        relation: "root-family",
-        type: "root",
-        weight: NODE_TYPE_WEIGHT.root,
-      });
+    for (const label of getRootLabels(relatedEntry)) {
+      const key = slugifyLabel(label) || label.toLowerCase();
+      const list = rootIndex.get(key) ?? [];
+      list.push(relatedEntry);
+      rootIndex.set(key, list);
     }
-
+    for (const label of getPrefixLabels(relatedEntry)) {
+      const key = slugifyLabel(label) || label.toLowerCase();
+      const list = prefixIndex.get(key) ?? [];
+      list.push(relatedEntry);
+      prefixIndex.set(key, list);
+    }
+    for (const label of getSuffixLabels(relatedEntry)) {
+      const key = slugifyLabel(label) || label.toLowerCase();
+      const list = suffixIndex.get(key) ?? [];
+      list.push(relatedEntry);
+      suffixIndex.set(key, list);
+    }
   }
+
+  // O(1) indexed lookups instead of O(N) scan
+  const addIndexedCandidates = (
+    centerLabels: string[],
+    index: Map<string, VocabGraphEntry[]>,
+    relation: VocabGraphRelation,
+    type: VocabGraphNodeType,
+    weight: number,
+  ) => {
+    const seen = new Set<string>();
+    for (const label of centerLabels) {
+      const key = slugifyLabel(label) || label.toLowerCase();
+      for (const relatedEntry of index.get(key) ?? []) {
+        const relatedId = getEntryId(relatedEntry);
+        if (seen.has(relatedId)) continue;
+        seen.add(relatedId);
+        candidates.push({
+          label: getEntryLabel(relatedEntry),
+          relation,
+          type,
+          weight,
+        });
+      }
+    }
+  };
+
+  addIndexedCandidates(currentRootLabels, rootIndex, "root-family", "root", NODE_TYPE_WEIGHT.root);
+  addIndexedCandidates(currentPrefixLabels, prefixIndex, "prefix-family", "prefix", NODE_TYPE_WEIGHT.prefix);
+  addIndexedCandidates(currentSuffixLabels, suffixIndex, "suffix-family", "suffix", NODE_TYPE_WEIGHT.suffix);
 
   // Track best relation per source-target for deduplication
   const bestRelationPerTarget = new Map<string, { relation: VocabGraphRelation; weight: number; label: string }>();

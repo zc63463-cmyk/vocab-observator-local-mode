@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **identical to/with**：与……完全相同
-  - *The copy is identical to the original.*
+  - *The copy is identical to the original.*（这份副本与原件完全相同。）
 - **identical twins**：同卵双胞胎
-  - *Identical twins share the same DNA.*
+  - *Identical twins share the same DNA.*（同卵双胞胎拥有相同的DNA。）
 - **identical copy/clone**：完全相同的副本/克隆
-  - *The machine produces identical copies every time.*
+  - *The machine produces identical copies every time.*（这台机器每次都会生产出完全相同的副本。）
 - **in identical ways**：以相同的方式
-  - *The two experiments were conducted in identical ways.*
+  - *The two experiments were conducted in identical ways.*（这两个实验是以相同的方式进行的。）
 - **virtually/almost identical**：几乎完全相同
-  - *The two proposals are virtually identical.*
+  - *The two proposals are virtually identical.*（这两个提案几乎完全相同。）
 
 ## 真题/语料关联
 

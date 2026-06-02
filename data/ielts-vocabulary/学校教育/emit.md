@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **emit light**：发出光线
-  - *The sun emits light and heat.*
+  - *The sun emits light and heat.*（太阳发出光和热。）
 - **emit radiation**：发出辐射
-  - *Radioactive materials emit harmful radiation.*
+  - *Radioactive materials emit harmful radiation.*（放射性物质会释放有害辐射。）
 - **emit a sound**：发出声音
-  - *The machine emitted a loud beep.*
+  - *The machine emitted a loud beep.*（机器发出了响亮的蜂鸣声。）
 - **emit greenhouse gases**：排放温室气体
-  - *Factories emit large amounts of greenhouse gases.*
+  - *Factories emit large amounts of greenhouse gases.*（工厂排放大量温室气体。）
 - **emit a statement**：发表声明
-  - *The government emitted a statement regarding the new policy.*
+  - *The government emitted a statement regarding the new policy.*（政府就该新政策发表了一份声明。）
 
 ## 真题/语料关联
 

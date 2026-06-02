@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **spectator sport**：观赏性体育运动
-  - *Football is a popular spectator sport.*
+  - *Football is a popular spectator sport.*（足球是一种受欢迎的观赏性运动。）
 - **spectator stands**：观众看台
-  - *The spectator stands were packed with fans.*
+  - *The spectator stands were packed with fans.*（观众看台上挤满了粉丝。）
 - **passive spectator**：被动的旁观者
-  - *We cannot remain passive spectators of injustice.*
+  - *We cannot remain passive spectators of injustice.*（我们不能对不公正现象袖手旁观。）
 - **spectator at the scene**：现场旁观者
-  - *Several spectators at the scene witnessed the accident.*
+  - *Several spectators at the scene witnessed the accident.*（现场的几名旁观者目击了事故。）
 - **spectator attendance**：观众出席人数
-  - *Spectator attendance at the match was over 50,000.*
+  - *Spectator attendance at the match was over 50,000.*（比赛观众人数超过5万人。）
 
 ## 真题/语料关联
 

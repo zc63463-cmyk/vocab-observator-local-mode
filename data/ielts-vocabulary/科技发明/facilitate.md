@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **facilitate learning**：促进学习
-  - *Technology can facilitate learning in many ways.*
+  - *Technology can facilitate learning in many ways.*（技术可以在很多方面促进学习。）
 - **facilitate communication**：促进沟通
-  - *The new software facilitates communication between team members.*
+  - *The new software facilitates communication between team members.*（新软件促进了团队成员之间的沟通。）
 - **facilitate a meeting**：主持会议
-  - *She was chosen to facilitate the meeting.*
+  - *She was chosen to facilitate the meeting.*（她被选中主持会议。）
 - **facilitate access**：提供便利通道
-  - *The new road facilitates access to the rural area.*
+  - *The new road facilitates access to the rural area.*（新道路方便了前往农村地区的交通。）
 - **facilitate the process**：促进过程
-  - *The reforms are designed to facilitate the process of approval.*
+  - *The reforms are designed to facilitate the process of approval.*（改革旨在促进审批流程。）
 
 ## 真题/语料关联
 

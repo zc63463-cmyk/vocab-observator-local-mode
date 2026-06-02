@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sly fox**：狡猾的狐狸
-  - *He's as sly as a fox.*
+  - *He's as sly as a fox.*（他像狐狸一样狡猾。）
 - **fox hunting**：猎狐
-  - *Fox hunting is a controversial sport in the UK.*
+  - *Fox hunting is a controversial sport in the UK.*（猎狐在英国是一项有争议的运动。）
 - **fox hole**：狐狸洞；散兵坑
-  - *The soldiers dug fox holes for protection.*
+  - *The soldiers dug fox holes for protection.*（士兵们挖了散兵坑用于防护。）
 - **fox terrier**：猎狐犬
-  - *The fox terrier is a small, energetic dog breed.*
+  - *The fox terrier is a small, energetic dog breed.*（猎狐梗是一种小型、精力充沛的狗品种。）
 - **outfox**：智胜
-  - *He managed to outfox his opponents.*
+  - *He managed to outfox his opponents.*（他设法智胜了对手。）
 
 ## 真题/语料关联
 

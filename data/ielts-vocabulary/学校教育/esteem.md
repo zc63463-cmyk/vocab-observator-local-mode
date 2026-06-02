@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hold someone in high esteem**：高度尊敬某人
-  - *She is held in high esteem by her colleagues.*
+  - *She is held in high esteem by her colleagues.*（她深受同事们的尊敬。）
 - **self-esteem**：自尊心
-  - *Building self-esteem is important for children's development.*
+  - *Building self-esteem is important for children's development.*（培养自尊心对儿童的成长很重要。）
 - **in someone's esteem**：在某人心目中
-  - *His actions have risen in my esteem.*
+  - *His actions have risen in my esteem.*（他的行为使他在我心目中的形象提升了。）
 - **esteem it a privilege**：视为荣幸
-  - *I esteem it a privilege to work with you.*
+  - *I esteem it a privilege to work with you.*（我视与您合作为荣幸。）
 - **gain/lose esteem**：获得/失去尊重
-  - *He gained esteem through his charitable work.*
+  - *He gained esteem through his charitable work.*（他通过慈善工作赢得了尊重。）
 
 ## 真题/语料关联
 

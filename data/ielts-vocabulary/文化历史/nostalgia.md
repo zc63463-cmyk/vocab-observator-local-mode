@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **feel nostalgia for**：对……感到怀旧
-  - *She feels nostalgia for her childhood days in the countryside.*
+  - *She feels nostalgia for her childhood days in the countryside.*（她对童年时代怀有强烈的怀旧之情。）
 - **a sense of nostalgia**：一种怀旧感
-  - *The old photographs evoked a sense of nostalgia.*
+  - *The old photographs evoked a sense of nostalgia.*（翻看旧照片时，一阵怀旧之情涌上心头。）
 - **nostalgia trip**：怀旧之旅
-  - *The reunion was a nostalgia trip for everyone.*
+  - *The reunion was a nostalgia trip for everyone.*（这次重聚对每个人来说都是一次怀旧之旅。）
 - **filled with nostalgia**：充满怀旧之情
-  - *The music was filled with nostalgia for a bygone era.*
+  - *The music was filled with nostalgia for a bygone era.*（这首音乐充满了对逝去时代的怀旧之情。）
 - **nostalgia for the past**：对过去的怀念
-  - *There's a growing nostalgia for traditional values.*
+  - *There's a growing nostalgia for traditional values.*（人们对传统价值观的怀旧情绪日益增长。）
 
 ## 真题/语料关联
 

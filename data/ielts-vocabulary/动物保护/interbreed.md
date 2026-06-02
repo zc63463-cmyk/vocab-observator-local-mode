@@ -65,15 +65,15 @@ review_count: 0
 ## 搭配与短语
 
 - **interbreed with**：与……杂交
-  - *These two species can interbreed and produce fertile offspring.*
+  - *These two species can interbreed and produce fertile offspring.*（这两个物种可以杂交并产生有生育能力的后代。）
 - **interbreed in captivity**：在人工饲养下杂交
-  - *Some endangered species are interbred in captivity to increase genetic diversity.*
+  - *Some endangered species are interbred in captivity to increase genetic diversity.*（一些濒危物种在圈养条件下进行杂交以增加遗传多样性。）
 - **interbreed populations**：混血群体
-  - *The study examined interbreed populations in the region.*
+  - *The study examined interbreed populations in the region.*（该研究考察了该地区的杂交种群。）
 - **interbreed successfully**：成功杂交
-  - *The two subspecies can interbreed successfully in the wild.*
+  - *The two subspecies can interbreed successfully in the wild.*（这两个亚种可以在野外成功杂交。）
 - **interbreed to produce**：杂交产生
-  - *The two varieties were interbred to produce a hardier crop.*
+  - *The two varieties were interbred to produce a hardier crop.*（这两个品种被杂交以培育出更耐寒的作物。）
 
 ## 真题/语料关联
 

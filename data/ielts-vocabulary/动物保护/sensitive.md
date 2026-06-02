@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **sensitive skin**：敏感皮肤
-  - *People with sensitive skin should use gentle, fragrance-free products.*
+  - *People with sensitive skin should use gentle, fragrance-free products.*（皮肤敏感的人应该使用温和无香的产品。）
 - **sensitive to**：对……敏感
-  - *Some animals are sensitive to changes in atmospheric pressure.*
+  - *Some animals are sensitive to changes in atmospheric pressure.*（有些动物对大气压的变化很敏感。）
 - **sensitive information**：敏感信息
-  - *The leak of sensitive information compromised national security.*
+  - *The leak of sensitive information compromised national security.*（敏感信息的泄露危及国家安全。）
 - **sensitive topic**：敏感话题
-  - *Religion and politics are often considered sensitive topics in conversation.*
+  - *Religion and politics are often considered sensitive topics in conversation.*（宗教和政治在谈话中常被视为敏感话题。）
 - **emotionally sensitive**：情感敏感的
-  - *Children who are emotionally sensitive may need extra support and understanding.*
+  - *Children who are emotionally sensitive may need extra support and understanding.*（情感敏感的孩子可能需要额外的支持和理解。）
 
 ## 真题/语料关联
 

@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **take a step**：迈一步
-  - *She took a step forward to get a better view.*
+  - *She took a step forward to get a better view.*（她向前迈了一步，以便看得更清楚。）
 - **step by step**：一步一步地
-  - *Follow the instructions step by step.*
+  - *Follow the instructions step by step.*（一步一步地按照说明操作。）
 - **next step**：下一步
-  - *What's the next step in the process?*
+  - *What's the next step in the process?*（这个过程的下一步是什么？）
 - **take steps**：采取措施
-  - *The government needs to take steps to reduce pollution.*
+  - *The government needs to take steps to reduce pollution.*（政府需要采取措施减少污染。）
 - **step on**：踩在……上
-  - *Be careful not to step on the broken glass.*
+  - *Be careful not to step on the broken glass.*（小心不要踩到碎玻璃。）
 
 ## 真题/语料关联
 

@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **complicated process**：复杂的过程
-  - *Applying for a visa can be a complicated process.*
+  - *Applying for a visa can be a complicated process.*（申请签证可能是一个复杂的过程。）
 - **complicated situation**：棘手的情况
-  - *She found herself in a complicated situation with no easy solution.*
+  - *She found herself in a complicated situation with no easy solution.*（她发现自己陷入了没有简单解决方案的棘手境地。）
 - **complicated relationship**：复杂的关系
-  - *They have a complicated relationship that nobody fully understands.*
+  - *They have a complicated relationship that nobody fully understands.*（他们有一种没人完全理解的复杂关系。）
 - **more complicated than**：比……更复杂
-  - *The issue is more complicated than it appears at first glance.*
+  - *The issue is more complicated than it appears at first glance.*（这个问题比乍看起来更复杂。）
 - **get complicated**：变得复杂
-  - *Things started to get complicated when new evidence emerged.*
+  - *Things started to get complicated when new evidence emerged.*（当新证据出现时，事情开始变得复杂起来。）
 
 ## 真题/语料关联
 

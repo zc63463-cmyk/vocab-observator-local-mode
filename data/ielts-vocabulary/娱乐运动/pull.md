@@ -70,15 +70,15 @@ review_count: 0
 ## 搭配与短语
 
 - **pull the door**：拉门
-  - *Please pull the door to close it.*
+  - *Please pull the door to close it.*（请拉上门。）
 - **pull out**：拔出；驶出
-  - *He pulled out a gun from his pocket.*
+  - *He pulled out a gun from his pocket.*（他从口袋里掏出了一把枪。）
 - **pull in**：吸引；进站
-  - *The train pulled into the station.*
+  - *The train pulled into the station.*（火车进站了。）
 - **pull off**：成功完成；脱下
-  - *She pulled off a great performance.*
+  - *She pulled off a great performance.*（她成功完成了一场精彩的表演。）
 - **pull through**：渡过难关
-  - *He pulled through the illness after months of treatment.*
+  - *He pulled through the illness after months of treatment.*（经过数月的治疗，他挺过了疾病。）
 
 ## 真题/语料关联
 

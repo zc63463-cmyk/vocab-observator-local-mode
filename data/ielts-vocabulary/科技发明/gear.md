@@ -68,15 +68,15 @@ review_count: 0
 ## 搭配与短语
 
 - **change/shift gear**：换挡
-  - *She changed gear as the car approached the hill.*
+  - *She changed gear as the car approached the hill.*（汽车接近山坡时她换了挡。）
 - **camping/fishing/safety gear**：露营/钓鱼/安全装备
-  - *Make sure you pack all your camping gear before leaving.*
+  - *Make sure you pack all your camping gear before leaving.*（出发前确保打包好所有露营装备。）
 - **gear towards**：使针对，使适合
-  - *The course is geared towards beginners.*
+  - *The course is geared towards beginners.*（这门课程是针对初学者设计的。）
 - **gear up (for)**：为……做准备
-  - *The company is gearing up for the product launch.*
+  - *The company is gearing up for the product launch.*（公司正在为产品发布做准备。）
 - **in gear / out of gear**：合拍/不合拍
-  - *The project is finally in gear after months of delays.*
+  - *The project is finally in gear after months of delays.*（经过几个月的拖延，项目终于步入正轨。）
 
 ## 真题/语料关联
 

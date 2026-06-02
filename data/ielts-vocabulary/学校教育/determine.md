@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **determine that...**：确定……
-  - *The investigation determined that the fire was accidental.*
+  - *The investigation determined that the fire was accidental.*（调查确定火灾是意外造成的。）
 - **determine the cause**：确定原因
-  - *Scientists are trying to determine the cause of the disease.*
+  - *Scientists are trying to determine the cause of the disease.*（科学家们正试图确定这种疾病的原因。）
 - **determine to do**：决定做
-  - *She determined to finish the project on time.*
+  - *She determined to finish the project on time.*（她决心按时完成项目。）
 - **determined** (adj.)：坚决的
-  - *He is determined to succeed.*
+  - *He is determined to succeed.*（他决心要成功。）
 - **determination** (n.)：决心
-  - *Her determination helped her overcome many obstacles.*
+  - *Her determination helped her overcome many obstacles.*（她的决心帮助她克服了许多障碍。）
 
 ## 真题/语料关联
 

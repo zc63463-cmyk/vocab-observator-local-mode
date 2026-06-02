@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **look up a word in the dictionary**：在词典中查词
-  - *If you don't know the meaning, look it up in the dictionary.*
+  - *If you don't know the meaning, look it up in the dictionary.*（如果你不知道意思，就查一下词典。）
 - **bilingual dictionary**：双语词典
-  - *A bilingual dictionary is essential for language learners.*
+  - *A bilingual dictionary is essential for language learners.*（双语词典对语言学习者来说是必不可少的。）
 - **electronic/online dictionary**：电子/在线词典
-  - *Online dictionaries are more convenient than paper ones.*
+  - *Online dictionaries are more convenient than paper ones.*（在线词典比纸质词典更方便。）
 - **compile a dictionary**：编纂词典
-  - *It took years to compile this comprehensive dictionary.*
+  - *It took years to compile this comprehensive dictionary.*（编纂这本综合词典花了数年时间。）
 
 ## 真题/语料关联
 

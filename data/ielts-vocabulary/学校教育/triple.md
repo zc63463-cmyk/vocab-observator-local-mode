@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **triple the amount/price**：三倍的数量/价格
-  - *The value has tripled in the last decade.*
+  - *The value has tripled in the last decade.*（价值在过去十年中增长了三倍。）
 - **triple alliance**：三方同盟
-  - *The three countries formed a triple alliance.*
+  - *The three countries formed a triple alliance.*（三个国家形成了一个三方同盟。）
 - **triple jump**：三级跳远
-  - *She won gold in the triple jump.*
+  - *She won gold in the triple jump.*（她在三级跳远中获得了金牌。）
 - **triple threat**：三重威胁（有三种能力的人）
-  - *He's a triple threat: he can sing, dance, and act.*
+  - *He's a triple threat: he can sing, dance, and act.*（他是个三重威胁：能唱、能跳、能演。）
 - **triple A (AAA)**：最高评级
-  - *The company has a triple-A credit rating.*
+  - *The company has a triple-A credit rating.*（该公司拥有AAA级信用评级。）
 
 ## 真题/语料关联
 

@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **strong rhythm**：强烈的节奏
-  - *The song has a strong rhythm that makes you want to dance.*
+  - *The song has a strong rhythm that makes you want to dance.*（这首歌节奏强烈，让人想跳舞。）
 - **rhythm section**：节奏组（乐队中负责节奏的乐器）
-  - *The rhythm section includes drums and bass.*
+  - *The rhythm section includes drums and bass.*（节奏组包括鼓和贝斯。）
 - **sense of rhythm**：节奏感
-  - *She has a natural sense of rhythm.*
+  - *She has a natural sense of rhythm.*（她天生就有节奏感。）
 - **rhythm guitar**：节奏吉他
-  - *He plays rhythm guitar in the band.*
+  - *He plays rhythm guitar in the band.*（他在乐队中弹节奏吉他。）
 - **keep rhythm**：保持节奏
-  - *The drummer keeps rhythm for the band.*
+  - *The drummer keeps rhythm for the band.*（鼓手为乐队保持节奏。）
 
 ## 真题/语料关联
 

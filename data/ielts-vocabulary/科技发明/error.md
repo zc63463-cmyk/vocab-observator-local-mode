@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **make an error**：犯错误
-  - *I made an error in the calculation.*
+  - *I made an error in the calculation.*（我在计算中犯了一个错误。）
 - **human error**：人为错误
-  - *The accident was caused by human error.*
+  - *The accident was caused by human error.*（事故是由人为错误造成的。）
 - **margin of error**：误差范围
-  - *The survey has a margin of error of 2%.*
+  - *The survey has a margin of error of 2%.*（这项调查的误差范围为2%。）
 - **error message**：错误信息
-  - *The computer displayed an error message.*
+  - *The computer displayed an error message.*（电脑显示了一条错误信息。）
 - **trial and error**：试错法
-  - *We solved the problem through trial and error.*
+  - *We solved the problem through trial and error.*（我们通过反复试验解决了这个问题。）
 
 ## 真题/语料关联
 

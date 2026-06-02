@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **detect something**：发现某事
-  - *The doctor detected a heart murmur during the examination.*
+  - *The doctor detected a heart murmur during the examination.*（医生在检查中发现了一种心脏杂音。）
 - **detect a change/difference**：察觉变化/差异
-  - *It's hard to detect any difference between the two samples.*
+  - *It's hard to detect any difference between the two samples.*（很难察觉到这两个样本之间的任何差异。）
 - **detect a signal**：探测信号
-  - *The equipment can detect signals from deep space.*
+  - *The equipment can detect signals from deep space.*（这种设备可以探测来自深空的信号。）
 - **detect fraud/crime**：发现欺诈/犯罪
-  - *The system is designed to detect fraudulent transactions.*
+  - *The system is designed to detect fraudulent transactions.*（这个系统旨在检测欺诈交易。）
 - **easily/hardly detect**：容易/几乎无法察觉
-  - *The flaw is hardly detectable to the naked eye.*
+  - *The flaw is hardly detectable to the naked eye.*（这个缺陷肉眼几乎无法察觉。）
 
 ## 真题/语料关联
 

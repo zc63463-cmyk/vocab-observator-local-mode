@@ -71,17 +71,17 @@ review_count: 0
 ## 搭配与短语
 
 - **address/tackle an issue**：解决问题
-  - *The government needs to address the issue of climate change.*
+  - *The government needs to address the issue of climate change.*（政府需要解决气候变化问题。）
 - **raise an issue**：提出问题
-  - *She raised the issue of workplace safety at the meeting.*
+  - *She raised the issue of workplace safety at the meeting.*（她在会上提出了工作场所安全的问题。）
 - **social/political issue**：社会/政治议题
-  - *Education is a major social issue in many countries.*
+  - *Education is a major social issue in many countries.*（教育在许多国家是一个主要的社会议题。）
 - **the latest issue**：最新一期
-  - *Have you read the latest issue of the magazine?*
+  - *Have you read the latest issue of the magazine?*（你读过这本杂志的最新一期吗？）
 - **issue a statement**：发表声明
-  - *The company issued a statement denying the allegations.*
+  - *The company issued a statement denying the allegations.*（公司发表声明否认了这些指控。）
 - **at issue**：争论中的
-  - *The point at issue is whether the policy is fair.*
+  - *The point at issue is whether the policy is fair.*（争论的焦点是该政策是否公平。）
 
 ## 真题/语料关联
 

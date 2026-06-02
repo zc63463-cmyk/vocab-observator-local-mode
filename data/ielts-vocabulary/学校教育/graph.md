@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **line graph**：折线图
-  - *The line graph shows the trend in global temperatures over the past century.*
+  - *The line graph shows the trend in global temperatures over the past century.*（折线图显示了过去一个世纪全球气温的趋势。）
 - **bar graph**：柱状图
-  - *The bar graph compares the sales figures of different regions.*
+  - *The bar graph compares the sales figures of different regions.*（柱状图比较了不同地区的销售数据。）
 - **graph theory**：图论
-  - *Graph theory is a branch of mathematics that studies the properties of graphs.*
+  - *Graph theory is a branch of mathematics that studies the properties of graphs.*（图论是数学的一个分支，研究图的性质。）
 - **plot a graph**：绘制图表
-  - *Students were asked to plot a graph of the experimental results.*
+  - *Students were asked to plot a graph of the experimental results.*（学生们被要求根据实验结果绘制图表。）
 - **graph paper**：方格纸
-  - *Use graph paper to ensure accurate scaling of your diagram.*
+  - *Use graph paper to ensure accurate scaling of your diagram.*（使用方格纸以确保图表比例准确。）
 
 ## 真题/语料关联
 

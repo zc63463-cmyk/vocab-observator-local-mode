@@ -77,15 +77,15 @@ review_count: 0
 ## 搭配与短语
 
 - **apply for**：申请（工作、许可等）
-  - *She decided to apply for the manager position.*
+  - *She decided to apply for the manager position.*（她决定申请经理职位。）
 - **apply to**：适用于；申请（学校、项目等）
-  - *This rule applies to all employees.*
+  - *This rule applies to all employees.*（这条规则适用于所有员工。）
 - **apply a method**：应用方法
-  - *Scientists apply various methods to collect data.*
+  - *Scientists apply various methods to collect data.*（科学家运用各种方法来收集数据。）
 - **apply cream/lotion**：涂抹乳液/面霜
-  - *Apply the cream twice daily for best results.*
+  - *Apply the cream twice daily for best results.*（每日涂抹两次面霜以获得最佳效果。）
 - **apply oneself**：努力，专注
-  - *If you apply yourself, you can achieve great things.*
+  - *If you apply yourself, you can achieve great things.*（如果你全力以赴，就能取得伟大成就。）
 
 ## 真题/语料关联
 

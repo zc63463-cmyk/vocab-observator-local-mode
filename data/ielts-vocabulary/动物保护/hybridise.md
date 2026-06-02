@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **hybridise with**：与……杂交
-  - *The two species can hybridise and produce fertile offspring.*
+  - *The two species can hybridise and produce fertile offspring.*（这两个物种可以杂交并产生有生育能力的后代。）
 - **hybridise plants**：使植物杂交
-  - *Scientists hybridise plants to create disease-resistant varieties.*
+  - *Scientists hybridise plants to create disease-resistant varieties.*（科学家杂交植物以培育抗病品种。）
 - **hybridise naturally**：自然杂交
-  - *Some plants hybridise naturally in the wild.*
+  - *Some plants hybridise naturally in the wild.*（有些植物在野外自然杂交。）
 - **hybridise artificially**：人工杂交
-  - *The new variety was hybridised artificially in the laboratory.*
+  - *The new variety was hybridised artificially in the laboratory.*（这个新品种是在实验室中人工杂交培育的。）
 - **hybridise to produce**：杂交产生
-  - *The two breeds were hybridised to produce a hardier animal.*
+  - *The two breeds were hybridised to produce a hardier animal.*（这两个品种被杂交以培育出更耐寒的动物。）
 
 ## 真题/语料关联
 

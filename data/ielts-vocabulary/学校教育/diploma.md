@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **high school diploma**：高中文凭
-  - *A high school diploma is required for most entry-level jobs.*
+  - *A high school diploma is required for most entry-level jobs.*（大多数入门级工作都需要高中文凭。）
 - **college/university diploma**：大学文凭
-  - *She earned her college diploma in just three years.*
+  - *She earned her college diploma in just three years.*（她仅用三年就获得了大学文凭。）
 - **diploma course**：文凭课程
-  - *The college offers a diploma course in web design.*
+  - *The college offers a diploma course in web design.*（该学院提供网页设计文凭课程。）
 - **award/grant a diploma**：颁发文凭
-  - *The university awarded diplomas to over 500 graduates.*
+  - *The university awarded diplomas to over 500 graduates.*（该大学向500多名毕业生颁发了文凭。）
 - **diploma mill**：文凭工厂（贬义）
-  - *Employers can easily spot candidates from diploma mills.*
+  - *Employers can easily spot candidates from diploma mills.*（雇主很容易识破来自文凭工厂的应聘者。）
 
 ## 真题/语料关联
 

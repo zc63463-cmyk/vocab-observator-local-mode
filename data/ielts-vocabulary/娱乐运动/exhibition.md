@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **art exhibition**：艺术展览
-  - *The art exhibition attracted thousands of visitors.*
+  - *The art exhibition attracted thousands of visitors.*（艺术展览吸引了成千上万的访客。）
 - **on exhibition**：展出中
-  - *The painting is currently on exhibition at the museum.*
+  - *The painting is currently on exhibition at the museum.*（这幅画目前在博物馆展出。）
 - **exhibition of**：展示，表现
-  - *The game was an exhibition of skill and teamwork.*
+  - *The game was an exhibition of skill and teamwork.*（这场比赛是技巧和团队合作的展示。）
 - **put on an exhibition**：举办展览
-  - *The gallery will put on an exhibition of modern art.*
+  - *The gallery will put on an exhibition of modern art.*（画廊将举办一场现代艺术展览。）
 - **make an exhibition of oneself**：出丑，出洋相
-  - *He made an exhibition of himself by shouting in the restaurant.*
+  - *He made an exhibition of himself by shouting in the restaurant.*（他在餐厅大喊大叫，出了洋相。）
 
 ## 真题/语料关联
 

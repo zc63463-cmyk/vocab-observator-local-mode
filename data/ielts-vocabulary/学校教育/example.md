@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **for example**：例如
-  - *Many countries, for example Japan, have a high life expectancy.*
+  - *Many countries, for example Japan, have a high life expectancy.*（许多国家，例如日本，拥有很高的预期寿命。）
 - **give an example**：举例
-  - *Can you give an example of what you mean?*
+  - *Can you give an example of what you mean?*（你能举例说明你的意思吗？）
 - **set an example**：树立榜样
-  - *Parents should set a good example for their children.*
+  - *Parents should set a good example for their children.*（父母应该为孩子树立好榜样。）
 - **follow someone's example**：效仿某人
-  - *She followed her mother's example and became a doctor.*
+  - *She followed her mother's example and became a doctor.*（她以母亲为榜样，成为了一名医生。）
 - **a classic/typical example**：典型的例子
-  - *This is a classic example of poor planning.*
+  - *This is a classic example of poor planning.*（这是一个典型规划不善的例子。）
 
 ## 真题/语料关联
 

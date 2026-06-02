@@ -69,15 +69,15 @@ review_count: 0
 ## 搭配与短语
 
 - **social status**：社会地位
-  - *Education is often seen as a pathway to higher social status.*
+  - *Education is often seen as a pathway to higher social status.*（教育常被视为提升社会地位的途径。）
 - **current status**：当前状态
-  - *Please check the current status of your application online.*
+  - *Please check the current status of your application online.*（请在线查看你申请的当前状态。）
 - **status symbol**：地位象征
-  - *Luxury cars are often considered status symbols.*
+  - *Luxury cars are often considered status symbols.*（豪华汽车常被视为身份的象征。）
 - **status quo**：现状
-  - *Many people are resistant to changing the status quo.*
+  - *Many people are resistant to changing the status quo.*（许多人不愿意改变现状。）
 - **legal status**：法律地位
-  - *The legal status of the refugees remains uncertain.*
+  - *The legal status of the refugees remains uncertain.*（难民的法律地位仍然不确定。）
 
 ## 真题/语料关联
 

@@ -33,8 +33,10 @@ const MIN_GRAPH_HEIGHT = 320;
 const NODE_PRIORITY: Record<VocabGraphNodeType, number> = {
   antonym: 3,
   current: 0,
+  prefix: 2,
   related: 3,
   root: 1,
+  suffix: 2,
   synonym: 2,
 };
 
@@ -42,6 +44,8 @@ const RELATION_LABELS: Array<{ relation: VocabGraphRelation; label: string }> = 
   { relation: "root-family", label: "同根" },
   { relation: "synonym", label: "近义" },
   { relation: "antonym", label: "反义" },
+  { relation: "prefix-family", label: "同前缀" },
+  { relation: "suffix-family", label: "同后缀" },
   { relation: "related", label: "笔记" },
 ];
 

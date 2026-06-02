@@ -67,13 +67,13 @@ review_count: 0
 ## 搭配与短语
 
 - **peregrine falcon**：游隼（世界上速度最快的动物）
-  - *The peregrine falcon can reach speeds of over 240 mph during its hunting dive.*
+  - *The peregrine falcon can reach speeds of over 240 mph during its hunting dive.*（游隼在捕猎俯冲时的速度可超过每小时240英里。）
 - **train a falcon**：训练猎鹰
-  - *Falconers have trained falcons for hunting for thousands of years.*
+  - *Falconers have trained falcons for hunting for thousands of years.*（训鹰人训练猎鹰捕猎已有数千年历史。）
 - **eyes of a falcon**：鹰眼般锐利的目光
-  - *The scout had eyes of a falcon, spotting the enemy from miles away.*
+  - *The scout had eyes of a falcon, spotting the enemy from miles away.*（侦察兵有着鹰一般的眼睛，从数英里外就发现了敌人。）
 - **falconry**：鹰猎术
-  - *Falconry is recognized by UNESCO as an intangible cultural heritage.*
+  - *Falconry is recognized by UNESCO as an intangible cultural heritage.*（猎鹰训练被联合国教科文组织认定为非物质文化遗产。）
 
 ## 真题/语料关联
 

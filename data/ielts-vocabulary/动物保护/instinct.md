@@ -71,15 +71,15 @@ review_count: 0
 ## 搭配与短语
 
 - **animal instinct**：动物本能
-  - *Animal instinct drives many species to migrate thousands of miles each year.*
+  - *Animal instinct drives many species to migrate thousands of miles each year.*（动物本能驱使许多物种每年迁徙数千英里。）
 - **survival instinct**：生存本能
-  - *The survival instinct is one of the most powerful forces in nature.*
+  - *The survival instinct is one of the most powerful forces in nature.*（生存本能是自然界中最强大的力量之一。）
 - **maternal instinct**：母性本能
-  - *Maternal instinct compels many animals to protect their young at all costs.*
+  - *Maternal instinct compels many animals to protect their young at all costs.*（母性本能驱使许多动物不惜一切代价保护幼崽。）
 - **trust your instinct**：相信你的直觉
-  - *When making a decision, it's often wise to trust your instinct.*
+  - *When making a decision, it's often wise to trust your instinct.*（做决定时，相信直觉通常是明智的。）
 - **by instinct**：出于本能
-  - *The bird builds its nest by instinct, not by learning.*
+  - *The bird builds its nest by instinct, not by learning.*（鸟儿筑巢是出于本能，而非学习。）
 
 ## 真题/语料关联
 

@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **the Bible**：圣经
-  - *The Bible is the best-selling book of all time.*
+  - *The Bible is the best-selling book of all time.*（《圣经》是有史以来最畅销的书。）
 - **Holy Bible**：圣经（正式称呼）
-  - *The Holy Bible contains both the Old and New Testaments.*
+  - *The Holy Bible contains both the Old and New Testaments.*（《圣经》包含旧约和新约。）
 - **King James Bible**：英王钦定本圣经
-  - *The King James Bible was first published in 1611.*
+  - *The King James Bible was first published in 1611.*（英王钦定本圣经首次出版于1611年。）
 - **Bible study**：圣经学习小组
-  - *She attends a weekly Bible study group at her church.*
+  - *She attends a weekly Bible study group at her church.*（她每周参加教堂的圣经学习小组。）
 - **Bible belt**：圣经地带（美国南部保守基督教地区）
-  - *The Bible Belt is known for its strong evangelical Christian influence.*
+  - *The Bible Belt is known for its strong evangelical Christian influence.*（圣经地带以其强大的福音派基督教影响力而闻名。）
 - **Biblical** (adj.) — 圣经的，与圣经相关的
-  - *The story of Noah's Ark is a Biblical narrative.*
+  - *The story of Noah's Ark is a Biblical narrative.*（诺亚方舟的故事是一个圣经叙事。）
 
 ## 真题/语料关联
 

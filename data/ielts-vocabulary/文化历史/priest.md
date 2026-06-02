@@ -69,17 +69,17 @@ review_count: 0
 ## 搭配与短语
 
 - **Catholic priest**：天主教神父
-  - *The Catholic priest heard confessions every Saturday afternoon.*
+  - *The Catholic priest heard confessions every Saturday afternoon.*（天主教神父每周六下午听取忏悔。）
 - **parish priest**：教区神父
-  - *The parish priest visited the sick and elderly in the community.*
+  - *The parish priest visited the sick and elderly in the community.*（教区神父探望了社区中的病人和老人。）
 - **priestly ordination**：神父按立礼
-  - *The priestly ordination ceremony was held at the cathedral.*
+  - *The priestly ordination ceremony was held at the cathedral.*（神职授任仪式在大教堂举行。）
 - **priesthood**：神职，祭司职分
-  - *He felt called to the priesthood from a young age.*
+  - *He felt called to the priesthood from a young age.*（他从小就感到被召唤去担任神职。）
 - **high priest**：大祭司
-  - *The high priest performed the annual Day of Atonement ritual.*
+  - *The high priest performed the annual Day of Atonement ritual.*（大祭司主持了一年一度的赎罪日仪式。）
 - **priestly robes**：祭司袍
-  - *The priest wore elaborate priestly robes for the ceremony.*
+  - *The priest wore elaborate priestly robes for the ceremony.*（神父在仪式中穿着精致的祭披。）
 
 ## 真题/语料关联
 

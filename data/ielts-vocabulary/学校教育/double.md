@@ -67,15 +67,15 @@ review_count: 0
 ## 搭配与短语
 
 - **double the amount/price**：两倍的数量/价格
-  - *The rent has doubled in the last five years.*
+  - *The rent has doubled in the last five years.*（房租在过去五年里翻了一番。）
 - **double doors**：双扇门
-  - *The room has double doors leading to the garden.*
+  - *The room has double doors leading to the garden.*（房间有双扇门通向花园。）
 - **double bed**：双人床
-  - *The hotel room has a double bed.*
+  - *The hotel room has a double bed.*（酒店房间有一张双人床。）
 - **double purpose**：双重目的
-  - *The building serves a double purpose as a school and community centre.*
+  - *The building serves a double purpose as a school and community centre.*（这座建筑兼作学校和社区中心。）
 - **on the double**：迅速地
-  - *We need to finish this on the double.*
+  - *We need to finish this on the double.*（我们需要尽快完成这个任务。）
 
 ## 真题/语料关联
 
