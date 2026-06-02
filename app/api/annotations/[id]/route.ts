@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { apiErrorResponse } from "@/lib/api-error";
 import { requireOwnerApiSession } from "@/lib/request-auth";
 import { resolveWordbookId } from "@/lib/wordbook";
@@ -11,11 +11,9 @@ import { sql } from "@/lib/db";
  * within the current active wordbook.
  */
 export async function DELETE(
-  _request: Request,
+  _request: NextRequest,
   { params }: { params: Promise<{ id: string }> },
 ) {
-  const { id } = await params;
-
   const ownerSession = await requireOwnerApiSession();
   if (ownerSession.response) {
     return ownerSession.response;
@@ -24,6 +22,8 @@ export async function DELETE(
   const supabase = ownerSession.supabase!;
   const userId = ownerSession.user!.id;
   const wordbookId = await resolveWordbookId(supabase, userId, null);
+
+  const { id } = await params;
 
   const uuidRe = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   if (!uuidRe.test(id)) {

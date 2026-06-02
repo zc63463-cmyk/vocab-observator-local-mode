@@ -22,23 +22,20 @@ export function AnnotationModal({
   onDeleted,
 }: AnnotationModalProps) {
   const [saving, setSaving] = useState(false);
+  const [value, setValue] = useState(initialContent);
   const [charCount, setCharCount] = useState(initialContent.length);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // When modal opens: reset textarea to saved content, focus, resize.
+  // When modal opens: reset content, focus, and auto-resize textarea.
   useEffect(() => {
     if (!isOpen) return;
+    setValue(initialContent);
+    setCharCount(initialContent.length);
     const el = textareaRef.current;
     if (!el) return;
-
-    el.value = initialContent;
     el.style.height = "auto";
     el.style.height = `${Math.min(el.scrollHeight, 300)}px`;
-    setTimeout(() => el.focus(), 100);
-
-    // Defer char count to next tick to avoid set-state-in-effect lint
-    const id = setTimeout(() => setCharCount(initialContent.length), 0);
-    return () => clearTimeout(id);
+    requestAnimationFrame(() => el.focus());
   }, [isOpen, initialContent]);
 
   // Close on Escape
@@ -53,31 +50,32 @@ export function AnnotationModal({
     return () => window.removeEventListener("keydown", handleKey);
   }, [isOpen, onClose]);
 
-  const handleInput = useCallback(() => {
-    const el = textareaRef.current;
-    if (!el) return;
+  const handleInput = useCallback((e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    const v = e.target.value;
+    setValue(v);
+    setCharCount(v.length);
+    const el = e.target;
     el.style.height = "auto";
     el.style.height = `${Math.min(el.scrollHeight, 300)}px`;
-    setCharCount(el.value.length);
   }, []);
 
   const handleSave = useCallback(async () => {
-    const value = (textareaRef.current?.value ?? "").trim();
+    const trimmed = value.trim();
     setSaving(true);
     try {
       const res = await fetch("/api/annotations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ word_id: wordId, content: value }),
+        body: JSON.stringify({ word_id: wordId, content: trimmed }),
       });
       if (res.ok) {
-        onSaved(value);
+        onSaved(trimmed);
         onClose();
       }
     } finally {
       setSaving(false);
     }
-  }, [wordId, onSaved, onClose]);
+  }, [wordId, value, onSaved, onClose]);
 
   const handleDelete = useCallback(async () => {
     if (!confirm("确定删除这条批注吗？")) return;
@@ -142,8 +140,8 @@ export function AnnotationModal({
               ref={textareaRef}
               id={`annotation-${wordId}`}
               name={`annotation-${wordId}`}
-              defaultValue={initialContent}
-              onInput={handleInput}
+              value={value}
+              onChange={handleInput}
               placeholder="记录这个词给你留下的印象、联想、用法心得..."
               className="w-full resize-none rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-3 text-sm leading-6 text-[var(--color-ink)] placeholder:text-[var(--color-ink-faint)] focus:border-[var(--color-accent)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent)]"
               rows={4}

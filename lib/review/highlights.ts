@@ -30,7 +30,6 @@ export function applyHighlightsToSegments(
     }
 
     const remaining = seg.content;
-    const cursor = 0;
 
     // Collect all matches for this segment, then sort by position.
     type Match = { index: number; snippet: string; color: string; id?: string };
@@ -39,10 +38,7 @@ export function applyHighlightsToSegments(
     for (const hl of highlights) {
       const snippet = hl.text_snippet;
       if (!snippet) continue;
-      let idx = remaining.indexOf(snippet, cursor);
-      // If the snippet isn't found starting from cursor, try a full search
-      // (handles cases where multiple snippets overlap in complex ways).
-      if (idx === -1) idx = remaining.indexOf(snippet);
+      const idx = remaining.indexOf(snippet);
       if (idx !== -1) {
         matches.push({ index: idx, snippet, color: hl.color, id: hl.id });
       }

@@ -105,13 +105,13 @@ function InlineSegments({
       {segments.map((segment, i) => {
         switch (segment.kind) {
           case "text":
-            return <span key={`t-${i}-${segment.content.slice(0, 12)}`}>{segment.content}</span>;
+            return <span key={`t-${i}`}>{segment.content}</span>;
           case "code":
             // `text-xs` is deliberate: the user asked for grammar chips
             // to read visibly smaller than the surrounding prose.
             return (
               <code
-                key={`c-${i}-${segment.content.slice(0, 12)}`}
+                key={`c-${i}`}
                 className="mx-0.5 inline-block rounded border border-[var(--color-border)] bg-[var(--color-surface)] px-1.5 py-0.5 font-mono text-xs leading-none text-[var(--color-ink-soft)]"
               >
                 {segment.content}
@@ -119,7 +119,7 @@ function InlineSegments({
             );
           case "bold":
             return (
-              <strong key={`b-${i}-${segment.content.slice(0, 12)}`} className="font-semibold text-[var(--color-ink)]">
+              <strong key={`b-${i}`} className="font-semibold text-[var(--color-ink)]">
                 {segment.content}
               </strong>
             );
@@ -131,7 +131,7 @@ function InlineSegments({
             if (isBold && highlightId) {
               return (
                 <strong
-                  key={`hl-${highlightId}-${segment.content.slice(0, 12)}`}
+                  key={`hl-${highlightId}`}
                   className="cursor-pointer font-semibold text-[var(--color-ink)] transition hover:opacity-80"
                   onClick={(e) => {
                     e.stopPropagation();
@@ -146,7 +146,7 @@ function InlineSegments({
 
             return (
               <mark
-                key={`hl-${highlightId ?? i}-${segment.content.slice(0, 12)}`}
+                key={highlightId ? `hl-${highlightId}` : `hl-a-${i}`}
                 className={
                   isUserHighlight
                     ? "highlight-pen cursor-pointer rounded px-0.5 transition hover:brightness-110"
