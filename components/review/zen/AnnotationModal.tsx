@@ -43,6 +43,7 @@ export function AnnotationModal({
     if (!isOpen) return;
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
+        e.stopPropagation();
         onClose();
       }
     };

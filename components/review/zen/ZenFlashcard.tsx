@@ -866,8 +866,9 @@ export function ZenFlashcard() {
               key={c.hex}
               type="button"
               title={c.label}
+              aria-label={c.label}
               onClick={() => createHighlight(c.hex)}
-              className="flex h-6 w-6 items-center justify-center rounded-full transition hover:scale-110"
+              className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full transition hover:scale-110"
               style={{ backgroundColor: c.hex }}
             />
           ))}
@@ -875,8 +876,9 @@ export function ZenFlashcard() {
           <button
             type="button"
             title="加粗"
+            aria-label="加粗"
             onClick={() => createHighlight("bold")}
-            className="flex h-6 w-6 items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] font-bold text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] font-bold text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
           >
             B
           </button>
@@ -884,10 +886,11 @@ export function ZenFlashcard() {
           <button
             type="button"
             title="批注"
+            aria-label="批注"
             onClick={() => {
               setAnnotationOpen(true);
             }}
-            className="relative flex h-6 w-6 items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+            className="relative flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
           >
             <Pencil size={11} />
             {annotation && (
@@ -897,11 +900,12 @@ export function ZenFlashcard() {
           <div className="h-4 w-px bg-[var(--color-border)]" />
           <button
             type="button"
+            aria-label="取消选择"
             onClick={() => {
               setToolbar(null);
               window.getSelection()?.removeAllRanges();
             }}
-            className="flex h-6 w-6 items-center justify-center rounded-full text-[10px] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)]"
+            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full text-[10px] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)]"
           >
             ✕
           </button>
