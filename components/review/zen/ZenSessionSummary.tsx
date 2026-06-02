@@ -47,7 +47,7 @@ export function ZenSessionSummary() {
           rounded-2xl border border-[var(--color-border)]
           bg-[var(--color-surface)]/60 backdrop-blur-sm
           px-6 py-8 sm:px-10 sm:py-10
-          shadow-[0_1px_0_rgba(255,255,255,0.04)_inset]
+          shadow-[0_1px_0_var(--color-surface-glass)_inset]
         "
       >
         {/* Header */}

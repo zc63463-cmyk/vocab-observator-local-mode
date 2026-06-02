@@ -64,7 +64,7 @@ function buildGroups(metadata: unknown): RelationGroup[] {
   if (synonyms.length > 0) {
     groups.push({
       label: "近义",
-      color: "#3b82f6", // blue-500
+      color: "var(--color-relation-synonym)", // blue-500
       items: synonyms.map((s) => ({ text: s })),
     });
   }
@@ -81,7 +81,7 @@ function buildGroups(metadata: unknown): RelationGroup[] {
   if (antonyms.length > 0) {
     groups.push({
       label: "反义",
-      color: "#f59e0b", // amber-500
+      color: "var(--color-relation-antonym)", // amber-500
       items: antonyms.map((s) => ({ text: s })),
     });
   }
@@ -100,7 +100,7 @@ function buildGroups(metadata: unknown): RelationGroup[] {
   if (roots.length > 0) {
     groups.push({
       label: "词根",
-      color: "#8b5cf6", // violet-500
+      color: "var(--color-relation-root)", // violet-500
       items: roots.map((s) => ({ text: s })),
     });
   }

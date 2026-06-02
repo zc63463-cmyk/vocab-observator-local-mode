@@ -11,6 +11,8 @@
   --color-ink: #231a12;
   --color-ink-soft: rgba(35, 26, 18, 0.72);
   --color-accent: #0f6f62;
+  --color-accent-rgb: 15, 111, 98;
+  --color-accent-subtle: rgba(200, 160, 80, 0.18);
   --color-accent-2: #b2572f;
   --color-highlight: #f3dca2;
 
@@ -46,6 +48,26 @@
   /* selection */
   --color-selection: rgba(178, 87, 47, 0.22);
 
+  /* highlight colors */
+  --color-highlight-key: #eab308;
+  --color-highlight-error: #f97316;
+  --color-highlight-root: #16a34a;
+  --color-highlight-collocation: #3b82f6;
+
+  /* rating colors */
+  --color-rating-again-bg: rgba(178, 87, 47, 0.12);
+  --color-rating-again-border: rgba(178, 87, 47, 0.2);
+  --color-rating-hard-bg: rgba(243, 220, 162, 0.55);
+  --color-rating-hard-border: rgba(243, 220, 162, 0.8);
+  --color-rating-good-border: rgba(15, 111, 98, 0.16);
+  --color-rating-easy-bg: rgba(15, 111, 98, 0.2);
+  --color-rating-easy-border: rgba(15, 111, 98, 0.3);
+
+  /* relation colors */
+  --color-relation-synonym: #3b82f6;
+  --color-relation-antonym: #f59e0b;
+  --color-relation-root: #8b5cf6;
+
   /* header bg */
   --color-header-bg: rgba(246, 241, 231, 0.72);
   --color-header-border-b: var(--color-border);
@@ -71,6 +93,8 @@
   --color-ink: #e8e0d4;
   --color-ink-soft: rgba(232, 224, 212, 0.68);
   --color-accent: #3ec9b4;
+  --color-accent-rgb: 62, 201, 180;
+  --color-accent-subtle: rgba(200, 160, 80, 0.12);
   --color-accent-2: #e09060;
   --color-highlight: rgba(243, 220, 162, 0.2);
 
@@ -100,6 +124,26 @@
   --bg-ambient-mask: radial-gradient(circle at center, black 55%, transparent 92%);
 
   --color-selection: rgba(224, 144, 96, 0.3);
+
+  /* highlight colors */
+  --color-highlight-key: #facc15;
+  --color-highlight-error: #fb923c;
+  --color-highlight-root: #4ade80;
+  --color-highlight-collocation: #60a5fa;
+
+  /* rating colors */
+  --color-rating-again-bg: rgba(224, 144, 96, 0.15);
+  --color-rating-again-border: rgba(224, 144, 96, 0.28);
+  --color-rating-hard-bg: rgba(243, 220, 162, 0.18);
+  --color-rating-hard-border: rgba(243, 220, 162, 0.35);
+  --color-rating-good-border: rgba(62, 201, 180, 0.2);
+  --color-rating-easy-bg: rgba(62, 201, 180, 0.18);
+  --color-rating-easy-border: rgba(62, 201, 180, 0.3);
+
+  /* relation colors */
+  --color-relation-synonym: #60a5fa;
+  --color-relation-antonym: #fbbf24;
+  --color-relation-root: #a78bfa;
 
   --color-header-bg: rgba(26, 23, 20, 0.82);
   --color-header-border-b: var(--color-border);

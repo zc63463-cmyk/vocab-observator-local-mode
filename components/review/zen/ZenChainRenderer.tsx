@@ -206,7 +206,7 @@ export function ZenChainRenderer({
           paddingLeft: isCheckbox ? undefined : "0.5rem",
           borderLeft:
             depth > 0
-              ? `2px solid rgba(15, 111, 98, ${borderOpacity})`
+              ? `2px solid rgba(var(--color-accent-rgb), ${borderOpacity})`
               : undefined,
         }}
       >
@@ -226,7 +226,7 @@ export function ZenChainRenderer({
                 paddingLeft: itemDepth > 0 ? "0.5rem" : undefined,
                 borderLeft:
                   itemDepth > 0
-                    ? `2px solid rgba(15, 111, 98, ${0.1 + itemDepth * 0.07})`
+                    ? `2px solid rgba(var(--color-accent-rgb), ${0.1 + itemDepth * 0.07})`
                     : undefined,
               }}
             >

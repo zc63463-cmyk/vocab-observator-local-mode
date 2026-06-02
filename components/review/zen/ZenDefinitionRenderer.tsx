@@ -150,7 +150,7 @@ function InlineSegments({
                 className={
                   isUserHighlight
                     ? "highlight-pen cursor-pointer rounded px-0.5 transition hover:brightness-110"
-                    : "rounded bg-[var(--color-accent-subtle,rgba(200,160,80,0.18))] px-1 text-[var(--color-ink)]"
+                    : "rounded bg-[var(--color-accent-subtle)] px-1 text-[var(--color-ink)]"
                 }
                 style={
                   isUserHighlight

@@ -69,10 +69,10 @@ function FlashcardFront({
 }
 
 const HIGHLIGHT_COLORS = [
-  { hex: "#eab308", label: "重点" },
-  { hex: "#f97316", label: "易错" },
-  { hex: "#16a34a", label: "词根" },
-  { hex: "#3b82f6", label: "搭配" },
+  { hex: "var(--color-highlight-key)", label: "重点" },
+  { hex: "var(--color-highlight-error)", label: "易错" },
+  { hex: "var(--color-highlight-root)", label: "词根" },
+  { hex: "var(--color-highlight-collocation)", label: "搭配" },
 ];
 
 interface FlashcardBackProps {

@@ -7,24 +7,24 @@ import type { RatingKey } from "./types";
 
 const RATING_STYLES: Record<RatingKey, { bg: string; text: string; border: string }> = {
   again: {
-    bg: "bg-[rgba(178,87,47,0.12)]",
+    bg: "bg-[var(--color-rating-again-bg)]",
     text: "text-[var(--color-accent-2)]",
-    border: "border-[rgba(178,87,47,0.2)]",
+    border: "border-[var(--color-rating-again-border)]",
   },
   hard: {
-    bg: "bg-[rgba(243,220,162,0.55)]",
+    bg: "bg-[var(--color-rating-hard-bg)]",
     text: "text-[var(--color-ink)]",
-    border: "border-[rgba(243,220,162,0.8)]",
+    border: "border-[var(--color-rating-hard-border)]",
   },
   good: {
     bg: "bg-[var(--color-surface-muted)]",
     text: "text-[var(--color-accent)]",
-    border: "border-[rgba(15,111,98,0.16)]",
+    border: "border-[var(--color-rating-good-border)]",
   },
   easy: {
-    bg: "bg-[rgba(15,111,98,0.2)]",
+    bg: "bg-[var(--color-rating-easy-bg)]",
     text: "text-[var(--color-accent)]",
-    border: "border-[rgba(15,111,98,0.3)]",
+    border: "border-[var(--color-rating-easy-border)]",
   },
 };
 

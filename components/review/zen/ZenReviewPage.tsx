@@ -69,7 +69,7 @@ function ZenEmpty() {
         <button
           type="button"
           onClick={retry}
-          className="rounded-full border border-[rgba(15,111,98,0.2)] bg-[var(--color-surface-muted)] px-6 py-3 text-sm font-semibold text-[var(--color-accent)] transition hover:bg-[rgba(15,111,98,0.14)]"
+          className="rounded-full border border-[var(--color-rating-good-border)] bg-[var(--color-surface-muted)] px-6 py-3 text-sm font-semibold text-[var(--color-accent)] transition hover:bg-[var(--color-rating-easy-bg)]"
         >
           刷新队列
         </button>
@@ -100,7 +100,7 @@ function ZenError() {
         <button
           type="button"
           onClick={retry}
-          className="rounded-full border border-[rgba(15,111,98,0.2)] bg-[var(--color-surface-muted)] px-6 py-3 text-sm font-semibold text-[var(--color-accent)] transition hover:bg-[rgba(15,111,98,0.14)]"
+          className="rounded-full border border-[var(--color-rating-good-border)] bg-[var(--color-surface-muted)] px-6 py-3 text-sm font-semibold text-[var(--color-accent)] transition hover:bg-[var(--color-rating-easy-bg)]"
         >
           重试
         </button>
