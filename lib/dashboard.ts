@@ -45,7 +45,7 @@ type DashboardProgressRow = {
   words: { cefr: string | null; lemma: string; metadata: Json | null; slug: string; ipa: string | null; short_definition: string | null; pos: string | null; title: string | null } | null;
 };
 
-type RelationGraphRow = {
+export type RelationGraphRow = {
   words: { slug: string; lemma: string; metadata: Json | null } | null;
 };
 
@@ -380,7 +380,7 @@ function readMetadataStrings(metadata: unknown, keys: string[]): string[] {
   return out;
 }
 
-function buildRelationGraph(
+export function buildRelationGraph(
   rows: RelationGraphRow[],
 ): Record<string, { slug: string; lemma: string; relation: string }[]> {
   /* Multi-value label→slug lookup.  A single label (e.g. "re") can map to
