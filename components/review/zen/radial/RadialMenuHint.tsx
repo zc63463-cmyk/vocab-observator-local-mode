@@ -108,7 +108,7 @@ export function RadialMenuHint({ onDismiss }: RadialMenuHintProps) {
           backdropFilter: "blur(10px) saturate(1.08)",
           WebkitBackdropFilter: "blur(10px) saturate(1.08)",
           boxShadow:
-            "0 12px 28px rgba(35, 26, 18, 0.18), 0 2px 6px rgba(35, 26, 18, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.45)",
+            "0 12px 28px rgba(var(--color-shadow-warm), 0.18), 0 2px 6px rgba(var(--color-shadow-warm), 0.08), inset 0 1px 0 rgba(var(--color-glow-white), 0.45)",
         }}
       >
         {/* Leading long-press glyph — a small filled dot with an arc
@@ -179,7 +179,7 @@ export function RadialMenuHint({ onDismiss }: RadialMenuHintProps) {
           borderLeft: "6px solid transparent",
           borderRight: "6px solid transparent",
           borderTop: "6px solid var(--color-panel-strong)",
-          filter: "drop-shadow(0 1px 1px rgba(35, 26, 18, 0.12))",
+          filter: "drop-shadow(0 1px 1px rgba(var(--color-shadow-warm), 0.12))",
         }}
         animate={{ y: [0, 3, 0] }}
         transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}

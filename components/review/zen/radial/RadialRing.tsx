@@ -139,7 +139,7 @@ export function RadialRing({
           // layer and keeps the ring feeling like one elevated object
           // rather than seven separate tiles.
           filter:
-            "drop-shadow(0 12px 28px rgba(35, 26, 18, 0.22)) drop-shadow(0 2px 6px rgba(35, 26, 18, 0.12))",
+            "drop-shadow(0 12px 28px rgba(var(--color-shadow-warm), 0.22)) drop-shadow(0 2px 6px rgba(var(--color-shadow-warm), 0.12))",
         }}
         initial={{ opacity: 0, scale: 0.6 }}
         animate={
@@ -166,9 +166,9 @@ export function RadialRing({
             y2={outerRadius}
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0%" stopColor="rgba(255, 255, 255, 0.28)" />
-            <stop offset="50%" stopColor="rgba(255, 255, 255, 0.06)" />
-            <stop offset="100%" stopColor="rgba(255, 255, 255, 0)" />
+            <stop offset="0%" stopColor="rgba(var(--color-glow-white), 0.28)" />
+            <stop offset="50%" stopColor="rgba(var(--color-glow-white), 0.06)" />
+            <stop offset="100%" stopColor="rgba(var(--color-glow-white), 0)" />
           </linearGradient>
 
           {/* Per-segment hover gradient — centered on the segment's

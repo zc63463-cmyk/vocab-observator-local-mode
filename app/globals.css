@@ -68,6 +68,10 @@
   --color-relation-antonym: #f59e0b;
   --color-relation-root: #8b5cf6;
 
+  /* shadow & glow tokens (rgb components for dynamic opacity) */
+  --color-shadow-warm: 35, 26, 18;
+  --color-glow-white: 255, 255, 255;
+
   /* header bg */
   --color-header-bg: rgba(246, 241, 231, 0.72);
   --color-header-border-b: var(--color-border);
@@ -144,6 +148,10 @@
   --color-relation-synonym: #60a5fa;
   --color-relation-antonym: #fbbf24;
   --color-relation-root: #a78bfa;
+
+  /* shadow & glow tokens (rgb components for dynamic opacity) */
+  --color-shadow-warm: 35, 26, 18;
+  --color-glow-white: 255, 255, 255;
 
   --color-header-bg: rgba(26, 23, 20, 0.82);
   --color-header-border-b: var(--color-border);

@@ -85,9 +85,9 @@ export function RadialFab({
   const shouldBreathe = !!isPrimed && !isOpen && !isPressing && !prefersReduced;
 
   const pressedShadow =
-    "inset 0 2px 4px rgba(35, 26, 18, 0.22), 0 2px 6px rgba(35, 26, 18, 0.08)";
+    "inset 0 2px 4px rgba(var(--color-shadow-warm), 0.22), 0 2px 6px rgba(var(--color-shadow-warm), 0.08)";
   const restingShadow =
-    "0 10px 28px rgba(35, 26, 18, 0.18), 0 2px 6px rgba(35, 26, 18, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.55), inset 0 -1px 0 rgba(35, 26, 18, 0.04)";
+    "0 10px 28px rgba(var(--color-shadow-warm), 0.18), 0 2px 6px rgba(var(--color-shadow-warm), 0.08), inset 0 1px 0 rgba(var(--color-glow-white), 0.55), inset 0 -1px 0 rgba(var(--color-shadow-warm), 0.04)";
 
   return (
     <div
@@ -173,7 +173,7 @@ export function RadialFab({
           className="pointer-events-none absolute inset-0 rounded-full"
           style={{
             background:
-              "radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 48%)",
+              "radial-gradient(circle at 32% 26%, rgba(var(--color-glow-white), 0.55) 0%, rgba(var(--color-glow-white), 0) 48%)",
             mixBlendMode: "screen",
           }}
         />
