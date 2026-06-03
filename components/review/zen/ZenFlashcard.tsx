@@ -855,12 +855,12 @@ export function ZenFlashcard() {
 
       {/* Highlight toolbar — outside card, below it */}
       {toolbar?.visible && (
-        <div className="mt-4 flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] px-3 py-2 shadow-lg">
+        <div className="mt-4 flex items-center gap-1.5 rounded-full border border-[var(--color-border-strong)] bg-[var(--color-panel-strong)] px-2 py-1.5 shadow-lg">
           <span className="max-w-[140px] truncate text-xs text-[var(--color-ink-soft)]">
             「{toolbar.selectedText.slice(0, 24)}
             {toolbar.selectedText.length > 24 ? "…" : ""}」
           </span>
-          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <div className="h-3 w-px bg-[var(--color-border)]" />
           {HIGHLIGHT_COLORS.map((c) => (
             <button
               key={c.hex}
@@ -868,21 +868,21 @@ export function ZenFlashcard() {
               title={c.label}
               aria-label={c.label}
               onClick={() => createHighlight(c.hex)}
-              className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full transition hover:scale-110"
+              className="flex min-h-[22px] min-w-[22px] items-center justify-center rounded-full transition hover:scale-110"
               style={{ backgroundColor: c.hex }}
             />
           ))}
-          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <div className="h-3 w-px bg-[var(--color-border)]" />
           <button
             type="button"
             title="加粗"
             aria-label="加粗"
             onClick={() => createHighlight("bold")}
-            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] font-bold text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+            className="flex min-h-[22px] min-w-[22px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[8px] font-bold text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
           >
             B
           </button>
-          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <div className="h-3 w-px bg-[var(--color-border)]" />
           <button
             type="button"
             title="批注"
@@ -890,14 +890,14 @@ export function ZenFlashcard() {
             onClick={() => {
               setAnnotationOpen(true);
             }}
-            className="relative flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[10px] text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
+            className="relative flex min-h-[22px] min-w-[22px] items-center justify-center rounded-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[8px] text-[var(--color-ink)] transition hover:scale-110 hover:bg-[var(--color-surface-soft)]"
           >
-            <Pencil size={11} />
+            <Pencil size={8} />
             {annotation && (
-              <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-[var(--color-accent)]" />
+              <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />
             )}
           </button>
-          <div className="h-4 w-px bg-[var(--color-border)]" />
+          <div className="h-3 w-px bg-[var(--color-border)]" />
           <button
             type="button"
             aria-label="取消选择"
@@ -905,7 +905,7 @@ export function ZenFlashcard() {
               setToolbar(null);
               window.getSelection()?.removeAllRanges();
             }}
-            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full text-[10px] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)]"
+            className="flex min-h-[22px] min-w-[22px] items-center justify-center rounded-full text-[8px] text-[var(--color-ink-soft)] hover:bg-[var(--color-surface-soft)]"
           >
             ✕
           </button>
