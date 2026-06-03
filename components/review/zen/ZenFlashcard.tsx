@@ -795,7 +795,7 @@ export function ZenFlashcard() {
 
   const deleteHighlight = useCallback(
     async (id: string) => {
-      const res = await fetch(`/api/highlights/${encodeURIComponent(id)}`, {
+      const res = await fetch(`/api/highlights?id=${encodeURIComponent(id)}`, {
         method: "DELETE",
       });
       if (res.ok) {
