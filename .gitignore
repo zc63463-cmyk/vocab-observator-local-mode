@@ -53,6 +53,7 @@ dev-server.log
 
 # database backups
 backup/
+backups/
 
 # local data backups
 data/ielts-vocabulary-backup/
